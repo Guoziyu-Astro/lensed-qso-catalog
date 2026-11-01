@@ -1,10 +1,10 @@
 {
   "meta": {
-    "source": "lensed_quasar.xlsx",
+    "source": "lensed_quasar_359.xlsx",
     "sheet": "工作表1",
-    "source_sha256": "e1b9eb0c36ff5ecef12bc57cd2dd54564727cdb4b97266860c12ef5eb6361437",
-    "exported_at": "2026-11-01T13:41:13.888067+00:00",
-    "count": 343,
+    "source_sha256": "d34da6949e4ae9efcdc2f4694e352b5cf186ae497de9926fee6897ef75196d23",
+    "exported_at": "2026-11-01T18:12:37.211093+00:00",
+    "count": 359,
     "columns": [
       "catalog_id",
       "name",
@@ -29,7 +29,7 @@
       "discovery review"
     ],
     "max_original_id": 344,
-    "numbering": "Sequential 1–343 in original worksheet row order; original_id retained for provenance",
+    "numbering": "IDs 1–343 retained in original row order; IDs 344–359 appended on 2026-11-02.",
     "reference_revision": {
       "date": "2026-11-01",
       "reviewed_records": 44,
@@ -53,6 +53,45 @@
       ],
       "year_convention": "Main year is the cited publication year, not automatically the first-public or confirmation year. Preprint dates are version submission dates; journal-only dates use publication dates.",
       "scope": "Earliest located target-specific public sources, not a claim of exhaustive historical priority. Earlier unpublished attributions and same-day reports are distinguished."
+    },
+    "confirmed_additions": {
+      "date": "2026-11-02",
+      "count": 16,
+      "catalog_ids": [
+        344,
+        345,
+        346,
+        347,
+        348,
+        349,
+        350,
+        351,
+        352,
+        353,
+        354,
+        355,
+        356,
+        357,
+        358,
+        359
+      ],
+      "scope": "Evidence-supported GraL-only subset: 11 conventional quasars and 5 explicitly labelled special AGN/radio sources. Existing classifications and duplicate rows are retained. This is not a completeness certification.",
+      "images": "No new illustrations added; blank survey fields do not indicate absent survey coverage.",
+      "astrometry_catalog": "https://cdsarc.cds.unistra.fr/viz-bin/cat/J/A+A/707/A345"
+    },
+    "original_source": {
+      "filename": "lensed_quasar.xlsx",
+      "sha256": "e1b9eb0c36ff5ecef12bc57cd2dd54564727cdb4b97266860c12ef5eb6361437"
+    },
+    "downloads": {
+      "xlsx": {
+        "path": "downloads/lensed_quasar.xlsx",
+        "sha256": "d34da6949e4ae9efcdc2f4694e352b5cf186ae497de9926fee6897ef75196d23"
+      },
+      "csv": {
+        "path": "downloads/lensed_qso.csv",
+        "sha256": "c6e2c5a229001e1da72bdf3cc223436197667bc20347f07f7a0d10715596c271"
+      }
     }
   },
   "records": [
@@ -9606,6 +9645,1098 @@
       "candidate report": "",
       "confirmation report": "",
       "discovery review": ""
+    },
+    {
+      "catalog_id": 344,
+      "name": "A2744-QSO1",
+      "alt_name": null,
+      "HSC": null,
+      "DESI-LS": null,
+      "paper image": null,
+      "ra": 3.5798408,
+      "dec": -30.4015681,
+      "z_lens": 0.308,
+      "z_source": 7.045,
+      "image_sep": 59.903,
+      "n_img": 3,
+      "first discovered": "Furtak et al. 2023",
+      "year": 2023,
+      "ADS link": "https://arxiv.org/abs/2212.10531",
+      "note": "Triply lensed, dust-reddened broad-line AGN / little red dot behind Abell 2744. Initial AGN interpretation was tentative; later NIRSpec spectra confirm it.",
+      "source_type": "AGN / LRD",
+      "lens_type": "Cluster",
+      "candidate report": "Furtak et al. 2023; candidate AGN; preprint 2022-12-20.\nhttps://arxiv.org/abs/2212.10531",
+      "confirmation report": "Furtak et al. 2024; JWST broad Balmer lines.\nhttps://doi.org/10.1038/s41586-024-07184-8",
+      "discovery review": "Lens evidence checked. Astrometry: GraL X, component A. Maximum image separation from GraL X.",
+      "row_number": 345,
+      "original_id": null,
+      "discovery_history": {
+        "catalog_id": 344,
+        "name": "A2744-QSO1",
+        "primary": {
+          "citation": "Furtak et al. 2023",
+          "year": 2023,
+          "url": "https://arxiv.org/abs/2212.10531",
+          "role": "Initial lensed AGN candidate",
+          "first_public": "2022-12-20"
+        },
+        "candidate": {
+          "citation": "Furtak et al. 2023",
+          "year": 2023,
+          "url": "https://arxiv.org/abs/2212.10531",
+          "role": "Initial lensed AGN candidate",
+          "first_public": "2022-12-20"
+        },
+        "candidate_note": "Furtak et al. 2023; candidate AGN; preprint 2022-12-20.\nhttps://arxiv.org/abs/2212.10531",
+        "confirmation": {
+          "citation": "Furtak et al. 2024",
+          "url": "https://doi.org/10.1038/s41586-024-07184-8",
+          "role": "Confirmation / source classification",
+          "first_public": "See cited report"
+        },
+        "confirmation_note": "Furtak et al. 2024; JWST broad Balmer lines.\nhttps://doi.org/10.1038/s41586-024-07184-8",
+        "pending": false,
+        "note": "Triply lensed, dust-reddened broad-line AGN / little red dot behind Abell 2744. Initial AGN interpretation was tentative; later NIRSpec spectra confirm it.",
+        "events": [],
+        "evidence": [
+          "https://doi.org/10.1038/s41586-024-07184-8",
+          "https://arxiv.org/abs/2212.10531",
+          "https://cdsarc.cds.unistra.fr/viz-bin/cat/J/A+A/707/A345"
+        ]
+      },
+      "image_review_status": "not_added",
+      "addition_review": {
+        "date": "2026-11-02",
+        "selection": "Evidence-supported GraL-only system",
+        "classification": "已证认强透镜；特殊 AGN/QSO 类型",
+        "evidence": "星系团三重像、z≈7.04 宽 Balmer 线 AGN，属 LRD/遮蔽 AGN 范围。可纳入广义 lensed AGN；不宜与普通蓝色光学 QSO 不加标注地混计。",
+        "coordinate_basis": "GraL X, component A.",
+        "separation_basis": "Maximum image separation from GraL X.",
+        "priority_note": "The cited report is retained; exhaustive first-public priority was not part of this addition.",
+        "sources": [
+          "https://doi.org/10.1038/s41586-024-07184-8",
+          "https://arxiv.org/abs/2212.10531",
+          "https://cdsarc.cds.unistra.fr/viz-bin/cat/J/A+A/707/A345"
+        ]
+      }
+    },
+    {
+      "catalog_id": 345,
+      "name": "HE0013-2542",
+      "alt_name": "GMP J0015-2526; J0015-2526",
+      "HSC": null,
+      "DESI-LS": null,
+      "paper image": null,
+      "ra": 3.932990045,
+      "dec": -25.43832967889,
+      "z_lens": null,
+      "z_source": 0.969,
+      "image_sep": 0.357,
+      "n_img": 2,
+      "first discovered": "Shajib et al. 2021",
+      "year": 2021,
+      "ADS link": "https://doi.org/10.1093/mnras/stab532",
+      "note": "Two quasar images and intervening galaxy detected with Keck/NIRC2. Same system as GMP J0015-2526. Source redshift follows the GraL X compilation.",
+      "source_type": "Quasar",
+      "lens_type": "Galaxy",
+      "candidate report": "No separate earlier candidate report established in this review.",
+      "confirmation report": "Shajib et al. 2021; Keck/NIRC2 lens-galaxy detection and modelling, Fig. 1.\nhttps://doi.org/10.1093/mnras/stab532",
+      "discovery review": "Lens evidence checked. Astrometry: GraL X, component B. Maximum image separation from GraL X.",
+      "row_number": 346,
+      "original_id": null,
+      "discovery_history": {
+        "catalog_id": 345,
+        "name": "HE0013-2542",
+        "primary": {
+          "citation": "Shajib et al. 2021",
+          "year": 2021,
+          "url": "https://doi.org/10.1093/mnras/stab532",
+          "role": "Discovery / confirmation report",
+          "first_public": "Not separately audited"
+        },
+        "candidate": null,
+        "candidate_note": "No separate earlier candidate report established in this review.",
+        "confirmation": {
+          "citation": "Shajib et al. 2021",
+          "url": "https://doi.org/10.1093/mnras/stab532",
+          "role": "Confirmation / source classification",
+          "first_public": "See cited report"
+        },
+        "confirmation_note": "Shajib et al. 2021; Keck/NIRC2 lens-galaxy detection and modelling, Fig. 1.\nhttps://doi.org/10.1093/mnras/stab532",
+        "pending": false,
+        "note": "Two quasar images and intervening galaxy detected with Keck/NIRC2. Same system as GMP J0015-2526. Source redshift follows the GraL X compilation.",
+        "events": [],
+        "evidence": [
+          "https://academic.oup.com/mnras/article/503/2/1557/6149179",
+          "https://doi.org/10.1093/mnras/stab532",
+          "https://cdsarc.cds.unistra.fr/viz-bin/cat/J/A+A/707/A345"
+        ]
+      },
+      "image_review_status": "not_added",
+      "addition_review": {
+        "date": "2026-11-02",
+        "selection": "Evidence-supported GraL-only system",
+        "classification": "文献已证认",
+        "evidence": "Shajib et al. 2021 的 Keck/NIRC2 成像检出两像之间的透镜星系光并建模；后续以 J0015-2526 名称获得分辨光谱。不应因后续某次光谱未检出星系而忽略已有近红外证据。",
+        "coordinate_basis": "GraL X, component B.",
+        "separation_basis": "Maximum image separation from GraL X.",
+        "priority_note": "The cited report is retained; exhaustive first-public priority was not part of this addition.",
+        "sources": [
+          "https://academic.oup.com/mnras/article/503/2/1557/6149179",
+          "https://doi.org/10.1093/mnras/stab532",
+          "https://cdsarc.cds.unistra.fr/viz-bin/cat/J/A+A/707/A345"
+        ]
+      }
+    },
+    {
+      "catalog_id": 346,
+      "name": "DESJ0029-3814",
+      "alt_name": null,
+      "HSC": null,
+      "DESI-LS": null,
+      "paper image": null,
+      "ra": 7.41897179712,
+      "dec": -38.24054133139,
+      "z_lens": 0.863,
+      "z_source": 2.821,
+      "image_sep": 2.21,
+      "n_img": 4,
+      "first discovered": "Schmidt et al. 2023",
+      "year": 2023,
+      "ADS link": "https://doi.org/10.1093/mnras/stac2235",
+      "note": "Four-image lens. Schmidt 2023 reports NTT confirmation; dedicated discovery credited to Schechter et al., in preparation. Lens redshift 0.863 is from its Table 8.",
+      "source_type": "Quasar",
+      "lens_type": "Galaxy",
+      "candidate report": "No separate earlier candidate report established in this review.",
+      "confirmation report": "Schmidt et al. 2023, section 2.2.1: NTT spectroscopy and HST quad imaging.\nhttps://doi.org/10.1093/mnras/stac2235",
+      "discovery review": "Lens evidence checked. Astrometry: GraL X, component A. Maximum image separation from GraL X.",
+      "row_number": 347,
+      "original_id": null,
+      "discovery_history": {
+        "catalog_id": 346,
+        "name": "DESJ0029-3814",
+        "primary": {
+          "citation": "Schmidt et al. 2023",
+          "year": 2023,
+          "url": "https://doi.org/10.1093/mnras/stac2235",
+          "role": "Published confirmation account",
+          "first_public": "Not separately audited"
+        },
+        "candidate": null,
+        "candidate_note": "No separate earlier candidate report established in this review.",
+        "confirmation": {
+          "citation": "Schmidt et al. 2023",
+          "url": "https://doi.org/10.1093/mnras/stac2235",
+          "role": "Confirmation / source classification",
+          "first_public": "See cited report"
+        },
+        "confirmation_note": "Schmidt et al. 2023, section 2.2.1: NTT spectroscopy and HST quad imaging.\nhttps://doi.org/10.1093/mnras/stac2235",
+        "pending": false,
+        "note": "Four-image lens. Schmidt 2023 reports NTT confirmation; dedicated discovery credited to Schechter et al., in preparation. Lens redshift 0.863 is from its Table 8.",
+        "events": [],
+        "evidence": [
+          "https://academic.oup.com/mnras/article/518/1/1260/6786285",
+          "https://doi.org/10.1093/mnras/stac2235",
+          "https://cdsarc.cds.unistra.fr/viz-bin/cat/J/A+A/707/A345"
+        ]
+      },
+      "image_review_status": "not_added",
+      "addition_review": {
+        "date": "2026-11-02",
+        "selection": "Evidence-supported GraL-only system",
+        "classification": "文献已证认",
+        "evidence": "Schmidt et al. §2.2.1 明确记载 ESO-NTT 光谱确认、源 z=2.821，并给出 HST 四像及透镜星系建模。首次发现归属与建模论文应分开记录。",
+        "coordinate_basis": "GraL X, component A.",
+        "separation_basis": "Maximum image separation from GraL X.",
+        "priority_note": "Dedicated discovery paper not established; unpublished attribution retained.",
+        "sources": [
+          "https://academic.oup.com/mnras/article/518/1/1260/6786285",
+          "https://doi.org/10.1093/mnras/stac2235",
+          "https://cdsarc.cds.unistra.fr/viz-bin/cat/J/A+A/707/A345"
+        ]
+      }
+    },
+    {
+      "catalog_id": 347,
+      "name": "J0035.4-2015",
+      "alt_name": "MACS J0035.4-2015 lensed AGN",
+      "HSC": null,
+      "DESI-LS": null,
+      "paper image": null,
+      "ra": 8.8523185,
+      "dec": -20.2667358,
+      "z_lens": 0.352,
+      "z_source": 2.063,
+      "image_sep": 38.52,
+      "n_img": 3,
+      "first discovered": "Furtak et al. 2023",
+      "year": 2023,
+      "ADS link": "https://arxiv.org/abs/2303.00025",
+      "note": "Triply lensed AGN behind MACS J0035.4-2015. Intrinsically faint (M_UV about -19.7); keep distinct from a conventional luminous quasar.",
+      "source_type": "Low-luminosity AGN",
+      "lens_type": "Cluster",
+      "candidate report": "No separate earlier candidate report established in this review.",
+      "confirmation report": "Furtak et al. 2023; three images, broad UV lines and cluster lens model.\nhttps://arxiv.org/abs/2303.00025",
+      "discovery review": "Lens evidence checked. Astrometry: GraL X, component C. Maximum image separation from GraL X.",
+      "row_number": 348,
+      "original_id": null,
+      "discovery_history": {
+        "catalog_id": 347,
+        "name": "J0035.4-2015",
+        "primary": {
+          "citation": "Furtak et al. 2023",
+          "year": 2023,
+          "url": "https://arxiv.org/abs/2303.00025",
+          "role": "Discovery / confirmation report",
+          "first_public": "Not separately audited"
+        },
+        "candidate": null,
+        "candidate_note": "No separate earlier candidate report established in this review.",
+        "confirmation": {
+          "citation": "Furtak et al. 2023",
+          "url": "https://arxiv.org/abs/2303.00025",
+          "role": "Confirmation / source classification",
+          "first_public": "See cited report"
+        },
+        "confirmation_note": "Furtak et al. 2023; three images, broad UV lines and cluster lens model.\nhttps://arxiv.org/abs/2303.00025",
+        "pending": false,
+        "note": "Triply lensed AGN behind MACS J0035.4-2015. Intrinsically faint (M_UV about -19.7); keep distinct from a conventional luminous quasar.",
+        "events": [],
+        "evidence": [
+          "https://arxiv.org/abs/2303.00025",
+          "https://cdsarc.cds.unistra.fr/viz-bin/cat/J/A+A/707/A345"
+        ]
+      },
+      "image_review_status": "not_added",
+      "addition_review": {
+        "date": "2026-11-02",
+        "selection": "Evidence-supported GraL-only system",
+        "classification": "已证认强透镜；特殊 AGN/QSO 类型",
+        "evidence": "MACS J0035.4-2015 星系团透镜形成三个像，z=2.063，光谱和变源支持 AGN；本征 UV 光度较低，作者称 quasar-like AGN。",
+        "coordinate_basis": "GraL X, component C.",
+        "separation_basis": "Maximum image separation from GraL X.",
+        "priority_note": "The cited report is retained; exhaustive first-public priority was not part of this addition.",
+        "sources": [
+          "https://arxiv.org/abs/2303.00025",
+          "https://cdsarc.cds.unistra.fr/viz-bin/cat/J/A+A/707/A345"
+        ]
+      }
+    },
+    {
+      "catalog_id": 348,
+      "name": "PSJ0140+4107",
+      "alt_name": null,
+      "HSC": null,
+      "DESI-LS": null,
+      "paper image": null,
+      "ra": 25.2042014265,
+      "dec": 41.1333204821,
+      "z_lens": null,
+      "z_source": 2.5,
+      "image_sep": 1.328,
+      "n_img": 2,
+      "first discovered": "Lemon et al. 2018",
+      "year": 2018,
+      "ADS link": "https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.5060L/abstract",
+      "note": "Originally NIQ in Lemon 2018. Later Keck/NIRC2 imaging and galaxy modelling support the lens interpretation. The 2018 candidate report is not the confirmation.",
+      "source_type": "Quasar",
+      "lens_type": "Galaxy",
+      "candidate report": "Lemon et al. 2018; originally a nearly identical quasar pair (NIQ).\nhttps://arxiv.org/abs/1803.07601",
+      "confirmation report": "Shajib et al. 2021; resolved NIRC2 imaging and lens-galaxy modelling.\nhttps://doi.org/10.1093/mnras/stab532",
+      "discovery review": "Lens evidence checked. Astrometry: GraL X, component B. Maximum image separation from GraL X.",
+      "row_number": 349,
+      "original_id": null,
+      "discovery_history": {
+        "catalog_id": 348,
+        "name": "PSJ0140+4107",
+        "primary": {
+          "citation": "Lemon et al. 2018",
+          "year": 2018,
+          "url": "https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.5060L/abstract",
+          "role": "Initial NIQ report",
+          "first_public": "2018-03-20"
+        },
+        "candidate": {
+          "citation": "Lemon et al. 2018",
+          "year": 2018,
+          "url": "https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.5060L/abstract",
+          "role": "Initial NIQ report",
+          "first_public": "2018-03-20"
+        },
+        "candidate_note": "Lemon et al. 2018; originally a nearly identical quasar pair (NIQ).\nhttps://arxiv.org/abs/1803.07601",
+        "confirmation": {
+          "citation": "Shajib et al. 2021",
+          "url": "https://doi.org/10.1093/mnras/stab532",
+          "role": "Confirmation / source classification",
+          "first_public": "See cited report"
+        },
+        "confirmation_note": "Shajib et al. 2021; resolved NIRC2 imaging and lens-galaxy modelling.\nhttps://doi.org/10.1093/mnras/stab532",
+        "pending": false,
+        "note": "Originally NIQ in Lemon 2018. Later Keck/NIRC2 imaging and galaxy modelling support the lens interpretation. The 2018 candidate report is not the confirmation.",
+        "events": [],
+        "evidence": [
+          "https://academic.oup.com/mnras/article/503/2/1557/6149179",
+          "https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.5060L/abstract",
+          "https://doi.org/10.1093/mnras/stab532",
+          "https://cdsarc.cds.unistra.fr/viz-bin/cat/J/A+A/707/A345"
+        ]
+      },
+      "image_review_status": "not_added",
+      "addition_review": {
+        "date": "2026-11-02",
+        "selection": "Evidence-supported GraL-only system",
+        "classification": "文献已证认（后续升级）",
+        "evidence": "Lemon 2018 原表列 NIQ，不能将它作为最初已证认依据；Shajib 2021 的后续高分辨率近红外成像及透镜星系建模补充了证据，现不能只按早期 NIQ 降级。",
+        "coordinate_basis": "GraL X, component B.",
+        "separation_basis": "Maximum image separation from GraL X.",
+        "priority_note": "The cited report is retained; exhaustive first-public priority was not part of this addition.",
+        "sources": [
+          "https://academic.oup.com/mnras/article/503/2/1557/6149179",
+          "https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.5060L/abstract",
+          "https://doi.org/10.1093/mnras/stab532",
+          "https://cdsarc.cds.unistra.fr/viz-bin/cat/J/A+A/707/A345"
+        ]
+      }
+    },
+    {
+      "catalog_id": 349,
+      "name": "COOLJ0335-1927",
+      "alt_name": null,
+      "HSC": null,
+      "DESI-LS": null,
+      "paper image": null,
+      "ra": 53.764431,
+      "dec": -19.466858,
+      "z_lens": 0.4178,
+      "z_source": 3.27,
+      "image_sep": 23.261999,
+      "n_img": 3,
+      "first discovered": "Napier et al. 2023",
+      "year": 2023,
+      "ADS link": "https://arxiv.org/abs/2305.14317",
+      "note": "Three images of a z=3.27 quasar behind a z=0.4178 galaxy cluster.",
+      "source_type": "Quasar",
+      "lens_type": "Cluster",
+      "candidate report": "No separate earlier candidate report established in this review.",
+      "confirmation report": "Napier et al. 2023; spectroscopic confirmation and cluster lens model.\nhttps://arxiv.org/abs/2305.14317",
+      "discovery review": "Lens evidence checked. Astrometry: GraL X, component C. Maximum image separation from GraL X.",
+      "row_number": 350,
+      "original_id": null,
+      "discovery_history": {
+        "catalog_id": 349,
+        "name": "COOLJ0335-1927",
+        "primary": {
+          "citation": "Napier et al. 2023",
+          "year": 2023,
+          "url": "https://arxiv.org/abs/2305.14317",
+          "role": "Discovery / confirmation report",
+          "first_public": "Not separately audited"
+        },
+        "candidate": null,
+        "candidate_note": "No separate earlier candidate report established in this review.",
+        "confirmation": {
+          "citation": "Napier et al. 2023",
+          "url": "https://arxiv.org/abs/2305.14317",
+          "role": "Confirmation / source classification",
+          "first_public": "See cited report"
+        },
+        "confirmation_note": "Napier et al. 2023; spectroscopic confirmation and cluster lens model.\nhttps://arxiv.org/abs/2305.14317",
+        "pending": false,
+        "note": "Three images of a z=3.27 quasar behind a z=0.4178 galaxy cluster.",
+        "events": [],
+        "evidence": [
+          "https://arxiv.org/abs/2305.14317",
+          "https://cdsarc.cds.unistra.fr/viz-bin/cat/J/A+A/707/A345"
+        ]
+      },
+      "image_review_status": "not_added",
+      "addition_review": {
+        "date": "2026-11-02",
+        "selection": "Evidence-supported GraL-only system",
+        "classification": "文献已证认",
+        "evidence": "三个 z=3.27 QSO 像、z=0.4178 星系团及透镜模型；论文明确报告光谱确认。",
+        "coordinate_basis": "GraL X, component C.",
+        "separation_basis": "Maximum image separation from GraL X.",
+        "priority_note": "The cited report is retained; exhaustive first-public priority was not part of this addition.",
+        "sources": [
+          "https://arxiv.org/abs/2305.14317",
+          "https://cdsarc.cds.unistra.fr/viz-bin/cat/J/A+A/707/A345"
+        ]
+      }
+    },
+    {
+      "catalog_id": 350,
+      "name": "DESJ0402-4220",
+      "alt_name": null,
+      "HSC": null,
+      "DESI-LS": null,
+      "paper image": null,
+      "ra": 60.59187286875,
+      "dec": -42.3482261025,
+      "z_lens": null,
+      "z_source": 2.88,
+      "image_sep": 1.334,
+      "n_img": 2,
+      "first discovered": "Lemon et al. 2020",
+      "year": 2020,
+      "ADS link": "https://ui.adsabs.harvard.edu/abs/2020MNRAS.494.3491L/abstract",
+      "note": "Resolved quasar spectra at z=2.88 and a foreground lens galaxy. Previously reported by Lemon 2020; independently confirmed by Yue 2023.",
+      "source_type": "Quasar",
+      "lens_type": "Galaxy",
+      "candidate report": "No separate earlier candidate report established in this review.",
+      "confirmation report": "Lemon et al. 2020; independent confirmation in Yue et al. 2023, section VI.1.\nhttps://arxiv.org/abs/2303.04357",
+      "discovery review": "Lens evidence checked. Astrometry: GraL X, component B. Maximum image separation from GraL X.",
+      "row_number": 351,
+      "original_id": null,
+      "discovery_history": {
+        "catalog_id": 350,
+        "name": "DESJ0402-4220",
+        "primary": {
+          "citation": "Lemon et al. 2020",
+          "year": 2020,
+          "url": "https://ui.adsabs.harvard.edu/abs/2020MNRAS.494.3491L/abstract",
+          "role": "Discovery / confirmation report",
+          "first_public": "Not separately audited"
+        },
+        "candidate": null,
+        "candidate_note": "No separate earlier candidate report established in this review.",
+        "confirmation": {
+          "citation": "Yue et al. 2023",
+          "url": "https://arxiv.org/abs/2303.04357",
+          "role": "Confirmation / source classification",
+          "first_public": "See cited report"
+        },
+        "confirmation_note": "Lemon et al. 2020; independent confirmation in Yue et al. 2023, section VI.1.\nhttps://arxiv.org/abs/2303.04357",
+        "pending": false,
+        "note": "Resolved quasar spectra at z=2.88 and a foreground lens galaxy. Previously reported by Lemon 2020; independently confirmed by Yue 2023.",
+        "events": [],
+        "evidence": [
+          "https://arxiv.org/html/2303.04357",
+          "https://ui.adsabs.harvard.edu/abs/2020MNRAS.494.3491L/abstract",
+          "https://arxiv.org/abs/2303.04357",
+          "https://cdsarc.cds.unistra.fr/viz-bin/cat/J/A+A/707/A345"
+        ]
+      },
+      "image_review_status": "not_added",
+      "addition_review": {
+        "date": "2026-11-02",
+        "selection": "Evidence-supported GraL-only system",
+        "classification": "文献已证认",
+        "evidence": "Yue et al. 的专节报告透镜系统，具有两像光谱及前景星系证据；亦见 Lemon 2020。",
+        "coordinate_basis": "GraL X, component B.",
+        "separation_basis": "Maximum image separation from GraL X.",
+        "priority_note": "The cited report is retained; exhaustive first-public priority was not part of this addition.",
+        "sources": [
+          "https://arxiv.org/html/2303.04357",
+          "https://ui.adsabs.harvard.edu/abs/2020MNRAS.494.3491L/abstract",
+          "https://arxiv.org/abs/2303.04357",
+          "https://cdsarc.cds.unistra.fr/viz-bin/cat/J/A+A/707/A345"
+        ]
+      }
+    },
+    {
+      "catalog_id": 351,
+      "name": "J0420-4037",
+      "alt_name": "DES J0420-4037",
+      "HSC": null,
+      "DESI-LS": null,
+      "paper image": null,
+      "ra": 65.19465865882,
+      "dec": -40.62423840119,
+      "z_lens": 0.358,
+      "z_source": 2.4,
+      "image_sep": 1.719,
+      "n_img": 4,
+      "first discovered": "Shajib et al. 2019",
+      "year": 2019,
+      "ADS link": "https://ui.adsabs.harvard.edu/abs/2019MNRAS.483.5649S/abstract",
+      "note": "HST four-image lens. Early paper credits Ostrovski et al., in preparation. Lens redshift 0.358 follows Schmidt 2023 Table 8. GraL component A position is used.",
+      "source_type": "Quasar",
+      "lens_type": "Galaxy",
+      "candidate report": "No separate earlier candidate report established in this review.",
+      "confirmation report": "Shajib et al. 2019; HST four-image lens and galaxy modelling.\nhttps://ui.adsabs.harvard.edu/abs/2019MNRAS.483.5649S/abstract",
+      "discovery review": "Lens evidence checked. Astrometry: GraL X, component A. Maximum image separation from GraL X.",
+      "row_number": 352,
+      "original_id": null,
+      "discovery_history": {
+        "catalog_id": 351,
+        "name": "J0420-4037",
+        "primary": {
+          "citation": "Shajib et al. 2019",
+          "year": 2019,
+          "url": "https://ui.adsabs.harvard.edu/abs/2019MNRAS.483.5649S/abstract",
+          "role": "Early published lens study",
+          "first_public": "Not separately audited"
+        },
+        "candidate": null,
+        "candidate_note": "No separate earlier candidate report established in this review.",
+        "confirmation": {
+          "citation": "Shajib et al. 2019",
+          "url": "https://ui.adsabs.harvard.edu/abs/2019MNRAS.483.5649S/abstract",
+          "role": "Confirmation / source classification",
+          "first_public": "See cited report"
+        },
+        "confirmation_note": "Shajib et al. 2019; HST four-image lens and galaxy modelling.\nhttps://ui.adsabs.harvard.edu/abs/2019MNRAS.483.5649S/abstract",
+        "pending": false,
+        "note": "HST four-image lens. Early paper credits Ostrovski et al., in preparation. Lens redshift 0.358 follows Schmidt 2023 Table 8. GraL component A position is used.",
+        "events": [],
+        "evidence": [
+          "https://academic.oup.com/mnras/article/483/4/5649/5251838",
+          "https://doi.org/10.1051/0004-6361/202244909",
+          "https://ui.adsabs.harvard.edu/abs/2019MNRAS.483.5649S/abstract",
+          "https://cdsarc.cds.unistra.fr/viz-bin/cat/J/A+A/707/A345"
+        ]
+      },
+      "image_review_status": "not_added",
+      "addition_review": {
+        "date": "2026-11-02",
+        "selection": "Evidence-supported GraL-only system",
+        "classification": "文献已证认",
+        "evidence": "DES J0420-4037 是 HST 高分辨率四像透镜建模样本，后续 TDCOSMO 研究亦采用。",
+        "coordinate_basis": "GraL X, component A.",
+        "separation_basis": "Maximum image separation from GraL X.",
+        "priority_note": "Original dedicated discovery publication not established.",
+        "sources": [
+          "https://academic.oup.com/mnras/article/483/4/5649/5251838",
+          "https://doi.org/10.1051/0004-6361/202244909",
+          "https://ui.adsabs.harvard.edu/abs/2019MNRAS.483.5649S/abstract",
+          "https://cdsarc.cds.unistra.fr/viz-bin/cat/J/A+A/707/A345"
+        ]
+      }
+    },
+    {
+      "catalog_id": 352,
+      "name": "MG0751+2716",
+      "alt_name": null,
+      "HSC": null,
+      "DESI-LS": null,
+      "paper image": null,
+      "ra": 117.922875,
+      "dec": 27.27544444444,
+      "z_lens": 0.3502,
+      "z_source": 3.2,
+      "image_sep": 0.883,
+      "n_img": 4,
+      "first discovered": "Lehar et al. 1997",
+      "year": 1997,
+      "ADS link": "https://arxiv.org/abs/astro-ph/9702191",
+      "note": "Radio-selected four-image AGN lens with extended arcs. Image count refers to radio images. Redshifts follow Tonry & Kochanek 2000; GraL component A astrometry.",
+      "source_type": "Radio-selected AGN",
+      "lens_type": "Galaxy / group",
+      "candidate report": "No separate earlier candidate report established in this review.",
+      "confirmation report": "Lehar et al. 1997; four radio images resolved into extended arcs.\nhttps://arxiv.org/abs/astro-ph/9702191",
+      "discovery review": "Lens evidence checked. Astrometry: GraL X, component A. Maximum image separation from GraL X.",
+      "row_number": 353,
+      "original_id": null,
+      "discovery_history": {
+        "catalog_id": 352,
+        "name": "MG0751+2716",
+        "primary": {
+          "citation": "Lehar et al. 1997",
+          "year": 1997,
+          "url": "https://arxiv.org/abs/astro-ph/9702191",
+          "role": "Discovery / confirmation report",
+          "first_public": "Not separately audited"
+        },
+        "candidate": null,
+        "candidate_note": "No separate earlier candidate report established in this review.",
+        "confirmation": {
+          "citation": "Lehar et al. 1997",
+          "url": "https://arxiv.org/abs/astro-ph/9702191",
+          "role": "Confirmation / source classification",
+          "first_public": "See cited report"
+        },
+        "confirmation_note": "Lehar et al. 1997; four radio images resolved into extended arcs.\nhttps://arxiv.org/abs/astro-ph/9702191",
+        "pending": false,
+        "note": "Radio-selected four-image AGN lens with extended arcs. Image count refers to radio images. Redshifts follow Tonry & Kochanek 2000; GraL component A astrometry.",
+        "events": [],
+        "evidence": [
+          "https://arxiv.org/abs/astro-ph/9702191",
+          "https://cdsarc.cds.unistra.fr/viz-bin/cat/J/A+A/707/A345"
+        ]
+      },
+      "image_review_status": "not_added",
+      "addition_review": {
+        "date": "2026-11-02",
+        "selection": "Evidence-supported GraL-only system",
+        "classification": "已证认射电强透镜；需保留源及波段类型",
+        "evidence": "高分辨率射电图显示四像及延展弧，前景星系群/主透镜存在。属于射电选择的透镜 AGN 系统，不能用光学点像个数描述其全部结构。",
+        "coordinate_basis": "GraL X, component A.",
+        "separation_basis": "Maximum image separation from GraL X.",
+        "priority_note": "1997 discovery paper used; earlier thesis priority not exhaustively audited.",
+        "sources": [
+          "https://arxiv.org/abs/astro-ph/9702191",
+          "https://cdsarc.cds.unistra.fr/viz-bin/cat/J/A+A/707/A345"
+        ]
+      }
+    },
+    {
+      "catalog_id": 353,
+      "name": "J0954-0022",
+      "alt_name": null,
+      "HSC": null,
+      "DESI-LS": null,
+      "paper image": null,
+      "ra": 148.529,
+      "dec": -0.3739666667,
+      "z_lens": null,
+      "z_source": 2.27,
+      "image_sep": 1.068,
+      "n_img": 2,
+      "first discovered": "Yue et al. 2023",
+      "year": 2023,
+      "ADS link": "https://arxiv.org/abs/2303.04357",
+      "note": "Two nearly identical broad-line spectra; a faint lens galaxy appears between the images after PSF subtraction. Yue 2023 explicitly confirms lensing.",
+      "source_type": "Quasar",
+      "lens_type": "Galaxy",
+      "candidate report": "No separate earlier candidate report established in this review.",
+      "confirmation report": "Yue et al. 2023, section VI.2: matching broad-line spectra and lens galaxy.\nhttps://arxiv.org/abs/2303.04357",
+      "discovery review": "Lens evidence checked. Astrometry: GraL X, component B. Maximum image separation from GraL X.",
+      "row_number": 354,
+      "original_id": null,
+      "discovery_history": {
+        "catalog_id": 353,
+        "name": "J0954-0022",
+        "primary": {
+          "citation": "Yue et al. 2023",
+          "year": 2023,
+          "url": "https://arxiv.org/abs/2303.04357",
+          "role": "Discovery / confirmation report",
+          "first_public": "Not separately audited"
+        },
+        "candidate": null,
+        "candidate_note": "No separate earlier candidate report established in this review.",
+        "confirmation": {
+          "citation": "Yue et al. 2023",
+          "url": "https://arxiv.org/abs/2303.04357",
+          "role": "Confirmation / source classification",
+          "first_public": "See cited report"
+        },
+        "confirmation_note": "Yue et al. 2023, section VI.2: matching broad-line spectra and lens galaxy.\nhttps://arxiv.org/abs/2303.04357",
+        "pending": false,
+        "note": "Two nearly identical broad-line spectra; a faint lens galaxy appears between the images after PSF subtraction. Yue 2023 explicitly confirms lensing.",
+        "events": [],
+        "evidence": [
+          "https://arxiv.org/html/2303.04357",
+          "https://arxiv.org/abs/2303.04357",
+          "https://cdsarc.cds.unistra.fr/viz-bin/cat/J/A+A/707/A345"
+        ]
+      },
+      "image_review_status": "not_added",
+      "addition_review": {
+        "date": "2026-11-02",
+        "selection": "Evidence-supported GraL-only system",
+        "classification": "文献已证认",
+        "evidence": "Yue 2023 两像宽线轮廓近乎一致，两 PSF 相减后检出中间微弱透镜星系，作者明确 confirm。不能因为其他巡天未取得第二像光谱而抹去此处已有光谱。",
+        "coordinate_basis": "GraL X, component B.",
+        "separation_basis": "Maximum image separation from GraL X.",
+        "priority_note": "The cited report is retained; exhaustive first-public priority was not part of this addition.",
+        "sources": [
+          "https://arxiv.org/html/2303.04357",
+          "https://arxiv.org/abs/2303.04357",
+          "https://cdsarc.cds.unistra.fr/viz-bin/cat/J/A+A/707/A345"
+        ]
+      }
+    },
+    {
+      "catalog_id": 354,
+      "name": "MG1131+0456",
+      "alt_name": null,
+      "HSC": null,
+      "DESI-LS": null,
+      "paper image": null,
+      "ra": 172.98534583333,
+      "dec": 4.93051666667,
+      "z_lens": 0.844,
+      "z_source": 1.849,
+      "image_sep": 2.1,
+      "n_img": 2,
+      "first discovered": "Hewitt et al. 1988",
+      "year": 1988,
+      "ADS link": "https://ui.adsabs.harvard.edu/abs/1988Natur.333..537H/abstract",
+      "note": "Radio Einstein ring plus two compact images. Source is a Type II quasar. Separation 2.1 arcsec refers to compact images; radio knots are not extra quasar images.",
+      "source_type": "Type II Quasar",
+      "lens_type": "Galaxy",
+      "candidate report": "No separate earlier candidate report established in this review.",
+      "confirmation report": "Hewitt et al. 1988: radio ring lens. Stern & Walton 2020: Type II QSO redshift.\nhttps://arxiv.org/abs/2012.10044",
+      "discovery review": "Lens evidence checked. Astrometry: GraL X, component A1. Stern & Walton 2020: compact-image separation 2.1 arcsec.",
+      "row_number": 355,
+      "original_id": null,
+      "discovery_history": {
+        "catalog_id": 354,
+        "name": "MG1131+0456",
+        "primary": {
+          "citation": "Hewitt et al. 1988",
+          "year": 1988,
+          "url": "https://ui.adsabs.harvard.edu/abs/1988Natur.333..537H/abstract",
+          "role": "Radio lens discovery",
+          "first_public": "Not separately audited"
+        },
+        "candidate": null,
+        "candidate_note": "No separate earlier candidate report established in this review.",
+        "confirmation": {
+          "citation": "Stern & Walton 2020",
+          "url": "https://arxiv.org/abs/2012.10044",
+          "role": "Confirmation / source classification",
+          "first_public": "See cited report"
+        },
+        "confirmation_note": "Hewitt et al. 1988: radio ring lens. Stern & Walton 2020: Type II QSO redshift.\nhttps://arxiv.org/abs/2012.10044",
+        "pending": false,
+        "note": "Radio Einstein ring plus two compact images. Source is a Type II quasar. Separation 2.1 arcsec refers to compact images; radio knots are not extra quasar images.",
+        "events": [],
+        "evidence": [
+          "https://arxiv.org/abs/2012.10044",
+          "https://ui.adsabs.harvard.edu/abs/1988Natur.333..537H/abstract",
+          "https://cdsarc.cds.unistra.fr/viz-bin/cat/J/A+A/707/A345"
+        ]
+      },
+      "image_review_status": "not_added",
+      "addition_review": {
+        "date": "2026-11-02",
+        "selection": "Evidence-supported GraL-only system",
+        "classification": "已证认强透镜；特殊 AGN/QSO 类型",
+        "evidence": "射电爱因斯坦环和两个致密分量；后续光谱将源确定为 z=1.849 的 Type II QSO，X 射线亦分辨双像。广义 lensed QSO 应收录，标注遮蔽源。",
+        "coordinate_basis": "GraL X, component A1.",
+        "separation_basis": "Stern & Walton 2020: compact-image separation 2.1 arcsec.",
+        "priority_note": "The cited report is retained; exhaustive first-public priority was not part of this addition.",
+        "sources": [
+          "https://arxiv.org/abs/2012.10044",
+          "https://ui.adsabs.harvard.edu/abs/1988Natur.333..537H/abstract",
+          "https://cdsarc.cds.unistra.fr/viz-bin/cat/J/A+A/707/A345"
+        ]
+      }
+    },
+    {
+      "catalog_id": 355,
+      "name": "COOLJ1153+0755",
+      "alt_name": "COOLJ1153A; COOLJ1153+0755 Type I",
+      "HSC": null,
+      "DESI-LS": null,
+      "paper image": null,
+      "ra": 178.33524333333332,
+      "dec": 7.933550833333333,
+      "z_lens": 0.4301,
+      "z_source": 1.524,
+      "image_sep": 25.6,
+      "n_img": 4,
+      "first discovered": "Cloonan et al. 2024 (preprint)",
+      "year": 2024,
+      "ADS link": "https://arxiv.org/abs/2408.03379",
+      "note": "This entry is the Type I source COOLJ1153A (four images). COOLJ1153B at z=1.939 is a separate background source and is not included in this GraL-only addition.",
+      "source_type": "Quasar",
+      "lens_type": "Cluster",
+      "candidate report": "No separate earlier candidate report established in this review.",
+      "confirmation report": "Solhaug et al. 2026 (preprint); imaging, spectroscopy and cluster lens model.\nhttps://arxiv.org/abs/2605.13514",
+      "discovery review": "Lens evidence checked. Astrometry: Solhaug et al. 2026, image A1. Solhaug et al. 2026: maximum separation 25.6 arcsec.",
+      "row_number": 356,
+      "original_id": null,
+      "discovery_history": {
+        "catalog_id": 355,
+        "name": "COOLJ1153+0755",
+        "primary": {
+          "citation": "Cloonan et al. 2024 (preprint)",
+          "year": 2024,
+          "url": "https://arxiv.org/abs/2408.03379",
+          "role": "Early public lens listing",
+          "first_public": "2024-08-06"
+        },
+        "candidate": null,
+        "candidate_note": "No separate earlier candidate report established in this review.",
+        "confirmation": {
+          "citation": "Solhaug et al. 2026 (preprint)",
+          "url": "https://arxiv.org/abs/2605.13514",
+          "role": "Confirmation / source classification",
+          "first_public": "See cited report"
+        },
+        "confirmation_note": "Solhaug et al. 2026 (preprint); imaging, spectroscopy and cluster lens model.\nhttps://arxiv.org/abs/2605.13514",
+        "pending": false,
+        "note": "This entry is the Type I source COOLJ1153A (four images). COOLJ1153B at z=1.939 is a separate background source and is not included in this GraL-only addition.",
+        "events": [],
+        "evidence": [
+          "https://arxiv.org/abs/2605.13514",
+          "https://arxiv.org/abs/2408.03379",
+          "https://cdsarc.cds.unistra.fr/viz-bin/cat/J/A+A/707/A345"
+        ]
+      },
+      "image_review_status": "not_added",
+      "addition_review": {
+        "date": "2026-11-02",
+        "selection": "Evidence-supported GraL-only system",
+        "classification": "文献已证认；注意同一星系团内两个源",
+        "evidence": "GraL 所对应的 COOLJ1153A 为 z=1.524 的 Type I QSO 四像；2026 完整研究另报告同团的 z=1.939 Type II QSO（B）。A/B 应按不同背景源分开，不能混淆。",
+        "coordinate_basis": "Solhaug et al. 2026, image A1.",
+        "separation_basis": "Solhaug et al. 2026: maximum separation 25.6 arcsec.",
+        "priority_note": "The cited report is retained; exhaustive first-public priority was not part of this addition.",
+        "sources": [
+          "https://arxiv.org/abs/2605.13514",
+          "https://arxiv.org/abs/2408.03379",
+          "https://cdsarc.cds.unistra.fr/viz-bin/cat/J/A+A/707/A345"
+        ]
+      }
+    },
+    {
+      "catalog_id": 356,
+      "name": "J125856.3-031944",
+      "alt_name": "DELQQ J1258-0319; DELVE J1258-0319",
+      "HSC": null,
+      "DESI-LS": null,
+      "paper image": null,
+      "ra": 194.73447203,
+      "dec": -3.32868611,
+      "z_lens": null,
+      "z_source": 2.225,
+      "image_sep": 1.924,
+      "n_img": 4,
+      "first discovered": "Schechter et al. 2025",
+      "year": 2025,
+      "ADS link": "https://ui.adsabs.harvard.edu/abs/2025AJ....170..241S/abstract",
+      "note": "DELQQ / DELVE J1258-0319: a quadruply lensed narrow-line Type II AGN. Tentative lens redshift 0.691 from later work is not entered as a secure measurement.",
+      "source_type": "Type II AGN",
+      "lens_type": "Galaxy",
+      "candidate report": "No separate earlier candidate report established in this review.",
+      "confirmation report": "Schechter et al. 2025; Magellan quad and lens galaxy, NOT narrow-line spectrum.\nhttps://ui.adsabs.harvard.edu/abs/2025AJ....170..241S/abstract",
+      "discovery review": "Lens evidence checked. Astrometry: GraL X, component D. Maximum image separation from GraL X.",
+      "row_number": 357,
+      "original_id": null,
+      "discovery_history": {
+        "catalog_id": 356,
+        "name": "J125856.3-031944",
+        "primary": {
+          "citation": "Schechter et al. 2025",
+          "year": 2025,
+          "url": "https://ui.adsabs.harvard.edu/abs/2025AJ....170..241S/abstract",
+          "role": "Discovery / confirmation report",
+          "first_public": "Not separately audited"
+        },
+        "candidate": null,
+        "candidate_note": "No separate earlier candidate report established in this review.",
+        "confirmation": {
+          "citation": "Schechter et al. 2025",
+          "url": "https://ui.adsabs.harvard.edu/abs/2025AJ....170..241S/abstract",
+          "role": "Confirmation / source classification",
+          "first_public": "See cited report"
+        },
+        "confirmation_note": "Schechter et al. 2025; Magellan quad and lens galaxy, NOT narrow-line spectrum.\nhttps://ui.adsabs.harvard.edu/abs/2025AJ....170..241S/abstract",
+        "pending": false,
+        "note": "DELQQ / DELVE J1258-0319: a quadruply lensed narrow-line Type II AGN. Tentative lens redshift 0.691 from later work is not entered as a secure measurement.",
+        "events": [],
+        "evidence": [
+          "https://ui.adsabs.harvard.edu/abs/2025AJ....170..241S/abstract",
+          "https://cdsarc.cds.unistra.fr/viz-bin/cat/J/A+A/707/A345"
+        ]
+      },
+      "image_review_status": "not_added",
+      "addition_review": {
+        "date": "2026-11-02",
+        "selection": "Evidence-supported GraL-only system",
+        "classification": "已证认强透镜；特殊 AGN/QSO 类型",
+        "evidence": "DELQQ/DELVE J1258-0319，四像窄线 Type II AGN，源 z=2.225。广义 lensed AGN/QSO 可收录，但应标 Type II。",
+        "coordinate_basis": "GraL X, component D.",
+        "separation_basis": "Maximum image separation from GraL X.",
+        "priority_note": "The cited report is retained; exhaustive first-public priority was not part of this addition.",
+        "sources": [
+          "https://ui.adsabs.harvard.edu/abs/2025AJ....170..241S/abstract",
+          "https://cdsarc.cds.unistra.fr/viz-bin/cat/J/A+A/707/A345"
+        ]
+      }
+    },
+    {
+      "catalog_id": 357,
+      "name": "SDSSJ1608+2716",
+      "alt_name": "SDSS J160829.23+271626.7",
+      "HSC": null,
+      "DESI-LS": null,
+      "paper image": null,
+      "ra": 242.12171979,
+      "dec": 27.27416389,
+      "z_lens": null,
+      "z_source": 2.575,
+      "image_sep": 0.893,
+      "n_img": 4,
+      "first discovered": "Li et al. 2023",
+      "year": 2023,
+      "ADS link": "https://arxiv.org/abs/2306.12502",
+      "note": "Earlier multiple-AGN interpretation superseded by the fourth image and lens-galaxy detection in deep HST imaging. Four-image configuration matches a lens model.",
+      "source_type": "Quasar",
+      "lens_type": "Galaxy",
+      "candidate report": "No separate earlier candidate report established in this review.",
+      "confirmation report": "Li et al. 2023; deep HST imaging detects fourth image and intervening disk galaxy.\nhttps://arxiv.org/abs/2306.12502",
+      "discovery review": "Lens evidence checked. Astrometry: GraL X, component C. Maximum image separation from GraL X.",
+      "row_number": 358,
+      "original_id": null,
+      "discovery_history": {
+        "catalog_id": 357,
+        "name": "SDSSJ1608+2716",
+        "primary": {
+          "citation": "Li et al. 2023",
+          "year": 2023,
+          "url": "https://arxiv.org/abs/2306.12502",
+          "role": "Discovery / confirmation report",
+          "first_public": "Not separately audited"
+        },
+        "candidate": null,
+        "candidate_note": "No separate earlier candidate report established in this review.",
+        "confirmation": {
+          "citation": "Li et al. 2023",
+          "url": "https://arxiv.org/abs/2306.12502",
+          "role": "Confirmation / source classification",
+          "first_public": "See cited report"
+        },
+        "confirmation_note": "Li et al. 2023; deep HST imaging detects fourth image and intervening disk galaxy.\nhttps://arxiv.org/abs/2306.12502",
+        "pending": false,
+        "note": "Earlier multiple-AGN interpretation superseded by the fourth image and lens-galaxy detection in deep HST imaging. Four-image configuration matches a lens model.",
+        "events": [],
+        "evidence": [
+          "https://arxiv.org/abs/2306.12502",
+          "https://cdsarc.cds.unistra.fr/viz-bin/cat/J/A+A/707/A345"
+        ]
+      },
+      "image_review_status": "not_added",
+      "addition_review": {
+        "date": "2026-11-02",
+        "selection": "Evidence-supported GraL-only system",
+        "classification": "文献已证认（后续改变早期解释）",
+        "evidence": "早期曾解释为多 AGN；Li 2023 深 HST 近红外成像检出第四像和中间盘状星系，四像构型与透镜模型一致，支持四像 lens。应采用后续关键证据。",
+        "coordinate_basis": "GraL X, component C.",
+        "separation_basis": "Maximum image separation from GraL X.",
+        "priority_note": "The cited report is retained; exhaustive first-public priority was not part of this addition.",
+        "sources": [
+          "https://arxiv.org/abs/2306.12502",
+          "https://cdsarc.cds.unistra.fr/viz-bin/cat/J/A+A/707/A345"
+        ]
+      }
+    },
+    {
+      "catalog_id": 358,
+      "name": "GraLJ210329.0-085049",
+      "alt_name": "Aquarius's Tear",
+      "HSC": null,
+      "DESI-LS": null,
+      "paper image": null,
+      "ra": 315.8706099206,
+      "dec": -8.84714048,
+      "z_lens": "~0.768 (tentative)",
+      "z_source": 2.455,
+      "image_sep": 1.0,
+      "n_img": 4,
+      "first discovered": "Stern et al. 2021",
+      "year": 2021,
+      "ADS link": "https://arxiv.org/abs/2012.10051",
+      "note": "Quad classification follows Stern 2021; GraL X labels it Double. Gaia resolves only two components. The z=0.768 absorber is a tentative lens-redshift association.",
+      "source_type": "Quasar",
+      "lens_type": "Galaxy",
+      "candidate report": "No separate earlier candidate report established in this review.",
+      "confirmation report": "Stern et al. 2021; resolved quasar spectra, reported compact quad.\nhttps://arxiv.org/abs/2012.10051",
+      "discovery review": "Lens evidence checked. Astrometry: GraL X, component A. Stern et al. 2021: maximum separation about 1.0 arcsec.",
+      "row_number": 359,
+      "original_id": null,
+      "discovery_history": {
+        "catalog_id": 358,
+        "name": "GraLJ210329.0-085049",
+        "primary": {
+          "citation": "Stern et al. 2021",
+          "year": 2021,
+          "url": "https://arxiv.org/abs/2012.10051",
+          "role": "Discovery / confirmation report",
+          "first_public": "2020-12-18"
+        },
+        "candidate": null,
+        "candidate_note": "No separate earlier candidate report established in this review.",
+        "confirmation": {
+          "citation": "Stern et al. 2021",
+          "url": "https://arxiv.org/abs/2012.10051",
+          "role": "Confirmation / source classification",
+          "first_public": "See cited report"
+        },
+        "confirmation_note": "Stern et al. 2021; resolved quasar spectra, reported compact quad.\nhttps://arxiv.org/abs/2012.10051",
+        "pending": false,
+        "note": "Quad classification follows Stern 2021; GraL X labels it Double. Gaia resolves only two components. The z=0.768 absorber is a tentative lens-redshift association.",
+        "events": [],
+        "evidence": [
+          "https://arxiv.org/abs/2012.10051",
+          "https://cdsarc.cds.unistra.fr/viz-bin/cat/J/A+A/707/A345"
+        ]
+      },
+      "image_review_status": "not_added",
+      "addition_review": {
+        "date": "2026-11-02",
+        "selection": "Evidence-supported GraL-only system",
+        "classification": "文献已证认",
+        "evidence": "Aquarius’s Tear，为 Stern 2021 的四像光谱确认样本。GraL X 中 Double 标签不应覆盖发现论文的四像性质。",
+        "coordinate_basis": "GraL X, component A.",
+        "separation_basis": "Stern et al. 2021: maximum separation about 1.0 arcsec.",
+        "priority_note": "The cited report is retained; exhaustive first-public priority was not part of this addition.",
+        "sources": [
+          "https://arxiv.org/abs/2012.10051",
+          "https://cdsarc.cds.unistra.fr/viz-bin/cat/J/A+A/707/A345"
+        ]
+      }
+    },
+    {
+      "catalog_id": 359,
+      "name": "PSJ2107-1611",
+      "alt_name": null,
+      "HSC": null,
+      "DESI-LS": null,
+      "paper image": null,
+      "ra": 316.9679980817,
+      "dec": -16.1921295514,
+      "z_lens": 0.6305,
+      "z_source": 2.673,
+      "image_sep": 4.3,
+      "n_img": 4,
+      "first discovered": "Dux et al. 2023",
+      "year": 2023,
+      "ADS link": "https://arxiv.org/abs/2310.04494",
+      "note": "Four-image fold lens with a bright host arc. Optical flux-ratio anomalies do not invalidate lensing. Separation follows the discovery paper (4.3 arcsec).",
+      "source_type": "Quasar",
+      "lens_type": "Galaxy",
+      "candidate report": "No separate earlier candidate report established in this review.",
+      "confirmation report": "Dux et al. 2023; fold quad, lensed host arc and quasar spectra.\nhttps://arxiv.org/abs/2310.04494",
+      "discovery review": "Lens evidence checked. Astrometry: GraL X, component A. Dux et al. 2023: separation 4.3 arcsec.",
+      "row_number": 360,
+      "original_id": null,
+      "discovery_history": {
+        "catalog_id": 359,
+        "name": "PSJ2107-1611",
+        "primary": {
+          "citation": "Dux et al. 2023",
+          "year": 2023,
+          "url": "https://arxiv.org/abs/2310.04494",
+          "role": "Discovery / confirmation report",
+          "first_public": "2023-10-06"
+        },
+        "candidate": null,
+        "candidate_note": "No separate earlier candidate report established in this review.",
+        "confirmation": {
+          "citation": "Dux et al. 2023",
+          "url": "https://arxiv.org/abs/2310.04494",
+          "role": "Confirmation / source classification",
+          "first_public": "See cited report"
+        },
+        "confirmation_note": "Dux et al. 2023; fold quad, lensed host arc and quasar spectra.\nhttps://arxiv.org/abs/2310.04494",
+        "pending": false,
+        "note": "Four-image fold lens with a bright host arc. Optical flux-ratio anomalies do not invalidate lensing. Separation follows the discovery paper (4.3 arcsec).",
+        "events": [],
+        "evidence": [
+          "https://arxiv.org/abs/2310.04494",
+          "https://cdsarc.cds.unistra.fr/viz-bin/cat/J/A+A/707/A345"
+        ]
+      },
+      "image_review_status": "not_added",
+      "addition_review": {
+        "date": "2026-11-02",
+        "selection": "Evidence-supported GraL-only system",
+        "classification": "文献已证认",
+        "evidence": "四像 fold 构型，具有亮宿主弧及 z=2.673 的 QSO 光谱；光学通量比异常不等于 lens 身份不成立。",
+        "coordinate_basis": "GraL X, component A.",
+        "separation_basis": "Dux et al. 2023: separation 4.3 arcsec.",
+        "priority_note": "The cited report is retained; exhaustive first-public priority was not part of this addition.",
+        "sources": [
+          "https://arxiv.org/abs/2310.04494",
+          "https://cdsarc.cds.unistra.fr/viz-bin/cat/J/A+A/707/A345"
+        ]
+      }
     }
   ]
 }
