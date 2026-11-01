@@ -1,0 +1,542 @@
+{
+  "summary": {
+    "date": "2026-11-01",
+    "reviewed_records": 11,
+    "checked_histories": 7,
+    "pending_records": 4,
+    "pending_ids": [
+      118,
+      170,
+      179,
+      208
+    ],
+    "year_convention": "Main year is the cited publication year, not automatically the first-public or confirmation year. Preprint dates are version submission dates; journal-only dates use publication dates.",
+    "scope": "Earliest located target-specific public sources, not a claim of exhaustive historical priority. Earlier unpublished attributions and same-day reports are distinguished."
+  },
+  "records": [
+    {
+      "catalog_id": 38,
+      "primary": {
+        "citation": "Krone-Martins et al. 2019 (preprint)",
+        "year": 2019,
+        "first_public": "2019-12-19",
+        "url": "https://arxiv.org/abs/1912.08977",
+        "role": "Candidate",
+        "detail": "",
+        "first_public_url": "https://arxiv.org/abs/1912.08977"
+      },
+      "candidate": {
+        "citation": "Krone-Martins et al. 2019 (preprint)",
+        "year": 2019,
+        "first_public": "2019-12-19",
+        "url": "https://arxiv.org/abs/1912.08977",
+        "role": "Candidate",
+        "detail": "",
+        "first_public_url": "https://arxiv.org/abs/1912.08977"
+      },
+      "confirmation": {
+        "citation": "Lemon et al. 2020",
+        "year": 2020,
+        "first_public": "2019-12-19",
+        "url": "https://doi.org/10.1093/mnras/staa652",
+        "role": "Confirmation",
+        "detail": "DES J0246-1845: Table 1, Fig. 5 and Table 9; adaptive-optics imaging reveals the deflector.",
+        "first_public_url": "https://arxiv.org/abs/1912.09133v1"
+      },
+      "note": "GraL V section 4.1 leaves J0246-1845 as a possible lens (binarity not excluded). Lemon et al. confirm it with spectroscopy and AO imaging. Both preprints were submitted on 2019-12-19; no within-day priority is assigned. Dates here are arXiv submission dates, not observation dates.",
+      "pending": false,
+      "events": [],
+      "evidence": [
+        "https://arxiv.org/abs/1912.08977",
+        "https://doi.org/10.1093/mnras/staa652",
+        "https://arxiv.org/abs/1912.09133v1"
+      ],
+      "candidate_note": "",
+      "confirmation_note": "",
+      "name": "J0246-1845"
+    },
+    {
+      "catalog_id": 118,
+      "primary": {
+        "citation": "Spiniello et al. 2018",
+        "year": 2018,
+        "first_public": "2018-05-31",
+        "url": "https://doi.org/10.1093/mnras/sty1923",
+        "role": "Candidate",
+        "detail": "KIDS0907+0003 is in the high-grade candidate table in v1, labelled Possible NIQ; this is not the confirmed KIDS1042+0023.",
+        "first_public_url": "https://arxiv.org/abs/1805.12436v1"
+      },
+      "candidate": {
+        "citation": "Spiniello et al. 2018",
+        "year": 2018,
+        "first_public": "2018-05-31",
+        "url": "https://doi.org/10.1093/mnras/sty1923",
+        "role": "Candidate",
+        "detail": "KIDS0907+0003 is in the high-grade candidate table in v1, labelled Possible NIQ; this is not the confirmed KIDS1042+0023.",
+        "first_public_url": "https://arxiv.org/abs/1805.12436v1"
+      },
+      "confirmation": null,
+      "note": "Earliest verified candidate: Spiniello et al. 2018 v1, KIDS0907+0003 (Possible NIQ). Chan et al. 2020 also lists it as a candidate, without X-shooter follow-up. GraL V (2019) reports a lens identification, but its Keck spectrum is unresolved and no deflector is detected. The authors' identification is retained as a distinct event; an independent confirmation publication was not established in this review.",
+      "pending": true,
+      "events": [
+        {
+          "citation": "Chan et al. 2020",
+          "year": 2020,
+          "first_public": "2019-11-06",
+          "url": "https://doi.org/10.1051/0004-6361/201937030",
+          "role": "Candidate",
+          "detail": "Table 1 HSCJ090710+000320, average grade 1.8, no dagger indicating X-shooter follow-up.",
+          "first_public_url": "https://arxiv.org/abs/1911.02587v1"
+        },
+        {
+          "citation": "Krone-Martins et al. 2019 (preprint)",
+          "year": 2019,
+          "first_public": "2019-12-19",
+          "url": "https://arxiv.org/abs/1912.08977",
+          "role": "Reported lens identification",
+          "detail": "Section 4.1: unresolved Keck spectrum, foreground absorption and nearly saturated C IV absorption; authors identify a lens.",
+          "first_public_url": "https://arxiv.org/abs/1912.08977"
+        }
+      ],
+      "evidence": [
+        "https://doi.org/10.1093/mnras/sty1923",
+        "https://arxiv.org/abs/1805.12436v1",
+        "https://doi.org/10.1051/0004-6361/201937030",
+        "https://arxiv.org/abs/1911.02587v1",
+        "https://arxiv.org/abs/1912.08977"
+      ],
+      "candidate_note": "",
+      "confirmation_note": "Independent confirmation not established in this review. Krone-Martins et al. 2019 (preprint) reports a lens identification from unresolved spectroscopy: https://arxiv.org/abs/1912.08977",
+      "name": "J0907+0003"
+    },
+    {
+      "catalog_id": 131,
+      "primary": {
+        "citation": "Williams et al. 2018",
+        "year": 2018,
+        "first_public": "2017-06-05",
+        "url": "https://doi.org/10.1093/mnrasl/sly043",
+        "role": "Confirmation",
+        "detail": "",
+        "first_public_url": "https://arxiv.org/abs/1706.01506v1"
+      },
+      "candidate": null,
+      "confirmation": {
+        "citation": "Williams et al. 2018",
+        "year": 2018,
+        "first_public": "2017-06-05",
+        "url": "https://doi.org/10.1093/mnrasl/sly043",
+        "role": "Confirmation",
+        "detail": "",
+        "first_public_url": "https://arxiv.org/abs/1706.01506v1"
+      },
+      "note": "J0941+0518 is present and reported as confirmed in Williams arXiv v1 (2017-06-05). Lemon et al. 2018 independently confirm it, but their first preprint is 2018-03-20. The primary year remains the 2018 journal year; earliest verified public report is the 2017 preprint.",
+      "pending": false,
+      "events": [
+        {
+          "citation": "Lemon et al. 2018",
+          "year": 2018,
+          "first_public": "2018-03-20",
+          "url": "https://doi.org/10.1093/mnras/sty911",
+          "role": "Independent confirmation",
+          "detail": "Section 5.1.10 acknowledges concurrent discoveries.",
+          "first_public_url": "https://arxiv.org/abs/1803.07601v1"
+        }
+      ],
+      "evidence": [
+        "https://doi.org/10.1093/mnrasl/sly043",
+        "https://arxiv.org/abs/1706.01506v1",
+        "https://doi.org/10.1093/mnras/sty911",
+        "https://arxiv.org/abs/1803.07601v1"
+      ],
+      "candidate_note": "No separate earlier candidate publication located; first verified public report already presents confirmation.",
+      "confirmation_note": "",
+      "name": "J0941+0518"
+    },
+    {
+      "catalog_id": 149,
+      "primary": {
+        "citation": "Matthews et al. 1994",
+        "year": 1994,
+        "first_public": "1994-01-01",
+        "url": "https://doi.org/10.1086/187151",
+        "role": "Early lens hypothesis",
+        "detail": "ApJ 420 L13-L16, especially L15: arcs suggest lensing, but the authors disfavor it because of chromatic morphology.",
+        "first_public_url": "https://doi.org/10.1086/187151"
+      },
+      "candidate": {
+        "citation": "Matthews et al. 1994",
+        "year": 1994,
+        "first_public": "1994-01-01",
+        "url": "https://doi.org/10.1086/187151",
+        "role": "Early lens hypothesis",
+        "detail": "ApJ 420 L13-L16, especially L15: arcs suggest lensing, but the authors disfavor it because of chromatic morphology.",
+        "first_public_url": "https://doi.org/10.1086/187151"
+      },
+      "confirmation": {
+        "citation": "Broadhurst & Lehar 1995",
+        "year": 1995,
+        "first_public": "1995-05-03",
+        "url": "https://doi.org/10.1086/316774",
+        "role": "Confirmation",
+        "detail": "Lens model and counterimage interpretation; not the 1991 infrared-object discovery.",
+        "first_public_url": "https://arxiv.org/abs/astro-ph/9505013"
+      },
+      "note": "Rowan-Robinson 1991 discovers the infrared object, not its lens nature. Matthews 1994 is the earliest located explicit lens hypothesis, which those authors disfavor; Elston 1994 gives a positive possible-magnification interpretation. Broadhurst & Lehar 1995 and Graham & Liu 1995 supply lens/counterimage evidence; Eisenhardt 1996 adds HST confirmation (preprint 1995). Do not treat the 1994 hypothesis as confirmation.",
+      "pending": false,
+      "events": [
+        {
+          "citation": "Elston et al. 1994",
+          "year": 1994,
+          "first_public": "1994-03",
+          "url": "https://ui.adsabs.harvard.edu/abs/1994AJ....107..910E/abstract",
+          "role": "Candidate interpretation",
+          "detail": "Foreground group could gravitationally amplify the source; month precision only.",
+          "first_public_url": "https://ui.adsabs.harvard.edu/abs/1994AJ....107..910E/abstract"
+        },
+        {
+          "citation": "Graham & Liu 1995",
+          "year": 1995,
+          "first_public": "1995-08-10",
+          "url": "https://ui.adsabs.harvard.edu/abs/1995ApJ...449L..29G/abstract",
+          "role": "Independent confirmation",
+          "detail": "Keck arc and faint counterimage; journal publication date.",
+          "first_public_url": "https://ui.adsabs.harvard.edu/abs/1995ApJ...449L..29G/abstract"
+        },
+        {
+          "citation": "Eisenhardt et al. 1996",
+          "year": 1996,
+          "first_public": "1995-10-19",
+          "url": "https://arxiv.org/abs/astro-ph/9510093",
+          "role": "HST confirmation",
+          "detail": "HST imaging and lens model.",
+          "first_public_url": "https://arxiv.org/abs/astro-ph/9510093"
+        }
+      ],
+      "evidence": [
+        "https://doi.org/10.1086/187151",
+        "https://doi.org/10.1086/316774",
+        "https://arxiv.org/abs/astro-ph/9505013",
+        "https://ui.adsabs.harvard.edu/abs/1994AJ....107..910E/abstract",
+        "https://ui.adsabs.harvard.edu/abs/1995ApJ...449L..29G/abstract",
+        "https://arxiv.org/abs/astro-ph/9510093"
+      ],
+      "candidate_note": "",
+      "confirmation_note": "",
+      "name": "FSC10214+4724"
+    },
+    {
+      "catalog_id": 170,
+      "primary": {
+        "citation": "Oguri et al. 2005",
+        "year": 2005,
+        "first_public": "2004-11-10",
+        "url": "https://doi.org/10.1086/428087",
+        "role": "Earliest located public lens listing",
+        "detail": "Lists SDSS J1138+0314 and credits Burles et al. in preparation.",
+        "first_public_url": "https://arxiv.org/abs/astro-ph/0411250v1"
+      },
+      "candidate": null,
+      "confirmation": null,
+      "note": "Earliest located public listing is Oguri et al. (2005), available as a 2004 preprint; it already calls the object a lens and credits Burles et al. in preparation. Eigenbrod 2006 measures the deflector redshift and is not the discovery paper. SQLS II describes the Magellan snapshot discovery but still cites an unpublished Burles manuscript. Original discovery/confirmation publication priority remains unresolved; Sluse 2012 later publishes resolved image spectra.",
+      "pending": true,
+      "events": [
+        {
+          "citation": "Inada et al. 2008",
+          "year": 2008,
+          "first_public": "2007-08-07",
+          "url": "https://doi.org/10.1088/0004-6256/135/2/496",
+          "role": "SQLS sample listing",
+          "detail": "Lists the already-known lenses; not an original individual discovery article.",
+          "first_public_url": "https://arxiv.org/abs/0708.0828"
+        },
+        {
+          "citation": "Sluse et al. 2012",
+          "year": 2012,
+          "first_public": "2012",
+          "url": "https://doi.org/10.1051/0004-6361/201219125",
+          "role": "Later resolved spectra",
+          "detail": "Conclusion explicitly identifies the first published individual-image spectra of J1138+0314 and J1226-0006. Year precision; not assigned first-discovery priority.",
+          "first_public_url": "https://doi.org/10.1051/0004-6361/201219125"
+        }
+      ],
+      "evidence": [
+        "https://doi.org/10.1086/428087",
+        "https://arxiv.org/abs/astro-ph/0411250v1",
+        "https://doi.org/10.1088/0004-6256/135/2/496",
+        "https://arxiv.org/abs/0708.0828",
+        "https://doi.org/10.1051/0004-6361/201219125",
+        "https://arxiv.org/abs/astro-ph/0511026"
+      ],
+      "candidate_note": "",
+      "confirmation_note": "Known lens in the 2004 public listing; original confirmation publication not located. Later resolved spectra: Sluse et al. 2012.",
+      "name": "SDSSJ1138+0314"
+    },
+    {
+      "catalog_id": 179,
+      "primary": {
+        "citation": "Pindor et al. 2003",
+        "year": 2003,
+        "first_public": "2003-01-23",
+        "url": "https://doi.org/10.1086/374233",
+        "role": "Earliest located public lens report",
+        "detail": "Describes SDSS J1226-0006 and credits Inada et al. 2002, submitted.",
+        "first_public_url": "https://arxiv.org/abs/astro-ph/0301464v1"
+      },
+      "candidate": null,
+      "confirmation": null,
+      "note": "Pindor 2003 already reports J1226-0006 as a discovered lens, but credits Inada et al. 2002 (submitted). That manuscript was not located as a public publication; its year must not be used as a verified public discovery date. Inada 2008 is a later SQLS sample report, and Sluse 2012 supplies the first published individual-image spectra. Original discovery/confirmation authorship remains unresolved.",
+      "pending": true,
+      "events": [
+        {
+          "citation": "Inada et al. 2008",
+          "year": 2008,
+          "first_public": "2007-08-07",
+          "url": "https://doi.org/10.1088/0004-6256/135/2/496",
+          "role": "SQLS sample listing",
+          "detail": "Lists the already-known lenses; not an original individual discovery article.",
+          "first_public_url": "https://arxiv.org/abs/0708.0828"
+        },
+        {
+          "citation": "Sluse et al. 2012",
+          "year": 2012,
+          "first_public": "2012",
+          "url": "https://doi.org/10.1051/0004-6361/201219125",
+          "role": "Later resolved spectra",
+          "detail": "Conclusion explicitly identifies the first published individual-image spectra of J1138+0314 and J1226-0006. Year precision; not assigned first-discovery priority.",
+          "first_public_url": "https://doi.org/10.1051/0004-6361/201219125"
+        }
+      ],
+      "evidence": [
+        "https://doi.org/10.1086/374233",
+        "https://arxiv.org/abs/astro-ph/0301464v1",
+        "https://doi.org/10.1088/0004-6256/135/2/496",
+        "https://arxiv.org/abs/0708.0828",
+        "https://doi.org/10.1051/0004-6361/201219125"
+      ],
+      "candidate_note": "",
+      "confirmation_note": "Already reported as a lens by Pindor 2003; original confirmation manuscript not located. Later resolved spectra: Sluse et al. 2012.",
+      "name": "SDSSJ1226-0006"
+    },
+    {
+      "catalog_id": 208,
+      "primary": {
+        "citation": "Khramtsov et al. 2019",
+        "year": 2019,
+        "first_public": "2019-06-04",
+        "url": "https://doi.org/10.1051/0004-6361/201936006",
+        "role": "Candidate",
+        "detail": "Table 4 KIDSJ1359+0129: 13:59:43.98, +01:28:13.90, low-separation double; matches the inherited catalogue position.",
+        "first_public_url": "https://arxiv.org/abs/1906.01638v1"
+      },
+      "candidate": {
+        "citation": "Khramtsov et al. 2019",
+        "year": 2019,
+        "first_public": "2019-06-04",
+        "url": "https://doi.org/10.1051/0004-6361/201936006",
+        "role": "Candidate",
+        "detail": "Table 4 KIDSJ1359+0129: 13:59:43.98, +01:28:13.90, low-separation double; matches the inherited catalogue position.",
+        "first_public_url": "https://arxiv.org/abs/1906.01638v1"
+      },
+      "confirmation": null,
+      "note": "Khramtsov 2019 Table 4 lists KIDSJ1359+0129 at 13:59:43.98, +01:28:13.90, matching this catalogue position. Jaelani 2021 instead confirms SDSS J135944.21+012809.8 at (209.9342, +1.4693), about 5.5 arcsec away. The inherited name/coordinates and full alias therefore disagree. Do not transfer Jaelani's confirmation, redshift or paper-image identity to the KiDS candidate without reconciling this discrepancy. The inherited scientific values and image pixels are retained, but their association is explicitly unverified.",
+      "pending": true,
+      "events": [
+        {
+          "citation": "Jaelani et al. 2021",
+          "year": 2021,
+          "first_public": "2020-06-30",
+          "url": "https://doi.org/10.1093/mnras/stab145",
+          "role": "Confirmation",
+          "detail": "Section 2 says it was reselected from earlier SQLS candidates; subsequent sections provide spectra and HSC imaging.",
+          "first_public_url": "https://arxiv.org/abs/2006.16584v1"
+        }
+      ],
+      "evidence": [
+        "https://doi.org/10.1051/0004-6361/201936006",
+        "https://arxiv.org/abs/1906.01638v1",
+        "https://doi.org/10.1093/mnras/stab145",
+        "https://arxiv.org/abs/2006.16584v1"
+      ],
+      "candidate_note": "",
+      "confirmation_note": "Unverified association: Jaelani et al. 2021 confirms the full SDSS alias at a different published position (~5.5 arcsec offset). https://doi.org/10.1093/mnras/stab145",
+      "identity_warning": "The Jaelani paper image/confirmation belongs to the full SDSS alias; its association with the inherited KiDS name and coordinates is unverified (~5.5 arcsec offset).",
+      "name": "J1359+0129"
+    },
+    {
+      "catalog_id": 251,
+      "primary": {
+        "citation": "Williams et al. 2018",
+        "year": 2018,
+        "first_public": "2018-03-14",
+        "url": "https://doi.org/10.1093/mnrasl/sly043",
+        "role": "Confirmation",
+        "detail": "",
+        "first_public_url": "https://doi.org/10.1093/mnrasl/sly043"
+      },
+      "candidate": null,
+      "confirmation": {
+        "citation": "Williams et al. 2018",
+        "year": 2018,
+        "first_public": "2018-03-14",
+        "url": "https://doi.org/10.1093/mnrasl/sly043",
+        "role": "Confirmation",
+        "detail": "",
+        "first_public_url": "https://doi.org/10.1093/mnrasl/sly043"
+      },
+      "note": "J1640+1045 is absent from Williams arXiv v1 (2017), which contains a different third target. It is confirmed in the final Williams journal article first published online 2018-03-14, before Lemon arXiv v1 on 2018-03-20. Cite the final DOI, not the 2017 v1, for this object.",
+      "pending": false,
+      "events": [
+        {
+          "citation": "Lemon et al. 2018",
+          "year": 2018,
+          "first_public": "2018-03-20",
+          "url": "https://doi.org/10.1093/mnras/sty911",
+          "role": "Independent confirmation",
+          "detail": "Section 5.1.10.",
+          "first_public_url": "https://arxiv.org/abs/1803.07601v1"
+        }
+      ],
+      "evidence": [
+        "https://doi.org/10.1093/mnrasl/sly043",
+        "https://doi.org/10.1093/mnras/sty911",
+        "https://arxiv.org/abs/1803.07601v1"
+      ],
+      "candidate_note": "No separate earlier candidate publication located; first verified target-specific report already presents confirmation.",
+      "confirmation_note": "",
+      "name": "J1640+1045"
+    },
+    {
+      "catalog_id": 305,
+      "primary": {
+        "citation": "Cox et al. 2002",
+        "year": 2002,
+        "first_public": "2002-03-20",
+        "url": "https://doi.org/10.1051/0004-6361:20020382",
+        "role": "Candidate",
+        "detail": "Section 4: close companion with similar spectra; lens versus binary interpretation remains open.",
+        "first_public_url": "https://arxiv.org/abs/astro-ph/0203355v1"
+      },
+      "candidate": {
+        "citation": "Cox et al. 2002",
+        "year": 2002,
+        "first_public": "2002-03-20",
+        "url": "https://doi.org/10.1051/0004-6361:20020382",
+        "role": "Candidate",
+        "detail": "Section 4: close companion with similar spectra; lens versus binary interpretation remains open.",
+        "first_public_url": "https://arxiv.org/abs/astro-ph/0203355v1"
+      },
+      "confirmation": {
+        "citation": "Carilli et al. 2003",
+        "year": 2003,
+        "first_public": "2003-04-07",
+        "url": "https://doi.org/10.1126/science.1082600",
+        "role": "Confirmation",
+        "detail": "Resolved CO Einstein ring and lens reconstruction.",
+        "first_public_url": "https://arxiv.org/abs/astro-ph/0304124"
+      },
+      "note": "Cox 2002 is the earliest located explicit target-specific lens/binary candidate report. Its companion observation is credited to Djorgovski et al. in preparation, not a verified 2000 publication. Omont 2001 and Isaak 2002 do not establish an earlier target-specific lens identification. Carilli 2002 still leaves the interpretation open; the CO Einstein ring is reported by Carilli 2003.",
+      "pending": false,
+      "events": [],
+      "evidence": [
+        "https://doi.org/10.1051/0004-6361:20020382",
+        "https://arxiv.org/abs/astro-ph/0203355v1",
+        "https://doi.org/10.1126/science.1082600",
+        "https://arxiv.org/abs/astro-ph/0304124",
+        "https://arxiv.org/abs/astro-ph/0107005",
+        "https://arxiv.org/abs/astro-ph/0204253"
+      ],
+      "candidate_note": "",
+      "confirmation_note": "",
+      "name": "PSS2322+1944"
+    },
+    {
+      "catalog_id": 326,
+      "primary": {
+        "citation": "Dawes et al. 2023",
+        "year": 2023,
+        "first_public": "2022-08-12",
+        "url": "https://doi.org/10.3847/1538-4365/ad015a",
+        "role": "Candidate",
+        "detail": "DESI-116.6482+13.7402, catalogue ID 300, grade C. He 2023 target 10721197 explicitly marks inD22=1, grade C. First-public date is the Dawes v1 paper submission; target attribution is independently present in He 2023.",
+        "first_public_url": "https://arxiv.org/abs/2208.06356v1"
+      },
+      "candidate": {
+        "citation": "Dawes et al. 2023",
+        "year": 2023,
+        "first_public": "2022-08-12",
+        "url": "https://doi.org/10.3847/1538-4365/ad015a",
+        "role": "Candidate",
+        "detail": "DESI-116.6482+13.7402, catalogue ID 300, grade C. He 2023 target 10721197 explicitly marks inD22=1, grade C. First-public date is the Dawes v1 paper submission; target attribution is independently present in He 2023.",
+        "first_public_url": "https://arxiv.org/abs/2208.06356v1"
+      },
+      "confirmation": {
+        "citation": "He et al. 2025",
+        "year": 2025,
+        "first_public": "2025-01-15",
+        "url": "https://doi.org/10.1051/0004-6361/202452731",
+        "role": "Confirmation",
+        "detail": "",
+        "first_public_url": "https://arxiv.org/abs/2501.08541v1"
+      },
+      "note": "J0746+1344 matches Dawes catalogue ID 300 (DESI-116.6482+13.7402, grade C), not a first discovery in He 2025 or He 2023. He 2023 target 10721197 explicitly credits D22. The Dawes paper first appeared in 2022 and was published in 2023; He 2025 provides spectroscopic confirmation at z=3.105. The separately hosted candidate table does not carry an independently verified per-entry release timestamp.",
+      "pending": false,
+      "events": [],
+      "evidence": [
+        "https://doi.org/10.3847/1538-4365/ad015a",
+        "https://arxiv.org/abs/2208.06356v1",
+        "https://doi.org/10.1051/0004-6361/202452731",
+        "https://arxiv.org/abs/2501.08541v1",
+        "https://doi.org/10.1051/0004-6361/202245484",
+        "https://cdsarc.cds.unistra.fr/viz-bin/cat/J/ApJS/269/61",
+        "https://cdsarc.cds.unistra.fr/viz-bin/cat/J/A+A/672/A123"
+      ],
+      "candidate_note": "",
+      "confirmation_note": "",
+      "name": "DESI J0746+1344"
+    },
+    {
+      "catalog_id": 327,
+      "primary": {
+        "citation": "He et al. 2023",
+        "year": 2023,
+        "first_public": "2023-01-26",
+        "url": "https://doi.org/10.1051/0004-6361/202245484",
+        "role": "Candidate",
+        "detail": "Target 10912799: inKLQ=0, inD22=0, inL22=0; coordinate match to J2121-0826.",
+        "first_public_url": "https://arxiv.org/abs/2301.11080v1"
+      },
+      "candidate": {
+        "citation": "He et al. 2023",
+        "year": 2023,
+        "first_public": "2023-01-26",
+        "url": "https://doi.org/10.1051/0004-6361/202245484",
+        "role": "Candidate",
+        "detail": "Target 10912799: inKLQ=0, inD22=0, inL22=0; coordinate match to J2121-0826.",
+        "first_public_url": "https://arxiv.org/abs/2301.11080v1"
+      },
+      "confirmation": {
+        "citation": "He et al. 2025",
+        "year": 2025,
+        "first_public": "2025-01-15",
+        "url": "https://doi.org/10.1051/0004-6361/202452731",
+        "role": "Confirmation",
+        "detail": "",
+        "first_public_url": "https://arxiv.org/abs/2501.08541v1"
+      },
+      "note": "J2121-0826 matches He 2023 table 1 target 10912799 (RA 320.3847626, Dec -8.4360160; grade B). All three known-catalogue flags are zero. He 2025 confirms the system spectroscopically at z=2.395. Candidate publication and confirmation are therefore 2023 and 2025, respectively.",
+      "pending": false,
+      "events": [],
+      "evidence": [
+        "https://doi.org/10.1051/0004-6361/202245484",
+        "https://arxiv.org/abs/2301.11080v1",
+        "https://doi.org/10.1051/0004-6361/202452731",
+        "https://arxiv.org/abs/2501.08541v1",
+        "https://cdsarc.cds.unistra.fr/viz-bin/cat/J/A+A/672/A123"
+      ],
+      "candidate_note": "",
+      "confirmation_note": "",
+      "name": "DESI J2121-0826"
+    }
+  ]
+}

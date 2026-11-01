@@ -3,7 +3,7 @@
     "source": "lensed_quasar.xlsx",
     "sheet": "工作表1",
     "source_sha256": "e1b9eb0c36ff5ecef12bc57cd2dd54564727cdb4b97266860c12ef5eb6361437",
-    "exported_at": "2026-11-01T12:56:19.649026+00:00",
+    "exported_at": "2026-11-01T13:41:13.888067+00:00",
     "count": 343,
     "columns": [
       "catalog_id",
@@ -23,7 +23,10 @@
       "ADS link",
       "note",
       "source_type",
-      "lens_type"
+      "lens_type",
+      "candidate report",
+      "confirmation report",
+      "discovery review"
     ],
     "max_original_id": 344,
     "numbering": "Sequential 1–343 in original worksheet row order; original_id retained for provenance",
@@ -31,10 +34,25 @@
       "date": "2026-11-01",
       "reviewed_records": 44,
       "corrected_records": 40,
-      "pending_records": 11,
+      "pending_records": 4,
       "pending_only_records": 4,
       "scope": "Flagged bibliography entries; this is not a complete first-discovery-priority audit.",
-      "year_convention": "Year of the cited publication; explicitly labelled preprints retain their preprint year. Confirmation and candidate roles are recorded in review notes."
+      "year_convention": "Year of the cited publication; explicitly labelled preprints retain their preprint year. Confirmation and candidate roles are recorded in review notes.",
+      "pending_records_at_initial_revision": 11
+    },
+    "discovery_priority_revision": {
+      "date": "2026-11-01",
+      "reviewed_records": 11,
+      "checked_histories": 7,
+      "pending_records": 4,
+      "pending_ids": [
+        118,
+        170,
+        179,
+        208
+      ],
+      "year_convention": "Main year is the cited publication year, not automatically the first-public or confirmation year. Preprint dates are version submission dates; journal-only dates use publication dates.",
+      "scope": "Earliest located target-specific public sources, not a claim of exhaustive historical priority. Earlier unpublished attributions and same-day reports are distinguished."
     }
   },
   "records": [
@@ -58,7 +76,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 1
+      "catalog_id": 1,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 3,
@@ -80,7 +101,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 2
+      "catalog_id": 2,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 4,
@@ -102,7 +126,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 3
+      "catalog_id": 3,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 5,
@@ -124,7 +151,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 4
+      "catalog_id": 4,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 6,
@@ -146,7 +176,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 5
+      "catalog_id": 5,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 7,
@@ -168,7 +201,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 6
+      "catalog_id": 6,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 8,
@@ -190,7 +226,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 7
+      "catalog_id": 7,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 9,
@@ -212,7 +251,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 8
+      "catalog_id": 8,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 10,
@@ -234,7 +276,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 9
+      "catalog_id": 9,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 11,
@@ -256,7 +301,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 10
+      "catalog_id": 10,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 12,
@@ -278,7 +326,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 11
+      "catalog_id": 11,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 13,
@@ -300,7 +351,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 12
+      "catalog_id": 12,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 14,
@@ -322,7 +376,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 13
+      "catalog_id": 13,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 15,
@@ -344,7 +401,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 14
+      "catalog_id": 14,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 16,
@@ -366,7 +426,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 15
+      "catalog_id": 15,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 17,
@@ -388,7 +451,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 16
+      "catalog_id": 16,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 18,
@@ -410,7 +476,10 @@
       "note": null,
       "source_type": "Radio-loud, Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 17
+      "catalog_id": 17,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 19,
@@ -432,7 +501,10 @@
       "note": "标题未说明candidate，但文章说了存疑",
       "source_type": "Red Quasar, Quasar",
       "lens_type": "两个质量相当的螺旋星系",
-      "catalog_id": 18
+      "catalog_id": 18,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 20,
@@ -454,7 +526,10 @@
       "note": "Agnello和Lemon都在2018，选了月份靠前的",
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 19
+      "catalog_id": 19,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 21,
@@ -486,7 +561,10 @@
           "https://doi.org/10.1038/329695a0",
           "https://ui.adsabs.harvard.edu/abs/1987Natur.329..695S/abstract"
         ]
-      }
+      },
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 22,
@@ -508,7 +586,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 21
+      "catalog_id": 21,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 23,
@@ -530,7 +611,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 22
+      "catalog_id": 22,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 24,
@@ -552,7 +636,10 @@
       "note": "Lemon et al. 2020confirm",
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 23
+      "catalog_id": 23,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 25,
@@ -574,7 +661,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 24
+      "catalog_id": 24,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 26,
@@ -596,7 +686,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 25
+      "catalog_id": 25,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 27,
@@ -618,7 +711,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 26
+      "catalog_id": 26,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 28,
@@ -640,7 +736,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 27
+      "catalog_id": 27,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 29,
@@ -662,7 +761,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 28
+      "catalog_id": 28,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 30,
@@ -684,7 +786,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 29
+      "catalog_id": 29,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 31,
@@ -715,7 +820,10 @@
         "evidence": [
           "https://arxiv.org/abs/1805.10296"
         ]
-      }
+      },
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 32,
@@ -737,7 +845,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 31
+      "catalog_id": 31,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 33,
@@ -759,7 +870,10 @@
       "note": null,
       "source_type": "Radio-loud, Quasar",
       "lens_type": "spiral Galaxy",
-      "catalog_id": 32
+      "catalog_id": 32,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 34,
@@ -781,7 +895,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 33
+      "catalog_id": 33,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 35,
@@ -803,7 +920,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 34
+      "catalog_id": 34,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 36,
@@ -825,7 +945,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy pair",
-      "catalog_id": 35
+      "catalog_id": 35,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 37,
@@ -847,7 +970,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 36
+      "catalog_id": 36,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 38,
@@ -869,7 +995,10 @@
       "note": "Lemon et al. 2020confirm",
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 37
+      "catalog_id": 37,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 39,
@@ -888,18 +1017,64 @@
       "first discovered": "Krone-Martins et al. 2019 (preprint)",
       "year": 2019,
       "ADS link": "https://arxiv.org/abs/1912.08977",
-      "note": "Lemon et al. 2020confirm\nPending reference review: Earliest discovery/confirmation priority remains to be checked. The linked GraL V record is the 2019 preprint.",
+      "note": "GraL V section 4.1 leaves J0246-1845 as a possible lens (binarity not excluded). Lemon et al. confirm it with spectroscopy and AO imaging. Both preprints were submitted on 2019-12-19; no within-day priority is assigned. Dates here are arXiv submission dates, not observation dates.",
       "source_type": "Quasar",
       "lens_type": "Galaxy",
       "catalog_id": 38,
       "reference_review": {
-        "status": "corrected_pending",
-        "pending": true,
+        "status": "priority_checked",
+        "pending": false,
         "date": "2026-11-01",
-        "note": "Earliest discovery/confirmation priority remains to be checked. The linked GraL V record is the 2019 preprint.",
+        "note": "GraL V section 4.1 leaves J0246-1845 as a possible lens (binarity not excluded). Lemon et al. confirm it with spectroscopy and AO imaging. Both preprints were submitted on 2019-12-19; no within-day priority is assigned. Dates here are arXiv submission dates, not observation dates.",
         "evidence": [
-          "https://arxiv.org/abs/1912.08977"
+          "https://arxiv.org/abs/1912.08977",
+          "https://doi.org/10.1093/mnras/staa652",
+          "https://arxiv.org/abs/1912.09133v1"
         ]
+      },
+      "candidate report": "Krone-Martins et al. 2019 (preprint)\nCandidate\nFirst public: 2019-12-19\nhttps://arxiv.org/abs/1912.08977",
+      "confirmation report": "Lemon et al. 2020\nConfirmation\nFirst public: 2019-12-19\nhttps://doi.org/10.1093/mnras/staa652",
+      "discovery review": "Checked: earliest located public sources",
+      "discovery_history": {
+        "catalog_id": 38,
+        "primary": {
+          "citation": "Krone-Martins et al. 2019 (preprint)",
+          "year": 2019,
+          "first_public": "2019-12-19",
+          "url": "https://arxiv.org/abs/1912.08977",
+          "role": "Candidate",
+          "detail": "",
+          "first_public_url": "https://arxiv.org/abs/1912.08977"
+        },
+        "candidate": {
+          "citation": "Krone-Martins et al. 2019 (preprint)",
+          "year": 2019,
+          "first_public": "2019-12-19",
+          "url": "https://arxiv.org/abs/1912.08977",
+          "role": "Candidate",
+          "detail": "",
+          "first_public_url": "https://arxiv.org/abs/1912.08977"
+        },
+        "confirmation": {
+          "citation": "Lemon et al. 2020",
+          "year": 2020,
+          "first_public": "2019-12-19",
+          "url": "https://doi.org/10.1093/mnras/staa652",
+          "role": "Confirmation",
+          "detail": "DES J0246-1845: Table 1, Fig. 5 and Table 9; adaptive-optics imaging reveals the deflector.",
+          "first_public_url": "https://arxiv.org/abs/1912.09133v1"
+        },
+        "note": "GraL V section 4.1 leaves J0246-1845 as a possible lens (binarity not excluded). Lemon et al. confirm it with spectroscopy and AO imaging. Both preprints were submitted on 2019-12-19; no within-day priority is assigned. Dates here are arXiv submission dates, not observation dates.",
+        "pending": false,
+        "events": [],
+        "evidence": [
+          "https://arxiv.org/abs/1912.08977",
+          "https://doi.org/10.1093/mnras/staa652",
+          "https://arxiv.org/abs/1912.09133v1"
+        ],
+        "candidate_note": "",
+        "confirmation_note": "",
+        "name": "J0246-1845"
       }
     },
     {
@@ -922,7 +1097,10 @@
       "note": "follow-up spectrum",
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 39
+      "catalog_id": 39,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 41,
@@ -944,7 +1122,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 40
+      "catalog_id": 40,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 42,
@@ -966,7 +1147,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 41
+      "catalog_id": 41,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 43,
@@ -988,7 +1172,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 42
+      "catalog_id": 42,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 44,
@@ -1020,7 +1207,10 @@
           "https://doi.org/10.1093/mnras/stz2200",
           "https://arxiv.org/abs/1805.11103"
         ]
-      }
+      },
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 45,
@@ -1042,7 +1232,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 44
+      "catalog_id": 44,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 46,
@@ -1064,7 +1257,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 45
+      "catalog_id": 45,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 47,
@@ -1086,7 +1282,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 46
+      "catalog_id": 46,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 48,
@@ -1108,7 +1307,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 47
+      "catalog_id": 47,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 49,
@@ -1130,7 +1332,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 48
+      "catalog_id": 48,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 50,
@@ -1152,7 +1357,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 49
+      "catalog_id": 49,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 51,
@@ -1174,7 +1382,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 50
+      "catalog_id": 50,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 52,
@@ -1206,7 +1417,10 @@
           "https://doi.org/10.1093/mnras/stz2200",
           "https://arxiv.org/abs/1805.11103"
         ]
-      }
+      },
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 53,
@@ -1228,7 +1442,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Group of galaxies",
-      "catalog_id": 52
+      "catalog_id": 52,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 54,
@@ -1250,7 +1467,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 53
+      "catalog_id": 53,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 55,
@@ -1272,7 +1492,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 54
+      "catalog_id": 54,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 56,
@@ -1294,7 +1517,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 55
+      "catalog_id": 55,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 57,
@@ -1316,7 +1542,10 @@
       "note": "Lemon et al. 2023 confirm",
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 56
+      "catalog_id": 56,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 58,
@@ -1348,7 +1577,10 @@
           "https://doi.org/10.1093/mnras/stz2200",
           "https://arxiv.org/abs/1805.11103"
         ]
-      }
+      },
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 59,
@@ -1370,7 +1602,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "盘星系",
-      "catalog_id": 58
+      "catalog_id": 58,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 60,
@@ -1392,7 +1627,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 59
+      "catalog_id": 59,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 61,
@@ -1414,7 +1652,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 60
+      "catalog_id": 60,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 62,
@@ -1436,7 +1677,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 61
+      "catalog_id": 61,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 63,
@@ -1458,7 +1702,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy pair",
-      "catalog_id": 62
+      "catalog_id": 62,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 64,
@@ -1480,7 +1727,10 @@
       "note": null,
       "source_type": "Radio-loud, Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 63
+      "catalog_id": 63,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 65,
@@ -1502,7 +1752,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 64
+      "catalog_id": 64,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 66,
@@ -1524,7 +1777,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 65
+      "catalog_id": 65,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 67,
@@ -1546,7 +1802,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 66
+      "catalog_id": 66,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 68,
@@ -1568,7 +1827,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 67
+      "catalog_id": 67,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 69,
@@ -1590,7 +1852,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 68
+      "catalog_id": 68,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 70,
@@ -1612,7 +1877,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 69
+      "catalog_id": 69,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 71,
@@ -1634,7 +1902,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 70
+      "catalog_id": 70,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 72,
@@ -1666,7 +1937,10 @@
           "https://doi.org/10.3847/1538-4365/ad015a",
           "https://ui.adsabs.harvard.edu/abs/2023ApJS..269...61D/abstract"
         ]
-      }
+      },
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 73,
@@ -1688,7 +1962,10 @@
       "note": null,
       "source_type": "Radio-loud, Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 72
+      "catalog_id": 72,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 74,
@@ -1710,7 +1987,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 73
+      "catalog_id": 73,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 75,
@@ -1732,7 +2012,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 74
+      "catalog_id": 74,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 76,
@@ -1754,7 +2037,10 @@
       "note": "Lemon et al. 2023 confirm",
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 75
+      "catalog_id": 75,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 77,
@@ -1785,7 +2071,10 @@
         "evidence": [
           "https://arxiv.org/abs/astro-ph/0002333"
         ]
-      }
+      },
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 78,
@@ -1817,7 +2106,10 @@
           "https://doi.org/10.1093/mnras/stz2200",
           "https://arxiv.org/abs/1805.11103"
         ]
-      }
+      },
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 79,
@@ -1839,7 +2131,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 78
+      "catalog_id": 78,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 80,
@@ -1861,7 +2156,10 @@
       "note": "还有一个发现未记录在本表格中",
       "source_type": "Quasar",
       "lens_type": "Galaxy cluster",
-      "catalog_id": 79
+      "catalog_id": 79,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 81,
@@ -1883,7 +2181,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 80
+      "catalog_id": 80,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 82,
@@ -1905,7 +2206,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 81
+      "catalog_id": 81,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 83,
@@ -1927,7 +2231,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 82
+      "catalog_id": 82,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 84,
@@ -1949,7 +2256,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 83
+      "catalog_id": 83,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 85,
@@ -1971,7 +2281,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 84
+      "catalog_id": 84,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 86,
@@ -1993,7 +2306,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 85
+      "catalog_id": 85,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 87,
@@ -2024,7 +2340,10 @@
         "evidence": [
           "https://ui.adsabs.harvard.edu/abs/2018MNRAS.473L.116O/abstract"
         ]
-      }
+      },
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 88,
@@ -2046,7 +2365,10 @@
       "note": null,
       "source_type": "Radio-loud, Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 87
+      "catalog_id": 87,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 89,
@@ -2068,7 +2390,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 88
+      "catalog_id": 88,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 90,
@@ -2090,7 +2415,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 89
+      "catalog_id": 89,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 91,
@@ -2112,7 +2440,10 @@
       "note": "Lemon et al. 2023 confirm",
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 90
+      "catalog_id": 90,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 92,
@@ -2134,7 +2465,10 @@
       "note": "射电发现",
       "source_type": "Radio-loud, Quasar",
       "lens_type": "盘",
-      "catalog_id": 91
+      "catalog_id": 91,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 93,
@@ -2156,7 +2490,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 92
+      "catalog_id": 92,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 94,
@@ -2178,7 +2515,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 93
+      "catalog_id": 93,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 95,
@@ -2200,7 +2540,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 94
+      "catalog_id": 94,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 96,
@@ -2222,7 +2565,10 @@
       "note": null,
       "source_type": "Radio-loud, Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 95
+      "catalog_id": 95,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 97,
@@ -2244,7 +2590,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 96
+      "catalog_id": 96,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 98,
@@ -2266,7 +2615,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 97
+      "catalog_id": 97,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 99,
@@ -2288,7 +2640,10 @@
       "note": null,
       "source_type": "BAL Quasar, Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 98
+      "catalog_id": 98,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 100,
@@ -2310,7 +2665,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 99
+      "catalog_id": 99,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 101,
@@ -2332,7 +2690,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 100
+      "catalog_id": 100,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 102,
@@ -2354,7 +2715,10 @@
       "note": null,
       "source_type": "BAL Quasar, Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 101
+      "catalog_id": 101,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 103,
@@ -2376,7 +2740,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 102
+      "catalog_id": 102,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 104,
@@ -2398,7 +2765,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 103
+      "catalog_id": 103,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 105,
@@ -2420,7 +2790,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 104
+      "catalog_id": 104,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 106,
@@ -2451,7 +2824,10 @@
         "evidence": [
           "https://ui.adsabs.harvard.edu/abs/2000A%26A...357L..29H/abstract"
         ]
-      }
+      },
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 107,
@@ -2473,7 +2849,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 106
+      "catalog_id": 106,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 108,
@@ -2495,7 +2874,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 107
+      "catalog_id": 107,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 109,
@@ -2527,7 +2909,10 @@
           "https://arxiv.org/abs/astro-ph/9806171",
           "https://arxiv.org/abs/astro-ph/9807293"
         ]
-      }
+      },
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 110,
@@ -2549,7 +2934,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 109
+      "catalog_id": 109,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 111,
@@ -2571,7 +2959,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 110
+      "catalog_id": 110,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 112,
@@ -2593,7 +2984,10 @@
       "note": null,
       "source_type": "BAL Quasar, Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 111
+      "catalog_id": 111,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 113,
@@ -2615,7 +3009,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 112
+      "catalog_id": 112,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 114,
@@ -2646,7 +3043,10 @@
         "evidence": [
           "https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.5060L/abstract"
         ]
-      }
+      },
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 115,
@@ -2668,7 +3068,10 @@
       "note": null,
       "source_type": "Radio-loud, Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 114
+      "catalog_id": 114,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 116,
@@ -2690,7 +3093,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 115
+      "catalog_id": 115,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 117,
@@ -2712,7 +3118,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 116
+      "catalog_id": 116,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 118,
@@ -2734,7 +3143,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 117
+      "catalog_id": 117,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 119,
@@ -2750,21 +3162,82 @@
       "z_source": "1.299",
       "image_sep": "1.32",
       "n_img": 2,
-      "first discovered": "Krone-Martins et al. 2019 (preprint)",
-      "year": 2019,
-      "ADS link": "https://arxiv.org/abs/1912.08977",
-      "note": "Pending reference review: Earliest discovery/confirmation priority remains to be checked. The linked GraL V record is the 2019 preprint.",
+      "first discovered": "Spiniello et al. 2018",
+      "year": 2018,
+      "ADS link": "https://doi.org/10.1093/mnras/sty1923",
+      "note": "Earliest verified candidate: Spiniello et al. 2018 v1, KIDS0907+0003 (Possible NIQ). Chan et al. 2020 also lists it as a candidate, without X-shooter follow-up. GraL V (2019) reports a lens identification, but its Keck spectrum is unresolved and no deflector is detected. The authors' identification is retained as a distinct event; an independent confirmation publication was not established in this review.",
       "source_type": "Quasar",
       "lens_type": "Galaxy",
       "catalog_id": 118,
       "reference_review": {
-        "status": "corrected_pending",
+        "status": "priority_pending",
         "pending": true,
         "date": "2026-11-01",
-        "note": "Earliest discovery/confirmation priority remains to be checked. The linked GraL V record is the 2019 preprint.",
+        "note": "Earliest verified candidate: Spiniello et al. 2018 v1, KIDS0907+0003 (Possible NIQ). Chan et al. 2020 also lists it as a candidate, without X-shooter follow-up. GraL V (2019) reports a lens identification, but its Keck spectrum is unresolved and no deflector is detected. The authors' identification is retained as a distinct event; an independent confirmation publication was not established in this review.",
         "evidence": [
+          "https://doi.org/10.1093/mnras/sty1923",
+          "https://arxiv.org/abs/1805.12436v1",
+          "https://doi.org/10.1051/0004-6361/201937030",
+          "https://arxiv.org/abs/1911.02587v1",
           "https://arxiv.org/abs/1912.08977"
         ]
+      },
+      "candidate report": "Spiniello et al. 2018\nCandidate\nFirst public: 2018-05-31\nhttps://doi.org/10.1093/mnras/sty1923",
+      "confirmation report": "Independent confirmation not established in this review. Krone-Martins et al. 2019 (preprint) reports a lens identification from unresolved spectroscopy: https://arxiv.org/abs/1912.08977",
+      "discovery review": "Pending: independent confirmation",
+      "discovery_history": {
+        "catalog_id": 118,
+        "primary": {
+          "citation": "Spiniello et al. 2018",
+          "year": 2018,
+          "first_public": "2018-05-31",
+          "url": "https://doi.org/10.1093/mnras/sty1923",
+          "role": "Candidate",
+          "detail": "KIDS0907+0003 is in the high-grade candidate table in v1, labelled Possible NIQ; this is not the confirmed KIDS1042+0023.",
+          "first_public_url": "https://arxiv.org/abs/1805.12436v1"
+        },
+        "candidate": {
+          "citation": "Spiniello et al. 2018",
+          "year": 2018,
+          "first_public": "2018-05-31",
+          "url": "https://doi.org/10.1093/mnras/sty1923",
+          "role": "Candidate",
+          "detail": "KIDS0907+0003 is in the high-grade candidate table in v1, labelled Possible NIQ; this is not the confirmed KIDS1042+0023.",
+          "first_public_url": "https://arxiv.org/abs/1805.12436v1"
+        },
+        "confirmation": null,
+        "note": "Earliest verified candidate: Spiniello et al. 2018 v1, KIDS0907+0003 (Possible NIQ). Chan et al. 2020 also lists it as a candidate, without X-shooter follow-up. GraL V (2019) reports a lens identification, but its Keck spectrum is unresolved and no deflector is detected. The authors' identification is retained as a distinct event; an independent confirmation publication was not established in this review.",
+        "pending": true,
+        "events": [
+          {
+            "citation": "Chan et al. 2020",
+            "year": 2020,
+            "first_public": "2019-11-06",
+            "url": "https://doi.org/10.1051/0004-6361/201937030",
+            "role": "Candidate",
+            "detail": "Table 1 HSCJ090710+000320, average grade 1.8, no dagger indicating X-shooter follow-up.",
+            "first_public_url": "https://arxiv.org/abs/1911.02587v1"
+          },
+          {
+            "citation": "Krone-Martins et al. 2019 (preprint)",
+            "year": 2019,
+            "first_public": "2019-12-19",
+            "url": "https://arxiv.org/abs/1912.08977",
+            "role": "Reported lens identification",
+            "detail": "Section 4.1: unresolved Keck spectrum, foreground absorption and nearly saturated C IV absorption; authors identify a lens.",
+            "first_public_url": "https://arxiv.org/abs/1912.08977"
+          }
+        ],
+        "evidence": [
+          "https://doi.org/10.1093/mnras/sty1923",
+          "https://arxiv.org/abs/1805.12436v1",
+          "https://doi.org/10.1051/0004-6361/201937030",
+          "https://arxiv.org/abs/1911.02587v1",
+          "https://arxiv.org/abs/1912.08977"
+        ],
+        "candidate_note": "",
+        "confirmation_note": "Independent confirmation not established in this review. Krone-Martins et al. 2019 (preprint) reports a lens identification from unresolved spectroscopy: https://arxiv.org/abs/1912.08977",
+        "name": "J0907+0003"
       }
     },
     {
@@ -2787,7 +3260,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 119
+      "catalog_id": 119,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 121,
@@ -2809,7 +3285,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Group of galaxies",
-      "catalog_id": 120
+      "catalog_id": 120,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 122,
@@ -2831,7 +3310,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 121
+      "catalog_id": 121,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 123,
@@ -2853,7 +3335,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "CLUSTER",
-      "catalog_id": 122
+      "catalog_id": 122,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 124,
@@ -2875,7 +3360,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 123
+      "catalog_id": 123,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 125,
@@ -2897,7 +3385,10 @@
       "note": "Lemon et al. 2023",
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 124
+      "catalog_id": 124,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 126,
@@ -2919,7 +3410,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 125
+      "catalog_id": 125,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 127,
@@ -2941,7 +3435,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 126
+      "catalog_id": 126,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 128,
@@ -2963,7 +3460,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 127
+      "catalog_id": 127,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 129,
@@ -2985,7 +3485,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 128
+      "catalog_id": 128,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 130,
@@ -3007,7 +3510,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 129
+      "catalog_id": 129,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 131,
@@ -3029,7 +3535,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 130
+      "catalog_id": 130,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 132,
@@ -3045,22 +3554,71 @@
       "z_source": "1.54",
       "image_sep": "5.4",
       "n_img": 2,
-      "first discovered": "Lemon et al. 2018",
+      "first discovered": "Williams et al. 2018",
       "year": 2018,
-      "ADS link": "https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.5060L/abstract",
-      "note": "Pending reference review: Independent discoveries by Williams et al. and Lemon et al. require a first-public-version comparison.",
+      "ADS link": "https://doi.org/10.1093/mnrasl/sly043",
+      "note": "J0941+0518 is present and reported as confirmed in Williams arXiv v1 (2017-06-05). Lemon et al. 2018 independently confirm it, but their first preprint is 2018-03-20. The primary year remains the 2018 journal year; earliest verified public report is the 2017 preprint.",
       "source_type": "Quasar",
       "lens_type": "Galaxy",
       "catalog_id": 131,
       "reference_review": {
-        "status": "corrected_pending",
-        "pending": true,
+        "status": "priority_checked",
+        "pending": false,
         "date": "2026-11-01",
-        "note": "Independent discoveries by Williams et al. and Lemon et al. require a first-public-version comparison.",
+        "note": "J0941+0518 is present and reported as confirmed in Williams arXiv v1 (2017-06-05). Lemon et al. 2018 independently confirm it, but their first preprint is 2018-03-20. The primary year remains the 2018 journal year; earliest verified public report is the 2017 preprint.",
         "evidence": [
-          "https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.5060L/abstract",
-          "https://arxiv.org/abs/1706.01506"
+          "https://doi.org/10.1093/mnrasl/sly043",
+          "https://arxiv.org/abs/1706.01506v1",
+          "https://doi.org/10.1093/mnras/sty911",
+          "https://arxiv.org/abs/1803.07601v1"
         ]
+      },
+      "candidate report": "No separate earlier candidate publication located; first verified public report already presents confirmation.",
+      "confirmation report": "Williams et al. 2018\nConfirmation\nFirst public: 2017-06-05\nhttps://doi.org/10.1093/mnrasl/sly043",
+      "discovery review": "Checked: earliest located public sources",
+      "discovery_history": {
+        "catalog_id": 131,
+        "primary": {
+          "citation": "Williams et al. 2018",
+          "year": 2018,
+          "first_public": "2017-06-05",
+          "url": "https://doi.org/10.1093/mnrasl/sly043",
+          "role": "Confirmation",
+          "detail": "",
+          "first_public_url": "https://arxiv.org/abs/1706.01506v1"
+        },
+        "candidate": null,
+        "confirmation": {
+          "citation": "Williams et al. 2018",
+          "year": 2018,
+          "first_public": "2017-06-05",
+          "url": "https://doi.org/10.1093/mnrasl/sly043",
+          "role": "Confirmation",
+          "detail": "",
+          "first_public_url": "https://arxiv.org/abs/1706.01506v1"
+        },
+        "note": "J0941+0518 is present and reported as confirmed in Williams arXiv v1 (2017-06-05). Lemon et al. 2018 independently confirm it, but their first preprint is 2018-03-20. The primary year remains the 2018 journal year; earliest verified public report is the 2017 preprint.",
+        "pending": false,
+        "events": [
+          {
+            "citation": "Lemon et al. 2018",
+            "year": 2018,
+            "first_public": "2018-03-20",
+            "url": "https://doi.org/10.1093/mnras/sty911",
+            "role": "Independent confirmation",
+            "detail": "Section 5.1.10 acknowledges concurrent discoveries.",
+            "first_public_url": "https://arxiv.org/abs/1803.07601v1"
+          }
+        ],
+        "evidence": [
+          "https://doi.org/10.1093/mnrasl/sly043",
+          "https://arxiv.org/abs/1706.01506v1",
+          "https://doi.org/10.1093/mnras/sty911",
+          "https://arxiv.org/abs/1803.07601v1"
+        ],
+        "candidate_note": "No separate earlier candidate publication located; first verified public report already presents confirmation.",
+        "confirmation_note": "",
+        "name": "J0941+0518"
       }
     },
     {
@@ -3083,7 +3641,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 132
+      "catalog_id": 132,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 134,
@@ -3105,7 +3666,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 133
+      "catalog_id": 133,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 135,
@@ -3136,7 +3700,10 @@
         "evidence": [
           "https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.5060L/abstract"
         ]
-      }
+      },
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 136,
@@ -3158,7 +3725,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "edge-on disk galaxy",
-      "catalog_id": 135
+      "catalog_id": 135,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 137,
@@ -3180,7 +3750,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 136
+      "catalog_id": 136,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 138,
@@ -3202,7 +3775,10 @@
       "note": "找不到文章具体内容，无法确认，沿用catalogue",
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 137
+      "catalog_id": 137,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 139,
@@ -3234,7 +3810,10 @@
           "https://doi.org/10.1038/279381a0",
           "https://ui.adsabs.harvard.edu/abs/1979Natur.279..381W/abstract"
         ]
-      }
+      },
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 140,
@@ -3256,7 +3835,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 139
+      "catalog_id": 139,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 141,
@@ -3278,7 +3860,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 140
+      "catalog_id": 140,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 142,
@@ -3300,7 +3885,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 141
+      "catalog_id": 141,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 143,
@@ -3322,7 +3910,10 @@
       "note": null,
       "source_type": "LoBAL Quasar, BAL Quasar, FeLoBAL Quasar, Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 142
+      "catalog_id": 142,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 144,
@@ -3354,7 +3945,10 @@
           "https://arxiv.org/abs/astro-ph/0312427",
           "https://ui.adsabs.harvard.edu/abs/2003Natur.426..810I/abstract"
         ]
-      }
+      },
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 145,
@@ -3376,7 +3970,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 144
+      "catalog_id": 144,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 146,
@@ -3398,7 +3995,10 @@
       "note": null,
       "source_type": "BAL Quasar, Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 145
+      "catalog_id": 145,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 147,
@@ -3420,7 +4020,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 146
+      "catalog_id": 146,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 148,
@@ -3442,7 +4045,10 @@
       "note": "https://arxiv.org/pdf/astro-ph/0510465",
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 147
+      "catalog_id": 147,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 149,
@@ -3464,7 +4070,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 148
+      "catalog_id": 148,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 150,
@@ -3480,22 +4089,101 @@
       "z_source": "2.286",
       "image_sep": "2.53",
       "n_img": null,
-      "first discovered": "Rowan-Robinson et al. 1991",
-      "year": 1991,
-      "ADS link": "https://ui.adsabs.harvard.edu/abs/1991Natur.351..719R/abstract",
-      "note": "Pending reference review: The 1991 reference reports the infrared object. First identification as a gravitational lens remains to be established.",
+      "first discovered": "Matthews et al. 1994",
+      "year": 1994,
+      "ADS link": "https://doi.org/10.1086/187151",
+      "note": "Rowan-Robinson 1991 discovers the infrared object, not its lens nature. Matthews 1994 is the earliest located explicit lens hypothesis, which those authors disfavor; Elston 1994 gives a positive possible-magnification interpretation. Broadhurst & Lehar 1995 and Graham & Liu 1995 supply lens/counterimage evidence; Eisenhardt 1996 adds HST confirmation (preprint 1995). Do not treat the 1994 hypothesis as confirmation.",
       "source_type": "ULIRG, Quasar",
       "lens_type": "Galaxy",
       "catalog_id": 149,
       "reference_review": {
-        "status": "pending",
-        "pending": true,
+        "status": "priority_checked",
+        "pending": false,
         "date": "2026-11-01",
-        "note": "The 1991 reference reports the infrared object. First identification as a gravitational lens remains to be established.",
+        "note": "Rowan-Robinson 1991 discovers the infrared object, not its lens nature. Matthews 1994 is the earliest located explicit lens hypothesis, which those authors disfavor; Elston 1994 gives a positive possible-magnification interpretation. Broadhurst & Lehar 1995 and Graham & Liu 1995 supply lens/counterimage evidence; Eisenhardt 1996 adds HST confirmation (preprint 1995). Do not treat the 1994 hypothesis as confirmation.",
         "evidence": [
-          "https://ui.adsabs.harvard.edu/abs/1991Natur.351..719R/abstract",
-          "https://ui.adsabs.harvard.edu/abs/1995ApJ...449L..29G/abstract"
+          "https://doi.org/10.1086/187151",
+          "https://doi.org/10.1086/316774",
+          "https://arxiv.org/abs/astro-ph/9505013",
+          "https://ui.adsabs.harvard.edu/abs/1994AJ....107..910E/abstract",
+          "https://ui.adsabs.harvard.edu/abs/1995ApJ...449L..29G/abstract",
+          "https://arxiv.org/abs/astro-ph/9510093"
         ]
+      },
+      "candidate report": "Matthews et al. 1994\nEarly lens hypothesis\nFirst public: 1994-01-01\nhttps://doi.org/10.1086/187151",
+      "confirmation report": "Broadhurst & Lehar 1995\nConfirmation\nFirst public: 1995-05-03\nhttps://doi.org/10.1086/316774",
+      "discovery review": "Checked: earliest located public sources",
+      "discovery_history": {
+        "catalog_id": 149,
+        "primary": {
+          "citation": "Matthews et al. 1994",
+          "year": 1994,
+          "first_public": "1994-01-01",
+          "url": "https://doi.org/10.1086/187151",
+          "role": "Early lens hypothesis",
+          "detail": "ApJ 420 L13-L16, especially L15: arcs suggest lensing, but the authors disfavor it because of chromatic morphology.",
+          "first_public_url": "https://doi.org/10.1086/187151"
+        },
+        "candidate": {
+          "citation": "Matthews et al. 1994",
+          "year": 1994,
+          "first_public": "1994-01-01",
+          "url": "https://doi.org/10.1086/187151",
+          "role": "Early lens hypothesis",
+          "detail": "ApJ 420 L13-L16, especially L15: arcs suggest lensing, but the authors disfavor it because of chromatic morphology.",
+          "first_public_url": "https://doi.org/10.1086/187151"
+        },
+        "confirmation": {
+          "citation": "Broadhurst & Lehar 1995",
+          "year": 1995,
+          "first_public": "1995-05-03",
+          "url": "https://doi.org/10.1086/316774",
+          "role": "Confirmation",
+          "detail": "Lens model and counterimage interpretation; not the 1991 infrared-object discovery.",
+          "first_public_url": "https://arxiv.org/abs/astro-ph/9505013"
+        },
+        "note": "Rowan-Robinson 1991 discovers the infrared object, not its lens nature. Matthews 1994 is the earliest located explicit lens hypothesis, which those authors disfavor; Elston 1994 gives a positive possible-magnification interpretation. Broadhurst & Lehar 1995 and Graham & Liu 1995 supply lens/counterimage evidence; Eisenhardt 1996 adds HST confirmation (preprint 1995). Do not treat the 1994 hypothesis as confirmation.",
+        "pending": false,
+        "events": [
+          {
+            "citation": "Elston et al. 1994",
+            "year": 1994,
+            "first_public": "1994-03",
+            "url": "https://ui.adsabs.harvard.edu/abs/1994AJ....107..910E/abstract",
+            "role": "Candidate interpretation",
+            "detail": "Foreground group could gravitationally amplify the source; month precision only.",
+            "first_public_url": "https://ui.adsabs.harvard.edu/abs/1994AJ....107..910E/abstract"
+          },
+          {
+            "citation": "Graham & Liu 1995",
+            "year": 1995,
+            "first_public": "1995-08-10",
+            "url": "https://ui.adsabs.harvard.edu/abs/1995ApJ...449L..29G/abstract",
+            "role": "Independent confirmation",
+            "detail": "Keck arc and faint counterimage; journal publication date.",
+            "first_public_url": "https://ui.adsabs.harvard.edu/abs/1995ApJ...449L..29G/abstract"
+          },
+          {
+            "citation": "Eisenhardt et al. 1996",
+            "year": 1996,
+            "first_public": "1995-10-19",
+            "url": "https://arxiv.org/abs/astro-ph/9510093",
+            "role": "HST confirmation",
+            "detail": "HST imaging and lens model.",
+            "first_public_url": "https://arxiv.org/abs/astro-ph/9510093"
+          }
+        ],
+        "evidence": [
+          "https://doi.org/10.1086/187151",
+          "https://doi.org/10.1086/316774",
+          "https://arxiv.org/abs/astro-ph/9505013",
+          "https://ui.adsabs.harvard.edu/abs/1994AJ....107..910E/abstract",
+          "https://ui.adsabs.harvard.edu/abs/1995ApJ...449L..29G/abstract",
+          "https://arxiv.org/abs/astro-ph/9510093"
+        ],
+        "candidate_note": "",
+        "confirmation_note": "",
+        "name": "FSC10214+4724"
       }
     },
     {
@@ -3518,7 +4206,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 150
+      "catalog_id": 150,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 152,
@@ -3540,7 +4231,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": null,
-      "catalog_id": 151
+      "catalog_id": 151,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 153,
@@ -3562,7 +4256,10 @@
       "note": null,
       "source_type": "Radio-loud, Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 152
+      "catalog_id": 152,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 154,
@@ -3584,7 +4281,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 153
+      "catalog_id": 153,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 155,
@@ -3606,7 +4306,10 @@
       "note": null,
       "source_type": "BAL Quasar, Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 154
+      "catalog_id": 154,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 156,
@@ -3628,7 +4331,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 155
+      "catalog_id": 155,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 157,
@@ -3650,7 +4356,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 156
+      "catalog_id": 156,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 158,
@@ -3672,7 +4381,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 157
+      "catalog_id": 157,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 159,
@@ -3694,7 +4406,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 158
+      "catalog_id": 158,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 160,
@@ -3716,7 +4431,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 159
+      "catalog_id": 159,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 161,
@@ -3738,7 +4456,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 160
+      "catalog_id": 160,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 162,
@@ -3760,7 +4481,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 161
+      "catalog_id": 161,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 163,
@@ -3782,7 +4506,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 162
+      "catalog_id": 162,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 164,
@@ -3804,7 +4531,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 163
+      "catalog_id": 163,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 165,
@@ -3826,7 +4556,10 @@
       "note": null,
       "source_type": "Radio-loud, Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 164
+      "catalog_id": 164,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 166,
@@ -3848,7 +4581,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 165
+      "catalog_id": 165,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 167,
@@ -3870,7 +4606,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 166
+      "catalog_id": 166,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 168,
@@ -3892,7 +4631,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 167
+      "catalog_id": 167,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 169,
@@ -3914,7 +4656,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 168
+      "catalog_id": 168,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 170,
@@ -3936,7 +4681,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 169
+      "catalog_id": 169,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 171,
@@ -3952,23 +4700,76 @@
       "z_source": "2.438",
       "image_sep": "1.46",
       "n_img": 4,
-      "first discovered": "Eigenbrod et al. 2006",
-      "year": 2006,
-      "ADS link": "https://ui.adsabs.harvard.edu/abs/2006A%26A...451..759E/abstract",
-      "note": "Burles et al. 2005, in preparation\nPending reference review: Eigenbrod 2006 is lens-redshift follow-up and credits Burles 2005, in preparation. Earliest public discovery remains unresolved.",
+      "first discovered": "Oguri et al. 2005",
+      "year": 2005,
+      "ADS link": "https://doi.org/10.1086/428087",
+      "note": "Earliest located public listing is Oguri et al. (2005), available as a 2004 preprint; it already calls the object a lens and credits Burles et al. in preparation. Eigenbrod 2006 measures the deflector redshift and is not the discovery paper. SQLS II describes the Magellan snapshot discovery but still cites an unpublished Burles manuscript. Original discovery/confirmation publication priority remains unresolved; Sluse 2012 later publishes resolved image spectra.",
       "source_type": "Quasar",
       "lens_type": "Galaxy",
       "catalog_id": 170,
       "reference_review": {
-        "status": "pending",
+        "status": "priority_pending",
         "pending": true,
         "date": "2026-11-01",
-        "note": "Eigenbrod 2006 is lens-redshift follow-up and credits Burles 2005, in preparation. Earliest public discovery remains unresolved.",
+        "note": "Earliest located public listing is Oguri et al. (2005), available as a 2004 preprint; it already calls the object a lens and credits Burles et al. in preparation. Eigenbrod 2006 measures the deflector redshift and is not the discovery paper. SQLS II describes the Magellan snapshot discovery but still cites an unpublished Burles manuscript. Original discovery/confirmation publication priority remains unresolved; Sluse 2012 later publishes resolved image spectra.",
         "evidence": [
-          "https://ui.adsabs.harvard.edu/abs/2006A%26A...451..759E/abstract",
-          "https://arxiv.org/abs/astro-ph/0411250",
+          "https://doi.org/10.1086/428087",
+          "https://arxiv.org/abs/astro-ph/0411250v1",
+          "https://doi.org/10.1088/0004-6256/135/2/496",
+          "https://arxiv.org/abs/0708.0828",
+          "https://doi.org/10.1051/0004-6361/201219125",
           "https://arxiv.org/abs/astro-ph/0511026"
         ]
+      },
+      "candidate report": "No separate earlier public candidate record located.",
+      "confirmation report": "Known lens in the 2004 public listing; original confirmation publication not located. Later resolved spectra: Sluse et al. 2012.",
+      "discovery review": "Pending: original discovery publication",
+      "discovery_history": {
+        "catalog_id": 170,
+        "primary": {
+          "citation": "Oguri et al. 2005",
+          "year": 2005,
+          "first_public": "2004-11-10",
+          "url": "https://doi.org/10.1086/428087",
+          "role": "Earliest located public lens listing",
+          "detail": "Lists SDSS J1138+0314 and credits Burles et al. in preparation.",
+          "first_public_url": "https://arxiv.org/abs/astro-ph/0411250v1"
+        },
+        "candidate": null,
+        "confirmation": null,
+        "note": "Earliest located public listing is Oguri et al. (2005), available as a 2004 preprint; it already calls the object a lens and credits Burles et al. in preparation. Eigenbrod 2006 measures the deflector redshift and is not the discovery paper. SQLS II describes the Magellan snapshot discovery but still cites an unpublished Burles manuscript. Original discovery/confirmation publication priority remains unresolved; Sluse 2012 later publishes resolved image spectra.",
+        "pending": true,
+        "events": [
+          {
+            "citation": "Inada et al. 2008",
+            "year": 2008,
+            "first_public": "2007-08-07",
+            "url": "https://doi.org/10.1088/0004-6256/135/2/496",
+            "role": "SQLS sample listing",
+            "detail": "Lists the already-known lenses; not an original individual discovery article.",
+            "first_public_url": "https://arxiv.org/abs/0708.0828"
+          },
+          {
+            "citation": "Sluse et al. 2012",
+            "year": 2012,
+            "first_public": "2012",
+            "url": "https://doi.org/10.1051/0004-6361/201219125",
+            "role": "Later resolved spectra",
+            "detail": "Conclusion explicitly identifies the first published individual-image spectra of J1138+0314 and J1226-0006. Year precision; not assigned first-discovery priority.",
+            "first_public_url": "https://doi.org/10.1051/0004-6361/201219125"
+          }
+        ],
+        "evidence": [
+          "https://doi.org/10.1086/428087",
+          "https://arxiv.org/abs/astro-ph/0411250v1",
+          "https://doi.org/10.1088/0004-6256/135/2/496",
+          "https://arxiv.org/abs/0708.0828",
+          "https://doi.org/10.1051/0004-6361/201219125",
+          "https://arxiv.org/abs/astro-ph/0511026"
+        ],
+        "candidate_note": "",
+        "confirmation_note": "Known lens in the 2004 public listing; original confirmation publication not located. Later resolved spectra: Sluse et al. 2012.",
+        "name": "SDSSJ1138+0314"
       }
     },
     {
@@ -3991,7 +4792,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 171
+      "catalog_id": 171,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 173,
@@ -4013,7 +4817,10 @@
       "note": "有光谱",
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 172
+      "catalog_id": 172,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 174,
@@ -4035,7 +4842,10 @@
       "note": null,
       "source_type": "Radio-loud, Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 173
+      "catalog_id": 173,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 175,
@@ -4057,7 +4867,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 174
+      "catalog_id": 174,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 176,
@@ -4079,7 +4892,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 175
+      "catalog_id": 175,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 177,
@@ -4101,7 +4917,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 176
+      "catalog_id": 176,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 178,
@@ -4123,7 +4942,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 177
+      "catalog_id": 177,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 179,
@@ -4145,7 +4967,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 178
+      "catalog_id": 178,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 180,
@@ -4163,19 +4988,72 @@
       "n_img": 2,
       "first discovered": "Pindor et al. 2003",
       "year": 2003,
-      "ADS link": "https://ui.adsabs.harvard.edu/abs/2003AJ....125.2325P/abstract",
-      "note": "Pending reference review: Pindor 2003 describes a previously known lens and credits Inada 2002, submitted. First-discovery attribution remains unresolved.",
+      "ADS link": "https://doi.org/10.1086/374233",
+      "note": "Pindor 2003 already reports J1226-0006 as a discovered lens, but credits Inada et al. 2002 (submitted). That manuscript was not located as a public publication; its year must not be used as a verified public discovery date. Inada 2008 is a later SQLS sample report, and Sluse 2012 supplies the first published individual-image spectra. Original discovery/confirmation authorship remains unresolved.",
       "source_type": "Quasar",
       "lens_type": null,
       "catalog_id": 179,
       "reference_review": {
-        "status": "pending",
+        "status": "priority_pending",
         "pending": true,
         "date": "2026-11-01",
-        "note": "Pindor 2003 describes a previously known lens and credits Inada 2002, submitted. First-discovery attribution remains unresolved.",
+        "note": "Pindor 2003 already reports J1226-0006 as a discovered lens, but credits Inada et al. 2002 (submitted). That manuscript was not located as a public publication; its year must not be used as a verified public discovery date. Inada 2008 is a later SQLS sample report, and Sluse 2012 supplies the first published individual-image spectra. Original discovery/confirmation authorship remains unresolved.",
         "evidence": [
-          "https://ui.adsabs.harvard.edu/abs/2003AJ....125.2325P/abstract"
+          "https://doi.org/10.1086/374233",
+          "https://arxiv.org/abs/astro-ph/0301464v1",
+          "https://doi.org/10.1088/0004-6256/135/2/496",
+          "https://arxiv.org/abs/0708.0828",
+          "https://doi.org/10.1051/0004-6361/201219125"
         ]
+      },
+      "candidate report": "No separate earlier public candidate record located.",
+      "confirmation report": "Already reported as a lens by Pindor 2003; original confirmation manuscript not located. Later resolved spectra: Sluse et al. 2012.",
+      "discovery review": "Pending: original discovery publication",
+      "discovery_history": {
+        "catalog_id": 179,
+        "primary": {
+          "citation": "Pindor et al. 2003",
+          "year": 2003,
+          "first_public": "2003-01-23",
+          "url": "https://doi.org/10.1086/374233",
+          "role": "Earliest located public lens report",
+          "detail": "Describes SDSS J1226-0006 and credits Inada et al. 2002, submitted.",
+          "first_public_url": "https://arxiv.org/abs/astro-ph/0301464v1"
+        },
+        "candidate": null,
+        "confirmation": null,
+        "note": "Pindor 2003 already reports J1226-0006 as a discovered lens, but credits Inada et al. 2002 (submitted). That manuscript was not located as a public publication; its year must not be used as a verified public discovery date. Inada 2008 is a later SQLS sample report, and Sluse 2012 supplies the first published individual-image spectra. Original discovery/confirmation authorship remains unresolved.",
+        "pending": true,
+        "events": [
+          {
+            "citation": "Inada et al. 2008",
+            "year": 2008,
+            "first_public": "2007-08-07",
+            "url": "https://doi.org/10.1088/0004-6256/135/2/496",
+            "role": "SQLS sample listing",
+            "detail": "Lists the already-known lenses; not an original individual discovery article.",
+            "first_public_url": "https://arxiv.org/abs/0708.0828"
+          },
+          {
+            "citation": "Sluse et al. 2012",
+            "year": 2012,
+            "first_public": "2012",
+            "url": "https://doi.org/10.1051/0004-6361/201219125",
+            "role": "Later resolved spectra",
+            "detail": "Conclusion explicitly identifies the first published individual-image spectra of J1138+0314 and J1226-0006. Year precision; not assigned first-discovery priority.",
+            "first_public_url": "https://doi.org/10.1051/0004-6361/201219125"
+          }
+        ],
+        "evidence": [
+          "https://doi.org/10.1086/374233",
+          "https://arxiv.org/abs/astro-ph/0301464v1",
+          "https://doi.org/10.1088/0004-6256/135/2/496",
+          "https://arxiv.org/abs/0708.0828",
+          "https://doi.org/10.1051/0004-6361/201219125"
+        ],
+        "candidate_note": "",
+        "confirmation_note": "Already reported as a lens by Pindor 2003; original confirmation manuscript not located. Later resolved spectra: Sluse et al. 2012.",
+        "name": "SDSSJ1226-0006"
       }
     },
     {
@@ -4198,7 +5076,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 180
+      "catalog_id": 180,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 182,
@@ -4220,7 +5101,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 181
+      "catalog_id": 181,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 183,
@@ -4242,7 +5126,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 182
+      "catalog_id": 182,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 184,
@@ -4264,7 +5151,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 183
+      "catalog_id": 183,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 185,
@@ -4286,7 +5176,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 184
+      "catalog_id": 184,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 186,
@@ -4308,7 +5201,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 185
+      "catalog_id": 185,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 187,
@@ -4330,7 +5226,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 186
+      "catalog_id": 186,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 188,
@@ -4352,7 +5251,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 187
+      "catalog_id": 187,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 189,
@@ -4374,7 +5276,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 188
+      "catalog_id": 188,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 190,
@@ -4396,7 +5301,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 189
+      "catalog_id": 189,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 191,
@@ -4418,7 +5326,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 190
+      "catalog_id": 190,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 192,
@@ -4440,7 +5351,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 191
+      "catalog_id": 191,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 193,
@@ -4462,7 +5376,10 @@
       "note": "Lemon et al. 2023 confirm",
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 192
+      "catalog_id": 192,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 194,
@@ -4493,7 +5410,10 @@
         "evidence": [
           "https://ui.adsabs.harvard.edu/abs/2018MNRAS.476..927L/abstract"
         ]
-      }
+      },
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 195,
@@ -4515,7 +5435,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 194
+      "catalog_id": 194,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 196,
@@ -4547,7 +5470,10 @@
           "https://arxiv.org/abs/0708.0871",
           "https://ui.adsabs.harvard.edu/abs/2008AJ....135..520O/abstract"
         ]
-      }
+      },
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 197,
@@ -4569,7 +5495,10 @@
       "note": "很严谨的标准",
       "source_type": "Quasar",
       "lens_type": "Galaxy cluster",
-      "catalog_id": 196
+      "catalog_id": 196,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 198,
@@ -4591,7 +5520,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 197
+      "catalog_id": 197,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 199,
@@ -4613,7 +5545,10 @@
       "note": null,
       "source_type": "BAL Quasar, Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 198
+      "catalog_id": 198,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 200,
@@ -4635,7 +5570,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 199
+      "catalog_id": 199,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 201,
@@ -4657,7 +5595,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 200
+      "catalog_id": 200,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 202,
@@ -4679,7 +5620,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 201
+      "catalog_id": 201,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 203,
@@ -4701,7 +5645,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 202
+      "catalog_id": 202,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 204,
@@ -4723,7 +5670,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 203
+      "catalog_id": 203,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 205,
@@ -4745,7 +5695,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 204
+      "catalog_id": 204,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 206,
@@ -4767,7 +5720,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 205
+      "catalog_id": 205,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 207,
@@ -4789,7 +5745,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 206
+      "catalog_id": 206,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 208,
@@ -4811,7 +5770,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 207
+      "catalog_id": 207,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 209,
@@ -4827,22 +5789,72 @@
       "z_source": "1.096",
       "image_sep": "1.05",
       "n_img": 2,
-      "first discovered": "Jaelani et al. 2021",
-      "year": 2021,
-      "ADS link": "https://doi.org/10.1093/mnras/stab145",
-      "note": "Pending reference review: Jaelani 2021 is the verified confirmation paper. Earliest candidate source remains to be checked; the short name also disagrees with the full coordinate alias.",
+      "first discovered": "Khramtsov et al. 2019",
+      "year": 2019,
+      "ADS link": "https://doi.org/10.1051/0004-6361/201936006",
+      "note": "Khramtsov 2019 Table 4 lists KIDSJ1359+0129 at 13:59:43.98, +01:28:13.90, matching this catalogue position. Jaelani 2021 instead confirms SDSS J135944.21+012809.8 at (209.9342, +1.4693), about 5.5 arcsec away. The inherited name/coordinates and full alias therefore disagree. Do not transfer Jaelani's confirmation, redshift or paper-image identity to the KiDS candidate without reconciling this discrepancy. The inherited scientific values and image pixels are retained, but their association is explicitly unverified.",
       "source_type": "Quasar",
       "lens_type": "Galaxy",
       "catalog_id": 208,
       "reference_review": {
-        "status": "corrected_pending",
+        "status": "priority_pending",
         "pending": true,
         "date": "2026-11-01",
-        "note": "Jaelani 2021 is the verified confirmation paper. Earliest candidate source remains to be checked; the short name also disagrees with the full coordinate alias.",
+        "note": "Khramtsov 2019 Table 4 lists KIDSJ1359+0129 at 13:59:43.98, +01:28:13.90, matching this catalogue position. Jaelani 2021 instead confirms SDSS J135944.21+012809.8 at (209.9342, +1.4693), about 5.5 arcsec away. The inherited name/coordinates and full alias therefore disagree. Do not transfer Jaelani's confirmation, redshift or paper-image identity to the KiDS candidate without reconciling this discrepancy. The inherited scientific values and image pixels are retained, but their association is explicitly unverified.",
         "evidence": [
+          "https://doi.org/10.1051/0004-6361/201936006",
+          "https://arxiv.org/abs/1906.01638v1",
           "https://doi.org/10.1093/mnras/stab145",
-          "https://arxiv.org/abs/2006.16584"
+          "https://arxiv.org/abs/2006.16584v1"
         ]
+      },
+      "candidate report": "Khramtsov et al. 2019\nCandidate\nFirst public: 2019-06-04\nhttps://doi.org/10.1051/0004-6361/201936006",
+      "confirmation report": "Unverified association: Jaelani et al. 2021 confirms the full SDSS alias at a different published position (~5.5 arcsec offset). https://doi.org/10.1093/mnras/stab145",
+      "discovery review": "Pending: target identity / confirmation association",
+      "discovery_history": {
+        "catalog_id": 208,
+        "primary": {
+          "citation": "Khramtsov et al. 2019",
+          "year": 2019,
+          "first_public": "2019-06-04",
+          "url": "https://doi.org/10.1051/0004-6361/201936006",
+          "role": "Candidate",
+          "detail": "Table 4 KIDSJ1359+0129: 13:59:43.98, +01:28:13.90, low-separation double; matches the inherited catalogue position.",
+          "first_public_url": "https://arxiv.org/abs/1906.01638v1"
+        },
+        "candidate": {
+          "citation": "Khramtsov et al. 2019",
+          "year": 2019,
+          "first_public": "2019-06-04",
+          "url": "https://doi.org/10.1051/0004-6361/201936006",
+          "role": "Candidate",
+          "detail": "Table 4 KIDSJ1359+0129: 13:59:43.98, +01:28:13.90, low-separation double; matches the inherited catalogue position.",
+          "first_public_url": "https://arxiv.org/abs/1906.01638v1"
+        },
+        "confirmation": null,
+        "note": "Khramtsov 2019 Table 4 lists KIDSJ1359+0129 at 13:59:43.98, +01:28:13.90, matching this catalogue position. Jaelani 2021 instead confirms SDSS J135944.21+012809.8 at (209.9342, +1.4693), about 5.5 arcsec away. The inherited name/coordinates and full alias therefore disagree. Do not transfer Jaelani's confirmation, redshift or paper-image identity to the KiDS candidate without reconciling this discrepancy. The inherited scientific values and image pixels are retained, but their association is explicitly unverified.",
+        "pending": true,
+        "events": [
+          {
+            "citation": "Jaelani et al. 2021",
+            "year": 2021,
+            "first_public": "2020-06-30",
+            "url": "https://doi.org/10.1093/mnras/stab145",
+            "role": "Confirmation",
+            "detail": "Section 2 says it was reselected from earlier SQLS candidates; subsequent sections provide spectra and HSC imaging.",
+            "first_public_url": "https://arxiv.org/abs/2006.16584v1"
+          }
+        ],
+        "evidence": [
+          "https://doi.org/10.1051/0004-6361/201936006",
+          "https://arxiv.org/abs/1906.01638v1",
+          "https://doi.org/10.1093/mnras/stab145",
+          "https://arxiv.org/abs/2006.16584v1"
+        ],
+        "candidate_note": "",
+        "confirmation_note": "Unverified association: Jaelani et al. 2021 confirms the full SDSS alias at a different published position (~5.5 arcsec offset). https://doi.org/10.1093/mnras/stab145",
+        "identity_warning": "The Jaelani paper image/confirmation belongs to the full SDSS alias; its association with the inherited KiDS name and coordinates is unverified (~5.5 arcsec offset).",
+        "name": "J1359+0129"
       }
     },
     {
@@ -4865,7 +5877,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 209
+      "catalog_id": 209,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 211,
@@ -4887,7 +5902,10 @@
       "note": null,
       "source_type": "Radio-loud, Quasar",
       "lens_type": "3椭圆星系复合透镜",
-      "catalog_id": 210
+      "catalog_id": 210,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 212,
@@ -4909,7 +5927,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "复合透镜",
-      "catalog_id": 211
+      "catalog_id": 211,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 213,
@@ -4931,7 +5952,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 212
+      "catalog_id": 212,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 214,
@@ -4953,7 +5977,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 213
+      "catalog_id": 213,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 215,
@@ -4975,7 +6002,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 214
+      "catalog_id": 214,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 216,
@@ -5007,7 +6037,10 @@
           "https://doi.org/10.1038/334325a0",
           "https://ui.adsabs.harvard.edu/abs/1988Natur.334..325M/abstract"
         ]
-      }
+      },
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 217,
@@ -5029,7 +6062,10 @@
       "note": null,
       "source_type": "Radio-loud, Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 216
+      "catalog_id": 216,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 218,
@@ -5051,7 +6087,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 217
+      "catalog_id": 217,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 219,
@@ -5073,7 +6112,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 218
+      "catalog_id": 218,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 220,
@@ -5095,7 +6137,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 219
+      "catalog_id": 219,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 221,
@@ -5117,7 +6162,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 220
+      "catalog_id": 220,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 222,
@@ -5139,7 +6187,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 221
+      "catalog_id": 221,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 223,
@@ -5170,7 +6221,10 @@
         "evidence": [
           "https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.5060L/abstract"
         ]
-      }
+      },
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 224,
@@ -5192,7 +6246,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 223
+      "catalog_id": 223,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 225,
@@ -5214,7 +6271,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 224
+      "catalog_id": 224,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 226,
@@ -5236,7 +6296,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 225
+      "catalog_id": 225,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 227,
@@ -5258,7 +6321,10 @@
       "note": null,
       "source_type": "BAL Quasar, Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 226
+      "catalog_id": 226,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 228,
@@ -5280,7 +6346,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 227
+      "catalog_id": 227,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 229,
@@ -5302,7 +6371,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 228
+      "catalog_id": 228,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 230,
@@ -5324,7 +6396,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 229
+      "catalog_id": 229,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 231,
@@ -5346,7 +6421,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 230
+      "catalog_id": 230,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 232,
@@ -5368,7 +6446,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 231
+      "catalog_id": 231,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 233,
@@ -5390,7 +6471,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 232
+      "catalog_id": 232,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 234,
@@ -5412,7 +6496,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 233
+      "catalog_id": 233,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 235,
@@ -5434,7 +6521,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 234
+      "catalog_id": 234,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 236,
@@ -5456,7 +6546,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 235
+      "catalog_id": 235,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 237,
@@ -5478,7 +6571,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 236
+      "catalog_id": 236,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 238,
@@ -5500,7 +6596,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 237
+      "catalog_id": 237,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 239,
@@ -5522,7 +6621,10 @@
       "note": null,
       "source_type": "Radio-loud, Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 238
+      "catalog_id": 238,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 240,
@@ -5544,7 +6646,10 @@
       "note": "标题没说candidate",
       "source_type": "Radio-loud, Quasar",
       "lens_type": "近乎边缘朝向的旋涡星系",
-      "catalog_id": 239
+      "catalog_id": 239,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 241,
@@ -5575,7 +6680,10 @@
         "evidence": [
           "https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.5060L/abstract"
         ]
-      }
+      },
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 242,
@@ -5597,7 +6705,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 241
+      "catalog_id": 241,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 243,
@@ -5619,7 +6730,10 @@
       "note": null,
       "source_type": "Radio-loud, Quasar",
       "lens_type": "Galaxy pair",
-      "catalog_id": 242
+      "catalog_id": 242,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 244,
@@ -5641,7 +6755,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 243
+      "catalog_id": 243,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 245,
@@ -5663,7 +6780,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 244
+      "catalog_id": 244,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 246,
@@ -5685,7 +6805,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 245
+      "catalog_id": 245,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 247,
@@ -5707,7 +6830,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 246
+      "catalog_id": 246,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 248,
@@ -5729,7 +6855,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 247
+      "catalog_id": 247,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 249,
@@ -5751,7 +6880,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 248
+      "catalog_id": 248,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 250,
@@ -5773,7 +6905,10 @@
       "note": null,
       "source_type": "Radio-loud, Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 249
+      "catalog_id": 249,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 251,
@@ -5795,7 +6930,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 250
+      "catalog_id": 250,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 252,
@@ -5811,22 +6949,69 @@
       "z_source": "1.7",
       "image_sep": "2.22",
       "n_img": 2,
-      "first discovered": "Lemon et al. 2018",
+      "first discovered": "Williams et al. 2018",
       "year": 2018,
-      "ADS link": "https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.5060L/abstract",
-      "note": "Pending reference review: Independent discoveries by Williams et al. and Lemon et al. require a version-by-version priority check.",
+      "ADS link": "https://doi.org/10.1093/mnrasl/sly043",
+      "note": "J1640+1045 is absent from Williams arXiv v1 (2017), which contains a different third target. It is confirmed in the final Williams journal article first published online 2018-03-14, before Lemon arXiv v1 on 2018-03-20. Cite the final DOI, not the 2017 v1, for this object.",
       "source_type": "Quasar",
       "lens_type": "Galaxy",
       "catalog_id": 251,
       "reference_review": {
-        "status": "corrected_pending",
-        "pending": true,
+        "status": "priority_checked",
+        "pending": false,
         "date": "2026-11-01",
-        "note": "Independent discoveries by Williams et al. and Lemon et al. require a version-by-version priority check.",
+        "note": "J1640+1045 is absent from Williams arXiv v1 (2017), which contains a different third target. It is confirmed in the final Williams journal article first published online 2018-03-14, before Lemon arXiv v1 on 2018-03-20. Cite the final DOI, not the 2017 v1, for this object.",
         "evidence": [
-          "https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.5060L/abstract",
-          "https://doi.org/10.1093/mnrasl/sly043"
+          "https://doi.org/10.1093/mnrasl/sly043",
+          "https://doi.org/10.1093/mnras/sty911",
+          "https://arxiv.org/abs/1803.07601v1"
         ]
+      },
+      "candidate report": "No separate earlier candidate publication located; first verified target-specific report already presents confirmation.",
+      "confirmation report": "Williams et al. 2018\nConfirmation\nFirst public: 2018-03-14\nhttps://doi.org/10.1093/mnrasl/sly043",
+      "discovery review": "Checked: earliest located public sources",
+      "discovery_history": {
+        "catalog_id": 251,
+        "primary": {
+          "citation": "Williams et al. 2018",
+          "year": 2018,
+          "first_public": "2018-03-14",
+          "url": "https://doi.org/10.1093/mnrasl/sly043",
+          "role": "Confirmation",
+          "detail": "",
+          "first_public_url": "https://doi.org/10.1093/mnrasl/sly043"
+        },
+        "candidate": null,
+        "confirmation": {
+          "citation": "Williams et al. 2018",
+          "year": 2018,
+          "first_public": "2018-03-14",
+          "url": "https://doi.org/10.1093/mnrasl/sly043",
+          "role": "Confirmation",
+          "detail": "",
+          "first_public_url": "https://doi.org/10.1093/mnrasl/sly043"
+        },
+        "note": "J1640+1045 is absent from Williams arXiv v1 (2017), which contains a different third target. It is confirmed in the final Williams journal article first published online 2018-03-14, before Lemon arXiv v1 on 2018-03-20. Cite the final DOI, not the 2017 v1, for this object.",
+        "pending": false,
+        "events": [
+          {
+            "citation": "Lemon et al. 2018",
+            "year": 2018,
+            "first_public": "2018-03-20",
+            "url": "https://doi.org/10.1093/mnras/sty911",
+            "role": "Independent confirmation",
+            "detail": "Section 5.1.10.",
+            "first_public_url": "https://arxiv.org/abs/1803.07601v1"
+          }
+        ],
+        "evidence": [
+          "https://doi.org/10.1093/mnrasl/sly043",
+          "https://doi.org/10.1093/mnras/sty911",
+          "https://arxiv.org/abs/1803.07601v1"
+        ],
+        "candidate_note": "No separate earlier candidate publication located; first verified target-specific report already presents confirmation.",
+        "confirmation_note": "",
+        "name": "J1640+1045"
       }
     },
     {
@@ -5849,7 +7034,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 252
+      "catalog_id": 252,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 254,
@@ -5871,7 +7059,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 253
+      "catalog_id": 253,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 255,
@@ -5893,7 +7084,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 254
+      "catalog_id": 254,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 256,
@@ -5915,7 +7109,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 255
+      "catalog_id": 255,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 257,
@@ -5946,7 +7143,10 @@
         "evidence": [
           "https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.5060L/abstract"
         ]
-      }
+      },
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 258,
@@ -5977,7 +7177,10 @@
         "evidence": [
           "https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.5060L/abstract"
         ]
-      }
+      },
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 259,
@@ -6008,7 +7211,10 @@
         "evidence": [
           "https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.5060L/abstract"
         ]
-      }
+      },
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 260,
@@ -6030,7 +7236,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 259
+      "catalog_id": 259,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 261,
@@ -6061,7 +7270,10 @@
         "evidence": [
           "https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.5060L/abstract"
         ]
-      }
+      },
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 262,
@@ -6092,7 +7304,10 @@
         "evidence": [
           "https://ui.adsabs.harvard.edu/abs/1988MNRAS.231..229P/abstract"
         ]
-      }
+      },
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 263,
@@ -6114,7 +7329,10 @@
       "note": null,
       "source_type": "Radio-loud, Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 262
+      "catalog_id": 262,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 264,
@@ -6136,7 +7354,10 @@
       "note": null,
       "source_type": "Radio-loud, Quasar",
       "lens_type": "Group of galaxies",
-      "catalog_id": 263
+      "catalog_id": 263,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 265,
@@ -6158,7 +7379,10 @@
       "note": "Rhoads et al. 1996引用中提到的Patnaik et al. 1992，没有链接",
       "source_type": "Radio-loud, Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 264
+      "catalog_id": 264,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 266,
@@ -6180,7 +7404,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 265
+      "catalog_id": 265,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 267,
@@ -6202,7 +7429,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 266
+      "catalog_id": 266,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 268,
@@ -6233,7 +7463,10 @@
         "evidence": [
           "https://arxiv.org/abs/astro-ph/0009451"
         ]
-      }
+      },
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 269,
@@ -6255,7 +7488,10 @@
       "note": null,
       "source_type": "BAL Quasar, Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 268
+      "catalog_id": 268,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 270,
@@ -6277,7 +7513,10 @@
       "note": "Lemon et al. 2023 confirm",
       "source_type": "BAL Quasar, Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 269
+      "catalog_id": 269,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 271,
@@ -6299,7 +7538,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 270
+      "catalog_id": 270,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 272,
@@ -6321,7 +7563,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 271
+      "catalog_id": 271,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 273,
@@ -6343,7 +7588,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 272
+      "catalog_id": 272,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 274,
@@ -6365,7 +7613,10 @@
       "note": "Krone-Martins 2018,candidate",
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 273
+      "catalog_id": 273,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 275,
@@ -6387,7 +7638,10 @@
       "note": null,
       "source_type": "Radio-loud, Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 274
+      "catalog_id": 274,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 276,
@@ -6419,7 +7673,10 @@
           "https://doi.org/10.1093/mnras/stz2200",
           "https://arxiv.org/abs/1805.11103"
         ]
-      }
+      },
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 277,
@@ -6441,7 +7698,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 276
+      "catalog_id": 276,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 278,
@@ -6463,7 +7723,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 277
+      "catalog_id": 277,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 279,
@@ -6485,7 +7748,10 @@
       "note": null,
       "source_type": "BL Lac, Radio-loud, Quasar",
       "lens_type": "2Galaxy",
-      "catalog_id": 278
+      "catalog_id": 278,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 280,
@@ -6516,7 +7782,10 @@
         "evidence": [
           "https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.5060L/abstract"
         ]
-      }
+      },
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 281,
@@ -6538,7 +7807,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 280
+      "catalog_id": 280,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 282,
@@ -6560,7 +7832,10 @@
       "note": "Hawkins, M. R. S. 2021confirmhttps://ui.adsabs.harvard.edu/abs/2021MNRAS.503.3848H/abstract",
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 281
+      "catalog_id": 281,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 283,
@@ -6582,7 +7857,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 282
+      "catalog_id": 282,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 284,
@@ -6604,7 +7882,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 283
+      "catalog_id": 283,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 285,
@@ -6626,7 +7907,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 284
+      "catalog_id": 284,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 286,
@@ -6648,7 +7932,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 285
+      "catalog_id": 285,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 287,
@@ -6670,7 +7957,10 @@
       "note": null,
       "source_type": "BAL Quasar, Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 286
+      "catalog_id": 286,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 288,
@@ -6702,7 +7992,10 @@
           "https://doi.org/10.1093/mnras/stz2200",
           "https://arxiv.org/abs/1805.11103"
         ]
-      }
+      },
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 289,
@@ -6724,7 +8017,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Spiral galaxy",
-      "catalog_id": 288
+      "catalog_id": 288,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 290,
@@ -6746,7 +8042,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 289
+      "catalog_id": 289,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 291,
@@ -6768,7 +8067,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 290
+      "catalog_id": 290,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 292,
@@ -6790,7 +8092,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 291
+      "catalog_id": 291,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 293,
@@ -6812,7 +8117,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 292
+      "catalog_id": 292,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 294,
@@ -6834,7 +8142,10 @@
       "note": "NIQ",
       "source_type": "Quasar",
       "lens_type": null,
-      "catalog_id": 293
+      "catalog_id": 293,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 295,
@@ -6856,7 +8167,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": null,
-      "catalog_id": 294
+      "catalog_id": 294,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 296,
@@ -6878,7 +8192,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy cluster",
-      "catalog_id": 295
+      "catalog_id": 295,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 297,
@@ -6909,7 +8226,10 @@
         "evidence": [
           "https://ui.adsabs.harvard.edu/abs/1985AJ.....90..691H/abstract"
         ]
-      }
+      },
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 298,
@@ -6931,7 +8251,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 297
+      "catalog_id": 297,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 299,
@@ -6953,7 +8276,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": null,
-      "catalog_id": 298
+      "catalog_id": 298,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 300,
@@ -6975,7 +8301,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 299
+      "catalog_id": 299,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 301,
@@ -7006,7 +8335,10 @@
         "evidence": [
           "https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.5060L/abstract"
         ]
-      }
+      },
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 302,
@@ -7028,7 +8360,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 301
+      "catalog_id": 301,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 303,
@@ -7050,7 +8385,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 302
+      "catalog_id": 302,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 304,
@@ -7072,7 +8410,10 @@
       "note": "Lemon et al. 2023 confirm",
       "source_type": "BAL Quasar, Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 303
+      "catalog_id": 303,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 305,
@@ -7094,7 +8435,10 @@
       "note": null,
       "source_type": "Radio-loud, Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 304
+      "catalog_id": 304,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 306,
@@ -7112,20 +8456,71 @@
       "n_img": 2,
       "first discovered": "Cox et al. 2002",
       "year": 2002,
-      "ADS link": "https://ui.adsabs.harvard.edu/abs/2002A%26A...387..406C/abstract",
-      "note": "最早出现引用的Djorgovski et al. 2000没有出版，Cox et al. 2002直接用了\nPending reference review: Cox 2002 discusses a lens/binary interpretation; Carilli 2003 supplies ring evidence. Earliest candidate priority remains unresolved.",
+      "ADS link": "https://doi.org/10.1051/0004-6361:20020382",
+      "note": "Cox 2002 is the earliest located explicit target-specific lens/binary candidate report. Its companion observation is credited to Djorgovski et al. in preparation, not a verified 2000 publication. Omont 2001 and Isaak 2002 do not establish an earlier target-specific lens identification. Carilli 2002 still leaves the interpretation open; the CO Einstein ring is reported by Carilli 2003.",
       "source_type": "Quasar",
       "lens_type": null,
       "catalog_id": 305,
       "reference_review": {
-        "status": "pending",
-        "pending": true,
+        "status": "priority_checked",
+        "pending": false,
         "date": "2026-11-01",
-        "note": "Cox 2002 discusses a lens/binary interpretation; Carilli 2003 supplies ring evidence. Earliest candidate priority remains unresolved.",
+        "note": "Cox 2002 is the earliest located explicit target-specific lens/binary candidate report. Its companion observation is credited to Djorgovski et al. in preparation, not a verified 2000 publication. Omont 2001 and Isaak 2002 do not establish an earlier target-specific lens identification. Carilli 2002 still leaves the interpretation open; the CO Einstein ring is reported by Carilli 2003.",
         "evidence": [
-          "https://ui.adsabs.harvard.edu/abs/2002A%26A...387..406C/abstract",
-          "https://ui.adsabs.harvard.edu/abs/2003Sci...300..773C/abstract"
+          "https://doi.org/10.1051/0004-6361:20020382",
+          "https://arxiv.org/abs/astro-ph/0203355v1",
+          "https://doi.org/10.1126/science.1082600",
+          "https://arxiv.org/abs/astro-ph/0304124",
+          "https://arxiv.org/abs/astro-ph/0107005",
+          "https://arxiv.org/abs/astro-ph/0204253"
         ]
+      },
+      "candidate report": "Cox et al. 2002\nCandidate\nFirst public: 2002-03-20\nhttps://doi.org/10.1051/0004-6361:20020382",
+      "confirmation report": "Carilli et al. 2003\nConfirmation\nFirst public: 2003-04-07\nhttps://doi.org/10.1126/science.1082600",
+      "discovery review": "Checked: earliest located public sources",
+      "discovery_history": {
+        "catalog_id": 305,
+        "primary": {
+          "citation": "Cox et al. 2002",
+          "year": 2002,
+          "first_public": "2002-03-20",
+          "url": "https://doi.org/10.1051/0004-6361:20020382",
+          "role": "Candidate",
+          "detail": "Section 4: close companion with similar spectra; lens versus binary interpretation remains open.",
+          "first_public_url": "https://arxiv.org/abs/astro-ph/0203355v1"
+        },
+        "candidate": {
+          "citation": "Cox et al. 2002",
+          "year": 2002,
+          "first_public": "2002-03-20",
+          "url": "https://doi.org/10.1051/0004-6361:20020382",
+          "role": "Candidate",
+          "detail": "Section 4: close companion with similar spectra; lens versus binary interpretation remains open.",
+          "first_public_url": "https://arxiv.org/abs/astro-ph/0203355v1"
+        },
+        "confirmation": {
+          "citation": "Carilli et al. 2003",
+          "year": 2003,
+          "first_public": "2003-04-07",
+          "url": "https://doi.org/10.1126/science.1082600",
+          "role": "Confirmation",
+          "detail": "Resolved CO Einstein ring and lens reconstruction.",
+          "first_public_url": "https://arxiv.org/abs/astro-ph/0304124"
+        },
+        "note": "Cox 2002 is the earliest located explicit target-specific lens/binary candidate report. Its companion observation is credited to Djorgovski et al. in preparation, not a verified 2000 publication. Omont 2001 and Isaak 2002 do not establish an earlier target-specific lens identification. Carilli 2002 still leaves the interpretation open; the CO Einstein ring is reported by Carilli 2003.",
+        "pending": false,
+        "events": [],
+        "evidence": [
+          "https://doi.org/10.1051/0004-6361:20020382",
+          "https://arxiv.org/abs/astro-ph/0203355v1",
+          "https://doi.org/10.1126/science.1082600",
+          "https://arxiv.org/abs/astro-ph/0304124",
+          "https://arxiv.org/abs/astro-ph/0107005",
+          "https://arxiv.org/abs/astro-ph/0204253"
+        ],
+        "candidate_note": "",
+        "confirmation_note": "",
+        "name": "PSS2322+1944"
       }
     },
     {
@@ -7148,7 +8543,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 306
+      "catalog_id": 306,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 308,
@@ -7170,7 +8568,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 307
+      "catalog_id": 307,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 309,
@@ -7201,7 +8602,10 @@
         "evidence": [
           "https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.5060L/abstract"
         ]
-      }
+      },
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 310,
@@ -7223,7 +8627,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": null,
-      "catalog_id": 309
+      "catalog_id": 309,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 311,
@@ -7245,7 +8652,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 310
+      "catalog_id": 310,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 312,
@@ -7267,7 +8677,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 311
+      "catalog_id": 311,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 313,
@@ -7289,7 +8702,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 312
+      "catalog_id": 312,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 314,
@@ -7311,7 +8727,10 @@
       "note": null,
       "source_type": null,
       "lens_type": null,
-      "catalog_id": 313
+      "catalog_id": 313,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 315,
@@ -7333,7 +8752,10 @@
       "note": null,
       "source_type": null,
       "lens_type": null,
-      "catalog_id": 314
+      "catalog_id": 314,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 316,
@@ -7355,7 +8777,10 @@
       "note": null,
       "source_type": null,
       "lens_type": "多星系",
-      "catalog_id": 315
+      "catalog_id": 315,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 317,
@@ -7377,7 +8802,10 @@
       "note": null,
       "source_type": null,
       "lens_type": null,
-      "catalog_id": 316
+      "catalog_id": 316,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 318,
@@ -7399,7 +8827,10 @@
       "note": null,
       "source_type": null,
       "lens_type": "椭圆星系+星系团？",
-      "catalog_id": 317
+      "catalog_id": 317,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 319,
@@ -7430,7 +8861,10 @@
         "evidence": [
           "https://doi.org/10.1126/science.223.4631.46"
         ]
-      }
+      },
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 320,
@@ -7452,7 +8886,10 @@
       "note": null,
       "source_type": null,
       "lens_type": null,
-      "catalog_id": 319
+      "catalog_id": 319,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 321,
@@ -7474,7 +8911,10 @@
       "note": "Hagen et al. 1999只是探测类星体，没有看到有关透镜星系的描述， Chantry et al. 2010直接当作引力透镜类星体建模",
       "source_type": null,
       "lens_type": null,
-      "catalog_id": 320
+      "catalog_id": 320,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 322,
@@ -7496,7 +8936,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 321
+      "catalog_id": 321,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 323,
@@ -7518,7 +8961,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 322
+      "catalog_id": 322,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 324,
@@ -7540,7 +8986,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 323
+      "catalog_id": 323,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 325,
@@ -7562,7 +9011,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 324
+      "catalog_id": 324,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 326,
@@ -7584,7 +9036,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 325
+      "catalog_id": 325,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 327,
@@ -7600,22 +9055,75 @@
       "z_source": "3.105",
       "image_sep": "2.44",
       "n_img": 2,
-      "first discovered": "He et al. 2025",
-      "year": 2025,
-      "ADS link": "https://doi.org/10.1051/0004-6361/202452731",
-      "note": "Pending reference review: He 2025 is the confirmation paper. Earlier candidates are attributed to He 2023; the target-specific first report remains to be checked.",
+      "first discovered": "Dawes et al. 2023",
+      "year": 2023,
+      "ADS link": "https://doi.org/10.3847/1538-4365/ad015a",
+      "note": "J0746+1344 matches Dawes catalogue ID 300 (DESI-116.6482+13.7402, grade C), not a first discovery in He 2025 or He 2023. He 2023 target 10721197 explicitly credits D22. The Dawes paper first appeared in 2022 and was published in 2023; He 2025 provides spectroscopic confirmation at z=3.105. The separately hosted candidate table does not carry an independently verified per-entry release timestamp.",
       "source_type": "Quasar",
       "lens_type": "Galaxy",
       "catalog_id": 326,
       "reference_review": {
-        "status": "corrected_pending",
-        "pending": true,
+        "status": "priority_checked",
+        "pending": false,
         "date": "2026-11-01",
-        "note": "He 2025 is the confirmation paper. Earlier candidates are attributed to He 2023; the target-specific first report remains to be checked.",
+        "note": "J0746+1344 matches Dawes catalogue ID 300 (DESI-116.6482+13.7402, grade C), not a first discovery in He 2025 or He 2023. He 2023 target 10721197 explicitly credits D22. The Dawes paper first appeared in 2022 and was published in 2023; He 2025 provides spectroscopic confirmation at z=3.105. The separately hosted candidate table does not carry an independently verified per-entry release timestamp.",
         "evidence": [
+          "https://doi.org/10.3847/1538-4365/ad015a",
+          "https://arxiv.org/abs/2208.06356v1",
           "https://doi.org/10.1051/0004-6361/202452731",
-          "https://arxiv.org/abs/2501.08541"
+          "https://arxiv.org/abs/2501.08541v1",
+          "https://doi.org/10.1051/0004-6361/202245484",
+          "https://cdsarc.cds.unistra.fr/viz-bin/cat/J/ApJS/269/61",
+          "https://cdsarc.cds.unistra.fr/viz-bin/cat/J/A+A/672/A123"
         ]
+      },
+      "candidate report": "Dawes et al. 2023\nCandidate\nFirst public: 2022-08-12\nhttps://doi.org/10.3847/1538-4365/ad015a",
+      "confirmation report": "He et al. 2025\nConfirmation\nFirst public: 2025-01-15\nhttps://doi.org/10.1051/0004-6361/202452731",
+      "discovery review": "Checked: earliest located public sources",
+      "discovery_history": {
+        "catalog_id": 326,
+        "primary": {
+          "citation": "Dawes et al. 2023",
+          "year": 2023,
+          "first_public": "2022-08-12",
+          "url": "https://doi.org/10.3847/1538-4365/ad015a",
+          "role": "Candidate",
+          "detail": "DESI-116.6482+13.7402, catalogue ID 300, grade C. He 2023 target 10721197 explicitly marks inD22=1, grade C. First-public date is the Dawes v1 paper submission; target attribution is independently present in He 2023.",
+          "first_public_url": "https://arxiv.org/abs/2208.06356v1"
+        },
+        "candidate": {
+          "citation": "Dawes et al. 2023",
+          "year": 2023,
+          "first_public": "2022-08-12",
+          "url": "https://doi.org/10.3847/1538-4365/ad015a",
+          "role": "Candidate",
+          "detail": "DESI-116.6482+13.7402, catalogue ID 300, grade C. He 2023 target 10721197 explicitly marks inD22=1, grade C. First-public date is the Dawes v1 paper submission; target attribution is independently present in He 2023.",
+          "first_public_url": "https://arxiv.org/abs/2208.06356v1"
+        },
+        "confirmation": {
+          "citation": "He et al. 2025",
+          "year": 2025,
+          "first_public": "2025-01-15",
+          "url": "https://doi.org/10.1051/0004-6361/202452731",
+          "role": "Confirmation",
+          "detail": "",
+          "first_public_url": "https://arxiv.org/abs/2501.08541v1"
+        },
+        "note": "J0746+1344 matches Dawes catalogue ID 300 (DESI-116.6482+13.7402, grade C), not a first discovery in He 2025 or He 2023. He 2023 target 10721197 explicitly credits D22. The Dawes paper first appeared in 2022 and was published in 2023; He 2025 provides spectroscopic confirmation at z=3.105. The separately hosted candidate table does not carry an independently verified per-entry release timestamp.",
+        "pending": false,
+        "events": [],
+        "evidence": [
+          "https://doi.org/10.3847/1538-4365/ad015a",
+          "https://arxiv.org/abs/2208.06356v1",
+          "https://doi.org/10.1051/0004-6361/202452731",
+          "https://arxiv.org/abs/2501.08541v1",
+          "https://doi.org/10.1051/0004-6361/202245484",
+          "https://cdsarc.cds.unistra.fr/viz-bin/cat/J/ApJS/269/61",
+          "https://cdsarc.cds.unistra.fr/viz-bin/cat/J/A+A/672/A123"
+        ],
+        "candidate_note": "",
+        "confirmation_note": "",
+        "name": "DESI J0746+1344"
       }
     },
     {
@@ -7632,22 +9140,71 @@
       "z_source": "2.395",
       "image_sep": "1.34",
       "n_img": 2,
-      "first discovered": "He et al. 2025",
-      "year": 2025,
-      "ADS link": "https://doi.org/10.1051/0004-6361/202452731",
-      "note": "Pending reference review: He 2025 is the confirmation paper. Earlier candidates are attributed to He 2023; the target-specific first report remains to be checked.",
+      "first discovered": "He et al. 2023",
+      "year": 2023,
+      "ADS link": "https://doi.org/10.1051/0004-6361/202245484",
+      "note": "J2121-0826 matches He 2023 table 1 target 10912799 (RA 320.3847626, Dec -8.4360160; grade B). All three known-catalogue flags are zero. He 2025 confirms the system spectroscopically at z=2.395. Candidate publication and confirmation are therefore 2023 and 2025, respectively.",
       "source_type": "Quasar",
       "lens_type": "Galaxy",
       "catalog_id": 327,
       "reference_review": {
-        "status": "corrected_pending",
-        "pending": true,
+        "status": "priority_checked",
+        "pending": false,
         "date": "2026-11-01",
-        "note": "He 2025 is the confirmation paper. Earlier candidates are attributed to He 2023; the target-specific first report remains to be checked.",
+        "note": "J2121-0826 matches He 2023 table 1 target 10912799 (RA 320.3847626, Dec -8.4360160; grade B). All three known-catalogue flags are zero. He 2025 confirms the system spectroscopically at z=2.395. Candidate publication and confirmation are therefore 2023 and 2025, respectively.",
         "evidence": [
+          "https://doi.org/10.1051/0004-6361/202245484",
+          "https://arxiv.org/abs/2301.11080v1",
           "https://doi.org/10.1051/0004-6361/202452731",
-          "https://arxiv.org/abs/2501.08541"
+          "https://arxiv.org/abs/2501.08541v1",
+          "https://cdsarc.cds.unistra.fr/viz-bin/cat/J/A+A/672/A123"
         ]
+      },
+      "candidate report": "He et al. 2023\nCandidate\nFirst public: 2023-01-26\nhttps://doi.org/10.1051/0004-6361/202245484",
+      "confirmation report": "He et al. 2025\nConfirmation\nFirst public: 2025-01-15\nhttps://doi.org/10.1051/0004-6361/202452731",
+      "discovery review": "Checked: earliest located public sources",
+      "discovery_history": {
+        "catalog_id": 327,
+        "primary": {
+          "citation": "He et al. 2023",
+          "year": 2023,
+          "first_public": "2023-01-26",
+          "url": "https://doi.org/10.1051/0004-6361/202245484",
+          "role": "Candidate",
+          "detail": "Target 10912799: inKLQ=0, inD22=0, inL22=0; coordinate match to J2121-0826.",
+          "first_public_url": "https://arxiv.org/abs/2301.11080v1"
+        },
+        "candidate": {
+          "citation": "He et al. 2023",
+          "year": 2023,
+          "first_public": "2023-01-26",
+          "url": "https://doi.org/10.1051/0004-6361/202245484",
+          "role": "Candidate",
+          "detail": "Target 10912799: inKLQ=0, inD22=0, inL22=0; coordinate match to J2121-0826.",
+          "first_public_url": "https://arxiv.org/abs/2301.11080v1"
+        },
+        "confirmation": {
+          "citation": "He et al. 2025",
+          "year": 2025,
+          "first_public": "2025-01-15",
+          "url": "https://doi.org/10.1051/0004-6361/202452731",
+          "role": "Confirmation",
+          "detail": "",
+          "first_public_url": "https://arxiv.org/abs/2501.08541v1"
+        },
+        "note": "J2121-0826 matches He 2023 table 1 target 10912799 (RA 320.3847626, Dec -8.4360160; grade B). All three known-catalogue flags are zero. He 2025 confirms the system spectroscopically at z=2.395. Candidate publication and confirmation are therefore 2023 and 2025, respectively.",
+        "pending": false,
+        "events": [],
+        "evidence": [
+          "https://doi.org/10.1051/0004-6361/202245484",
+          "https://arxiv.org/abs/2301.11080v1",
+          "https://doi.org/10.1051/0004-6361/202452731",
+          "https://arxiv.org/abs/2501.08541v1",
+          "https://cdsarc.cds.unistra.fr/viz-bin/cat/J/A+A/672/A123"
+        ],
+        "candidate_note": "",
+        "confirmation_note": "",
+        "name": "DESI J2121-0826"
       }
     },
     {
@@ -7670,7 +9227,10 @@
       "note": "image_sep from He et al. 2025",
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 328
+      "catalog_id": 328,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 330,
@@ -7692,7 +9252,10 @@
       "note": "image_sep from He et al. 2025",
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 329
+      "catalog_id": 329,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 331,
@@ -7714,7 +9277,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 330
+      "catalog_id": 330,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 332,
@@ -7736,7 +9302,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 331
+      "catalog_id": 331,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 333,
@@ -7758,7 +9327,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 332
+      "catalog_id": 332,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 334,
@@ -7780,7 +9352,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 333
+      "catalog_id": 333,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 335,
@@ -7802,7 +9377,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 334
+      "catalog_id": 334,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 336,
@@ -7824,7 +9402,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 335
+      "catalog_id": 335,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 337,
@@ -7846,7 +9427,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 336
+      "catalog_id": 336,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 338,
@@ -7868,7 +9452,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 337
+      "catalog_id": 337,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 339,
@@ -7890,7 +9477,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 338
+      "catalog_id": 338,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 340,
@@ -7912,7 +9502,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 339
+      "catalog_id": 339,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 341,
@@ -7934,7 +9527,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 340
+      "catalog_id": 340,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 342,
@@ -7956,7 +9552,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 341
+      "catalog_id": 341,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 343,
@@ -7978,7 +9577,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 342
+      "catalog_id": 342,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     },
     {
       "row_number": 344,
@@ -8000,7 +9602,10 @@
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 343
+      "catalog_id": 343,
+      "candidate report": "",
+      "confirmation report": "",
+      "discovery review": ""
     }
   ]
 }

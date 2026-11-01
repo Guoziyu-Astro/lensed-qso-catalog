@@ -40,6 +40,23 @@ function number(value) {
 function safeURL(value) {
   try { const url = new URL(String(value)); return ['http:', 'https:'].includes(url.protocol) ? url.href : null; } catch { return null; }
 }
+const historyColumns = ['candidate report','confirmation report','discovery review'];
+function historyReference(ref) {
+  const url = safeURL(ref?.url);
+  const firstURL = safeURL(ref?.first_public_url);
+  return ref ? `${url ? `<a href="${escapeHTML(url)}" target="_blank" rel="noopener noreferrer">${escapeHTML(ref.citation)}</a>` : escapeHTML(ref.citation)} · first public: ${firstURL ? `<a href="${escapeHTML(firstURL)}" target="_blank" rel="noopener noreferrer">${escapeHTML(ref.first_public)}</a>` : escapeHTML(ref.first_public)}` : '';
+}
+function historySummary(r) {
+  const h = r.discovery_history;
+  if (!h) return '';
+  return `<span class="reference-role">${escapeHTML(h.primary.role)}</span>${h.confirmation && h.confirmation.url !== h.primary.url ? `<span class="reference-role">Confirmed: ${historyReference(h.confirmation)}</span>` : ''}${!h.pending ? `<button class="history-link" data-row="${r.row_number}">Discovery history</button>` : ''}`;
+}
+function discoveryHistory(r) {
+  const h = r.discovery_history;
+  if (!h) return '';
+  const entries = [['Earliest located public report', historyReference(h.primary)], ['Candidate', h.candidate ? historyReference(h.candidate) : escapeHTML(h.candidate_note || 'No separate earlier public candidate record located.')], ['Confirmation', h.confirmation ? historyReference(h.confirmation) : escapeHTML(h.confirmation_note)], ['Review status', escapeHTML(r['discovery review'])]];
+  return `<dl class="detail-grid discovery-history">${entries.map(([label, value]) => `<div class="wide"><dt>${label}</dt><dd>${value}</dd></div>`).join('')}</dl>`;
+}
 function fillSelect(id, key, descending = false) {
   const values = [...new Set(state.records.map(r => r[key]).filter(v => !missing(v)).map(String))];
   values.sort((a,b) => a.localeCompare(b, 'en', {numeric:true}) * (descending ? -1 : 1));
@@ -51,7 +68,7 @@ function applyFilters() {
   const query = normalize($('search').value);
   const min = number($('z-min').value), max = number($('z-max').value);
   state.filtered = state.records.filter(r => {
-    if (query && !['name','alt_name','first discovered','note','ADS link','catalog_id'].some(key => (normalize(r[key]).includes(query) || normalize(englishValue(r[key])).includes(query)))) return false;
+    if (query && !['name','alt_name','first discovered','note','ADS link','catalog_id',...historyColumns].some(key => (normalize(r[key]).includes(query) || normalize(englishValue(r[key])).includes(query)))) return false;
     if (!matchSelect('images',r,'n_img') || !matchSelect('year',r,'year')) return false;
     const z = number(r.z_source);
     return (min === null && max === null) || (z !== null && (min === null || z >= min) && (max === null || z <= max));
@@ -86,8 +103,8 @@ function render() {
     const thumbnail = image?.status === 'ok' ? `<button class="thumbnail-button" data-image-row="${r.row_number}" aria-label="View image of ${escapeHTML(r.name)}"><img src="${escapeHTML(image.thumbnail)}" alt="${escapeHTML(r.name)} · ${escapeHTML(image.source_label)}" width="128" height="128" loading="lazy"></button>` : '<span class="missing">No image available</span>';
     const paper = state.paperImages[String(r.row_number)];
     const paperURL = safeURL(paper?.reference_url);
-    const paperThumbnail = paper ? `<a class="thumbnail-button" href="${escapeHTML(paper.path)}" target="_blank" rel="noopener noreferrer" aria-label="View paper image of ${escapeHTML(r.name)}"><img src="${escapeHTML(paper.path)}" alt="${escapeHTML(r.name)} · ${escapeHTML(paper.reference)}" width="128" height="128" loading="lazy"></a>${paperURL ? `<a class="paper-source" href="${escapeHTML(paperURL)}" target="_blank" rel="noopener noreferrer">${escapeHTML(paper.reference)}</a>` : ''}` : '<span class="missing">No image available</span>';
-    return `<tr><td>${display(r.catalog_id)}</td><td><button class="record-name" data-row="${r.row_number}">${display(r.name)}</button>${!missing(r.alt_name) ? `<div class="alias" title="${escapeHTML(r.alt_name)}">${escapeHTML(r.alt_name)}</div>` : ''}</td><td class="thumbnail-cell">${thumbnail}</td><td class="thumbnail-cell">${paperThumbnail}</td><td class="numeric">${display(r.ra)}</td><td class="numeric">${display(r.dec)}</td><td class="numeric"><span class="redshift-value">${display(r.z_lens)}</span></td><td class="numeric"><span class="redshift-value">${display(r.z_source)}</span></td><td><span class="image-count ${Number(r.n_img) >= 4 ? 'quad' : ''}">${display(r.n_img)}</span></td><td>${display(r.year)}</td><td>${url ? `<a class="citation" href="${escapeHTML(url)}" target="_blank" rel="noopener noreferrer">${display(r['first discovered'] || 'Reference')} <span>↗</span></a>` : `<span class="citation">${display(r['first discovered'])}</span>`}${r.reference_review?.pending ? `<button class="reference-pending" data-row="${r.row_number}" title="${escapeHTML(r.reference_review.note)}">Reference pending</button>` : ''}</td></tr>`;
+    const paperThumbnail = paper ? `<a class="thumbnail-button" href="${escapeHTML(paper.path)}" target="_blank" rel="noopener noreferrer" aria-label="View paper image of ${escapeHTML(r.name)}"><img src="${escapeHTML(paper.path)}" alt="${escapeHTML(r.name)} · ${escapeHTML(paper.reference)}" width="128" height="128" loading="lazy"></a>${paperURL ? `<a class="paper-source" href="${escapeHTML(paperURL)}" target="_blank" rel="noopener noreferrer">${escapeHTML(paper.reference)}</a>` : ''}${r.discovery_history?.identity_warning ? `<span class="paper-source reference-pending">Image association pending</span>` : ''}` : '<span class="missing">No image available</span>';
+    return `<tr><td>${display(r.catalog_id)}</td><td><button class="record-name" data-row="${r.row_number}">${display(r.name)}</button>${!missing(r.alt_name) ? `<div class="alias" title="${escapeHTML(r.alt_name)}">${escapeHTML(r.alt_name)}</div>` : ''}</td><td class="thumbnail-cell">${thumbnail}</td><td class="thumbnail-cell">${paperThumbnail}</td><td class="numeric">${display(r.ra)}</td><td class="numeric">${display(r.dec)}</td><td class="numeric"><span class="redshift-value">${display(r.z_lens)}</span></td><td class="numeric"><span class="redshift-value">${display(r.z_source)}</span></td><td><span class="image-count ${Number(r.n_img) >= 4 ? 'quad' : ''}">${display(r.n_img)}</span></td><td>${display(r.year)}</td><td>${url ? `<a class="citation" href="${escapeHTML(url)}" target="_blank" rel="noopener noreferrer">${display(r['first discovered'] || 'Reference')} <span>↗</span></a>` : `<span class="citation">${display(r['first discovered'])}</span>`}${historySummary(r)}${r.reference_review?.pending ? `<button class="reference-pending" data-row="${r.row_number}" title="${escapeHTML(r.reference_review.note)}">Reference pending</button>` : ''}</td></tr>`;
   }).join('');
   $('result-count').innerHTML = `<b>${state.filtered.length}</b> of ${state.records.length} records`;
   $('empty').hidden = state.filtered.length > 0;
@@ -113,11 +130,11 @@ function render() {
 function reset() { for (const id of ['search','images','year','z-min','z-max']) $(id).value = ''; applyFilters(); }
 function detail(row) {
   const r = state.records.find(record => record.row_number === Number(row)); if (!r) return;
-  const labels = {catalog_id:'ID',original_id:'Original ID',name:'System',alt_name:'Aliases',HSC:'HSC', 'DESI-LS':'DESI-LS','paper image':'Publication image field',ra:'RA (deg)',dec:'Dec (deg)',z_lens:'Lens redshift',z_source:'Source redshift',image_sep:'Image separation (as recorded)',n_img:'Number of images', 'first discovered':'Discovery reference',year:'Discovery year', 'ADS link':'Reference URL',note:'Notes',source_type:'Source type (as recorded)',lens_type:'Lens type (as recorded)'};
-  $('detail-content').innerHTML = `<h2>${escapeHTML(r.name)}</h2><p class="detail-subtitle">ID ${escapeHTML(r.catalog_id)} · Original ID ${escapeHTML(r.original_id)} · Worksheet 1, row ${r.row_number}</p><dl class="detail-grid">${state.columns.filter(k=>k!=='name').map(key => {
+  const labels = {catalog_id:'ID',original_id:'Original ID',name:'System',alt_name:'Aliases',HSC:'HSC', 'DESI-LS':'DESI-LS','paper image':'Publication image field',ra:'RA (deg)',dec:'Dec (deg)',z_lens:'Lens redshift',z_source:'Source redshift',image_sep:'Image separation (as recorded)',n_img:'Number of images', 'first discovered':'Discovery reference',year:'Reference publication year', 'ADS link':'Reference URL',note:'Notes',source_type:'Source type (as recorded)',lens_type:'Lens type (as recorded)'};
+  $('detail-content').innerHTML = `<h2>${escapeHTML(r.name)}</h2><p class="detail-subtitle">ID ${escapeHTML(r.catalog_id)} · Original ID ${escapeHTML(r.original_id)} · Worksheet 1, row ${r.row_number}</p>${discoveryHistory(r)}<dl class="detail-grid">${state.columns.filter(k=>k!=='name' && !historyColumns.includes(k)).map(key => {
     const url = safeURL(r[key]);
     return `<div class="${['note','ADS link','alt_name'].includes(key) ? 'wide' : ''}"><dt>${escapeHTML(labels[key] || key)}</dt><dd>${url ? `<a href="${escapeHTML(url)}" target="_blank" rel="noopener noreferrer">${escapeHTML(r[key])} ↗</a>` : display(r[key])}</dd></div>`;
-  }).join('')}</dl>${r.reference_review ? `<p class="reference-review-note"><b>${r.reference_review.pending ? 'Reference pending' : 'Reference corrected'} (${escapeHTML(r.reference_review.date)})</b><br>${escapeHTML(r.reference_review.note)}</p>` : ''}`;
+  }).join('')}</dl>${r.reference_review && !r.discovery_history ? `<p class="reference-review-note"><b>${r.reference_review.pending ? 'Reference pending' : 'Reference corrected'} (${escapeHTML(r.reference_review.date)})</b><br>${escapeHTML(r.reference_review.note)}</p>` : ''}`;
   $('details').showModal();
 }
 function downloadCSV() {
@@ -157,7 +174,7 @@ for (const button of document.querySelectorAll('[data-sort]')) {
 }
 async function init() {
   try {
-    const response = await fetch('data/catalog.json?v=references-20261101'); if(!response.ok)throw new Error(`HTTP ${response.status}`);
+    const response = await fetch('data/catalog.json?v=priority-20261101'); if(!response.ok)throw new Error(`HTTP ${response.status}`);
     const data = await response.json(); state.records=data.records;state.columns=data.meta.columns;
     const imagesResponse = await fetch('data/selected_images.json');
     if(imagesResponse.ok)state.selectedImages=(await imagesResponse.json()).records;
