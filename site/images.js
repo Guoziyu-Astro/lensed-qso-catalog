@@ -16,7 +16,12 @@ async function showCatalogImages(record, selected) {
     imageUI('selected-open').href=selected.image;
     imageUI('selected-download').href=selected.image;
     imageUI('selected-download').download=record.name+'-'+selected.source+'.jpg';
-    imageUI('selected-caption').textContent=`${selected.source_label} · ${selected.fov_arcsec}″ × ${selected.fov_arcsec}″ · ${selected.selection_mode==='single_band_fallback'?'grayscale':selected.metadata.bands}`;
+    const grayscale=selected.selection_mode==='single_band_fallback'||selected.selection_mode==='space_single_band';
+    imageUI('selected-caption').textContent=`${selected.source_label} · ${selected.fov_arcsec}″ × ${selected.fov_arcsec}″ · ${grayscale?'grayscale':selected.metadata.bands}`;
+    if(selected.selection_mode==='space_single_band'){
+      const details=[selected.metadata.instrument,selected.metadata.proposal_id?`Proposal ${selected.metadata.proposal_id}`:null].filter(Boolean);
+      provenance.append(details.join(' · '));
+    }
     if(selected.selection_mode==='single_band_fallback')provenance.append(`Full colour unavailable; showing a grayscale ${selected.metadata.bands}-band image.`);
     else if(selected.metadata.coverage_note)provenance.append('The centre is faint; valid observed pixels are present.');
     if(selected.higher_priority_errors)provenance.append('A higher-priority survey request failed; this image is provisional.');

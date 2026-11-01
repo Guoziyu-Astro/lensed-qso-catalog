@@ -33,6 +33,8 @@ The workflow in `.github/workflows/pages.yml` publishes `site/` to GitHub Pages 
 
 - IDs 1–343 follow the original worksheet row order and remain fixed when sorting or filtering. The original identifiers and worksheet rows are retained in `site/data/catalog.json`.
 - Website translations are display-only; JSON, CSV and Excel retain their original scientific content. Bibliographic references and classifications have not all been independently verified.
-- Survey cutouts come from HSC PDR3, DES DR2, Legacy Surveys and Pan-STARRS. Labels identify the survey; `site/data/selected_images.json` records source URLs, bands and fields of view.
+- Images are selected in HST → JWST → Euclid → ground-survey order. The 2026-11-01 search replaced 217 thumbnails with usable HST images; 126 retain HSC PDR3, DES DR2, Legacy Surveys or Pan-STARRS images. No additional JWST or Euclid image was selected after applying the HST priority and image-quality checks.
+- Space images are real FITS science cutouts rendered as single-band grayscale, north up and east left. Their labels specify the telescope and filter. Empty products, inadequate coverage, insufficient central contrast and visually identified trails are excluded. This display selection is not a lens confirmation or a measured resolution ranking.
+- `site/data/selected_images.json` records archive URLs, datasets, filters, proposals, fields of view, WCS and checksums. `site/data/space_image_search.json` records per-target search decisions. Ground images remain archived, with their paths retained in replaced entries.
 - Original workbook images and their provenance are in `site/data/images.json`. They may include published models or annotations.
 - Source imagery remains subject to the respective surveys' and publications' terms. This repository does not grant additional rights to third-party material.
