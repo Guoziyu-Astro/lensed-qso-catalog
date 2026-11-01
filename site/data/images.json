@@ -11,18 +11,30 @@
         "sha256": "8e5c1060b42249fd31123295760385980ffd25c0b3a4a1d56b61ab39225c56a9",
         "source_member": "xl/media/image1.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-1.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L2",
+        "width": 512,
+        "height": 512,
+        "sha256": "eb1d5180d5009240088a7c61805c8f7faceadf64020ae164a918f09795df290d",
+        "reference": "Lemon et al. 2018",
+        "reference_url": "https://arxiv.org/abs/1803.07601v2",
+        "provenance": "Named observational panel visually matched; caption identifies actual survey colour images with Gaia position overlays."
       }
     ],
     "3": [
       {
-        "path": "images/workbook/c9a4f1c6d1397f01cebcf4f537f01fdf5df8b542bc2016e76d9809d06cfd3169.png",
+        "path": "images/paper/id-2.jpg",
         "source_column": "paper image",
-        "anchor_cell": "F3",
-        "width": 295,
-        "height": 295,
-        "sha256": "c9a4f1c6d1397f01cebcf4f537f01fdf5df8b542bc2016e76d9809d06cfd3169",
-        "source_member": "xl/media/image2.png",
-        "original_link": "NULL"
+        "anchor_cell": "L3",
+        "width": 512,
+        "height": 512,
+        "sha256": "65bf6d2ab9b231857443bea53214e66e77e5c6a451a923ab2bbc6a92a6035cf0",
+        "reference": "Lemon et al. 2019",
+        "reference_url": "https://arxiv.org/abs/1810.04480v2",
+        "provenance": "Named observational panel visually matched; caption identifies actual survey colour images with Gaia position overlays."
       }
     ],
     "4": [
@@ -35,6 +47,17 @@
         "sha256": "b52caec33d5806f47b19f849325ea7ae45f2a523a5583ec64f5ed96c2deb9583",
         "source_member": "xl/media/image3.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-3.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L4",
+        "width": 512,
+        "height": 512,
+        "sha256": "8f057c5656c6aee3953a97998533c06b7140868c510371cb0348c03283530759",
+        "reference": "Lemon et al. 2018",
+        "reference_url": "https://arxiv.org/abs/1803.07601v2",
+        "provenance": "Named observational panel visually matched; caption identifies actual survey colour images with Gaia position overlays."
       }
     ],
     "5": [
@@ -47,6 +70,17 @@
         "sha256": "7242e3d376f885bd5461094a0469c411235764b4db30a13e9a4c2f620cf0cd4a",
         "source_member": "xl/media/image4.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-4.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L5",
+        "width": 512,
+        "height": 512,
+        "sha256": "17045524d853bc9400dabfab7bc6aa9b6f81da447641def066b75dbb8e151868",
+        "reference": "Lemon et al. 2018",
+        "reference_url": "https://arxiv.org/abs/1803.07601v2",
+        "provenance": "Named observational panel visually matched; caption identifies actual survey colour images with Gaia position overlays."
       }
     ],
     "6": [
@@ -59,6 +93,17 @@
         "sha256": "17208e6dd158f0b3663e8566b4211fde05a0bde62b3bd1fc6f3749b8d8c02f34",
         "source_member": "xl/media/image5.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-5.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L6",
+        "width": 512,
+        "height": 512,
+        "sha256": "89606ff8cdf703ffd08af5729c05196ad50609f3559e7b352bc44941b787cc19",
+        "reference": "Lemon et al. 2023",
+        "reference_url": "https://arxiv.org/abs/2206.07714v1",
+        "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected."
       }
     ],
     "7": [
@@ -71,6 +116,17 @@
         "sha256": "42edb4b9ec6a74cc9abdc34c8aaccb7c0fd85984f2b9d660aa4eeee664bbf801",
         "source_member": "xl/media/image6.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-6.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L7",
+        "width": 512,
+        "height": 512,
+        "sha256": "7420403238479a2e85b49d5f8f47d9e489eac296b4bff8920161fa775cdec4cb",
+        "reference": "Lemon et al. 2023",
+        "reference_url": "https://arxiv.org/abs/2206.07714v1",
+        "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected."
       }
     ],
     "8": [
@@ -83,6 +139,17 @@
         "sha256": "af53f9b6429b11840978d0b4c51e444bc13f7f290387e733c543329102e4b82d",
         "source_member": "xl/media/image7.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-7.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L8",
+        "width": 512,
+        "height": 512,
+        "sha256": "bb84891f596ff70bba466d3f0b5da3fcf564fabc70aca8c8bb6ef8bfd24a7333",
+        "reference": "Lemon et al. 2019",
+        "reference_url": "https://arxiv.org/abs/1810.04480v2",
+        "provenance": "Named observational panel visually matched; caption identifies actual survey colour images with Gaia position overlays."
       }
     ],
     "9": [
@@ -119,6 +186,17 @@
         "sha256": "5e0ef0aa1171867e3df7803540e6c9969eae551d58a3b844c8177768aeb94074",
         "source_member": "xl/media/image10.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-10.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L11",
+        "width": 512,
+        "height": 512,
+        "sha256": "f5d7b061f4a14312926f3e0e3bb613b82cf8d9cfefe222a012daaed7f2c64489",
+        "reference": "Lemon et al. 2019",
+        "reference_url": "https://arxiv.org/abs/1810.04480v2",
+        "provenance": "Named observational panel visually matched; caption identifies actual survey colour images with Gaia position overlays."
       }
     ],
     "12": [
@@ -159,14 +237,15 @@
     ],
     "15": [
       {
-        "path": "images/workbook/7ce1629c7aeaa2df38f3407be50df0133a13de48cea669524ebdc04251f9ec9c.png",
+        "path": "images/paper/id-14.jpg",
         "source_column": "paper image",
-        "anchor_cell": "F15",
-        "width": 336,
-        "height": 336,
-        "sha256": "7ce1629c7aeaa2df38f3407be50df0133a13de48cea669524ebdc04251f9ec9c",
-        "source_member": "xl/media/image14.png",
-        "original_link": "NULL"
+        "anchor_cell": "L15",
+        "width": 512,
+        "height": 512,
+        "sha256": "062ab75bd10428179427b4e8356bd89584f3c04db1bdac556fc8feefdbdfdef5",
+        "reference": "Lemon et al. 2023",
+        "reference_url": "https://arxiv.org/abs/2206.07714v1",
+        "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected."
       }
     ],
     "16": [
@@ -179,6 +258,17 @@
         "sha256": "3dabbc3f664a1ddf4f4e4d9d079a461d0fe41f9635baef96c76c07c848d7f90a",
         "source_member": "xl/media/image15.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-15.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L16",
+        "width": 512,
+        "height": 512,
+        "sha256": "6fd284dea21e5b5eea9aa76d91e3fa01a7e8ea0a3d736ee81114ce809fe4df6b",
+        "reference": "Lemon et al. 2018",
+        "reference_url": "https://arxiv.org/abs/1803.07601v2",
+        "provenance": "Named observational panel visually matched; caption identifies actual survey colour images with Gaia position overlays."
       }
     ],
     "17": [
@@ -201,18 +291,30 @@
         "sha256": "8e3a1db7fe301c6dd408bcf5c26fc488a6e58d08b3b250197db743a101962d70",
         "source_member": "xl/media/image17.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-16.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L17",
+        "width": 512,
+        "height": 512,
+        "sha256": "208a656e685ab99bdc55f7ba0262d089855534a81dcad6e123a85499c66ed5c3",
+        "reference": "Lemon et al. 2019",
+        "reference_url": "https://arxiv.org/abs/1810.04480v2",
+        "provenance": "Named observational panel visually matched; caption identifies actual survey colour images with Gaia position overlays."
       }
     ],
     "18": [
       {
-        "path": "images/workbook/a151169899138afb441bf20a1e0f1cad0e31060691987b4b62b104d2c4323f3d.png",
+        "path": "images/paper/id-17.jpg",
         "source_column": "paper image",
-        "anchor_cell": "F18",
-        "width": 542,
-        "height": 542,
-        "sha256": "a151169899138afb441bf20a1e0f1cad0e31060691987b4b62b104d2c4323f3d",
-        "source_member": "xl/media/image18.png",
-        "original_link": "NULL"
+        "anchor_cell": "L18",
+        "width": 512,
+        "height": 512,
+        "sha256": "69e8f8b5787698fcad72ec64fe8d42a304863e63a2c853d35f701d46b4944419",
+        "reference": "Phillips et al. 2000",
+        "reference_url": "https://ui.adsabs.harvard.edu/abs/2000MNRAS.319L...7P/abstract",
+        "provenance": "Screenshot supplied in original workbook; observational panel visually checked. The listed discovery reference is contextual unless explicitly resolved."
       }
     ],
     "19": [
@@ -237,6 +339,17 @@
         "sha256": "4d2efe910d5420f275621a2ec8d0316c42afa909229fbf02ba4c9a753cabc8f0",
         "source_member": "xl/media/image20.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-19.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L20",
+        "width": 512,
+        "height": 512,
+        "sha256": "23bdeaacb2d73f6af2a8a238ac2dea96fc9d521fd0343bb7726ddf9b599da3b2",
+        "reference": "Lemon et al. 2018",
+        "reference_url": "https://arxiv.org/abs/1803.07601v2",
+        "provenance": "Named observational panel visually matched; caption identifies actual survey colour images with Gaia position overlays."
       }
     ],
     "21": [
@@ -261,18 +374,30 @@
         "sha256": "380eb48daafc158ea205ba93f44781da3d1d6b4b9a0feec145c1220a93464473",
         "source_member": "xl/media/image22.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-21.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L22",
+        "width": 512,
+        "height": 512,
+        "sha256": "c45cfc170cb01e7f23102bd50f4aca81440f9c6e620706347a410c72bc6dc857",
+        "reference": "Lemon et al. 2018",
+        "reference_url": "https://arxiv.org/abs/1803.07601v2",
+        "provenance": "Named observational panel visually matched; caption identifies actual survey colour images with Gaia position overlays."
       }
     ],
     "23": [
       {
-        "path": "images/workbook/aef62fe7cb0ed24850b0c10d29123db8485d3929660f6ffe4ba32516c9d7b499.png",
+        "path": "images/paper/id-22.jpg",
         "source_column": "paper image",
-        "anchor_cell": "F23",
-        "width": 525,
-        "height": 525,
-        "sha256": "aef62fe7cb0ed24850b0c10d29123db8485d3929660f6ffe4ba32516c9d7b499",
-        "source_member": "xl/media/image23.png",
-        "original_link": "NULL"
+        "anchor_cell": "L23",
+        "width": 512,
+        "height": 512,
+        "sha256": "770c0927d066d4b0e39a8aa677ffa31d8fb79257bb5659195101fce4038cf4b3",
+        "reference": "Berghea et al. 2017",
+        "reference_url": "https://ui.adsabs.harvard.edu/abs/2017ApJ...844...90B/abstract",
+        "provenance": "Screenshot supplied in original workbook; observational panel visually checked. The listed discovery reference is contextual unless explicitly resolved."
       }
     ],
     "24": [
@@ -297,6 +422,17 @@
         "sha256": "2fdf7736f9903a2d9093a248c023b981ef66a8873d835116b110a7e1ad63ef5b",
         "source_member": "xl/media/image25.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-24.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L25",
+        "width": 512,
+        "height": 512,
+        "sha256": "58105474fa28724ea1f1604484b8c20fc809d9ab59fe16b587fb8bec33824598",
+        "reference": "Lemon et al. 2023",
+        "reference_url": "https://arxiv.org/abs/2206.07714v1",
+        "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected."
       }
     ],
     "26": [
@@ -309,6 +445,17 @@
         "sha256": "4f7e506e6dfab999513d121e443ddb5039348db6a6926e12ea6d70bfe905f951",
         "source_member": "xl/media/image26.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-25.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L26",
+        "width": 512,
+        "height": 512,
+        "sha256": "062a3d190bf16a1e7748c415752ce5fce5a1d00b2b3258c5a326f96473915855",
+        "reference": "Lemon et al. 2023",
+        "reference_url": "https://arxiv.org/abs/2206.07714v1",
+        "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected."
       }
     ],
     "27": [
@@ -333,6 +480,17 @@
         "sha256": "ceef44667c83d8c4a015ccb5655f984128b3e9a6e1ffa999f5e8c1cfa1c7f619",
         "source_member": "xl/media/image28.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-27.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L28",
+        "width": 512,
+        "height": 512,
+        "sha256": "0b4190abfa5007c3dacfc957808879736f9b7fdf7ce32964769ea1cabbe6267d",
+        "reference": "Lemon et al. 2023",
+        "reference_url": "https://arxiv.org/abs/2206.07714v1",
+        "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected."
       }
     ],
     "29": [
@@ -345,6 +503,17 @@
         "sha256": "0d1c2049e3af693f85bfe3e08ee06052746e9e3357e72736527cb9a8a2ef0f95",
         "source_member": "xl/media/image29.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-28.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L29",
+        "width": 512,
+        "height": 512,
+        "sha256": "e02bfaf87b2a350a938658e59e95562c53e84a6468d56daa65d1018ccc53ea3c",
+        "reference": "Lemon et al. 2019",
+        "reference_url": "https://arxiv.org/abs/1810.04480v2",
+        "provenance": "Named observational panel visually matched; caption identifies actual survey colour images with Gaia position overlays."
       }
     ],
     "30": [
@@ -357,6 +526,17 @@
         "sha256": "cf30ddd88993a970b585a3fecc3073d9ca369972caab7f096fc5f5611083b899",
         "source_member": "xl/media/image30.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-29.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L30",
+        "width": 512,
+        "height": 512,
+        "sha256": "6263f797a446752ce1e0ea4d4793cc42edecc4974b852ec1484030bd6de71a62",
+        "reference": "Lemon et al. 2023",
+        "reference_url": "https://arxiv.org/abs/2206.07714v1",
+        "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected."
       }
     ],
     "31": [
@@ -385,26 +565,28 @@
     ],
     "33": [
       {
-        "path": "images/workbook/62a392363866f8d26299eec46e96168ae60757876f1e921e5ab12f8f967f577a.png",
+        "path": "images/paper/id-32.jpg",
         "source_column": "paper image",
-        "anchor_cell": "F33",
-        "width": 849,
-        "height": 849,
-        "sha256": "62a392363866f8d26299eec46e96168ae60757876f1e921e5ab12f8f967f577a",
-        "source_member": "xl/media/image33.png",
-        "original_link": "NULL"
+        "anchor_cell": "L33",
+        "width": 512,
+        "height": 512,
+        "sha256": "3c3fba4f6a8bea2e11a70ecbaffc53b0ea54777153afd8c0eeb94e4447a8ece0",
+        "reference": "Patnaik et al. 1993",
+        "reference_url": "https://ui.adsabs.harvard.edu/abs/1993MNRAS.261..435P/abstract",
+        "provenance": "Screenshot supplied in original workbook; observational panel visually checked. The listed discovery reference is contextual unless explicitly resolved."
       }
     ],
     "34": [
       {
-        "path": "images/workbook/a832beeb6f8555ab7355101c4698fdc1acb728fc2c03a41762ea06e801ac2155.png",
+        "path": "images/paper/id-33.jpg",
         "source_column": "paper image",
-        "anchor_cell": "F34",
-        "width": 295,
-        "height": 295,
-        "sha256": "a832beeb6f8555ab7355101c4698fdc1acb728fc2c03a41762ea06e801ac2155",
-        "source_member": "xl/media/image34.png",
-        "original_link": "NULL"
+        "anchor_cell": "L34",
+        "width": 512,
+        "height": 512,
+        "sha256": "4cfd320c8399fad7265cac44b77c40439f89578f7a5bd0976d2476cda18265a3",
+        "reference": "Lemon et al. 2019",
+        "reference_url": "https://arxiv.org/abs/1810.04480v2",
+        "provenance": "Named observational panel visually matched; caption identifies actual survey colour images with Gaia position overlays."
       }
     ],
     "35": [
@@ -417,6 +599,17 @@
         "sha256": "e9db7ecdb725410dfbd2abb1bbf83f34bf53eca749cec18b4d8c22a5645684aa",
         "source_member": "xl/media/image35.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-34.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L35",
+        "width": 512,
+        "height": 512,
+        "sha256": "8dce059166d6e8b6f170128decb20453f444811ae10b86aa885e134993e92f44",
+        "reference": "Lemon et al. 2023",
+        "reference_url": "https://arxiv.org/abs/2206.07714v1",
+        "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected."
       }
     ],
     "36": [
@@ -441,6 +634,17 @@
         "sha256": "c92eef1eeaec858fa0f7970a3ccf0c98f3eeca8f4c62fac6ee4705b68f0677fe",
         "source_member": "xl/media/image37.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-36.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L37",
+        "width": 512,
+        "height": 512,
+        "sha256": "ea3c06069e2ea0f3087fed863522d28be3bc2296a620db6dd082bd4767e75cf5",
+        "reference": "Lemon et al. 2018",
+        "reference_url": "https://arxiv.org/abs/1803.07601v2",
+        "provenance": "Named observational panel visually matched; caption identifies actual survey colour images with Gaia position overlays."
       }
     ],
     "38": [
@@ -481,14 +685,15 @@
     ],
     "41": [
       {
-        "path": "images/workbook/37c0b66ddb7574aa8d401ba8dee1d9dfa2a8fe744824a58d38b077a8b3253c05.png",
+        "path": "images/paper/id-40.jpg",
         "source_column": "paper image",
-        "anchor_cell": "F41",
-        "width": 336,
-        "height": 336,
-        "sha256": "37c0b66ddb7574aa8d401ba8dee1d9dfa2a8fe744824a58d38b077a8b3253c05",
-        "source_member": "xl/media/image41.png",
-        "original_link": "NULL"
+        "anchor_cell": "L41",
+        "width": 512,
+        "height": 512,
+        "sha256": "b4685e679c1949f08e971dbe961dd04840c3fe4dd92f92f15f15bbceaf4c0d5b",
+        "reference": "Lemon et al. 2023",
+        "reference_url": "https://arxiv.org/abs/2206.07714v1",
+        "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected."
       }
     ],
     "42": [
@@ -501,6 +706,17 @@
         "sha256": "f0bc71e78eacb9285c366ce4f4f024fab2171980d34c547d453832bea46c980d",
         "source_member": "xl/media/image42.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-41.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L42",
+        "width": 512,
+        "height": 512,
+        "sha256": "bd6ab75b4d599a1a72ac44eaaec172ff36e096f67704102d3f18d6419dacb5d2",
+        "reference": "Lemon et al. 2023",
+        "reference_url": "https://arxiv.org/abs/2206.07714v1",
+        "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected."
       }
     ],
     "43": [
@@ -513,6 +729,17 @@
         "sha256": "60991e2df92b0c757ecb1e12802fd7a594c747f01e212bf537ff2bf9864063bc",
         "source_member": "xl/media/image43.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-42.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L43",
+        "width": 512,
+        "height": 512,
+        "sha256": "a73943e78efd947341a70c613b0b1bab92bc62f7e07416252ebb7fb2c76672d9",
+        "reference": "Lemon et al. 2023",
+        "reference_url": "https://arxiv.org/abs/2206.07714v1",
+        "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected."
       }
     ],
     "44": [
@@ -525,6 +752,17 @@
         "sha256": "006c41f19ba392599bc277e9160c868cfd31e265e60bc7ef1fba68427dac40ab",
         "source_member": "xl/media/image44.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-43.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L44",
+        "width": 512,
+        "height": 512,
+        "sha256": "a4a0c8c89d4ae9b9f62f0fbed4d1e71c14c740796c0024cccca96bf132846505",
+        "reference": "Lemon et al. 2023",
+        "reference_url": "https://arxiv.org/abs/2206.07714v1",
+        "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected."
       }
     ],
     "45": [
@@ -561,6 +799,17 @@
         "sha256": "0384d90c32f419b5d6e19df29ea3f909c8633e72813b7722004a5e6cbaeb97aa",
         "source_member": "xl/media/image47.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-46.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L47",
+        "width": 512,
+        "height": 512,
+        "sha256": "37f9f30a1b3239496ff6ec22d9578683df9a7c60dfd64787e49598df3ff3ed1f",
+        "reference": "Lemon et al. 2018",
+        "reference_url": "https://arxiv.org/abs/1803.07601v2",
+        "provenance": "Named observational panel visually matched; caption identifies actual survey colour images with Gaia position overlays."
       }
     ],
     "48": [
@@ -585,6 +834,17 @@
         "sha256": "e7bb5507a05e361453f4d51ad471182fee4a6629b3924fe5ce1424a92a40a278",
         "source_member": "xl/media/image49.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-48.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L49",
+        "width": 512,
+        "height": 512,
+        "sha256": "1a32010712a63c2fe31d4ce819ed292c4123ad72b76700af96e10654a6463a8e",
+        "reference": "Lemon et al. 2023",
+        "reference_url": "https://arxiv.org/abs/2206.07714v1",
+        "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected."
       }
     ],
     "50": [
@@ -597,6 +857,17 @@
         "sha256": "2f8f05a4955e2fb4cab3689f805b67e58e105c44151bba9e4af2aed49df05c80",
         "source_member": "xl/media/image50.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-49.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L50",
+        "width": 512,
+        "height": 512,
+        "sha256": "ccba2355bb77eae61533d5b25c875a8a4697ff2f22834cd995821530808984ed",
+        "reference": "Lemon et al. 2023",
+        "reference_url": "https://arxiv.org/abs/2206.07714v1",
+        "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected."
       }
     ],
     "51": [
@@ -609,6 +880,17 @@
         "sha256": "3dc1c186997863cee56f052ec471b719467ab2da96764371c242f5af2bec0127",
         "source_member": "xl/media/image51.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-50.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L51",
+        "width": 512,
+        "height": 512,
+        "sha256": "beb24356e85039381c09611a425bc785718aeb6162ff2834c6e152606d3fc275",
+        "reference": "Lemon et al. 2023",
+        "reference_url": "https://arxiv.org/abs/2206.07714v1",
+        "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected."
       }
     ],
     "52": [
@@ -621,6 +903,17 @@
         "sha256": "dd156f0115feaa60554451c29634cf68f6a8e42efbc7a6f62c7e5b98b926a39a",
         "source_member": "xl/media/image52.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-51.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L52",
+        "width": 512,
+        "height": 512,
+        "sha256": "44d1e5bb7b648dc4285b6ae1296ef8342f4d4df8d2daa8ac8590cc67dfb78c56",
+        "reference": "Lemon et al. 2023",
+        "reference_url": "https://arxiv.org/abs/2206.07714v1",
+        "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected."
       }
     ],
     "53": [
@@ -635,14 +928,15 @@
         "original_link": "NULL"
       },
       {
-        "path": "images/workbook/214fdf87669c81309ff2f34096bbf1b965f5490b5d89ccc13306488cded3242a.png",
+        "path": "images/paper/id-52.jpg",
         "source_column": "paper image",
-        "anchor_cell": "F53",
-        "width": 266,
-        "height": 266,
-        "sha256": "214fdf87669c81309ff2f34096bbf1b965f5490b5d89ccc13306488cded3242a",
-        "source_member": "xl/media/image54.png",
-        "original_link": "NULL"
+        "anchor_cell": "L53",
+        "width": 512,
+        "height": 512,
+        "sha256": "e4f9afd79779672b9aa67339fb56726686146dc48224b629fde8c14ae58abcb4",
+        "reference": "Lemon et al. 2020",
+        "reference_url": "https://ui.adsabs.harvard.edu/abs/2020MNRAS.494.3491L/abstract",
+        "provenance": "Screenshot supplied in original workbook; observational panel visually checked. The listed discovery reference is contextual unless explicitly resolved."
       }
     ],
     "54": [
@@ -655,6 +949,17 @@
         "sha256": "198731ccd402c81b4cfc86f88e91098ec6143ed5fdce7e73033cf0b3d8fe58e8",
         "source_member": "xl/media/image55.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-53.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L54",
+        "width": 512,
+        "height": 512,
+        "sha256": "ea30fd0820b3d9f762a4b96edc195b1f16650e65eea4b1d46b39c928b11cbe53",
+        "reference": "Lemon et al. 2023",
+        "reference_url": "https://arxiv.org/abs/2206.07714v1",
+        "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected."
       }
     ],
     "55": [
@@ -667,6 +972,17 @@
         "sha256": "4182300a58513a00a0dbc661b18cda845d32a889640513a875868623477e6dee",
         "source_member": "xl/media/image56.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-54.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L55",
+        "width": 512,
+        "height": 512,
+        "sha256": "602fbbe5677598095cafc981ce9d72ccbcf9dd1343dd676459d1a9584131e203",
+        "reference": "Lemon et al. 2023",
+        "reference_url": "https://arxiv.org/abs/2206.07714v1",
+        "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected."
       }
     ],
     "56": [
@@ -679,6 +995,17 @@
         "sha256": "56755659bb3a2a15970a302b02a4ae8181f063ec5dff6be6926110294a89ba1b",
         "source_member": "xl/media/image57.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-55.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L56",
+        "width": 512,
+        "height": 512,
+        "sha256": "4418abfd30c8d0d73d1dec28a58c1ea3efb4564ce725ae56c57ec3d75a780049",
+        "reference": "Lemon et al. 2023",
+        "reference_url": "https://arxiv.org/abs/2206.07714v1",
+        "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected."
       }
     ],
     "57": [
@@ -691,6 +1018,17 @@
         "sha256": "d270f893488b580a102c6adf8748d007b4bb21eaca6b5dda705f7d9f95d60253",
         "source_member": "xl/media/image58.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-56.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L57",
+        "width": 512,
+        "height": 512,
+        "sha256": "afe618cd87b6b6e0905b05d438e97843d0b26fecae450e2f32c19d3abf050801",
+        "reference": "Lemon et al. 2023",
+        "reference_url": "https://arxiv.org/abs/2206.07714v1",
+        "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected."
       }
     ],
     "58": [
@@ -703,6 +1041,17 @@
         "sha256": "e44c0da467b8c6fb59dbbb934ee954600d1b8d189831b7323894aa341499c26f",
         "source_member": "xl/media/image59.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-57.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L58",
+        "width": 512,
+        "height": 512,
+        "sha256": "14bb487747f6a66b8e0a3e899c71bc497cc717ab94d0b8b47155eac9e9ed718c",
+        "reference": "Lemon et al. 2023",
+        "reference_url": "https://arxiv.org/abs/2206.07714v1",
+        "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected."
       }
     ],
     "59": [
@@ -715,6 +1064,17 @@
         "sha256": "67d2550c9b430da6644f192758790a8bb46cb67113188d44cc0bdfd392b2110f",
         "source_member": "xl/media/image60.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-58.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L59",
+        "width": 512,
+        "height": 512,
+        "sha256": "d170ced76adec46a6cc281862395f0218ff387266b2d8b84f2c5aa1054d12ba9",
+        "reference": "Lemon et al. 2023",
+        "reference_url": "https://arxiv.org/abs/2206.07714v1",
+        "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected."
       }
     ],
     "60": [
@@ -787,42 +1147,56 @@
         "sha256": "f391a10ca72453a408d50db5710757ee6319d1da0f5331e3229362caf4c49965",
         "source_member": "xl/media/image66.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-64.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L65",
+        "width": 512,
+        "height": 512,
+        "sha256": "a00418e6382ebc7dd285510af6c4461e74b7004977421ca539beba6fb14d56f5",
+        "reference": "Lemon et al. 2023",
+        "reference_url": "https://arxiv.org/abs/2206.07714v1",
+        "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected."
       }
     ],
     "66": [
       {
-        "path": "images/workbook/d0b8ab41f5a2b7042c5dab6e3cbc52035663b23b76612153d2cd74867821d1a3.png",
+        "path": "images/paper/id-65.jpg",
         "source_column": "paper image",
-        "anchor_cell": "F66",
-        "width": 336,
-        "height": 336,
-        "sha256": "d0b8ab41f5a2b7042c5dab6e3cbc52035663b23b76612153d2cd74867821d1a3",
-        "source_member": "xl/media/image67.png",
-        "original_link": "NULL"
+        "anchor_cell": "L66",
+        "width": 512,
+        "height": 512,
+        "sha256": "db207d9a5ffc7afada6e220c26a8ef5e9d312bd9a24d52bb336a2194c1da5c86",
+        "reference": "Lemon et al. 2023",
+        "reference_url": "https://arxiv.org/abs/2206.07714v1",
+        "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected."
       }
     ],
     "67": [
       {
-        "path": "images/workbook/693eebacd475bb5a35c6c3242fd271ccf46ea9e9f4c0b45ac03bb82a0ba42841.png",
+        "path": "images/paper/id-66.jpg",
         "source_column": "paper image",
-        "anchor_cell": "F67",
-        "width": 295,
-        "height": 295,
-        "sha256": "693eebacd475bb5a35c6c3242fd271ccf46ea9e9f4c0b45ac03bb82a0ba42841",
-        "source_member": "xl/media/image68.png",
-        "original_link": "NULL"
+        "anchor_cell": "L67",
+        "width": 512,
+        "height": 512,
+        "sha256": "c1e89d129cc20eb2e2962be69dc31e01061519a31961350f4fac241f13ff4d0d",
+        "reference": "Lemon et al. 2018",
+        "reference_url": "https://arxiv.org/abs/1803.07601v2",
+        "provenance": "Named observational panel visually matched; caption identifies actual survey colour images with Gaia position overlays."
       }
     ],
     "68": [
       {
-        "path": "images/workbook/8dfc6c0f82d3b5edc9c2022e40d93032123d36112ac775700b28373ae2df20cf.png",
+        "path": "images/paper/id-67.jpg",
         "source_column": "paper image",
-        "anchor_cell": "F68",
-        "width": 391,
-        "height": 391,
-        "sha256": "8dfc6c0f82d3b5edc9c2022e40d93032123d36112ac775700b28373ae2df20cf",
-        "source_member": "xl/media/image69.png",
-        "original_link": "NULL"
+        "anchor_cell": "L68",
+        "width": 512,
+        "height": 512,
+        "sha256": "39c59174e5160c0867276655f0558996d338e484c226c65ae038483bec3cc8fa",
+        "reference": "Desira et al. 2022",
+        "reference_url": "https://ui.adsabs.harvard.edu/abs/2022MNRAS.509..738D/abstract",
+        "provenance": "Screenshot supplied in original workbook; observational panel visually checked. The listed discovery reference is contextual unless explicitly resolved."
       }
     ],
     "69": [
@@ -839,14 +1213,15 @@
     ],
     "70": [
       {
-        "path": "images/workbook/3a39927666519cf5be7469794c473ca6159c3cea660294f38746e7483dd2b0d4.png",
+        "path": "images/paper/id-69.jpg",
         "source_column": "paper image",
-        "anchor_cell": "F70",
-        "width": 903,
-        "height": 903,
-        "sha256": "3a39927666519cf5be7469794c473ca6159c3cea660294f38746e7483dd2b0d4",
-        "source_member": "xl/media/image71.png",
-        "original_link": "NULL"
+        "anchor_cell": "L70",
+        "width": 512,
+        "height": 512,
+        "sha256": "14f0501d9f97c351a776a27e8e70dd181f054e880d6e795cbae3df5e2b745dc6",
+        "reference": "Fan et al. 2019",
+        "reference_url": "https://ui.adsabs.harvard.edu/abs/2019ApJ...870L..11F/abstract",
+        "provenance": "Screenshot supplied in original workbook; observational panel visually checked. The listed discovery reference is contextual unless explicitly resolved."
       }
     ],
     "71": [
@@ -859,6 +1234,17 @@
         "sha256": "3da1ec51db26ec18b39c989672afb062cc53bd7d05d7e82f889da18f38a6fba0",
         "source_member": "xl/media/image72.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-70.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L71",
+        "width": 512,
+        "height": 512,
+        "sha256": "5eaaf3e55ce5c2d72d919291d701fc8ecf6f57bca5ef001a0bdcb9ecac725319",
+        "reference": "Lemon et al. 2023",
+        "reference_url": "https://arxiv.org/abs/2206.07714v1",
+        "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected."
       }
     ],
     "72": [
@@ -875,14 +1261,15 @@
     ],
     "73": [
       {
-        "path": "images/workbook/903887cf48e1e44526716148b98dad2790c594fe82f51152eb6ce6027400a259.png",
+        "path": "images/paper/id-72.jpg",
         "source_column": "paper image",
-        "anchor_cell": "F73",
-        "width": 440,
-        "height": 441,
-        "sha256": "903887cf48e1e44526716148b98dad2790c594fe82f51152eb6ce6027400a259",
-        "source_member": "xl/media/image74.png",
-        "original_link": "NULL"
+        "anchor_cell": "L73",
+        "width": 512,
+        "height": 512,
+        "sha256": "7003b4f2d37b61a83c1ea0fe15ddee26e2a1a0f06de21cb39566b0626b9f9e58",
+        "reference": "Argo et al. 2003",
+        "reference_url": "https://ui.adsabs.harvard.edu/abs/2003MNRAS.338..957A/abstract",
+        "provenance": "Screenshot supplied in original workbook; observational panel visually checked. The listed discovery reference is contextual unless explicitly resolved."
       }
     ],
     "74": [
@@ -895,6 +1282,17 @@
         "sha256": "264dc8bb7c8d934b6c276de8f4fca7d7000fc8f8ee394bce43564ca540142dfe",
         "source_member": "xl/media/image75.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-73.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L74",
+        "width": 512,
+        "height": 512,
+        "sha256": "acfc0b5fae8c56d77df1300ee56fc05d64e90c5d92f73b99ead8f4cfcd32ee60",
+        "reference": "Lemon et al. 2023",
+        "reference_url": "https://arxiv.org/abs/2206.07714v1",
+        "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected."
       }
     ],
     "75": [
@@ -919,6 +1317,17 @@
         "sha256": "9971d485d8b5bc4cf2ba47823f1444aa19355c1ebab102357525b66962a273a4",
         "source_member": "xl/media/image77.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-75.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L76",
+        "width": 512,
+        "height": 512,
+        "sha256": "5c4d7e79fb653921d28d8e4a6dcb66b1942dbb989f874d46a43e8e636f05de03",
+        "reference": "Lemon et al. 2023",
+        "reference_url": "https://arxiv.org/abs/2206.07714v1",
+        "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected."
       }
     ],
     "77": [
@@ -933,14 +1342,15 @@
         "original_link": "NULL"
       },
       {
-        "path": "images/workbook/7e67c961add43c3172e8300d6147ef24f2b5b04a7b9b0d4436cd86c77a4ed409.png",
+        "path": "images/paper/id-76.jpg",
         "source_column": "paper image",
-        "anchor_cell": "F77",
-        "width": 539,
-        "height": 539,
-        "sha256": "7e67c961add43c3172e8300d6147ef24f2b5b04a7b9b0d4436cd86c77a4ed409",
-        "source_member": "xl/media/image79.png",
-        "original_link": "NULL"
+        "anchor_cell": "L77",
+        "width": 512,
+        "height": 512,
+        "sha256": "d03f07c56009c6ea26a95319a0df2fbb63f9fabe4e4fb74cc8e621efe3837a90",
+        "reference": "Hagen & Reimers 2000",
+        "reference_url": "https://ui.adsabs.harvard.edu/abs/2000A%26A...357L..29H/abstract",
+        "provenance": "Screenshot supplied in original workbook; observational panel visually checked. The listed discovery reference is contextual unless explicitly resolved."
       }
     ],
     "78": [
@@ -953,6 +1363,17 @@
         "sha256": "7d6050c998881a688fd5ad7721d3306785b7857988c31b6658ff06a5d88491fd",
         "source_member": "xl/media/image80.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-77.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L78",
+        "width": 512,
+        "height": 512,
+        "sha256": "0f8735a49e7114e9ff40a675394b36e3164cb745c71f8bf471282e19d4f4bc81",
+        "reference": "Lemon et al. 2023",
+        "reference_url": "https://arxiv.org/abs/2206.07714v1",
+        "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected."
       }
     ],
     "79": [
@@ -967,14 +1388,15 @@
         "original_link": "NULL"
       },
       {
-        "path": "images/workbook/2c48da541c2d450c2346923c0b7e69f435929245b2973cd3245e47e786219b0c.png",
+        "path": "images/paper/id-78.jpg",
         "source_column": "paper image",
-        "anchor_cell": "F79",
-        "width": 288,
-        "height": 288,
-        "sha256": "2c48da541c2d450c2346923c0b7e69f435929245b2973cd3245e47e786219b0c",
-        "source_member": "xl/media/image82.png",
-        "original_link": "NULL"
+        "anchor_cell": "L79",
+        "width": 512,
+        "height": 512,
+        "sha256": "806cf1b5ca9e897ce5f46bffd1fbcd23b0febcdaf44c9e20d84c85012a8eb192",
+        "reference": "Scialpi et al. 2025",
+        "reference_url": "https://arxiv.org/abs/2512.11960v1",
+        "provenance": "Screenshot supplied in original workbook; observational panel visually checked. The listed discovery reference is contextual unless explicitly resolved."
       }
     ],
     "80": [
@@ -991,14 +1413,15 @@
     ],
     "81": [
       {
-        "path": "images/workbook/e407f250d44a3fb38517e6dadb417644e664aa73c1c52efbf06bfdc06e28f2f8.png",
+        "path": "images/paper/id-80.jpg",
         "source_column": "paper image",
-        "anchor_cell": "F81",
-        "width": 336,
-        "height": 336,
-        "sha256": "e407f250d44a3fb38517e6dadb417644e664aa73c1c52efbf06bfdc06e28f2f8",
-        "source_member": "xl/media/image84.png",
-        "original_link": "NULL"
+        "anchor_cell": "L81",
+        "width": 512,
+        "height": 512,
+        "sha256": "0975c6fcd155905d8be2dbeb8377b3fd326e0b38a1e43364f7cafa82bbce1bf2",
+        "reference": "Lemon et al. 2023",
+        "reference_url": "https://arxiv.org/abs/2206.07714v1",
+        "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected."
       }
     ],
     "82": [
@@ -1035,18 +1458,30 @@
         "sha256": "085631ae9c04a5ac7941863fe9131b7e4a2985ae93213613bbcf0b98a31a5aee",
         "source_member": "xl/media/image87.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-83.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L84",
+        "width": 512,
+        "height": 512,
+        "sha256": "e0089cbd3fa84b60fcf16694377b43fa40e5ff27f6061b0664ef24e2c3974de7",
+        "reference": "Lemon et al. 2023",
+        "reference_url": "https://arxiv.org/abs/2206.07714v1",
+        "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected."
       }
     ],
     "85": [
       {
-        "path": "images/workbook/5e97d5885859ba8618168af2603517d207ee3765370d460425b34c4c64cb4cd3.png",
+        "path": "images/paper/id-84.jpg",
         "source_column": "paper image",
-        "anchor_cell": "F85",
-        "width": 270,
-        "height": 270,
-        "sha256": "5e97d5885859ba8618168af2603517d207ee3765370d460425b34c4c64cb4cd3",
-        "source_member": "xl/media/image88.png",
-        "original_link": "NULL"
+        "anchor_cell": "L85",
+        "width": 512,
+        "height": 512,
+        "sha256": "07720b11e153eb3cfbfd2e2a9de1a3b5d3828eef480a7d7dba657a7b7ac35a9c",
+        "reference": "Lemon et al. 2023",
+        "reference_url": "https://arxiv.org/abs/2206.07714v1",
+        "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected."
       }
     ],
     "86": [
@@ -1059,18 +1494,30 @@
         "sha256": "a1d99e1c816805b27aad821900cb126bcbfb6b9c3298ba764c488ad58ef038a7",
         "source_member": "xl/media/image89.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-85.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L86",
+        "width": 512,
+        "height": 512,
+        "sha256": "467ff130b8cea5a182882e676bfeda15e128d98fbd8e7f706efb64bddbd9d534",
+        "reference": "Lemon et al. 2023",
+        "reference_url": "https://arxiv.org/abs/2206.07714v1",
+        "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected."
       }
     ],
     "87": [
       {
-        "path": "images/workbook/cfa9a3c07093dbbe2153f36b4c5e6349d5c5c1e3a744faa372b1e4ef28e885f1.png",
+        "path": "images/paper/id-86.jpg",
         "source_column": "paper image",
-        "anchor_cell": "F87",
-        "width": 313,
-        "height": 313,
-        "sha256": "cfa9a3c07093dbbe2153f36b4c5e6349d5c5c1e3a744faa372b1e4ef28e885f1",
-        "source_member": "xl/media/image90.png",
-        "original_link": "NULL"
+        "anchor_cell": "L87",
+        "width": 512,
+        "height": 512,
+        "sha256": "1fd0c56f436bf5d574e9b0b618816b47f4934ac5ae63d6c2bf0f5c4af4efe943",
+        "reference": "Lemon et al. 2018",
+        "reference_url": "https://arxiv.org/abs/1803.07601v2",
+        "provenance": "Named observational panel visually matched; caption identifies actual survey colour images with Gaia position overlays."
       }
     ],
     "88": [
@@ -1095,30 +1542,43 @@
         "sha256": "b9ea049b3c95d699fe39c4977db5aa654526ae9202c6ef13e6b369a338f35189",
         "source_member": "xl/media/image92.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-88.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L89",
+        "width": 512,
+        "height": 512,
+        "sha256": "da205b6d8377addcc45c1ef6e1025d70bf8d9c1175f6e738e9c1e0efaf5a0848",
+        "reference": "Lemon et al. 2023",
+        "reference_url": "https://arxiv.org/abs/2206.07714v1",
+        "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected."
       }
     ],
     "90": [
       {
-        "path": "images/workbook/5138a14217185d94dbaee5fa2169f8da2d1f54311f5e19e626b09f3078d89224.png",
+        "path": "images/paper/id-89.jpg",
         "source_column": "paper image",
-        "anchor_cell": "F90",
-        "width": 336,
-        "height": 336,
-        "sha256": "5138a14217185d94dbaee5fa2169f8da2d1f54311f5e19e626b09f3078d89224",
-        "source_member": "xl/media/image93.png",
-        "original_link": "NULL"
+        "anchor_cell": "L90",
+        "width": 512,
+        "height": 512,
+        "sha256": "3f807aaf03bd8b663e5e09600d3087ce95c39a6d3302e71a4010b7ea4600dea0",
+        "reference": "Lemon et al. 2023",
+        "reference_url": "https://arxiv.org/abs/2206.07714v1",
+        "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected."
       }
     ],
     "91": [
       {
-        "path": "images/workbook/e845b45a01555e1a48b994fce67c3a182750daf1ae94391670aabfc0299192c6.png",
+        "path": "images/paper/id-90.jpg",
         "source_column": "paper image",
-        "anchor_cell": "F91",
-        "width": 182,
-        "height": 182,
-        "sha256": "e845b45a01555e1a48b994fce67c3a182750daf1ae94391670aabfc0299192c6",
-        "source_member": "xl/media/image94.png",
-        "original_link": "NULL"
+        "anchor_cell": "L91",
+        "width": 512,
+        "height": 512,
+        "sha256": "8d6c6ffa4c61195d4324967c22fdf829fe6312659421e692efa927c49c03dc05",
+        "reference": "Lemon et al. 2023",
+        "reference_url": "https://arxiv.org/abs/2206.07714v1",
+        "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected."
       }
     ],
     "92": [
@@ -1143,6 +1603,17 @@
         "sha256": "25ce0df2af20e7aa5395f0bd2316dc4c0df5ae4e9a42052e5e233a2784a3e24e",
         "source_member": "xl/media/image96.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-92.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L93",
+        "width": 512,
+        "height": 512,
+        "sha256": "6b5f70b11640fd2454dfa9e0bd9d1d1671c497cfde8c801ede94c65a0761b353",
+        "reference": "Lemon et al. 2023",
+        "reference_url": "https://arxiv.org/abs/2206.07714v1",
+        "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected."
       }
     ],
     "94": [
@@ -1167,6 +1638,17 @@
         "sha256": "accd8179b7fd0920f71d40a857d1ef18409a6344991fc48ab61e84ffb05c1be9",
         "source_member": "xl/media/image98.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-94.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L95",
+        "width": 512,
+        "height": 512,
+        "sha256": "164cfb056505b16c5713f3ba687c0a23e8ff6a033e8da50177abf56e31c49c69",
+        "reference": "Lemon et al. 2023",
+        "reference_url": "https://arxiv.org/abs/2206.07714v1",
+        "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected."
       }
     ],
     "96": [
@@ -1181,14 +1663,15 @@
         "original_link": "NULL"
       },
       {
-        "path": "images/workbook/6cbcf2a3c5450070e3c9583555a74522acc808df5c1172e3e0cb2971297e341d.png",
+        "path": "images/paper/id-95.jpg",
         "source_column": "paper image",
-        "anchor_cell": "F96",
-        "width": 451,
-        "height": 451,
-        "sha256": "6cbcf2a3c5450070e3c9583555a74522acc808df5c1172e3e0cb2971297e341d",
-        "source_member": "xl/media/image100.png",
-        "original_link": "NULL"
+        "anchor_cell": "L96",
+        "width": 512,
+        "height": 512,
+        "sha256": "ca4bb168786c1811bf8584253193720c638fc1ec33991a651fabcc18b1d6aafd",
+        "reference": "Marlow et al. 2001",
+        "reference_url": "https://ui.adsabs.harvard.edu/abs/2001AJ....121..619M/abstract",
+        "provenance": "Screenshot supplied in original workbook; observational panel visually checked. The listed discovery reference is contextual unless explicitly resolved."
       }
     ],
     "97": [
@@ -1225,6 +1708,17 @@
         "sha256": "4c289259b3d28cfe9eeff5e078c84673190355b7f93869119c9fe3d9f1bb72ae",
         "source_member": "xl/media/image103.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-98.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L99",
+        "width": 512,
+        "height": 512,
+        "sha256": "e32a1650d2117099a77e63ce8bcc6a9efd7739330a60e7b33ad786f2184dd5f6",
+        "reference": "Lemon et al. 2023",
+        "reference_url": "https://arxiv.org/abs/2206.07714v1",
+        "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected."
       }
     ],
     "100": [
@@ -1251,26 +1745,28 @@
         "original_link": "NULL"
       },
       {
-        "path": "images/workbook/c372542f9029bc87c2f34b0f58f2a41119c8729ea3ce65cd08eef2b62892e92f.png",
+        "path": "images/paper/id-100.jpg",
         "source_column": "paper image",
-        "anchor_cell": "F101",
-        "width": 485,
-        "height": 485,
-        "sha256": "c372542f9029bc87c2f34b0f58f2a41119c8729ea3ce65cd08eef2b62892e92f",
-        "source_member": "xl/media/image106.png",
-        "original_link": "NULL"
+        "anchor_cell": "L101",
+        "width": 512,
+        "height": 512,
+        "sha256": "fbc8b9fd35ef42beb809a69f763a1ebfd0444f56267941c637284e613ca898f9",
+        "reference": "Reimers et al. 2002",
+        "reference_url": "https://ui.adsabs.harvard.edu/abs/2002A%26A...382L..26R/abstract",
+        "provenance": "Screenshot supplied in original workbook; observational panel visually checked. The listed discovery reference is contextual unless explicitly resolved."
       }
     ],
     "102": [
       {
-        "path": "images/workbook/591116d9d4e24e4886448eb86a290572ac59bded0c1244df5352e6a6d8dc0f9f.png",
+        "path": "images/paper/id-101.jpg",
         "source_column": "paper image",
-        "anchor_cell": "F102",
-        "width": 269,
-        "height": 269,
-        "sha256": "591116d9d4e24e4886448eb86a290572ac59bded0c1244df5352e6a6d8dc0f9f",
-        "source_member": "xl/media/image107.png",
-        "original_link": "NULL"
+        "anchor_cell": "L102",
+        "width": 512,
+        "height": 512,
+        "sha256": "6482a416740dc0d57d504721ab66959869705b5076b1297b53956905c2d98593",
+        "reference": "Lemon et al. 2023",
+        "reference_url": "https://arxiv.org/abs/2206.07714v1",
+        "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected."
       }
     ],
     "103": [
@@ -1343,6 +1839,17 @@
         "sha256": "9c0ba7dc790c13c21eeb1942ab8d5e4403fe5b4af243fab80fd7c915d5a6be56",
         "source_member": "xl/media/image113.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-107.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L108",
+        "width": 512,
+        "height": 512,
+        "sha256": "40eaac7b513bbbe1c2fd6e57b01b97855700cb0615f729e500c9dae53c312e12",
+        "reference": "Lemon et al. 2023",
+        "reference_url": "https://arxiv.org/abs/2206.07714v1",
+        "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected."
       }
     ],
     "109": [
@@ -1399,6 +1906,17 @@
         "sha256": "cd946af6b78e6ee0fb573a679b00d4d49908079382e4c1eb286baa482b98d316",
         "source_member": "xl/media/image118.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-110.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L111",
+        "width": 512,
+        "height": 512,
+        "sha256": "db8ed2ff5ad2695b17203d0ed4bdb5c7e33da7cb08b35f12557eb8bd7a468b94",
+        "reference": "Lemon et al. 2023",
+        "reference_url": "https://arxiv.org/abs/2206.07714v1",
+        "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected."
       }
     ],
     "112": [
@@ -1411,18 +1929,30 @@
         "sha256": "c590d862732e11a2cde4fa250d5b393bffc4c79e7d680c2576a68bae0585f9ae",
         "source_member": "xl/media/image119.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-111.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L112",
+        "width": 512,
+        "height": 512,
+        "sha256": "39cf4c3b75cafdfdec29c39dc8ec9be5d63b78503f55d4dcf4004195fecfd7f9",
+        "reference": "Lemon et al. 2023",
+        "reference_url": "https://arxiv.org/abs/2206.07714v1",
+        "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected."
       }
     ],
     "113": [
       {
-        "path": "images/workbook/b9648580ea3ad661b865f0958df3f686055ea7e435c20dab9473c272ed2cdda6.png",
+        "path": "images/paper/id-112.jpg",
         "source_column": "paper image",
-        "anchor_cell": "F113",
-        "width": 336,
-        "height": 336,
-        "sha256": "b9648580ea3ad661b865f0958df3f686055ea7e435c20dab9473c272ed2cdda6",
-        "source_member": "xl/media/image120.png",
-        "original_link": "NULL"
+        "anchor_cell": "L113",
+        "width": 512,
+        "height": 512,
+        "sha256": "9f2cd1fcaa5dc8b1df6bca4dda907fd37fb27acd2b4f4b9a4fb6f98d21b02caf",
+        "reference": "Lemon et al. 2023",
+        "reference_url": "https://arxiv.org/abs/2206.07714v1",
+        "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected."
       }
     ],
     "114": [
@@ -1435,6 +1965,17 @@
         "sha256": "b37031ee3d190e16c60d241616abbde95f6e18b2cd19b4a18b0835e1ddf53328",
         "source_member": "xl/media/image121.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-113.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L114",
+        "width": 512,
+        "height": 512,
+        "sha256": "25ed31786c57cd4f209c5a4c4957e2f54beceaf098d6842ca51c0f5a08bc9e2a",
+        "reference": "Lemon et al. 2018",
+        "reference_url": "https://arxiv.org/abs/1803.07601v2",
+        "provenance": "Named observational panel visually matched; caption identifies actual survey colour images with Gaia position overlays."
       }
     ],
     "115": [
@@ -1459,14 +2000,15 @@
         "original_link": "NULL"
       },
       {
-        "path": "images/workbook/12d2c66a9103aa3ac2a46076872c3949b5c7ae6bf5ea50f7346d79e9cfa7e77f.png",
+        "path": "images/paper/id-114.jpg",
         "source_column": "paper image",
-        "anchor_cell": "F115",
-        "width": 1300,
-        "height": 1300,
-        "sha256": "12d2c66a9103aa3ac2a46076872c3949b5c7ae6bf5ea50f7346d79e9cfa7e77f",
-        "source_member": "xl/media/image124.png",
-        "original_link": "NULL"
+        "anchor_cell": "L115",
+        "width": 512,
+        "height": 512,
+        "sha256": "80ae0a594fbfbb2483949b4db5260d0decdb4a46268b1fb08c06991a6850e699",
+        "reference": "Biggs et al. 2003",
+        "reference_url": "https://ui.adsabs.harvard.edu/abs/2003MNRAS.338.1084B/abstract",
+        "provenance": "Screenshot supplied in original workbook; observational panel visually checked. The listed discovery reference is contextual unless explicitly resolved."
       }
     ],
     "116": [
@@ -1503,6 +2045,17 @@
         "sha256": "591921ae73d62dff02ac6b03f78e4dda957e757a0b1a8d2c3011f87f1708bf80",
         "source_member": "xl/media/image127.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-117.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L118",
+        "width": 512,
+        "height": 512,
+        "sha256": "e2d44a4e62004a8b34285f3ade04c321ee69c0173862c7a10085a48db0f2e454",
+        "reference": "Lemon et al. 2023",
+        "reference_url": "https://arxiv.org/abs/2206.07714v1",
+        "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected."
       }
     ],
     "119": [
@@ -1537,6 +2090,17 @@
         "sha256": "428fb1a35322cbcb08a4e28e46f8a37aa98f822d4f0c1d6a0f63faf7de9ad11e",
         "source_member": "xl/media/image130.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-119.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L120",
+        "width": 512,
+        "height": 512,
+        "sha256": "5d25f27098b1bf531296afd3ba674c5e9d8fee120dc0ecae20e75c0d2737653b",
+        "reference": "Lemon et al. 2023",
+        "reference_url": "https://arxiv.org/abs/2206.07714v1",
+        "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected."
       }
     ],
     "121": [
@@ -1561,6 +2125,17 @@
         "sha256": "bdba7130d319f715199daa12b519926c588dac44029bb87ea6d5959881ca9b76",
         "source_member": "xl/media/image132.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-121.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L122",
+        "width": 512,
+        "height": 512,
+        "sha256": "7448ceb1bf0dbd9f712cb9aabf04ff9dc1b04ed51fd1fd867eb494fc5ffdc754",
+        "reference": "Lemon et al. 2023",
+        "reference_url": "https://arxiv.org/abs/2206.07714v1",
+        "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected."
       }
     ],
     "123": [
@@ -1607,6 +2182,17 @@
         "sha256": "ed906595afa4b645af87333ec06ac2a487e9a906f79d33bc9bc0efe7d4f453e0",
         "source_member": "xl/media/image136.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-124.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L125",
+        "width": 512,
+        "height": 512,
+        "sha256": "ee65040e21c21db91de83ce42370d808af010588a6785f4fb6a9c06045ccc9ac",
+        "reference": "Lemon et al. 2023",
+        "reference_url": "https://arxiv.org/abs/2206.07714v1",
+        "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected."
       }
     ],
     "126": [
@@ -1619,6 +2205,17 @@
         "sha256": "f821c1ac6a6c52360e8f0b210a73ed3f641ec352bc7a950444e3954907e0f2f7",
         "source_member": "xl/media/image137.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-125.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L126",
+        "width": 512,
+        "height": 512,
+        "sha256": "16ac1176fb1513ce99dfcf43b886ac7d0c2cc7ea35b6c4f92bc27d69529cb0d7",
+        "reference": "Lemon et al. 2023",
+        "reference_url": "https://arxiv.org/abs/2206.07714v1",
+        "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected."
       }
     ],
     "127": [
@@ -1643,6 +2240,17 @@
         "sha256": "3db5adf956a4664d8cfcb68ec5a08ba0c91cdd6563b91bd8d7b29a71677a947a",
         "source_member": "xl/media/image139.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-127.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L128",
+        "width": 512,
+        "height": 512,
+        "sha256": "2e8d2014b4762cbb0688a41181bf099fbc2ec46923321dc9db761d0d38edb6a1",
+        "reference": "Lemon et al. 2023",
+        "reference_url": "https://arxiv.org/abs/2206.07714v1",
+        "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected."
       }
     ],
     "129": [
@@ -1677,6 +2285,17 @@
         "sha256": "f59ffa35140613122f249458939e97eebc80256feaf3eca6f3c1314043e0befc",
         "source_member": "xl/media/image142.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-129.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L130",
+        "width": 512,
+        "height": 512,
+        "sha256": "76e3461c028fa1b515e4eb1ddaa9c1f9a376d8806ee857d5be95334b0e5fb1cd",
+        "reference": "Lemon et al. 2023",
+        "reference_url": "https://arxiv.org/abs/2206.07714v1",
+        "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected."
       }
     ],
     "131": [
@@ -1689,6 +2308,17 @@
         "sha256": "c4e510444878887787e6400dd7192a9536a43fb7bc392394ae451e2d4aa6c0fa",
         "source_member": "xl/media/image143.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-130.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L131",
+        "width": 512,
+        "height": 512,
+        "sha256": "50b87bdcbcd1a17d5f8c39c9ab885de71e92a98aed6c07bf4159efb03acd70df",
+        "reference": "Lemon et al. 2023",
+        "reference_url": "https://arxiv.org/abs/2206.07714v1",
+        "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected."
       }
     ],
     "132": [
@@ -1701,6 +2331,17 @@
         "sha256": "30ecc852be5c1a62d1e9e9054bdda7415f7c2a15441c01d021360159f4162bc4",
         "source_member": "xl/media/image144.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-131.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L132",
+        "width": 512,
+        "height": 512,
+        "sha256": "813ebf2b39d778b8fbb5e88b09addd8cad8c7d45ea982ee2a8089f1b9b6a23ee",
+        "reference": "Lemon et al. 2018",
+        "reference_url": "https://arxiv.org/abs/1803.07601v2",
+        "provenance": "Named observational panel visually matched; caption identifies actual survey colour images with Gaia position overlays."
       }
     ],
     "133": [
@@ -1737,6 +2378,17 @@
         "sha256": "b439db1f0185586a7eda46a8f854d9dba71bb333c87934b46172454388330e27",
         "source_member": "xl/media/image147.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-134.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L135",
+        "width": 512,
+        "height": 512,
+        "sha256": "c261b0c6a42cb9cfc6f1dd49f629756cb3227504822a5379de8c6fd97217cd1e",
+        "reference": "Lemon et al. 2018",
+        "reference_url": "https://arxiv.org/abs/1803.07601v2",
+        "provenance": "Named observational panel visually matched; caption identifies actual survey colour images with Gaia position overlays."
       }
     ],
     "136": [
@@ -1761,6 +2413,17 @@
         "sha256": "92eb10a746d4dd308408d64ad9452c99c5d413be5e39c40269a9bfa96f551ddb",
         "source_member": "xl/media/image149.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-136.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L137",
+        "width": 512,
+        "height": 512,
+        "sha256": "66d909cb581974c8aad2c3c2cdcb5c9773f056a07c5ff2a2b3b754d81f4dfd92",
+        "reference": "Lemon et al. 2023",
+        "reference_url": "https://arxiv.org/abs/2206.07714v1",
+        "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected."
       }
     ],
     "138": [
@@ -1841,6 +2504,17 @@
         "sha256": "bcdab53d3e4a2ed0c8545b825e9f1d3b254329853691aa488542f97e3a1ba448",
         "source_member": "xl/media/image156.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-141.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L142",
+        "width": 512,
+        "height": 512,
+        "sha256": "710b0a3d05df454008633aa476cdec170fbfa8f3c8e2c556cafc100f0f4ac120",
+        "reference": "Lemon et al. 2023",
+        "reference_url": "https://arxiv.org/abs/2206.07714v1",
+        "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected."
       }
     ],
     "143": [
@@ -1887,6 +2561,17 @@
         "sha256": "d766124a01b89be05dfa9bd4dab56ede1e07a5618aea2871650627944c30c2a2",
         "source_member": "xl/media/image160.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-144.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L145",
+        "width": 512,
+        "height": 512,
+        "sha256": "d8a122c198b18604aa965ce8fdaa6a83bc7ba2f43b83806f7fd70a0cd72152e6",
+        "reference": "Lemon et al. 2023",
+        "reference_url": "https://arxiv.org/abs/2206.07714v1",
+        "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected."
       }
     ],
     "146": [
@@ -1899,6 +2584,17 @@
         "sha256": "b4526eade7efaefb3048b1886b9c27beab9130f02772aa5785a9cfd2bc0f5217",
         "source_member": "xl/media/image161.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-145.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L146",
+        "width": 512,
+        "height": 512,
+        "sha256": "f13fa672c5d1b6a766399ffbf427705bb89d79f8558b04a16232b1055c97e298",
+        "reference": "Lemon et al. 2023",
+        "reference_url": "https://arxiv.org/abs/2206.07714v1",
+        "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected."
       }
     ],
     "147": [
@@ -1959,6 +2655,17 @@
         "sha256": "1c019b70ea516dc1d688f6da67cbdbde802a28ffe6fe20f0eb29195b6afcf516",
         "source_member": "xl/media/image166.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-150.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L151",
+        "width": 512,
+        "height": 512,
+        "sha256": "33dd56b79cd72670ffcadd799ffdf6b1051412a9642d0658a9f6b1be3627c610",
+        "reference": "Lemon et al. 2023",
+        "reference_url": "https://arxiv.org/abs/2206.07714v1",
+        "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected."
       }
     ],
     "152": [
@@ -2005,6 +2712,17 @@
         "sha256": "c5f59faf06133afd41a67e8b1ba6438af08698b45607f37e416f2b0886aae101",
         "source_member": "xl/media/image170.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-153.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L154",
+        "width": 512,
+        "height": 512,
+        "sha256": "24fbea79466a3d9b054477b1569980d9c0ce16b1cf980b0880a6b4bccec2b254",
+        "reference": "Lemon et al. 2023",
+        "reference_url": "https://arxiv.org/abs/2206.07714v1",
+        "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected."
       }
     ],
     "155": [
@@ -2017,6 +2735,17 @@
         "sha256": "a5ba547dba5609a0218b327616fa3c4b1998b0c9c6706ba1a73eb7c604862639",
         "source_member": "xl/media/image171.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-154.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L155",
+        "width": 512,
+        "height": 512,
+        "sha256": "e79e6035180a7f87094b8c21f69744382ca8b4a52c66407e92dc85310bf26a5c",
+        "reference": "Lemon et al. 2023",
+        "reference_url": "https://arxiv.org/abs/2206.07714v1",
+        "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected."
       }
     ],
     "156": [
@@ -2149,28 +2878,18 @@
         "original_link": "NULL"
       },
       {
-        "path": "images/workbook/6c72b275051868b19f4982043880c802967386ac7d655dd8dac6433b8409c65c.png",
+        "path": "images/paper/id-164.jpg",
         "source_column": "paper image",
-        "anchor_cell": "F165",
-        "width": 1122,
-        "height": 1122,
-        "sha256": "6c72b275051868b19f4982043880c802967386ac7d655dd8dac6433b8409c65c",
-        "source_member": "xl/media/image183.png",
-        "original_link": "NULL"
+        "anchor_cell": "L165",
+        "width": 512,
+        "height": 512,
+        "sha256": "f187dc361f6da2705d2bff115072aa7f6167094c83fbf15def42977329c4eb9d",
+        "reference": "Koopmans et al. 1999",
+        "reference_url": "https://ui.adsabs.harvard.edu/abs/1999MNRAS.303..727K/abstract",
+        "provenance": "Screenshot supplied in original workbook; observational panel visually checked. The listed discovery reference is contextual unless explicitly resolved."
       }
     ],
-    "166": [
-      {
-        "path": "images/workbook/37df8d2041d858e01bef0be6e14206e8756db2dc94d5e209b4d6177754b01913.png",
-        "source_column": "paper image",
-        "anchor_cell": "F166",
-        "width": 867,
-        "height": 867,
-        "sha256": "37df8d2041d858e01bef0be6e14206e8756db2dc94d5e209b4d6177754b01913",
-        "source_member": "xl/media/image184.png",
-        "original_link": "NULL"
-      }
-    ],
+    "166": [],
     "167": [
       {
         "path": "images/workbook/b75a0ca9b29292793c0b5ecf088695e1e2093310f9e52b4f1c0fd157f9edd4a9.png",
@@ -2217,6 +2936,17 @@
         "sha256": "56641633d1491aece6166c407c7b093cfc4bbcd5b7ad9c3d5bb024dc4b476bb8",
         "source_member": "xl/media/image188.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-169.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L170",
+        "width": 512,
+        "height": 512,
+        "sha256": "653b74e650bbad9ab138a7b852ea2d645425257c2d860cc070a3bc23e85592ba",
+        "reference": "Lemon et al. 2023",
+        "reference_url": "https://arxiv.org/abs/2206.07714v1",
+        "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected."
       }
     ],
     "171": [
@@ -2301,6 +3031,17 @@
         "sha256": "c5ad48a628c132a1bdad0563632501574d60331cdcebddddbf83d4bff922ea85",
         "source_member": "xl/media/image195.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-176.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L177",
+        "width": 512,
+        "height": 512,
+        "sha256": "1b9ec4e50d02296abd65ee6a5a9c3dbd50deae963f4b039553e4a14d85848077",
+        "reference": "Lemon et al. 2023",
+        "reference_url": "https://arxiv.org/abs/2206.07714v1",
+        "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected."
       }
     ],
     "178": [
@@ -2313,6 +3054,17 @@
         "sha256": "ed11d18a8d05b96b66ee5dcb1a106e3c4a517b078b4a40e5d79e4157f5ab8084",
         "source_member": "xl/media/image196.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-177.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L178",
+        "width": 512,
+        "height": 512,
+        "sha256": "7640faffd709546753641a7af52b43fe604b7f21d17d3c818a5f11a4763f3513",
+        "reference": "Lemon et al. 2023",
+        "reference_url": "https://arxiv.org/abs/2206.07714v1",
+        "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected."
       }
     ],
     "179": [
@@ -2359,6 +3111,17 @@
         "sha256": "8032722781270be870770552ccd8a0cf9d8f9a3f165837e4515c206aaaaae0bc",
         "source_member": "xl/media/image200.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-180.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L181",
+        "width": 512,
+        "height": 512,
+        "sha256": "9561adb0fc7d119f2489b4fd6028a30c9b174dc4992c031cbfa7c31ca6441365",
+        "reference": "Lemon et al. 2023",
+        "reference_url": "https://arxiv.org/abs/2206.07714v1",
+        "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected."
       }
     ],
     "182": [
@@ -2381,6 +3144,17 @@
         "sha256": "3f2ec71aaf72a7c01b431714f6dd3a7afb061e5da415d1fc5f9f38c51786de64",
         "source_member": "xl/media/image202.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-181.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L182",
+        "width": 512,
+        "height": 512,
+        "sha256": "b3666f67be484b968af0251fcff57e3b88ab73063dc3c582d33fe7436f4e5476",
+        "reference": "Lemon et al. 2023",
+        "reference_url": "https://arxiv.org/abs/2206.07714v1",
+        "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected."
       }
     ],
     "183": [
@@ -2393,6 +3167,17 @@
         "sha256": "d4b888b4dd85c78053f8a8a1ddd03b480ec5519bbe8d56886a76c91563784fcd",
         "source_member": "xl/media/image203.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-182.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L183",
+        "width": 512,
+        "height": 512,
+        "sha256": "f4dcf2eb76322525b7ddc33fbaa95829fdd6c00895f5e24495c0411d91bf068c",
+        "reference": "Lemon et al. 2023",
+        "reference_url": "https://arxiv.org/abs/2206.07714v1",
+        "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected."
       }
     ],
     "184": [
@@ -2405,6 +3190,17 @@
         "sha256": "d931019891e796205b4221e952445b54f3aa9eb9e2e8efeac8c3bf8690d953c9",
         "source_member": "xl/media/image204.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-183.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L184",
+        "width": 512,
+        "height": 512,
+        "sha256": "7323798d18ad43c0cd67b2b213d036f9ab93212572c06c75e97ab3afb17b6650",
+        "reference": "Lemon et al. 2019",
+        "reference_url": "https://arxiv.org/abs/1810.04480v2",
+        "provenance": "Named observational panel visually matched; caption identifies actual survey colour images with Gaia position overlays."
       }
     ],
     "185": [
@@ -2417,6 +3213,17 @@
         "sha256": "3640251aaf0fa980d62a0d02c1a2912c2add85b1536eb5210b90820cd6db0a4b",
         "source_member": "xl/media/image205.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-184.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L185",
+        "width": 512,
+        "height": 512,
+        "sha256": "404e0627f6f9a854a356b3a93e1c1b44429526a61b36d42d38c9b9b41b8b3155",
+        "reference": "Lemon et al. 2023",
+        "reference_url": "https://arxiv.org/abs/2206.07714v1",
+        "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected."
       }
     ],
     "186": [
@@ -2465,6 +3272,17 @@
         "sha256": "aae06f020d8f8404cc73a4c4e4448c84892fcfaffc7bb7438580f566065d50e6",
         "source_member": "xl/media/image209.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-188.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L189",
+        "width": 512,
+        "height": 512,
+        "sha256": "fa5666fb816ad07525f26a09e407ab1c1b9bd0d491662403e1b04d57856c376a",
+        "reference": "Lemon et al. 2023",
+        "reference_url": "https://arxiv.org/abs/2206.07714v1",
+        "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected."
       }
     ],
     "190": [
@@ -2489,6 +3307,17 @@
         "sha256": "3f132ede37620fcb7132ea05e141940649c02d50fac1cc3702e659e512c27dd0",
         "source_member": "xl/media/image211.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-190.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L191",
+        "width": 512,
+        "height": 512,
+        "sha256": "c92028d7eb78ea57b484eafd48e7dc2e696c6056493acf243bd2870a03dc3ec8",
+        "reference": "Lemon et al. 2023",
+        "reference_url": "https://arxiv.org/abs/2206.07714v1",
+        "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected."
       }
     ],
     "192": [
@@ -2513,6 +3342,17 @@
         "sha256": "9b6353a2163098c6098238c249525d454bd8e00ad231b03ca4b34e913b43d4e1",
         "source_member": "xl/media/image213.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-192.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L193",
+        "width": 512,
+        "height": 512,
+        "sha256": "abb111bb24bc1b2bca2979fcc8ef6421eef579ef405874c19c165d57fbae2219",
+        "reference": "Lemon et al. 2019",
+        "reference_url": "https://arxiv.org/abs/1810.04480v2",
+        "provenance": "Named observational panel visually matched; caption identifies actual survey colour images with Gaia position overlays."
       }
     ],
     "194": [
@@ -2573,6 +3413,17 @@
         "sha256": "80bb4aff296508967f8ba9df5747de603bdc6f065b7b393c4c0e34eabc816644",
         "source_member": "xl/media/image218.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-197.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L198",
+        "width": 512,
+        "height": 512,
+        "sha256": "7c1d6c7d5edbd8d9531a1c4e4533c369f9443697b027baee7e63b1f75a21ec40",
+        "reference": "Lemon et al. 2023",
+        "reference_url": "https://arxiv.org/abs/2206.07714v1",
+        "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected."
       }
     ],
     "199": [
@@ -2585,6 +3436,17 @@
         "sha256": "3e072a84ad2a667f6a3cb66674512b8982cf5fbdab5b1820a53aefbf060c829e",
         "source_member": "xl/media/image219.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-198.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L199",
+        "width": 512,
+        "height": 512,
+        "sha256": "54a3e625bf1ab0ae96145fa8e15f82ae6c661bf769ddb9817b5f0d819cd34bff",
+        "reference": "Lemon et al. 2023",
+        "reference_url": "https://arxiv.org/abs/2206.07714v1",
+        "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected."
       }
     ],
     "200": [
@@ -2657,6 +3519,17 @@
         "sha256": "a9e2e324ade670af4cb95a35ac8945b58035df045f0a6d5d42a0d2d3f2531960",
         "source_member": "xl/media/image225.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-204.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L205",
+        "width": 512,
+        "height": 512,
+        "sha256": "72ac646c1bf6f0da316747420e50747b7f7fe11fd0e2c36d34b134d7630e36fe",
+        "reference": "Lemon et al. 2023",
+        "reference_url": "https://arxiv.org/abs/2206.07714v1",
+        "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected."
       }
     ],
     "206": [
@@ -2775,6 +3648,17 @@
         "sha256": "2b7a0a922bbe8a0de4f0a1f780f3ec44a0ea308341a48d206adbce928e7a04dd",
         "source_member": "xl/media/image235.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-213.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L214",
+        "width": 512,
+        "height": 512,
+        "sha256": "bbbc944bfe9d5fa0b9b706b12cc2bf27690fdd7cf51c46c431c256efef097c05",
+        "reference": "Lemon et al. 2023",
+        "reference_url": "https://arxiv.org/abs/2206.07714v1",
+        "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected."
       }
     ],
     "215": [
@@ -2913,6 +3797,17 @@
         "sha256": "1b93b52484a653ef7e40addf8b53ef5825e65c87efec1cb17cc521664ae66283",
         "source_member": "xl/media/image247.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-222.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L223",
+        "width": 512,
+        "height": 512,
+        "sha256": "6c188289519964cc293f191f36f8345273ad9c1ea7717110adc635a774a01393",
+        "reference": "Lemon et al. 2018",
+        "reference_url": "https://arxiv.org/abs/1803.07601v2",
+        "provenance": "Named observational panel visually matched; caption identifies actual survey colour images with Gaia position overlays."
       }
     ],
     "224": [
@@ -2937,6 +3832,17 @@
         "sha256": "6e4df7e44a100ed1c45c56caffe2e62ef35616f0c76aa2104f3d8215a3a59db2",
         "source_member": "xl/media/image249.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-224.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L225",
+        "width": 512,
+        "height": 512,
+        "sha256": "8a03700e50748d47aabe1148ffc35a7ccb677283b488ac78c76bb8fcf33fab7a",
+        "reference": "Lemon et al. 2019",
+        "reference_url": "https://arxiv.org/abs/1810.04480v2",
+        "provenance": "Named observational panel visually matched; caption identifies actual survey colour images with Gaia position overlays."
       }
     ],
     "226": [
@@ -2949,6 +3855,17 @@
         "sha256": "449e787827e1bb7450edd1231ec2c12b15250e8ff5a30e7c691c5544939f4874",
         "source_member": "xl/media/image250.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-225.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L226",
+        "width": 512,
+        "height": 512,
+        "sha256": "d29b297eaa58359d803b7419685fe65bb3e342f3c21f28c54962b1d4bd5cd2f4",
+        "reference": "Lemon et al. 2019",
+        "reference_url": "https://arxiv.org/abs/1810.04480v2",
+        "provenance": "Named observational panel visually matched; caption identifies actual survey colour images with Gaia position overlays."
       }
     ],
     "227": [
@@ -2973,6 +3890,17 @@
         "sha256": "7c69a2365298e71776fc8bacbbab86be512e92dbe534b4502b4d0cfa2ad6d8e2",
         "source_member": "xl/media/image252.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-227.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L228",
+        "width": 512,
+        "height": 512,
+        "sha256": "840bc3d8ea1fbbdc334f2a04515988adbf2f87b993341f35b2b2244be09ff461",
+        "reference": "Lemon et al. 2019",
+        "reference_url": "https://arxiv.org/abs/1810.04480v2",
+        "provenance": "Named observational panel visually matched; caption identifies actual survey colour images with Gaia position overlays."
       }
     ],
     "229": [
@@ -3007,6 +3935,17 @@
         "sha256": "3bcb73399721fecd45fdafe28759035e7d67b928683de1b3716595eebda942d6",
         "source_member": "xl/media/image255.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-229.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L230",
+        "width": 512,
+        "height": 512,
+        "sha256": "1691c66f2c170df600a561f12bc6e0aa07f30e09ec3c50388c4ba551de4a2f57",
+        "reference": "Lemon et al. 2023",
+        "reference_url": "https://arxiv.org/abs/2206.07714v1",
+        "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected."
       }
     ],
     "231": [
@@ -3043,6 +3982,17 @@
         "sha256": "60e74a925697b4c014040b0ec2a999100c8370160b945a40946805cd86fb5228",
         "source_member": "xl/media/image258.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-232.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L233",
+        "width": 512,
+        "height": 512,
+        "sha256": "f064b1d4746987731c63b94bc2fd570e30eaa81060916bbc8d77815745fc40df",
+        "reference": "Lemon et al. 2019",
+        "reference_url": "https://arxiv.org/abs/1810.04480v2",
+        "provenance": "Named observational panel visually matched; caption identifies actual survey colour images with Gaia position overlays."
       }
     ],
     "234": [
@@ -3059,14 +4009,15 @@
     ],
     "235": [
       {
-        "path": "images/workbook/aaf20d52a006692f2598f1ef511c7e96b8230b8b9e9ef563c02a04b54f638bae.png",
+        "path": "images/paper/id-234.jpg",
         "source_column": "paper image",
-        "anchor_cell": "F235",
-        "width": 336,
-        "height": 336,
-        "sha256": "aaf20d52a006692f2598f1ef511c7e96b8230b8b9e9ef563c02a04b54f638bae",
-        "source_member": "xl/media/image260.png",
-        "original_link": "NULL"
+        "anchor_cell": "L235",
+        "width": 512,
+        "height": 512,
+        "sha256": "6cd39daf50978ea026b217d8ae085aed718b27a1e091e98f9599261d0b64273f",
+        "reference": "Lemon et al. 2023",
+        "reference_url": "https://arxiv.org/abs/2206.07714v1",
+        "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected."
       }
     ],
     "236": [
@@ -3079,6 +4030,17 @@
         "sha256": "4fa8d12f831dada0374bd7b677cc29bf93c48a097dd3f8da2ab53917efbd5378",
         "source_member": "xl/media/image261.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-235.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L236",
+        "width": 512,
+        "height": 512,
+        "sha256": "e26c15871837c0229c498ed3413a1e051c5ea5013f776a61d6ba3bc49c5b6544",
+        "reference": "Lemon et al. 2023",
+        "reference_url": "https://arxiv.org/abs/2206.07714v1",
+        "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected."
       }
     ],
     "237": [
@@ -3091,6 +4053,17 @@
         "sha256": "93152305679558cdd6f9cdb2cfeab91c45d5014e8bb3be6c90800ebb845b40a7",
         "source_member": "xl/media/image262.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-236.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L237",
+        "width": 512,
+        "height": 512,
+        "sha256": "bb06a395bf4fc6ba98706e0c1c79095235b772bafb4ef8d2fcc11d9caf331a40",
+        "reference": "Lemon et al. 2019",
+        "reference_url": "https://arxiv.org/abs/1810.04480v2",
+        "provenance": "Named observational panel visually matched; caption identifies actual survey colour images with Gaia position overlays."
       }
     ],
     "238": [
@@ -3117,14 +4090,15 @@
         "original_link": "NULL"
       },
       {
-        "path": "images/workbook/0ae6cfd88628c9ea42c6beb94df7e5bcd9b04503252c224c8800b5ebf574291e.png",
+        "path": "images/paper/id-238.jpg",
         "source_column": "paper image",
-        "anchor_cell": "F239",
-        "width": 483,
-        "height": 483,
-        "sha256": "0ae6cfd88628c9ea42c6beb94df7e5bcd9b04503252c224c8800b5ebf574291e",
-        "source_member": "xl/media/image265.png",
-        "original_link": "NULL"
+        "anchor_cell": "L239",
+        "width": 512,
+        "height": 512,
+        "sha256": "c1f2efda54264f2a0fae646a93a48067868379db71534a4b1e6368fddb02dc14",
+        "reference": "Marlow et al. 1999",
+        "reference_url": "https://ui.adsabs.harvard.edu/abs/1999AJ....118..654M/abstract",
+        "provenance": "Screenshot supplied in original workbook; observational panel visually checked. The listed discovery reference is contextual unless explicitly resolved."
       }
     ],
     "240": [
@@ -3159,6 +4133,17 @@
         "sha256": "23440692d8fecb623ddb1cba9d8f120c81f0513a3a8332ba89a7a5e6e32daa62",
         "source_member": "xl/media/image268.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-240.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L241",
+        "width": 512,
+        "height": 512,
+        "sha256": "3293ab55174d543219fc328759697956948188e8ff6e47d4669a956bc672011e",
+        "reference": "Lemon et al. 2018",
+        "reference_url": "https://arxiv.org/abs/1803.07601v2",
+        "provenance": "Named observational panel visually matched; caption identifies actual survey colour images with Gaia position overlays."
       }
     ],
     "242": [
@@ -3171,6 +4156,17 @@
         "sha256": "05055e89ff72506b2c0227be411509c614c314da4f0daa93cb4baf8245651ed4",
         "source_member": "xl/media/image269.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-241.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L242",
+        "width": 512,
+        "height": 512,
+        "sha256": "291d935b48f2b14a51af7c159ea5d5cc2715dac0814ad5ba9a38b20157712315",
+        "reference": "Lemon et al. 2018",
+        "reference_url": "https://arxiv.org/abs/1803.07601v2",
+        "provenance": "Named observational panel visually matched; caption identifies actual survey colour images with Gaia position overlays."
       }
     ],
     "243": [
@@ -3195,6 +4191,17 @@
         "sha256": "06193aeedc757a5f188f8b2499866539ad0a230e7eeb59e83d3920314dd760d5",
         "source_member": "xl/media/image271.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-243.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L244",
+        "width": 512,
+        "height": 512,
+        "sha256": "8613aa0d837110dbdef23d35ab1bb7093aa00cfbecb2affb3f92615ab8d6f07b",
+        "reference": "Lemon et al. 2019",
+        "reference_url": "https://arxiv.org/abs/1810.04480v2",
+        "provenance": "Named observational panel visually matched; caption identifies actual survey colour images with Gaia position overlays."
       }
     ],
     "245": [
@@ -3207,6 +4214,17 @@
         "sha256": "33f6ffd3b2ad8a9f5834113f92409088086c5679a7192f026b07302ce2cfa01f",
         "source_member": "xl/media/image272.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-244.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L245",
+        "width": 512,
+        "height": 512,
+        "sha256": "c2810459fe9b46d9954b15739b7ef40ede31fd215fce003e4b488dfb941f9218",
+        "reference": "Lemon et al. 2019",
+        "reference_url": "https://arxiv.org/abs/1810.04480v2",
+        "provenance": "Named observational panel visually matched; caption identifies actual survey colour images with Gaia position overlays."
       }
     ],
     "246": [
@@ -3243,6 +4261,17 @@
         "sha256": "8fbb7727dc0cd526a009ff5bd0d177bdbdb6d271afe381896a633b36e42676f0",
         "source_member": "xl/media/image275.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-247.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L248",
+        "width": 512,
+        "height": 512,
+        "sha256": "794c0f7253ebbb3094e968ebe9b93e3a935ac2d18b42fd2065dbafca4bd01a83",
+        "reference": "Lemon et al. 2019",
+        "reference_url": "https://arxiv.org/abs/1810.04480v2",
+        "provenance": "Named observational panel visually matched; caption identifies actual survey colour images with Gaia position overlays."
       }
     ],
     "249": [
@@ -3255,6 +4284,17 @@
         "sha256": "65c190c74a20533f91b28ab820e3fd70884d0cfa69df2dc34f134b499796824c",
         "source_member": "xl/media/image276.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-248.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L249",
+        "width": 512,
+        "height": 512,
+        "sha256": "821f2677b8b47fd8a3adca68858b75bf5493bdcc592ef7dbc778de433cc70807",
+        "reference": "Lemon et al. 2019",
+        "reference_url": "https://arxiv.org/abs/1810.04480v2",
+        "provenance": "Named observational panel visually matched; caption identifies actual survey colour images with Gaia position overlays."
       }
     ],
     "250": [
@@ -3291,6 +4331,17 @@
         "sha256": "17f5de41cd9f5e2b352d44e8ba3722e0f2fefe8a683a12bba0d2a0fd0e05e984",
         "source_member": "xl/media/image279.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-251.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L252",
+        "width": 512,
+        "height": 512,
+        "sha256": "51780e2bbba809e2d2d0525a1007e5a2c49a9ab7980e2e880a8bccb038a77971",
+        "reference": "Lemon et al. 2018",
+        "reference_url": "https://arxiv.org/abs/1803.07601v2",
+        "provenance": "Named observational panel visually matched; caption identifies actual survey colour images with Gaia position overlays."
       }
     ],
     "253": [
@@ -3339,6 +4390,17 @@
         "sha256": "b883cee5ca4eff380dffcdf0dbfbb29055444b3d712cac6421adea6b005b046a",
         "source_member": "xl/media/image283.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-255.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L256",
+        "width": 512,
+        "height": 512,
+        "sha256": "cacf4db69477fe171052ee09f66d61ea68c8e81638a33f97df5c88e324da9560",
+        "reference": "Lemon et al. 2019",
+        "reference_url": "https://arxiv.org/abs/1810.04480v2",
+        "provenance": "Named observational panel visually matched; caption identifies actual survey colour images with Gaia position overlays."
       }
     ],
     "257": [
@@ -3351,6 +4413,17 @@
         "sha256": "b1419e08e4abed5e5662141868ddd947bd7daa53fc4fa58bd5976a6d238e332c",
         "source_member": "xl/media/image284.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-256.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L257",
+        "width": 512,
+        "height": 512,
+        "sha256": "82c086ea26b53f26466a962a84b0a59ac277f5304ac66cc58af9ad36c270f440",
+        "reference": "Lemon et al. 2018",
+        "reference_url": "https://arxiv.org/abs/1803.07601v2",
+        "provenance": "Named observational panel visually matched; caption identifies actual survey colour images with Gaia position overlays."
       }
     ],
     "258": [
@@ -3363,18 +4436,30 @@
         "sha256": "1fb70dd5509688404224c6eda2e85fd9d350799e3af7fdc429e6e0cd9658d819",
         "source_member": "xl/media/image285.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-257.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L258",
+        "width": 512,
+        "height": 512,
+        "sha256": "bfa8b81ed4a88118e215fee0bc347d69f567dd5e7559fbee6796a010acecad21",
+        "reference": "Lemon et al. 2018",
+        "reference_url": "https://arxiv.org/abs/1803.07601v2",
+        "provenance": "Named observational panel visually matched; caption identifies actual survey colour images with Gaia position overlays."
       }
     ],
     "259": [
       {
-        "path": "images/workbook/4e8f733f2cdb4e8fd38a53144d3b91b472dc44c1c66873678ed6ffe5d46a6612.png",
+        "path": "images/paper/id-258.jpg",
         "source_column": "paper image",
-        "anchor_cell": "F259",
-        "width": 295,
-        "height": 295,
-        "sha256": "4e8f733f2cdb4e8fd38a53144d3b91b472dc44c1c66873678ed6ffe5d46a6612",
-        "source_member": "xl/media/image286.png",
-        "original_link": "NULL"
+        "anchor_cell": "L259",
+        "width": 512,
+        "height": 512,
+        "sha256": "975fb0f47d7c9b7ef3f7b355e50f3a724d088c064ed1edbc0897a9936118071f",
+        "reference": "Lemon et al. 2018",
+        "reference_url": "https://arxiv.org/abs/1803.07601v2",
+        "provenance": "Named observational panel visually matched; caption identifies actual survey colour images with Gaia position overlays."
       }
     ],
     "260": [
@@ -3387,6 +4472,17 @@
         "sha256": "4aa03464965e8381912b0ba72bf93fba22a8f13cb6cb2ae949562351d0f05a66",
         "source_member": "xl/media/image287.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-259.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L260",
+        "width": 512,
+        "height": 512,
+        "sha256": "6f4b1214dcb0f2be3d556de31153ead12c6bd11ba24bd07bff819069b237b8f6",
+        "reference": "Lemon et al. 2019",
+        "reference_url": "https://arxiv.org/abs/1810.04480v2",
+        "provenance": "Named observational panel visually matched; caption identifies actual survey colour images with Gaia position overlays."
       }
     ],
     "261": [
@@ -3399,42 +4495,56 @@
         "sha256": "237609f2bdc3c8e64fffa9700d3f246b9f50a4ab5cb46d86545488f385fca755",
         "source_member": "xl/media/image288.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-260.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L261",
+        "width": 512,
+        "height": 512,
+        "sha256": "5f872c605771e7dca547c3fbf3769ba30c10f3b6cad010fa171e8f1b65262c7e",
+        "reference": "Lemon et al. 2018",
+        "reference_url": "https://arxiv.org/abs/1803.07601v2",
+        "provenance": "Named observational panel visually matched; caption identifies actual survey colour images with Gaia position overlays."
       }
     ],
     "262": [
       {
-        "path": "images/workbook/25650e75b60fd45987417dc00260ade2ba143505c66856db7b0a977a6a1ed30b.png",
+        "path": "images/paper/id-261.jpg",
         "source_column": "paper image",
-        "anchor_cell": "F262",
-        "width": 687,
-        "height": 686,
-        "sha256": "25650e75b60fd45987417dc00260ade2ba143505c66856db7b0a977a6a1ed30b",
-        "source_member": "xl/media/image289.png",
-        "original_link": "NULL"
+        "anchor_cell": "L262",
+        "width": 512,
+        "height": 512,
+        "sha256": "d8ae1954c7adc94c3c27cb6f0253e5fa6db50cee769a1a26a3eb3550a3ff029e",
+        "reference": "Rao et al. 1988",
+        "reference_url": "https://ui.adsabs.harvard.edu/abs/1988MNRAS.231..229P/abstract",
+        "provenance": "Screenshot supplied in original workbook; observational panel visually checked. The listed discovery reference is contextual unless explicitly resolved."
       }
     ],
     "263": [
       {
-        "path": "images/workbook/4bf928a186d17df3fd7d19c2acb53760ff4d6963beee3e514672c41f0e01f1af.png",
+        "path": "images/paper/id-262.jpg",
         "source_column": "paper image",
-        "anchor_cell": "F263",
-        "width": 903,
-        "height": 903,
-        "sha256": "4bf928a186d17df3fd7d19c2acb53760ff4d6963beee3e514672c41f0e01f1af",
-        "source_member": "xl/media/image290.png",
-        "original_link": "NULL"
+        "anchor_cell": "L263",
+        "width": 512,
+        "height": 512,
+        "sha256": "48c8928b45b96e05c3edef57b227cda31fb115378bdd04a03a11d22d4dcd37e4",
+        "reference": "Winn et al. 2000",
+        "reference_url": "https://ui.adsabs.harvard.edu/abs/2000AJ....120.2868W/abstract",
+        "provenance": "Screenshot supplied in original workbook; observational panel visually checked. The listed discovery reference is contextual unless explicitly resolved."
       }
     ],
     "264": [
       {
-        "path": "images/workbook/0eb53d18c07a0050b39df22fa430103aa9eb0b90184b849f66bfad37403068a3.png",
+        "path": "images/paper/id-263.jpg",
         "source_column": "paper image",
-        "anchor_cell": "F264",
-        "width": 913,
-        "height": 913,
-        "sha256": "0eb53d18c07a0050b39df22fa430103aa9eb0b90184b849f66bfad37403068a3",
-        "source_member": "xl/media/image291.png",
-        "original_link": "NULL"
+        "anchor_cell": "L264",
+        "width": 512,
+        "height": 512,
+        "sha256": "c820ec6ea9575ce2770381d01ae8cb02fb6182579b1ad100a9957721cf842aaf",
+        "reference": "Sykes et al. 1998",
+        "reference_url": "https://ui.adsabs.harvard.edu/abs/1998MNRAS.301..310S/abstract",
+        "provenance": "Screenshot supplied in original workbook; observational panel visually checked. The listed discovery reference is contextual unless explicitly resolved."
       }
     ],
     "265": [
@@ -3459,18 +4569,30 @@
         "sha256": "4538c79be980db041b3bb8af066376b65e47a651803418ed070a8e9feb17cd27",
         "source_member": "xl/media/image293.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-265.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L266",
+        "width": 512,
+        "height": 512,
+        "sha256": "66d4c45f67a384252ffaa6097dc395362d0cbdc2bbf2ce1471c06505af132170",
+        "reference": "Lemon et al. 2023",
+        "reference_url": "https://arxiv.org/abs/2206.07714v1",
+        "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected."
       }
     ],
     "267": [
       {
-        "path": "images/workbook/98f12143a00c1c523cb42eddcdb9d228dc81a8d53f8b62de3c11f349c7f0dfc1.png",
+        "path": "images/paper/id-266.jpg",
         "source_column": "paper image",
-        "anchor_cell": "F267",
-        "width": 295,
-        "height": 295,
-        "sha256": "98f12143a00c1c523cb42eddcdb9d228dc81a8d53f8b62de3c11f349c7f0dfc1",
-        "source_member": "xl/media/image294.png",
-        "original_link": "NULL"
+        "anchor_cell": "L267",
+        "width": 512,
+        "height": 512,
+        "sha256": "670059c468c972417dd05519b17cbb9cdf24d09fe2a69a8de1657f293e32c554",
+        "reference": "Lemon et al. 2019",
+        "reference_url": "https://arxiv.org/abs/1810.04480v2",
+        "provenance": "Named observational panel visually matched; caption identifies actual survey colour images with Gaia position overlays."
       }
     ],
     "268": [
@@ -3485,38 +4607,41 @@
         "original_link": "NULL"
       },
       {
-        "path": "images/workbook/6dd80afd74ecdf1202366ba4024c6c03194469b2b725653cd021073f1a55c452.png",
+        "path": "images/paper/id-267.jpg",
         "source_column": "paper image",
-        "anchor_cell": "F268",
-        "width": 911,
-        "height": 911,
-        "sha256": "6dd80afd74ecdf1202366ba4024c6c03194469b2b725653cd021073f1a55c452",
-        "source_member": "xl/media/image296.png",
-        "original_link": "NULL"
+        "anchor_cell": "L268",
+        "width": 512,
+        "height": 512,
+        "sha256": "e6f52fbdb87b873fac197b3d91a59a86c880f0a052d304dc534769b8f54b94a0",
+        "reference": "Winn et al. 2001",
+        "reference_url": "https://arxiv.org/abs/astro-ph/0009451v2",
+        "provenance": "Original I-band image (Figure 4 A); observation panel verified against PDF caption. Replaces the incorrect PMNJ1838-3427 image."
       }
     ],
     "269": [
       {
-        "path": "images/workbook/16383f3632de5ba68b44e109ccce8957b00374753d541df677622b562e2292c1.png",
+        "path": "images/paper/id-268.jpg",
         "source_column": "paper image",
-        "anchor_cell": "F269",
-        "width": 336,
-        "height": 336,
-        "sha256": "16383f3632de5ba68b44e109ccce8957b00374753d541df677622b562e2292c1",
-        "source_member": "xl/media/image297.png",
-        "original_link": "NULL"
+        "anchor_cell": "L269",
+        "width": 512,
+        "height": 512,
+        "sha256": "e06bca1ba3af8931db0962829afe9f86b34c74cb0cdc579155dfe5d8acfd0106",
+        "reference": "Lemon et al. 2023",
+        "reference_url": "https://arxiv.org/abs/2206.07714v1",
+        "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected."
       }
     ],
     "270": [
       {
-        "path": "images/workbook/f7238d5012c05abcd055114d728cfcb143c65ebdeaedc14ddcc0855bb5e0c304.png",
+        "path": "images/paper/id-269.jpg",
         "source_column": "paper image",
-        "anchor_cell": "F270",
-        "width": 289,
-        "height": 289,
-        "sha256": "f7238d5012c05abcd055114d728cfcb143c65ebdeaedc14ddcc0855bb5e0c304",
-        "source_member": "xl/media/image298.png",
-        "original_link": "NULL"
+        "anchor_cell": "L270",
+        "width": 512,
+        "height": 512,
+        "sha256": "40f197d2344d5977dc50044070007234d1529fc62e823bd0d9ce7baf1a00ac7a",
+        "reference": "Lemon et al. 2023",
+        "reference_url": "https://arxiv.org/abs/2206.07714v1",
+        "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected."
       }
     ],
     "271": [
@@ -3569,14 +4694,15 @@
     ],
     "275": [
       {
-        "path": "images/workbook/15060b71902556e9b49aaa668086a0d954b6c21dd30f8555bfaef158cd20243c.png",
+        "path": "images/paper/id-274.jpg",
         "source_column": "paper image",
-        "anchor_cell": "F275",
-        "width": 527,
-        "height": 527,
-        "sha256": "15060b71902556e9b49aaa668086a0d954b6c21dd30f8555bfaef158cd20243c",
-        "source_member": "xl/media/image303.png",
-        "original_link": "NULL"
+        "anchor_cell": "L275",
+        "width": 512,
+        "height": 512,
+        "sha256": "467dc9b4511e850626ae83c8db00bdcfa64aa8c07aaeb1d70e1d1c02df6b7fa9",
+        "reference": "Fassnacht et al. 1999",
+        "reference_url": "https://ui.adsabs.harvard.edu/abs/1999AJ....117..658F/abstract",
+        "provenance": "Screenshot supplied in original workbook; observational panel visually checked. The listed discovery reference is contextual unless explicitly resolved."
       }
     ],
     "276": [
@@ -3601,6 +4727,17 @@
         "sha256": "ecbf53474ef9f96a94f0a6cd304cb1656105f550eaa6b8381dbb1798a82eab15",
         "source_member": "xl/media/image305.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-276.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L277",
+        "width": 512,
+        "height": 512,
+        "sha256": "5630a2cffd670e1a26b0b7f061fc831675568437d156597f51f6f624818f740f",
+        "reference": "Lemon et al. 2023",
+        "reference_url": "https://arxiv.org/abs/2206.07714v1",
+        "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected."
       }
     ],
     "278": [
@@ -3613,18 +4750,30 @@
         "sha256": "843a3d9955eb169c388db3d5cb960709aac6bb9bef280ebcd04503dd1027174c",
         "source_member": "xl/media/image306.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-277.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L278",
+        "width": 512,
+        "height": 512,
+        "sha256": "3d078bd0cca1c14464aaeca2fa8625adce42724f4b89db7815ac530ac72f0ee2",
+        "reference": "Lemon et al. 2023",
+        "reference_url": "https://arxiv.org/abs/2206.07714v1",
+        "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected."
       }
     ],
     "279": [
       {
-        "path": "images/workbook/24d08e74821e75d8e8b661b29008627333e693646a77b187657cd7b9538608df.png",
+        "path": "images/paper/id-278.jpg",
         "source_column": "paper image",
-        "anchor_cell": "F279",
-        "width": 390,
-        "height": 390,
-        "sha256": "24d08e74821e75d8e8b661b29008627333e693646a77b187657cd7b9538608df",
-        "source_member": "xl/media/image307.png",
-        "original_link": "NULL"
+        "anchor_cell": "L279",
+        "width": 512,
+        "height": 512,
+        "sha256": "726b491ef7d75a6030bef7a1a057ba585f68c761fc0fc35ae9c411e8b698c47c",
+        "reference": "McKean et al. 2005",
+        "reference_url": "https://ui.adsabs.harvard.edu/abs/2005MNRAS.356.1009M/abstract",
+        "provenance": "Screenshot supplied in original workbook; observational panel visually checked. The listed discovery reference is contextual unless explicitly resolved."
       }
     ],
     "280": [
@@ -3637,18 +4786,30 @@
         "sha256": "ca603417c01c057716481d3a66795b3f656df9fdd9be78c05faebc5506cd38f4",
         "source_member": "xl/media/image308.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-279.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L280",
+        "width": 512,
+        "height": 512,
+        "sha256": "97c55a18824ffc25bf5feed37d55b2310f7baf669cb5a20dd9f4b8959dadaf10",
+        "reference": "Lemon et al. 2018",
+        "reference_url": "https://arxiv.org/abs/1803.07601v2",
+        "provenance": "Named observational panel visually matched; caption identifies actual survey colour images with Gaia position overlays."
       }
     ],
     "281": [
       {
-        "path": "images/workbook/de177b6630cbdbd33a162338531b920722c6aab04585eb9245a67e9259647882.png",
+        "path": "images/paper/id-280.jpg",
         "source_column": "paper image",
-        "anchor_cell": "F281",
-        "width": 295,
-        "height": 295,
-        "sha256": "de177b6630cbdbd33a162338531b920722c6aab04585eb9245a67e9259647882",
-        "source_member": "xl/media/image309.png",
-        "original_link": "NULL"
+        "anchor_cell": "L281",
+        "width": 512,
+        "height": 512,
+        "sha256": "a91f7e122d237dda349c2e05f7289ed5066a2a556588ee92f21b1e4c0e9ed3be",
+        "reference": "Lemon et al. 2019",
+        "reference_url": "https://arxiv.org/abs/1810.04480v2",
+        "provenance": "Named observational panel visually matched; caption identifies actual survey colour images with Gaia position overlays."
       }
     ],
     "282": [
@@ -3665,14 +4826,15 @@
     ],
     "283": [
       {
-        "path": "images/workbook/0a0505fd3a939bf9815609c7295ecce5250e6d75560eea013e24372367daa21c.png",
+        "path": "images/paper/id-282.jpg",
         "source_column": "paper image",
-        "anchor_cell": "F283",
-        "width": 295,
-        "height": 295,
-        "sha256": "0a0505fd3a939bf9815609c7295ecce5250e6d75560eea013e24372367daa21c",
-        "source_member": "xl/media/image311.png",
-        "original_link": "NULL"
+        "anchor_cell": "L283",
+        "width": 512,
+        "height": 512,
+        "sha256": "b324ffa799264f0c61a44e0bbccbe695552c7fccdf60f63a6a53f50c63fc8a2f",
+        "reference": "Lemon et al. 2019",
+        "reference_url": "https://arxiv.org/abs/1810.04480v2",
+        "provenance": "Named observational panel visually matched; caption identifies actual survey colour images with Gaia position overlays."
       }
     ],
     "284": [
@@ -3697,6 +4859,17 @@
         "sha256": "d8a96a139af06809bff249aeef56a63831f32ec794aef563b1d77fcd743c186e",
         "source_member": "xl/media/image313.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-284.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L285",
+        "width": 512,
+        "height": 512,
+        "sha256": "ab08e6d64ccf695d90002a0ce84c96b4611de8cbb024502a46958c8cd07c7400",
+        "reference": "Lemon et al. 2023",
+        "reference_url": "https://arxiv.org/abs/2206.07714v1",
+        "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected."
       }
     ],
     "286": [
@@ -3757,6 +4930,17 @@
         "sha256": "81115b979e71bcbe2dc532d6b614b96f593633fcc554f364920f57ba4ff6e8d3",
         "source_member": "xl/media/image318.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-289.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L290",
+        "width": 512,
+        "height": 512,
+        "sha256": "bad142cc2b8181efdece51bf6ecb1e5a67c3377819aa3cf4799f510b8343d79b",
+        "reference": "Lemon et al. 2023",
+        "reference_url": "https://arxiv.org/abs/2206.07714v1",
+        "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected."
       }
     ],
     "291": [
@@ -3769,18 +4953,30 @@
         "sha256": "911cb277ff0465e6f8fd06e0e4568989a253b2615583cb98e000c7eeeadd873e",
         "source_member": "xl/media/image319.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-290.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L291",
+        "width": 512,
+        "height": 512,
+        "sha256": "e0dd073ebf9402b75a37b8e7b4d871c9588ac604cda4b77a78dba3bcf13222d4",
+        "reference": "Lemon et al. 2023",
+        "reference_url": "https://arxiv.org/abs/2206.07714v1",
+        "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected."
       }
     ],
     "292": [
       {
-        "path": "images/workbook/641331ca61651da035c5443b8934c430444468ff1353f4514844dc4df1980cc4.png",
+        "path": "images/paper/id-291.jpg",
         "source_column": "paper image",
-        "anchor_cell": "F292",
-        "width": 295,
-        "height": 295,
-        "sha256": "641331ca61651da035c5443b8934c430444468ff1353f4514844dc4df1980cc4",
-        "source_member": "xl/media/image320.png",
-        "original_link": "NULL"
+        "anchor_cell": "L292",
+        "width": 512,
+        "height": 512,
+        "sha256": "136eb4727151aea290449ff522d940eab1ef6a7988ca427a82ecf61cee641fca",
+        "reference": "Lemon et al. 2019",
+        "reference_url": "https://arxiv.org/abs/1810.04480v2",
+        "provenance": "Named observational panel visually matched; caption identifies actual survey colour images with Gaia position overlays."
       }
     ],
     "293": [
@@ -3793,6 +4989,17 @@
         "sha256": "0345c6d70ae0fb9141d3a8eb9b42849580531e46ca1efa78081326759049b4a9",
         "source_member": "xl/media/image321.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-292.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L293",
+        "width": 512,
+        "height": 512,
+        "sha256": "2f75c81ab726bbc6904fcf1f11ea13fa04456f1b0206af0baf74c515d30b5835",
+        "reference": "Lemon et al. 2023",
+        "reference_url": "https://arxiv.org/abs/2206.07714v1",
+        "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected."
       }
     ],
     "294": [
@@ -3863,6 +5070,17 @@
         "sha256": "d25dd0525137513ef75620e64a84c0b344903b4193e503db1197fc141ee80527",
         "source_member": "xl/media/image327.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-297.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L298",
+        "width": 512,
+        "height": 512,
+        "sha256": "9f9093e2e4c8f23b3085c229d9d85e8f1b1f20b283c66520a8fc5e141edd5943",
+        "reference": "Lemon et al. 2019",
+        "reference_url": "https://arxiv.org/abs/1810.04480v2",
+        "provenance": "Named observational panel visually matched; caption identifies actual survey colour images with Gaia position overlays."
       }
     ],
     "299": [
@@ -3891,14 +5109,15 @@
     ],
     "301": [
       {
-        "path": "images/workbook/99510e7c18553f44b66dc82587315f3989e187d1ab5e217a2e5095254084b885.png",
+        "path": "images/paper/id-300.jpg",
         "source_column": "paper image",
-        "anchor_cell": "F301",
-        "width": 295,
-        "height": 295,
-        "sha256": "99510e7c18553f44b66dc82587315f3989e187d1ab5e217a2e5095254084b885",
-        "source_member": "xl/media/image330.png",
-        "original_link": "NULL"
+        "anchor_cell": "L301",
+        "width": 512,
+        "height": 512,
+        "sha256": "8ee42281626b03870cda5ec5e2aadf064624a497320f423f9cca5ff6044960b8",
+        "reference": "Lemon et al. 2018",
+        "reference_url": "https://arxiv.org/abs/1803.07601v2",
+        "provenance": "Named observational panel visually matched; caption identifies actual survey colour images with Gaia position overlays."
       }
     ],
     "302": [
@@ -3923,6 +5142,17 @@
         "sha256": "5da8755e4dd5d6007166ae34745d7bfdd7d6c392386b822f57ed1a6a548b93de",
         "source_member": "xl/media/image332.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-302.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L303",
+        "width": 512,
+        "height": 512,
+        "sha256": "3973757120ad3b5374abd3c99a9ffbb06217608eb1ba358a581c6a1e0db02820",
+        "reference": "Lemon et al. 2023",
+        "reference_url": "https://arxiv.org/abs/2206.07714v1",
+        "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected."
       }
     ],
     "304": [
@@ -3945,6 +5175,17 @@
         "sha256": "f8a4a1c120ba18d2c387275454076419c42ba9eb28eaa6a42b5b835854601e63",
         "source_member": "xl/media/image334.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-303.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L304",
+        "width": 512,
+        "height": 512,
+        "sha256": "300d3b8b4c620b4a938398fdafcd7937cd9205bba5b7c2f830eca091e8343ab3",
+        "reference": "Lemon et al. 2019",
+        "reference_url": "https://arxiv.org/abs/1810.04480v2",
+        "provenance": "Named observational panel visually matched; caption identifies actual survey colour images with Gaia position overlays."
       }
     ],
     "305": [
@@ -4015,6 +5256,17 @@
         "sha256": "993c5c251b6b7574056747c70be90d13786e322fbcf8b8e4d52d275c0bde97da",
         "source_member": "xl/media/image340.png",
         "original_link": "NULL"
+      },
+      {
+        "path": "images/paper/id-308.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L309",
+        "width": 512,
+        "height": 512,
+        "sha256": "368a8d50390559f3c46a8820039dffc026cd293e469120c1146e763207890b00",
+        "reference": "Lemon et al. 2018",
+        "reference_url": "https://arxiv.org/abs/1803.07601v2",
+        "provenance": "Named observational panel visually matched; caption identifies actual survey colour images with Gaia position overlays."
       }
     ],
     "310": [
@@ -4065,14 +5317,15 @@
     ],
     "313": [
       {
-        "path": "images/workbook/17d996035e6820464c49b9786b3e58773ec6b764dc802dfeb8ad6dd133092da1.png",
+        "path": "images/paper/id-312.jpg",
         "source_column": "paper image",
-        "anchor_cell": "F313",
-        "width": 298,
-        "height": 298,
-        "sha256": "17d996035e6820464c49b9786b3e58773ec6b764dc802dfeb8ad6dd133092da1",
-        "source_member": "xl/media/image345.png",
-        "original_link": "NULL"
+        "anchor_cell": "L313",
+        "width": 512,
+        "height": 512,
+        "sha256": "0a061b74377ac73c1086b9149c9c3b2a19df38c96fbd2f87d93adb356a43bf56",
+        "reference": "Lemon et al. 2019",
+        "reference_url": "https://arxiv.org/abs/1810.04480v2",
+        "provenance": "Named observational panel visually matched; caption identifies actual survey colour images with Gaia position overlays."
       }
     ],
     "314": [
@@ -4157,14 +5410,15 @@
     ],
     "319": [
       {
-        "path": "images/workbook/a826bbdc123191bc0ad7a422455e717bfa15551a48c49474de2d23a175f5c1e5.png",
+        "path": "images/paper/id-318.jpg",
         "source_column": "paper image",
-        "anchor_cell": "F319",
-        "width": 226,
-        "height": 226,
-        "sha256": "a826bbdc123191bc0ad7a422455e717bfa15551a48c49474de2d23a175f5c1e5",
-        "source_member": "xl/media/image353.png",
-        "original_link": "NULL"
+        "anchor_cell": "L319",
+        "width": 512,
+        "height": 512,
+        "sha256": "e604b33ed1799ab67a5d2885e38281447a12b5eb30f0ddf419f9072408a06239",
+        "reference": "Lawrence et al. 1984",
+        "reference_url": "https://ui.adsabs.harvard.edu/abs/1984ApJ...283..512N/abstract",
+        "provenance": "Screenshot supplied in original workbook; observational panel visually checked. The listed discovery reference is contextual unless explicitly resolved."
       }
     ],
     "320": [
@@ -4239,14 +5493,15 @@
     ],
     "325": [
       {
-        "path": "images/workbook/40a07e26b8116a1e824ebb05b1182f4f398b1882ed9deb26400df260eca88c73.png",
+        "path": "images/paper/id-324.jpg",
         "source_column": "paper image",
-        "anchor_cell": "F325",
-        "width": 314,
-        "height": 314,
-        "sha256": "40a07e26b8116a1e824ebb05b1182f4f398b1882ed9deb26400df260eca88c73",
-        "source_member": "xl/media/image360.png",
-        "original_link": "NULL"
+        "anchor_cell": "L325",
+        "width": 512,
+        "height": 512,
+        "sha256": "2a77787341482686f2040a2c29ebcee3a17be79b34db6dbdb4ac80b77c737f32",
+        "reference": "Dux et al. 2024",
+        "reference_url": "https://ui.adsabs.harvard.edu/abs/2024A%26A...682A..47D/abstract",
+        "provenance": "Screenshot supplied in original workbook; observational panel visually checked. The listed discovery reference is contextual unless explicitly resolved."
       }
     ],
     "326": [
@@ -4365,14 +5620,15 @@
         "original_link": "NULL"
       },
       {
-        "path": "images/workbook/490bac8737e550ddaedf7f63ef9abf88cd1e826417e34838a7836b27355c25db.png",
+        "path": "images/paper/id-332.jpg",
         "source_column": "paper image",
-        "anchor_cell": "F333",
-        "width": 425,
-        "height": 425,
-        "sha256": "490bac8737e550ddaedf7f63ef9abf88cd1e826417e34838a7836b27355c25db",
-        "source_member": "xl/media/image371.png",
-        "original_link": "NULL"
+        "anchor_cell": "L333",
+        "width": 512,
+        "height": 512,
+        "sha256": "a0d47d335c87b1a3f9db545c6e9bfaa94257eb0b83c9e30e884bb5b29ea3858f",
+        "reference": "Scialpi et al. 2025",
+        "reference_url": "https://arxiv.org/abs/2512.11960v1",
+        "provenance": "Screenshot supplied in original workbook; observational panel visually checked. The listed discovery reference is contextual unless explicitly resolved."
       }
     ],
     "334": [
@@ -4387,14 +5643,15 @@
         "original_link": "NULL"
       },
       {
-        "path": "images/workbook/2db19e7d67e29e125d761577e5bb246e45ee7706f92593677e799554dece3c1b.png",
+        "path": "images/paper/id-333.jpg",
         "source_column": "paper image",
-        "anchor_cell": "F334",
-        "width": 317,
-        "height": 317,
-        "sha256": "2db19e7d67e29e125d761577e5bb246e45ee7706f92593677e799554dece3c1b",
-        "source_member": "xl/media/image373.png",
-        "original_link": "NULL"
+        "anchor_cell": "L334",
+        "width": 512,
+        "height": 512,
+        "sha256": "cc24037f5ce39d56029886ac4e3ac2a019321646ee9010559ddffe7d9de902b1",
+        "reference": "Scialpi et al. 2025",
+        "reference_url": "https://arxiv.org/abs/2512.11960v1",
+        "provenance": "Screenshot supplied in original workbook; observational panel visually checked. The listed discovery reference is contextual unless explicitly resolved."
       }
     ],
     "335": [
@@ -4409,14 +5666,15 @@
         "original_link": "NULL"
       },
       {
-        "path": "images/workbook/110bc134393f4f19ad022b859d40db7e489fd9128782632d09432f14457eafa5.png",
+        "path": "images/paper/id-334.jpg",
         "source_column": "paper image",
-        "anchor_cell": "F335",
-        "width": 425,
-        "height": 425,
-        "sha256": "110bc134393f4f19ad022b859d40db7e489fd9128782632d09432f14457eafa5",
-        "source_member": "xl/media/image375.png",
-        "original_link": "NULL"
+        "anchor_cell": "L335",
+        "width": 512,
+        "height": 512,
+        "sha256": "a2e6eefe1787ba71844eb1e39f78d9e9bfadda7d3e82a0b851eaaef48e1c051f",
+        "reference": "Scialpi et al. 2025",
+        "reference_url": "https://arxiv.org/abs/2512.11960v1",
+        "provenance": "Screenshot supplied in original workbook; observational panel visually checked. The listed discovery reference is contextual unless explicitly resolved."
       }
     ],
     "336": [
@@ -4431,14 +5689,15 @@
         "original_link": "NULL"
       },
       {
-        "path": "images/workbook/c0443ff5d090649853c6aebd661a584b5e8af2dd83868f321305daebaa377c27.png",
+        "path": "images/paper/id-335.jpg",
         "source_column": "paper image",
-        "anchor_cell": "F336",
-        "width": 425,
-        "height": 425,
-        "sha256": "c0443ff5d090649853c6aebd661a584b5e8af2dd83868f321305daebaa377c27",
-        "source_member": "xl/media/image377.png",
-        "original_link": "NULL"
+        "anchor_cell": "L336",
+        "width": 512,
+        "height": 512,
+        "sha256": "6ea51bd55db8d05644b53651d38b2c9244b67ad8f2d90b1ea5b72ebacd6ddea7",
+        "reference": "Scialpi et al. 2025",
+        "reference_url": "https://arxiv.org/abs/2512.11960v1",
+        "provenance": "Screenshot supplied in original workbook; observational panel visually checked. The listed discovery reference is contextual unless explicitly resolved."
       }
     ],
     "337": [
@@ -4453,14 +5712,15 @@
         "original_link": "NULL"
       },
       {
-        "path": "images/workbook/5e6552345b425c55df439be9f13e0ea618a932539720f2dbe67dd93455a9ccc7.png",
+        "path": "images/paper/id-336.jpg",
         "source_column": "paper image",
-        "anchor_cell": "F337",
-        "width": 425,
-        "height": 425,
-        "sha256": "5e6552345b425c55df439be9f13e0ea618a932539720f2dbe67dd93455a9ccc7",
-        "source_member": "xl/media/image379.png",
-        "original_link": "NULL"
+        "anchor_cell": "L337",
+        "width": 512,
+        "height": 512,
+        "sha256": "0a4e3cdff3b25ac8c2142bdd2fb201264bf36424d3e1a8fa5fa1e3c2e67d513d",
+        "reference": "Scialpi et al. 2025",
+        "reference_url": "https://arxiv.org/abs/2512.11960v1",
+        "provenance": "Screenshot supplied in original workbook; observational panel visually checked. The listed discovery reference is contextual unless explicitly resolved."
       }
     ],
     "338": [
@@ -4475,14 +5735,15 @@
         "original_link": "NULL"
       },
       {
-        "path": "images/workbook/158374518ad058367786d5abd304236b263ed5461aad448be52769791100ca40.png",
+        "path": "images/paper/id-337.jpg",
         "source_column": "paper image",
-        "anchor_cell": "F338",
-        "width": 425,
-        "height": 425,
-        "sha256": "158374518ad058367786d5abd304236b263ed5461aad448be52769791100ca40",
-        "source_member": "xl/media/image381.png",
-        "original_link": "NULL"
+        "anchor_cell": "L338",
+        "width": 512,
+        "height": 512,
+        "sha256": "94ff5703e2b7da297309a0097112c63778fa99fe35d34c8ebb89fa26ad067eb3",
+        "reference": "Scialpi et al. 2025",
+        "reference_url": "https://arxiv.org/abs/2512.11960v1",
+        "provenance": "Screenshot supplied in original workbook; observational panel visually checked. The listed discovery reference is contextual unless explicitly resolved."
       }
     ],
     "339": [
@@ -4497,14 +5758,15 @@
         "original_link": "NULL"
       },
       {
-        "path": "images/workbook/fc9f890320f463960cd220f2555e28563b86013fe8f79db12525f555faac4b0c.png",
+        "path": "images/paper/id-338.jpg",
         "source_column": "paper image",
-        "anchor_cell": "F339",
-        "width": 425,
-        "height": 425,
-        "sha256": "fc9f890320f463960cd220f2555e28563b86013fe8f79db12525f555faac4b0c",
-        "source_member": "xl/media/image383.png",
-        "original_link": "NULL"
+        "anchor_cell": "L339",
+        "width": 512,
+        "height": 512,
+        "sha256": "f3730380758960b2820af98fd4e3758b3eed2e75b85d250c8cfed67d64dd45a9",
+        "reference": "Scialpi et al. 2025",
+        "reference_url": "https://arxiv.org/abs/2512.11960v1",
+        "provenance": "Screenshot supplied in original workbook; observational panel visually checked. The listed discovery reference is contextual unless explicitly resolved."
       }
     ],
     "340": [
@@ -4519,14 +5781,15 @@
         "original_link": "NULL"
       },
       {
-        "path": "images/workbook/e9cdbbc163f65a3ed06d44ff19f234a56187398bccd4e0dd4533d05e7d8d85d5.png",
+        "path": "images/paper/id-339.jpg",
         "source_column": "paper image",
-        "anchor_cell": "F340",
-        "width": 425,
-        "height": 425,
-        "sha256": "e9cdbbc163f65a3ed06d44ff19f234a56187398bccd4e0dd4533d05e7d8d85d5",
-        "source_member": "xl/media/image385.png",
-        "original_link": "NULL"
+        "anchor_cell": "L340",
+        "width": 512,
+        "height": 512,
+        "sha256": "0c3fa28f6ae1c7082ec3c43e030e7089d848887fe4a63a4818781011d998cd8a",
+        "reference": "Scialpi et al. 2025",
+        "reference_url": "https://arxiv.org/abs/2512.11960v1",
+        "provenance": "Screenshot supplied in original workbook; observational panel visually checked. The listed discovery reference is contextual unless explicitly resolved."
       }
     ],
     "341": [
@@ -4541,14 +5804,15 @@
         "original_link": "NULL"
       },
       {
-        "path": "images/workbook/3c979b21d89a98f8b7ed4c2c86386070d2b60e6035066e5fd9ca31436e0dcc81.png",
+        "path": "images/paper/id-340.jpg",
         "source_column": "paper image",
-        "anchor_cell": "F341",
-        "width": 425,
-        "height": 425,
-        "sha256": "3c979b21d89a98f8b7ed4c2c86386070d2b60e6035066e5fd9ca31436e0dcc81",
-        "source_member": "xl/media/image387.png",
-        "original_link": "NULL"
+        "anchor_cell": "L341",
+        "width": 512,
+        "height": 512,
+        "sha256": "9e011eb438ec0c125dbd508cc2ebaf2de08e2bb9e3963b06bf55427d196d9474",
+        "reference": "Scialpi et al. 2025",
+        "reference_url": "https://arxiv.org/abs/2512.11960v1",
+        "provenance": "Screenshot supplied in original workbook; observational panel visually checked. The listed discovery reference is contextual unless explicitly resolved."
       }
     ],
     "342": [
@@ -4563,14 +5827,15 @@
         "original_link": "NULL"
       },
       {
-        "path": "images/workbook/3bc41a3d6d1f49baa186f4d5950cf92edfa2003f50cc83b233143499ec02b139.png",
+        "path": "images/paper/id-341.jpg",
         "source_column": "paper image",
-        "anchor_cell": "F342",
-        "width": 425,
-        "height": 425,
-        "sha256": "3bc41a3d6d1f49baa186f4d5950cf92edfa2003f50cc83b233143499ec02b139",
-        "source_member": "xl/media/image389.png",
-        "original_link": "NULL"
+        "anchor_cell": "L342",
+        "width": 512,
+        "height": 512,
+        "sha256": "4c8484a1450c5b5e0ca305024d6f939910257bd3a7b88f1a96282b9e252648e5",
+        "reference": "Scialpi et al. 2025",
+        "reference_url": "https://arxiv.org/abs/2512.11960v1",
+        "provenance": "Screenshot supplied in original workbook; observational panel visually checked. The listed discovery reference is contextual unless explicitly resolved."
       }
     ],
     "343": [
@@ -4585,16 +5850,6 @@
         "original_link": "NULL"
       },
       {
-        "path": "images/workbook/d202443817ba8d7aab97d78cab82681919510f7a9dd04dc6470ef6aa1ae832a9.png",
-        "source_column": "paper image",
-        "anchor_cell": "F343",
-        "width": 542,
-        "height": 542,
-        "sha256": "d202443817ba8d7aab97d78cab82681919510f7a9dd04dc6470ef6aa1ae832a9",
-        "source_member": "xl/media/image391.png",
-        "original_link": "NULL"
-      },
-      {
         "path": "images/workbook/b49c95711c8c5179ad14de1c139c3a5bd466d2f25ad71228c4ba79f490a9d23f.png",
         "source_column": "DESI-LS",
         "anchor_cell": "E343",
@@ -4605,14 +5860,15 @@
         "original_link": "NULL"
       },
       {
-        "path": "images/workbook/299ab57a1ef78f9fee20654a0bd59a1d5452debae37c8e756cdd63a0b80f84a4.png",
+        "path": "images/paper/id-342.jpg",
         "source_column": "paper image",
-        "anchor_cell": "F343",
-        "width": 542,
-        "height": 542,
-        "sha256": "299ab57a1ef78f9fee20654a0bd59a1d5452debae37c8e756cdd63a0b80f84a4",
-        "source_member": "xl/media/image393.png",
-        "original_link": "NULL"
+        "anchor_cell": "L343",
+        "width": 512,
+        "height": 512,
+        "sha256": "d11c6322cfb712bd90b82e20cbadae70e3f1041f076b9ed89d013f3d7e28b4c9",
+        "reference": "Scialpi et al. 2025",
+        "reference_url": "https://arxiv.org/abs/2512.11960v1",
+        "provenance": "Screenshot supplied in original workbook; observational panel visually checked. The listed discovery reference is contextual unless explicitly resolved."
       }
     ],
     "344": [
@@ -4627,16 +5883,22 @@
         "original_link": "NULL"
       },
       {
-        "path": "images/workbook/87b782423b0625dc79902003dba7f396ebf5d9c09ab4075b71d730f6a9e2ced6.png",
+        "path": "images/paper/id-343.jpg",
         "source_column": "paper image",
-        "anchor_cell": "F344",
-        "width": 542,
-        "height": 542,
-        "sha256": "87b782423b0625dc79902003dba7f396ebf5d9c09ab4075b71d730f6a9e2ced6",
-        "source_member": "xl/media/image395.png",
-        "original_link": "NULL"
+        "anchor_cell": "L344",
+        "width": 512,
+        "height": 512,
+        "sha256": "3816c2636ccc77cd6783b3a2baf871a937cd14c89a83dbeefebf30aca49a0d9a",
+        "reference": "Scialpi et al. 2025",
+        "reference_url": "https://arxiv.org/abs/2512.11960v1",
+        "provenance": "Screenshot supplied in original workbook; observational panel visually checked. The listed discovery reference is contextual unless explicitly resolved."
       }
     ]
   },
-  "issues": []
+  "issues": [],
+  "paper_revision": {
+    "date": "2026-11-01",
+    "count": 168,
+    "source": "Updated eight-survey workbook; publication panels reviewed individually"
+  }
 }

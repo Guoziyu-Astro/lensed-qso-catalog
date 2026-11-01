@@ -47,9 +47,10 @@ async function showCatalogImages(record, selected) {
       const figure=document.createElement('figure'),link=document.createElement('a'),img=document.createElement('img'),caption=document.createElement('figcaption');
       const label=entry.source_column==='paper image'?'Publication image':entry.source_column;
       link.href=entry.path;link.target='_blank';link.rel='noopener noreferrer';
-      img.src=entry.path;img.alt=`${record.name}, workbook cell ${entry.anchor_cell}, ${label}`;
+      img.src=entry.path;img.alt=`${record.name}, ${label}`;
       img.loading='lazy';img.width=entry.width;img.height=entry.height;
-      caption.textContent=`${label} · Workbook cell ${entry.anchor_cell}`;
+      caption.textContent=entry.reference?`${label} · ${entry.reference}`:`${label} · Original workbook cell ${entry.anchor_cell}`;
+      if(entry.reference_url){const source=document.createElement('a');source.href=entry.reference_url;source.target='_blank';source.rel='noopener noreferrer';source.textContent=' Paper';caption.append(source);}
       link.append(img);figure.append(link,caption);container.append(figure);
     }
     if(!entries.length)container.textContent='No workbook images available for this record.';
