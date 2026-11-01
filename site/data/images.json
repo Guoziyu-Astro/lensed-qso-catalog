@@ -8400,15 +8400,15 @@
         "provenance": "single-band grayscale; north up, east left"
       },
       {
-        "path": "images/recent-2026/surveys/365-JWST.jpg",
+        "path": "images/recent-2026/surveys/365-JWST-F444W.jpg",
         "source_column": "JWST",
         "anchor_cell": "E366",
         "width": 512,
         "height": 512,
-        "sha256": "bb6069ab234450c58774c7456a3fa4b4cac7a3af8543941444c6f779078ea9de",
-        "reference": "JWST F150W",
-        "reference_url": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw06675-o001_t002_nircam_clear-f150w_i2d.fits",
-        "provenance": "Single-band asinh grayscale; north up, east left. Field centre offset 9 arcsec west and 10 arcsec north of catalogue B1 to include B1-B4 and avoid mosaic edges."
+        "sha256": "6279ff64909d9c69d30b8f01bc88e9b5e908d4c2912f46eb390ee9d85de1ac23",
+        "reference": "JWST F444W",
+        "reference_url": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw06675-o001_t002_nircam_clear-f444w_i2d.fits",
+        "provenance": "Single-band asinh grayscale; north up, east left. Field centre offset 9 arcsec west and 10 arcsec north of catalogue B1 to include B1-B4 and avoid mosaic edges. F444W chosen after visual review because the shorter-wavelength cutouts show stronger striping and the obscured B images are clearer at F444W."
       },
       {
         "path": "images/recent-2026/surveys/365-Legacy-Surveys.jpg",

@@ -51504,24 +51504,24 @@
     "366": {
       "status": "ok",
       "source": "JWST",
-      "source_label": "JWST F150W",
+      "source_label": "JWST F444W",
       "selection_mode": "space_single_band",
       "fov_arcsec": 40,
       "metadata": {
         "mission": "JWST",
-        "band": "F150W",
-        "wavelength_nm": 1499.5,
-        "uri": "mast:JWST/product/jw06675-o001_t002_nircam_clear-f150w_i2d.fits",
-        "dataset": "jw06675-o001_t002_nircam_clear-f150w",
+        "band": "F444W",
+        "wavelength_nm": 4433.0,
+        "uri": "mast:JWST/product/jw06675-o001_t002_nircam_clear-f444w_i2d.fits",
+        "dataset": "jw06675-o001_t002_nircam_clear-f444w",
         "instrument": "NIRCAM/IMAGE",
-        "exposure_s": 429.472,
+        "exposure_s": 1030.732,
         "proposal_id": "6675",
-        "observation_id": "jw06675-o001_t002_nircam_clear-f150w",
+        "observation_id": "jw06675-o001_t002_nircam_clear-f444w",
         "urls": [
-          "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw06675-o001_t002_nircam_clear-f150w_i2d.fits"
+          "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw06675-o001_t002_nircam_clear-f444w_i2d.fits"
         ],
-        "label": "JWST F150W",
-        "bands": "F150W",
+        "label": "JWST F444W",
+        "bands": "F444W",
         "output_wcs": {
           "WCSAXES": 2,
           "CRPIX1": 256.5,
@@ -51539,8 +51539,8 @@
           "MJDREF": 0.0,
           "RADESYS": "ICRS"
         },
-        "archive_fits_sha256": "c008f3910a7638fdc8c36f1d110ceb1ef07f0d513b4ce8a92812c0d20e9265dc",
-        "rendering": "Single-band asinh grayscale; north up, east left. Field centre offset 9 arcsec west and 10 arcsec north of catalogue B1 to include B1-B4 and avoid mosaic edges.",
+        "archive_fits_sha256": "075d4b7408dbfead598069d3e5e3c8b41b99713106ce909f07a0eb49cd26bccb",
+        "rendering": "Single-band asinh grayscale; north up, east left. Field centre offset 9 arcsec west and 10 arcsec north of catalogue B1 to include B1-B4 and avoid mosaic edges. F444W chosen after visual review because the shorter-wavelength cutouts show stronger striping and the obscured B images are clearer at F444W.",
         "cutout_center_ra": 178.3279946299212,
         "cutout_center_dec": 7.929952500000001,
         "display_note": "Field centred on the B-image group; catalogue coordinates refer to B1."
@@ -51548,13 +51548,13 @@
       "quality": {
         "finite_fraction": 1.0,
         "centre_finite_fraction": 1.0,
-        "sky_median": 0.31135946387549895,
-        "sky_mad_sigma": 0.057635403556022376,
-        "centre_std": 19.574309315925845,
-        "centre_p999": 225.0,
+        "sky_median": 0.32363260685051953,
+        "sky_mad_sigma": 0.014777256421099796,
+        "centre_std": 28.45488634685716,
+        "centre_p999": 255.0,
         "native_pixel_scale_arcsec": [
-          0.0307433570731987,
-          0.0307433570731987
+          0.06300005384658132,
+          0.06300005384658132
         ],
         "central_wcs_error_arcsec": 5.72499842663433e-12
       },
@@ -51565,9 +51565,9 @@
       "ra": 178.33051875,
       "dec": 7.927174722222222,
       "checked_at": "2026-11-02",
-      "image": "images/recent-2026/preferred/id-365.jpg",
-      "thumbnail": "images/recent-2026/preferred/id-365-thumb.jpg",
-      "sha256": "bb6069ab234450c58774c7456a3fa4b4cac7a3af8543941444c6f779078ea9de"
+      "image": "images/recent-2026/preferred/id-365-f444w.jpg",
+      "thumbnail": "images/recent-2026/preferred/id-365-f444w-thumb.jpg",
+      "sha256": "6279ff64909d9c69d30b8f01bc88e9b5e908d4c2912f46eb390ee9d85de1ac23"
     },
     "367": {
       "status": "ok",
