@@ -1,0 +1,2745 @@
+{
+  "2": {
+    "reference": "Lemon et al. 2019",
+    "url": "https://arxiv.org/abs/1810.04480v2",
+    "figure": "Figure 6",
+    "panel_label": "J0013+5119",
+    "provenance": "Named observational panel visually matched; caption identifies actual survey colour images.",
+    "sha256": "65bf6d2ab9b231857443bea53214e66e77e5c6a451a923ab2bbc6a92a6035cf0"
+  },
+  "14": {
+    "reference": "Lemon et al. 2023",
+    "url": "https://arxiv.org/abs/2206.07714v1",
+    "figure": "Figure 1",
+    "panel_label": "J0116+4052",
+    "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected.",
+    "sha256": "062ab75bd10428179427b4e8356bd89584f3c04db1bdac556fc8feefdbdfdef5"
+  },
+  "17": {
+    "reference": "Phillips et al. 2000",
+    "url": "https://arxiv.org/html/astro-ph/0009334v1",
+    "figure": "S2.F1",
+    "panel_label": "B0128+437",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Observed MERLIN 5 GHz radio contour map, not Figure 2 lens model.",
+    "sha256": "b4cc08c21b012ae32973b67166c6b7d2762fc7ccefd49b9b3b6dbddb38459eb1"
+  },
+  "22": {
+    "reference": "Berghea et al. 2017",
+    "url": "https://arxiv.org/html/1705.08359v2",
+    "figure": "S6.F1",
+    "panel_label": "PSJ0147+4630",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. PS1 giy colour observation; excludes right wide-field image.",
+    "sha256": "9dd51d107b937558d92f6a8037744154f3ab7507e37e9592533b09769e68708e"
+  },
+  "32": {
+    "reference": "Patnaik et al. 1993",
+    "url": "https://ui.adsabs.harvard.edu/abs/1993MNRAS.261..435P/abstract",
+    "figure": "Figure 1",
+    "panel_label": "B0218+357",
+    "provenance": "Primary PDF title, target identity, figure caption and observed panel visually checked. Observed VLA 8.4 GHz map with Einstein ring.",
+    "sha256": "f8610716c66c3138c91ed26a0406ea10ac86f1f8cd3a4d6a86f2ac3f8cc9a67f"
+  },
+  "33": {
+    "reference": "Lemon et al. 2019",
+    "url": "https://arxiv.org/abs/1810.04480v2",
+    "figure": "Figure 6",
+    "panel_label": "J0228+3953",
+    "provenance": "Named observational panel visually matched; caption identifies actual survey colour images.",
+    "sha256": "4cfd320c8399fad7265cac44b77c40439f89578f7a5bd0976d2476cda18265a3"
+  },
+  "40": {
+    "reference": "Lemon et al. 2023",
+    "url": "https://arxiv.org/abs/2206.07714v1",
+    "figure": "Figure 1",
+    "panel_label": "J0247+7706",
+    "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected.",
+    "sha256": "b4685e679c1949f08e971dbe961dd04840c3fe4dd92f92f15f15bbceaf4c0d5b"
+  },
+  "52": {
+    "reference": "Lemon et al. 2020",
+    "url": "https://arxiv.org/abs/1912.09133v1",
+    "figure": "Figure 3",
+    "panel_label": "J0340-2545",
+    "provenance": "Named observational panel visually matched; caption identifies actual survey colour images.",
+    "sha256": "2c6eab7e0b5da2ca8b01c0d058d0ef3097d234cc1403e9eec361fc818f534f5a"
+  },
+  "65": {
+    "reference": "Lemon et al. 2023",
+    "url": "https://arxiv.org/abs/2206.07714v1",
+    "figure": "Figure 1",
+    "panel_label": "J0416+7428",
+    "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected.",
+    "sha256": "db207d9a5ffc7afada6e220c26a8ef5e9d312bd9a24d52bb336a2194c1da5c86"
+  },
+  "66": {
+    "reference": "Lemon et al. 2018",
+    "url": "https://arxiv.org/abs/1803.07601v2",
+    "figure": "Figure 1",
+    "panel_label": "J0417+3325",
+    "provenance": "Named observational panel visually matched; caption identifies actual survey colour images.",
+    "sha256": "c1e89d129cc20eb2e2962be69dc31e01061519a31961350f4fac241f13ff4d0d"
+  },
+  "67": {
+    "reference": "Desira et al. 2022",
+    "url": "https://doi.org/10.1093/mnras/stab2960",
+    "figure": "Figure2",
+    "panel_label": "PSJ0429+1428",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Right PS1 gri observation of PSJ0429+1428; A-D and 2 arcsec scale retained. Matches the original workbook panel, now traced to discovery Figure 2.",
+    "sha256": "4d20ffc3361970476b077508602e31417350083d0effff879ef987079588ad82"
+  },
+  "69": {
+    "reference": "Fan et al. 2019",
+    "url": "https://arxiv.org/html/1810.11924v1",
+    "figure": "S2.F3",
+    "panel_label": "J043947.08+163415.7",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Panel B: HST ACS FR782N observation. Fiducial lens model excluded.",
+    "sha256": "976340f44a6b20d2f2c3f54ca25bac0eef287f6ccc7a673df36eb3d15ceecc54"
+  },
+  "72": {
+    "reference": "Argo et al. 2003",
+    "url": "https://arxiv.org/html/astro-ph/0210234v1",
+    "figure": "S3.F3",
+    "panel_label": "B0445+123",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. WHT optical observation with observed VLA contours; component registration is described in the caption.",
+    "sha256": "be305802cebd2258d5f627d01c8dfd395aa6cd67d83ff379172c625d316d24e8"
+  },
+  "76": {
+    "reference": "Gregg et al. 2000",
+    "url": "https://arxiv.org/html/astro-ph/0002333v2",
+    "figure": "Figure 2 left",
+    "panel_label": "HE0512-3329",
+    "provenance": "Primary PDF title, target identity, figure caption and observed panel visually checked. Original STIS 50CCD observation. Replaces incorrect Hagen reference; HTML conversion figure was entirely blank.",
+    "sha256": "8b54578e8a053f42969aa618516a30bd1913851cb79bf5e7d76fd1649a9356c3"
+  },
+  "78": {
+    "reference": "Scialpi et al. 2025",
+    "url": "https://arxiv.org/html/2512.11960v1",
+    "figure": "S3.F3",
+    "panel_label": "GraLJ0530-3730",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. MUSE observed white-light quad image, individually named in Figure 3.",
+    "sha256": "7cd01a6f14df188749f4df57e9ad8ed60892034a06ebe8a36ddd9982102f94e7"
+  },
+  "80": {
+    "reference": "Lemon et al. 2023",
+    "url": "https://arxiv.org/abs/2206.07714v1",
+    "figure": "Figure 1",
+    "panel_label": "J0544+4350",
+    "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected.",
+    "sha256": "0975c6fcd155905d8be2dbeb8377b3fd326e0b38a1e43364f7cafa82bbce1bf2"
+  },
+  "84": {
+    "reference": "Lemon et al. 2023",
+    "url": "https://arxiv.org/abs/2206.07714v1",
+    "figure": "Figure 1",
+    "panel_label": "J0608+4229",
+    "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected.",
+    "sha256": "07720b11e153eb3cfbfd2e2a9de1a3b5d3828eef480a7d7dba657a7b7ac35a9c"
+  },
+  "86": {
+    "reference": "Lemon et al. 2018",
+    "url": "https://arxiv.org/abs/1803.07601v2",
+    "figure": "Figure 1",
+    "panel_label": "J0630-1201",
+    "provenance": "Named observational panel visually matched; caption identifies actual survey colour images.",
+    "sha256": "1fd0c56f436bf5d574e9b0b618816b47f4934ac5ae63d6c2bf0f5c4af4efe943"
+  },
+  "89": {
+    "reference": "Lemon et al. 2023",
+    "url": "https://arxiv.org/abs/2206.07714v1",
+    "figure": "Figure 1",
+    "panel_label": "J0643+2725",
+    "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected.",
+    "sha256": "3f807aaf03bd8b663e5e09600d3087ce95c39a6d3302e71a4010b7ea4600dea0"
+  },
+  "90": {
+    "reference": "Lemon et al. 2023",
+    "url": "https://arxiv.org/abs/2206.07714v1",
+    "figure": "Figure 1",
+    "panel_label": "J0659+1629",
+    "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected.",
+    "sha256": "8d6c6ffa4c61195d4324967c22fdf829fe6312659421e692efa927c49c03dc05"
+  },
+  "95": {
+    "reference": "Marlow et al. 2001",
+    "url": "https://arxiv.org/html/astro-ph/0008037v1",
+    "figure": "S5.F5",
+    "panel_label": "B0739+366",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Left NICMOS F160W observation, excluding PSF-subtracted right panel.",
+    "sha256": "fbdcb348f36b9be1c83b08a7fd4f31dd7ed748529cae672bd5012d8b654d94cc"
+  },
+  "100": {
+    "reference": "Ducourant et al. 2026",
+    "url": "https://arxiv.org/html/2603.12810v1",
+    "figure": "A4.F6",
+    "panel_label": "HS0810+2554",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Named observed finding-chart panel in Figure 6; later catalogue paper, not discovery paper. Original image provenance is identified by the survey/band code in the panel.",
+    "sha256": "fd25e9b617e25b1c14beb586143d8f44b30068f4b2a551fb30a1cdb5b764e05e"
+  },
+  "101": {
+    "reference": "Lemon et al. 2023",
+    "url": "https://arxiv.org/abs/2206.07714v1",
+    "figure": "Figure 1",
+    "panel_label": "J0818-2613",
+    "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected.",
+    "sha256": "6482a416740dc0d57d504721ab66959869705b5076b1297b53956905c2d98593"
+  },
+  "112": {
+    "reference": "Lemon et al. 2023",
+    "url": "https://arxiv.org/abs/2206.07714v1",
+    "figure": "Figure 1",
+    "panel_label": "J0834-2933",
+    "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected.",
+    "sha256": "9f2cd1fcaa5dc8b1df6bca4dda907fd37fb27acd2b4f4b9a4fb6f98d21b02caf"
+  },
+  "114": {
+    "reference": "Biggs et al. 2003",
+    "url": "https://arxiv.org/html/astro-ph/0210504v1",
+    "figure": "S3.F3",
+    "panel_label": "B0850+054",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Observed UKIRT K-band contour image; not a model.",
+    "sha256": "06c2dc1aecb31710540c830ae00144e847a972a6e9f6822a0ad26106d59f8e2d"
+  },
+  "164": {
+    "reference": "Koopmans et al. 1999",
+    "url": "https://arxiv.org/html/astro-ph/9811425v1",
+    "figure": "S3.F2",
+    "panel_label": "B1127+385",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. HST I-band observation of B1127+385, Figure 2.",
+    "sha256": "2956e241520e81210c69e79e9ac234232ca358ef885eab1a0085d01d9259e979"
+  },
+  "234": {
+    "reference": "Lemon et al. 2023",
+    "url": "https://arxiv.org/abs/2206.07714v1",
+    "figure": "Figure 1",
+    "panel_label": "J1548-2914",
+    "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected.",
+    "sha256": "6cd39daf50978ea026b217d8ae085aed718b27a1e091e98f9599261d0b64273f"
+  },
+  "238": {
+    "reference": "Marlow et al. 1999",
+    "url": "https://www.aoc.nrao.edu/~smyers/papers/1999AJ.Marlow.118.654-658.pdf",
+    "figure": "Figure 2",
+    "panel_label": "B1555+375",
+    "provenance": "Primary PDF title, target identity, figure caption and observed panel visually checked. MERLIN 5 GHz observed four-image map.",
+    "sha256": "bbc3ee2ce0b2f9361ab610ef4eeecf7262091c4eaace2b51d21bb86a8162de2f"
+  },
+  "258": {
+    "reference": "Lemon et al. 2018",
+    "url": "https://arxiv.org/abs/1803.07601v2",
+    "figure": "Figure 1",
+    "panel_label": "J1721+8842",
+    "provenance": "Named observational panel visually matched; caption identifies actual survey colour images.",
+    "sha256": "975fb0f47d7c9b7ef3f7b355e50f3a724d088c064ed1edbc0897a9936118071f"
+  },
+  "261": {
+    "reference": "Rao & Subrahmanyan 1988",
+    "url": "https://articles.adsabs.harvard.edu/pdf/1988MNRAS.231..229P",
+    "figure": "Figure 2",
+    "panel_label": "PKS1830-211",
+    "provenance": "Primary PDF title, target identity, figure caption and observed panel visually checked. Observed VLA 14.94 GHz contours and measured polarization vectors, not a lens model.",
+    "sha256": "9182ef517e56fb27445c85f07a483afb1d97102fdb6c301192e451c44a03be88"
+  },
+  "262": {
+    "reference": "Winn et al. 2000",
+    "url": "https://arxiv.org/html/astro-ph/0008036v2",
+    "figure": "S9.F3",
+    "panel_label": "PMNJ1838-3427",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Upper-left HST WFPC2 F814W observation. A and B are quasar images; S is foreground star.",
+    "sha256": "c3499791e83190c788970d7f9eaacf8d5eb4f3dac2e18090ad2f02672380b1ec"
+  },
+  "263": {
+    "reference": "Sykes et al. 1998",
+    "url": "https://arxiv.org/html/astro-ph/9710358v1",
+    "figure": "S2.F3",
+    "panel_label": "B1933+503",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Observed HST F814W image, Figure 3.",
+    "sha256": "8e8ba2cac6164dee8104ace3d985c2d518843382e83a8ec1a04d06ec1081d669"
+  },
+  "266": {
+    "reference": "Lemon et al. 2019",
+    "url": "https://arxiv.org/abs/1810.04480v2",
+    "figure": "Figure 6",
+    "panel_label": "J1949+7732",
+    "provenance": "Named observational panel visually matched; caption identifies actual survey colour images.",
+    "sha256": "670059c468c972417dd05519b17cbb9cdf24d09fe2a69a8de1657f293e32c554"
+  },
+  "268": {
+    "reference": "Lemon et al. 2023",
+    "url": "https://arxiv.org/abs/2206.07714v1",
+    "figure": "Figure 1",
+    "panel_label": "J2015+0707",
+    "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected.",
+    "sha256": "e06bca1ba3af8931db0962829afe9f86b34c74cb0cdc579155dfe5d8acfd0106"
+  },
+  "269": {
+    "reference": "Lemon et al. 2023",
+    "url": "https://arxiv.org/abs/2206.07714v1",
+    "figure": "Figure 1",
+    "panel_label": "J2017+6204",
+    "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected.",
+    "sha256": "40f197d2344d5977dc50044070007234d1529fc62e823bd0d9ce7baf1a00ac7a"
+  },
+  "274": {
+    "reference": "Fassnacht et al. 1999",
+    "url": "https://arxiv.org/html/astro-ph/9811167v1",
+    "figure": "Figure 11",
+    "panel_label": "B2045+265",
+    "provenance": "Primary PDF title, target identity, figure caption and observed panel visually checked. NICMOS F160W observed image of B2045+265.",
+    "sha256": "08fadafd5cec4ab006fb0e094de4fb078df54ef4b207ffe759489fd877fb9d03"
+  },
+  "278": {
+    "reference": "McKean et al. 2005",
+    "url": "https://arxiv.org/html/astro-ph/0410554v1",
+    "figure": "S3.F5",
+    "panel_label": "B2108+213",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Original NICMOS F160W upper-right image; galaxy-subtracted lower row excluded.",
+    "sha256": "6e619d662834bb988b1f05fdb4948a72a2337f33bc398feb46bac4c5a01716bc"
+  },
+  "280": {
+    "reference": "Lemon et al. 2019",
+    "url": "https://arxiv.org/abs/1810.04480v2",
+    "figure": "Figure 6",
+    "panel_label": "J2132+2603",
+    "provenance": "Named observational panel visually matched; caption identifies actual survey colour images.",
+    "sha256": "a91f7e122d237dda349c2e05f7289ed5066a2a556588ee92f21b1e4c0e9ed3be"
+  },
+  "282": {
+    "reference": "Lemon et al. 2019",
+    "url": "https://arxiv.org/abs/1810.04480v2",
+    "figure": "Figure 6",
+    "panel_label": "J2145+6345",
+    "provenance": "Named observational panel visually matched; caption identifies actual survey colour images.",
+    "sha256": "b324ffa799264f0c61a44e0bbccbe695552c7fccdf60f63a6a53f50c63fc8a2f"
+  },
+  "291": {
+    "reference": "Lemon et al. 2019",
+    "url": "https://arxiv.org/abs/1810.04480v2",
+    "figure": "Figure 6",
+    "panel_label": "J2212+3144",
+    "provenance": "Named observational panel visually matched; caption identifies actual survey colour images.",
+    "sha256": "136eb4727151aea290449ff522d940eab1ef6a7988ca427a82ecf61cee641fca"
+  },
+  "300": {
+    "reference": "Lemon et al. 2018",
+    "url": "https://arxiv.org/abs/1803.07601v2",
+    "figure": "Figure 1",
+    "panel_label": "J2305+3714",
+    "provenance": "Named observational panel visually matched; caption identifies actual survey colour images.",
+    "sha256": "8ee42281626b03870cda5ec5e2aadf064624a497320f423f9cca5ff6044960b8"
+  },
+  "312": {
+    "reference": "Lemon et al. 2019",
+    "url": "https://arxiv.org/abs/1810.04480v2",
+    "figure": "Figure 6",
+    "panel_label": "J2350+3654",
+    "provenance": "Named observational panel visually matched; caption identifies actual survey colour images.",
+    "sha256": "0a061b74377ac73c1086b9149c9c3b2a19df38c96fbd2f87d93adb356a43bf56"
+  },
+  "318": {
+    "reference": "Koopmans & Treu 2002",
+    "url": "https://arxiv.org/html/astro-ph/0201017v2",
+    "figure": "Figure 2, H-band panel",
+    "panel_label": "MG2016+112",
+    "provenance": "Primary PDF title, target identity, figure caption and observed panel visually checked. NICMOS F160W observed image, lower-left panel.",
+    "sha256": "b798819add92efebf1fa07ed6fc79af3efc96f8afc16d7f5bad24f4b4c504d27"
+  },
+  "324": {
+    "reference": "Dux et al. 2024",
+    "url": "https://arxiv.org/html/2307.13729v1",
+    "figure": "S4.F4",
+    "panel_label": "PS J1800+0146",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. First row, MPIA 2.2 m Rc-band data. HTML panel order explicitly lists J1800+0146 sixth and J2122-1621 seventh; model and residual rows excluded.",
+    "sha256": "c66235ce896546036e98a1057a5a301a644d674d243e1fdba7f116bd75b451c9"
+  },
+  "332": {
+    "reference": "Scialpi et al. 2025",
+    "url": "https://arxiv.org/html/2512.11960v1",
+    "figure": "S3.F2",
+    "panel_label": "J0034–1623",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. MUSE observed white-light image; named lens panel. Replaces inherited image with traceable primary crop.",
+    "sha256": "928f84e6db198752d27ce3e8d866b9de774276b4762f96f4b3309948f71fee1d"
+  },
+  "333": {
+    "reference": "Scialpi et al. 2025",
+    "url": "https://arxiv.org/html/2512.11960v1",
+    "figure": "S3.F2",
+    "panel_label": "J0259–0901",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. MUSE observed white-light image; named lens panel. Replaces inherited image with traceable primary crop.",
+    "sha256": "5217a26d432df3c223479cc55bc15e80318682d08da4fbe17719badfa937e9f7"
+  },
+  "334": {
+    "reference": "Scialpi et al. 2025",
+    "url": "https://arxiv.org/html/2512.11960v1",
+    "figure": "S3.F2",
+    "panel_label": "J0317–5604",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. MUSE observed white-light image; named lens panel. Replaces inherited image with traceable primary crop.",
+    "sha256": "786a6174c0ac9e755dd39f8f579673165d3f1ecca49464aab349d942b70bdd93"
+  },
+  "335": {
+    "reference": "Scialpi et al. 2025",
+    "url": "https://arxiv.org/html/2512.11960v1",
+    "figure": "S3.F2",
+    "panel_label": "J0404–2836",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. MUSE observed white-light image; named lens panel. Replaces inherited image with traceable primary crop.",
+    "sha256": "72bb0faa9eb28abbed8e09c735c51ed815b67482958709fae6466a2d2850a27d"
+  },
+  "336": {
+    "reference": "Scialpi et al. 2025",
+    "url": "https://arxiv.org/html/2512.11960v1",
+    "figure": "S3.F2",
+    "panel_label": "J0551–4629",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. MUSE observed white-light image; named lens panel. Replaces inherited image with traceable primary crop.",
+    "sha256": "29b7bdbffc365c7a5b8290f41dbbc847622f7f3d599978e6439ad4f520b48468"
+  },
+  "337": {
+    "reference": "Scialpi et al. 2025",
+    "url": "https://arxiv.org/html/2512.11960v1",
+    "figure": "S3.F2",
+    "panel_label": "J0802+1944",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. MUSE observed white-light image; named lens panel. Replaces inherited image with traceable primary crop.",
+    "sha256": "26f6c1520894cd1cc820e75c093c6ba5c064d8677c64772681088865c0e37ea5"
+  },
+  "338": {
+    "reference": "Scialpi et al. 2025",
+    "url": "https://arxiv.org/html/2512.11960v1",
+    "figure": "S3.F2",
+    "panel_label": "J1447–0501",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. MUSE observed white-light image; named lens panel. Replaces inherited image with traceable primary crop.",
+    "sha256": "a0270fda2e060aece40db0a07af8fada46740d9164f1841aa90d408d71e9bf3b"
+  },
+  "339": {
+    "reference": "Scialpi et al. 2025",
+    "url": "https://arxiv.org/html/2512.11960v1",
+    "figure": "S3.F2",
+    "panel_label": "J2257–6555",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. MUSE observed white-light image; named lens panel. Replaces inherited image with traceable primary crop.",
+    "sha256": "6b86605298adb297e9ef54aecbeeb48b30b7d2975d4513634aeeff7cbaa4ced4"
+  },
+  "340": {
+    "reference": "Scialpi et al. 2025",
+    "url": "https://arxiv.org/html/2512.11960v1",
+    "figure": "S3.F2",
+    "panel_label": "J2344–4259",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. MUSE observed white-light image; named lens panel. Replaces inherited image with traceable primary crop.",
+    "sha256": "d62bd909d233ebedbd110998fe48ca2dfabe9e388406336d7b6be8d927892b16"
+  },
+  "341": {
+    "reference": "Scialpi et al. 2025",
+    "url": "https://arxiv.org/html/2512.11960v1",
+    "figure": "S3.F2",
+    "panel_label": "J2353–0655",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. MUSE observed white-light image; named lens panel. Replaces inherited image with traceable primary crop.",
+    "sha256": "a3181a2d31460a3062d4476e606be9c7b22ebb0574d95a17ff905aa65c6a7fbb"
+  },
+  "342": {
+    "reference": "Scialpi et al. 2025",
+    "url": "https://arxiv.org/html/2512.11960v1",
+    "figure": "S3.F3",
+    "panel_label": "J0957–2242",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. MUSE observed white-light quad image, individually named in Figure 3.",
+    "sha256": "eeab38918396f5751b1d5a8b6dbd8b51f60238aa6845114d1a5751a8a81d75f7"
+  },
+  "343": {
+    "reference": "Scialpi et al. 2025",
+    "url": "https://arxiv.org/html/2512.11960v1",
+    "figure": "S3.F3",
+    "panel_label": "J1116–0657",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. MUSE observed white-light quad image, individually named in Figure 3.",
+    "sha256": "8bc0874b547c97bc8f27795e1583312b9e2740539f8e7a4eb276e38269aa841f"
+  },
+  "5": {
+    "reference": "Lemon et al. 2023",
+    "url": "https://arxiv.org/abs/2206.07714v1",
+    "figure": "Figure 1",
+    "panel_label": "J0030-3358",
+    "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected.",
+    "sha256": "89606ff8cdf703ffd08af5729c05196ad50609f3559e7b352bc44941b787cc19"
+  },
+  "6": {
+    "reference": "Lemon et al. 2023",
+    "url": "https://arxiv.org/abs/2206.07714v1",
+    "figure": "Figure 1",
+    "panel_label": "J0045-3937",
+    "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected.",
+    "sha256": "7420403238479a2e85b49d5f8f47d9e489eac296b4bff8920161fa775cdec4cb"
+  },
+  "24": {
+    "reference": "Lemon et al. 2023",
+    "url": "https://arxiv.org/abs/2206.07714v1",
+    "figure": "Figure 1",
+    "panel_label": "J0152-2448",
+    "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected.",
+    "sha256": "58105474fa28724ea1f1604484b8c20fc809d9ab59fe16b587fb8bec33824598"
+  },
+  "25": {
+    "reference": "Lemon et al. 2023",
+    "url": "https://arxiv.org/abs/2206.07714v1",
+    "figure": "Figure 1",
+    "panel_label": "J0156-2751",
+    "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected.",
+    "sha256": "062a3d190bf16a1e7748c415752ce5fce5a1d00b2b3258c5a326f96473915855"
+  },
+  "27": {
+    "reference": "Lemon et al. 2023",
+    "url": "https://arxiv.org/abs/2206.07714v1",
+    "figure": "Figure 1",
+    "panel_label": "J0200-1509",
+    "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected.",
+    "sha256": "0b4190abfa5007c3dacfc957808879736f9b7fdf7ce32964769ea1cabbe6267d"
+  },
+  "29": {
+    "reference": "Lemon et al. 2023",
+    "url": "https://arxiv.org/abs/2206.07714v1",
+    "figure": "Figure 1",
+    "panel_label": "J0209-3841",
+    "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected.",
+    "sha256": "6263f797a446752ce1e0ea4d4793cc42edecc4974b852ec1484030bd6de71a62"
+  },
+  "34": {
+    "reference": "Lemon et al. 2023",
+    "url": "https://arxiv.org/abs/2206.07714v1",
+    "figure": "Figure 1",
+    "panel_label": "J0232-2429",
+    "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected.",
+    "sha256": "8dce059166d6e8b6f170128decb20453f444811ae10b86aa885e134993e92f44"
+  },
+  "41": {
+    "reference": "Lemon et al. 2023",
+    "url": "https://arxiv.org/abs/2206.07714v1",
+    "figure": "Figure 1",
+    "panel_label": "J0247-2646",
+    "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected.",
+    "sha256": "bd6ab75b4d599a1a72ac44eaaec172ff36e096f67704102d3f18d6419dacb5d2"
+  },
+  "42": {
+    "reference": "Lemon et al. 2023",
+    "url": "https://arxiv.org/abs/2206.07714v1",
+    "figure": "Figure 1",
+    "panel_label": "J0247-0800",
+    "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected.",
+    "sha256": "a73943e78efd947341a70c613b0b1bab92bc62f7e07416252ebb7fb2c76672d9"
+  },
+  "43": {
+    "reference": "Lemon et al. 2023",
+    "url": "https://arxiv.org/abs/2206.07714v1",
+    "figure": "Figure 1",
+    "panel_label": "J0247-6349",
+    "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected.",
+    "sha256": "a4a0c8c89d4ae9b9f62f0fbed4d1e71c14c740796c0024cccca96bf132846505"
+  },
+  "48": {
+    "reference": "Lemon et al. 2023",
+    "url": "https://arxiv.org/abs/2206.07714v1",
+    "figure": "Figure 1",
+    "panel_label": "J0310-5545",
+    "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected.",
+    "sha256": "1a32010712a63c2fe31d4ce819ed292c4123ad72b76700af96e10654a6463a8e"
+  },
+  "49": {
+    "reference": "Lemon et al. 2023",
+    "url": "https://arxiv.org/abs/2206.07714v1",
+    "figure": "Figure 1",
+    "panel_label": "J0325-2232",
+    "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected.",
+    "sha256": "ccba2355bb77eae61533d5b25c875a8a4697ff2f22834cd995821530808984ed"
+  },
+  "50": {
+    "reference": "Lemon et al. 2023",
+    "url": "https://arxiv.org/abs/2206.07714v1",
+    "figure": "Figure 1",
+    "panel_label": "J0329-0208",
+    "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected.",
+    "sha256": "beb24356e85039381c09611a425bc785718aeb6162ff2834c6e152606d3fc275"
+  },
+  "51": {
+    "reference": "Lemon et al. 2023",
+    "url": "https://arxiv.org/abs/2206.07714v1",
+    "figure": "Figure 1",
+    "panel_label": "J0339-6121",
+    "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected.",
+    "sha256": "44d1e5bb7b648dc4285b6ae1296ef8342f4d4df8d2daa8ac8590cc67dfb78c56"
+  },
+  "53": {
+    "reference": "Lemon et al. 2023",
+    "url": "https://arxiv.org/abs/2206.07714v1",
+    "figure": "Figure 1",
+    "panel_label": "J0346-6414",
+    "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected.",
+    "sha256": "ea30fd0820b3d9f762a4b96edc195b1f16650e65eea4b1d46b39c928b11cbe53"
+  },
+  "54": {
+    "reference": "Lemon et al. 2023",
+    "url": "https://arxiv.org/abs/2206.07714v1",
+    "figure": "Figure 1",
+    "panel_label": "J0347-2154",
+    "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected.",
+    "sha256": "602fbbe5677598095cafc981ce9d72ccbcf9dd1343dd676459d1a9584131e203"
+  },
+  "55": {
+    "reference": "Lemon et al. 2023",
+    "url": "https://arxiv.org/abs/2206.07714v1",
+    "figure": "Figure 1",
+    "panel_label": "J0350-4611",
+    "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected.",
+    "sha256": "4418abfd30c8d0d73d1dec28a58c1ea3efb4564ce725ae56c57ec3d75a780049"
+  },
+  "56": {
+    "reference": "Lemon et al. 2023",
+    "url": "https://arxiv.org/abs/2206.07714v1",
+    "figure": "Figure 1",
+    "panel_label": "J0355-5624",
+    "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected.",
+    "sha256": "afe618cd87b6b6e0905b05d438e97843d0b26fecae450e2f32c19d3abf050801"
+  },
+  "57": {
+    "reference": "Lemon et al. 2023",
+    "url": "https://arxiv.org/abs/2206.07714v1",
+    "figure": "Figure 1",
+    "panel_label": "J0401-2514",
+    "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected.",
+    "sha256": "14bb487747f6a66b8e0a3e899c71bc497cc717ab94d0b8b47155eac9e9ed718c"
+  },
+  "58": {
+    "reference": "Lemon et al. 2023",
+    "url": "https://arxiv.org/abs/2206.07714v1",
+    "figure": "Figure 1",
+    "panel_label": "J0405-3730",
+    "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected.",
+    "sha256": "d170ced76adec46a6cc281862395f0218ff387266b2d8b84f2c5aa1054d12ba9"
+  },
+  "64": {
+    "reference": "Lemon et al. 2023",
+    "url": "https://arxiv.org/abs/2206.07714v1",
+    "figure": "Figure 1",
+    "panel_label": "J0416-5606",
+    "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected.",
+    "sha256": "a00418e6382ebc7dd285510af6c4461e74b7004977421ca539beba6fb14d56f5"
+  },
+  "70": {
+    "reference": "Lemon et al. 2023",
+    "url": "https://arxiv.org/abs/2206.07714v1",
+    "figure": "Figure 1",
+    "panel_label": "J0440-0905",
+    "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected.",
+    "sha256": "5eaaf3e55ce5c2d72d919291d701fc8ecf6f57bca5ef001a0bdcb9ecac725319"
+  },
+  "73": {
+    "reference": "Lemon et al. 2023",
+    "url": "https://arxiv.org/abs/2206.07714v1",
+    "figure": "Figure 1",
+    "panel_label": "J0457-7820",
+    "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected.",
+    "sha256": "acfc0b5fae8c56d77df1300ee56fc05d64e90c5d92f73b99ead8f4cfcd32ee60"
+  },
+  "75": {
+    "reference": "Lemon et al. 2023",
+    "url": "https://arxiv.org/abs/2206.07714v1",
+    "figure": "Figure 1",
+    "panel_label": "J0504-2446",
+    "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected.",
+    "sha256": "5c4d7e79fb653921d28d8e4a6dcb66b1942dbb989f874d46a43e8e636f05de03"
+  },
+  "77": {
+    "reference": "Lemon et al. 2023",
+    "url": "https://arxiv.org/abs/2206.07714v1",
+    "figure": "Figure 1",
+    "panel_label": "J0526-3933",
+    "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected.",
+    "sha256": "0f8735a49e7114e9ff40a675394b36e3164cb745c71f8bf471282e19d4f4bc81"
+  },
+  "83": {
+    "reference": "Lemon et al. 2023",
+    "url": "https://arxiv.org/abs/2206.07714v1",
+    "figure": "Figure 1",
+    "panel_label": "J0607-2152",
+    "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected.",
+    "sha256": "e0089cbd3fa84b60fcf16694377b43fa40e5ff27f6061b0664ef24e2c3974de7"
+  },
+  "85": {
+    "reference": "Lemon et al. 2023",
+    "url": "https://arxiv.org/abs/2206.07714v1",
+    "figure": "Figure 1",
+    "panel_label": "J0628-7448",
+    "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected.",
+    "sha256": "467ff130b8cea5a182882e676bfeda15e128d98fbd8e7f706efb64bddbd9d534"
+  },
+  "88": {
+    "reference": "Lemon et al. 2023",
+    "url": "https://arxiv.org/abs/2206.07714v1",
+    "figure": "Figure 1",
+    "panel_label": "J0635+6452",
+    "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected.",
+    "sha256": "da205b6d8377addcc45c1ef6e1025d70bf8d9c1175f6e738e9c1e0efaf5a0848"
+  },
+  "92": {
+    "reference": "Lemon et al. 2023",
+    "url": "https://arxiv.org/abs/2206.07714v1",
+    "figure": "Figure 1",
+    "panel_label": "J0734+1915",
+    "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected.",
+    "sha256": "6b5f70b11640fd2454dfa9e0bd9d1d1671c497cfde8c801ede94c65a0761b353"
+  },
+  "94": {
+    "reference": "Lemon et al. 2023",
+    "url": "https://arxiv.org/abs/2206.07714v1",
+    "figure": "Figure 1",
+    "panel_label": "J0740+0635",
+    "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected.",
+    "sha256": "164cfb056505b16c5713f3ba687c0a23e8ff6a033e8da50177abf56e31c49c69"
+  },
+  "98": {
+    "reference": "Lemon et al. 2023",
+    "url": "https://arxiv.org/abs/2206.07714v1",
+    "figure": "Figure 1",
+    "panel_label": "J0803+3908",
+    "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected.",
+    "sha256": "e32a1650d2117099a77e63ce8bcc6a9efd7739330a60e7b33ad786f2184dd5f6"
+  },
+  "107": {
+    "reference": "Lemon et al. 2023",
+    "url": "https://arxiv.org/abs/2206.07714v1",
+    "figure": "Figure 1",
+    "panel_label": "J0826+7002",
+    "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected.",
+    "sha256": "40eaac7b513bbbe1c2fd6e57b01b97855700cb0615f729e500c9dae53c312e12"
+  },
+  "110": {
+    "reference": "Lemon et al. 2023",
+    "url": "https://arxiv.org/abs/2206.07714v1",
+    "figure": "Figure 1",
+    "panel_label": "J0833+0331",
+    "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected.",
+    "sha256": "db8ed2ff5ad2695b17203d0ed4bdb5c7e33da7cb08b35f12557eb8bd7a468b94"
+  },
+  "111": {
+    "reference": "Lemon et al. 2023",
+    "url": "https://arxiv.org/abs/2206.07714v1",
+    "figure": "Figure 1",
+    "panel_label": "J0833+2612",
+    "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected.",
+    "sha256": "39cf4c3b75cafdfdec29c39dc8ec9be5d63b78503f55d4dcf4004195fecfd7f9"
+  },
+  "117": {
+    "reference": "Lemon et al. 2023",
+    "url": "https://arxiv.org/abs/2206.07714v1",
+    "figure": "Figure 1",
+    "panel_label": "J0904+3343",
+    "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected.",
+    "sha256": "e2d44a4e62004a8b34285f3ade04c321ee69c0173862c7a10085a48db0f2e454"
+  },
+  "119": {
+    "reference": "Lemon et al. 2023",
+    "url": "https://arxiv.org/abs/2206.07714v1",
+    "figure": "Figure 1",
+    "panel_label": "J0907+6224",
+    "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected.",
+    "sha256": "5d25f27098b1bf531296afd3ba674c5e9d8fee120dc0ecae20e75c0d2737653b"
+  },
+  "121": {
+    "reference": "Lemon et al. 2023",
+    "url": "https://arxiv.org/abs/2206.07714v1",
+    "figure": "Figure 1",
+    "panel_label": "J0911-0948",
+    "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected.",
+    "sha256": "7448ceb1bf0dbd9f712cb9aabf04ff9dc1b04ed51fd1fd867eb494fc5ffdc754"
+  },
+  "124": {
+    "reference": "Lemon et al. 2023",
+    "url": "https://arxiv.org/abs/2206.07714v1",
+    "figure": "Figure 1",
+    "panel_label": "J0918-0220",
+    "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected.",
+    "sha256": "ee65040e21c21db91de83ce42370d808af010588a6785f4fb6a9c06045ccc9ac"
+  },
+  "125": {
+    "reference": "Lemon et al. 2023",
+    "url": "https://arxiv.org/abs/2206.07714v1",
+    "figure": "Figure 1",
+    "panel_label": "J0921+3020",
+    "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected.",
+    "sha256": "16ac1176fb1513ce99dfcf43b886ac7d0c2cc7ea35b6c4f92bc27d69529cb0d7"
+  },
+  "127": {
+    "reference": "Lemon et al. 2023",
+    "url": "https://arxiv.org/abs/2206.07714v1",
+    "figure": "Figure 1",
+    "panel_label": "J0924+4235",
+    "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected.",
+    "sha256": "2e8d2014b4762cbb0688a41181bf099fbc2ec46923321dc9db761d0d38edb6a1"
+  },
+  "129": {
+    "reference": "Lemon et al. 2023",
+    "url": "https://arxiv.org/abs/2206.07714v1",
+    "figure": "Figure 1",
+    "panel_label": "J0936-1211",
+    "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected.",
+    "sha256": "76e3461c028fa1b515e4eb1ddaa9c1f9a376d8806ee857d5be95334b0e5fb1cd"
+  },
+  "130": {
+    "reference": "Lemon et al. 2023",
+    "url": "https://arxiv.org/abs/2206.07714v1",
+    "figure": "Figure 1",
+    "panel_label": "J0937+5835",
+    "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected.",
+    "sha256": "50b87bdcbcd1a17d5f8c39c9ab885de71e92a98aed6c07bf4159efb03acd70df"
+  },
+  "136": {
+    "reference": "Lemon et al. 2023",
+    "url": "https://arxiv.org/abs/2206.07714v1",
+    "figure": "Figure 1",
+    "panel_label": "J0954-1421",
+    "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected.",
+    "sha256": "66d909cb581974c8aad2c3c2cdcb5c9773f056a07c5ff2a2b3b754d81f4dfd92"
+  },
+  "141": {
+    "reference": "Lemon et al. 2023",
+    "url": "https://arxiv.org/abs/2206.07714v1",
+    "figure": "Figure 1",
+    "panel_label": "J1003+0651",
+    "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected.",
+    "sha256": "710b0a3d05df454008633aa476cdec170fbfa8f3c8e2c556cafc100f0f4ac120"
+  },
+  "144": {
+    "reference": "Lemon et al. 2023",
+    "url": "https://arxiv.org/abs/2206.07714v1",
+    "figure": "Figure 1",
+    "panel_label": "J1008+0046",
+    "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected.",
+    "sha256": "d8a122c198b18604aa965ce8fdaa6a83bc7ba2f43b83806f7fd70a0cd72152e6"
+  },
+  "145": {
+    "reference": "Lemon et al. 2023",
+    "url": "https://arxiv.org/abs/2206.07714v1",
+    "figure": "Figure 1",
+    "panel_label": "J1008+0929",
+    "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected.",
+    "sha256": "f13fa672c5d1b6a766399ffbf427705bb89d79f8558b04a16232b1055c97e298"
+  },
+  "150": {
+    "reference": "Lemon et al. 2023",
+    "url": "https://arxiv.org/abs/2206.07714v1",
+    "figure": "Figure 1",
+    "panel_label": "J1025-2246",
+    "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected.",
+    "sha256": "33dd56b79cd72670ffcadd799ffdf6b1051412a9642d0658a9f6b1be3627c610"
+  },
+  "153": {
+    "reference": "Lemon et al. 2023",
+    "url": "https://arxiv.org/abs/2206.07714v1",
+    "figure": "Figure 1",
+    "panel_label": "J1037+0018",
+    "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected.",
+    "sha256": "24fbea79466a3d9b054477b1569980d9c0ce16b1cf980b0880a6b4bccec2b254"
+  },
+  "154": {
+    "reference": "Lemon et al. 2023",
+    "url": "https://arxiv.org/abs/2206.07714v1",
+    "figure": "Figure 1",
+    "panel_label": "J1041+1710",
+    "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected.",
+    "sha256": "e79e6035180a7f87094b8c21f69744382ca8b4a52c66407e92dc85310bf26a5c"
+  },
+  "169": {
+    "reference": "Lemon et al. 2023",
+    "url": "https://arxiv.org/abs/2206.07714v1",
+    "figure": "Figure 1",
+    "panel_label": "J1137-1245",
+    "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected.",
+    "sha256": "653b74e650bbad9ab138a7b852ea2d645425257c2d860cc070a3bc23e85592ba"
+  },
+  "176": {
+    "reference": "Lemon et al. 2023",
+    "url": "https://arxiv.org/abs/2206.07714v1",
+    "figure": "Figure 1",
+    "panel_label": "J1206-2543",
+    "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected.",
+    "sha256": "1b9ec4e50d02296abd65ee6a5a9c3dbd50deae963f4b039553e4a14d85848077"
+  },
+  "177": {
+    "reference": "Lemon et al. 2023",
+    "url": "https://arxiv.org/abs/2206.07714v1",
+    "figure": "Figure 1",
+    "panel_label": "J1209-1929",
+    "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected.",
+    "sha256": "7640faffd709546753641a7af52b43fe604b7f21d17d3c818a5f11a4763f3513"
+  },
+  "180": {
+    "reference": "Lemon et al. 2023",
+    "url": "https://arxiv.org/abs/2206.07714v1",
+    "figure": "Figure 1",
+    "panel_label": "J1233-3542",
+    "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected.",
+    "sha256": "9561adb0fc7d119f2489b4fd6028a30c9b174dc4992c031cbfa7c31ca6441365"
+  },
+  "181": {
+    "reference": "Lemon et al. 2023",
+    "url": "https://arxiv.org/abs/2206.07714v1",
+    "figure": "Figure 1",
+    "panel_label": "J1233-0227",
+    "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected.",
+    "sha256": "b3666f67be484b968af0251fcff57e3b88ab73063dc3c582d33fe7436f4e5476"
+  },
+  "182": {
+    "reference": "Lemon et al. 2023",
+    "url": "https://arxiv.org/abs/2206.07714v1",
+    "figure": "Figure 1",
+    "panel_label": "J1237+3340",
+    "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected.",
+    "sha256": "f4dcf2eb76322525b7ddc33fbaa95829fdd6c00895f5e24495c0411d91bf068c"
+  },
+  "184": {
+    "reference": "Lemon et al. 2023",
+    "url": "https://arxiv.org/abs/2206.07714v1",
+    "figure": "Figure 1",
+    "panel_label": "J1247-3253",
+    "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected.",
+    "sha256": "404e0627f6f9a854a356b3a93e1c1b44429526a61b36d42d38c9b9b41b8b3155"
+  },
+  "188": {
+    "reference": "Lemon et al. 2023",
+    "url": "https://arxiv.org/abs/2206.07714v1",
+    "figure": "Figure 1",
+    "panel_label": "J1255+0737",
+    "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected.",
+    "sha256": "fa5666fb816ad07525f26a09e407ab1c1b9bd0d491662403e1b04d57856c376a"
+  },
+  "190": {
+    "reference": "Lemon et al. 2023",
+    "url": "https://arxiv.org/abs/2206.07714v1",
+    "figure": "Figure 1",
+    "panel_label": "J1303+1816",
+    "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected.",
+    "sha256": "c92028d7eb78ea57b484eafd48e7dc2e696c6056493acf243bd2870a03dc3ec8"
+  },
+  "192": {
+    "reference": "Lemon et al. 2019",
+    "url": "https://arxiv.org/abs/1810.04480v2",
+    "figure": "Figure 6",
+    "panel_label": "J1307+0642",
+    "provenance": "Named observational panel visually matched; caption identifies actual survey colour images.",
+    "sha256": "abb111bb24bc1b2bca2979fcc8ef6421eef579ef405874c19c165d57fbae2219"
+  },
+  "197": {
+    "reference": "Lemon et al. 2023",
+    "url": "https://arxiv.org/abs/2206.07714v1",
+    "figure": "Figure 1",
+    "panel_label": "J1326+3020",
+    "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected.",
+    "sha256": "7c1d6c7d5edbd8d9531a1c4e4533c369f9443697b027baee7e63b1f75a21ec40"
+  },
+  "198": {
+    "reference": "Lemon et al. 2023",
+    "url": "https://arxiv.org/abs/2206.07714v1",
+    "figure": "Figure 1",
+    "panel_label": "J1329-2807",
+    "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected.",
+    "sha256": "54a3e625bf1ab0ae96145fa8e15f82ae6c661bf769ddb9817b5f0d819cd34bff"
+  },
+  "204": {
+    "reference": "Lemon et al. 2023",
+    "url": "https://arxiv.org/abs/2206.07714v1",
+    "figure": "Figure 1",
+    "panel_label": "J1344+6200",
+    "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected.",
+    "sha256": "72ac646c1bf6f0da316747420e50747b7f7fe11fd0e2c36d34b134d7630e36fe"
+  },
+  "213": {
+    "reference": "Lemon et al. 2023",
+    "url": "https://arxiv.org/abs/2206.07714v1",
+    "figure": "Figure 1",
+    "panel_label": "J1408+0422",
+    "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected.",
+    "sha256": "bbbc944bfe9d5fa0b9b706b12cc2bf27690fdd7cf51c46c431c256efef097c05"
+  },
+  "229": {
+    "reference": "Lemon et al. 2023",
+    "url": "https://arxiv.org/abs/2206.07714v1",
+    "figure": "Figure 1",
+    "panel_label": "J1526-1400",
+    "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected.",
+    "sha256": "1691c66f2c170df600a561f12bc6e0aa07f30e09ec3c50388c4ba551de4a2f57"
+  },
+  "235": {
+    "reference": "Lemon et al. 2023",
+    "url": "https://arxiv.org/abs/2206.07714v1",
+    "figure": "Figure 1",
+    "panel_label": "J1550+0221",
+    "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected.",
+    "sha256": "e26c15871837c0229c498ed3413a1e051c5ea5013f776a61d6ba3bc49c5b6544"
+  },
+  "265": {
+    "reference": "Lemon et al. 2023",
+    "url": "https://arxiv.org/abs/2206.07714v1",
+    "figure": "Figure 1",
+    "panel_label": "J1945-2857",
+    "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected.",
+    "sha256": "66d4c45f67a384252ffaa6097dc395362d0cbdc2bbf2ce1471c06505af132170"
+  },
+  "276": {
+    "reference": "Lemon et al. 2023",
+    "url": "https://arxiv.org/abs/2206.07714v1",
+    "figure": "Figure 1",
+    "panel_label": "J2106-4944",
+    "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected.",
+    "sha256": "5630a2cffd670e1a26b0b7f061fc831675568437d156597f51f6f624818f740f"
+  },
+  "277": {
+    "reference": "Lemon et al. 2023",
+    "url": "https://arxiv.org/abs/2206.07714v1",
+    "figure": "Figure 1",
+    "panel_label": "J2110-3755",
+    "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected.",
+    "sha256": "3d078bd0cca1c14464aaeca2fa8625adce42724f4b89db7815ac530ac72f0ee2"
+  },
+  "284": {
+    "reference": "Lemon et al. 2023",
+    "url": "https://arxiv.org/abs/2206.07714v1",
+    "figure": "Figure 1",
+    "panel_label": "J2147-1340",
+    "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected.",
+    "sha256": "ab08e6d64ccf695d90002a0ce84c96b4611de8cbb024502a46958c8cd07c7400"
+  },
+  "289": {
+    "reference": "Lemon et al. 2023",
+    "url": "https://arxiv.org/abs/2206.07714v1",
+    "figure": "Figure 1",
+    "panel_label": "J2205+1019",
+    "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected.",
+    "sha256": "bad142cc2b8181efdece51bf6ecb1e5a67c3377819aa3cf4799f510b8343d79b"
+  },
+  "290": {
+    "reference": "Lemon et al. 2023",
+    "url": "https://arxiv.org/abs/2206.07714v1",
+    "figure": "Figure 1",
+    "panel_label": "J2205-3727",
+    "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected.",
+    "sha256": "e0dd073ebf9402b75a37b8e7b4d871c9588ac604cda4b77a78dba3bcf13222d4"
+  },
+  "292": {
+    "reference": "Lemon et al. 2023",
+    "url": "https://arxiv.org/abs/2206.07714v1",
+    "figure": "Figure 1",
+    "panel_label": "J2213-5926",
+    "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected.",
+    "sha256": "2f75c81ab726bbc6904fcf1f11ea13fa04456f1b0206af0baf74c515d30b5835"
+  },
+  "302": {
+    "reference": "Lemon et al. 2023",
+    "url": "https://arxiv.org/abs/2206.07714v1",
+    "figure": "Figure 1",
+    "panel_label": "J2308+3201",
+    "provenance": "Named observational panel matched to system name/alias; Figure 1 caption identifies colour survey observations; source PNG inspected.",
+    "sha256": "3973757120ad3b5374abd3c99a9ffbb06217608eb1ba358a581c6a1e0db02820"
+  },
+  "303": {
+    "reference": "Lemon et al. 2019",
+    "url": "https://arxiv.org/abs/1810.04480v2",
+    "figure": "Figure 6",
+    "panel_label": "J2316+0610",
+    "provenance": "Named observational panel visually matched; caption identifies actual survey colour images.",
+    "sha256": "300d3b8b4c620b4a938398fdafcd7937cd9205bba5b7c2f830eca091e8343ab3"
+  },
+  "267": {
+    "reference": "Winn et al. 2001",
+    "url": "https://arxiv.org/abs/astro-ph/0009451v2",
+    "figure": "Figure 4 A",
+    "provenance": "Original I-band image (Figure 4 A); observation panel verified against PDF caption. Replaces the incorrect PMNJ1838-3427 image.",
+    "sha256": "e6f52fbdb87b873fac197b3d91a59a86c880f0a052d304dc534769b8f54b94a0"
+  },
+  "1": {
+    "reference": "Lemon et al. 2018",
+    "url": "https://arxiv.org/abs/1803.07601v2",
+    "figure": "Figure 1",
+    "panel_label": "J0011-0845",
+    "provenance": "Named observational panel visually matched; caption identifies actual survey colour images.",
+    "sha256": "eb1d5180d5009240088a7c61805c8f7faceadf64020ae164a918f09795df290d"
+  },
+  "3": {
+    "reference": "Lemon et al. 2018",
+    "url": "https://arxiv.org/abs/1803.07601v2",
+    "figure": "Figure 1",
+    "panel_label": "J0028+0631",
+    "provenance": "Named observational panel visually matched; caption identifies actual survey colour images.",
+    "sha256": "8f057c5656c6aee3953a97998533c06b7140868c510371cb0348c03283530759"
+  },
+  "4": {
+    "reference": "Lemon et al. 2018",
+    "url": "https://arxiv.org/abs/1803.07601v2",
+    "figure": "Figure 1",
+    "panel_label": "J0030-1525",
+    "provenance": "Named observational panel visually matched; caption identifies actual survey colour images.",
+    "sha256": "17045524d853bc9400dabfab7bc6aa9b6f81da447641def066b75dbb8e151868"
+  },
+  "15": {
+    "reference": "Lemon et al. 2018",
+    "url": "https://arxiv.org/abs/1803.07601v2",
+    "figure": "Figure 1",
+    "panel_label": "J0123-0455",
+    "provenance": "Named observational panel visually matched; caption identifies actual survey colour images.",
+    "sha256": "6fd284dea21e5b5eea9aa76d91e3fa01a7e8ea0a3d736ee81114ce809fe4df6b"
+  },
+  "19": {
+    "reference": "Lemon et al. 2018",
+    "url": "https://arxiv.org/abs/1803.07601v2",
+    "figure": "Figure 1",
+    "panel_label": "J0140-1152",
+    "provenance": "Named observational panel visually matched; caption identifies actual survey colour images.",
+    "sha256": "23bdeaacb2d73f6af2a8a238ac2dea96fc9d521fd0343bb7726ddf9b599da3b2"
+  },
+  "21": {
+    "reference": "Lemon et al. 2018",
+    "url": "https://arxiv.org/abs/1803.07601v2",
+    "figure": "Figure 1",
+    "panel_label": "J0146-1133",
+    "provenance": "Named observational panel visually matched; caption identifies actual survey colour images.",
+    "sha256": "c45cfc170cb01e7f23102bd50f4aca81440f9c6e620706347a410c72bc6dc857"
+  },
+  "36": {
+    "reference": "Lemon et al. 2018",
+    "url": "https://arxiv.org/abs/1803.07601v2",
+    "figure": "Figure 1",
+    "panel_label": "J0235-2433",
+    "provenance": "Named observational panel visually matched; caption identifies actual survey colour images.",
+    "sha256": "ea3c06069e2ea0f3087fed863522d28be3bc2296a620db6dd082bd4767e75cf5"
+  },
+  "46": {
+    "reference": "Lemon et al. 2018",
+    "url": "https://arxiv.org/abs/1803.07601v2",
+    "figure": "Figure 1",
+    "panel_label": "J0259-2338",
+    "provenance": "Named observational panel visually matched; caption identifies actual survey colour images.",
+    "sha256": "37f9f30a1b3239496ff6ec22d9578683df9a7c60dfd64787e49598df3ff3ed1f"
+  },
+  "113": {
+    "reference": "Lemon et al. 2018",
+    "url": "https://arxiv.org/abs/1803.07601v2",
+    "figure": "Figure 1",
+    "panel_label": "J0840+3550",
+    "provenance": "Named observational panel visually matched; caption identifies actual survey colour images.",
+    "sha256": "25ed31786c57cd4f209c5a4c4957e2f54beceaf098d6842ca51c0f5a08bc9e2a"
+  },
+  "131": {
+    "reference": "Lemon et al. 2018",
+    "url": "https://arxiv.org/abs/1803.07601v2",
+    "figure": "Figure 1",
+    "panel_label": "J0941+0518",
+    "provenance": "Named observational panel visually matched; caption identifies actual survey colour images.",
+    "sha256": "813ebf2b39d778b8fbb5e88b09addd8cad8c7d45ea982ee2a8089f1b9b6a23ee"
+  },
+  "134": {
+    "reference": "Lemon et al. 2018",
+    "url": "https://arxiv.org/abs/1803.07601v2",
+    "figure": "Figure 1",
+    "panel_label": "J0949+4208",
+    "provenance": "Named observational panel visually matched; caption identifies actual survey colour images.",
+    "sha256": "c261b0c6a42cb9cfc6f1dd49f629756cb3227504822a5379de8c6fd97217cd1e"
+  },
+  "222": {
+    "reference": "Lemon et al. 2018",
+    "url": "https://arxiv.org/abs/1803.07601v2",
+    "figure": "Figure 1",
+    "panel_label": "J1508+3844",
+    "provenance": "Named observational panel visually matched; caption identifies actual survey colour images.",
+    "sha256": "6c188289519964cc293f191f36f8345273ad9c1ea7717110adc635a774a01393"
+  },
+  "240": {
+    "reference": "Lemon et al. 2018",
+    "url": "https://arxiv.org/abs/1803.07601v2",
+    "figure": "Figure 1",
+    "panel_label": "J1602+4526",
+    "provenance": "Named observational panel visually matched; caption identifies actual survey colour images.",
+    "sha256": "3293ab55174d543219fc328759697956948188e8ff6e47d4669a956bc672011e"
+  },
+  "241": {
+    "reference": "Lemon et al. 2018",
+    "url": "https://arxiv.org/abs/1803.07601v2",
+    "figure": "Figure 1",
+    "panel_label": "J1606-2333",
+    "provenance": "Named observational panel visually matched; caption identifies actual survey colour images.",
+    "sha256": "291d935b48f2b14a51af7c159ea5d5cc2715dac0814ad5ba9a38b20157712315"
+  },
+  "251": {
+    "reference": "Lemon et al. 2018",
+    "url": "https://arxiv.org/abs/1803.07601v2",
+    "figure": "Figure 1",
+    "panel_label": "J1640+1045",
+    "provenance": "Named observational panel visually matched; caption identifies actual survey colour images.",
+    "sha256": "51780e2bbba809e2d2d0525a1007e5a2c49a9ab7980e2e880a8bccb038a77971"
+  },
+  "256": {
+    "reference": "Lemon et al. 2018",
+    "url": "https://arxiv.org/abs/1803.07601v2",
+    "figure": "Figure 1",
+    "panel_label": "J1709+3828",
+    "provenance": "Named observational panel visually matched; caption identifies actual survey colour images.",
+    "sha256": "82c086ea26b53f26466a962a84b0a59ac277f5304ac66cc58af9ad36c270f440"
+  },
+  "257": {
+    "reference": "Lemon et al. 2018",
+    "url": "https://arxiv.org/abs/1803.07601v2",
+    "figure": "Figure 1",
+    "panel_label": "J1710+4332",
+    "provenance": "Named observational panel visually matched; caption identifies actual survey colour images.",
+    "sha256": "bfa8b81ed4a88118e215fee0bc347d69f567dd5e7559fbee6796a010acecad21"
+  },
+  "260": {
+    "reference": "Lemon et al. 2018",
+    "url": "https://arxiv.org/abs/1803.07601v2",
+    "figure": "Figure 1",
+    "panel_label": "J1831+5447",
+    "provenance": "Named observational panel visually matched; caption identifies actual survey colour images.",
+    "sha256": "5f872c605771e7dca547c3fbf3769ba30c10f3b6cad010fa171e8f1b65262c7e"
+  },
+  "279": {
+    "reference": "Lemon et al. 2018",
+    "url": "https://arxiv.org/abs/1803.07601v2",
+    "figure": "Figure 1",
+    "panel_label": "J2124+1632",
+    "provenance": "Named observational panel visually matched; caption identifies actual survey colour images.",
+    "sha256": "97c55a18824ffc25bf5feed37d55b2310f7baf669cb5a20dd9f4b8959dadaf10"
+  },
+  "308": {
+    "reference": "Lemon et al. 2018",
+    "url": "https://arxiv.org/abs/1803.07601v2",
+    "figure": "Figure 1",
+    "panel_label": "J2332-1852",
+    "provenance": "Named observational panel visually matched; caption identifies actual survey colour images.",
+    "sha256": "368a8d50390559f3c46a8820039dffc026cd293e469120c1146e763207890b00"
+  },
+  "7": {
+    "reference": "Lemon et al. 2019",
+    "url": "https://arxiv.org/abs/1810.04480v2",
+    "figure": "Figure 6",
+    "panel_label": "J0047+2514",
+    "provenance": "Named observational panel visually matched; caption identifies actual survey colour images.",
+    "sha256": "bb84891f596ff70bba466d3f0b5da3fcf564fabc70aca8c8bb6ef8bfd24a7333"
+  },
+  "10": {
+    "reference": "Lemon et al. 2019",
+    "url": "https://arxiv.org/abs/1810.04480v2",
+    "figure": "Figure 6",
+    "panel_label": "J0102+2445",
+    "provenance": "Named observational panel visually matched; caption identifies actual survey colour images.",
+    "sha256": "f5d7b061f4a14312926f3e0e3bb613b82cf8d9cfefe222a012daaed7f2c64489"
+  },
+  "16": {
+    "reference": "Lemon et al. 2019",
+    "url": "https://arxiv.org/abs/1810.04480v2",
+    "figure": "Figure 6",
+    "panel_label": "J0124-0033",
+    "provenance": "Named observational panel visually matched; caption identifies actual survey colour images.",
+    "sha256": "208a656e685ab99bdc55f7ba0262d089855534a81dcad6e123a85499c66ed5c3"
+  },
+  "28": {
+    "reference": "Lemon et al. 2019",
+    "url": "https://arxiv.org/abs/1810.04480v2",
+    "figure": "Figure 6",
+    "panel_label": "J0203+1612",
+    "provenance": "Named observational panel visually matched; caption identifies actual survey colour images.",
+    "sha256": "e02bfaf87b2a350a938658e59e95562c53e84a6468d56daa65d1018ccc53ea3c"
+  },
+  "183": {
+    "reference": "Lemon et al. 2019",
+    "url": "https://arxiv.org/abs/1810.04480v2",
+    "figure": "Figure 6",
+    "panel_label": "J1238+2846",
+    "provenance": "Named observational panel visually matched; caption identifies actual survey colour images.",
+    "sha256": "7323798d18ad43c0cd67b2b213d036f9ab93212572c06c75e97ab3afb17b6650"
+  },
+  "224": {
+    "reference": "Lemon et al. 2019",
+    "url": "https://arxiv.org/abs/1810.04480v2",
+    "figure": "Figure 6",
+    "panel_label": "J1515+3137",
+    "provenance": "Named observational panel visually matched; caption identifies actual survey colour images.",
+    "sha256": "8a03700e50748d47aabe1148ffc35a7ccb677283b488ac78c76bb8fcf33fab7a"
+  },
+  "225": {
+    "reference": "Lemon et al. 2019",
+    "url": "https://arxiv.org/abs/1810.04480v2",
+    "figure": "Figure 6",
+    "panel_label": "J1518+4658",
+    "provenance": "Named observational panel visually matched; caption identifies actual survey colour images.",
+    "sha256": "d29b297eaa58359d803b7419685fe65bb3e342f3c21f28c54962b1d4bd5cd2f4"
+  },
+  "227": {
+    "reference": "Lemon et al. 2019",
+    "url": "https://arxiv.org/abs/1810.04480v2",
+    "figure": "Figure 6",
+    "panel_label": "J1524+4801",
+    "provenance": "Named observational panel visually matched; caption identifies actual survey colour images.",
+    "sha256": "840bc3d8ea1fbbdc334f2a04515988adbf2f87b993341f35b2b2244be09ff461"
+  },
+  "232": {
+    "reference": "Lemon et al. 2019",
+    "url": "https://arxiv.org/abs/1810.04480v2",
+    "figure": "Figure 6",
+    "panel_label": "J1537-3010",
+    "provenance": "Named observational panel visually matched; caption identifies actual survey colour images.",
+    "sha256": "f064b1d4746987731c63b94bc2fd570e30eaa81060916bbc8d77815745fc40df"
+  },
+  "236": {
+    "reference": "Lemon et al. 2019",
+    "url": "https://arxiv.org/abs/1810.04480v2",
+    "figure": "Figure 6",
+    "panel_label": "J1553+3149",
+    "provenance": "Named observational panel visually matched; caption identifies actual survey colour images.",
+    "sha256": "bb06a395bf4fc6ba98706e0c1c79095235b772bafb4ef8d2fcc11d9caf331a40"
+  },
+  "243": {
+    "reference": "Lemon et al. 2019",
+    "url": "https://arxiv.org/abs/1810.04480v2",
+    "figure": "Figure 6",
+    "panel_label": "J1612+3920",
+    "provenance": "Named observational panel visually matched; caption identifies actual survey colour images.",
+    "sha256": "8613aa0d837110dbdef23d35ab1bb7093aa00cfbecb2affb3f92615ab8d6f07b"
+  },
+  "244": {
+    "reference": "Lemon et al. 2019",
+    "url": "https://arxiv.org/abs/1810.04480v2",
+    "figure": "Figure 6",
+    "panel_label": "J1616+1415",
+    "provenance": "Named observational panel visually matched; caption identifies actual survey colour images.",
+    "sha256": "c2810459fe9b46d9954b15739b7ef40ede31fd215fce003e4b488dfb941f9218"
+  },
+  "247": {
+    "reference": "Lemon et al. 2019",
+    "url": "https://arxiv.org/abs/1810.04480v2",
+    "figure": "Figure 6",
+    "panel_label": "J1623+7533",
+    "provenance": "Named observational panel visually matched; caption identifies actual survey colour images.",
+    "sha256": "794c0f7253ebbb3094e968ebe9b93e3a935ac2d18b42fd2065dbafca4bd01a83"
+  },
+  "248": {
+    "reference": "Lemon et al. 2019",
+    "url": "https://arxiv.org/abs/1810.04480v2",
+    "figure": "Figure 6",
+    "panel_label": "J1627-0224",
+    "provenance": "Named observational panel visually matched; caption identifies actual survey colour images.",
+    "sha256": "821f2677b8b47fd8a3adca68858b75bf5493bdcc592ef7dbc778de433cc70807"
+  },
+  "255": {
+    "reference": "Lemon et al. 2019",
+    "url": "https://arxiv.org/abs/1810.04480v2",
+    "figure": "Figure 6",
+    "panel_label": "J1653+5155",
+    "provenance": "Named observational panel visually matched; caption identifies actual survey colour images.",
+    "sha256": "cacf4db69477fe171052ee09f66d61ea68c8e81638a33f97df5c88e324da9560"
+  },
+  "259": {
+    "reference": "Lemon et al. 2019",
+    "url": "https://arxiv.org/abs/1810.04480v2",
+    "figure": "Figure 6",
+    "panel_label": "J1817+2729",
+    "provenance": "Named observational panel visually matched; caption identifies actual survey colour images.",
+    "sha256": "6f4b1214dcb0f2be3d556de31153ead12c6bd11ba24bd07bff819069b237b8f6"
+  },
+  "297": {
+    "reference": "Lemon et al. 2019",
+    "url": "https://arxiv.org/abs/1810.04480v2",
+    "figure": "Figure 6",
+    "panel_label": "J2250+2117",
+    "provenance": "Named observational panel visually matched; caption identifies actual survey colour images.",
+    "sha256": "9f9093e2e4c8f23b3085c229d9d85e8f1b1f20b283c66520a8fc5e141edd5943"
+  },
+  "9": {
+    "reference": "Lemon et al. 2020",
+    "url": "https://arxiv.org/abs/1912.09133v1",
+    "figure": "Figure 3",
+    "panel_label": "J0053-2012",
+    "provenance": "Named observational panel visually matched; caption identifies actual survey colour images.",
+    "sha256": "d294d02a5a79eb001c72eeb3e9d395db2c0cd4a8a396294559b6429769d1f6a4"
+  },
+  "11": {
+    "reference": "Lemon et al. 2020",
+    "url": "https://arxiv.org/abs/1912.09133v1",
+    "figure": "Figure 3",
+    "panel_label": "J0112-1650",
+    "provenance": "Named observational panel visually matched; caption identifies actual survey colour images.",
+    "sha256": "207a7b9c479c17623534485be22cddbab490803424311206dd81fd37c0b2f9aa"
+  },
+  "23": {
+    "reference": "Lemon et al. 2020",
+    "url": "https://arxiv.org/abs/1912.09133v1",
+    "figure": "Figure 3",
+    "panel_label": "J0150-4041",
+    "provenance": "Named observational panel visually matched; caption identifies actual survey colour images.",
+    "sha256": "8802ae8d87c7da7c8857afdf45164a173920a3361c31db51f98f913d8be4dee4"
+  },
+  "37": {
+    "reference": "Lemon et al. 2020",
+    "url": "https://arxiv.org/abs/1912.09133v1",
+    "figure": "Figure 3",
+    "panel_label": "J0245-0556",
+    "provenance": "Named observational panel visually matched; caption identifies actual survey colour images.",
+    "sha256": "d4e98c71ec26895052a6c140399c6af6280872f071ea10d3eeb4c0dcd02e1336"
+  },
+  "38": {
+    "reference": "Lemon et al. 2020",
+    "url": "https://arxiv.org/abs/1912.09133v1",
+    "figure": "Figure 3",
+    "panel_label": "J0246-1845",
+    "provenance": "Named observational panel visually matched; caption identifies actual survey colour images.",
+    "sha256": "c4e8d4ecf501b40914f3f5d1cb640355b505f3dd939d21a3e5a7f16dd6c53b18"
+  },
+  "61": {
+    "reference": "Lemon et al. 2020",
+    "url": "https://arxiv.org/abs/1912.09133v1",
+    "figure": "Figure 3",
+    "panel_label": "J0407-1931",
+    "provenance": "Named observational panel visually matched; caption identifies actual survey colour images.",
+    "sha256": "20490078be63a9f0f0b546b786661d99aaff63f37a518da3aca13a032c7d8dac"
+  },
+  "74": {
+    "reference": "Lemon et al. 2020",
+    "url": "https://arxiv.org/abs/1912.09133v1",
+    "figure": "Figure 3",
+    "panel_label": "J0501-4118",
+    "provenance": "Named observational panel visually matched; caption identifies actual survey colour images.",
+    "sha256": "e6c475f57430837dc3f75b624216cdd73feefbe05250ac772066d07f3ea9bcd7"
+  },
+  "81": {
+    "reference": "Lemon et al. 2020",
+    "url": "https://arxiv.org/abs/1912.09133v1",
+    "figure": "Figure 3",
+    "panel_label": "J0600-4649",
+    "provenance": "Named observational panel visually matched; caption identifies actual survey colour images.",
+    "sha256": "d98e8143d9f8469fd7bbcdc4c37d83e1554aaa27663d9cf0253630d306ecf508"
+  },
+  "311": {
+    "reference": "Lemon et al. 2020",
+    "url": "https://arxiv.org/abs/1912.09133v1",
+    "figure": "Figure 3",
+    "panel_label": "J2349-4518",
+    "provenance": "Named observational panel visually matched; caption identifies actual survey colour images.",
+    "sha256": "100bc004deef6f6361ad3951a7edd1e0c1fa0e592222ef2c508b432b9f33fd0b"
+  },
+  "12": {
+    "reference": "More et al. 2016",
+    "url": "https://arxiv.org/abs/1509.07917v2",
+    "figure": "Figure 2, data column",
+    "panel_label": "J0114+0722",
+    "provenance": "Named data panel from the first column of each modelling group; model and residual columns excluded after visual/caption verification.",
+    "sha256": "ab5261e2963a767c449e458c098d2ad037408984e0140851a4f53d61cc1d3280"
+  },
+  "93": {
+    "reference": "More et al. 2016",
+    "url": "https://arxiv.org/abs/1509.07917v2",
+    "figure": "Figure 2, data column",
+    "panel_label": "J0737+4825",
+    "provenance": "Named data panel from the first column of each modelling group; model and residual columns excluded after visual/caption verification.",
+    "sha256": "32625b20ec98c8eb3580ece5f9a35bd9c61c7b7137f0651070c563f592084836"
+  },
+  "126": {
+    "reference": "More et al. 2016",
+    "url": "https://arxiv.org/abs/1509.07917v2",
+    "figure": "Figure 2, data column",
+    "panel_label": "J0921+2854",
+    "provenance": "Named data panel from the first column of each modelling group; model and residual columns excluded after visual/caption verification.",
+    "sha256": "ebd40546db6d686787350d0b214cabf013b1d189f1b54803aac776e93952cdf9"
+  },
+  "199": {
+    "reference": "More et al. 2016",
+    "url": "https://arxiv.org/abs/1509.07917v2",
+    "figure": "Figure 2, data column",
+    "panel_label": "J1330+3800",
+    "provenance": "Named data panel from the first column of each modelling group; model and residual columns excluded after visual/caption verification.",
+    "sha256": "a6f5c2a52ae6ba5653d6eebc3aca84ccdac2171a5f446f1b0b2cb2326124e7ff"
+  },
+  "218": {
+    "reference": "More et al. 2016",
+    "url": "https://arxiv.org/abs/1509.07917v2",
+    "figure": "Figure 2, data column",
+    "panel_label": "J1442+4055",
+    "provenance": "Named data panel from the first column of each modelling group; model and residual columns excluded after visual/caption verification.",
+    "sha256": "f8ce34ed91fe66087ee30d87b2b5f8cc0f448c4009963216bbb2a33389c6f71a"
+  },
+  "221": {
+    "reference": "More et al. 2016",
+    "url": "https://arxiv.org/abs/1509.07917v2",
+    "figure": "Figure 2, data column",
+    "panel_label": "J1458-0202",
+    "provenance": "Named data panel from the first column of each modelling group; model and residual columns excluded after visual/caption verification.",
+    "sha256": "d766310e54e6b818ecd883dbcb27b7ba4da6daf1b809b9c588fbe19500c6af39"
+  },
+  "283": {
+    "reference": "More et al. 2016",
+    "url": "https://arxiv.org/abs/1509.07917v2",
+    "figure": "Figure 2, data column",
+    "panel_label": "J2146-0047",
+    "provenance": "Named data panel from the first column of each modelling group; model and residual columns excluded after visual/caption verification.",
+    "sha256": "500c8705174167f2a3082bd00a69582922bac93a20e83f290524b6ac16a0533b"
+  },
+  "45": {
+    "reference": "More et al. 2016",
+    "url": "https://arxiv.org/abs/1509.07917v2",
+    "figure": "Figure 2, data column",
+    "panel_label": "J0256+0153",
+    "provenance": "Named data panel from the first column of each modelling group; model and residual columns excluded after visual/caption verification.",
+    "sha256": "54ffb84b09906f4fd0de142d1da7ecbe68536ecd97103b32dc9bd6d474377867"
+  },
+  "106": {
+    "reference": "More et al. 2016",
+    "url": "https://arxiv.org/abs/1509.07917v2",
+    "figure": "Figure 2, data column",
+    "panel_label": "J0821+4542",
+    "provenance": "Named data panel from the first column of each modelling group; model and residual columns excluded after visual/caption verification.",
+    "sha256": "4114a0f5f3df8eedc8314c6c874263016109a42f8be6a8cc4906217773654aa8"
+  },
+  "187": {
+    "reference": "More et al. 2016",
+    "url": "https://arxiv.org/abs/1509.07917v2",
+    "figure": "Figure 2, data column",
+    "panel_label": "J1254+1857",
+    "provenance": "Named data panel from the first column of each modelling group; model and residual columns excluded after visual/caption verification.",
+    "sha256": "9da6858530330342fef2c5a320d74e47a0464fa1320d8f925ed80560ce78900d"
+  },
+  "214": {
+    "reference": "More et al. 2016",
+    "url": "https://arxiv.org/abs/1509.07917v2",
+    "figure": "Figure 2, data column",
+    "panel_label": "J1412+5204",
+    "provenance": "Named data panel from the first column of each modelling group; model and residual columns excluded after visual/caption verification.",
+    "sha256": "cc321ab5a798c8aeb26e880b8cfa1103230f608b3e6c41be122c865a4f4a6806"
+  },
+  "219": {
+    "reference": "More et al. 2016",
+    "url": "https://arxiv.org/abs/1509.07917v2",
+    "figure": "Figure 2, data column",
+    "panel_label": "J1452+4224",
+    "provenance": "Named data panel from the first column of each modelling group; model and residual columns excluded after visual/caption verification.",
+    "sha256": "3ef8f5ff9e5b6f9728d7e4ca3dffbf8d8711cda6d3c7c4e2295805d8cb28bf9f"
+  },
+  "233": {
+    "reference": "More et al. 2016",
+    "url": "https://arxiv.org/abs/1509.07917v2",
+    "figure": "Figure 2, data column",
+    "panel_label": "J1537+3014",
+    "provenance": "Named data panel from the first column of each modelling group; model and residual columns excluded after visual/caption verification.",
+    "sha256": "0682535637467d40dc6895f8e0d17dc1078b17e6caca1cd11f983940646287af"
+  },
+  "116": {
+    "reference": "Kayo et al. 2010",
+    "url": "https://arxiv.org/html/0912.1462v2",
+    "figure": "A1.F2",
+    "panel_label": "SDSSJ0904+1512",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Left observation in each pair; PSF-subtracted panel excluded.",
+    "sha256": "57e9219ac218ff390bf1fbe74dabe356b8c5db3e380145c3393df518e83d66d8"
+  },
+  "157": {
+    "reference": "Kayo et al. 2010",
+    "url": "https://arxiv.org/html/0912.1462v2",
+    "figure": "A1.F2",
+    "panel_label": "SDSSJ1054+2733",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Left observation in each pair; PSF-subtracted panel excluded.",
+    "sha256": "2ae1c496b7e1b2994aa34f203004c2a9c68acaa333fbabf35e0d9a4f9787f753"
+  },
+  "158": {
+    "reference": "Kayo et al. 2010",
+    "url": "https://arxiv.org/html/0912.1462v2",
+    "figure": "A1.F2",
+    "panel_label": "SDSSJ1055+4628",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Left observation in each pair; PSF-subtracted panel excluded.",
+    "sha256": "1abd53497a9722c3df94038a27494b6c1053e43304b9669fd138f17f06b1ba0c"
+  },
+  "167": {
+    "reference": "Kayo et al. 2010",
+    "url": "https://arxiv.org/html/0912.1462v2",
+    "figure": "A1.F2",
+    "panel_label": "SDSSJ1131+1915",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Left observation in each pair; PSF-subtracted panel excluded.",
+    "sha256": "41e1c3997447220ae6853b2f553d746a068a3b2d81c351117b368cecebd28c6b"
+  },
+  "191": {
+    "reference": "Kayo et al. 2010",
+    "url": "https://arxiv.org/html/0912.1462v2",
+    "figure": "A1.F2",
+    "panel_label": "SDSSJ1304+2001",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Left observation in each pair; PSF-subtracted panel excluded.",
+    "sha256": "a14ddfc6c390e470e5f39eee10cac7462aa3743689e2dd8a618e49e6d11a1cc8"
+  },
+  "205": {
+    "reference": "Kayo et al. 2010",
+    "url": "https://arxiv.org/html/0912.1462v2",
+    "figure": "A1.F2",
+    "panel_label": "SDSSJ1349+1227",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Left observation in each pair; PSF-subtracted panel excluded.",
+    "sha256": "78c953df9027d54fa2950725a58797b71221ccc85e64b77511f62754c1ca52c6"
+  },
+  "220": {
+    "reference": "Kayo et al. 2010",
+    "url": "https://arxiv.org/html/0912.1462v2",
+    "figure": "A1.F2",
+    "panel_label": "SDSSJ1455+1447",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Left observation in each pair; PSF-subtracted panel excluded.",
+    "sha256": "ae36bd1dd5d3647293f14f8663f8aeb91c59979b2b0f83028ff47a8627f14a1a"
+  },
+  "246": {
+    "reference": "Kayo et al. 2010",
+    "url": "https://arxiv.org/html/0912.1462v2",
+    "figure": "A1.F2",
+    "panel_label": "SDSSJ1620+1203",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Left observation in each pair; PSF-subtracted panel excluded.",
+    "sha256": "986e2e964ebd72531cfc137ce4b5785a6b88106403797025f2eb8dcc3f5eafb6"
+  },
+  "103": {
+    "reference": "Inada et al. 2009",
+    "url": "https://arxiv.org/html/0809.0912v2",
+    "figure": "S5.F2",
+    "panel_label": "SDSSJ0819+5356",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. First column: original I-band observation.",
+    "sha256": "5c6e3f4461ea4e860ba1169f6896a83ddb6cf555202539d13a7f02927624c2b2"
+  },
+  "186": {
+    "reference": "Inada et al. 2009",
+    "url": "https://arxiv.org/html/0809.0912v2",
+    "figure": "S5.F2",
+    "panel_label": "SDSSJ1254+2235",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. First column: original I-band observation.",
+    "sha256": "7b366ff4bdc0f992a6614177ef8732dd339662b943e39695c52ade7d9ef2dca2"
+  },
+  "189": {
+    "reference": "Inada et al. 2009",
+    "url": "https://arxiv.org/html/0809.0912v2",
+    "figure": "S5.F2",
+    "panel_label": "SDSSJ1258+1657",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. First column: original I-band observation.",
+    "sha256": "9c0dc5664d17a3dbc35412ba63cd126eb4cc2787fdbcd238b3d5647082b76887"
+  },
+  "203": {
+    "reference": "Inada et al. 2009",
+    "url": "https://arxiv.org/html/0809.0912v2",
+    "figure": "S5.F2",
+    "panel_label": "SDSSJ1339+1310",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. First column: original I-band observation.",
+    "sha256": "1227094a95605a74d1be86f8b974213af44327fd4168da6421f3f27f2dd3538b"
+  },
+  "209": {
+    "reference": "Inada et al. 2009",
+    "url": "https://arxiv.org/html/0809.0912v2",
+    "figure": "S5.F2",
+    "panel_label": "SDSSJ1400+3134",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. First column: original I-band observation.",
+    "sha256": "ecd86648fef85d0e84615e7d43e41299d28397e01c89d8838b32c081c99bb77e"
+  },
+  "132": {
+    "reference": "Chan et al. 2022",
+    "url": "https://arxiv.org/html/2110.09535v2",
+    "figure": "S4.F5",
+    "panel_label": "UNIONSJ0943+3532",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Colour column only; SED and Data-minus-PS columns excluded.",
+    "sha256": "ab1f1128bd0d03a943a471c47a12f3f93fe07492eca5d3083f8b3c7dbbff6b87"
+  },
+  "160": {
+    "reference": "Chan et al. 2022",
+    "url": "https://arxiv.org/html/2110.09535v2",
+    "figure": "S4.F5",
+    "panel_label": "UNIONSJ1111+3804",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Colour column only; SED and Data-minus-PS columns excluded.",
+    "sha256": "4edb6bf7456b1775b8af974111e771c2063dfa635bb2f6c33204786c82f63b55"
+  },
+  "171": {
+    "reference": "Chan et al. 2022",
+    "url": "https://arxiv.org/html/2110.09535v2",
+    "figure": "S4.F5",
+    "panel_label": "UNIONSJ1146+3254",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Colour column only; SED and Data-minus-PS columns excluded.",
+    "sha256": "a752e15f60dab4d1e512c35ce0d9fdcd60bece8edd432ab5d96dc77cf28561bb"
+  },
+  "174": {
+    "reference": "Chan et al. 2022",
+    "url": "https://arxiv.org/html/2110.09535v2",
+    "figure": "S4.F5",
+    "panel_label": "UNIONSJ1201+4013",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Colour column only; SED and Data-minus-PS columns excluded.",
+    "sha256": "13f60a8195e5fabee02b42a2089dd1f181c4d7f2dff351603f544450a487ca50"
+  },
+  "237": {
+    "reference": "Chan et al. 2022",
+    "url": "https://arxiv.org/html/2110.09535v2",
+    "figure": "S4.F5",
+    "panel_label": "UNIONSJ1555+3118",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Colour column only; SED and Data-minus-PS columns excluded.",
+    "sha256": "5758daa084523f2d65da2092ccd5550d53f799886bde5c1977907e7da25ace64"
+  },
+  "322": {
+    "reference": "Dux et al. 2024",
+    "url": "https://arxiv.org/html/2307.13729v1",
+    "figure": "S4.F5",
+    "panel_label": "PS J0557−2959",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Top row: survey observation, not fitted model or residual.",
+    "sha256": "a5fd996ecbb73a8ccc721757f3bd3cba60d9878452cbc0aaba93f1c04a4a1dd3"
+  },
+  "323": {
+    "reference": "Dux et al. 2024",
+    "url": "https://arxiv.org/html/2307.13729v1",
+    "figure": "S4.F5",
+    "panel_label": "PS J1037+0018",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Top row: survey observation, not fitted model or residual.",
+    "sha256": "daa44e093b1800288ce9eb1583698c4672220809dbddf32a5e0fd63a3b6dce7c"
+  },
+  "270": {
+    "reference": "Agnello et al. 2018",
+    "url": "https://arxiv.org/html/1711.03971v1",
+    "figure": "S1.F2",
+    "panel_label": "WGD2021-4115",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. riz single-epoch colour composite; caption identifies WGD2021-4115.",
+    "sha256": "5677d85c315c108b2d98882d837bfa80224490d0d1b492cbbf0254e74135313f"
+  },
+  "109": {
+    "reference": "Oguri et al. 2008",
+    "url": "https://arxiv.org/html/0708.0871v2",
+    "figure": "S5.F2",
+    "panel_label": "SDSSJ0832+0404",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Top-row original observation, I band.",
+    "sha256": "cbe267799ede67d872efc959e7688785ed6892f05754244e7e064c07a5b1b978"
+  },
+  "178": {
+    "reference": "Oguri et al. 2008",
+    "url": "https://arxiv.org/html/0708.0871v2",
+    "figure": "S5.F5",
+    "panel_label": "SDSSJ1216+3529",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Top-row original observation, I band.",
+    "sha256": "12acf2ad51e8c719b13a97953dc6ecff18f5291aafe57b4d2c4dbca17b29d1c0"
+  },
+  "195": {
+    "reference": "Oguri et al. 2008",
+    "url": "https://arxiv.org/html/0708.0871v2",
+    "figure": "S5.F7",
+    "panel_label": "SDSSJ1322+1052",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Top-row original observation, I band.",
+    "sha256": "26f1f63469b2e3b125902813914983321e5c23b9bb09ad692c43de012ebb39a0"
+  },
+  "228": {
+    "reference": "Oguri et al. 2008",
+    "url": "https://arxiv.org/html/0708.0871v2",
+    "figure": "S5.F9",
+    "panel_label": "SDSSJ1524+4409",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Top-row original observation, I band.",
+    "sha256": "10efaf190c2f91586886d1549199d1c1fbe06899065b8e60d4ba0f7bb4f4d4fe"
+  },
+  "139": {
+    "reference": "Oguri et al. 2005",
+    "url": "https://arxiv.org/html/astro-ph/0411250v2",
+    "figure": "S7.F3",
+    "panel_label": "SDSSJ1001+5027",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Upper original UH88 I-band panel.",
+    "sha256": "20f5ac5a0983419a7227bdf517b423ef7b43e9174975b88caa4be5766a767ca5"
+  },
+  "175": {
+    "reference": "Oguri et al. 2005",
+    "url": "https://arxiv.org/html/astro-ph/0411250v2",
+    "figure": "S7.F5",
+    "panel_label": "SDSSJ1206+4332",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Upper original UH88 I-band panel.",
+    "sha256": "dc5a48000a39796e7df4a7b340084da378d0b3d96d7220b2e3bc8330a91ca25b"
+  },
+  "99": {
+    "reference": "Inada et al. 2006",
+    "url": "https://arxiv.org/html/astro-ph/0512239v1",
+    "figure": "S5.F3",
+    "panel_label": "SDSSJ0806+2006",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Original NIRC K-prime image, left panel.",
+    "sha256": "640359d9336b78bb7f8067f2e5a5c6edde28e99cdb771541d25fef916d71b17e"
+  },
+  "206": {
+    "reference": "Inada et al. 2006",
+    "url": "https://arxiv.org/html/astro-ph/0512239v1",
+    "figure": "S5.F6",
+    "panel_label": "SDSSJ1353+1138",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Original MagIC i-band observation, upper right.",
+    "sha256": "df1a9c11eab227fcc93864e750b5a3f590fcb21dec1ff72234909514ff1ce284"
+  },
+  "97": {
+    "reference": "Inada et al. 2007",
+    "url": "https://arxiv.org/html/astro-ph/0609696v1",
+    "figure": "fig1",
+    "panel_label": "SDSSJ0746+4403",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Figure 2, OPTIC I-band observation, lower-left panel. Caption text outside HTML figure element verified separately.",
+    "sha256": "9ff2012b196ff3edcd197320e29a9e7b604fee370cd9f4d866c121450eda2ab3"
+  },
+  "212": {
+    "reference": "Inada et al. 2007",
+    "url": "https://arxiv.org/html/astro-ph/0609696v1",
+    "figure": "S6.F4",
+    "panel_label": "SDSSJ1406+6126",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Original OPTIC I-band observation, lower left; middle/right are subtracted images.",
+    "sha256": "62358b0e9ce6b450d9080e6a30383921899e886e36b689f2026b52fa0990664e"
+  },
+  "59": {
+    "reference": "Anguita et al. 2018",
+    "url": "https://arxiv.org/html/1805.12151v1",
+    "figure": "S4.F1",
+    "panel_label": "DESJ0405-3308",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Left observed image; PSF-subtracted right panel excluded.",
+    "sha256": "d260d4f636fbfdf49b57af5a7ff0a08864e8f55088a88ed4e6c74a8fd87bfb69"
+  },
+  "60": {
+    "reference": "Anguita et al. 2018",
+    "url": "https://arxiv.org/html/1805.12151v1",
+    "figure": "S4.F4",
+    "panel_label": "DESJ0407-5006",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Left observed image; PSF-subtracted right panel excluded.",
+    "sha256": "c8c766906e4fee38a51a1fab2a72d401b45ee9572cf4f88fb396ba99fa8b6bc8"
+  },
+  "326": {
+    "reference": "He et al. 2025",
+    "url": "https://arxiv.org/html/2501.08541v1",
+    "figure": "S2.F1",
+    "panel_label": "DESI J0746+1344",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Named DESI-LS grz observed colour cutout.",
+    "sha256": "b3883cf6283007b80c138f400fefb9ed657ba2b5807b50c577fec7c29fe9f5fd"
+  },
+  "327": {
+    "reference": "He et al. 2025",
+    "url": "https://arxiv.org/html/2501.08541v1",
+    "figure": "S2.F1",
+    "panel_label": "DESI J2121-0826",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Named DESI-LS grz observed colour cutout.",
+    "sha256": "490eefbd09595364486e9ada43c5752200379d9ec41b4b9535bd3f0bf50e036c"
+  },
+  "330": {
+    "reference": "He et al. 2025",
+    "url": "https://arxiv.org/html/2509.03858v1",
+    "figure": "S3.F1",
+    "panel_label": "DESILS J0642+5617",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Named survey colour observation in Figure 1.",
+    "sha256": "6751a146ffba996dbb06ae2a247d11a4cc611ecea30a5506fb134831ea88cf56"
+  },
+  "331": {
+    "reference": "He et al. 2025",
+    "url": "https://arxiv.org/html/2509.03858v1",
+    "figure": "S3.F1",
+    "panel_label": "DESILS J1800+5305",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Named survey colour observation in Figure 1.",
+    "sha256": "6d39b646c2e74c9b46f0c163ed4f70bbc456bdfa8395f806b84834621a152af2"
+  },
+  "96": {
+    "reference": "Inada et al. 2014",
+    "url": "https://arxiv.org/html/1401.2274v1",
+    "figure": "S5.F2",
+    "panel_label": "SDSSJ0743+2457",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Left original I-band observation; individual filename and system label checked.",
+    "sha256": "35b1fa0e17072f7ac4976b02e68ee51bacd8213ec5265e99c53e00a330182602"
+  },
+  "163": {
+    "reference": "Inada et al. 2014",
+    "url": "https://arxiv.org/html/1401.2274v1",
+    "figure": "S5.F2",
+    "panel_label": "SDSSJ1128+2402",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Left original I-band observation; individual filename and system label checked.",
+    "sha256": "7916ff22253dd818a5406a92092016bcf53d56d08f6dfdfa777de54e406acb56"
+  },
+  "211": {
+    "reference": "Inada et al. 2014",
+    "url": "https://arxiv.org/html/1401.2274v1",
+    "figure": "S5.F2",
+    "panel_label": "ULASJ1405+0959",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Left original I-band observation; individual filename and system label checked.",
+    "sha256": "725a53fdf6031ac9cd2d0d2eecd96abf2de9f0ad131c818cd0741f9f268dea97"
+  },
+  "223": {
+    "reference": "Inada et al. 2014",
+    "url": "https://arxiv.org/html/1401.2274v1",
+    "figure": "S5.F2",
+    "panel_label": "SDSSJ1515+1511",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Left original I-band observation; individual filename and system label checked.",
+    "sha256": "ea83a12195c1c73f19783e7abc37e098bf87cefabc2772505dafcce263bc8185"
+  },
+  "168": {
+    "reference": "Lucey et al. 2018",
+    "url": "https://arxiv.org/html/1711.02674v2",
+    "figure": "S1.F1",
+    "panel_label": "2M1134-2103",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Named PS1 giy colour observation.",
+    "sha256": "1539c3da6f7ad66882cd9fc99ab25418609fde3fe084e50dd900199caab76cb8"
+  },
+  "193": {
+    "reference": "Lucey et al. 2018",
+    "url": "https://arxiv.org/html/1711.02674v2",
+    "figure": "S1.F1",
+    "panel_label": "2M1310-1714",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Named PS1 giy colour observation.",
+    "sha256": "2007fad1dda7c8ee246a940af95a2a45c3d314d3c88bac9c9da5a0aac770b7b9"
+  },
+  "301": {
+    "reference": "Spiniello et al. 2018",
+    "url": "https://arxiv.org/html/1805.12436v1",
+    "figure": "S5.F3",
+    "panel_label": "KIDS2307-3039",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Left gri observed colour panel, excluding PSF subtraction.",
+    "sha256": "f33dc7afbd903c0ae0e316169b2f865ca8b50706ee5a26b1e30327b9d1952a85"
+  },
+  "156": {
+    "reference": "Spiniello et al. 2018",
+    "url": "https://arxiv.org/html/1805.12436v1",
+    "figure": "S5.F3",
+    "panel_label": "KIDS1042+0023",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Left gri observed colour panel, excluding PSF subtraction.",
+    "sha256": "93bc4cae3e57b3eb8b197779282fc2480020796f594bc456754b44c697e40e6d"
+  },
+  "275": {
+    "reference": "Agnello et al. 2019",
+    "url": "https://arxiv.org/html/1805.11103v1",
+    "figure": "S1.F1",
+    "panel_label": "J2100-4452",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Named DES colour cutout, Figure 1.",
+    "sha256": "2b0ee946f4a8504beddda01388b508b2915f88750087ecde4713e1009d8ee948"
+  },
+  "30": {
+    "reference": "Agnello et al. 2019",
+    "url": "https://arxiv.org/html/1805.11103v1",
+    "figure": "S1.F1",
+    "panel_label": "WG0214-2105",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Named DES colour cutout, Figure 1.",
+    "sha256": "dfd22d2e447dcbb4dd5c20266c62c3608df3398c258b3e12dc44f59e6ec43897"
+  },
+  "273": {
+    "reference": "Agnello et al. 2019",
+    "url": "https://arxiv.org/html/1805.11103v1",
+    "figure": "S1.F1",
+    "panel_label": "WGD2038-4008",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Named DES colour cutout, Figure 1.",
+    "sha256": "cc63f21577f142c6f33206751dc09b5d70e6aafea5c3c25a90bc171b1f52acff"
+  },
+  "325": {
+    "reference": "Dux et al. 2024",
+    "url": "https://arxiv.org/html/2307.13729v1",
+    "figure": "S4.F4",
+    "panel_label": "PS J2122−1621",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. First row, MPIA 2.2 m Rc-band data. HTML panel order explicitly lists J1800+0146 sixth and J2122-1621 seventh; model and residual rows excluded.",
+    "sha256": "569880710d76ec987be8710a7794f38d544dff31f6f60762b50d3f350a5994d4"
+  },
+  "8": {
+    "reference": "Wisotzki et al. 2004",
+    "url": "https://arxiv.org/html/astro-ph/0403475v1",
+    "figure": "S2.F1",
+    "panel_label": "HE0047-1756",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. First row original observation. Fourth optical/NIR band panel, before point-source subtraction.",
+    "sha256": "6927fb97b680a28acf3bf582586977cba61bfc31b980cd6011d5f99a417de2b5"
+  },
+  "13": {
+    "reference": "Agnello et al. 2015",
+    "url": "https://arxiv.org/html/1508.01203v1",
+    "figure": "S1.F1",
+    "panel_label": "DESJ0115-5244",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Top strip DES J0115-5244, riz colour observation.",
+    "sha256": "4f81add17b21765fdf53c2093099d43fe8f888874f44d9806cc47721c83f194d"
+  },
+  "18": {
+    "reference": "Winn et al. 2002",
+    "url": "https://arxiv.org/html/astro-ph/0107435v1",
+    "figure": "S5.F1",
+    "panel_label": "J0134-0931",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Upper observed MERLIN 5 GHz map with components A-E, not model.",
+    "sha256": "65538854d288eec1ed5b37a9496247cb23afdb2754b21adeb57638999bb051b8"
+  },
+  "31": {
+    "reference": "Kostrzewa-Rutkowska et al. 2018",
+    "url": "https://arxiv.org/html/1801.08481v1",
+    "figure": "S3.F1",
+    "panel_label": "OGLEJ0218-7335",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. OGLE observed colour composite at upper right.",
+    "sha256": "1c6de345316877d9ed8955eedc65e3476e029b3b01c491092990a15270771138"
+  },
+  "47": {
+    "reference": "Schechter et al. 2018",
+    "url": "https://arxiv.org/html/1805.01939v1",
+    "figure": "S1.F1",
+    "panel_label": "WISEJ0259-1635",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Left Sloan i-band observation; spectrum excluded.",
+    "sha256": "6865cc7bb9c1d6f125e633d3e49e0935e29096006080e90c721d10b3b8ecea2e"
+  },
+  "79": {
+    "reference": "Martinez et al. 2023",
+    "url": "https://arxiv.org/html/2209.03972v1",
+    "figure": "S3.F5",
+    "panel_label": "COOLJ0542-2125",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Upper-left observed cluster colour image includes all three quasar images; model critical curves are overlaid in the paper, not substituted for the observed pixels.",
+    "sha256": "d743b21b7aff9741161cd3c115b5139d21c11f90b0df1abf2f54d78e4dc54072"
+  },
+  "115": {
+    "reference": "Johnston et al. 2003",
+    "url": "https://arxiv.org/html/astro-ph/0307371v1",
+    "figure": "S5.F5",
+    "panel_label": "SDSSJ0903+5028",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Upper-left SPIcam i-band observed image. Other panels are fits and residuals.",
+    "sha256": "4eb1e7ac50ec2f25fca21cc881faacfad7b0ae960f00dbf0f7427cb3ee8bfc06"
+  },
+  "120": {
+    "reference": "Shu et al. 2018",
+    "url": "https://arxiv.org/html/1809.07337v1",
+    "figure": "S1.F1",
+    "panel_label": "SDSSJ0909+4449",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. BASS+MzLS observed colour image with components A-C; spectrum excluded.",
+    "sha256": "a65f74e9c5b9b87fc274ab2c746ae56f28053085e62807a67027d73a81a0334b"
+  },
+  "123": {
+    "reference": "Kochanek et al. 1997",
+    "url": "https://arxiv.org/html/astro-ph/9611221v1",
+    "figure": "S2.F2",
+    "panel_label": "SBS0909+532",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Original best-seeing I-band contours; last residual panel excluded.",
+    "sha256": "007c4c05adcb3b5c0f3e7489ce7d1ddfc66178d84fef5ce79be0256d03c8da73"
+  },
+  "128": {
+    "reference": "Inada et al. 2003",
+    "url": "https://arxiv.org/html/astro-ph/0304377v1",
+    "figure": "S5.F3",
+    "panel_label": "SDSSJ0924+0219",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Upper left original MagIC i-band observation.",
+    "sha256": "91c40ec180712bb5876baceb5066a7ab0046437cac550b9ddb1c0c9727b91f53"
+  },
+  "133": {
+    "reference": "McGreer et al. 2010",
+    "url": "https://arxiv.org/html/1002.3832v2",
+    "figure": "S2.F3",
+    "panel_label": "SDSSJ0946+1835",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Upper left original ARC SPIcam i-band cutout; fitted components excluded.",
+    "sha256": "8d7971d41b6dadda601e312257cea1d4645ee6dbe799e549ff675a0044fe6ee8"
+  },
+  "140": {
+    "reference": "Jaelani et al. 2021",
+    "url": "https://arxiv.org/html/2006.16584v3",
+    "figure": "S2.F1",
+    "panel_label": "CXCOJ1002+0203",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. COSMOS ACS F814W observation of J1002, third row rightmost panel; residual row excluded.",
+    "sha256": "e9e5176b2ffb53fe98bbf6f87c9e71d66cb95376499c2d0eab003f4a6ca44e76"
+  },
+  "208": {
+    "reference": "Jaelani et al. 2021",
+    "url": "https://arxiv.org/html/2006.16584v3",
+    "figure": "S2.F1",
+    "panel_label": "J1359+0129",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. J1359+0129 named HSC gri observed colour panel, fifth row; residual sixth row excluded.",
+    "sha256": "28e670f2e4613e30ca9f30f4afbb4a650d5589a7a97dc5be7476a5272b8e1a1a"
+  },
+  "148": {
+    "reference": "Pindor et al. 2006",
+    "url": "https://arxiv.org/html/astro-ph/0509296v1",
+    "figure": "A1.F4",
+    "panel_label": "SDSSJ1021+4913",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. NIRC K-prime observed image, components A and B identified in the caption and plot.",
+    "sha256": "62054f4c1b427f360c3b1e3ba9f54bd29ae928f437de22c50540d1f8a064c3e1"
+  },
+  "151": {
+    "reference": "Inada et al. 2006",
+    "url": "https://arxiv.org/html/astro-ph/0611275v1",
+    "figure": "S2.F1",
+    "panel_label": "SDSSJ1029+2623",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Observed SDSS gri field with lensed components marked; model diagram excluded.",
+    "sha256": "3453a232317f02387421e42485d703104b2f710ff3f8e6661f54a77bbdbde597"
+  },
+  "172": {
+    "reference": "Pindor et al. 2004",
+    "url": "https://arxiv.org/html/astro-ph/0312176v1",
+    "figure": "S3.F4",
+    "panel_label": "SDSSJ1155+6346",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. NIRC K-prime observation with observed-flux contours, not lens-model contours.",
+    "sha256": "1e5ed00dbcd1eaa6b530141db30e67027e30c2d9dae1d4b063d37ed47e14aa4f"
+  },
+  "201": {
+    "reference": "Morokuma et al. 2007",
+    "url": "https://arxiv.org/html/astro-ph/0609695v1",
+    "figure": "S6.F2",
+    "panel_label": "SDSSJ1332+0347",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Top left original Subaru Suprime-Cam i-band observation.",
+    "sha256": "9109a05997a1ef808f5320435c987d360a05fed651de300ff7462021424289cf"
+  },
+  "173": {
+    "reference": "Myers et al. 1999",
+    "url": "https://arxiv.org/html/astro-ph/9905043v1",
+    "figure": "S5.F1",
+    "panel_label": "B1152+199",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Observed VLA 8.46 GHz radio image of B1152+199.",
+    "sha256": "3f7733ba1b307da6c36d735f176f2bf415f33cb59ef1dde1854dd6e77878441a"
+  },
+  "210": {
+    "reference": "Myers et al. 1999",
+    "url": "https://arxiv.org/html/astro-ph/9905043v1",
+    "figure": "S5.F6",
+    "panel_label": "B1359+154",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Observed VLA 8.46 GHz image of B1359+154, not lens model.",
+    "sha256": "61dcc5daa443e6ffbdde6012f6b433a7ac4a63bc190fe09bb3b90b5c0f0027b0"
+  },
+  "217": {
+    "reference": "Agnello et al. 2018",
+    "url": "https://arxiv.org/html/1702.03942v1",
+    "figure": "S1.F1",
+    "panel_label": "SDSSJ1433+6007",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. ALFOSC VRi observed colour composite.",
+    "sha256": "d4e255bc564175b531b9fbad02f42bb15e94eaa2eeb96927efe8a3bd85e05b31"
+  },
+  "249": {
+    "reference": "Winn et al. 2002",
+    "url": "https://arxiv.org/html/astro-ph/0104092v1",
+    "figure": "S4.F1",
+    "panel_label": "PMNJ1632-0033",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Central VLA 8.5 GHz full-system image; outer VLBA single-component insets excluded.",
+    "sha256": "1660cebec88411d1b91ab7936f77ff299d99306252acdaa2d6b024ca3b417358"
+  },
+  "252": {
+    "reference": "Wang et al. 2017",
+    "url": "https://arxiv.org/html/1703.07495v1",
+    "figure": "S4.F3",
+    "panel_label": "SDSSJ1640+1932",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. First panel original CFHT r-band image; light model and subtracted image excluded.",
+    "sha256": "e03e523add96302b7292e18d544fd1ebd808a71407cd9d135ecd5dff3e5dad7b"
+  },
+  "271": {
+    "reference": "Morgan et al. 2004",
+    "url": "https://arxiv.org/html/astro-ph/0312478v1",
+    "figure": "S9.F3",
+    "panel_label": "WFIJ2026-4536",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Panel a original drizzled HST F160W observation.",
+    "sha256": "5ce107717305ad21db4148818c18f9b99a327bb5e4df75384f2f32b994363bd2"
+  },
+  "272": {
+    "reference": "Morgan et al. 2004",
+    "url": "https://arxiv.org/html/astro-ph/0312478v1",
+    "figure": "S9.F4",
+    "panel_label": "WFIJ2033-4723",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Panel a original Magellan i-band observation.",
+    "sha256": "c58802b8f3c8e4b232f944d4e2109c936a39b82966e67725128c17cc91a2ffb3"
+  },
+  "39": {
+    "reference": "Inada et al. 2005",
+    "url": "https://arxiv.org/html/astro-ph/0506631v1",
+    "figure": "S4.F9",
+    "panel_label": "SDSSJ0246-0825",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Original HST NICMOS F160W, left panel.",
+    "sha256": "db0f717ec5964dbf99d92b8c2fa6521ec8370e6852eff1e84ea1f2074e8a4c04"
+  },
+  "62": {
+    "reference": "Lin et al. 2017",
+    "url": "https://arxiv.org/html/1702.00072v1",
+    "figure": "S2.F1",
+    "panel_label": "DESJ0408-5354",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Top-left DES gri discovery colour observation.",
+    "sha256": "e7178fb93b4aa551358d343cf4e506799f39df93d7757a632a9ff473238ae196"
+  },
+  "68": {
+    "reference": "Wisotzki et al. 2002",
+    "url": "https://arxiv.org/html/astro-ph/0207062v1",
+    "figure": "S2.F3",
+    "panel_label": "HE0435-1223",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Unprocessed Magellan colour observation; deconvolved right image excluded.",
+    "sha256": "2fb03f07fc1fdb081595d2b6cdb73c27db75e32125e94b34f05d79e93fec3eb7"
+  },
+  "87": {
+    "reference": "York et al. 2005",
+    "url": "https://arxiv.org/html/astro-ph/0505093v1",
+    "figure": "S3.F9",
+    "panel_label": "B0631+519",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Original NICMOS F160W upper-right panel; galaxy-subtracted lower row excluded.",
+    "sha256": "5ae080b98580d85d722e62fdaab3a749239584f0b2bf218d428f716b17868461"
+  },
+  "142": {
+    "reference": "Lacy et al. 2002",
+    "url": "https://arxiv.org/html/astro-ph/0203065v1",
+    "figure": "S2.F4",
+    "panel_label": "FIRSTJ1004+1229",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Original I-band image, top middle; estimated lens-only top-right panel excluded.",
+    "sha256": "2a6b5c185c406f9625e1773a43367254f5dd393917bce6b4d97aaa802d4b3367"
+  },
+  "152": {
+    "reference": "Xanthopoulos et al. 1998",
+    "url": "https://arxiv.org/html/astro-ph/9802014v1",
+    "figure": "S2.F3",
+    "panel_label": "B1030+074",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Observed HST I-band greyscale image, same observation as I-band contour panel.",
+    "sha256": "c59b3bc857517a488e49740a2cab6673f5e1ea3dc93012b127121c211106b380"
+  },
+  "155": {
+    "reference": "Glikman et al. 2018",
+    "url": "https://arxiv.org/html/1807.05434v1",
+    "figure": "S2.F2",
+    "panel_label": "W2MJ1042+1641",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Visit 1 observed F125W/F160W colour composite; first column before morphological modeling.",
+    "sha256": "7e0836d2b684047a6caa41f3dc40d993290447fae7ad81fbc68a074ba2d7de77"
+  },
+  "166": {
+    "reference": "Sluse et al. 2003",
+    "url": "https://arxiv.org/html/astro-ph/0307345v1",
+    "figure": "S2.F1",
+    "panel_label": "RXJ1131-1231",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Panel a: original EFOSC2 V direct image, not deconvolution or subtraction.",
+    "sha256": "0ac48e61f9884b6f15813fb2011287267024bf5e97e4450f8a027e6553fa9e7e"
+  },
+  "185": {
+    "reference": "Kayo et al. 2007",
+    "url": "https://arxiv.org/html/0707.2651v1",
+    "figure": "S5.F3",
+    "panel_label": "SDSSJ1251+2935",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Upper-left OPTIC I original observation.",
+    "sha256": "945cf3e6168f06169b61d35d70e600d8e3b8bb8cec754e04b3de9b19004f4131"
+  },
+  "194": {
+    "reference": "Ofek et al. 2007",
+    "url": "https://arxiv.org/html/0709.0525v1",
+    "figure": "S3.F4",
+    "panel_label": "SDSSJ1313+5151",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Upper-right original I-band frame.",
+    "sha256": "83eacceeef6c06912df5da99bfedecf3a85c66552d492ce0f1b40caafa0ff258"
+  },
+  "200": {
+    "reference": "Oguri et al. 2008",
+    "url": "https://arxiv.org/html/0809.0913v2",
+    "figure": "S2.F3",
+    "panel_label": "SDSSJ1330+1810",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Top row original Magellan Ks observation.",
+    "sha256": "30644b01c2fa6788d4e06d0c3ff654709ad3f666bca0f382d450914dc0228e4a"
+  },
+  "202": {
+    "reference": "Rusu et al. 2011",
+    "url": "https://arxiv.org/html/1107.1280v1",
+    "figure": "S7.F4",
+    "panel_label": "SDSSJ1334+3315",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Original Subaru AO K-prime lower-left image.",
+    "sha256": "e98b29a639d11ac3856676852d9cda75283c25f2c0a03e225d78059d0313f9d8"
+  },
+  "288": {
+    "reference": "Castander et al. 2006",
+    "url": "https://arxiv.org/html/astro-ph/0611330v1",
+    "figure": "S2.F2",
+    "panel_label": "CY2201-3201",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Original Magellan MagIC i-band image; components A/B and edge-on galaxy G are labelled.",
+    "sha256": "ecd50f1553c9ee1628816fa2106379d9609eb701bbd783bbb2f71eb182a75248"
+  },
+  "294": {
+    "reference": "Chen et al. 2022",
+    "url": "https://arxiv.org/html/2108.01672v2",
+    "figure": "S3.F8",
+    "panel_label": "J221849.86-332243.6",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Right named J2218-3322 HST WFC3 colour observation.",
+    "sha256": "3885a01e19ea4fdcc7a68f6c5f3c2f4e1ee05bb61a555d30dc4bab7c9c2155c9"
+  },
+  "306": {
+    "reference": "Ostrovski et al. 2017",
+    "url": "https://arxiv.org/html/1607.01391v2",
+    "figure": "S2.F2",
+    "panel_label": "VDESJ2325-5229",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Left original DES gri colour composite; model and residual excluded.",
+    "sha256": "23c66a25c43ae613736eacbbbaea6bc33700035b5dc9c65aeac428fc8376474a"
+  },
+  "309": {
+    "reference": "Jackson et al. 2008",
+    "url": "https://arxiv.org/html/0803.4406v1",
+    "figure": "S3.F3",
+    "panel_label": "ULASJ2343-0050",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. First original R-band zoom; following model/residual panels excluded.",
+    "sha256": "e44026b48b8d1949d6ee4f71a5214e91cf5a34007c64da7cb7e19187e59a0114"
+  },
+  "315": {
+    "reference": "Rusu et al. 2013",
+    "url": "https://arxiv.org/html/1206.2011v2",
+    "figure": "S8.F4",
+    "panel_label": "SDSSJ1320+1644*",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Upper-right observed Subaru colour close-up, labelled components A/B/G1-G5.",
+    "sha256": "a98e0bc5f31cd7bc37872efbe9b64c4a47123be969bad93aec46cda285557836"
+  },
+  "321": {
+    "reference": "Tubin-Arenas et al. 2023",
+    "url": "https://arxiv.org/html/2304.02499v2",
+    "figure": "S2.F2",
+    "panel_label": "eRASS1 J050129.5-073309",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Top original LS DR10 colour image; residual and DES difference images excluded.",
+    "sha256": "096fdeccc083ab6641424076c2132f0c657a16652722bac42d2d7711db4d6e61"
+  },
+  "298": {
+    "reference": "Williams et al. 2018",
+    "url": "https://arxiv.org/html/1706.01506v1",
+    "figure": "S2.F1",
+    "panel_label": "J2257+2349",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Right column OSIRIS observed image of SDSS J2257+2349. Published model critical/caustic overlays retained, but background is observed data.",
+    "sha256": "57fa895bb049a81b45a094e157524f6162b2ea2538c9dc30c5160edaef55a763"
+  },
+  "135": {
+    "reference": "Schechter et al. 1998",
+    "url": "https://arxiv.org/html/astro-ph/9710120v1",
+    "figure": "Figure 1a",
+    "panel_label": "FBQ0951+2635",
+    "provenance": "Primary PDF title, target identity, figure caption and observed panel visually checked. Original observation; residual panels b-d excluded.",
+    "sha256": "81d261cf70f0f25d9e601b9b5728dd7d57339b89fa4621ae48b6c8f1cc27fa6a"
+  },
+  "143": {
+    "reference": "Inada et al. 2003",
+    "url": "https://arxiv.org/html/astro-ph/0312427v2",
+    "figure": "Figure 2 inset",
+    "panel_label": "SDSSJ1004+4112",
+    "provenance": "Primary PDF title, target identity, figure caption and observed panel visually checked. Subaru gri colour observation, enlarged field includes components A-D and G.",
+    "sha256": "a35dfa4ea7e106e8251612e74233bbea88a8e6d08b5c8111783ea8ff183afe2d"
+  },
+  "250": {
+    "reference": "Morgan et al. 2001",
+    "url": "https://arxiv.org/html/astro-ph/0011239v1",
+    "figure": "Figure 2 upper left",
+    "panel_label": "FBQ1633+3134",
+    "provenance": "Primary PDF title, target identity, figure caption and observed panel visually checked. WIYN I-band observed image before PSF subtraction.",
+    "sha256": "2656d3c95b513bd8d78468e6177aa4227ae0c022f68e86c79f8ac02ea07a8298"
+  },
+  "295": {
+    "reference": "Dahle et al. 2013",
+    "url": "https://arxiv.org/html/1211.1091v1",
+    "figure": "Figure 1",
+    "panel_label": "SDSSJ2222+2745",
+    "provenance": "Primary PDF title, target identity, figure caption and observed panel visually checked. NOT MOSCA gri observed colour composite.",
+    "sha256": "5e4722bc5c70e3dbc496fd0708a98440e3f73f113f3b0c5275c34f8ad7ca3416"
+  },
+  "316": {
+    "reference": "Oguri et al. 2004",
+    "url": "https://arxiv.org/html/astro-ph/0311169v2",
+    "figure": "Figure 2 left",
+    "panel_label": "SDSSJ1335+0118",
+    "provenance": "Primary PDF title, target identity, figure caption and observed panel visually checked. Original Subaru Suprime-Cam i-band image, left panel.",
+    "sha256": "cec4d517c7112c63f14bd9b419ef7dfdb16f21741255f298512c8c03335707fe"
+  },
+  "317": {
+    "reference": "Fischer et al. 1998",
+    "url": "https://arxiv.org/html/astro-ph/9806273v1",
+    "figure": "Figure 1 top",
+    "panel_label": "HST1411+5211",
+    "provenance": "Primary PDF title, target identity, figure caption and observed panel visually checked. Upper combined HST observation; lower galaxy-subtracted image excluded.",
+    "sha256": "319a04068039b3cbd816a91dab5ecc4b84a54851b20590e4fb81d25b691f997e"
+  },
+  "35": {
+    "reference": "Wisotzki et al. 1999",
+    "url": "https://arxiv.org/html/astro-ph/9907227v1",
+    "figure": "Figure 1 K panel",
+    "panel_label": "HE0230-2130",
+    "provenance": "Primary PDF title, target identity, figure caption and observed panel visually checked. Original K-band observation. Astrometric diagram and residual panels excluded.",
+    "sha256": "a6c5fbdf8ae9b440d89189d1a41a2485b43e9050ff7ca22e8353936f0e21a680"
+  },
+  "161": {
+    "reference": "Blackburne et al. 2008",
+    "url": "https://arxiv.org/html/0710.3593v1",
+    "figure": "S3.F2",
+    "panel_label": "HE1113-0641",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Upper-row observed HST I-band frame; lower residual row excluded.",
+    "sha256": "f49af108d8e4dc1f17c27dd926e58fe4502e7c75ee16bef2aa5b81a2d09a7587"
+  },
+  "196": {
+    "reference": "Shu et al. 2019",
+    "url": "https://arxiv.org/html/1909.02010v2",
+    "figure": "S5.F11",
+    "panel_label": "SDSSJ1326+4806",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Observed Pan-STARRS colour image of SDSS J1326+4806; image A/B and BCG identified in caption.",
+    "sha256": "3cde5a0c952c177abbe23ae0dacacc6ae086088a760cb3ab56c53e7e466f55c6"
+  },
+  "245": {
+    "reference": "Sergeyev et al. 2016",
+    "url": "https://arxiv.org/html/1511.07330v1",
+    "figure": "S2.F2",
+    "panel_label": "SDSSJ1617+3827",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Middle row named SDSS J1617+3827, left observed MAO r-band frame; right residual excluded.",
+    "sha256": "199dbad75398694e512289d3949eb713f884444a6ea0f5c014eed7bdc6c64448"
+  },
+  "118": {
+    "reference": "Krone-Martins et al. 2020",
+    "url": "https://arxiv.org/html/1912.08977v1",
+    "figure": "S4.F1",
+    "panel_label": "J0907+0003",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Full top-right named PS1 DR2 observational panel with scale and band label.",
+    "sha256": "867246bf762ada4605bda1c887a7c347fdb45424cba325b22ecb94b63392886d"
+  },
+  "310": {
+    "reference": "Schechter et al. 2017",
+    "url": "https://arxiv.org/html/1607.07476v2",
+    "figure": "S7.F2",
+    "panel_label": "WISE 2344-3056",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Left original 60 s IMACS i-band exposure, excluding point-source-subtracted right panel.",
+    "sha256": "7a824096bfd68c45bfef7c8086ba7ff0d4edcf9aa9afd3338b82050acf4a69fe"
+  },
+  "299": {
+    "reference": "Schechter et al. 2017",
+    "url": "https://arxiv.org/html/1607.07476v2",
+    "figure": "S7.F4",
+    "panel_label": "WISE 2304-2214",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Left original 60 s Sloan i exposure; subtracted and galaxy panels excluded.",
+    "sha256": "4d82f14e132f5a7b8185e130878c58b870af73fc660d4e549838a730003576de"
+  },
+  "328": {
+    "reference": "Shu & Li 2025",
+    "url": "https://arxiv.org/html/2505.16158v1",
+    "figure": "A1.F11",
+    "panel_label": "HSC J1215−0058",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Named HSC observed colour cutout beside DESI spectrum; exact full coordinate label checked.",
+    "sha256": "95c1366a0a00c924a69d17d620a62953c095d4eb0a3930cfd4e96223de6914f7"
+  },
+  "329": {
+    "reference": "Shu & Li 2025",
+    "url": "https://arxiv.org/html/2505.16158v1",
+    "figure": "A1.F11",
+    "panel_label": "HSC J1220+0112",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Named HSC observed colour cutout beside DESI spectrum; exact full coordinate label checked.",
+    "sha256": "a013c9f71a0e89e0894899464ba3922a8be7af2c13fbc4e2884b83b2bd5bcab4"
+  },
+  "230": {
+    "reference": "Jackson et al. 2012",
+    "url": "https://arxiv.org/html/1109.4325v1",
+    "figure": "S2.F1",
+    "panel_label": "ULASJ1527+0141",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. UKIDSS K-band (last column) observed cutout; unique full-coordinate figure filename and HTML row label checked.",
+    "sha256": "62762dd05364bd3596362b33989f07b74388ba01117fcbe446f9beae51c55a84"
+  },
+  "231": {
+    "reference": "Jackson et al. 2012",
+    "url": "https://arxiv.org/html/1109.4325v1",
+    "figure": "S2.F1",
+    "panel_label": "ULASJ1529+1038",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. UKIDSS K-band (last column) observed cutout; unique full-coordinate figure filename and HTML row label checked.",
+    "sha256": "b5006c37707c52e852f8aef0ec86577e3d3a9be195ba7d246d0ec31c71f71c4e"
+  },
+  "26": {
+    "reference": "Morgan et al. 1999",
+    "url": "https://arxiv.org/html/astro-ph/9906173v1",
+    "figure": "Figure 2a",
+    "panel_label": "QJ0158-4325",
+    "provenance": "Primary PDF title, target identity, figure caption and observed panel visually checked. Original summed R-band LCO observation, upper left.",
+    "sha256": "79b598310d83a1dc1d9e104e6f7091fa37d3e9133a5242f59f5c2bd246dd3da3"
+  },
+  "253": {
+    "reference": "Morgan et al. 2003",
+    "url": "https://arxiv.org/html/astro-ph/0305036v1",
+    "figure": "Figure 2a",
+    "panel_label": "SDSSJ1650+4251",
+    "provenance": "Primary PDF title, target identity, figure caption and observed panel visually checked. Original stacked WIYN I-band observation, upper left.",
+    "sha256": "6ae86612efee03021c0b6ca59342a609d90701e3e0445cb803219dcb187ff96f"
+  },
+  "63": {
+    "reference": "Hewitt et al. 1992",
+    "url": "https://ui.adsabs.harvard.edu/abs/1992AJ....104..968H/abstract",
+    "figure": "Figure 4h",
+    "panel_label": "MG0414+0534",
+    "provenance": "Primary PDF title, target identity, figure caption and observed panel visually checked. Panel h is published I-band observation of MG0414+0534, not a model.",
+    "sha256": "ca532822ba8ff1bc68c27a18e5b384c12327081889ce0ee18eb9bee9dae6fdf5"
+  },
+  "91": {
+    "reference": "Jackson et al. 1998",
+    "url": "https://ui.adsabs.harvard.edu/abs/1998MNRAS.296..483J/abstract",
+    "figure": "Figure 2",
+    "panel_label": "B0712+472",
+    "provenance": "Primary PDF title, target identity, figure caption and observed panel visually checked. HST 814 nm observed image with observed MERLIN contours.",
+    "sha256": "dfe326bf9729c279a13a823a39e98d49dd1ba953ff2ff4892c9c082f332d6029"
+  },
+  "122": {
+    "reference": "Bade et al. 1997",
+    "url": "https://ui.adsabs.harvard.edu/abs/1997A&A...317L..13B/abstract",
+    "figure": "Figure 2 lower right",
+    "panel_label": "RXJ0911.4+0551",
+    "provenance": "Primary PDF title, target identity, figure caption and observed panel visually checked. Enlarged observed R-band image. Brighter western quasar resolves into a double.",
+    "sha256": "bf99bd707acb5b2f57834b311b32bb8b1105089cb935745ac72f8a65b07d8b90"
+  },
+  "146": {
+    "reference": "Hewett et al. 1994",
+    "url": "https://ui.adsabs.harvard.edu/abs/1994AJ....108.1534H/abstract",
+    "figure": "Figure 1",
+    "panel_label": "Q1009-0252",
+    "provenance": "Primary PDF title, target identity, figure caption and observed panel visually checked. Observed K-band contours, not fitted image positions.",
+    "sha256": "4f5ab8a5334b8920b9503642595220359a783ac9c8c53a90ba81c540c296fe99"
+  },
+  "159": {
+    "reference": "Wisotzki et al. 1993",
+    "url": "https://ui.adsabs.harvard.edu/abs/1993A&A...278L..15W/abstract",
+    "figure": "Figure 2 left",
+    "panel_label": "HE1104-1805",
+    "provenance": "Primary PDF title, target identity, figure caption and observed panel visually checked. Observed B-band contours. Right panel is PSF residual and excluded.",
+    "sha256": "7d0ffab363974abc99927f8c4a08c6ec4c968901b95b26018f08f432842ec001"
+  },
+  "216": {
+    "reference": "Patnaik et al. 1992",
+    "url": "https://ui.adsabs.harvard.edu/abs/1992MNRAS.259P...1P/abstract",
+    "figure": "Figure 1",
+    "panel_label": "B1422+231",
+    "provenance": "Primary PDF title, target identity, figure caption and observed panel visually checked. Observed VLA 8.4 GHz map.",
+    "sha256": "c4cddef5c50d68317f8a507d7fc8b27b3a33ef76050615e90b410c767c2d2339"
+  },
+  "226": {
+    "reference": "Chavushyan et al. 1997",
+    "url": "https://ui.adsabs.harvard.edu/abs/1997A%26A...318L..67C/abstract",
+    "figure": "Figure 1",
+    "panel_label": "SBS1520+530",
+    "provenance": "Primary PDF title, target identity, figure caption and observed panel visually checked. Published B-band observed finding image includes components A/B and north direction.",
+    "sha256": "a0a2bc150ef0528815e4ff227e033e2655a1a9df39129ada27243a20fafadc4c"
+  },
+  "242": {
+    "reference": "Myers et al. 1995",
+    "url": "https://ui.adsabs.harvard.edu/abs/1995ApJ...447L...5M/abstract",
+    "figure": "Figure 1a",
+    "panel_label": "B1608+656",
+    "provenance": "Primary PDF title, target identity, figure caption and observed panel visually checked. Observed VLA 8.4 GHz image, not lens-model image.",
+    "sha256": "46c5e18b9704e6fc14347e85e6ebb365605fe72bb77e4019dda220c902ee16d4"
+  },
+  "314": {
+    "reference": "Magain et al. 1992",
+    "url": "https://ui.adsabs.harvard.edu/abs/1992A%26A...253L..13M/abstract",
+    "figure": "Figure 1 upper right",
+    "panel_label": "Q1208+1011",
+    "provenance": "Primary PDF title, target identity, figure caption and observed panel visually checked. Observed Q1208+1011 R-band contours. Comparison star and residual panels excluded.",
+    "sha256": "74e45c496d64e5fbf9d45f1bd7d737f07f7f8d29535baf397c2c705107f37f58"
+  },
+  "319": {
+    "reference": "Augusto et al. 2001",
+    "url": "https://ui.adsabs.harvard.edu/abs/2001MNRAS.326.1007A/abstract",
+    "figure": "Figure 1",
+    "panel_label": "B2114+022*",
+    "provenance": "Primary PDF title, target identity, figure caption and observed panel visually checked. Observed MERLIN 5 GHz radio map of B2114+022.",
+    "sha256": "f689d816d0b895bc9cb82b20e68910eab12df18fb5e07af96c016e0d5762d983"
+  },
+  "104": {
+    "reference": "Jackson et al. 2009",
+    "url": "https://ui.adsabs.harvard.edu/abs/2009MNRAS.398.1423J/abstract",
+    "figure": "Figure 1 lower left",
+    "panel_label": "ULASJ0820+0812",
+    "provenance": "Primary PDF title, target identity, figure caption and observed panel visually checked. Observed UKIDSS H-band cutout labelled 082016+081216.",
+    "sha256": "8f35ebeb4531523fca8068e07dde9213653cd13165f3392845a695f30ad60d49"
+  },
+  "105": {
+    "reference": "Hagen & Reimers 2000",
+    "url": "https://ui.adsabs.harvard.edu/abs/2000A&A...357L..29H/abstract",
+    "figure": "Figure 1",
+    "panel_label": "HS0818+1227",
+    "provenance": "Primary PDF title, target identity, figure caption and observed panel visually checked. Observed R-band image of HS0818+1227 with components A and B marked.",
+    "sha256": "aec859f862adcbc113d1ed4b90b31bbd8dfaa49700f01f30fa50b370dab0e9f9"
+  },
+  "239": {
+    "reference": "Jackson et al. 1995",
+    "url": "https://ui.adsabs.harvard.edu/abs/1995MNRAS.274L..25J/abstract",
+    "figure": "Figure 3",
+    "panel_label": "B1600+434",
+    "provenance": "Primary PDF title, target identity, figure caption and observed panel visually checked. Observed optical R-band image in 0.6 arcsecond seeing.",
+    "sha256": "001c81446162bd31694dc4a1ef93cb46e0ea5faf85bac25f8ed0710fb48cdd4f"
+  },
+  "286": {
+    "reference": "Wisotzki et al. 1996",
+    "url": "https://ui.adsabs.harvard.edu/abs/1996A&A...315L.405W/abstract",
+    "figure": "Figure 1",
+    "panel_label": "HE2149-2745",
+    "provenance": "Primary PDF title, target identity, figure caption and observed panel visually checked. Published B-band finding image; crosshair marks double quasar HE2149-2745.",
+    "sha256": "e040be13356bb24170770c3eb4bbb445512022eac8a1fd334af9a2e8cf350eca"
+  },
+  "147": {
+    "reference": "Claeskens et al. 1996",
+    "url": "https://articles.adsabs.harvard.edu/pdf/1996A%26A...305L...9C",
+    "figure": "Figure 1, lower-left R-band image",
+    "panel_label": "Q1017-207",
+    "provenance": "Primary PDF title, target identity, figure caption and observed panel visually checked. Original R-band SUSI image; PSF/model and residual panels excluded.",
+    "sha256": "5252559ea3f04187451d5b3d87a76419cfa8106eecd0fc0e016cd9809c394683"
+  },
+  "296": {
+    "reference": "Huchra et al. 1985",
+    "url": "https://articles.adsabs.harvard.edu/pdf/1985AJ.....90..691H",
+    "figure": "Figure 4",
+    "panel_label": "Q2237+0305",
+    "provenance": "Primary PDF title, target identity, figure caption and observed panel visually checked. Published discovery CCD observation (unresolved nucleus); 1985 AJ 90, 691, not 1984.",
+    "sha256": "cc52e3b60f501d1602f2cb5488ec53f6bd1e7fd5cfda8a157e1585c4847d82c3"
+  },
+  "281": {
+    "reference": "Hawkins et al. 1997",
+    "url": "https://ui.adsabs.harvard.edu/abs/1997MNRAS.291..811H/abstract",
+    "figure": "Figure 6",
+    "panel_label": "Q2138-431",
+    "provenance": "Primary PDF title, target identity, figure caption and observed panel visually checked. Published stacked photographic finding field centred on Q2138-431; preserved field because system is small.",
+    "sha256": "1dc0e7df5551bc634f47e8e0426dba18b01467e44d5a355e07259b7c3b2b0a15"
+  },
+  "44": {
+    "reference": "Ducourant et al. 2026",
+    "url": "https://arxiv.org/html/2603.12810v1",
+    "figure": "A4.F6",
+    "panel_label": "GRALJ0248+1913",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Named observed finding-chart panel in Figure 6; later catalogue paper, not discovery paper. Original image provenance is identified by the survey/band code in the panel.",
+    "sha256": "9e36400183dd507afc725e43a3454161548ee997970fbef101ac061209b6d225"
+  },
+  "165": {
+    "reference": "Ducourant et al. 2026",
+    "url": "https://arxiv.org/html/2603.12810v1",
+    "figure": "A4.F6",
+    "panel_label": "GraLJ1131-4419",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Named observed finding-chart panel in Figure 6; later catalogue paper, not discovery paper. Original image provenance is identified by the survey/band code in the panel.",
+    "sha256": "e266702dd53a3aab2237de9a5c2c8d52622ab71be83e3d5f7ea92ff9ce2320ec"
+  },
+  "254": {
+    "reference": "Ducourant et al. 2026",
+    "url": "https://arxiv.org/html/2603.12810v1",
+    "figure": "A4.F6",
+    "panel_label": "GraLJ1651-0417",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Named observed finding-chart panel in Figure 6; later catalogue paper, not discovery paper. Original image provenance is identified by the survey/band code in the panel.",
+    "sha256": "d445af6ffb01ce7f81bad188100762156b2067f5e289a350bd5897de27b87482"
+  },
+  "264": {
+    "reference": "Ducourant et al. 2026",
+    "url": "https://arxiv.org/html/2603.12810v1",
+    "figure": "A4.F6",
+    "panel_label": "B1938+666",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Named observed finding-chart panel in Figure 6; later catalogue paper, not discovery paper. Original image provenance is identified by the survey/band code in the panel.",
+    "sha256": "5ef9bb2b1f9f18ff98394f3e0cc5f3e1072034abd849e80dc8ff42486eb30716"
+  },
+  "215": {
+    "reference": "Ducourant et al. 2026",
+    "url": "https://arxiv.org/html/2603.12810v1",
+    "figure": "A4.F6",
+    "panel_label": "H1413+117",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Named observed finding-chart panel in Figure 6; later catalogue paper, not discovery paper. Original image provenance is identified by the survey/band code in the panel.",
+    "sha256": "50d2437065016f6a56a649bac5ceb9f94243dba2bb130907efdb6c5c7e2dc0b9"
+  },
+  "162": {
+    "reference": "Ducourant et al. 2026",
+    "url": "https://arxiv.org/html/2603.12810v1",
+    "figure": "A4.F6",
+    "panel_label": "PG1115+080",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Named observed finding-chart panel in Figure 6; later catalogue paper, not discovery paper. Original image provenance is identified by the survey/band code in the panel.",
+    "sha256": "2ceab77b601a98c63f3bd1cb781c70eaa141e4a0f22b0d85c670ceee65a04ef6"
+  },
+  "313": {
+    "reference": "Anguita et al. 2009",
+    "url": "https://arxiv.org/html/0907.4145v2",
+    "figure": "S2.F1",
+    "panel_label": "COSMOS5921+0638",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Right panel: HST ACS F814W observation.",
+    "sha256": "23424e1e80d5e5a0699bc98b1438aacfac4a123cd9c7eb761661cf39f7b5138f"
+  },
+  "170": {
+    "reference": "Chantry et al. 2010",
+    "url": "https://arxiv.org/html/1007.3142v2",
+    "figure": "S4.F1a",
+    "panel_label": "SDSSJ1138+0314",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. First column: combined original NICMOS data, before deconvolution. Deconvolved and residual panels excluded.",
+    "sha256": "9c6cce72e34102b8069930945afbd512a4ae2832237f8b05433f3aa0d7e8481c"
+  },
+  "179": {
+    "reference": "Chantry et al. 2010",
+    "url": "https://arxiv.org/html/1007.3142v2",
+    "figure": "S4.F1b",
+    "panel_label": "SDSSJ1226-0006",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. First column: combined original NICMOS data, before deconvolution. Deconvolved and residual panels excluded.",
+    "sha256": "c5c4304b5fc95924a684441f2d70bf7eb1a92b91e8b39e12bc0f0b0c765b54ea"
+  },
+  "320": {
+    "reference": "Chantry et al. 2010",
+    "url": "https://arxiv.org/html/1007.3142v2",
+    "figure": "S4.F1c",
+    "panel_label": "HS2209+1914",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. First column: combined original NICMOS data, before deconvolution. Deconvolved and residual panels excluded.",
+    "sha256": "fcbbcf6103f76803f803a296ddedc67e503ad48a6669c7749ff416fedc713e7f"
+  },
+  "304": {
+    "reference": "Rusin et al. 2001",
+    "url": "https://arxiv.org/html/astro-ph/0104399v2",
+    "figure": "S5.F1",
+    "panel_label": "B2319+051",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. VLA 8.4 GHz discovery image.",
+    "sha256": "dbc8ed96779f466777ab49d9774b3d66caca2fd9c17fc92f52b9b2064cc596db"
+  },
+  "108": {
+    "reference": "Irwin et al. 1998",
+    "url": "https://arxiv.org/html/astro-ph/9806171v1",
+    "figure": "S7.F3",
+    "panel_label": "APM08279+5255",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Panel (a): original observed contour image, excluding both residual panels. Source figure file is sideways as supplied by arXiv.",
+    "sha256": "a5c576be8fbe17a3af65f840b9d6f3038458bc9db313d1805133d9ea9dde09f4"
+  },
+  "20": {
+    "reference": "Lehar et al. 2000",
+    "url": "https://arxiv.org/html/astro-ph/9909072v2",
+    "figure": "Figure 1",
+    "panel_label": "Q0142-100",
+    "provenance": "Primary PDF title, target identity, figure caption and observed panel visually checked. HST F160W original observed panel; quasar-subtracted panel excluded.",
+    "sha256": "a0b92f108c29211967d4ca2c34ab9c7e0bebb8bedfc07e9d7acc0f828efc6cc5"
+  },
+  "137": {
+    "reference": "Lehar et al. 2000",
+    "url": "https://arxiv.org/html/astro-ph/9909072v2",
+    "figure": "Figure 1 (continued)",
+    "panel_label": "BRI0952-0115",
+    "provenance": "Primary PDF title, target identity, figure caption and observed panel visually checked. HST F160W H-band original observed panel; quasar-subtracted panel excluded.",
+    "sha256": "fc272a5871386252989e1f1693ced76f09c3a03f275d4aa0500b1504a2a88f73"
+  },
+  "102": {
+    "reference": "Jackson et al. 2024",
+    "url": "https://arxiv.org/html/2403.19357v2",
+    "figure": "S2.F2",
+    "panel_label": "SDSSJ0818+0601",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Named observational panel: VLA 6 GHz background with Pan-STARRS optical contours. No model or residual.",
+    "sha256": "5376025707698f14513b68854039fb554f52576aa5a94b1b2620250e8cccd978"
+  },
+  "293": {
+    "reference": "Jackson et al. 2024",
+    "url": "https://arxiv.org/html/2403.19357v2",
+    "figure": "S2.F2a",
+    "panel_label": "A2213-2652",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Named observational panel: VLA 6 GHz background with Pan-STARRS optical contours. No model or residual.",
+    "sha256": "81eb5cc7edf11468e0de586d4ddbd5effd9b1ed4b66f16aec9a197692dc265be"
+  },
+  "305": {
+    "reference": "Jackson et al. 2024",
+    "url": "https://arxiv.org/html/2403.19357v2",
+    "figure": "S2.F2a",
+    "panel_label": "PSS2322+1944",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Named observational panel: VLA 6 GHz background with Pan-STARRS optical contours. No model or residual.",
+    "sha256": "0dd7cda4f79f4f5e7367a9517f6b20d1bc920cc229a1125b1750630e094aee3f"
+  },
+  "307": {
+    "reference": "Jackson et al. 2024",
+    "url": "https://arxiv.org/html/2403.19357v2",
+    "figure": "S2.F2a",
+    "panel_label": "WISE 2329-1258",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Named observational panel: VLA 6 GHz background with Pan-STARRS optical contours. No model or residual.",
+    "sha256": "04337d69b24e52117a235ff0ef699269163b4e84ff6635b377f5d84e2e612140"
+  },
+  "149": {
+    "reference": "Deane et al. 2013",
+    "url": "https://arxiv.org/html/1307.6564v1",
+    "figure": "S2.F2",
+    "panel_label": "FSC10214+4724",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Observed HST F160W image with galaxy and arc retained; not the lens-subtracted F814W figure.",
+    "sha256": "a1b1041e301576bb56baaaa9753c682b436752a35f3bc13be4fd30d4a67725a1"
+  },
+  "138": {
+    "reference": "Fadely et al. 2010",
+    "url": "https://arxiv.org/html/0909.1807v2",
+    "figure": "S1.F2",
+    "panel_label": "Q0957+561",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Panel (a): combined F606W/F814W observation. Lens-subtracted panel (b) excluded.",
+    "sha256": "14b776154bd3f1c64b971b9d274f1e8d6ea8741e0dcba59e5c2896bbcd179878"
+  },
+  "207": {
+    "reference": "Millon et al. 2020",
+    "url": "https://arxiv.org/html/2002.05736v2",
+    "figure": "A1.F11",
+    "panel_label": "Q1355-2257",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Named inset showing observed stacked Euler R-band data for Q1355-2257.",
+    "sha256": "4af262daef6dd3160ff7dcf608339563f3aae5352fbeab83f59cda43be8a1bb7"
+  },
+  "287": {
+    "reference": "Agnello & Spiniello 2019",
+    "url": "https://arxiv.org/html/1805.11103v1",
+    "figure": "S3.F3",
+    "panel_label": "J2158-5812",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Named bottom-right J2158-5812 observed colour panel only.",
+    "sha256": "b1dc7c2ce2856eba42744a1c19033651082516195ffe298db97df33fbce4b161"
+  },
+  "71": {
+    "reference": "Dawes et al. 2023",
+    "url": "https://arxiv.org/abs/2208.06356",
+    "figure": "Published online candidate table, Grade C, spreadsheet row 12",
+    "panel_label": "DECALSJ0446-3102",
+    "provenance": "Image URL read from author spreadsheet, matched by coordinates [71.7182191758666, -31.037948969328] to catalogue within 0.1 arcsec. Paper explicitly links NeuraLens online candidate gallery. This is an online paper data image rather than a numbered print figure.",
+    "sha256": "fd88336d99554e3f0bb8bdd53f4389158fb0b25d633152e82990c2ce89364666"
+  },
+  "82": {
+    "reference": "Dawes et al. 2023",
+    "url": "https://arxiv.org/abs/2208.06356",
+    "figure": "Published online candidate table, Grade A, spreadsheet row 72",
+    "panel_label": "DECALSJ0602-4335",
+    "provenance": "Image URL read from author spreadsheet, matched by coordinates [90.566841368466, -43.59432725628] to catalogue within 0.1 arcsec. Paper explicitly links NeuraLens online candidate gallery. This is an online paper data image rather than a numbered print figure.",
+    "sha256": "0c716bc14ff15b9578bacccdb1e470e12e6f8cf977badd31da2e6bdd667b01a1"
+  },
+  "285": {
+    "reference": "Desira et al. 2022",
+    "url": "https://doi.org/10.1093/mnras/stab2960",
+    "figure": "Figure2",
+    "panel_label": "DESJ2150-4652",
+    "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Left DES gri observation; A/B and 2 arcsec scale retained. Publisher Figure 2 and caption checked in browser.",
+    "sha256": "6174eb6006739225c3d336a706e2d2cd3b9739eb1131dee477b2b3b23e795555"
+  }
+}

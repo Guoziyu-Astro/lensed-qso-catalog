@@ -1,6 +1,6 @@
 # Lensed QSO Catalogue
 
-A searchable catalogue of 343 lensed quasar records with survey cutouts, sortable columns, filters, and CSV/Excel downloads.
+A searchable catalogue of 343 lensed quasar records with survey cutouts, sortable columns, filters, and CSV downloads.
 
 ## Citation
 
@@ -17,7 +17,7 @@ Questions or feedback: Ziyu Guo, [zyguo@pmo.ac.cn](mailto:zyguo@pmo.ac.cn).
 
 Public site: https://guoziyu-astro.github.io/lensed-qso-catalog/
 
-The website is served from `site/`. Search, filtering, sorting and CSV export run in the browser; no backend or build dependencies are required. Excel is served directly as a static file.
+The website is served from `site/`. Search, filtering, sorting and CSV export run in the browser; no backend or build dependencies are required.
 
 To preview locally:
 
@@ -39,5 +39,7 @@ The workflow in `.github/workflows/pages.yml` publishes `site/` to GitHub Pages 
 - Colour bands are reprojected using their WCS, checked and registered against shared sources, and approximately matched in effective resolution before compositing. Filter mappings and per-band archive links are shown in the image dialog. Empty products, inadequate coverage, insufficient central contrast, unreliable registration and visually identified trails are excluded. This display selection is not a lens confirmation or a measured resolution ranking.
 - `site/data/selected_images.json` records archive URLs, datasets, filters, proposals, fields of view, WCS and checksums. `site/data/space_image_search.json` records per-target search decisions. Ground images remain archived, with their paths retained in replaced entries.
 - `site/data/hst_colour_search.json` records the colour-image decisions, source products, alignment checks and display mapping. Previously selected grayscale HST images remain archived as well.
-- Original workbook images and their provenance are in `site/data/images.json`. They may include published models or annotations.
+- The optional gallery now contains a verified publication observation for all 343 systems (2026-11-01): 153 previously missing images were added and 32 inherited screenshots were retraced or replaced. The main table still shows one preferred survey image per system.
+- Publication sources, figure identifiers and inspection notes are in `site/data/paper-provenance.json` and `site/data/images.json`. Two observations (IDs 71 and 82) come from the online candidate catalogue explicitly linked by Dawes et al. (2023), rather than numbered figures in the article. Some published observations retain contours or catalogue-position overlays. Model-only and residual panels are excluded from the publication-image selection.
+- The old HE0512-3329 screenshot (ID 76) showed a different target and has been replaced. The exact origin of the old screenshots for IDs 100 and 318 remained unresolved; both were replaced with correctly identified publication observations. Image citations identify the actual image source, which may differ from the catalogue discovery-reference field. This image audit does not independently validate all catalogue classifications or discovery references.
 - Source imagery remains subject to the respective surveys' and publications' terms. This repository does not grant additional rights to third-party material.
