@@ -1,0 +1,4642 @@
+{
+  "source_sha256": "e1b9eb0c36ff5ecef12bc57cd2dd54564727cdb4b97266860c12ef5eb6361437",
+  "records": {
+    "2": [
+      {
+        "path": "images/workbook/8e5c1060b42249fd31123295760385980ffd25c0b3a4a1d56b61ab39225c56a9.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E2",
+        "width": 267,
+        "height": 267,
+        "sha256": "8e5c1060b42249fd31123295760385980ffd25c0b3a4a1d56b61ab39225c56a9",
+        "source_member": "xl/media/image1.png",
+        "original_link": "NULL"
+      }
+    ],
+    "3": [
+      {
+        "path": "images/workbook/c9a4f1c6d1397f01cebcf4f537f01fdf5df8b542bc2016e76d9809d06cfd3169.png",
+        "source_column": "paper image",
+        "anchor_cell": "F3",
+        "width": 295,
+        "height": 295,
+        "sha256": "c9a4f1c6d1397f01cebcf4f537f01fdf5df8b542bc2016e76d9809d06cfd3169",
+        "source_member": "xl/media/image2.png",
+        "original_link": "NULL"
+      }
+    ],
+    "4": [
+      {
+        "path": "images/workbook/b52caec33d5806f47b19f849325ea7ae45f2a523a5583ec64f5ed96c2deb9583.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E4",
+        "width": 267,
+        "height": 267,
+        "sha256": "b52caec33d5806f47b19f849325ea7ae45f2a523a5583ec64f5ed96c2deb9583",
+        "source_member": "xl/media/image3.png",
+        "original_link": "NULL"
+      }
+    ],
+    "5": [
+      {
+        "path": "images/workbook/7242e3d376f885bd5461094a0469c411235764b4db30a13e9a4c2f620cf0cd4a.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E5",
+        "width": 267,
+        "height": 267,
+        "sha256": "7242e3d376f885bd5461094a0469c411235764b4db30a13e9a4c2f620cf0cd4a",
+        "source_member": "xl/media/image4.png",
+        "original_link": "NULL"
+      }
+    ],
+    "6": [
+      {
+        "path": "images/workbook/17208e6dd158f0b3663e8566b4211fde05a0bde62b3bd1fc6f3749b8d8c02f34.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E6",
+        "width": 267,
+        "height": 267,
+        "sha256": "17208e6dd158f0b3663e8566b4211fde05a0bde62b3bd1fc6f3749b8d8c02f34",
+        "source_member": "xl/media/image5.png",
+        "original_link": "NULL"
+      }
+    ],
+    "7": [
+      {
+        "path": "images/workbook/42edb4b9ec6a74cc9abdc34c8aaccb7c0fd85984f2b9d660aa4eeee664bbf801.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E7",
+        "width": 267,
+        "height": 267,
+        "sha256": "42edb4b9ec6a74cc9abdc34c8aaccb7c0fd85984f2b9d660aa4eeee664bbf801",
+        "source_member": "xl/media/image6.png",
+        "original_link": "NULL"
+      }
+    ],
+    "8": [
+      {
+        "path": "images/workbook/af53f9b6429b11840978d0b4c51e444bc13f7f290387e733c543329102e4b82d.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E8",
+        "width": 267,
+        "height": 267,
+        "sha256": "af53f9b6429b11840978d0b4c51e444bc13f7f290387e733c543329102e4b82d",
+        "source_member": "xl/media/image7.png",
+        "original_link": "NULL"
+      }
+    ],
+    "9": [
+      {
+        "path": "images/workbook/bce7a9fb317e9d41eaf055c3364a0143c10ac95452bce5d7d4f55a46fe405527.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E9",
+        "width": 267,
+        "height": 267,
+        "sha256": "bce7a9fb317e9d41eaf055c3364a0143c10ac95452bce5d7d4f55a46fe405527",
+        "source_member": "xl/media/image8.png",
+        "original_link": "NULL"
+      }
+    ],
+    "10": [
+      {
+        "path": "images/workbook/8e2665e38078b49a913ed24d764cb5d6af544696b9b7cfc49132271e97fe9412.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E10",
+        "width": 267,
+        "height": 267,
+        "sha256": "8e2665e38078b49a913ed24d764cb5d6af544696b9b7cfc49132271e97fe9412",
+        "source_member": "xl/media/image9.png",
+        "original_link": "NULL"
+      }
+    ],
+    "11": [
+      {
+        "path": "images/workbook/5e0ef0aa1171867e3df7803540e6c9969eae551d58a3b844c8177768aeb94074.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E11",
+        "width": 267,
+        "height": 267,
+        "sha256": "5e0ef0aa1171867e3df7803540e6c9969eae551d58a3b844c8177768aeb94074",
+        "source_member": "xl/media/image10.png",
+        "original_link": "NULL"
+      }
+    ],
+    "12": [
+      {
+        "path": "images/workbook/b7ee487688bb8a911f2d3da739487ca8a849383764a62459f3e099e1c885c2bb.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E12",
+        "width": 267,
+        "height": 267,
+        "sha256": "b7ee487688bb8a911f2d3da739487ca8a849383764a62459f3e099e1c885c2bb",
+        "source_member": "xl/media/image11.png",
+        "original_link": "NULL"
+      }
+    ],
+    "13": [
+      {
+        "path": "images/workbook/5ed1b3f357b4ead9e48cc5e581457185fbd8950a62f2249e5e0cf99acbc579c3.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E13",
+        "width": 267,
+        "height": 267,
+        "sha256": "5ed1b3f357b4ead9e48cc5e581457185fbd8950a62f2249e5e0cf99acbc579c3",
+        "source_member": "xl/media/image12.png",
+        "original_link": "NULL"
+      }
+    ],
+    "14": [
+      {
+        "path": "images/workbook/9033d9c3a4c8b7ccf4e3853045871fdba5867fc497697b594e252dc63f0883c5.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E14",
+        "width": 267,
+        "height": 267,
+        "sha256": "9033d9c3a4c8b7ccf4e3853045871fdba5867fc497697b594e252dc63f0883c5",
+        "source_member": "xl/media/image13.png",
+        "original_link": "NULL"
+      }
+    ],
+    "15": [
+      {
+        "path": "images/workbook/7ce1629c7aeaa2df38f3407be50df0133a13de48cea669524ebdc04251f9ec9c.png",
+        "source_column": "paper image",
+        "anchor_cell": "F15",
+        "width": 336,
+        "height": 336,
+        "sha256": "7ce1629c7aeaa2df38f3407be50df0133a13de48cea669524ebdc04251f9ec9c",
+        "source_member": "xl/media/image14.png",
+        "original_link": "NULL"
+      }
+    ],
+    "16": [
+      {
+        "path": "images/workbook/3dabbc3f664a1ddf4f4e4d9d079a461d0fe41f9635baef96c76c07c848d7f90a.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E16",
+        "width": 267,
+        "height": 267,
+        "sha256": "3dabbc3f664a1ddf4f4e4d9d079a461d0fe41f9635baef96c76c07c848d7f90a",
+        "source_member": "xl/media/image15.png",
+        "original_link": "NULL"
+      }
+    ],
+    "17": [
+      {
+        "path": "images/workbook/8b24e5f816e558b1ec68e60e32eb39263cffcc7f37d8d07d7e1a59a8b33f07bc.png",
+        "source_column": "HSC",
+        "anchor_cell": "D17",
+        "width": 267,
+        "height": 267,
+        "sha256": "8b24e5f816e558b1ec68e60e32eb39263cffcc7f37d8d07d7e1a59a8b33f07bc",
+        "source_member": "xl/media/image16.png",
+        "original_link": "NULL"
+      },
+      {
+        "path": "images/workbook/8e3a1db7fe301c6dd408bcf5c26fc488a6e58d08b3b250197db743a101962d70.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E17",
+        "width": 267,
+        "height": 267,
+        "sha256": "8e3a1db7fe301c6dd408bcf5c26fc488a6e58d08b3b250197db743a101962d70",
+        "source_member": "xl/media/image17.png",
+        "original_link": "NULL"
+      }
+    ],
+    "18": [
+      {
+        "path": "images/workbook/a151169899138afb441bf20a1e0f1cad0e31060691987b4b62b104d2c4323f3d.png",
+        "source_column": "paper image",
+        "anchor_cell": "F18",
+        "width": 542,
+        "height": 542,
+        "sha256": "a151169899138afb441bf20a1e0f1cad0e31060691987b4b62b104d2c4323f3d",
+        "source_member": "xl/media/image18.png",
+        "original_link": "NULL"
+      }
+    ],
+    "19": [
+      {
+        "path": "images/workbook/ab964d9db0dc1a553f4b601f76b0cc3772fdbd792467046b7657e7bf045b5d49.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E19",
+        "width": 267,
+        "height": 267,
+        "sha256": "ab964d9db0dc1a553f4b601f76b0cc3772fdbd792467046b7657e7bf045b5d49",
+        "source_member": "xl/media/image19.png",
+        "original_link": "NULL"
+      }
+    ],
+    "20": [
+      {
+        "path": "images/workbook/4d2efe910d5420f275621a2ec8d0316c42afa909229fbf02ba4c9a753cabc8f0.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E20",
+        "width": 267,
+        "height": 267,
+        "sha256": "4d2efe910d5420f275621a2ec8d0316c42afa909229fbf02ba4c9a753cabc8f0",
+        "source_member": "xl/media/image20.png",
+        "original_link": "NULL"
+      }
+    ],
+    "21": [
+      {
+        "path": "images/workbook/9e760e51410d1d21bd7f8ca2793b752f3e516990cddcfc1e672010f1ca08f5d0.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E21",
+        "width": 267,
+        "height": 267,
+        "sha256": "9e760e51410d1d21bd7f8ca2793b752f3e516990cddcfc1e672010f1ca08f5d0",
+        "source_member": "xl/media/image21.png",
+        "original_link": "NULL"
+      }
+    ],
+    "22": [
+      {
+        "path": "images/workbook/380eb48daafc158ea205ba93f44781da3d1d6b4b9a0feec145c1220a93464473.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E22",
+        "width": 267,
+        "height": 267,
+        "sha256": "380eb48daafc158ea205ba93f44781da3d1d6b4b9a0feec145c1220a93464473",
+        "source_member": "xl/media/image22.png",
+        "original_link": "NULL"
+      }
+    ],
+    "23": [
+      {
+        "path": "images/workbook/aef62fe7cb0ed24850b0c10d29123db8485d3929660f6ffe4ba32516c9d7b499.png",
+        "source_column": "paper image",
+        "anchor_cell": "F23",
+        "width": 525,
+        "height": 525,
+        "sha256": "aef62fe7cb0ed24850b0c10d29123db8485d3929660f6ffe4ba32516c9d7b499",
+        "source_member": "xl/media/image23.png",
+        "original_link": "NULL"
+      }
+    ],
+    "24": [
+      {
+        "path": "images/workbook/074fefd5d7c3ae139b217f6a02dec020c6b5e542f0bf6a1054d5e355697f511a.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E24",
+        "width": 267,
+        "height": 267,
+        "sha256": "074fefd5d7c3ae139b217f6a02dec020c6b5e542f0bf6a1054d5e355697f511a",
+        "source_member": "xl/media/image24.png",
+        "original_link": "NULL"
+      }
+    ],
+    "25": [
+      {
+        "path": "images/workbook/2fdf7736f9903a2d9093a248c023b981ef66a8873d835116b110a7e1ad63ef5b.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E25",
+        "width": 267,
+        "height": 267,
+        "sha256": "2fdf7736f9903a2d9093a248c023b981ef66a8873d835116b110a7e1ad63ef5b",
+        "source_member": "xl/media/image25.png",
+        "original_link": "NULL"
+      }
+    ],
+    "26": [
+      {
+        "path": "images/workbook/4f7e506e6dfab999513d121e443ddb5039348db6a6926e12ea6d70bfe905f951.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E26",
+        "width": 267,
+        "height": 267,
+        "sha256": "4f7e506e6dfab999513d121e443ddb5039348db6a6926e12ea6d70bfe905f951",
+        "source_member": "xl/media/image26.png",
+        "original_link": "NULL"
+      }
+    ],
+    "27": [
+      {
+        "path": "images/workbook/051933830fb7c49e357d84ba23d6987be49d4cde6bb1897afd9c2f546b0846c2.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E27",
+        "width": 267,
+        "height": 267,
+        "sha256": "051933830fb7c49e357d84ba23d6987be49d4cde6bb1897afd9c2f546b0846c2",
+        "source_member": "xl/media/image27.png",
+        "original_link": "NULL"
+      }
+    ],
+    "28": [
+      {
+        "path": "images/workbook/ceef44667c83d8c4a015ccb5655f984128b3e9a6e1ffa999f5e8c1cfa1c7f619.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E28",
+        "width": 267,
+        "height": 267,
+        "sha256": "ceef44667c83d8c4a015ccb5655f984128b3e9a6e1ffa999f5e8c1cfa1c7f619",
+        "source_member": "xl/media/image28.png",
+        "original_link": "NULL"
+      }
+    ],
+    "29": [
+      {
+        "path": "images/workbook/0d1c2049e3af693f85bfe3e08ee06052746e9e3357e72736527cb9a8a2ef0f95.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E29",
+        "width": 267,
+        "height": 267,
+        "sha256": "0d1c2049e3af693f85bfe3e08ee06052746e9e3357e72736527cb9a8a2ef0f95",
+        "source_member": "xl/media/image29.png",
+        "original_link": "NULL"
+      }
+    ],
+    "30": [
+      {
+        "path": "images/workbook/cf30ddd88993a970b585a3fecc3073d9ca369972caab7f096fc5f5611083b899.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E30",
+        "width": 267,
+        "height": 267,
+        "sha256": "cf30ddd88993a970b585a3fecc3073d9ca369972caab7f096fc5f5611083b899",
+        "source_member": "xl/media/image30.png",
+        "original_link": "NULL"
+      }
+    ],
+    "31": [
+      {
+        "path": "images/workbook/3c857878637ddfac8df578af92f064fdebf0498f0e45567564b687ae9064c6ac.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E31",
+        "width": 267,
+        "height": 267,
+        "sha256": "3c857878637ddfac8df578af92f064fdebf0498f0e45567564b687ae9064c6ac",
+        "source_member": "xl/media/image31.png",
+        "original_link": "NULL"
+      }
+    ],
+    "32": [
+      {
+        "path": "images/workbook/f5b6d9c674696ec7fea05a6de45d9a77919fd80da3150d1bec623a3fcfccd45a.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E32",
+        "width": 267,
+        "height": 267,
+        "sha256": "f5b6d9c674696ec7fea05a6de45d9a77919fd80da3150d1bec623a3fcfccd45a",
+        "source_member": "xl/media/image32.png",
+        "original_link": "NULL"
+      }
+    ],
+    "33": [
+      {
+        "path": "images/workbook/62a392363866f8d26299eec46e96168ae60757876f1e921e5ab12f8f967f577a.png",
+        "source_column": "paper image",
+        "anchor_cell": "F33",
+        "width": 849,
+        "height": 849,
+        "sha256": "62a392363866f8d26299eec46e96168ae60757876f1e921e5ab12f8f967f577a",
+        "source_member": "xl/media/image33.png",
+        "original_link": "NULL"
+      }
+    ],
+    "34": [
+      {
+        "path": "images/workbook/a832beeb6f8555ab7355101c4698fdc1acb728fc2c03a41762ea06e801ac2155.png",
+        "source_column": "paper image",
+        "anchor_cell": "F34",
+        "width": 295,
+        "height": 295,
+        "sha256": "a832beeb6f8555ab7355101c4698fdc1acb728fc2c03a41762ea06e801ac2155",
+        "source_member": "xl/media/image34.png",
+        "original_link": "NULL"
+      }
+    ],
+    "35": [
+      {
+        "path": "images/workbook/e9db7ecdb725410dfbd2abb1bbf83f34bf53eca749cec18b4d8c22a5645684aa.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E35",
+        "width": 267,
+        "height": 267,
+        "sha256": "e9db7ecdb725410dfbd2abb1bbf83f34bf53eca749cec18b4d8c22a5645684aa",
+        "source_member": "xl/media/image35.png",
+        "original_link": "NULL"
+      }
+    ],
+    "36": [
+      {
+        "path": "images/workbook/d8c1b573c02079e8110ec311705a93270d2f0e29e424d305b54484fd4d78ebdb.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E36",
+        "width": 267,
+        "height": 267,
+        "sha256": "d8c1b573c02079e8110ec311705a93270d2f0e29e424d305b54484fd4d78ebdb",
+        "source_member": "xl/media/image36.png",
+        "original_link": "NULL"
+      }
+    ],
+    "37": [
+      {
+        "path": "images/workbook/c92eef1eeaec858fa0f7970a3ccf0c98f3eeca8f4c62fac6ee4705b68f0677fe.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E37",
+        "width": 267,
+        "height": 267,
+        "sha256": "c92eef1eeaec858fa0f7970a3ccf0c98f3eeca8f4c62fac6ee4705b68f0677fe",
+        "source_member": "xl/media/image37.png",
+        "original_link": "NULL"
+      }
+    ],
+    "38": [
+      {
+        "path": "images/workbook/c256003f2cd4b6defb87943265697c3cf695b330905ff867c817074acadc6494.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E38",
+        "width": 267,
+        "height": 267,
+        "sha256": "c256003f2cd4b6defb87943265697c3cf695b330905ff867c817074acadc6494",
+        "source_member": "xl/media/image38.png",
+        "original_link": "NULL"
+      }
+    ],
+    "39": [
+      {
+        "path": "images/workbook/1b1214c0b973e8542105d6e9285e36527d7dc912ccd5b14c33ef6e15fee1d819.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E39",
+        "width": 267,
+        "height": 267,
+        "sha256": "1b1214c0b973e8542105d6e9285e36527d7dc912ccd5b14c33ef6e15fee1d819",
+        "source_member": "xl/media/image39.png",
+        "original_link": "NULL"
+      }
+    ],
+    "40": [
+      {
+        "path": "images/workbook/244b74f71e24b398101238462528c180cfde449266cb2fafad42ca262315ff0a.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E40",
+        "width": 267,
+        "height": 267,
+        "sha256": "244b74f71e24b398101238462528c180cfde449266cb2fafad42ca262315ff0a",
+        "source_member": "xl/media/image40.png",
+        "original_link": "NULL"
+      }
+    ],
+    "41": [
+      {
+        "path": "images/workbook/37c0b66ddb7574aa8d401ba8dee1d9dfa2a8fe744824a58d38b077a8b3253c05.png",
+        "source_column": "paper image",
+        "anchor_cell": "F41",
+        "width": 336,
+        "height": 336,
+        "sha256": "37c0b66ddb7574aa8d401ba8dee1d9dfa2a8fe744824a58d38b077a8b3253c05",
+        "source_member": "xl/media/image41.png",
+        "original_link": "NULL"
+      }
+    ],
+    "42": [
+      {
+        "path": "images/workbook/f0bc71e78eacb9285c366ce4f4f024fab2171980d34c547d453832bea46c980d.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E42",
+        "width": 267,
+        "height": 267,
+        "sha256": "f0bc71e78eacb9285c366ce4f4f024fab2171980d34c547d453832bea46c980d",
+        "source_member": "xl/media/image42.png",
+        "original_link": "NULL"
+      }
+    ],
+    "43": [
+      {
+        "path": "images/workbook/60991e2df92b0c757ecb1e12802fd7a594c747f01e212bf537ff2bf9864063bc.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E43",
+        "width": 267,
+        "height": 267,
+        "sha256": "60991e2df92b0c757ecb1e12802fd7a594c747f01e212bf537ff2bf9864063bc",
+        "source_member": "xl/media/image43.png",
+        "original_link": "NULL"
+      }
+    ],
+    "44": [
+      {
+        "path": "images/workbook/006c41f19ba392599bc277e9160c868cfd31e265e60bc7ef1fba68427dac40ab.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E44",
+        "width": 267,
+        "height": 267,
+        "sha256": "006c41f19ba392599bc277e9160c868cfd31e265e60bc7ef1fba68427dac40ab",
+        "source_member": "xl/media/image44.png",
+        "original_link": "NULL"
+      }
+    ],
+    "45": [
+      {
+        "path": "images/workbook/4d801cca15c753cd49ed8ce3bf360747b2b605c3b0dc817c04eac10f871849a1.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E45",
+        "width": 267,
+        "height": 267,
+        "sha256": "4d801cca15c753cd49ed8ce3bf360747b2b605c3b0dc817c04eac10f871849a1",
+        "source_member": "xl/media/image45.png",
+        "original_link": "NULL"
+      }
+    ],
+    "46": [
+      {
+        "path": "images/workbook/b32453a94d175abfd619b6ea269a8532c557839eab046132f7cc10c747b23cf8.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E46",
+        "width": 267,
+        "height": 267,
+        "sha256": "b32453a94d175abfd619b6ea269a8532c557839eab046132f7cc10c747b23cf8",
+        "source_member": "xl/media/image46.png",
+        "original_link": "NULL"
+      }
+    ],
+    "47": [
+      {
+        "path": "images/workbook/0384d90c32f419b5d6e19df29ea3f909c8633e72813b7722004a5e6cbaeb97aa.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E47",
+        "width": 267,
+        "height": 267,
+        "sha256": "0384d90c32f419b5d6e19df29ea3f909c8633e72813b7722004a5e6cbaeb97aa",
+        "source_member": "xl/media/image47.png",
+        "original_link": "NULL"
+      }
+    ],
+    "48": [
+      {
+        "path": "images/workbook/96de7e452d651f5a1e7aef249c2c4de7d65e166483a5a2e649d8ddc5896e16d7.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E48",
+        "width": 267,
+        "height": 267,
+        "sha256": "96de7e452d651f5a1e7aef249c2c4de7d65e166483a5a2e649d8ddc5896e16d7",
+        "source_member": "xl/media/image48.png",
+        "original_link": "NULL"
+      }
+    ],
+    "49": [
+      {
+        "path": "images/workbook/e7bb5507a05e361453f4d51ad471182fee4a6629b3924fe5ce1424a92a40a278.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E49",
+        "width": 267,
+        "height": 267,
+        "sha256": "e7bb5507a05e361453f4d51ad471182fee4a6629b3924fe5ce1424a92a40a278",
+        "source_member": "xl/media/image49.png",
+        "original_link": "NULL"
+      }
+    ],
+    "50": [
+      {
+        "path": "images/workbook/2f8f05a4955e2fb4cab3689f805b67e58e105c44151bba9e4af2aed49df05c80.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E50",
+        "width": 267,
+        "height": 267,
+        "sha256": "2f8f05a4955e2fb4cab3689f805b67e58e105c44151bba9e4af2aed49df05c80",
+        "source_member": "xl/media/image50.png",
+        "original_link": "NULL"
+      }
+    ],
+    "51": [
+      {
+        "path": "images/workbook/3dc1c186997863cee56f052ec471b719467ab2da96764371c242f5af2bec0127.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E51",
+        "width": 267,
+        "height": 267,
+        "sha256": "3dc1c186997863cee56f052ec471b719467ab2da96764371c242f5af2bec0127",
+        "source_member": "xl/media/image51.png",
+        "original_link": "NULL"
+      }
+    ],
+    "52": [
+      {
+        "path": "images/workbook/dd156f0115feaa60554451c29634cf68f6a8e42efbc7a6f62c7e5b98b926a39a.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E52",
+        "width": 267,
+        "height": 267,
+        "sha256": "dd156f0115feaa60554451c29634cf68f6a8e42efbc7a6f62c7e5b98b926a39a",
+        "source_member": "xl/media/image52.png",
+        "original_link": "NULL"
+      }
+    ],
+    "53": [
+      {
+        "path": "images/workbook/a00d0f6b6009fc5affb91b7bd8f4eee6ddf8fc804df1cdb30cbbdabba8a6df86.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E53",
+        "width": 267,
+        "height": 267,
+        "sha256": "a00d0f6b6009fc5affb91b7bd8f4eee6ddf8fc804df1cdb30cbbdabba8a6df86",
+        "source_member": "xl/media/image53.png",
+        "original_link": "NULL"
+      },
+      {
+        "path": "images/workbook/214fdf87669c81309ff2f34096bbf1b965f5490b5d89ccc13306488cded3242a.png",
+        "source_column": "paper image",
+        "anchor_cell": "F53",
+        "width": 266,
+        "height": 266,
+        "sha256": "214fdf87669c81309ff2f34096bbf1b965f5490b5d89ccc13306488cded3242a",
+        "source_member": "xl/media/image54.png",
+        "original_link": "NULL"
+      }
+    ],
+    "54": [
+      {
+        "path": "images/workbook/198731ccd402c81b4cfc86f88e91098ec6143ed5fdce7e73033cf0b3d8fe58e8.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E54",
+        "width": 267,
+        "height": 267,
+        "sha256": "198731ccd402c81b4cfc86f88e91098ec6143ed5fdce7e73033cf0b3d8fe58e8",
+        "source_member": "xl/media/image55.png",
+        "original_link": "NULL"
+      }
+    ],
+    "55": [
+      {
+        "path": "images/workbook/4182300a58513a00a0dbc661b18cda845d32a889640513a875868623477e6dee.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E55",
+        "width": 267,
+        "height": 267,
+        "sha256": "4182300a58513a00a0dbc661b18cda845d32a889640513a875868623477e6dee",
+        "source_member": "xl/media/image56.png",
+        "original_link": "NULL"
+      }
+    ],
+    "56": [
+      {
+        "path": "images/workbook/56755659bb3a2a15970a302b02a4ae8181f063ec5dff6be6926110294a89ba1b.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E56",
+        "width": 267,
+        "height": 267,
+        "sha256": "56755659bb3a2a15970a302b02a4ae8181f063ec5dff6be6926110294a89ba1b",
+        "source_member": "xl/media/image57.png",
+        "original_link": "NULL"
+      }
+    ],
+    "57": [
+      {
+        "path": "images/workbook/d270f893488b580a102c6adf8748d007b4bb21eaca6b5dda705f7d9f95d60253.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E57",
+        "width": 267,
+        "height": 267,
+        "sha256": "d270f893488b580a102c6adf8748d007b4bb21eaca6b5dda705f7d9f95d60253",
+        "source_member": "xl/media/image58.png",
+        "original_link": "NULL"
+      }
+    ],
+    "58": [
+      {
+        "path": "images/workbook/e44c0da467b8c6fb59dbbb934ee954600d1b8d189831b7323894aa341499c26f.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E58",
+        "width": 267,
+        "height": 267,
+        "sha256": "e44c0da467b8c6fb59dbbb934ee954600d1b8d189831b7323894aa341499c26f",
+        "source_member": "xl/media/image59.png",
+        "original_link": "NULL"
+      }
+    ],
+    "59": [
+      {
+        "path": "images/workbook/67d2550c9b430da6644f192758790a8bb46cb67113188d44cc0bdfd392b2110f.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E59",
+        "width": 267,
+        "height": 267,
+        "sha256": "67d2550c9b430da6644f192758790a8bb46cb67113188d44cc0bdfd392b2110f",
+        "source_member": "xl/media/image60.png",
+        "original_link": "NULL"
+      }
+    ],
+    "60": [
+      {
+        "path": "images/workbook/f2fde45e284c91767ebd4a697e3900c6a3822863ae2d5c8a69f1b70de7fb9074.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E60",
+        "width": 267,
+        "height": 267,
+        "sha256": "f2fde45e284c91767ebd4a697e3900c6a3822863ae2d5c8a69f1b70de7fb9074",
+        "source_member": "xl/media/image61.png",
+        "original_link": "NULL"
+      }
+    ],
+    "61": [
+      {
+        "path": "images/workbook/f45ac8974ebb3975879f447b3c5ebbb6ee0a85b7e093441747ee4a188ea07bb9.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E61",
+        "width": 267,
+        "height": 267,
+        "sha256": "f45ac8974ebb3975879f447b3c5ebbb6ee0a85b7e093441747ee4a188ea07bb9",
+        "source_member": "xl/media/image62.png",
+        "original_link": "NULL"
+      }
+    ],
+    "62": [
+      {
+        "path": "images/workbook/9db4f2ff0d8b632938238fc8042c47a39d8f52a8c01f775ef53180db9d863451.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E62",
+        "width": 267,
+        "height": 267,
+        "sha256": "9db4f2ff0d8b632938238fc8042c47a39d8f52a8c01f775ef53180db9d863451",
+        "source_member": "xl/media/image63.png",
+        "original_link": "NULL"
+      }
+    ],
+    "63": [
+      {
+        "path": "images/workbook/10c11f459c2049350ab8a6e6309e931b232eaa457f5466fd0aaa9c7d10f96355.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E63",
+        "width": 267,
+        "height": 267,
+        "sha256": "10c11f459c2049350ab8a6e6309e931b232eaa457f5466fd0aaa9c7d10f96355",
+        "source_member": "xl/media/image64.png",
+        "original_link": "NULL"
+      }
+    ],
+    "64": [
+      {
+        "path": "images/workbook/4c23b59b45f89014664ff465d94113fcd871f532aac9ce10e056c2064f247b26.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E64",
+        "width": 267,
+        "height": 267,
+        "sha256": "4c23b59b45f89014664ff465d94113fcd871f532aac9ce10e056c2064f247b26",
+        "source_member": "xl/media/image65.png",
+        "original_link": "NULL"
+      }
+    ],
+    "65": [
+      {
+        "path": "images/workbook/f391a10ca72453a408d50db5710757ee6319d1da0f5331e3229362caf4c49965.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E65",
+        "width": 267,
+        "height": 267,
+        "sha256": "f391a10ca72453a408d50db5710757ee6319d1da0f5331e3229362caf4c49965",
+        "source_member": "xl/media/image66.png",
+        "original_link": "NULL"
+      }
+    ],
+    "66": [
+      {
+        "path": "images/workbook/d0b8ab41f5a2b7042c5dab6e3cbc52035663b23b76612153d2cd74867821d1a3.png",
+        "source_column": "paper image",
+        "anchor_cell": "F66",
+        "width": 336,
+        "height": 336,
+        "sha256": "d0b8ab41f5a2b7042c5dab6e3cbc52035663b23b76612153d2cd74867821d1a3",
+        "source_member": "xl/media/image67.png",
+        "original_link": "NULL"
+      }
+    ],
+    "67": [
+      {
+        "path": "images/workbook/693eebacd475bb5a35c6c3242fd271ccf46ea9e9f4c0b45ac03bb82a0ba42841.png",
+        "source_column": "paper image",
+        "anchor_cell": "F67",
+        "width": 295,
+        "height": 295,
+        "sha256": "693eebacd475bb5a35c6c3242fd271ccf46ea9e9f4c0b45ac03bb82a0ba42841",
+        "source_member": "xl/media/image68.png",
+        "original_link": "NULL"
+      }
+    ],
+    "68": [
+      {
+        "path": "images/workbook/8dfc6c0f82d3b5edc9c2022e40d93032123d36112ac775700b28373ae2df20cf.png",
+        "source_column": "paper image",
+        "anchor_cell": "F68",
+        "width": 391,
+        "height": 391,
+        "sha256": "8dfc6c0f82d3b5edc9c2022e40d93032123d36112ac775700b28373ae2df20cf",
+        "source_member": "xl/media/image69.png",
+        "original_link": "NULL"
+      }
+    ],
+    "69": [
+      {
+        "path": "images/workbook/e333a14d31b9af2f6e8ff354ad23d9dddd5cae11d34ac54efefe77aef968c9a4.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E69",
+        "width": 267,
+        "height": 267,
+        "sha256": "e333a14d31b9af2f6e8ff354ad23d9dddd5cae11d34ac54efefe77aef968c9a4",
+        "source_member": "xl/media/image70.png",
+        "original_link": "NULL"
+      }
+    ],
+    "70": [
+      {
+        "path": "images/workbook/3a39927666519cf5be7469794c473ca6159c3cea660294f38746e7483dd2b0d4.png",
+        "source_column": "paper image",
+        "anchor_cell": "F70",
+        "width": 903,
+        "height": 903,
+        "sha256": "3a39927666519cf5be7469794c473ca6159c3cea660294f38746e7483dd2b0d4",
+        "source_member": "xl/media/image71.png",
+        "original_link": "NULL"
+      }
+    ],
+    "71": [
+      {
+        "path": "images/workbook/3da1ec51db26ec18b39c989672afb062cc53bd7d05d7e82f889da18f38a6fba0.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E71",
+        "width": 267,
+        "height": 267,
+        "sha256": "3da1ec51db26ec18b39c989672afb062cc53bd7d05d7e82f889da18f38a6fba0",
+        "source_member": "xl/media/image72.png",
+        "original_link": "NULL"
+      }
+    ],
+    "72": [
+      {
+        "path": "images/workbook/f55fb8fbc1ac596dbc08453e89cd3241d73c51a0cc5866b481fe8eb255a04954.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E72",
+        "width": 267,
+        "height": 267,
+        "sha256": "f55fb8fbc1ac596dbc08453e89cd3241d73c51a0cc5866b481fe8eb255a04954",
+        "source_member": "xl/media/image73.png",
+        "original_link": "NULL"
+      }
+    ],
+    "73": [
+      {
+        "path": "images/workbook/903887cf48e1e44526716148b98dad2790c594fe82f51152eb6ce6027400a259.png",
+        "source_column": "paper image",
+        "anchor_cell": "F73",
+        "width": 440,
+        "height": 441,
+        "sha256": "903887cf48e1e44526716148b98dad2790c594fe82f51152eb6ce6027400a259",
+        "source_member": "xl/media/image74.png",
+        "original_link": "NULL"
+      }
+    ],
+    "74": [
+      {
+        "path": "images/workbook/264dc8bb7c8d934b6c276de8f4fca7d7000fc8f8ee394bce43564ca540142dfe.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E74",
+        "width": 267,
+        "height": 267,
+        "sha256": "264dc8bb7c8d934b6c276de8f4fca7d7000fc8f8ee394bce43564ca540142dfe",
+        "source_member": "xl/media/image75.png",
+        "original_link": "NULL"
+      }
+    ],
+    "75": [
+      {
+        "path": "images/workbook/826e782194fc1bedf361f8ececf7288a28ac6e3787ed18c900a01974fd5305f8.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E75",
+        "width": 267,
+        "height": 267,
+        "sha256": "826e782194fc1bedf361f8ececf7288a28ac6e3787ed18c900a01974fd5305f8",
+        "source_member": "xl/media/image76.png",
+        "original_link": "NULL"
+      }
+    ],
+    "76": [
+      {
+        "path": "images/workbook/9971d485d8b5bc4cf2ba47823f1444aa19355c1ebab102357525b66962a273a4.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E76",
+        "width": 267,
+        "height": 267,
+        "sha256": "9971d485d8b5bc4cf2ba47823f1444aa19355c1ebab102357525b66962a273a4",
+        "source_member": "xl/media/image77.png",
+        "original_link": "NULL"
+      }
+    ],
+    "77": [
+      {
+        "path": "images/workbook/1a262b22967bbd216955f76a63762f7c824283169f713c2896860582bb751f80.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E77",
+        "width": 267,
+        "height": 267,
+        "sha256": "1a262b22967bbd216955f76a63762f7c824283169f713c2896860582bb751f80",
+        "source_member": "xl/media/image78.png",
+        "original_link": "NULL"
+      },
+      {
+        "path": "images/workbook/7e67c961add43c3172e8300d6147ef24f2b5b04a7b9b0d4436cd86c77a4ed409.png",
+        "source_column": "paper image",
+        "anchor_cell": "F77",
+        "width": 539,
+        "height": 539,
+        "sha256": "7e67c961add43c3172e8300d6147ef24f2b5b04a7b9b0d4436cd86c77a4ed409",
+        "source_member": "xl/media/image79.png",
+        "original_link": "NULL"
+      }
+    ],
+    "78": [
+      {
+        "path": "images/workbook/7d6050c998881a688fd5ad7721d3306785b7857988c31b6658ff06a5d88491fd.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E78",
+        "width": 267,
+        "height": 267,
+        "sha256": "7d6050c998881a688fd5ad7721d3306785b7857988c31b6658ff06a5d88491fd",
+        "source_member": "xl/media/image80.png",
+        "original_link": "NULL"
+      }
+    ],
+    "79": [
+      {
+        "path": "images/workbook/b673032d72d10e3720ae0dd551730954d6c2dd7cdb549c7347a675442db91cc2.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E79",
+        "width": 267,
+        "height": 267,
+        "sha256": "b673032d72d10e3720ae0dd551730954d6c2dd7cdb549c7347a675442db91cc2",
+        "source_member": "xl/media/image81.png",
+        "original_link": "NULL"
+      },
+      {
+        "path": "images/workbook/2c48da541c2d450c2346923c0b7e69f435929245b2973cd3245e47e786219b0c.png",
+        "source_column": "paper image",
+        "anchor_cell": "F79",
+        "width": 288,
+        "height": 288,
+        "sha256": "2c48da541c2d450c2346923c0b7e69f435929245b2973cd3245e47e786219b0c",
+        "source_member": "xl/media/image82.png",
+        "original_link": "NULL"
+      }
+    ],
+    "80": [
+      {
+        "path": "images/workbook/e5c3efcfd3e0708762cef0cc6a85977220b5bd94b85687aab35e9a383273077f.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E80",
+        "width": 267,
+        "height": 267,
+        "sha256": "e5c3efcfd3e0708762cef0cc6a85977220b5bd94b85687aab35e9a383273077f",
+        "source_member": "xl/media/image83.png",
+        "original_link": "NULL"
+      }
+    ],
+    "81": [
+      {
+        "path": "images/workbook/e407f250d44a3fb38517e6dadb417644e664aa73c1c52efbf06bfdc06e28f2f8.png",
+        "source_column": "paper image",
+        "anchor_cell": "F81",
+        "width": 336,
+        "height": 336,
+        "sha256": "e407f250d44a3fb38517e6dadb417644e664aa73c1c52efbf06bfdc06e28f2f8",
+        "source_member": "xl/media/image84.png",
+        "original_link": "NULL"
+      }
+    ],
+    "82": [
+      {
+        "path": "images/workbook/1b9c3f51cea924950afcb548f3ef11087029096f3893115fc3c71f4ed9248ac0.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E82",
+        "width": 267,
+        "height": 267,
+        "sha256": "1b9c3f51cea924950afcb548f3ef11087029096f3893115fc3c71f4ed9248ac0",
+        "source_member": "xl/media/image85.png",
+        "original_link": "NULL"
+      }
+    ],
+    "83": [
+      {
+        "path": "images/workbook/9b7cd99606593e004bf0d4abcbb9d3d919789580312007164a8dd4b41b7d1639.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E83",
+        "width": 267,
+        "height": 267,
+        "sha256": "9b7cd99606593e004bf0d4abcbb9d3d919789580312007164a8dd4b41b7d1639",
+        "source_member": "xl/media/image86.png",
+        "original_link": "NULL"
+      }
+    ],
+    "84": [
+      {
+        "path": "images/workbook/085631ae9c04a5ac7941863fe9131b7e4a2985ae93213613bbcf0b98a31a5aee.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E84",
+        "width": 267,
+        "height": 267,
+        "sha256": "085631ae9c04a5ac7941863fe9131b7e4a2985ae93213613bbcf0b98a31a5aee",
+        "source_member": "xl/media/image87.png",
+        "original_link": "NULL"
+      }
+    ],
+    "85": [
+      {
+        "path": "images/workbook/5e97d5885859ba8618168af2603517d207ee3765370d460425b34c4c64cb4cd3.png",
+        "source_column": "paper image",
+        "anchor_cell": "F85",
+        "width": 270,
+        "height": 270,
+        "sha256": "5e97d5885859ba8618168af2603517d207ee3765370d460425b34c4c64cb4cd3",
+        "source_member": "xl/media/image88.png",
+        "original_link": "NULL"
+      }
+    ],
+    "86": [
+      {
+        "path": "images/workbook/a1d99e1c816805b27aad821900cb126bcbfb6b9c3298ba764c488ad58ef038a7.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E86",
+        "width": 267,
+        "height": 267,
+        "sha256": "a1d99e1c816805b27aad821900cb126bcbfb6b9c3298ba764c488ad58ef038a7",
+        "source_member": "xl/media/image89.png",
+        "original_link": "NULL"
+      }
+    ],
+    "87": [
+      {
+        "path": "images/workbook/cfa9a3c07093dbbe2153f36b4c5e6349d5c5c1e3a744faa372b1e4ef28e885f1.png",
+        "source_column": "paper image",
+        "anchor_cell": "F87",
+        "width": 313,
+        "height": 313,
+        "sha256": "cfa9a3c07093dbbe2153f36b4c5e6349d5c5c1e3a744faa372b1e4ef28e885f1",
+        "source_member": "xl/media/image90.png",
+        "original_link": "NULL"
+      }
+    ],
+    "88": [
+      {
+        "path": "images/workbook/ed322fddb4596a9015463cf3175d3cfcb46e88f10fa43560c6db08b9a13a1849.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E88",
+        "width": 267,
+        "height": 267,
+        "sha256": "ed322fddb4596a9015463cf3175d3cfcb46e88f10fa43560c6db08b9a13a1849",
+        "source_member": "xl/media/image91.png",
+        "original_link": "NULL"
+      }
+    ],
+    "89": [
+      {
+        "path": "images/workbook/b9ea049b3c95d699fe39c4977db5aa654526ae9202c6ef13e6b369a338f35189.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E89",
+        "width": 267,
+        "height": 267,
+        "sha256": "b9ea049b3c95d699fe39c4977db5aa654526ae9202c6ef13e6b369a338f35189",
+        "source_member": "xl/media/image92.png",
+        "original_link": "NULL"
+      }
+    ],
+    "90": [
+      {
+        "path": "images/workbook/5138a14217185d94dbaee5fa2169f8da2d1f54311f5e19e626b09f3078d89224.png",
+        "source_column": "paper image",
+        "anchor_cell": "F90",
+        "width": 336,
+        "height": 336,
+        "sha256": "5138a14217185d94dbaee5fa2169f8da2d1f54311f5e19e626b09f3078d89224",
+        "source_member": "xl/media/image93.png",
+        "original_link": "NULL"
+      }
+    ],
+    "91": [
+      {
+        "path": "images/workbook/e845b45a01555e1a48b994fce67c3a182750daf1ae94391670aabfc0299192c6.png",
+        "source_column": "paper image",
+        "anchor_cell": "F91",
+        "width": 182,
+        "height": 182,
+        "sha256": "e845b45a01555e1a48b994fce67c3a182750daf1ae94391670aabfc0299192c6",
+        "source_member": "xl/media/image94.png",
+        "original_link": "NULL"
+      }
+    ],
+    "92": [
+      {
+        "path": "images/workbook/371978ed6b58f08001b25f1a1f8847714efa0a4bbd88f564835d8815ed11fec1.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E92",
+        "width": 267,
+        "height": 267,
+        "sha256": "371978ed6b58f08001b25f1a1f8847714efa0a4bbd88f564835d8815ed11fec1",
+        "source_member": "xl/media/image95.png",
+        "original_link": "NULL"
+      }
+    ],
+    "93": [
+      {
+        "path": "images/workbook/25ce0df2af20e7aa5395f0bd2316dc4c0df5ae4e9a42052e5e233a2784a3e24e.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E93",
+        "width": 267,
+        "height": 267,
+        "sha256": "25ce0df2af20e7aa5395f0bd2316dc4c0df5ae4e9a42052e5e233a2784a3e24e",
+        "source_member": "xl/media/image96.png",
+        "original_link": "NULL"
+      }
+    ],
+    "94": [
+      {
+        "path": "images/workbook/2b80527d5a619c7b1236e8517121e6e31ada8f24b5bdf941bbf924e696db917e.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E94",
+        "width": 267,
+        "height": 267,
+        "sha256": "2b80527d5a619c7b1236e8517121e6e31ada8f24b5bdf941bbf924e696db917e",
+        "source_member": "xl/media/image97.png",
+        "original_link": "NULL"
+      }
+    ],
+    "95": [
+      {
+        "path": "images/workbook/accd8179b7fd0920f71d40a857d1ef18409a6344991fc48ab61e84ffb05c1be9.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E95",
+        "width": 267,
+        "height": 267,
+        "sha256": "accd8179b7fd0920f71d40a857d1ef18409a6344991fc48ab61e84ffb05c1be9",
+        "source_member": "xl/media/image98.png",
+        "original_link": "NULL"
+      }
+    ],
+    "96": [
+      {
+        "path": "images/workbook/a26b0785c5c7b69cc743cc400b2ee2208933b6ec6ac1e4ded842cd3bd717625f.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E96",
+        "width": 267,
+        "height": 267,
+        "sha256": "a26b0785c5c7b69cc743cc400b2ee2208933b6ec6ac1e4ded842cd3bd717625f",
+        "source_member": "xl/media/image99.png",
+        "original_link": "NULL"
+      },
+      {
+        "path": "images/workbook/6cbcf2a3c5450070e3c9583555a74522acc808df5c1172e3e0cb2971297e341d.png",
+        "source_column": "paper image",
+        "anchor_cell": "F96",
+        "width": 451,
+        "height": 451,
+        "sha256": "6cbcf2a3c5450070e3c9583555a74522acc808df5c1172e3e0cb2971297e341d",
+        "source_member": "xl/media/image100.png",
+        "original_link": "NULL"
+      }
+    ],
+    "97": [
+      {
+        "path": "images/workbook/cf1abe22acf063dc82137eac9f3cd269e097164dae7c7e7ca70305eb8b827678.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E97",
+        "width": 267,
+        "height": 267,
+        "sha256": "cf1abe22acf063dc82137eac9f3cd269e097164dae7c7e7ca70305eb8b827678",
+        "source_member": "xl/media/image101.png",
+        "original_link": "NULL"
+      }
+    ],
+    "98": [
+      {
+        "path": "images/workbook/23b99d27fcbbb70172088d696f7eb318e3b7f0cef65a6187866beffbcc9aab4c.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E98",
+        "width": 267,
+        "height": 267,
+        "sha256": "23b99d27fcbbb70172088d696f7eb318e3b7f0cef65a6187866beffbcc9aab4c",
+        "source_member": "xl/media/image102.png",
+        "original_link": "NULL"
+      }
+    ],
+    "99": [
+      {
+        "path": "images/workbook/4c289259b3d28cfe9eeff5e078c84673190355b7f93869119c9fe3d9f1bb72ae.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E99",
+        "width": 267,
+        "height": 267,
+        "sha256": "4c289259b3d28cfe9eeff5e078c84673190355b7f93869119c9fe3d9f1bb72ae",
+        "source_member": "xl/media/image103.png",
+        "original_link": "NULL"
+      }
+    ],
+    "100": [
+      {
+        "path": "images/workbook/15c776f762d2e9c4719656c660cb8e05e29e729075ba0a4b4fea7710034a6866.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E100",
+        "width": 267,
+        "height": 267,
+        "sha256": "15c776f762d2e9c4719656c660cb8e05e29e729075ba0a4b4fea7710034a6866",
+        "source_member": "xl/media/image104.png",
+        "original_link": "NULL"
+      }
+    ],
+    "101": [
+      {
+        "path": "images/workbook/5c4471f97edbf053b8cbd2a964b7942f093cea66067f8740e00f0f86808dd9f8.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E101",
+        "width": 267,
+        "height": 267,
+        "sha256": "5c4471f97edbf053b8cbd2a964b7942f093cea66067f8740e00f0f86808dd9f8",
+        "source_member": "xl/media/image105.png",
+        "original_link": "NULL"
+      },
+      {
+        "path": "images/workbook/c372542f9029bc87c2f34b0f58f2a41119c8729ea3ce65cd08eef2b62892e92f.png",
+        "source_column": "paper image",
+        "anchor_cell": "F101",
+        "width": 485,
+        "height": 485,
+        "sha256": "c372542f9029bc87c2f34b0f58f2a41119c8729ea3ce65cd08eef2b62892e92f",
+        "source_member": "xl/media/image106.png",
+        "original_link": "NULL"
+      }
+    ],
+    "102": [
+      {
+        "path": "images/workbook/591116d9d4e24e4886448eb86a290572ac59bded0c1244df5352e6a6d8dc0f9f.png",
+        "source_column": "paper image",
+        "anchor_cell": "F102",
+        "width": 269,
+        "height": 269,
+        "sha256": "591116d9d4e24e4886448eb86a290572ac59bded0c1244df5352e6a6d8dc0f9f",
+        "source_member": "xl/media/image107.png",
+        "original_link": "NULL"
+      }
+    ],
+    "103": [
+      {
+        "path": "images/workbook/a107977559c236265c1b032b576062e04958ec014e8ed0d8e68389fc3cc326fb.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E103",
+        "width": 267,
+        "height": 267,
+        "sha256": "a107977559c236265c1b032b576062e04958ec014e8ed0d8e68389fc3cc326fb",
+        "source_member": "xl/media/image108.png",
+        "original_link": "NULL"
+      }
+    ],
+    "104": [
+      {
+        "path": "images/workbook/3cf0d34580f35c834ed263f8941a2710d91ab4a48e63c33f4b09bac3dc22fd0b.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E104",
+        "width": 267,
+        "height": 267,
+        "sha256": "3cf0d34580f35c834ed263f8941a2710d91ab4a48e63c33f4b09bac3dc22fd0b",
+        "source_member": "xl/media/image109.png",
+        "original_link": "NULL"
+      }
+    ],
+    "105": [
+      {
+        "path": "images/workbook/f2ef514866da2a0db032bdb2c4664f8f7ff80b72e99f02786a5a6f885b7aecb5.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E105",
+        "width": 267,
+        "height": 267,
+        "sha256": "f2ef514866da2a0db032bdb2c4664f8f7ff80b72e99f02786a5a6f885b7aecb5",
+        "source_member": "xl/media/image110.png",
+        "original_link": "NULL"
+      }
+    ],
+    "106": [
+      {
+        "path": "images/workbook/873a217f406776acfbd76e2ad6518bee437bb3750feb74be0f766c5240f05cba.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E106",
+        "width": 267,
+        "height": 267,
+        "sha256": "873a217f406776acfbd76e2ad6518bee437bb3750feb74be0f766c5240f05cba",
+        "source_member": "xl/media/image111.png",
+        "original_link": "NULL"
+      }
+    ],
+    "107": [
+      {
+        "path": "images/workbook/2cff9d70478798c22decbb8f501173ed3d0ce2518cb6abe99ead9bee396110e7.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E107",
+        "width": 267,
+        "height": 267,
+        "sha256": "2cff9d70478798c22decbb8f501173ed3d0ce2518cb6abe99ead9bee396110e7",
+        "source_member": "xl/media/image112.png",
+        "original_link": "NULL"
+      }
+    ],
+    "108": [
+      {
+        "path": "images/workbook/9c0ba7dc790c13c21eeb1942ab8d5e4403fe5b4af243fab80fd7c915d5a6be56.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E108",
+        "width": 267,
+        "height": 267,
+        "sha256": "9c0ba7dc790c13c21eeb1942ab8d5e4403fe5b4af243fab80fd7c915d5a6be56",
+        "source_member": "xl/media/image113.png",
+        "original_link": "NULL"
+      }
+    ],
+    "109": [
+      {
+        "path": "images/workbook/ad673d1872a592a9b6deaee6ca6fa89e04c58579db358fa1c7e4de1afa45ab3e.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E109",
+        "width": 267,
+        "height": 267,
+        "sha256": "ad673d1872a592a9b6deaee6ca6fa89e04c58579db358fa1c7e4de1afa45ab3e",
+        "source_member": "xl/media/image114.png",
+        "original_link": "NULL"
+      }
+    ],
+    "110": [
+      {
+        "path": "images/workbook/b88b723d32930dc45e752c8dd408617ccca4fd80b4a201f1c1af9ab1f2009ffa.png",
+        "source_column": "HSC",
+        "anchor_cell": "D110",
+        "width": 267,
+        "height": 267,
+        "sha256": "b88b723d32930dc45e752c8dd408617ccca4fd80b4a201f1c1af9ab1f2009ffa",
+        "source_member": "xl/media/image115.png",
+        "original_link": "NULL"
+      },
+      {
+        "path": "images/workbook/748a8c4270f3ef3632dc9fbff9a4847618242d8a52c4c904f370b27327da9bff.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E110",
+        "width": 267,
+        "height": 267,
+        "sha256": "748a8c4270f3ef3632dc9fbff9a4847618242d8a52c4c904f370b27327da9bff",
+        "source_member": "xl/media/image116.png",
+        "original_link": "NULL"
+      }
+    ],
+    "111": [
+      {
+        "path": "images/workbook/18ee237486ba47ab36601a4c15add933b45cde5df066338eda25a69d81fd24a3.png",
+        "source_column": "HSC",
+        "anchor_cell": "D111",
+        "width": 267,
+        "height": 267,
+        "sha256": "18ee237486ba47ab36601a4c15add933b45cde5df066338eda25a69d81fd24a3",
+        "source_member": "xl/media/image117.png",
+        "original_link": "NULL"
+      },
+      {
+        "path": "images/workbook/cd946af6b78e6ee0fb573a679b00d4d49908079382e4c1eb286baa482b98d316.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E111",
+        "width": 267,
+        "height": 267,
+        "sha256": "cd946af6b78e6ee0fb573a679b00d4d49908079382e4c1eb286baa482b98d316",
+        "source_member": "xl/media/image118.png",
+        "original_link": "NULL"
+      }
+    ],
+    "112": [
+      {
+        "path": "images/workbook/c590d862732e11a2cde4fa250d5b393bffc4c79e7d680c2576a68bae0585f9ae.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E112",
+        "width": 267,
+        "height": 267,
+        "sha256": "c590d862732e11a2cde4fa250d5b393bffc4c79e7d680c2576a68bae0585f9ae",
+        "source_member": "xl/media/image119.png",
+        "original_link": "NULL"
+      }
+    ],
+    "113": [
+      {
+        "path": "images/workbook/b9648580ea3ad661b865f0958df3f686055ea7e435c20dab9473c272ed2cdda6.png",
+        "source_column": "paper image",
+        "anchor_cell": "F113",
+        "width": 336,
+        "height": 336,
+        "sha256": "b9648580ea3ad661b865f0958df3f686055ea7e435c20dab9473c272ed2cdda6",
+        "source_member": "xl/media/image120.png",
+        "original_link": "NULL"
+      }
+    ],
+    "114": [
+      {
+        "path": "images/workbook/b37031ee3d190e16c60d241616abbde95f6e18b2cd19b4a18b0835e1ddf53328.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E114",
+        "width": 267,
+        "height": 267,
+        "sha256": "b37031ee3d190e16c60d241616abbde95f6e18b2cd19b4a18b0835e1ddf53328",
+        "source_member": "xl/media/image121.png",
+        "original_link": "NULL"
+      }
+    ],
+    "115": [
+      {
+        "path": "images/workbook/00e1339a4728a73938a72bd143ec18ec8f3cf1983b30575742b08018201b5199.png",
+        "source_column": "HSC",
+        "anchor_cell": "D115",
+        "width": 267,
+        "height": 267,
+        "sha256": "00e1339a4728a73938a72bd143ec18ec8f3cf1983b30575742b08018201b5199",
+        "source_member": "xl/media/image122.png",
+        "original_link": "NULL"
+      },
+      {
+        "path": "images/workbook/64c5c0802960d2a05fa57b6235f57bc1748c61d784a7ff03afa94a1fcee9e41f.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E115",
+        "width": 267,
+        "height": 267,
+        "sha256": "64c5c0802960d2a05fa57b6235f57bc1748c61d784a7ff03afa94a1fcee9e41f",
+        "source_member": "xl/media/image123.png",
+        "original_link": "NULL"
+      },
+      {
+        "path": "images/workbook/12d2c66a9103aa3ac2a46076872c3949b5c7ae6bf5ea50f7346d79e9cfa7e77f.png",
+        "source_column": "paper image",
+        "anchor_cell": "F115",
+        "width": 1300,
+        "height": 1300,
+        "sha256": "12d2c66a9103aa3ac2a46076872c3949b5c7ae6bf5ea50f7346d79e9cfa7e77f",
+        "source_member": "xl/media/image124.png",
+        "original_link": "NULL"
+      }
+    ],
+    "116": [
+      {
+        "path": "images/workbook/3a21a74274f65ef85a9307f9b7441db9b495d6d1c4b3e4b82eae9fa0d5ff9b5c.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E116",
+        "width": 267,
+        "height": 267,
+        "sha256": "3a21a74274f65ef85a9307f9b7441db9b495d6d1c4b3e4b82eae9fa0d5ff9b5c",
+        "source_member": "xl/media/image125.png",
+        "original_link": "NULL"
+      }
+    ],
+    "117": [
+      {
+        "path": "images/workbook/c84d3e5fb77c0a53cc1ac36f70d593c704c505d9275aeec4a0096616da30a916.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E117",
+        "width": 267,
+        "height": 267,
+        "sha256": "c84d3e5fb77c0a53cc1ac36f70d593c704c505d9275aeec4a0096616da30a916",
+        "source_member": "xl/media/image126.png",
+        "original_link": "NULL"
+      }
+    ],
+    "118": [
+      {
+        "path": "images/workbook/591921ae73d62dff02ac6b03f78e4dda957e757a0b1a8d2c3011f87f1708bf80.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E118",
+        "width": 267,
+        "height": 267,
+        "sha256": "591921ae73d62dff02ac6b03f78e4dda957e757a0b1a8d2c3011f87f1708bf80",
+        "source_member": "xl/media/image127.png",
+        "original_link": "NULL"
+      }
+    ],
+    "119": [
+      {
+        "path": "images/workbook/7adc4f10cc364eaaeac5ec706ae0d127d82fe352cce2f0fd08ac8d7ac6bfd514.png",
+        "source_column": "HSC",
+        "anchor_cell": "D119",
+        "width": 267,
+        "height": 267,
+        "sha256": "7adc4f10cc364eaaeac5ec706ae0d127d82fe352cce2f0fd08ac8d7ac6bfd514",
+        "source_member": "xl/media/image128.png",
+        "original_link": "NULL"
+      },
+      {
+        "path": "images/workbook/c3a3cee90c6069c3450ea4e475a58d1eb9d561c2459d3d2d62b027e8ade5f140.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E119",
+        "width": 267,
+        "height": 267,
+        "sha256": "c3a3cee90c6069c3450ea4e475a58d1eb9d561c2459d3d2d62b027e8ade5f140",
+        "source_member": "xl/media/image129.png",
+        "original_link": "NULL"
+      }
+    ],
+    "120": [
+      {
+        "path": "images/workbook/428fb1a35322cbcb08a4e28e46f8a37aa98f822d4f0c1d6a0f63faf7de9ad11e.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E120",
+        "width": 267,
+        "height": 267,
+        "sha256": "428fb1a35322cbcb08a4e28e46f8a37aa98f822d4f0c1d6a0f63faf7de9ad11e",
+        "source_member": "xl/media/image130.png",
+        "original_link": "NULL"
+      }
+    ],
+    "121": [
+      {
+        "path": "images/workbook/b2114630ef2a0d0e022f3e1cf90713e2a683290dbaa637ab249496a975134da3.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E121",
+        "width": 267,
+        "height": 267,
+        "sha256": "b2114630ef2a0d0e022f3e1cf90713e2a683290dbaa637ab249496a975134da3",
+        "source_member": "xl/media/image131.png",
+        "original_link": "NULL"
+      }
+    ],
+    "122": [
+      {
+        "path": "images/workbook/bdba7130d319f715199daa12b519926c588dac44029bb87ea6d5959881ca9b76.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E122",
+        "width": 267,
+        "height": 267,
+        "sha256": "bdba7130d319f715199daa12b519926c588dac44029bb87ea6d5959881ca9b76",
+        "source_member": "xl/media/image132.png",
+        "original_link": "NULL"
+      }
+    ],
+    "123": [
+      {
+        "path": "images/workbook/ada934446dc7c3666ac055ec87af749ca8f7efa7682f428ac88d1f219f1efce7.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E123",
+        "width": 267,
+        "height": 267,
+        "sha256": "ada934446dc7c3666ac055ec87af749ca8f7efa7682f428ac88d1f219f1efce7",
+        "source_member": "xl/media/image133.png",
+        "original_link": "NULL"
+      }
+    ],
+    "124": [
+      {
+        "path": "images/workbook/933931d20c736268048f4fa2538dfd9a5bcf0745489d6b3d261ac035a2fad626.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E124",
+        "width": 267,
+        "height": 267,
+        "sha256": "933931d20c736268048f4fa2538dfd9a5bcf0745489d6b3d261ac035a2fad626",
+        "source_member": "xl/media/image134.png",
+        "original_link": "NULL"
+      }
+    ],
+    "125": [
+      {
+        "path": "images/workbook/2340726f65140a99230a3343452f948ff0f58010d5b09e3fa0e3de881f6d49bd.png",
+        "source_column": "HSC",
+        "anchor_cell": "D125",
+        "width": 267,
+        "height": 267,
+        "sha256": "2340726f65140a99230a3343452f948ff0f58010d5b09e3fa0e3de881f6d49bd",
+        "source_member": "xl/media/image135.png",
+        "original_link": "NULL"
+      },
+      {
+        "path": "images/workbook/ed906595afa4b645af87333ec06ac2a487e9a906f79d33bc9bc0efe7d4f453e0.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E125",
+        "width": 267,
+        "height": 267,
+        "sha256": "ed906595afa4b645af87333ec06ac2a487e9a906f79d33bc9bc0efe7d4f453e0",
+        "source_member": "xl/media/image136.png",
+        "original_link": "NULL"
+      }
+    ],
+    "126": [
+      {
+        "path": "images/workbook/f821c1ac6a6c52360e8f0b210a73ed3f641ec352bc7a950444e3954907e0f2f7.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E126",
+        "width": 267,
+        "height": 267,
+        "sha256": "f821c1ac6a6c52360e8f0b210a73ed3f641ec352bc7a950444e3954907e0f2f7",
+        "source_member": "xl/media/image137.png",
+        "original_link": "NULL"
+      }
+    ],
+    "127": [
+      {
+        "path": "images/workbook/625fb7dfd304ed3ad3800bbe133f06748d525c93166a99cb5bd9a1f931b08105.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E127",
+        "width": 267,
+        "height": 267,
+        "sha256": "625fb7dfd304ed3ad3800bbe133f06748d525c93166a99cb5bd9a1f931b08105",
+        "source_member": "xl/media/image138.png",
+        "original_link": "NULL"
+      }
+    ],
+    "128": [
+      {
+        "path": "images/workbook/3db5adf956a4664d8cfcb68ec5a08ba0c91cdd6563b91bd8d7b29a71677a947a.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E128",
+        "width": 267,
+        "height": 267,
+        "sha256": "3db5adf956a4664d8cfcb68ec5a08ba0c91cdd6563b91bd8d7b29a71677a947a",
+        "source_member": "xl/media/image139.png",
+        "original_link": "NULL"
+      }
+    ],
+    "129": [
+      {
+        "path": "images/workbook/937f29f5d7cba165c1b61e6644122ca0dc6bcc2b144051e7cbe11096c34c406c.png",
+        "source_column": "HSC",
+        "anchor_cell": "D129",
+        "width": 267,
+        "height": 267,
+        "sha256": "937f29f5d7cba165c1b61e6644122ca0dc6bcc2b144051e7cbe11096c34c406c",
+        "source_member": "xl/media/image140.png",
+        "original_link": "NULL"
+      },
+      {
+        "path": "images/workbook/2e6785030dfb1624f2d5e42055142f1294468c76bf063edac96258032ae0f3ae.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E129",
+        "width": 267,
+        "height": 267,
+        "sha256": "2e6785030dfb1624f2d5e42055142f1294468c76bf063edac96258032ae0f3ae",
+        "source_member": "xl/media/image141.png",
+        "original_link": "NULL"
+      }
+    ],
+    "130": [
+      {
+        "path": "images/workbook/f59ffa35140613122f249458939e97eebc80256feaf3eca6f3c1314043e0befc.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E130",
+        "width": 267,
+        "height": 267,
+        "sha256": "f59ffa35140613122f249458939e97eebc80256feaf3eca6f3c1314043e0befc",
+        "source_member": "xl/media/image142.png",
+        "original_link": "NULL"
+      }
+    ],
+    "131": [
+      {
+        "path": "images/workbook/c4e510444878887787e6400dd7192a9536a43fb7bc392394ae451e2d4aa6c0fa.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E131",
+        "width": 267,
+        "height": 267,
+        "sha256": "c4e510444878887787e6400dd7192a9536a43fb7bc392394ae451e2d4aa6c0fa",
+        "source_member": "xl/media/image143.png",
+        "original_link": "NULL"
+      }
+    ],
+    "132": [
+      {
+        "path": "images/workbook/30ecc852be5c1a62d1e9e9054bdda7415f7c2a15441c01d021360159f4162bc4.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E132",
+        "width": 267,
+        "height": 267,
+        "sha256": "30ecc852be5c1a62d1e9e9054bdda7415f7c2a15441c01d021360159f4162bc4",
+        "source_member": "xl/media/image144.png",
+        "original_link": "NULL"
+      }
+    ],
+    "133": [
+      {
+        "path": "images/workbook/805e1b452faa2a56560ae8a57d6f76778659da5d9e6908524b564db4fc9d52dc.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E133",
+        "width": 267,
+        "height": 267,
+        "sha256": "805e1b452faa2a56560ae8a57d6f76778659da5d9e6908524b564db4fc9d52dc",
+        "source_member": "xl/media/image145.png",
+        "original_link": "NULL"
+      }
+    ],
+    "134": [
+      {
+        "path": "images/workbook/f2d33d2d04c6df0580cfe3a913b389c85fbe3866a392b381c946948f1769a3d1.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E134",
+        "width": 267,
+        "height": 267,
+        "sha256": "f2d33d2d04c6df0580cfe3a913b389c85fbe3866a392b381c946948f1769a3d1",
+        "source_member": "xl/media/image146.png",
+        "original_link": "NULL"
+      }
+    ],
+    "135": [
+      {
+        "path": "images/workbook/b439db1f0185586a7eda46a8f854d9dba71bb333c87934b46172454388330e27.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E135",
+        "width": 267,
+        "height": 267,
+        "sha256": "b439db1f0185586a7eda46a8f854d9dba71bb333c87934b46172454388330e27",
+        "source_member": "xl/media/image147.png",
+        "original_link": "NULL"
+      }
+    ],
+    "136": [
+      {
+        "path": "images/workbook/883b23f4204f1cd0bdbeaa39052a3241bcb633d179a1e736697467c821ec46f1.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E136",
+        "width": 267,
+        "height": 267,
+        "sha256": "883b23f4204f1cd0bdbeaa39052a3241bcb633d179a1e736697467c821ec46f1",
+        "source_member": "xl/media/image148.png",
+        "original_link": "NULL"
+      }
+    ],
+    "137": [
+      {
+        "path": "images/workbook/92eb10a746d4dd308408d64ad9452c99c5d413be5e39c40269a9bfa96f551ddb.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E137",
+        "width": 267,
+        "height": 267,
+        "sha256": "92eb10a746d4dd308408d64ad9452c99c5d413be5e39c40269a9bfa96f551ddb",
+        "source_member": "xl/media/image149.png",
+        "original_link": "NULL"
+      }
+    ],
+    "138": [
+      {
+        "path": "images/workbook/2a1c45c51ddb3a577713abdf743ef4fba29c7c6ab3cbb282152bd884917a5dc7.png",
+        "source_column": "HSC",
+        "anchor_cell": "D138",
+        "width": 267,
+        "height": 267,
+        "sha256": "2a1c45c51ddb3a577713abdf743ef4fba29c7c6ab3cbb282152bd884917a5dc7",
+        "source_member": "xl/media/image150.png",
+        "original_link": "NULL"
+      },
+      {
+        "path": "images/workbook/9f3c5ab58312146009cd1e0466f8e65a26263846079b56dbfadf4ef2c0e2d8b4.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E138",
+        "width": 267,
+        "height": 267,
+        "sha256": "9f3c5ab58312146009cd1e0466f8e65a26263846079b56dbfadf4ef2c0e2d8b4",
+        "source_member": "xl/media/image151.png",
+        "original_link": "NULL"
+      }
+    ],
+    "139": [
+      {
+        "path": "images/workbook/d568bcb10da2f15f4b6422b1820df7afefd0212cd84e78bfc222e6a3fda3e84e.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E139",
+        "width": 267,
+        "height": 267,
+        "sha256": "d568bcb10da2f15f4b6422b1820df7afefd0212cd84e78bfc222e6a3fda3e84e",
+        "source_member": "xl/media/image152.png",
+        "original_link": "NULL"
+      }
+    ],
+    "140": [
+      {
+        "path": "images/workbook/376cfb4efd8099d7c90709cbbe4e0c5b6edca764d38d4a8849a430c7cb8871cf.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E140",
+        "width": 267,
+        "height": 267,
+        "sha256": "376cfb4efd8099d7c90709cbbe4e0c5b6edca764d38d4a8849a430c7cb8871cf",
+        "source_member": "xl/media/image153.png",
+        "original_link": "NULL"
+      }
+    ],
+    "141": [
+      {
+        "path": "images/workbook/a83285a808fbd465f55e6c1e2853ff0453c933384fc98898d04257d66d26b288.png",
+        "source_column": "HSC",
+        "anchor_cell": "D141",
+        "width": 267,
+        "height": 267,
+        "sha256": "a83285a808fbd465f55e6c1e2853ff0453c933384fc98898d04257d66d26b288",
+        "source_member": "xl/media/image154.png",
+        "original_link": "NULL"
+      },
+      {
+        "path": "images/workbook/327b8600942ad1d6d4dac9422dad4bc316bd9c8c6a8548aa5ad4a9e05f066331.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E141",
+        "width": 267,
+        "height": 267,
+        "sha256": "327b8600942ad1d6d4dac9422dad4bc316bd9c8c6a8548aa5ad4a9e05f066331",
+        "source_member": "xl/media/image155.png",
+        "original_link": "NULL"
+      }
+    ],
+    "142": [
+      {
+        "path": "images/workbook/bcdab53d3e4a2ed0c8545b825e9f1d3b254329853691aa488542f97e3a1ba448.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E142",
+        "width": 267,
+        "height": 267,
+        "sha256": "bcdab53d3e4a2ed0c8545b825e9f1d3b254329853691aa488542f97e3a1ba448",
+        "source_member": "xl/media/image156.png",
+        "original_link": "NULL"
+      }
+    ],
+    "143": [
+      {
+        "path": "images/workbook/41c42a165101a0c1f5498197046c28a39a3088507582a6e3d9fab59921d6fbe1.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E143",
+        "width": 267,
+        "height": 267,
+        "sha256": "41c42a165101a0c1f5498197046c28a39a3088507582a6e3d9fab59921d6fbe1",
+        "source_member": "xl/media/image157.png",
+        "original_link": "NULL"
+      }
+    ],
+    "144": [
+      {
+        "path": "images/workbook/d0b92209ec5c75e1ac5cfd9379a1cca8bf76da2d4d9c19ef80b34a1f449b594a.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E144",
+        "width": 267,
+        "height": 267,
+        "sha256": "d0b92209ec5c75e1ac5cfd9379a1cca8bf76da2d4d9c19ef80b34a1f449b594a",
+        "source_member": "xl/media/image158.png",
+        "original_link": "NULL"
+      }
+    ],
+    "145": [
+      {
+        "path": "images/workbook/c653f02c228e9da7b47624cf7b316a8f2dbf96c70aaaa9d91548a89b0af27efd.png",
+        "source_column": "HSC",
+        "anchor_cell": "D145",
+        "width": 267,
+        "height": 267,
+        "sha256": "c653f02c228e9da7b47624cf7b316a8f2dbf96c70aaaa9d91548a89b0af27efd",
+        "source_member": "xl/media/image159.png",
+        "original_link": "NULL"
+      },
+      {
+        "path": "images/workbook/d766124a01b89be05dfa9bd4dab56ede1e07a5618aea2871650627944c30c2a2.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E145",
+        "width": 267,
+        "height": 267,
+        "sha256": "d766124a01b89be05dfa9bd4dab56ede1e07a5618aea2871650627944c30c2a2",
+        "source_member": "xl/media/image160.png",
+        "original_link": "NULL"
+      }
+    ],
+    "146": [
+      {
+        "path": "images/workbook/b4526eade7efaefb3048b1886b9c27beab9130f02772aa5785a9cfd2bc0f5217.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E146",
+        "width": 267,
+        "height": 267,
+        "sha256": "b4526eade7efaefb3048b1886b9c27beab9130f02772aa5785a9cfd2bc0f5217",
+        "source_member": "xl/media/image161.png",
+        "original_link": "NULL"
+      }
+    ],
+    "147": [
+      {
+        "path": "images/workbook/681ebc41d019e0db5ed1b0a3e3d3cfb5f70ce24ec78fc3bcd455e1fef99fb74e.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E147",
+        "width": 267,
+        "height": 267,
+        "sha256": "681ebc41d019e0db5ed1b0a3e3d3cfb5f70ce24ec78fc3bcd455e1fef99fb74e",
+        "source_member": "xl/media/image162.png",
+        "original_link": "NULL"
+      }
+    ],
+    "148": [
+      {
+        "path": "images/workbook/cf3236ba23e7fd0016e0da96baff9dc1479d4d629ffd2c063c031340daca2577.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E148",
+        "width": 267,
+        "height": 267,
+        "sha256": "cf3236ba23e7fd0016e0da96baff9dc1479d4d629ffd2c063c031340daca2577",
+        "source_member": "xl/media/image163.png",
+        "original_link": "NULL"
+      }
+    ],
+    "149": [
+      {
+        "path": "images/workbook/711894d1127708224b1da2ebde2abf892e6b41e78eb7623d94f169a135415b9a.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E149",
+        "width": 267,
+        "height": 267,
+        "sha256": "711894d1127708224b1da2ebde2abf892e6b41e78eb7623d94f169a135415b9a",
+        "source_member": "xl/media/image164.png",
+        "original_link": "NULL"
+      }
+    ],
+    "150": [
+      {
+        "path": "images/workbook/77145caf6f754438c5296a3e80b073da556f76a1fdd0b15d04c2187c61e18cda.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E150",
+        "width": 267,
+        "height": 267,
+        "sha256": "77145caf6f754438c5296a3e80b073da556f76a1fdd0b15d04c2187c61e18cda",
+        "source_member": "xl/media/image165.png",
+        "original_link": "NULL"
+      }
+    ],
+    "151": [
+      {
+        "path": "images/workbook/1c019b70ea516dc1d688f6da67cbdbde802a28ffe6fe20f0eb29195b6afcf516.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E151",
+        "width": 267,
+        "height": 267,
+        "sha256": "1c019b70ea516dc1d688f6da67cbdbde802a28ffe6fe20f0eb29195b6afcf516",
+        "source_member": "xl/media/image166.png",
+        "original_link": "NULL"
+      }
+    ],
+    "152": [
+      {
+        "path": "images/workbook/6fcdd26574e235e7a061b7e45ed92bc04d8ee0ccc2bcbe551ed18c6c6e930566.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E152",
+        "width": 267,
+        "height": 267,
+        "sha256": "6fcdd26574e235e7a061b7e45ed92bc04d8ee0ccc2bcbe551ed18c6c6e930566",
+        "source_member": "xl/media/image167.png",
+        "original_link": "NULL"
+      }
+    ],
+    "153": [
+      {
+        "path": "images/workbook/711b6409cd2f1cc812e7c1919f6b09cbc9c15092a9a7f73552b95ddc25ed0294.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E153",
+        "width": 267,
+        "height": 267,
+        "sha256": "711b6409cd2f1cc812e7c1919f6b09cbc9c15092a9a7f73552b95ddc25ed0294",
+        "source_member": "xl/media/image168.png",
+        "original_link": "NULL"
+      }
+    ],
+    "154": [
+      {
+        "path": "images/workbook/9656671438447708e805a4e307088e4ca597eec62948edb1dacd77b3b095be62.png",
+        "source_column": "HSC",
+        "anchor_cell": "D154",
+        "width": 267,
+        "height": 267,
+        "sha256": "9656671438447708e805a4e307088e4ca597eec62948edb1dacd77b3b095be62",
+        "source_member": "xl/media/image169.png",
+        "original_link": "NULL"
+      },
+      {
+        "path": "images/workbook/c5f59faf06133afd41a67e8b1ba6438af08698b45607f37e416f2b0886aae101.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E154",
+        "width": 267,
+        "height": 267,
+        "sha256": "c5f59faf06133afd41a67e8b1ba6438af08698b45607f37e416f2b0886aae101",
+        "source_member": "xl/media/image170.png",
+        "original_link": "NULL"
+      }
+    ],
+    "155": [
+      {
+        "path": "images/workbook/a5ba547dba5609a0218b327616fa3c4b1998b0c9c6706ba1a73eb7c604862639.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E155",
+        "width": 267,
+        "height": 267,
+        "sha256": "a5ba547dba5609a0218b327616fa3c4b1998b0c9c6706ba1a73eb7c604862639",
+        "source_member": "xl/media/image171.png",
+        "original_link": "NULL"
+      }
+    ],
+    "156": [
+      {
+        "path": "images/workbook/06ccdc124a2b5f4951577e514b5398e895aa54897d0d28339027bae65452a7e4.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E156",
+        "width": 267,
+        "height": 267,
+        "sha256": "06ccdc124a2b5f4951577e514b5398e895aa54897d0d28339027bae65452a7e4",
+        "source_member": "xl/media/image172.png",
+        "original_link": "NULL"
+      }
+    ],
+    "157": [
+      {
+        "path": "images/workbook/32b3ad07154d173644bad703478fd298619c863418b184c9b3a6f103f9b950e3.png",
+        "source_column": "HSC",
+        "anchor_cell": "D157",
+        "width": 267,
+        "height": 267,
+        "sha256": "32b3ad07154d173644bad703478fd298619c863418b184c9b3a6f103f9b950e3",
+        "source_member": "xl/media/image173.png",
+        "original_link": "NULL"
+      },
+      {
+        "path": "images/workbook/2b8b8fb2b4ff71c9c7de316c6985ea88954d76310963c7107d6960cc93963dae.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E157",
+        "width": 267,
+        "height": 267,
+        "sha256": "2b8b8fb2b4ff71c9c7de316c6985ea88954d76310963c7107d6960cc93963dae",
+        "source_member": "xl/media/image174.png",
+        "original_link": "NULL"
+      }
+    ],
+    "158": [
+      {
+        "path": "images/workbook/7d398e87a9e30855664b5c284c9db0db838c27daf007209b2cd9132501b2ef13.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E158",
+        "width": 267,
+        "height": 267,
+        "sha256": "7d398e87a9e30855664b5c284c9db0db838c27daf007209b2cd9132501b2ef13",
+        "source_member": "xl/media/image175.png",
+        "original_link": "NULL"
+      }
+    ],
+    "159": [
+      {
+        "path": "images/workbook/9f82767a7de8ebc8b45ecd3cc63c90690a1bf2fcf1d6c1b2b1b06dcd4a67e2ae.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E159",
+        "width": 267,
+        "height": 267,
+        "sha256": "9f82767a7de8ebc8b45ecd3cc63c90690a1bf2fcf1d6c1b2b1b06dcd4a67e2ae",
+        "source_member": "xl/media/image176.png",
+        "original_link": "NULL"
+      }
+    ],
+    "160": [
+      {
+        "path": "images/workbook/c15d116baa6f73885f998f83a2e64848e91a9e7a92bddbbbfb5d35b5e22dbc18.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E160",
+        "width": 267,
+        "height": 267,
+        "sha256": "c15d116baa6f73885f998f83a2e64848e91a9e7a92bddbbbfb5d35b5e22dbc18",
+        "source_member": "xl/media/image177.png",
+        "original_link": "NULL"
+      }
+    ],
+    "161": [
+      {
+        "path": "images/workbook/978b11767bc553416d67655b729c2247917d613c3842bd3c08e5ff352ffb99bb.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E161",
+        "width": 267,
+        "height": 267,
+        "sha256": "978b11767bc553416d67655b729c2247917d613c3842bd3c08e5ff352ffb99bb",
+        "source_member": "xl/media/image178.png",
+        "original_link": "NULL"
+      }
+    ],
+    "162": [
+      {
+        "path": "images/workbook/768c1c0612fac5306fe0ad4a1a17673e989f321c07f79cb9ab8e0c66de51c1ed.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E162",
+        "width": 267,
+        "height": 267,
+        "sha256": "768c1c0612fac5306fe0ad4a1a17673e989f321c07f79cb9ab8e0c66de51c1ed",
+        "source_member": "xl/media/image179.png",
+        "original_link": "NULL"
+      }
+    ],
+    "163": [
+      {
+        "path": "images/workbook/903ef1049e0cbb567b003261d4b7345e1a4c0a62d484d2a4785cf76e97f9784f.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E163",
+        "width": 267,
+        "height": 267,
+        "sha256": "903ef1049e0cbb567b003261d4b7345e1a4c0a62d484d2a4785cf76e97f9784f",
+        "source_member": "xl/media/image180.png",
+        "original_link": "NULL"
+      }
+    ],
+    "164": [
+      {
+        "path": "images/workbook/7d668e43ebaf205cea6ce688ec2b9893bd9a7c97414e62815b092a31f6efc585.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E164",
+        "width": 267,
+        "height": 267,
+        "sha256": "7d668e43ebaf205cea6ce688ec2b9893bd9a7c97414e62815b092a31f6efc585",
+        "source_member": "xl/media/image181.png",
+        "original_link": "NULL"
+      }
+    ],
+    "165": [
+      {
+        "path": "images/workbook/43bcf2a3dd26eef82070c6319893ac6288ba845b106503c4af43ff2f4c64d2fb.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E165",
+        "width": 267,
+        "height": 267,
+        "sha256": "43bcf2a3dd26eef82070c6319893ac6288ba845b106503c4af43ff2f4c64d2fb",
+        "source_member": "xl/media/image182.png",
+        "original_link": "NULL"
+      },
+      {
+        "path": "images/workbook/6c72b275051868b19f4982043880c802967386ac7d655dd8dac6433b8409c65c.png",
+        "source_column": "paper image",
+        "anchor_cell": "F165",
+        "width": 1122,
+        "height": 1122,
+        "sha256": "6c72b275051868b19f4982043880c802967386ac7d655dd8dac6433b8409c65c",
+        "source_member": "xl/media/image183.png",
+        "original_link": "NULL"
+      }
+    ],
+    "166": [
+      {
+        "path": "images/workbook/37df8d2041d858e01bef0be6e14206e8756db2dc94d5e209b4d6177754b01913.png",
+        "source_column": "paper image",
+        "anchor_cell": "F166",
+        "width": 867,
+        "height": 867,
+        "sha256": "37df8d2041d858e01bef0be6e14206e8756db2dc94d5e209b4d6177754b01913",
+        "source_member": "xl/media/image184.png",
+        "original_link": "NULL"
+      }
+    ],
+    "167": [
+      {
+        "path": "images/workbook/b75a0ca9b29292793c0b5ecf088695e1e2093310f9e52b4f1c0fd157f9edd4a9.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E167",
+        "width": 267,
+        "height": 267,
+        "sha256": "b75a0ca9b29292793c0b5ecf088695e1e2093310f9e52b4f1c0fd157f9edd4a9",
+        "source_member": "xl/media/image185.png",
+        "original_link": "NULL"
+      }
+    ],
+    "168": [
+      {
+        "path": "images/workbook/5c2b4e2e5da7618d18383042d5c855fc1cab12910755846944d7346ce2964994.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E168",
+        "width": 267,
+        "height": 267,
+        "sha256": "5c2b4e2e5da7618d18383042d5c855fc1cab12910755846944d7346ce2964994",
+        "source_member": "xl/media/image186.png",
+        "original_link": "NULL"
+      }
+    ],
+    "169": [
+      {
+        "path": "images/workbook/8ff07f8459fe973944b4cfa2b186927423c11699fc86c8ea9d2f238251331f0e.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E169",
+        "width": 267,
+        "height": 267,
+        "sha256": "8ff07f8459fe973944b4cfa2b186927423c11699fc86c8ea9d2f238251331f0e",
+        "source_member": "xl/media/image187.png",
+        "original_link": "NULL"
+      }
+    ],
+    "170": [
+      {
+        "path": "images/workbook/56641633d1491aece6166c407c7b093cfc4bbcd5b7ad9c3d5bb024dc4b476bb8.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E170",
+        "width": 267,
+        "height": 267,
+        "sha256": "56641633d1491aece6166c407c7b093cfc4bbcd5b7ad9c3d5bb024dc4b476bb8",
+        "source_member": "xl/media/image188.png",
+        "original_link": "NULL"
+      }
+    ],
+    "171": [
+      {
+        "path": "images/workbook/35358128641e6ac2d461853b1f577d8a8aea58b5d21906dfeaa4d1af3dd30736.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E171",
+        "width": 267,
+        "height": 267,
+        "sha256": "35358128641e6ac2d461853b1f577d8a8aea58b5d21906dfeaa4d1af3dd30736",
+        "source_member": "xl/media/image189.png",
+        "original_link": "NULL"
+      }
+    ],
+    "172": [
+      {
+        "path": "images/workbook/0e42dce5316373622831641472307f8842b7b3e394ae69d438af4fbb82a4c246.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E172",
+        "width": 267,
+        "height": 267,
+        "sha256": "0e42dce5316373622831641472307f8842b7b3e394ae69d438af4fbb82a4c246",
+        "source_member": "xl/media/image190.png",
+        "original_link": "NULL"
+      }
+    ],
+    "173": [
+      {
+        "path": "images/workbook/453d313c7f0e726da21a2a73a2cbfd0d87cc870afeb722bde69211a86a4037bf.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E173",
+        "width": 267,
+        "height": 267,
+        "sha256": "453d313c7f0e726da21a2a73a2cbfd0d87cc870afeb722bde69211a86a4037bf",
+        "source_member": "xl/media/image191.png",
+        "original_link": "NULL"
+      }
+    ],
+    "174": [
+      {
+        "path": "images/workbook/1b028057ad3f9215a90ddaaa00742c0dd56a7ac4031c0429e048b23ee44bbd86.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E174",
+        "width": 267,
+        "height": 267,
+        "sha256": "1b028057ad3f9215a90ddaaa00742c0dd56a7ac4031c0429e048b23ee44bbd86",
+        "source_member": "xl/media/image192.png",
+        "original_link": "NULL"
+      }
+    ],
+    "175": [
+      {
+        "path": "images/workbook/d8ade6a144d6263c6b4026057afa35092257dcd710ab63e85b9807aaffba9369.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E175",
+        "width": 267,
+        "height": 267,
+        "sha256": "d8ade6a144d6263c6b4026057afa35092257dcd710ab63e85b9807aaffba9369",
+        "source_member": "xl/media/image193.png",
+        "original_link": "NULL"
+      }
+    ],
+    "176": [
+      {
+        "path": "images/workbook/e32f09cbc112f23cdb72f74d863b397395526cc4f12027f4a59a2e3e6c87434f.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E176",
+        "width": 267,
+        "height": 267,
+        "sha256": "e32f09cbc112f23cdb72f74d863b397395526cc4f12027f4a59a2e3e6c87434f",
+        "source_member": "xl/media/image194.png",
+        "original_link": "NULL"
+      }
+    ],
+    "177": [
+      {
+        "path": "images/workbook/c5ad48a628c132a1bdad0563632501574d60331cdcebddddbf83d4bff922ea85.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E177",
+        "width": 267,
+        "height": 267,
+        "sha256": "c5ad48a628c132a1bdad0563632501574d60331cdcebddddbf83d4bff922ea85",
+        "source_member": "xl/media/image195.png",
+        "original_link": "NULL"
+      }
+    ],
+    "178": [
+      {
+        "path": "images/workbook/ed11d18a8d05b96b66ee5dcb1a106e3c4a517b078b4a40e5d79e4157f5ab8084.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E178",
+        "width": 267,
+        "height": 267,
+        "sha256": "ed11d18a8d05b96b66ee5dcb1a106e3c4a517b078b4a40e5d79e4157f5ab8084",
+        "source_member": "xl/media/image196.png",
+        "original_link": "NULL"
+      }
+    ],
+    "179": [
+      {
+        "path": "images/workbook/8c7e6bf96e7d0c923c1e1653c71d4928574a4b51d4c145e2a15431e51ad02ce5.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E179",
+        "width": 267,
+        "height": 267,
+        "sha256": "8c7e6bf96e7d0c923c1e1653c71d4928574a4b51d4c145e2a15431e51ad02ce5",
+        "source_member": "xl/media/image197.png",
+        "original_link": "NULL"
+      }
+    ],
+    "180": [
+      {
+        "path": "images/workbook/a859538ae85962c86c252410b72ca8a9279a336214222b5481b851c61c1f2866.png",
+        "source_column": "HSC",
+        "anchor_cell": "D180",
+        "width": 267,
+        "height": 267,
+        "sha256": "a859538ae85962c86c252410b72ca8a9279a336214222b5481b851c61c1f2866",
+        "source_member": "xl/media/image198.png",
+        "original_link": "NULL"
+      },
+      {
+        "path": "images/workbook/fcaae92866a9603b0aebe31d00496ddfa5cd4ae1ebea56c61e832532e2474e8b.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E180",
+        "width": 267,
+        "height": 267,
+        "sha256": "fcaae92866a9603b0aebe31d00496ddfa5cd4ae1ebea56c61e832532e2474e8b",
+        "source_member": "xl/media/image199.png",
+        "original_link": "NULL"
+      }
+    ],
+    "181": [
+      {
+        "path": "images/workbook/8032722781270be870770552ccd8a0cf9d8f9a3f165837e4515c206aaaaae0bc.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E181",
+        "width": 267,
+        "height": 267,
+        "sha256": "8032722781270be870770552ccd8a0cf9d8f9a3f165837e4515c206aaaaae0bc",
+        "source_member": "xl/media/image200.png",
+        "original_link": "NULL"
+      }
+    ],
+    "182": [
+      {
+        "path": "images/workbook/7dc1bdba217109cbc3091fdca13ca3b5cf53c582e4005d6ba16c61df2c55123a.png",
+        "source_column": "HSC",
+        "anchor_cell": "D182",
+        "width": 267,
+        "height": 267,
+        "sha256": "7dc1bdba217109cbc3091fdca13ca3b5cf53c582e4005d6ba16c61df2c55123a",
+        "source_member": "xl/media/image201.png",
+        "original_link": "NULL"
+      },
+      {
+        "path": "images/workbook/3f2ec71aaf72a7c01b431714f6dd3a7afb061e5da415d1fc5f9f38c51786de64.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E182",
+        "width": 267,
+        "height": 267,
+        "sha256": "3f2ec71aaf72a7c01b431714f6dd3a7afb061e5da415d1fc5f9f38c51786de64",
+        "source_member": "xl/media/image202.png",
+        "original_link": "NULL"
+      }
+    ],
+    "183": [
+      {
+        "path": "images/workbook/d4b888b4dd85c78053f8a8a1ddd03b480ec5519bbe8d56886a76c91563784fcd.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E183",
+        "width": 267,
+        "height": 267,
+        "sha256": "d4b888b4dd85c78053f8a8a1ddd03b480ec5519bbe8d56886a76c91563784fcd",
+        "source_member": "xl/media/image203.png",
+        "original_link": "NULL"
+      }
+    ],
+    "184": [
+      {
+        "path": "images/workbook/d931019891e796205b4221e952445b54f3aa9eb9e2e8efeac8c3bf8690d953c9.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E184",
+        "width": 267,
+        "height": 267,
+        "sha256": "d931019891e796205b4221e952445b54f3aa9eb9e2e8efeac8c3bf8690d953c9",
+        "source_member": "xl/media/image204.png",
+        "original_link": "NULL"
+      }
+    ],
+    "185": [
+      {
+        "path": "images/workbook/3640251aaf0fa980d62a0d02c1a2912c2add85b1536eb5210b90820cd6db0a4b.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E185",
+        "width": 267,
+        "height": 267,
+        "sha256": "3640251aaf0fa980d62a0d02c1a2912c2add85b1536eb5210b90820cd6db0a4b",
+        "source_member": "xl/media/image205.png",
+        "original_link": "NULL"
+      }
+    ],
+    "186": [
+      {
+        "path": "images/workbook/e37ee9c8ecf305158d146e2117f9f017c18a4f6363447e19c8db12d908e6ebd6.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E186",
+        "width": 267,
+        "height": 267,
+        "sha256": "e37ee9c8ecf305158d146e2117f9f017c18a4f6363447e19c8db12d908e6ebd6",
+        "source_member": "xl/media/image206.png",
+        "original_link": "NULL"
+      }
+    ],
+    "187": [
+      {
+        "path": "images/workbook/ae8a47c0282a9424961ef886db69ac52890fd4b85485725af412f1d953710f00.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E187",
+        "width": 267,
+        "height": 267,
+        "sha256": "ae8a47c0282a9424961ef886db69ac52890fd4b85485725af412f1d953710f00",
+        "source_member": "xl/media/image207.png",
+        "original_link": "NULL"
+      }
+    ],
+    "188": [
+      {
+        "path": "images/workbook/915ccdd0257060af9671782ef74f263ff3ffd8cbcfcfbf06d094bc9474ed775e.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E188",
+        "width": 267,
+        "height": 267,
+        "sha256": "915ccdd0257060af9671782ef74f263ff3ffd8cbcfcfbf06d094bc9474ed775e",
+        "source_member": "xl/media/image208.png",
+        "original_link": "NULL"
+      }
+    ],
+    "189": [
+      {
+        "path": "images/workbook/aae06f020d8f8404cc73a4c4e4448c84892fcfaffc7bb7438580f566065d50e6.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E189",
+        "width": 267,
+        "height": 267,
+        "sha256": "aae06f020d8f8404cc73a4c4e4448c84892fcfaffc7bb7438580f566065d50e6",
+        "source_member": "xl/media/image209.png",
+        "original_link": "NULL"
+      }
+    ],
+    "190": [
+      {
+        "path": "images/workbook/765af4164f88df3c1db774c1b7ce0767e081ac0c581899c2171dd9d2f0e6ecf0.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E190",
+        "width": 267,
+        "height": 267,
+        "sha256": "765af4164f88df3c1db774c1b7ce0767e081ac0c581899c2171dd9d2f0e6ecf0",
+        "source_member": "xl/media/image210.png",
+        "original_link": "NULL"
+      }
+    ],
+    "191": [
+      {
+        "path": "images/workbook/3f132ede37620fcb7132ea05e141940649c02d50fac1cc3702e659e512c27dd0.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E191",
+        "width": 267,
+        "height": 267,
+        "sha256": "3f132ede37620fcb7132ea05e141940649c02d50fac1cc3702e659e512c27dd0",
+        "source_member": "xl/media/image211.png",
+        "original_link": "NULL"
+      }
+    ],
+    "192": [
+      {
+        "path": "images/workbook/d51d7dd43434296383d351b993ea0f975ac21e7cabad6aec4bc6f48bb780ee36.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E192",
+        "width": 267,
+        "height": 267,
+        "sha256": "d51d7dd43434296383d351b993ea0f975ac21e7cabad6aec4bc6f48bb780ee36",
+        "source_member": "xl/media/image212.png",
+        "original_link": "NULL"
+      }
+    ],
+    "193": [
+      {
+        "path": "images/workbook/9b6353a2163098c6098238c249525d454bd8e00ad231b03ca4b34e913b43d4e1.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E193",
+        "width": 267,
+        "height": 267,
+        "sha256": "9b6353a2163098c6098238c249525d454bd8e00ad231b03ca4b34e913b43d4e1",
+        "source_member": "xl/media/image213.png",
+        "original_link": "NULL"
+      }
+    ],
+    "194": [
+      {
+        "path": "images/workbook/df46d51f291f3fb07ebad6333cda4ced62372a27475d3e29844053c7f8fad291.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E194",
+        "width": 267,
+        "height": 267,
+        "sha256": "df46d51f291f3fb07ebad6333cda4ced62372a27475d3e29844053c7f8fad291",
+        "source_member": "xl/media/image214.png",
+        "original_link": "NULL"
+      }
+    ],
+    "195": [
+      {
+        "path": "images/workbook/d7228283c369dfff8a93d66948888bf88d5c02d6384af3c053b81b797fd1cfa2.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E195",
+        "width": 267,
+        "height": 267,
+        "sha256": "d7228283c369dfff8a93d66948888bf88d5c02d6384af3c053b81b797fd1cfa2",
+        "source_member": "xl/media/image215.png",
+        "original_link": "NULL"
+      }
+    ],
+    "196": [
+      {
+        "path": "images/workbook/b4fa923ad48122a93e3126e7a736f121b58e479201182ed8331b3fb18cd12f0c.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E196",
+        "width": 267,
+        "height": 267,
+        "sha256": "b4fa923ad48122a93e3126e7a736f121b58e479201182ed8331b3fb18cd12f0c",
+        "source_member": "xl/media/image216.png",
+        "original_link": "NULL"
+      }
+    ],
+    "197": [
+      {
+        "path": "images/workbook/c2880a3246342705bbff80d2ce07bfeff29a6ab072fab38db1ec0c9d12c2e00e.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E197",
+        "width": 267,
+        "height": 267,
+        "sha256": "c2880a3246342705bbff80d2ce07bfeff29a6ab072fab38db1ec0c9d12c2e00e",
+        "source_member": "xl/media/image217.png",
+        "original_link": "NULL"
+      }
+    ],
+    "198": [
+      {
+        "path": "images/workbook/80bb4aff296508967f8ba9df5747de603bdc6f065b7b393c4c0e34eabc816644.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E198",
+        "width": 267,
+        "height": 267,
+        "sha256": "80bb4aff296508967f8ba9df5747de603bdc6f065b7b393c4c0e34eabc816644",
+        "source_member": "xl/media/image218.png",
+        "original_link": "NULL"
+      }
+    ],
+    "199": [
+      {
+        "path": "images/workbook/3e072a84ad2a667f6a3cb66674512b8982cf5fbdab5b1820a53aefbf060c829e.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E199",
+        "width": 267,
+        "height": 267,
+        "sha256": "3e072a84ad2a667f6a3cb66674512b8982cf5fbdab5b1820a53aefbf060c829e",
+        "source_member": "xl/media/image219.png",
+        "original_link": "NULL"
+      }
+    ],
+    "200": [
+      {
+        "path": "images/workbook/bfb5759df72718a0187e84ffa574d9d65567567f4815eff74c44f5d0e4cd8fc5.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E200",
+        "width": 267,
+        "height": 267,
+        "sha256": "bfb5759df72718a0187e84ffa574d9d65567567f4815eff74c44f5d0e4cd8fc5",
+        "source_member": "xl/media/image220.png",
+        "original_link": "NULL"
+      }
+    ],
+    "201": [
+      {
+        "path": "images/workbook/559babf7bb0d9b0b920c148702efaeb7c21e31f503e8f759837554ab57fd0160.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E201",
+        "width": 267,
+        "height": 267,
+        "sha256": "559babf7bb0d9b0b920c148702efaeb7c21e31f503e8f759837554ab57fd0160",
+        "source_member": "xl/media/image221.png",
+        "original_link": "NULL"
+      }
+    ],
+    "202": [
+      {
+        "path": "images/workbook/e9242cd517d4c8b7b1d9d0d52be5c0f8d1c1c371aff9b36cc4f7cd6f29772915.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E202",
+        "width": 267,
+        "height": 267,
+        "sha256": "e9242cd517d4c8b7b1d9d0d52be5c0f8d1c1c371aff9b36cc4f7cd6f29772915",
+        "source_member": "xl/media/image222.png",
+        "original_link": "NULL"
+      }
+    ],
+    "203": [
+      {
+        "path": "images/workbook/9afb81aff9b0efcc2c40830d100cffbb5b536af6a669cb2c608df25b7a8b807e.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E203",
+        "width": 267,
+        "height": 267,
+        "sha256": "9afb81aff9b0efcc2c40830d100cffbb5b536af6a669cb2c608df25b7a8b807e",
+        "source_member": "xl/media/image223.png",
+        "original_link": "NULL"
+      }
+    ],
+    "204": [
+      {
+        "path": "images/workbook/9bb7c72741745a593df6690d00dc69161199456b7da1ed916862df83556522e9.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E204",
+        "width": 267,
+        "height": 267,
+        "sha256": "9bb7c72741745a593df6690d00dc69161199456b7da1ed916862df83556522e9",
+        "source_member": "xl/media/image224.png",
+        "original_link": "NULL"
+      }
+    ],
+    "205": [
+      {
+        "path": "images/workbook/a9e2e324ade670af4cb95a35ac8945b58035df045f0a6d5d42a0d2d3f2531960.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E205",
+        "width": 267,
+        "height": 267,
+        "sha256": "a9e2e324ade670af4cb95a35ac8945b58035df045f0a6d5d42a0d2d3f2531960",
+        "source_member": "xl/media/image225.png",
+        "original_link": "NULL"
+      }
+    ],
+    "206": [
+      {
+        "path": "images/workbook/69fef6d0fb097f1e37492abae6cd466618fd8b147af232b7788b17310562ed9c.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E206",
+        "width": 267,
+        "height": 267,
+        "sha256": "69fef6d0fb097f1e37492abae6cd466618fd8b147af232b7788b17310562ed9c",
+        "source_member": "xl/media/image226.png",
+        "original_link": "NULL"
+      }
+    ],
+    "207": [
+      {
+        "path": "images/workbook/cfdbe33cbc937c218810cc094f5cf3b19c3bf631127a30ff9cbb969d93f66be8.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E207",
+        "width": 267,
+        "height": 267,
+        "sha256": "cfdbe33cbc937c218810cc094f5cf3b19c3bf631127a30ff9cbb969d93f66be8",
+        "source_member": "xl/media/image227.png",
+        "original_link": "NULL"
+      }
+    ],
+    "208": [
+      {
+        "path": "images/workbook/61378c5c73de493ea9964b7cbba770898fb622967e9045ecd2279455536b7d2c.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E208",
+        "width": 267,
+        "height": 267,
+        "sha256": "61378c5c73de493ea9964b7cbba770898fb622967e9045ecd2279455536b7d2c",
+        "source_member": "xl/media/image228.png",
+        "original_link": "NULL"
+      }
+    ],
+    "209": [
+      {
+        "path": "images/workbook/2b551b1333f650d2bfdd589c1ef70fb0a9e2c9dd086378404e3f91b727deb7bd.png",
+        "source_column": "HSC",
+        "anchor_cell": "D209",
+        "width": 267,
+        "height": 267,
+        "sha256": "2b551b1333f650d2bfdd589c1ef70fb0a9e2c9dd086378404e3f91b727deb7bd",
+        "source_member": "xl/media/image229.png",
+        "original_link": "NULL"
+      },
+      {
+        "path": "images/workbook/ca610e94b9eac5bb8048472fa31552da04c275920704e14a547cc73042ed83b4.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E209",
+        "width": 267,
+        "height": 267,
+        "sha256": "ca610e94b9eac5bb8048472fa31552da04c275920704e14a547cc73042ed83b4",
+        "source_member": "xl/media/image230.png",
+        "original_link": "NULL"
+      }
+    ],
+    "210": [
+      {
+        "path": "images/workbook/9be122b6202ce56d33f343a908f2b3bf9b890b50fe2ca9da93c31ca9e71b54b6.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E210",
+        "width": 267,
+        "height": 267,
+        "sha256": "9be122b6202ce56d33f343a908f2b3bf9b890b50fe2ca9da93c31ca9e71b54b6",
+        "source_member": "xl/media/image231.png",
+        "original_link": "NULL"
+      }
+    ],
+    "211": [
+      {
+        "path": "images/workbook/88119f70c3f464f4afb540c9c2979cbad3faf424d2c35278594f187e87a275c5.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E211",
+        "width": 267,
+        "height": 267,
+        "sha256": "88119f70c3f464f4afb540c9c2979cbad3faf424d2c35278594f187e87a275c5",
+        "source_member": "xl/media/image232.png",
+        "original_link": "NULL"
+      }
+    ],
+    "212": [
+      {
+        "path": "images/workbook/5a58aec875012f77beb9142ea70cf0c563b8938b0ae4ee4aca9078b2704b56a6.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E212",
+        "width": 267,
+        "height": 267,
+        "sha256": "5a58aec875012f77beb9142ea70cf0c563b8938b0ae4ee4aca9078b2704b56a6",
+        "source_member": "xl/media/image233.png",
+        "original_link": "NULL"
+      }
+    ],
+    "213": [
+      {
+        "path": "images/workbook/788dd74df4de59f3f5fada328965dc29b1abd8ae1bbda53a266840fe0496118d.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E213",
+        "width": 267,
+        "height": 267,
+        "sha256": "788dd74df4de59f3f5fada328965dc29b1abd8ae1bbda53a266840fe0496118d",
+        "source_member": "xl/media/image234.png",
+        "original_link": "NULL"
+      }
+    ],
+    "214": [
+      {
+        "path": "images/workbook/2b7a0a922bbe8a0de4f0a1f780f3ec44a0ea308341a48d206adbce928e7a04dd.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E214",
+        "width": 267,
+        "height": 267,
+        "sha256": "2b7a0a922bbe8a0de4f0a1f780f3ec44a0ea308341a48d206adbce928e7a04dd",
+        "source_member": "xl/media/image235.png",
+        "original_link": "NULL"
+      }
+    ],
+    "215": [
+      {
+        "path": "images/workbook/e9e7ac7a8fd660fbaf92fe6ec845e34d9da30ca3e80f64493fb5dc7a04840d1e.png",
+        "source_column": "HSC",
+        "anchor_cell": "D215",
+        "width": 267,
+        "height": 267,
+        "sha256": "e9e7ac7a8fd660fbaf92fe6ec845e34d9da30ca3e80f64493fb5dc7a04840d1e",
+        "source_member": "xl/media/image236.png",
+        "original_link": "NULL"
+      },
+      {
+        "path": "images/workbook/c948fff497f9cff82da979443edf5394f13383fbae70afad5f1961501df1ed62.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E215",
+        "width": 267,
+        "height": 267,
+        "sha256": "c948fff497f9cff82da979443edf5394f13383fbae70afad5f1961501df1ed62",
+        "source_member": "xl/media/image237.png",
+        "original_link": "NULL"
+      }
+    ],
+    "216": [
+      {
+        "path": "images/workbook/c40af3e971f1000a449d5e813ec5d4630b40ae6a3d64ab8613488e14d51ba83c.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E216",
+        "width": 267,
+        "height": 267,
+        "sha256": "c40af3e971f1000a449d5e813ec5d4630b40ae6a3d64ab8613488e14d51ba83c",
+        "source_member": "xl/media/image238.png",
+        "original_link": "NULL"
+      }
+    ],
+    "217": [
+      {
+        "path": "images/workbook/5a61e7ca9bcf7dce86a06a5d9a6db7395e8e6a4d6d13d4e0e1c7c9d927e9652e.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E217",
+        "width": 267,
+        "height": 267,
+        "sha256": "5a61e7ca9bcf7dce86a06a5d9a6db7395e8e6a4d6d13d4e0e1c7c9d927e9652e",
+        "source_member": "xl/media/image239.png",
+        "original_link": "NULL"
+      }
+    ],
+    "218": [
+      {
+        "path": "images/workbook/977afc61e532897c2e9106bfbd43b0d5e9c395749e7db036a00c0b8e7886b510.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E218",
+        "width": 267,
+        "height": 267,
+        "sha256": "977afc61e532897c2e9106bfbd43b0d5e9c395749e7db036a00c0b8e7886b510",
+        "source_member": "xl/media/image240.png",
+        "original_link": "NULL"
+      }
+    ],
+    "219": [
+      {
+        "path": "images/workbook/b6103ac0562c8f400e006ca6b7a0781189d566fdd4b84b4862571b2597c3f883.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E219",
+        "width": 267,
+        "height": 267,
+        "sha256": "b6103ac0562c8f400e006ca6b7a0781189d566fdd4b84b4862571b2597c3f883",
+        "source_member": "xl/media/image241.png",
+        "original_link": "NULL"
+      }
+    ],
+    "220": [
+      {
+        "path": "images/workbook/7590de8e96de77604cde62c3a2cb169db65fe5f942a471b13b65a7380fd5ea6a.png",
+        "source_column": "HSC",
+        "anchor_cell": "D220",
+        "width": 267,
+        "height": 267,
+        "sha256": "7590de8e96de77604cde62c3a2cb169db65fe5f942a471b13b65a7380fd5ea6a",
+        "source_member": "xl/media/image242.png",
+        "original_link": "NULL"
+      },
+      {
+        "path": "images/workbook/692d0437b7231858b5eb1dcf27d1b8ab2d08b833be314622e47f4ccc80be6226.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E220",
+        "width": 267,
+        "height": 267,
+        "sha256": "692d0437b7231858b5eb1dcf27d1b8ab2d08b833be314622e47f4ccc80be6226",
+        "source_member": "xl/media/image243.png",
+        "original_link": "NULL"
+      }
+    ],
+    "221": [
+      {
+        "path": "images/workbook/2c0d33b1044a258de19a731f0be106932d609adfc3b62f290294741a5b9ac816.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E221",
+        "width": 267,
+        "height": 267,
+        "sha256": "2c0d33b1044a258de19a731f0be106932d609adfc3b62f290294741a5b9ac816",
+        "source_member": "xl/media/image244.png",
+        "original_link": "NULL"
+      }
+    ],
+    "222": [
+      {
+        "path": "images/workbook/72545c14d86bb16bd1cbeacbae817c7731f8473defbad8308b19a0bf7b31e7cd.png",
+        "source_column": "HSC",
+        "anchor_cell": "D222",
+        "width": 267,
+        "height": 267,
+        "sha256": "72545c14d86bb16bd1cbeacbae817c7731f8473defbad8308b19a0bf7b31e7cd",
+        "source_member": "xl/media/image245.png",
+        "original_link": "NULL"
+      },
+      {
+        "path": "images/workbook/e54e2029130d9aa2d4c5c2a3d4d637f6ad05d4414236dac05e3b3ce9bcf9ba3b.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E222",
+        "width": 267,
+        "height": 267,
+        "sha256": "e54e2029130d9aa2d4c5c2a3d4d637f6ad05d4414236dac05e3b3ce9bcf9ba3b",
+        "source_member": "xl/media/image246.png",
+        "original_link": "NULL"
+      }
+    ],
+    "223": [
+      {
+        "path": "images/workbook/1b93b52484a653ef7e40addf8b53ef5825e65c87efec1cb17cc521664ae66283.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E223",
+        "width": 267,
+        "height": 267,
+        "sha256": "1b93b52484a653ef7e40addf8b53ef5825e65c87efec1cb17cc521664ae66283",
+        "source_member": "xl/media/image247.png",
+        "original_link": "NULL"
+      }
+    ],
+    "224": [
+      {
+        "path": "images/workbook/3022ae501b4aded010860cf5152406dd9d3fdfcaf9a5086cf164be6ce002753f.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E224",
+        "width": 267,
+        "height": 267,
+        "sha256": "3022ae501b4aded010860cf5152406dd9d3fdfcaf9a5086cf164be6ce002753f",
+        "source_member": "xl/media/image248.png",
+        "original_link": "NULL"
+      }
+    ],
+    "225": [
+      {
+        "path": "images/workbook/6e4df7e44a100ed1c45c56caffe2e62ef35616f0c76aa2104f3d8215a3a59db2.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E225",
+        "width": 267,
+        "height": 267,
+        "sha256": "6e4df7e44a100ed1c45c56caffe2e62ef35616f0c76aa2104f3d8215a3a59db2",
+        "source_member": "xl/media/image249.png",
+        "original_link": "NULL"
+      }
+    ],
+    "226": [
+      {
+        "path": "images/workbook/449e787827e1bb7450edd1231ec2c12b15250e8ff5a30e7c691c5544939f4874.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E226",
+        "width": 267,
+        "height": 267,
+        "sha256": "449e787827e1bb7450edd1231ec2c12b15250e8ff5a30e7c691c5544939f4874",
+        "source_member": "xl/media/image250.png",
+        "original_link": "NULL"
+      }
+    ],
+    "227": [
+      {
+        "path": "images/workbook/eace9aad1827dd06003a11a1db84b448986fb3219aae29e7e6299496baa985d1.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E227",
+        "width": 267,
+        "height": 267,
+        "sha256": "eace9aad1827dd06003a11a1db84b448986fb3219aae29e7e6299496baa985d1",
+        "source_member": "xl/media/image251.png",
+        "original_link": "NULL"
+      }
+    ],
+    "228": [
+      {
+        "path": "images/workbook/7c69a2365298e71776fc8bacbbab86be512e92dbe534b4502b4d0cfa2ad6d8e2.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E228",
+        "width": 267,
+        "height": 267,
+        "sha256": "7c69a2365298e71776fc8bacbbab86be512e92dbe534b4502b4d0cfa2ad6d8e2",
+        "source_member": "xl/media/image252.png",
+        "original_link": "NULL"
+      }
+    ],
+    "229": [
+      {
+        "path": "images/workbook/64ab8cf2e22445400906b8b73143936a431ff50b69ea87f90eec4cec22b00d3a.png",
+        "source_column": "HSC",
+        "anchor_cell": "D229",
+        "width": 267,
+        "height": 267,
+        "sha256": "64ab8cf2e22445400906b8b73143936a431ff50b69ea87f90eec4cec22b00d3a",
+        "source_member": "xl/media/image253.png",
+        "original_link": "NULL"
+      },
+      {
+        "path": "images/workbook/0638b5da3abe7984d01f528c8bc172b8298cd7ce6bfb42cdc235a2b2d5bdc89d.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E229",
+        "width": 267,
+        "height": 267,
+        "sha256": "0638b5da3abe7984d01f528c8bc172b8298cd7ce6bfb42cdc235a2b2d5bdc89d",
+        "source_member": "xl/media/image254.png",
+        "original_link": "NULL"
+      }
+    ],
+    "230": [
+      {
+        "path": "images/workbook/3bcb73399721fecd45fdafe28759035e7d67b928683de1b3716595eebda942d6.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E230",
+        "width": 267,
+        "height": 267,
+        "sha256": "3bcb73399721fecd45fdafe28759035e7d67b928683de1b3716595eebda942d6",
+        "source_member": "xl/media/image255.png",
+        "original_link": "NULL"
+      }
+    ],
+    "231": [
+      {
+        "path": "images/workbook/5bbe7736985637567fbea72213b122a34ccc3d7ea72e0fefbab80b19f95aad47.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E231",
+        "width": 267,
+        "height": 267,
+        "sha256": "5bbe7736985637567fbea72213b122a34ccc3d7ea72e0fefbab80b19f95aad47",
+        "source_member": "xl/media/image256.png",
+        "original_link": "NULL"
+      }
+    ],
+    "232": [
+      {
+        "path": "images/workbook/4eb2ad3199f0b72a2963c565563b7d00a9ee6f46db732c6e63cfffb484ca0e02.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E232",
+        "width": 267,
+        "height": 267,
+        "sha256": "4eb2ad3199f0b72a2963c565563b7d00a9ee6f46db732c6e63cfffb484ca0e02",
+        "source_member": "xl/media/image257.png",
+        "original_link": "NULL"
+      }
+    ],
+    "233": [
+      {
+        "path": "images/workbook/60e74a925697b4c014040b0ec2a999100c8370160b945a40946805cd86fb5228.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E233",
+        "width": 267,
+        "height": 267,
+        "sha256": "60e74a925697b4c014040b0ec2a999100c8370160b945a40946805cd86fb5228",
+        "source_member": "xl/media/image258.png",
+        "original_link": "NULL"
+      }
+    ],
+    "234": [
+      {
+        "path": "images/workbook/c4969af0b55dafe340c58df20b797324b8f15da736c8a9bd7536944e250541dc.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E234",
+        "width": 267,
+        "height": 267,
+        "sha256": "c4969af0b55dafe340c58df20b797324b8f15da736c8a9bd7536944e250541dc",
+        "source_member": "xl/media/image259.png",
+        "original_link": "NULL"
+      }
+    ],
+    "235": [
+      {
+        "path": "images/workbook/aaf20d52a006692f2598f1ef511c7e96b8230b8b9e9ef563c02a04b54f638bae.png",
+        "source_column": "paper image",
+        "anchor_cell": "F235",
+        "width": 336,
+        "height": 336,
+        "sha256": "aaf20d52a006692f2598f1ef511c7e96b8230b8b9e9ef563c02a04b54f638bae",
+        "source_member": "xl/media/image260.png",
+        "original_link": "NULL"
+      }
+    ],
+    "236": [
+      {
+        "path": "images/workbook/4fa8d12f831dada0374bd7b677cc29bf93c48a097dd3f8da2ab53917efbd5378.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E236",
+        "width": 267,
+        "height": 267,
+        "sha256": "4fa8d12f831dada0374bd7b677cc29bf93c48a097dd3f8da2ab53917efbd5378",
+        "source_member": "xl/media/image261.png",
+        "original_link": "NULL"
+      }
+    ],
+    "237": [
+      {
+        "path": "images/workbook/93152305679558cdd6f9cdb2cfeab91c45d5014e8bb3be6c90800ebb845b40a7.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E237",
+        "width": 267,
+        "height": 267,
+        "sha256": "93152305679558cdd6f9cdb2cfeab91c45d5014e8bb3be6c90800ebb845b40a7",
+        "source_member": "xl/media/image262.png",
+        "original_link": "NULL"
+      }
+    ],
+    "238": [
+      {
+        "path": "images/workbook/b036948f0660f846cbc7e1938ac45f056dd8ff9e1c683865ac9a332e5d6d3394.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E238",
+        "width": 267,
+        "height": 267,
+        "sha256": "b036948f0660f846cbc7e1938ac45f056dd8ff9e1c683865ac9a332e5d6d3394",
+        "source_member": "xl/media/image263.png",
+        "original_link": "NULL"
+      }
+    ],
+    "239": [
+      {
+        "path": "images/workbook/50c057b8096e23e9863416613d43ecd17b90ee3d7a9c8afb641201cffdf97d69.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E239",
+        "width": 267,
+        "height": 267,
+        "sha256": "50c057b8096e23e9863416613d43ecd17b90ee3d7a9c8afb641201cffdf97d69",
+        "source_member": "xl/media/image264.png",
+        "original_link": "NULL"
+      },
+      {
+        "path": "images/workbook/0ae6cfd88628c9ea42c6beb94df7e5bcd9b04503252c224c8800b5ebf574291e.png",
+        "source_column": "paper image",
+        "anchor_cell": "F239",
+        "width": 483,
+        "height": 483,
+        "sha256": "0ae6cfd88628c9ea42c6beb94df7e5bcd9b04503252c224c8800b5ebf574291e",
+        "source_member": "xl/media/image265.png",
+        "original_link": "NULL"
+      }
+    ],
+    "240": [
+      {
+        "path": "images/workbook/627ff3302b418fb3f1709ea6a803c508bb48b70d45c85d696a548f3a1c8ba94b.png",
+        "source_column": "HSC",
+        "anchor_cell": "D240",
+        "width": 267,
+        "height": 267,
+        "sha256": "627ff3302b418fb3f1709ea6a803c508bb48b70d45c85d696a548f3a1c8ba94b",
+        "source_member": "xl/media/image266.png",
+        "original_link": "NULL"
+      },
+      {
+        "path": "images/workbook/f1f0fae4d4906808ab660a8cdb43c17a42b7d5b853edb2cb5e326902f7c2945f.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E240",
+        "width": 267,
+        "height": 267,
+        "sha256": "f1f0fae4d4906808ab660a8cdb43c17a42b7d5b853edb2cb5e326902f7c2945f",
+        "source_member": "xl/media/image267.png",
+        "original_link": "NULL"
+      }
+    ],
+    "241": [
+      {
+        "path": "images/workbook/23440692d8fecb623ddb1cba9d8f120c81f0513a3a8332ba89a7a5e6e32daa62.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E241",
+        "width": 267,
+        "height": 267,
+        "sha256": "23440692d8fecb623ddb1cba9d8f120c81f0513a3a8332ba89a7a5e6e32daa62",
+        "source_member": "xl/media/image268.png",
+        "original_link": "NULL"
+      }
+    ],
+    "242": [
+      {
+        "path": "images/workbook/05055e89ff72506b2c0227be411509c614c314da4f0daa93cb4baf8245651ed4.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E242",
+        "width": 267,
+        "height": 267,
+        "sha256": "05055e89ff72506b2c0227be411509c614c314da4f0daa93cb4baf8245651ed4",
+        "source_member": "xl/media/image269.png",
+        "original_link": "NULL"
+      }
+    ],
+    "243": [
+      {
+        "path": "images/workbook/d9aec8164d661b215b0e6bb4c673d7c976c54351ae5569b6b4d96b4f8813a11c.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E243",
+        "width": 267,
+        "height": 267,
+        "sha256": "d9aec8164d661b215b0e6bb4c673d7c976c54351ae5569b6b4d96b4f8813a11c",
+        "source_member": "xl/media/image270.png",
+        "original_link": "NULL"
+      }
+    ],
+    "244": [
+      {
+        "path": "images/workbook/06193aeedc757a5f188f8b2499866539ad0a230e7eeb59e83d3920314dd760d5.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E244",
+        "width": 267,
+        "height": 267,
+        "sha256": "06193aeedc757a5f188f8b2499866539ad0a230e7eeb59e83d3920314dd760d5",
+        "source_member": "xl/media/image271.png",
+        "original_link": "NULL"
+      }
+    ],
+    "245": [
+      {
+        "path": "images/workbook/33f6ffd3b2ad8a9f5834113f92409088086c5679a7192f026b07302ce2cfa01f.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E245",
+        "width": 267,
+        "height": 267,
+        "sha256": "33f6ffd3b2ad8a9f5834113f92409088086c5679a7192f026b07302ce2cfa01f",
+        "source_member": "xl/media/image272.png",
+        "original_link": "NULL"
+      }
+    ],
+    "246": [
+      {
+        "path": "images/workbook/fa79b33553c8855305bc22be7aa530243c87d8ff299569ffbfc4dbee7c386f65.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E246",
+        "width": 267,
+        "height": 267,
+        "sha256": "fa79b33553c8855305bc22be7aa530243c87d8ff299569ffbfc4dbee7c386f65",
+        "source_member": "xl/media/image273.png",
+        "original_link": "NULL"
+      }
+    ],
+    "247": [
+      {
+        "path": "images/workbook/ee74ba98263208da82e103a1c00efc8e0570dfb731bdb0de76ccf5d49fc6a27e.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E247",
+        "width": 267,
+        "height": 267,
+        "sha256": "ee74ba98263208da82e103a1c00efc8e0570dfb731bdb0de76ccf5d49fc6a27e",
+        "source_member": "xl/media/image274.png",
+        "original_link": "NULL"
+      }
+    ],
+    "248": [
+      {
+        "path": "images/workbook/8fbb7727dc0cd526a009ff5bd0d177bdbdb6d271afe381896a633b36e42676f0.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E248",
+        "width": 267,
+        "height": 267,
+        "sha256": "8fbb7727dc0cd526a009ff5bd0d177bdbdb6d271afe381896a633b36e42676f0",
+        "source_member": "xl/media/image275.png",
+        "original_link": "NULL"
+      }
+    ],
+    "249": [
+      {
+        "path": "images/workbook/65c190c74a20533f91b28ab820e3fd70884d0cfa69df2dc34f134b499796824c.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E249",
+        "width": 267,
+        "height": 267,
+        "sha256": "65c190c74a20533f91b28ab820e3fd70884d0cfa69df2dc34f134b499796824c",
+        "source_member": "xl/media/image276.png",
+        "original_link": "NULL"
+      }
+    ],
+    "250": [
+      {
+        "path": "images/workbook/5abcd5d28719794918086646727aabe91224fe779332651b103c23425a5a0a01.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E250",
+        "width": 267,
+        "height": 267,
+        "sha256": "5abcd5d28719794918086646727aabe91224fe779332651b103c23425a5a0a01",
+        "source_member": "xl/media/image277.png",
+        "original_link": "NULL"
+      }
+    ],
+    "251": [
+      {
+        "path": "images/workbook/709b4247d14d0dcb1c407ce41bb8b65bb9c768578fbfc9e94c767c4d243919bc.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E251",
+        "width": 267,
+        "height": 267,
+        "sha256": "709b4247d14d0dcb1c407ce41bb8b65bb9c768578fbfc9e94c767c4d243919bc",
+        "source_member": "xl/media/image278.png",
+        "original_link": "NULL"
+      }
+    ],
+    "252": [
+      {
+        "path": "images/workbook/17f5de41cd9f5e2b352d44e8ba3722e0f2fefe8a683a12bba0d2a0fd0e05e984.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E252",
+        "width": 267,
+        "height": 267,
+        "sha256": "17f5de41cd9f5e2b352d44e8ba3722e0f2fefe8a683a12bba0d2a0fd0e05e984",
+        "source_member": "xl/media/image279.png",
+        "original_link": "NULL"
+      }
+    ],
+    "253": [
+      {
+        "path": "images/workbook/9fc8d96d24abd26a6b294ffeb98c968fb3e1b09aae597c1d973525c6a43cd543.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E253",
+        "width": 267,
+        "height": 267,
+        "sha256": "9fc8d96d24abd26a6b294ffeb98c968fb3e1b09aae597c1d973525c6a43cd543",
+        "source_member": "xl/media/image280.png",
+        "original_link": "NULL"
+      }
+    ],
+    "254": [
+      {
+        "path": "images/workbook/f10a345c3e58500a02e2e8f29603c7262beaaf88e9bb6da8e3b34f69542573c2.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E254",
+        "width": 267,
+        "height": 267,
+        "sha256": "f10a345c3e58500a02e2e8f29603c7262beaaf88e9bb6da8e3b34f69542573c2",
+        "source_member": "xl/media/image281.png",
+        "original_link": "NULL"
+      }
+    ],
+    "255": [
+      {
+        "path": "images/workbook/996b922b4fbfbcf64826abe3b71a87672cfd86d9b12e0741e439184e95909c8d.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E255",
+        "width": 267,
+        "height": 267,
+        "sha256": "996b922b4fbfbcf64826abe3b71a87672cfd86d9b12e0741e439184e95909c8d",
+        "source_member": "xl/media/image282.png",
+        "original_link": "NULL"
+      }
+    ],
+    "256": [
+      {
+        "path": "images/workbook/b883cee5ca4eff380dffcdf0dbfbb29055444b3d712cac6421adea6b005b046a.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E256",
+        "width": 267,
+        "height": 267,
+        "sha256": "b883cee5ca4eff380dffcdf0dbfbb29055444b3d712cac6421adea6b005b046a",
+        "source_member": "xl/media/image283.png",
+        "original_link": "NULL"
+      }
+    ],
+    "257": [
+      {
+        "path": "images/workbook/b1419e08e4abed5e5662141868ddd947bd7daa53fc4fa58bd5976a6d238e332c.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E257",
+        "width": 267,
+        "height": 267,
+        "sha256": "b1419e08e4abed5e5662141868ddd947bd7daa53fc4fa58bd5976a6d238e332c",
+        "source_member": "xl/media/image284.png",
+        "original_link": "NULL"
+      }
+    ],
+    "258": [
+      {
+        "path": "images/workbook/1fb70dd5509688404224c6eda2e85fd9d350799e3af7fdc429e6e0cd9658d819.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E258",
+        "width": 267,
+        "height": 267,
+        "sha256": "1fb70dd5509688404224c6eda2e85fd9d350799e3af7fdc429e6e0cd9658d819",
+        "source_member": "xl/media/image285.png",
+        "original_link": "NULL"
+      }
+    ],
+    "259": [
+      {
+        "path": "images/workbook/4e8f733f2cdb4e8fd38a53144d3b91b472dc44c1c66873678ed6ffe5d46a6612.png",
+        "source_column": "paper image",
+        "anchor_cell": "F259",
+        "width": 295,
+        "height": 295,
+        "sha256": "4e8f733f2cdb4e8fd38a53144d3b91b472dc44c1c66873678ed6ffe5d46a6612",
+        "source_member": "xl/media/image286.png",
+        "original_link": "NULL"
+      }
+    ],
+    "260": [
+      {
+        "path": "images/workbook/4aa03464965e8381912b0ba72bf93fba22a8f13cb6cb2ae949562351d0f05a66.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E260",
+        "width": 267,
+        "height": 267,
+        "sha256": "4aa03464965e8381912b0ba72bf93fba22a8f13cb6cb2ae949562351d0f05a66",
+        "source_member": "xl/media/image287.png",
+        "original_link": "NULL"
+      }
+    ],
+    "261": [
+      {
+        "path": "images/workbook/237609f2bdc3c8e64fffa9700d3f246b9f50a4ab5cb46d86545488f385fca755.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E261",
+        "width": 267,
+        "height": 267,
+        "sha256": "237609f2bdc3c8e64fffa9700d3f246b9f50a4ab5cb46d86545488f385fca755",
+        "source_member": "xl/media/image288.png",
+        "original_link": "NULL"
+      }
+    ],
+    "262": [
+      {
+        "path": "images/workbook/25650e75b60fd45987417dc00260ade2ba143505c66856db7b0a977a6a1ed30b.png",
+        "source_column": "paper image",
+        "anchor_cell": "F262",
+        "width": 687,
+        "height": 686,
+        "sha256": "25650e75b60fd45987417dc00260ade2ba143505c66856db7b0a977a6a1ed30b",
+        "source_member": "xl/media/image289.png",
+        "original_link": "NULL"
+      }
+    ],
+    "263": [
+      {
+        "path": "images/workbook/4bf928a186d17df3fd7d19c2acb53760ff4d6963beee3e514672c41f0e01f1af.png",
+        "source_column": "paper image",
+        "anchor_cell": "F263",
+        "width": 903,
+        "height": 903,
+        "sha256": "4bf928a186d17df3fd7d19c2acb53760ff4d6963beee3e514672c41f0e01f1af",
+        "source_member": "xl/media/image290.png",
+        "original_link": "NULL"
+      }
+    ],
+    "264": [
+      {
+        "path": "images/workbook/0eb53d18c07a0050b39df22fa430103aa9eb0b90184b849f66bfad37403068a3.png",
+        "source_column": "paper image",
+        "anchor_cell": "F264",
+        "width": 913,
+        "height": 913,
+        "sha256": "0eb53d18c07a0050b39df22fa430103aa9eb0b90184b849f66bfad37403068a3",
+        "source_member": "xl/media/image291.png",
+        "original_link": "NULL"
+      }
+    ],
+    "265": [
+      {
+        "path": "images/workbook/71fa384725a95887dab72f3afef88d4d47831f19e6665d297857177176ac1226.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E265",
+        "width": 267,
+        "height": 267,
+        "sha256": "71fa384725a95887dab72f3afef88d4d47831f19e6665d297857177176ac1226",
+        "source_member": "xl/media/image292.png",
+        "original_link": "NULL"
+      }
+    ],
+    "266": [
+      {
+        "path": "images/workbook/4538c79be980db041b3bb8af066376b65e47a651803418ed070a8e9feb17cd27.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E266",
+        "width": 267,
+        "height": 267,
+        "sha256": "4538c79be980db041b3bb8af066376b65e47a651803418ed070a8e9feb17cd27",
+        "source_member": "xl/media/image293.png",
+        "original_link": "NULL"
+      }
+    ],
+    "267": [
+      {
+        "path": "images/workbook/98f12143a00c1c523cb42eddcdb9d228dc81a8d53f8b62de3c11f349c7f0dfc1.png",
+        "source_column": "paper image",
+        "anchor_cell": "F267",
+        "width": 295,
+        "height": 295,
+        "sha256": "98f12143a00c1c523cb42eddcdb9d228dc81a8d53f8b62de3c11f349c7f0dfc1",
+        "source_member": "xl/media/image294.png",
+        "original_link": "NULL"
+      }
+    ],
+    "268": [
+      {
+        "path": "images/workbook/0ca4e160af416cc43a4954259ab4e7996c7f84bdfb33896cbc79ad8b265a47ea.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E268",
+        "width": 267,
+        "height": 267,
+        "sha256": "0ca4e160af416cc43a4954259ab4e7996c7f84bdfb33896cbc79ad8b265a47ea",
+        "source_member": "xl/media/image295.png",
+        "original_link": "NULL"
+      },
+      {
+        "path": "images/workbook/6dd80afd74ecdf1202366ba4024c6c03194469b2b725653cd021073f1a55c452.png",
+        "source_column": "paper image",
+        "anchor_cell": "F268",
+        "width": 911,
+        "height": 911,
+        "sha256": "6dd80afd74ecdf1202366ba4024c6c03194469b2b725653cd021073f1a55c452",
+        "source_member": "xl/media/image296.png",
+        "original_link": "NULL"
+      }
+    ],
+    "269": [
+      {
+        "path": "images/workbook/16383f3632de5ba68b44e109ccce8957b00374753d541df677622b562e2292c1.png",
+        "source_column": "paper image",
+        "anchor_cell": "F269",
+        "width": 336,
+        "height": 336,
+        "sha256": "16383f3632de5ba68b44e109ccce8957b00374753d541df677622b562e2292c1",
+        "source_member": "xl/media/image297.png",
+        "original_link": "NULL"
+      }
+    ],
+    "270": [
+      {
+        "path": "images/workbook/f7238d5012c05abcd055114d728cfcb143c65ebdeaedc14ddcc0855bb5e0c304.png",
+        "source_column": "paper image",
+        "anchor_cell": "F270",
+        "width": 289,
+        "height": 289,
+        "sha256": "f7238d5012c05abcd055114d728cfcb143c65ebdeaedc14ddcc0855bb5e0c304",
+        "source_member": "xl/media/image298.png",
+        "original_link": "NULL"
+      }
+    ],
+    "271": [
+      {
+        "path": "images/workbook/087453d6a230a80a8c6b5eb38b1c882b083c978628e6e97945cbbbe704d287e5.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E271",
+        "width": 267,
+        "height": 267,
+        "sha256": "087453d6a230a80a8c6b5eb38b1c882b083c978628e6e97945cbbbe704d287e5",
+        "source_member": "xl/media/image299.png",
+        "original_link": "NULL"
+      }
+    ],
+    "272": [
+      {
+        "path": "images/workbook/458c73caaf6f42bd6596406a809b2608b11b56739691bcb97a008028608aa1b8.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E272",
+        "width": 267,
+        "height": 267,
+        "sha256": "458c73caaf6f42bd6596406a809b2608b11b56739691bcb97a008028608aa1b8",
+        "source_member": "xl/media/image300.png",
+        "original_link": "NULL"
+      }
+    ],
+    "273": [
+      {
+        "path": "images/workbook/c38d17d9803b631e2e3ad81d4a1d40e37adec2e1d8f5229639c8782efb8013f9.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E273",
+        "width": 267,
+        "height": 267,
+        "sha256": "c38d17d9803b631e2e3ad81d4a1d40e37adec2e1d8f5229639c8782efb8013f9",
+        "source_member": "xl/media/image301.png",
+        "original_link": "NULL"
+      }
+    ],
+    "274": [
+      {
+        "path": "images/workbook/363167fdcc38d8cb1565e3c1fcef008d544ee0780f87de81f9ad5261392ae83d.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E274",
+        "width": 267,
+        "height": 267,
+        "sha256": "363167fdcc38d8cb1565e3c1fcef008d544ee0780f87de81f9ad5261392ae83d",
+        "source_member": "xl/media/image302.png",
+        "original_link": "NULL"
+      }
+    ],
+    "275": [
+      {
+        "path": "images/workbook/15060b71902556e9b49aaa668086a0d954b6c21dd30f8555bfaef158cd20243c.png",
+        "source_column": "paper image",
+        "anchor_cell": "F275",
+        "width": 527,
+        "height": 527,
+        "sha256": "15060b71902556e9b49aaa668086a0d954b6c21dd30f8555bfaef158cd20243c",
+        "source_member": "xl/media/image303.png",
+        "original_link": "NULL"
+      }
+    ],
+    "276": [
+      {
+        "path": "images/workbook/2b5aece4914e22de062543be3a68d4fa39d775f46d448618b6a862f0cc26daa4.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E276",
+        "width": 267,
+        "height": 267,
+        "sha256": "2b5aece4914e22de062543be3a68d4fa39d775f46d448618b6a862f0cc26daa4",
+        "source_member": "xl/media/image304.png",
+        "original_link": "NULL"
+      }
+    ],
+    "277": [
+      {
+        "path": "images/workbook/ecbf53474ef9f96a94f0a6cd304cb1656105f550eaa6b8381dbb1798a82eab15.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E277",
+        "width": 267,
+        "height": 267,
+        "sha256": "ecbf53474ef9f96a94f0a6cd304cb1656105f550eaa6b8381dbb1798a82eab15",
+        "source_member": "xl/media/image305.png",
+        "original_link": "NULL"
+      }
+    ],
+    "278": [
+      {
+        "path": "images/workbook/843a3d9955eb169c388db3d5cb960709aac6bb9bef280ebcd04503dd1027174c.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E278",
+        "width": 267,
+        "height": 267,
+        "sha256": "843a3d9955eb169c388db3d5cb960709aac6bb9bef280ebcd04503dd1027174c",
+        "source_member": "xl/media/image306.png",
+        "original_link": "NULL"
+      }
+    ],
+    "279": [
+      {
+        "path": "images/workbook/24d08e74821e75d8e8b661b29008627333e693646a77b187657cd7b9538608df.png",
+        "source_column": "paper image",
+        "anchor_cell": "F279",
+        "width": 390,
+        "height": 390,
+        "sha256": "24d08e74821e75d8e8b661b29008627333e693646a77b187657cd7b9538608df",
+        "source_member": "xl/media/image307.png",
+        "original_link": "NULL"
+      }
+    ],
+    "280": [
+      {
+        "path": "images/workbook/ca603417c01c057716481d3a66795b3f656df9fdd9be78c05faebc5506cd38f4.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E280",
+        "width": 267,
+        "height": 267,
+        "sha256": "ca603417c01c057716481d3a66795b3f656df9fdd9be78c05faebc5506cd38f4",
+        "source_member": "xl/media/image308.png",
+        "original_link": "NULL"
+      }
+    ],
+    "281": [
+      {
+        "path": "images/workbook/de177b6630cbdbd33a162338531b920722c6aab04585eb9245a67e9259647882.png",
+        "source_column": "paper image",
+        "anchor_cell": "F281",
+        "width": 295,
+        "height": 295,
+        "sha256": "de177b6630cbdbd33a162338531b920722c6aab04585eb9245a67e9259647882",
+        "source_member": "xl/media/image309.png",
+        "original_link": "NULL"
+      }
+    ],
+    "282": [
+      {
+        "path": "images/workbook/42ef614c616b33a7e5842e83638d56229a7280d47f91dce52a02d16c3f214a2c.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E282",
+        "width": 267,
+        "height": 267,
+        "sha256": "42ef614c616b33a7e5842e83638d56229a7280d47f91dce52a02d16c3f214a2c",
+        "source_member": "xl/media/image310.png",
+        "original_link": "NULL"
+      }
+    ],
+    "283": [
+      {
+        "path": "images/workbook/0a0505fd3a939bf9815609c7295ecce5250e6d75560eea013e24372367daa21c.png",
+        "source_column": "paper image",
+        "anchor_cell": "F283",
+        "width": 295,
+        "height": 295,
+        "sha256": "0a0505fd3a939bf9815609c7295ecce5250e6d75560eea013e24372367daa21c",
+        "source_member": "xl/media/image311.png",
+        "original_link": "NULL"
+      }
+    ],
+    "284": [
+      {
+        "path": "images/workbook/d40c2e8746ac5e4459960d5549977304f1f90d0e588c6d222c01eca9ca962883.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E284",
+        "width": 267,
+        "height": 267,
+        "sha256": "d40c2e8746ac5e4459960d5549977304f1f90d0e588c6d222c01eca9ca962883",
+        "source_member": "xl/media/image312.png",
+        "original_link": "NULL"
+      }
+    ],
+    "285": [
+      {
+        "path": "images/workbook/d8a96a139af06809bff249aeef56a63831f32ec794aef563b1d77fcd743c186e.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E285",
+        "width": 267,
+        "height": 267,
+        "sha256": "d8a96a139af06809bff249aeef56a63831f32ec794aef563b1d77fcd743c186e",
+        "source_member": "xl/media/image313.png",
+        "original_link": "NULL"
+      }
+    ],
+    "286": [
+      {
+        "path": "images/workbook/bf8a963ded9a66238f8d0305a6e14def26dd12a77c2e56200c7834d271dc8370.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E286",
+        "width": 267,
+        "height": 267,
+        "sha256": "bf8a963ded9a66238f8d0305a6e14def26dd12a77c2e56200c7834d271dc8370",
+        "source_member": "xl/media/image314.png",
+        "original_link": "NULL"
+      }
+    ],
+    "287": [
+      {
+        "path": "images/workbook/b4280718899f22ed975803d645bb5e09f226debcbe5fe9360634479c68956d75.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E287",
+        "width": 267,
+        "height": 267,
+        "sha256": "b4280718899f22ed975803d645bb5e09f226debcbe5fe9360634479c68956d75",
+        "source_member": "xl/media/image315.png",
+        "original_link": "NULL"
+      }
+    ],
+    "288": [
+      {
+        "path": "images/workbook/3a415edda3d6eb51ba9df16338ea74f41eed15f5030316e6947a6bc54c3ce212.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E288",
+        "width": 267,
+        "height": 267,
+        "sha256": "3a415edda3d6eb51ba9df16338ea74f41eed15f5030316e6947a6bc54c3ce212",
+        "source_member": "xl/media/image316.png",
+        "original_link": "NULL"
+      }
+    ],
+    "289": [
+      {
+        "path": "images/workbook/509f50f753eb8305c8aa6db96f61f7e747c2955a5339802d6eca11999996e8fc.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E289",
+        "width": 267,
+        "height": 267,
+        "sha256": "509f50f753eb8305c8aa6db96f61f7e747c2955a5339802d6eca11999996e8fc",
+        "source_member": "xl/media/image317.png",
+        "original_link": "NULL"
+      }
+    ],
+    "290": [
+      {
+        "path": "images/workbook/81115b979e71bcbe2dc532d6b614b96f593633fcc554f364920f57ba4ff6e8d3.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E290",
+        "width": 267,
+        "height": 267,
+        "sha256": "81115b979e71bcbe2dc532d6b614b96f593633fcc554f364920f57ba4ff6e8d3",
+        "source_member": "xl/media/image318.png",
+        "original_link": "NULL"
+      }
+    ],
+    "291": [
+      {
+        "path": "images/workbook/911cb277ff0465e6f8fd06e0e4568989a253b2615583cb98e000c7eeeadd873e.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E291",
+        "width": 267,
+        "height": 267,
+        "sha256": "911cb277ff0465e6f8fd06e0e4568989a253b2615583cb98e000c7eeeadd873e",
+        "source_member": "xl/media/image319.png",
+        "original_link": "NULL"
+      }
+    ],
+    "292": [
+      {
+        "path": "images/workbook/641331ca61651da035c5443b8934c430444468ff1353f4514844dc4df1980cc4.png",
+        "source_column": "paper image",
+        "anchor_cell": "F292",
+        "width": 295,
+        "height": 295,
+        "sha256": "641331ca61651da035c5443b8934c430444468ff1353f4514844dc4df1980cc4",
+        "source_member": "xl/media/image320.png",
+        "original_link": "NULL"
+      }
+    ],
+    "293": [
+      {
+        "path": "images/workbook/0345c6d70ae0fb9141d3a8eb9b42849580531e46ca1efa78081326759049b4a9.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E293",
+        "width": 267,
+        "height": 267,
+        "sha256": "0345c6d70ae0fb9141d3a8eb9b42849580531e46ca1efa78081326759049b4a9",
+        "source_member": "xl/media/image321.png",
+        "original_link": "NULL"
+      }
+    ],
+    "294": [
+      {
+        "path": "images/workbook/9ec6518e6c889228260389c6bab3a28b43619ddda4958078f044eeef272f8b90.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E294",
+        "width": 267,
+        "height": 267,
+        "sha256": "9ec6518e6c889228260389c6bab3a28b43619ddda4958078f044eeef272f8b90",
+        "source_member": "xl/media/image322.png",
+        "original_link": "NULL"
+      }
+    ],
+    "295": [
+      {
+        "path": "images/workbook/14ddeab350c9f2709eef34842223dd519913145ebb88a38e584c2abf58b450fd.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E295",
+        "width": 267,
+        "height": 267,
+        "sha256": "14ddeab350c9f2709eef34842223dd519913145ebb88a38e584c2abf58b450fd",
+        "source_member": "xl/media/image323.png",
+        "original_link": "NULL"
+      }
+    ],
+    "296": [
+      {
+        "path": "images/workbook/678fd37b2a1fb2b6c7f6ca45a858efea07daf147c194306c4b5cabea2c1a7234.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E296",
+        "width": 267,
+        "height": 267,
+        "sha256": "678fd37b2a1fb2b6c7f6ca45a858efea07daf147c194306c4b5cabea2c1a7234",
+        "source_member": "xl/media/image324.png",
+        "original_link": "NULL"
+      }
+    ],
+    "297": [
+      {
+        "path": "images/workbook/78c7d9e2a3531a4bde5ef227026131def27ea4aec0a4e3234a997c5196b489ee.png",
+        "source_column": "HSC",
+        "anchor_cell": "D297",
+        "width": 267,
+        "height": 267,
+        "sha256": "78c7d9e2a3531a4bde5ef227026131def27ea4aec0a4e3234a997c5196b489ee",
+        "source_member": "xl/media/image325.png",
+        "original_link": "NULL"
+      },
+      {
+        "path": "images/workbook/dacbf8c965c4bd3bd8532072697c6a323b76041704d5e6cf53cb3b008ab72cfb.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E297",
+        "width": 267,
+        "height": 267,
+        "sha256": "dacbf8c965c4bd3bd8532072697c6a323b76041704d5e6cf53cb3b008ab72cfb",
+        "source_member": "xl/media/image326.png",
+        "original_link": "NULL"
+      }
+    ],
+    "298": [
+      {
+        "path": "images/workbook/d25dd0525137513ef75620e64a84c0b344903b4193e503db1197fc141ee80527.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E298",
+        "width": 267,
+        "height": 267,
+        "sha256": "d25dd0525137513ef75620e64a84c0b344903b4193e503db1197fc141ee80527",
+        "source_member": "xl/media/image327.png",
+        "original_link": "NULL"
+      }
+    ],
+    "299": [
+      {
+        "path": "images/workbook/ff012c77eca103f2f85a0d4182eafba5c2a7ac7f9b21f5af3b9240381674923b.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E299",
+        "width": 267,
+        "height": 267,
+        "sha256": "ff012c77eca103f2f85a0d4182eafba5c2a7ac7f9b21f5af3b9240381674923b",
+        "source_member": "xl/media/image328.png",
+        "original_link": "NULL"
+      }
+    ],
+    "300": [
+      {
+        "path": "images/workbook/bfc279045aceaf3feab2c11fc6f44b60d9a3c5a9780ff04b3c245ee328fd8448.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E300",
+        "width": 267,
+        "height": 267,
+        "sha256": "bfc279045aceaf3feab2c11fc6f44b60d9a3c5a9780ff04b3c245ee328fd8448",
+        "source_member": "xl/media/image329.png",
+        "original_link": "NULL"
+      }
+    ],
+    "301": [
+      {
+        "path": "images/workbook/99510e7c18553f44b66dc82587315f3989e187d1ab5e217a2e5095254084b885.png",
+        "source_column": "paper image",
+        "anchor_cell": "F301",
+        "width": 295,
+        "height": 295,
+        "sha256": "99510e7c18553f44b66dc82587315f3989e187d1ab5e217a2e5095254084b885",
+        "source_member": "xl/media/image330.png",
+        "original_link": "NULL"
+      }
+    ],
+    "302": [
+      {
+        "path": "images/workbook/6a042a2245fedc7ea08a1e80f7280ea113a75afee932a97494401ce8b282f3c0.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E302",
+        "width": 267,
+        "height": 267,
+        "sha256": "6a042a2245fedc7ea08a1e80f7280ea113a75afee932a97494401ce8b282f3c0",
+        "source_member": "xl/media/image331.png",
+        "original_link": "NULL"
+      }
+    ],
+    "303": [
+      {
+        "path": "images/workbook/5da8755e4dd5d6007166ae34745d7bfdd7d6c392386b822f57ed1a6a548b93de.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E303",
+        "width": 267,
+        "height": 267,
+        "sha256": "5da8755e4dd5d6007166ae34745d7bfdd7d6c392386b822f57ed1a6a548b93de",
+        "source_member": "xl/media/image332.png",
+        "original_link": "NULL"
+      }
+    ],
+    "304": [
+      {
+        "path": "images/workbook/8b45568d7e7843a57f69448062142b5d5996531a4ddd92d3a7fff84b2e61511e.png",
+        "source_column": "HSC",
+        "anchor_cell": "D304",
+        "width": 267,
+        "height": 267,
+        "sha256": "8b45568d7e7843a57f69448062142b5d5996531a4ddd92d3a7fff84b2e61511e",
+        "source_member": "xl/media/image333.png",
+        "original_link": "NULL"
+      },
+      {
+        "path": "images/workbook/f8a4a1c120ba18d2c387275454076419c42ba9eb28eaa6a42b5b835854601e63.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E304",
+        "width": 267,
+        "height": 267,
+        "sha256": "f8a4a1c120ba18d2c387275454076419c42ba9eb28eaa6a42b5b835854601e63",
+        "source_member": "xl/media/image334.png",
+        "original_link": "NULL"
+      }
+    ],
+    "305": [
+      {
+        "path": "images/workbook/c88cc09193717c0f5b951b66286fb4f41ad8727a5a299604ccde812dacd17f64.png",
+        "source_column": "HSC",
+        "anchor_cell": "D305",
+        "width": 267,
+        "height": 267,
+        "sha256": "c88cc09193717c0f5b951b66286fb4f41ad8727a5a299604ccde812dacd17f64",
+        "source_member": "xl/media/image335.png",
+        "original_link": "NULL"
+      },
+      {
+        "path": "images/workbook/29cb157cc3d24bcce659ddcb829881ab93db2ed8ff0404fd6de9f79eb84a6820.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E305",
+        "width": 267,
+        "height": 267,
+        "sha256": "29cb157cc3d24bcce659ddcb829881ab93db2ed8ff0404fd6de9f79eb84a6820",
+        "source_member": "xl/media/image336.png",
+        "original_link": "NULL"
+      }
+    ],
+    "306": [
+      {
+        "path": "images/workbook/ec26c3aaea64d1849a333c3c47b58440714d1cd7da9b33ca75cc7389624803ab.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E306",
+        "width": 267,
+        "height": 267,
+        "sha256": "ec26c3aaea64d1849a333c3c47b58440714d1cd7da9b33ca75cc7389624803ab",
+        "source_member": "xl/media/image337.png",
+        "original_link": "NULL"
+      }
+    ],
+    "307": [
+      {
+        "path": "images/workbook/6a8a31b4ae7d79a41238fe50601a1c4b2051c8ff5aea98a527b39925a24326da.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E307",
+        "width": 267,
+        "height": 267,
+        "sha256": "6a8a31b4ae7d79a41238fe50601a1c4b2051c8ff5aea98a527b39925a24326da",
+        "source_member": "xl/media/image338.png",
+        "original_link": "NULL"
+      }
+    ],
+    "308": [
+      {
+        "path": "images/workbook/e9fb278d079958d9ffa3509e46aabcaa5f8325aa2d86e3a82cf1ba645a17bd0f.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E308",
+        "width": 267,
+        "height": 267,
+        "sha256": "e9fb278d079958d9ffa3509e46aabcaa5f8325aa2d86e3a82cf1ba645a17bd0f",
+        "source_member": "xl/media/image339.png",
+        "original_link": "NULL"
+      }
+    ],
+    "309": [
+      {
+        "path": "images/workbook/993c5c251b6b7574056747c70be90d13786e322fbcf8b8e4d52d275c0bde97da.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E309",
+        "width": 267,
+        "height": 267,
+        "sha256": "993c5c251b6b7574056747c70be90d13786e322fbcf8b8e4d52d275c0bde97da",
+        "source_member": "xl/media/image340.png",
+        "original_link": "NULL"
+      }
+    ],
+    "310": [
+      {
+        "path": "images/workbook/fa3f142147bbd0dd065f9756004ae7faeb51791149a6fa48769edc2ddafd5e44.png",
+        "source_column": "HSC",
+        "anchor_cell": "D310",
+        "width": 267,
+        "height": 267,
+        "sha256": "fa3f142147bbd0dd065f9756004ae7faeb51791149a6fa48769edc2ddafd5e44",
+        "source_member": "xl/media/image341.png",
+        "original_link": "NULL"
+      },
+      {
+        "path": "images/workbook/1757557951b31119f85f06c6e53056d9167f64d3060e4b22be35928b61e30753.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E310",
+        "width": 267,
+        "height": 267,
+        "sha256": "1757557951b31119f85f06c6e53056d9167f64d3060e4b22be35928b61e30753",
+        "source_member": "xl/media/image342.png",
+        "original_link": "NULL"
+      }
+    ],
+    "311": [
+      {
+        "path": "images/workbook/a64a828c57eef6703409a2a09a72c62976bd62d700c7170eb9d51a408a9eccca.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E311",
+        "width": 267,
+        "height": 267,
+        "sha256": "a64a828c57eef6703409a2a09a72c62976bd62d700c7170eb9d51a408a9eccca",
+        "source_member": "xl/media/image343.png",
+        "original_link": "NULL"
+      }
+    ],
+    "312": [
+      {
+        "path": "images/workbook/77c6eae986db1f686f34998b04486794012446a3ec9ba6a06d67b3ea391f1f8c.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E312",
+        "width": 267,
+        "height": 267,
+        "sha256": "77c6eae986db1f686f34998b04486794012446a3ec9ba6a06d67b3ea391f1f8c",
+        "source_member": "xl/media/image344.png",
+        "original_link": "NULL"
+      }
+    ],
+    "313": [
+      {
+        "path": "images/workbook/17d996035e6820464c49b9786b3e58773ec6b764dc802dfeb8ad6dd133092da1.png",
+        "source_column": "paper image",
+        "anchor_cell": "F313",
+        "width": 298,
+        "height": 298,
+        "sha256": "17d996035e6820464c49b9786b3e58773ec6b764dc802dfeb8ad6dd133092da1",
+        "source_member": "xl/media/image345.png",
+        "original_link": "NULL"
+      }
+    ],
+    "314": [
+      {
+        "path": "images/workbook/68186ba15b256de15ccb52bb9f1eb957af8c646e327f41456ceacd372f309538.png",
+        "source_column": "HSC",
+        "anchor_cell": "D314",
+        "width": 267,
+        "height": 267,
+        "sha256": "68186ba15b256de15ccb52bb9f1eb957af8c646e327f41456ceacd372f309538",
+        "source_member": "xl/media/image346.png",
+        "original_link": "NULL"
+      },
+      {
+        "path": "images/workbook/f878dafc30fcbdb9e68be08f62868bda7ce364d5eee7b8aff8cea208be715ecf.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E314",
+        "width": 267,
+        "height": 267,
+        "sha256": "f878dafc30fcbdb9e68be08f62868bda7ce364d5eee7b8aff8cea208be715ecf",
+        "source_member": "xl/media/image347.png",
+        "original_link": "NULL"
+      }
+    ],
+    "315": [
+      {
+        "path": "images/workbook/89188e2b8c84438389ec5556061016ebb6701a69edba8f6cfcf6f15faca7bb68.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E315",
+        "width": 267,
+        "height": 267,
+        "sha256": "89188e2b8c84438389ec5556061016ebb6701a69edba8f6cfcf6f15faca7bb68",
+        "source_member": "xl/media/image348.png",
+        "original_link": "NULL"
+      }
+    ],
+    "316": [
+      {
+        "path": "images/workbook/27a8d1b315c5a7d190eb4e786e06da62f92fdcd79c7329a9c431f76ab9841ded.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E316",
+        "width": 267,
+        "height": 267,
+        "sha256": "27a8d1b315c5a7d190eb4e786e06da62f92fdcd79c7329a9c431f76ab9841ded",
+        "source_member": "xl/media/image349.png",
+        "original_link": "NULL"
+      }
+    ],
+    "317": [
+      {
+        "path": "images/workbook/887b0a122b03c59e1d299a3627d10bf22aefa91475e14895738bbb6127de2fb1.png",
+        "source_column": "HSC",
+        "anchor_cell": "D317",
+        "width": 267,
+        "height": 267,
+        "sha256": "887b0a122b03c59e1d299a3627d10bf22aefa91475e14895738bbb6127de2fb1",
+        "source_member": "xl/media/image350.png",
+        "original_link": "NULL"
+      },
+      {
+        "path": "images/workbook/d042d059253dd0833ec02a5547324157d61d21f71c4d5f26f428f97f29c8b65d.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E317",
+        "width": 267,
+        "height": 267,
+        "sha256": "d042d059253dd0833ec02a5547324157d61d21f71c4d5f26f428f97f29c8b65d",
+        "source_member": "xl/media/image351.png",
+        "original_link": "NULL"
+      }
+    ],
+    "318": [
+      {
+        "path": "images/workbook/3761b0819ef2c92f0456aa04451f91c8f67404ef5dda0e83229101f663cb48c7.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E318",
+        "width": 267,
+        "height": 267,
+        "sha256": "3761b0819ef2c92f0456aa04451f91c8f67404ef5dda0e83229101f663cb48c7",
+        "source_member": "xl/media/image352.png",
+        "original_link": "NULL"
+      }
+    ],
+    "319": [
+      {
+        "path": "images/workbook/a826bbdc123191bc0ad7a422455e717bfa15551a48c49474de2d23a175f5c1e5.png",
+        "source_column": "paper image",
+        "anchor_cell": "F319",
+        "width": 226,
+        "height": 226,
+        "sha256": "a826bbdc123191bc0ad7a422455e717bfa15551a48c49474de2d23a175f5c1e5",
+        "source_member": "xl/media/image353.png",
+        "original_link": "NULL"
+      }
+    ],
+    "320": [
+      {
+        "path": "images/workbook/256a1068ae9c4302265ac50d049dedc0982d86f2b50eca1b2c4b83ac5c47071d.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E320",
+        "width": 267,
+        "height": 267,
+        "sha256": "256a1068ae9c4302265ac50d049dedc0982d86f2b50eca1b2c4b83ac5c47071d",
+        "source_member": "xl/media/image354.png",
+        "original_link": "NULL"
+      }
+    ],
+    "321": [
+      {
+        "path": "images/workbook/a5bc8699a21677141ba1a556a84c3e2c54932bbe51c975e9b86ad07bff56eb03.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E321",
+        "width": 267,
+        "height": 267,
+        "sha256": "a5bc8699a21677141ba1a556a84c3e2c54932bbe51c975e9b86ad07bff56eb03",
+        "source_member": "xl/media/image355.png",
+        "original_link": "NULL"
+      }
+    ],
+    "322": [
+      {
+        "path": "images/workbook/c4e3a96482617c649dba0782079a02718b87f234f5ccefadd80ef2de8a8e8af9.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E322",
+        "width": 267,
+        "height": 267,
+        "sha256": "c4e3a96482617c649dba0782079a02718b87f234f5ccefadd80ef2de8a8e8af9",
+        "source_member": "xl/media/image356.png",
+        "original_link": "NULL"
+      }
+    ],
+    "323": [
+      {
+        "path": "images/workbook/c84b6cb2db2ba17fa4ac530a5036ae3aba34133026202801d98f040c3aa42e60.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E323",
+        "width": 267,
+        "height": 267,
+        "sha256": "c84b6cb2db2ba17fa4ac530a5036ae3aba34133026202801d98f040c3aa42e60",
+        "source_member": "xl/media/image357.png",
+        "original_link": "NULL"
+      }
+    ],
+    "324": [
+      {
+        "path": "images/workbook/63e8fab16607eac4abee102d7cc3f34213c41b7d61ad91c67c54d0c0f869a7fd.png",
+        "source_column": "HSC",
+        "anchor_cell": "D324",
+        "width": 267,
+        "height": 267,
+        "sha256": "63e8fab16607eac4abee102d7cc3f34213c41b7d61ad91c67c54d0c0f869a7fd",
+        "source_member": "xl/media/image358.png",
+        "original_link": "NULL"
+      },
+      {
+        "path": "images/workbook/31bddf346ccda5f57b5abc9b7e707f209615990f3073d26a7675ff64fce709f7.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E324",
+        "width": 267,
+        "height": 267,
+        "sha256": "31bddf346ccda5f57b5abc9b7e707f209615990f3073d26a7675ff64fce709f7",
+        "source_member": "xl/media/image359.png",
+        "original_link": "NULL"
+      }
+    ],
+    "325": [
+      {
+        "path": "images/workbook/40a07e26b8116a1e824ebb05b1182f4f398b1882ed9deb26400df260eca88c73.png",
+        "source_column": "paper image",
+        "anchor_cell": "F325",
+        "width": 314,
+        "height": 314,
+        "sha256": "40a07e26b8116a1e824ebb05b1182f4f398b1882ed9deb26400df260eca88c73",
+        "source_member": "xl/media/image360.png",
+        "original_link": "NULL"
+      }
+    ],
+    "326": [
+      {
+        "path": "images/workbook/31a24338c1a65bb8772a54eb929d124f91f315542c204a69039a2872d9c60f9e.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E326",
+        "width": 267,
+        "height": 267,
+        "sha256": "31a24338c1a65bb8772a54eb929d124f91f315542c204a69039a2872d9c60f9e",
+        "source_member": "xl/media/image361.png",
+        "original_link": "NULL"
+      }
+    ],
+    "327": [
+      {
+        "path": "images/workbook/c92f2fab7bac852c23d82fb64d0b6b9a4d8365487e1f11164b7f3f5ee53a5e48.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E327",
+        "width": 267,
+        "height": 267,
+        "sha256": "c92f2fab7bac852c23d82fb64d0b6b9a4d8365487e1f11164b7f3f5ee53a5e48",
+        "source_member": "xl/media/image362.png",
+        "original_link": "NULL"
+      }
+    ],
+    "328": [
+      {
+        "path": "images/workbook/9c449db251fddd0792ee7137f662a71a0c54b9e3397d172d9bb3197d1d467bed.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E328",
+        "width": 267,
+        "height": 267,
+        "sha256": "9c449db251fddd0792ee7137f662a71a0c54b9e3397d172d9bb3197d1d467bed",
+        "source_member": "xl/media/image363.png",
+        "original_link": "NULL"
+      }
+    ],
+    "329": [
+      {
+        "path": "images/workbook/fe76fa85df96430b779b9ed0bf34048f409b50199aecaa496c44afff9069bc08.png",
+        "source_column": "HSC",
+        "anchor_cell": "D329",
+        "width": 267,
+        "height": 267,
+        "sha256": "fe76fa85df96430b779b9ed0bf34048f409b50199aecaa496c44afff9069bc08",
+        "source_member": "xl/media/image364.png",
+        "original_link": "NULL"
+      },
+      {
+        "path": "images/workbook/774c1001011232515a557d651322c47b66f2c9b25277022e38995629f44f8546.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E329",
+        "width": 267,
+        "height": 267,
+        "sha256": "774c1001011232515a557d651322c47b66f2c9b25277022e38995629f44f8546",
+        "source_member": "xl/media/image365.png",
+        "original_link": "NULL"
+      }
+    ],
+    "330": [
+      {
+        "path": "images/workbook/f36455da1242967c05a4c2ae4b772d08fa3bb1d68c5b84e2245129d4ce7bc069.png",
+        "source_column": "HSC",
+        "anchor_cell": "D330",
+        "width": 267,
+        "height": 267,
+        "sha256": "f36455da1242967c05a4c2ae4b772d08fa3bb1d68c5b84e2245129d4ce7bc069",
+        "source_member": "xl/media/image366.png",
+        "original_link": "NULL"
+      },
+      {
+        "path": "images/workbook/27558a34a3f9e04df3ba6ae6b6fef6861ce6057721c5a5195f948c54c22bc05d.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E330",
+        "width": 267,
+        "height": 267,
+        "sha256": "27558a34a3f9e04df3ba6ae6b6fef6861ce6057721c5a5195f948c54c22bc05d",
+        "source_member": "xl/media/image367.png",
+        "original_link": "NULL"
+      }
+    ],
+    "331": [
+      {
+        "path": "images/workbook/8868f99270a0c56ca6c245afd33100bc24ec30503e424b17c6272a4a4f1e0cc1.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E331",
+        "width": 267,
+        "height": 267,
+        "sha256": "8868f99270a0c56ca6c245afd33100bc24ec30503e424b17c6272a4a4f1e0cc1",
+        "source_member": "xl/media/image368.png",
+        "original_link": "NULL"
+      }
+    ],
+    "332": [
+      {
+        "path": "images/workbook/fc8e2ed7e66cfa0cc35b7a27ded43e6b71b9c0bea2d824bb4ed62ec32af0962d.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E332",
+        "width": 267,
+        "height": 267,
+        "sha256": "fc8e2ed7e66cfa0cc35b7a27ded43e6b71b9c0bea2d824bb4ed62ec32af0962d",
+        "source_member": "xl/media/image369.png",
+        "original_link": "NULL"
+      }
+    ],
+    "333": [
+      {
+        "path": "images/workbook/76285cc04a96b0f03f8cdca8011bfec9632280dd930dc5ef0f1ff102984c7076.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E333",
+        "width": 267,
+        "height": 267,
+        "sha256": "76285cc04a96b0f03f8cdca8011bfec9632280dd930dc5ef0f1ff102984c7076",
+        "source_member": "xl/media/image370.png",
+        "original_link": "NULL"
+      },
+      {
+        "path": "images/workbook/490bac8737e550ddaedf7f63ef9abf88cd1e826417e34838a7836b27355c25db.png",
+        "source_column": "paper image",
+        "anchor_cell": "F333",
+        "width": 425,
+        "height": 425,
+        "sha256": "490bac8737e550ddaedf7f63ef9abf88cd1e826417e34838a7836b27355c25db",
+        "source_member": "xl/media/image371.png",
+        "original_link": "NULL"
+      }
+    ],
+    "334": [
+      {
+        "path": "images/workbook/d7a4d3383f9ef2f2ca1b739bc1b4da70ccfd3974e23a5621329224426c01cd85.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E334",
+        "width": 267,
+        "height": 267,
+        "sha256": "d7a4d3383f9ef2f2ca1b739bc1b4da70ccfd3974e23a5621329224426c01cd85",
+        "source_member": "xl/media/image372.png",
+        "original_link": "NULL"
+      },
+      {
+        "path": "images/workbook/2db19e7d67e29e125d761577e5bb246e45ee7706f92593677e799554dece3c1b.png",
+        "source_column": "paper image",
+        "anchor_cell": "F334",
+        "width": 317,
+        "height": 317,
+        "sha256": "2db19e7d67e29e125d761577e5bb246e45ee7706f92593677e799554dece3c1b",
+        "source_member": "xl/media/image373.png",
+        "original_link": "NULL"
+      }
+    ],
+    "335": [
+      {
+        "path": "images/workbook/ff454fbdcf17b0e46bfcc259527e05f3ca5aa4d52995c9f03f9db1c674573e7c.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E335",
+        "width": 267,
+        "height": 267,
+        "sha256": "ff454fbdcf17b0e46bfcc259527e05f3ca5aa4d52995c9f03f9db1c674573e7c",
+        "source_member": "xl/media/image374.png",
+        "original_link": "NULL"
+      },
+      {
+        "path": "images/workbook/110bc134393f4f19ad022b859d40db7e489fd9128782632d09432f14457eafa5.png",
+        "source_column": "paper image",
+        "anchor_cell": "F335",
+        "width": 425,
+        "height": 425,
+        "sha256": "110bc134393f4f19ad022b859d40db7e489fd9128782632d09432f14457eafa5",
+        "source_member": "xl/media/image375.png",
+        "original_link": "NULL"
+      }
+    ],
+    "336": [
+      {
+        "path": "images/workbook/a547d282dd5147106a273f7763c1eeadba70779b3c10c216b74e9446b1af3272.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E336",
+        "width": 267,
+        "height": 267,
+        "sha256": "a547d282dd5147106a273f7763c1eeadba70779b3c10c216b74e9446b1af3272",
+        "source_member": "xl/media/image376.png",
+        "original_link": "NULL"
+      },
+      {
+        "path": "images/workbook/c0443ff5d090649853c6aebd661a584b5e8af2dd83868f321305daebaa377c27.png",
+        "source_column": "paper image",
+        "anchor_cell": "F336",
+        "width": 425,
+        "height": 425,
+        "sha256": "c0443ff5d090649853c6aebd661a584b5e8af2dd83868f321305daebaa377c27",
+        "source_member": "xl/media/image377.png",
+        "original_link": "NULL"
+      }
+    ],
+    "337": [
+      {
+        "path": "images/workbook/34fe969eb36759984e16f309a351f4642362bf08bb39db09bc363b3b35915839.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E337",
+        "width": 267,
+        "height": 267,
+        "sha256": "34fe969eb36759984e16f309a351f4642362bf08bb39db09bc363b3b35915839",
+        "source_member": "xl/media/image378.png",
+        "original_link": "NULL"
+      },
+      {
+        "path": "images/workbook/5e6552345b425c55df439be9f13e0ea618a932539720f2dbe67dd93455a9ccc7.png",
+        "source_column": "paper image",
+        "anchor_cell": "F337",
+        "width": 425,
+        "height": 425,
+        "sha256": "5e6552345b425c55df439be9f13e0ea618a932539720f2dbe67dd93455a9ccc7",
+        "source_member": "xl/media/image379.png",
+        "original_link": "NULL"
+      }
+    ],
+    "338": [
+      {
+        "path": "images/workbook/8249a2db233fd3ee6f8bb45d8c575a523078b1ea197be76f29d7fb7962094ed7.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E338",
+        "width": 266,
+        "height": 266,
+        "sha256": "8249a2db233fd3ee6f8bb45d8c575a523078b1ea197be76f29d7fb7962094ed7",
+        "source_member": "xl/media/image380.png",
+        "original_link": "NULL"
+      },
+      {
+        "path": "images/workbook/158374518ad058367786d5abd304236b263ed5461aad448be52769791100ca40.png",
+        "source_column": "paper image",
+        "anchor_cell": "F338",
+        "width": 425,
+        "height": 425,
+        "sha256": "158374518ad058367786d5abd304236b263ed5461aad448be52769791100ca40",
+        "source_member": "xl/media/image381.png",
+        "original_link": "NULL"
+      }
+    ],
+    "339": [
+      {
+        "path": "images/workbook/161ed9ee14975aad8185fff823e26d6864125bea97584267cae04ce4e0d634fd.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E339",
+        "width": 266,
+        "height": 266,
+        "sha256": "161ed9ee14975aad8185fff823e26d6864125bea97584267cae04ce4e0d634fd",
+        "source_member": "xl/media/image382.png",
+        "original_link": "NULL"
+      },
+      {
+        "path": "images/workbook/fc9f890320f463960cd220f2555e28563b86013fe8f79db12525f555faac4b0c.png",
+        "source_column": "paper image",
+        "anchor_cell": "F339",
+        "width": 425,
+        "height": 425,
+        "sha256": "fc9f890320f463960cd220f2555e28563b86013fe8f79db12525f555faac4b0c",
+        "source_member": "xl/media/image383.png",
+        "original_link": "NULL"
+      }
+    ],
+    "340": [
+      {
+        "path": "images/workbook/abf7dfe1672b94a32b690691cb478cf957343f1099377cf745bab8203e843f62.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E340",
+        "width": 266,
+        "height": 266,
+        "sha256": "abf7dfe1672b94a32b690691cb478cf957343f1099377cf745bab8203e843f62",
+        "source_member": "xl/media/image384.png",
+        "original_link": "NULL"
+      },
+      {
+        "path": "images/workbook/e9cdbbc163f65a3ed06d44ff19f234a56187398bccd4e0dd4533d05e7d8d85d5.png",
+        "source_column": "paper image",
+        "anchor_cell": "F340",
+        "width": 425,
+        "height": 425,
+        "sha256": "e9cdbbc163f65a3ed06d44ff19f234a56187398bccd4e0dd4533d05e7d8d85d5",
+        "source_member": "xl/media/image385.png",
+        "original_link": "NULL"
+      }
+    ],
+    "341": [
+      {
+        "path": "images/workbook/2aa76e8372a5e80f32439b5073b0c873b2819e99b1fae9e419cfd7e7a959ca1c.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E341",
+        "width": 267,
+        "height": 267,
+        "sha256": "2aa76e8372a5e80f32439b5073b0c873b2819e99b1fae9e419cfd7e7a959ca1c",
+        "source_member": "xl/media/image386.png",
+        "original_link": "NULL"
+      },
+      {
+        "path": "images/workbook/3c979b21d89a98f8b7ed4c2c86386070d2b60e6035066e5fd9ca31436e0dcc81.png",
+        "source_column": "paper image",
+        "anchor_cell": "F341",
+        "width": 425,
+        "height": 425,
+        "sha256": "3c979b21d89a98f8b7ed4c2c86386070d2b60e6035066e5fd9ca31436e0dcc81",
+        "source_member": "xl/media/image387.png",
+        "original_link": "NULL"
+      }
+    ],
+    "342": [
+      {
+        "path": "images/workbook/6c42d1e287746984d1d32efcbc52611008e95b80dbca893beb8f75b4fc794e5c.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E342",
+        "width": 267,
+        "height": 267,
+        "sha256": "6c42d1e287746984d1d32efcbc52611008e95b80dbca893beb8f75b4fc794e5c",
+        "source_member": "xl/media/image388.png",
+        "original_link": "NULL"
+      },
+      {
+        "path": "images/workbook/3bc41a3d6d1f49baa186f4d5950cf92edfa2003f50cc83b233143499ec02b139.png",
+        "source_column": "paper image",
+        "anchor_cell": "F342",
+        "width": 425,
+        "height": 425,
+        "sha256": "3bc41a3d6d1f49baa186f4d5950cf92edfa2003f50cc83b233143499ec02b139",
+        "source_member": "xl/media/image389.png",
+        "original_link": "NULL"
+      }
+    ],
+    "343": [
+      {
+        "path": "images/workbook/3b029461aea9216b6017d3bdbfbfce8fa8d071e36dd8195b8bdc038478b8881c.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E343",
+        "width": 267,
+        "height": 267,
+        "sha256": "3b029461aea9216b6017d3bdbfbfce8fa8d071e36dd8195b8bdc038478b8881c",
+        "source_member": "xl/media/image390.png",
+        "original_link": "NULL"
+      },
+      {
+        "path": "images/workbook/d202443817ba8d7aab97d78cab82681919510f7a9dd04dc6470ef6aa1ae832a9.png",
+        "source_column": "paper image",
+        "anchor_cell": "F343",
+        "width": 542,
+        "height": 542,
+        "sha256": "d202443817ba8d7aab97d78cab82681919510f7a9dd04dc6470ef6aa1ae832a9",
+        "source_member": "xl/media/image391.png",
+        "original_link": "NULL"
+      },
+      {
+        "path": "images/workbook/b49c95711c8c5179ad14de1c139c3a5bd466d2f25ad71228c4ba79f490a9d23f.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E343",
+        "width": 267,
+        "height": 267,
+        "sha256": "b49c95711c8c5179ad14de1c139c3a5bd466d2f25ad71228c4ba79f490a9d23f",
+        "source_member": "xl/media/image392.png",
+        "original_link": "NULL"
+      },
+      {
+        "path": "images/workbook/299ab57a1ef78f9fee20654a0bd59a1d5452debae37c8e756cdd63a0b80f84a4.png",
+        "source_column": "paper image",
+        "anchor_cell": "F343",
+        "width": 542,
+        "height": 542,
+        "sha256": "299ab57a1ef78f9fee20654a0bd59a1d5452debae37c8e756cdd63a0b80f84a4",
+        "source_member": "xl/media/image393.png",
+        "original_link": "NULL"
+      }
+    ],
+    "344": [
+      {
+        "path": "images/workbook/18a0dc9e1da3015246b17206243714aba73b0793f2d41ba29e3addda57d35c63.png",
+        "source_column": "DESI-LS",
+        "anchor_cell": "E344",
+        "width": 267,
+        "height": 267,
+        "sha256": "18a0dc9e1da3015246b17206243714aba73b0793f2d41ba29e3addda57d35c63",
+        "source_member": "xl/media/image394.png",
+        "original_link": "NULL"
+      },
+      {
+        "path": "images/workbook/87b782423b0625dc79902003dba7f396ebf5d9c09ab4075b71d730f6a9e2ced6.png",
+        "source_column": "paper image",
+        "anchor_cell": "F344",
+        "width": 542,
+        "height": 542,
+        "sha256": "87b782423b0625dc79902003dba7f396ebf5d9c09ab4075b71d730f6a9e2ced6",
+        "source_member": "xl/media/image395.png",
+        "original_link": "NULL"
+      }
+    ]
+  },
+  "issues": []
+}

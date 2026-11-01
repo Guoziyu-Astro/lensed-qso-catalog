@@ -1,0 +1,38 @@
+# Lensed QSO Catalogue
+
+A searchable catalogue of 343 lensed quasar records with survey cutouts, sortable columns, filters, and CSV/Excel downloads.
+
+## Citation
+
+If you use this catalogue or a subset, please cite:
+
+Guo, Z., Chen, Y., Shu, Y., Gao, J., Li, H., He, Z., & Wang, J. (2026).
+*New dynamical measurements from a lensed quasar sample: joint analysis constrains the mass profile evolution of lens galaxies.*
+Monthly Notices of the Royal Astronomical Society, 549(4), stag1029.
+[doi:10.1093/mnras/stag1029](https://doi.org/10.1093/mnras/stag1029).
+
+Questions or feedback: Ziyu Guo, [zyguo@pmo.ac.cn](mailto:zyguo@pmo.ac.cn).
+
+## Website
+
+Public site: https://guoziyu-astro.github.io/lensed-qso-catalog/
+
+The website is served from `site/`. Search, filtering, sorting and CSV export run in the browser; no backend or build dependencies are required. Excel is served directly as a static file.
+
+To preview locally:
+
+```sh
+python3 -m http.server 8787 --bind 127.0.0.1 --directory site
+```
+
+Open `http://127.0.0.1:8787/`.
+
+The workflow in `.github/workflows/pages.yml` publishes `site/` to GitHub Pages after changes to `main`. In repository Settings → Pages, the publishing source is **GitHub Actions**.
+
+## Data and images
+
+- IDs 1–343 follow the original worksheet row order and remain fixed when sorting or filtering. The original identifiers and worksheet rows are retained in `site/data/catalog.json`.
+- Website translations are display-only; JSON, CSV and Excel retain their original scientific content. Bibliographic references and classifications have not all been independently verified.
+- Survey cutouts come from HSC PDR3, DES DR2, Legacy Surveys and Pan-STARRS. Labels identify the survey; `site/data/selected_images.json` records source URLs, bands and fields of view.
+- Original workbook images and their provenance are in `site/data/images.json`. They may include published models or annotations.
+- Source imagery remains subject to the respective surveys' and publications' terms. This repository does not grant additional rights to third-party material.

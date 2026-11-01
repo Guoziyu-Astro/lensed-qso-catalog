@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#ffffff">
+  <title>Lensed QSO Catalogue</title>
+  <link rel="stylesheet" href="style.css?v=2a54d47a25db5162">
+  <script src="images.js?v=05623ba3c08c4cec" defer></script><script src="app.js?v=fcef2317c578a931" defer></script>
+</head>
+<body>
+<main>
+<h1>Lensed QSO Catalogue</h1>
+<p class="contact-note">Questions or feedback? Contact Ziyu Guo: <a href="mailto:zyguo@pmo.ac.cn">zyguo@pmo.ac.cn</a></p>
+<p class="citation-intro">If you use this catalogue or a subset, please cite <a href="https://doi.org/10.1093/mnras/stag1029" target="_blank" rel="noopener noreferrer">Guo et al. (2026), MNRAS, 549, stag1029</a>.</p>
+<details class="citation-details"><summary>Full citation &amp; BibTeX</summary>
+    <p id="paper-citation" class="paper-reference" lang="en">Guo, Z., Chen, Y., Shu, Y., Gao, J., Li, H., He, Z., &amp; Wang, J. (2026). <em>New dynamical measurements from a lensed quasar sample: joint analysis constrains the mass profile evolution of lens galaxies.</em> Monthly Notices of the Royal Astronomical Society, 549(4), stag1029. <a href="https://doi.org/10.1093/mnras/stag1029" target="_blank" rel="noopener noreferrer">https://doi.org/10.1093/mnras/stag1029</a></p>
+    <div class="citation-actions"><button class="button subtle" id="copy-citation">Copy citation</button><a class="button subtle" href="downloads/Guo2026_stag1029.bib" download>Download BibTeX</a><span id="citation-status" role="status" aria-live="polite"></span></div>
+</details>
+<section class="catalog" aria-label="Catalogue">
+  <div class="toolbar"><input id="search" type="search" placeholder="Search" aria-label="Search by ID, name, alias, reference or notes"><div class="download-actions"><button id="export" disabled>Filtered CSV</button><a href="downloads/lensed_qso.csv" download>Full CSV</a><a href="downloads/lensed_quasar.xlsx?v=43b6895af4a8ee80" download>Excel (52 MB)</a></div></div>
+  <div class="workbench">
+    <aside class="filters" aria-label="Filters">
+      <label class="field">Images<select id="images"><option value="">All</option></select></label>
+      <label class="field">Discovery year<select id="year"><option value="">All years</option></select></label>
+      <fieldset><legend>Source redshift <span>z<sub>source</sub></span></legend><div class="range"><input id="z-min" type="number" step="any" min="0" placeholder="Min" aria-label="Minimum source redshift"><span>—</span><input id="z-max" type="number" step="any" min="0" placeholder="Max" aria-label="Maximum source redshift"></div></fieldset>
+      <button id="reset" class="reset">Reset</button>
+    </aside>
+    <div class="results">
+      <div class="result-summary"><p id="result-count" role="status" aria-live="polite">Loading catalogue…</p><label>Rows per page <select id="page-size"><option>25</option><option>50</option><option>100</option><option value="all">All</option></select></label></div>
+      <div class="table-wrap"><table><thead><tr><th scope="col" aria-sort="ascending"><button data-sort="catalog_id">ID</button></th><th scope="col"><button data-sort="name">System</button></th><th scope="col"><button data-sort="image_source">Image</button></th><th scope="col"><button data-sort="ra">RA <small>deg</small></button></th><th scope="col"><button data-sort="dec">Dec <small>deg</small></button></th><th scope="col"><button data-sort="z_lens">z<sub>lens</sub></button></th><th scope="col"><button data-sort="z_source">z<sub>source</sub></button></th><th scope="col"><button data-sort="n_img">Images</button></th><th scope="col"><button data-sort="year">Year</button></th><th scope="col"><button data-sort="first discovered">Discovery reference</button></th></tr></thead><tbody id="rows"></tbody></table><div id="empty" hidden><h3>No matching records</h3><button class="button subtle" id="empty-reset">Clear filters</button></div></div>
+      <div class="pagination"><span id="page-range">—</span><div><button id="prev" aria-label="Previous page">←</button><span id="page-label">—</span><button id="next" aria-label="Next page">→</button></div></div>
+    </div>
+  </div>
+</section>
+
+</main>
+<dialog id="details"><div class="dialog-top"><span>Record details</span><button id="close-detail" aria-label="Close details">×</button></div><div id="detail-content"></div></dialog>
+<dialog id="image-dialog" aria-labelledby="image-title"><div class="dialog-top"><h2 id="image-title">Image</h2><button id="close-images" aria-label="Close image">×</button></div>
+  <p id="image-coordinates" class="image-note"></p>
+  <figure id="selected-figure"><a id="selected-open" target="_blank" rel="noopener noreferrer"><img id="selected-image" alt=""></a><figcaption id="selected-caption"></figcaption></figure>
+  <p id="image-provenance" class="image-note"></p>
+  <p><a id="selected-download" download>Download image</a></p>
+  <details id="original-images"><summary>Workbook images</summary><div id="workbook-images" class="image-grid"></div></details>
+</dialog>
+<noscript><a href="downloads/lensed_qso.csv">Download full CSV</a></noscript>
+</body></html>
