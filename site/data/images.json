@@ -8162,6 +8162,371 @@
         "figure": "S3.F3",
         "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. MUSE observed white-light quad image, individually named in Figure 3."
       }
+    ],
+    "361": [
+      {
+        "path": "images/recent-2026/surveys/360-Legacy-Surveys.jpg",
+        "source_column": "Legacy Surveys",
+        "anchor_cell": "I361",
+        "width": 512,
+        "height": 512,
+        "sha256": "747f2b171a6377b00284086548a2cb8d87cc98ee690a2501785f05c9312dab8b",
+        "reference": "Legacy DR11",
+        "reference_url": "https://www.legacysurvey.org/viewer/jpeg-cutout?ra=74.78179166666666&dec=-4.222644444444445&layer=ls-dr11&pixscale=0.0390625&size=512&bands=grz",
+        "provenance": null
+      },
+      {
+        "path": "images/recent-2026/surveys/360-Pan-STARRS.jpg",
+        "source_column": "Pan-STARRS",
+        "anchor_cell": "J361",
+        "width": 512,
+        "height": 512,
+        "sha256": "d52c4500d6924c48a6af6734e24fee48b880bf1210a81f3b3cf9cb2766ae9c90",
+        "reference": "Pan-STARRS",
+        "reference_url": "https://ps1images.stsci.edu/cgi-bin/ps1filenames.py?ra=74.78179166666666&dec=-4.222644444444445&filters=gri&type=stack&sep=%2C",
+        "provenance": null
+      },
+      {
+        "path": "images/recent-2026/surveys/360-SDSS.jpg",
+        "source_column": "SDSS",
+        "anchor_cell": "K361",
+        "width": 512,
+        "height": 512,
+        "sha256": "6a53f4080efdaa95f2316b5030d824e3b67720e35e9f6aea61f7621964ed7a53",
+        "reference": "SDSS DR16",
+        "reference_url": "https://skyserver.sdss.org/dr16/SkyServerWS/ImgCutout/getjpeg?ra=74.78179166666666&dec=-4.222644444444445&scale=0.0390625&width=512&height=512",
+        "provenance": null
+      },
+      {
+        "path": "images/recent-2026/paper/id-360.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L361",
+        "width": 1024,
+        "height": 1024,
+        "sha256": "1d3dc4d6445f701b03fc3c18f77a5a52822e6281bd366fa0e6ab078248ece4e0",
+        "reference": "Zanchettin et al. 2026",
+        "reference_url": "https://arxiv.org/abs/2610.27086v1",
+        "figure": "Fig. 2, left",
+        "provenance": "Visually verified observed-data panel from the primary paper PDF. Model, residual and spectrum panels excluded. Original labels and observational overlays retained."
+      }
+    ],
+    "362": [
+      {
+        "path": "images/recent-2026/surveys/361-DES.jpg",
+        "source_column": "DES",
+        "anchor_cell": "H362",
+        "width": 512,
+        "height": 512,
+        "sha256": "6cffab282c51172ae9eca386ea71e414409d2f51987ed4d4ac70a6e68cd24ea0",
+        "reference": "DES DR2",
+        "reference_url": "https://datalab.noirlab.edu/sia/des_dr2?POS=90.54858333333334%2C-38.87031944444445&SIZE=0.005555555555555556&FORMAT=image%2Ffits",
+        "provenance": "WCS alignment + shared-intensity asinh; north up, east left"
+      },
+      {
+        "path": "images/recent-2026/surveys/361-Legacy-Surveys.jpg",
+        "source_column": "Legacy Surveys",
+        "anchor_cell": "I362",
+        "width": 512,
+        "height": 512,
+        "sha256": "86a23f69970ea402e3361f894d47fb0d6306635b2a5c4ebab54cfec0b357333f",
+        "reference": "Legacy DR11",
+        "reference_url": "https://www.legacysurvey.org/viewer/jpeg-cutout?ra=90.54858333333334&dec=-38.87031944444445&layer=ls-dr11&pixscale=0.0390625&size=512&bands=grz",
+        "provenance": null
+      },
+      {
+        "path": "images/recent-2026/paper/id-361.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L362",
+        "width": 1024,
+        "height": 1024,
+        "sha256": "a7149aeb030b12e59974a3cbd284f73afd6063b5a675135e24dab28df6d883db",
+        "reference": "Zanchettin et al. 2026",
+        "reference_url": "https://arxiv.org/abs/2610.27086v1",
+        "figure": "Fig. 2, middle",
+        "provenance": "Visually verified observed-data panel from the primary paper PDF. Model, residual and spectrum panels excluded. Original labels and observational overlays retained."
+      }
+    ],
+    "363": [
+      {
+        "path": "images/recent-2026/surveys/362-Legacy-Surveys.jpg",
+        "source_column": "Legacy Surveys",
+        "anchor_cell": "I363",
+        "width": 512,
+        "height": 512,
+        "sha256": "76c6ce9cebfc7ef702b66a1adbfe15bf4d2d193ce032e385fcaa345cfdbf1f67",
+        "reference": "Legacy DR11",
+        "reference_url": "https://www.legacysurvey.org/viewer/jpeg-cutout?ra=203.80054166666667&dec=5.459022222222222&layer=ls-dr11&pixscale=0.0390625&size=512&bands=grz",
+        "provenance": null
+      },
+      {
+        "path": "images/recent-2026/surveys/362-Pan-STARRS.jpg",
+        "source_column": "Pan-STARRS",
+        "anchor_cell": "J363",
+        "width": 512,
+        "height": 512,
+        "sha256": "5c198645e35514bb652c822d8dd559cf3fb3c07d73b5e851a22f5c0ee1c17b01",
+        "reference": "Pan-STARRS",
+        "reference_url": "https://ps1images.stsci.edu/cgi-bin/ps1filenames.py?ra=203.80054166666667&dec=5.459022222222222&filters=gri&type=stack&sep=%2C",
+        "provenance": null
+      },
+      {
+        "path": "images/recent-2026/paper/id-362.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L363",
+        "width": 1024,
+        "height": 1024,
+        "sha256": "71c31e9cf7137f8a660cc7823feafd648c0f45ad4949817940adbc7b402d00e6",
+        "reference": "Zanchettin et al. 2026",
+        "reference_url": "https://arxiv.org/abs/2610.27086v1",
+        "figure": "Fig. D.1, upper observed MUSE panel",
+        "provenance": "Visually verified observed-data panel from the primary paper PDF. Model, residual and spectrum panels excluded. Original labels and observational overlays retained."
+      }
+    ],
+    "364": [
+      {
+        "path": "images/recent-2026/surveys/363-HST.jpg",
+        "source_column": "HST",
+        "anchor_cell": "D364",
+        "width": 512,
+        "height": 512,
+        "sha256": "93360aa32a16de40034b9ea996e8f4bbf4bcb4d308b9c6c86f23a11c88256b1f",
+        "reference": "HST F160W",
+        "reference_url": "https://hla.stsci.edu/cgi-bin/fitscut.cgi?red=hst_17916_01_wfc3_ir_f160w_ifjj01&RA=49.0031&Dec=-41.1027&size=616&format=fits&TextErrors=yes&ApplyOmega=false",
+        "provenance": "single-band grayscale; north up, east left"
+      },
+      {
+        "path": "images/recent-2026/surveys/363-DES.jpg",
+        "source_column": "DES",
+        "anchor_cell": "H364",
+        "width": 512,
+        "height": 512,
+        "sha256": "63fde6ef9b215db389f12c0f0f8fb86d9d1ea4eb3f484a1f875024c07d754369",
+        "reference": "DES DR2",
+        "reference_url": "https://datalab.noirlab.edu/sia/des_dr2?POS=49.0031%2C-41.1027&SIZE=0.005555555555555556&FORMAT=image%2Ffits",
+        "provenance": "WCS alignment + shared-intensity asinh; north up, east left"
+      },
+      {
+        "path": "images/recent-2026/surveys/363-Legacy-Surveys.jpg",
+        "source_column": "Legacy Surveys",
+        "anchor_cell": "I364",
+        "width": 512,
+        "height": 512,
+        "sha256": "98f100931694dafb0b343e194580a5e5d42cf74f784b56272e4757d08a8a81ba",
+        "reference": "Legacy DR11",
+        "reference_url": "https://www.legacysurvey.org/viewer/jpeg-cutout?ra=49.0031&dec=-41.1027&layer=ls-dr11&pixscale=0.0390625&size=512&bands=grz",
+        "provenance": null
+      },
+      {
+        "path": "images/recent-2026/paper/id-363.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L364",
+        "width": 1024,
+        "height": 1024,
+        "sha256": "5575af91fd72d299c1ec10c22ba92ecfc92ad8c29072d2dd0ae4ad5cbd048e27",
+        "reference": "Sheu et al. 2026",
+        "reference_url": "https://arxiv.org/abs/2608.07470v3",
+        "figure": "Fig. 1, first row first panel",
+        "provenance": "Visually verified observed-data panel from the primary paper PDF. Model, residual and spectrum panels excluded. Original labels and observational overlays retained."
+      }
+    ],
+    "365": [
+      {
+        "path": "images/recent-2026/surveys/364-HST.jpg",
+        "source_column": "HST",
+        "anchor_cell": "D365",
+        "width": 512,
+        "height": 512,
+        "sha256": "343f0cc64e7d30df30b181282b7ffaa4e9a83a53fd49ae62ee31cf2962204fef",
+        "reference": "HST F160W",
+        "reference_url": "https://hla.stsci.edu/cgi-bin/fitscut.cgi?red=hst_17916_02_wfc3_ir_f160w_ifjj02&RA=350.3458&Dec=-3.5082&size=616&format=fits&TextErrors=yes&ApplyOmega=false",
+        "provenance": "single-band grayscale; north up, east left"
+      },
+      {
+        "path": "images/recent-2026/surveys/364-Legacy-Surveys.jpg",
+        "source_column": "Legacy Surveys",
+        "anchor_cell": "I365",
+        "width": 512,
+        "height": 512,
+        "sha256": "67b957d1384d753e8219cd1481c91c1ec83dffb3c9b367285012a4976f67c5a6",
+        "reference": "Legacy DR11",
+        "reference_url": "https://www.legacysurvey.org/viewer/jpeg-cutout?ra=350.3458&dec=-3.5082&layer=ls-dr11&pixscale=0.0390625&size=512&bands=grz",
+        "provenance": null
+      },
+      {
+        "path": "images/recent-2026/surveys/364-Pan-STARRS.jpg",
+        "source_column": "Pan-STARRS",
+        "anchor_cell": "J365",
+        "width": 512,
+        "height": 512,
+        "sha256": "9868e2060c668cd4fefa4c569c01266eb22850ef8d1e23fe808e659c565215b7",
+        "reference": "Pan-STARRS",
+        "reference_url": "https://ps1images.stsci.edu/cgi-bin/ps1filenames.py?ra=350.3458&dec=-3.5082&filters=gri&type=stack&sep=%2C",
+        "provenance": null
+      },
+      {
+        "path": "images/recent-2026/surveys/364-SDSS.jpg",
+        "source_column": "SDSS",
+        "anchor_cell": "K365",
+        "width": 512,
+        "height": 512,
+        "sha256": "1c1d65af4170cca07b24c3ace14254d83feedbddc9ccee8f2d58b003b340371e",
+        "reference": "SDSS DR16",
+        "reference_url": "https://skyserver.sdss.org/dr16/SkyServerWS/ImgCutout/getjpeg?ra=350.3458&dec=-3.5082&scale=0.0390625&width=512&height=512",
+        "provenance": null
+      },
+      {
+        "path": "images/recent-2026/paper/id-364.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L365",
+        "width": 1024,
+        "height": 1024,
+        "sha256": "78863c7003339f8272374a13636daeee3c5d6fea4713ab16b862f779fea3ea40",
+        "reference": "Sheu et al. 2026",
+        "reference_url": "https://arxiv.org/abs/2608.07470v3",
+        "figure": "Fig. 1, fourth row second panel",
+        "provenance": "Visually verified observed-data panel from the primary paper PDF. Model, residual and spectrum panels excluded. Original labels and observational overlays retained."
+      }
+    ],
+    "366": [
+      {
+        "path": "images/recent-2026/surveys/365-HST.jpg",
+        "source_column": "HST",
+        "anchor_cell": "D366",
+        "width": 512,
+        "height": 512,
+        "sha256": "584c7787c369c53b88c2c7f2e10822ef00ba1afbf7fce2e6443ec906f8edf628",
+        "reference": "HST F475W",
+        "reference_url": "https://hla.stsci.edu/cgi-bin/fitscut.cgi?red=hst_17431_01_acs_wfc_f475w_jf8201&RA=178.33051875&Dec=7.927174722222222&size=2416&format=fits&TextErrors=yes&ApplyOmega=false",
+        "provenance": "single-band grayscale; north up, east left"
+      },
+      {
+        "path": "images/recent-2026/surveys/365-JWST.jpg",
+        "source_column": "JWST",
+        "anchor_cell": "E366",
+        "width": 512,
+        "height": 512,
+        "sha256": "bb6069ab234450c58774c7456a3fa4b4cac7a3af8543941444c6f779078ea9de",
+        "reference": "JWST F150W",
+        "reference_url": "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw06675-o001_t002_nircam_clear-f150w_i2d.fits",
+        "provenance": "Single-band asinh grayscale; north up, east left. Field centre offset 9 arcsec west and 10 arcsec north of catalogue B1 to include B1-B4 and avoid mosaic edges."
+      },
+      {
+        "path": "images/recent-2026/surveys/365-Legacy-Surveys.jpg",
+        "source_column": "Legacy Surveys",
+        "anchor_cell": "I366",
+        "width": 512,
+        "height": 512,
+        "sha256": "cebab455c6d869c0b89c9687c5dda80cb2035d203f97d091242aebaec9a881af",
+        "reference": "Legacy DR11",
+        "reference_url": "https://www.legacysurvey.org/viewer/jpeg-cutout?ra=178.33051875&dec=7.927174722222222&layer=ls-dr11&pixscale=0.15625&size=512&bands=grz",
+        "provenance": null
+      },
+      {
+        "path": "images/recent-2026/surveys/365-Pan-STARRS.jpg",
+        "source_column": "Pan-STARRS",
+        "anchor_cell": "J366",
+        "width": 512,
+        "height": 512,
+        "sha256": "4347faeb4a01bda3c30de2b917078b912890befac666aef9b15bacf579352e6c",
+        "reference": "Pan-STARRS",
+        "reference_url": "https://ps1images.stsci.edu/cgi-bin/ps1filenames.py?ra=178.33051875&dec=7.927174722222222&filters=gri&type=stack&sep=%2C",
+        "provenance": null
+      },
+      {
+        "path": "images/recent-2026/surveys/365-SDSS.jpg",
+        "source_column": "SDSS",
+        "anchor_cell": "K366",
+        "width": 512,
+        "height": 512,
+        "sha256": "6edfd1b088fb0dd7737947720277c6bd6cd50eb6e05f5d437d48714995eae714",
+        "reference": "SDSS DR16",
+        "reference_url": "https://skyserver.sdss.org/dr16/SkyServerWS/ImgCutout/getjpeg?ra=178.33051875&dec=7.927174722222222&scale=0.15625&width=512&height=512",
+        "provenance": null
+      },
+      {
+        "path": "images/recent-2026/paper/id-365.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L366",
+        "width": 1024,
+        "height": 1024,
+        "sha256": "4bb09df80156795938256d2dddc1ce5f4c57b4f12681618d5e14fa5facbf1ba9",
+        "reference": "Solhaug et al. 2026",
+        "reference_url": "https://arxiv.org/abs/2605.13514v1",
+        "figure": "Fig. 11, bottom JWST panels 3 and 4 (B1-B4)",
+        "provenance": "Visually verified observed-data panel from the primary paper PDF. Model, residual and spectrum panels excluded. Original labels and observational overlays retained. Two adjacent JWST zoom panels show the separate B-source images B1, B2, B4 (left) and B3 (right). The panels are not a contiguous sky field."
+      }
+    ],
+    "367": [
+      {
+        "path": "images/recent-2026/surveys/366-Legacy-Surveys.jpg",
+        "source_column": "Legacy Surveys",
+        "anchor_cell": "I367",
+        "width": 512,
+        "height": 512,
+        "sha256": "bb840860f76f84bedc416113be45f9fb18f08099d3b541f0c8403ba72ab96fd5",
+        "reference": "Legacy DR11",
+        "reference_url": "https://www.legacysurvey.org/viewer/jpeg-cutout?ra=202.52191666666667&dec=-9.084394444444445&layer=ls-dr11&pixscale=0.0390625&size=512&bands=grz",
+        "provenance": null
+      },
+      {
+        "path": "images/recent-2026/surveys/366-Pan-STARRS.jpg",
+        "source_column": "Pan-STARRS",
+        "anchor_cell": "J367",
+        "width": 512,
+        "height": 512,
+        "sha256": "b95959651ef0f29f2941edf91322d7c9cfc23549087327de056b08e08b9a20f5",
+        "reference": "Pan-STARRS",
+        "reference_url": "https://ps1images.stsci.edu/cgi-bin/ps1filenames.py?ra=202.52191666666667&dec=-9.084394444444445&filters=gri&type=stack&sep=%2C",
+        "provenance": null
+      },
+      {
+        "path": "images/recent-2026/paper/id-366.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L367",
+        "width": 1024,
+        "height": 1024,
+        "sha256": "44fe021406e3a1984b48eab22e865259439b2acb3f0afdf9db2f22974c708036",
+        "reference": "Davies et al. 2026",
+        "reference_url": "https://arxiv.org/abs/2604.13152v1",
+        "figure": "Fig. 2, right observed AO panel",
+        "provenance": "Visually verified observed-data panel from the primary paper PDF. Model, residual and spectrum panels excluded. Original labels and observational overlays retained."
+      }
+    ],
+    "368": [
+      {
+        "path": "images/recent-2026/surveys/367-Legacy-Surveys.jpg",
+        "source_column": "Legacy Surveys",
+        "anchor_cell": "I368",
+        "width": 512,
+        "height": 512,
+        "sha256": "750368f46e786ee0f99194d8097d69486baccaa7dea8dc1ee297a401f7af687b",
+        "reference": "Legacy DR11",
+        "reference_url": "https://www.legacysurvey.org/viewer/jpeg-cutout?ra=223.27895833333332&dec=5.491127777777778&layer=ls-dr11&pixscale=0.0390625&size=512&bands=grz",
+        "provenance": null
+      },
+      {
+        "path": "images/recent-2026/surveys/367-Pan-STARRS.jpg",
+        "source_column": "Pan-STARRS",
+        "anchor_cell": "J368",
+        "width": 512,
+        "height": 512,
+        "sha256": "b7ea45dae6e5d872cec4b60c65cea58a92fb8f0fec5a7b13d8d356b94ad1cdd7",
+        "reference": "Pan-STARRS",
+        "reference_url": "https://ps1images.stsci.edu/cgi-bin/ps1filenames.py?ra=223.27895833333332&dec=5.491127777777778&filters=gri&type=stack&sep=%2C",
+        "provenance": null
+      },
+      {
+        "path": "images/recent-2026/paper/id-367.jpg",
+        "source_column": "paper image",
+        "anchor_cell": "L368",
+        "width": 1024,
+        "height": 1024,
+        "sha256": "851dabbb5d52a35c092aa28d8e7329f67a3d1f76ce2e7d9ce4e6fde5cceaac9a",
+        "reference": "D’Amato et al. 2026",
+        "reference_url": "https://arxiv.org/abs/2604.01828v1",
+        "figure": "Fig. 1, observed ERIS NIX image",
+        "provenance": "Visually verified observed-data panel from the primary paper PDF. Model, residual and spectrum panels excluded. Original labels and observational overlays retained."
+      }
     ]
   },
   "issues": [],
@@ -8171,5 +8536,10 @@
     "newly_filled": 153,
     "retraced": 32,
     "source": "Individually verified publication observations, including two paper-linked online catalogue images"
+  },
+  "recent_additions": {
+    "date": "2026-11-02",
+    "paper_count": 8,
+    "survey_images": 23
   }
 }

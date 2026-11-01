@@ -51271,6 +51271,374 @@
           "F814W"
         ]
       }
+    },
+    "361": {
+      "status": "ok",
+      "source": "VLT/ERIS SPIFFIER",
+      "source_label": "VLT/ERIS SPIFFIER H band",
+      "selection_mode": "publication_observation",
+      "fov_arcsec": null,
+      "metadata": {
+        "label": "VLT/ERIS SPIFFIER H band",
+        "bands": "H band",
+        "instrument": "VLT/ERIS SPIFFIER",
+        "urls": [
+          "https://arxiv.org/abs/2610.27086v1"
+        ],
+        "publication_reference": "Zanchettin et al. 2026",
+        "figure": "Fig. 2, left",
+        "display_note": "Observed high-resolution publication crop; original field and annotations retained. Resampling does not improve instrumental resolution.",
+        "caption": "VLT/ERIS SPIFFIER H band · Published observation · Zanchettin et al. 2026",
+        "rendering": "Observed high-resolution publication crop; original field and annotations retained. Resampling does not improve instrumental resolution."
+      },
+      "quality": {
+        "visually_verified_observation": true
+      },
+      "selection_reason": "Public HST/JWST/Euclid search found no usable image; high-resolution AO observation retrieved from the primary paper.",
+      "row_number": 361,
+      "catalog_id": 360,
+      "name": "J0459-0413",
+      "ra": 74.78179166666666,
+      "dec": -4.222644444444445,
+      "checked_at": "2026-11-02",
+      "image": "images/recent-2026/preferred/id-360.jpg",
+      "thumbnail": "images/recent-2026/preferred/id-360-thumb.jpg",
+      "sha256": "3802609e329c4ea34350c10e030a84b0cc5f65e3219e894c0af8c50e58702027"
+    },
+    "362": {
+      "status": "ok",
+      "source": "VLT/ERIS SPIFFIER",
+      "source_label": "VLT/ERIS SPIFFIER K band",
+      "selection_mode": "publication_observation",
+      "fov_arcsec": null,
+      "metadata": {
+        "label": "VLT/ERIS SPIFFIER K band",
+        "bands": "K band",
+        "instrument": "VLT/ERIS SPIFFIER",
+        "urls": [
+          "https://arxiv.org/abs/2610.27086v1"
+        ],
+        "publication_reference": "Zanchettin et al. 2026",
+        "figure": "Fig. 2, middle",
+        "display_note": "Observed high-resolution publication crop; original field and annotations retained. Resampling does not improve instrumental resolution.",
+        "caption": "VLT/ERIS SPIFFIER K band · Published observation · Zanchettin et al. 2026",
+        "rendering": "Observed high-resolution publication crop; original field and annotations retained. Resampling does not improve instrumental resolution."
+      },
+      "quality": {
+        "visually_verified_observation": true
+      },
+      "selection_reason": "Public HST/JWST/Euclid search found no usable image; high-resolution AO observation retrieved from the primary paper.",
+      "row_number": 362,
+      "catalog_id": 361,
+      "name": "J0602-3852",
+      "ra": 90.54858333333334,
+      "dec": -38.87031944444445,
+      "checked_at": "2026-11-02",
+      "image": "images/recent-2026/preferred/id-361.jpg",
+      "thumbnail": "images/recent-2026/preferred/id-361-thumb.jpg",
+      "sha256": "56706aee7b5194a393bf817a53427a7719c7053fc4e249791dfbdd3ed7081324"
+    },
+    "363": {
+      "status": "ok",
+      "source": "VLT/MUSE NFM",
+      "source_label": "VLT/MUSE NFM white light",
+      "selection_mode": "publication_observation",
+      "fov_arcsec": null,
+      "metadata": {
+        "label": "VLT/MUSE NFM white light",
+        "bands": "white light",
+        "instrument": "VLT/MUSE NFM",
+        "urls": [
+          "https://arxiv.org/abs/2610.27086v1"
+        ],
+        "publication_reference": "Zanchettin et al. 2026",
+        "figure": "Fig. D.1, upper observed MUSE panel",
+        "display_note": "Observed high-resolution publication crop; original field and annotations retained. Resampling does not improve instrumental resolution.",
+        "caption": "VLT/MUSE NFM white light · Published observation · Zanchettin et al. 2026",
+        "rendering": "Observed high-resolution publication crop; original field and annotations retained. Resampling does not improve instrumental resolution."
+      },
+      "quality": {
+        "visually_verified_observation": true
+      },
+      "selection_reason": "Public HST/JWST/Euclid search found no usable image; high-resolution AO observation retrieved from the primary paper.",
+      "row_number": 363,
+      "catalog_id": 362,
+      "name": "J1335+0527",
+      "ra": 203.80054166666667,
+      "dec": 5.459022222222222,
+      "checked_at": "2026-11-02",
+      "image": "images/recent-2026/preferred/id-362.jpg",
+      "thumbnail": "images/recent-2026/preferred/id-362-thumb.jpg",
+      "sha256": "c8e8164a20b4e291863da47c0d4692994e9a5ce479e01e0103918090aeb32bdc"
+    },
+    "364": {
+      "status": "ok",
+      "source": "HST",
+      "source_label": "HST F160W",
+      "selection_mode": "space_single_band",
+      "fov_arcsec": 20,
+      "metadata": {
+        "mission": "HST",
+        "band": "F160W",
+        "wavelength_nm": 1543.15,
+        "uri": "mast:HST/product/hst_17916_01_wfc3_ir_f160w_ifjj01_drz.fits",
+        "dataset": "hst_17916_01_wfc3_ir_f160w_ifjj01",
+        "instrument": "WFC3/IR",
+        "exposure_s": 2396.928712,
+        "proposal_id": "17916",
+        "observation_id": "hst_17916_01_wfc3_ir_f160w_ifjj01",
+        "urls": [
+          "https://hla.stsci.edu/cgi-bin/fitscut.cgi?red=hst_17916_01_wfc3_ir_f160w_ifjj01&RA=49.0031&Dec=-41.1027&size=616&format=fits&TextErrors=yes&ApplyOmega=false"
+        ],
+        "label": "HST F160W",
+        "bands": "F160W",
+        "output_wcs": {
+          "WCSAXES": 2,
+          "CRPIX1": 256.5,
+          "CRPIX2": 256.5,
+          "CDELT1": -1.0850694444444e-05,
+          "CDELT2": 1.0850694444444e-05,
+          "CUNIT1": "deg",
+          "CUNIT2": "deg",
+          "CTYPE1": "RA---TAN",
+          "CTYPE2": "DEC--TAN",
+          "CRVAL1": 49.0031,
+          "CRVAL2": -41.1027,
+          "LONPOLE": 180.0,
+          "LATPOLE": -41.1027,
+          "MJDREF": 0.0,
+          "RADESYS": "ICRS"
+        },
+        "archive_fits_sha256": "1694ae7f3ffebaa7cfe4739ef0649e15e72e9e6415a83c7dd2f46cb5506bcb74",
+        "rendering": "single-band grayscale; north up, east left"
+      },
+      "quality": {
+        "finite_fraction": 1.0,
+        "centre_finite_fraction": 1.0,
+        "sky_median": 0.5330014391554595,
+        "sky_mad_sigma": 0.033609673033625165,
+        "centre_std": 51.82600908615052,
+        "centre_p999": 255.0,
+        "native_pixel_scale_arcsec": [
+          0.12825,
+          0.12825
+        ],
+        "central_wcs_error_arcsec": 0.0
+      },
+      "selection_reason": "Public HST F160W science cutout.",
+      "row_number": 364,
+      "catalog_id": 363,
+      "name": "J0316-4106",
+      "ra": 49.0031,
+      "dec": -41.1027,
+      "checked_at": "2026-11-02",
+      "image": "images/recent-2026/preferred/id-363.jpg",
+      "thumbnail": "images/recent-2026/preferred/id-363-thumb.jpg",
+      "sha256": "93360aa32a16de40034b9ea996e8f4bbf4bcb4d308b9c6c86f23a11c88256b1f"
+    },
+    "365": {
+      "status": "ok",
+      "source": "HST",
+      "source_label": "HST F160W",
+      "selection_mode": "space_single_band",
+      "fov_arcsec": 20,
+      "metadata": {
+        "mission": "HST",
+        "band": "F160W",
+        "wavelength_nm": 1543.15,
+        "uri": "mast:HST/product/hst_17916_02_wfc3_ir_f160w_ifjj02_drz.fits",
+        "dataset": "hst_17916_02_wfc3_ir_f160w_ifjj02",
+        "instrument": "WFC3/IR",
+        "exposure_s": 2296.928407,
+        "proposal_id": "17916",
+        "observation_id": "hst_17916_02_wfc3_ir_f160w_ifjj02",
+        "urls": [
+          "https://hla.stsci.edu/cgi-bin/fitscut.cgi?red=hst_17916_02_wfc3_ir_f160w_ifjj02&RA=350.3458&Dec=-3.5082&size=616&format=fits&TextErrors=yes&ApplyOmega=false"
+        ],
+        "label": "HST F160W",
+        "bands": "F160W",
+        "output_wcs": {
+          "WCSAXES": 2,
+          "CRPIX1": 256.5,
+          "CRPIX2": 256.5,
+          "CDELT1": -1.0850694444444e-05,
+          "CDELT2": 1.0850694444444e-05,
+          "CUNIT1": "deg",
+          "CUNIT2": "deg",
+          "CTYPE1": "RA---TAN",
+          "CTYPE2": "DEC--TAN",
+          "CRVAL1": 350.3458,
+          "CRVAL2": -3.5082,
+          "LONPOLE": 180.0,
+          "LATPOLE": -3.5082,
+          "MJDREF": 0.0,
+          "RADESYS": "ICRS"
+        },
+        "archive_fits_sha256": "86b774a386b3c870957a428a70c6ffe5b5bbe84d6cc52134586097a5b3771c2e",
+        "rendering": "single-band grayscale; north up, east left"
+      },
+      "quality": {
+        "finite_fraction": 1.0,
+        "centre_finite_fraction": 1.0,
+        "sky_median": 1.1093300143791032,
+        "sky_mad_sigma": 0.03679700141467882,
+        "centre_std": 45.175860106757675,
+        "centre_p999": 255.0,
+        "native_pixel_scale_arcsec": [
+          0.12825,
+          0.12825
+        ],
+        "central_wcs_error_arcsec": 8.587497639951495e-12
+      },
+      "selection_reason": "Public HST F160W science cutout.",
+      "row_number": 365,
+      "catalog_id": 364,
+      "name": "DESIJ2321-0330",
+      "ra": 350.3458,
+      "dec": -3.5082,
+      "checked_at": "2026-11-02",
+      "image": "images/recent-2026/preferred/id-364.jpg",
+      "thumbnail": "images/recent-2026/preferred/id-364-thumb.jpg",
+      "sha256": "343f0cc64e7d30df30b181282b7ffaa4e9a83a53fd49ae62ee31cf2962204fef"
+    },
+    "366": {
+      "status": "ok",
+      "source": "JWST",
+      "source_label": "JWST F150W",
+      "selection_mode": "space_single_band",
+      "fov_arcsec": 40,
+      "metadata": {
+        "mission": "JWST",
+        "band": "F150W",
+        "wavelength_nm": 1499.5,
+        "uri": "mast:JWST/product/jw06675-o001_t002_nircam_clear-f150w_i2d.fits",
+        "dataset": "jw06675-o001_t002_nircam_clear-f150w",
+        "instrument": "NIRCAM/IMAGE",
+        "exposure_s": 429.472,
+        "proposal_id": "6675",
+        "observation_id": "jw06675-o001_t002_nircam_clear-f150w",
+        "urls": [
+          "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw06675-o001_t002_nircam_clear-f150w_i2d.fits"
+        ],
+        "label": "JWST F150W",
+        "bands": "F150W",
+        "output_wcs": {
+          "WCSAXES": 2,
+          "CRPIX1": 256.5,
+          "CRPIX2": 256.5,
+          "CDELT1": -2.1701388888889e-05,
+          "CDELT2": 2.1701388888889e-05,
+          "CUNIT1": "deg",
+          "CUNIT2": "deg",
+          "CTYPE1": "RA---TAN",
+          "CTYPE2": "DEC--TAN",
+          "CRVAL1": 178.32799462992,
+          "CRVAL2": 7.9299525,
+          "LONPOLE": 180.0,
+          "LATPOLE": 7.9299525,
+          "MJDREF": 0.0,
+          "RADESYS": "ICRS"
+        },
+        "archive_fits_sha256": "c008f3910a7638fdc8c36f1d110ceb1ef07f0d513b4ce8a92812c0d20e9265dc",
+        "rendering": "Single-band asinh grayscale; north up, east left. Field centre offset 9 arcsec west and 10 arcsec north of catalogue B1 to include B1-B4 and avoid mosaic edges.",
+        "cutout_center_ra": 178.3279946299212,
+        "cutout_center_dec": 7.929952500000001,
+        "display_note": "Field centred on the B-image group; catalogue coordinates refer to B1."
+      },
+      "quality": {
+        "finite_fraction": 1.0,
+        "centre_finite_fraction": 1.0,
+        "sky_median": 0.31135946387549895,
+        "sky_mad_sigma": 0.057635403556022376,
+        "centre_std": 19.574309315925845,
+        "centre_p999": 225.0,
+        "native_pixel_scale_arcsec": [
+          0.0307433570731987,
+          0.0307433570731987
+        ],
+        "central_wcs_error_arcsec": 5.72499842663433e-12
+      },
+      "selection_reason": "JWST chosen for the dust-obscured Type II B source.",
+      "row_number": 366,
+      "catalog_id": 365,
+      "name": "COOLJ1153B",
+      "ra": 178.33051875,
+      "dec": 7.927174722222222,
+      "checked_at": "2026-11-02",
+      "image": "images/recent-2026/preferred/id-365.jpg",
+      "thumbnail": "images/recent-2026/preferred/id-365-thumb.jpg",
+      "sha256": "bb6069ab234450c58774c7456a3fa4b4cac7a3af8543941444c6f779078ea9de"
+    },
+    "367": {
+      "status": "ok",
+      "source": "LBT/LUCI1 AO",
+      "source_label": "LBT/LUCI1 AO J/H/K",
+      "selection_mode": "publication_observation",
+      "fov_arcsec": null,
+      "metadata": {
+        "label": "LBT/LUCI1 AO J/H/K",
+        "bands": "J/H/K",
+        "instrument": "LBT/LUCI1 AO",
+        "urls": [
+          "https://arxiv.org/abs/2604.13152v1"
+        ],
+        "publication_reference": "Davies et al. 2026",
+        "figure": "Fig. 2, right observed AO panel",
+        "display_note": "Observed high-resolution publication crop; original field and annotations retained. Resampling does not improve instrumental resolution.",
+        "caption": "LBT/LUCI1 AO J/H/K · Published observation · Davies et al. 2026",
+        "rendering": "Observed high-resolution publication crop; original field and annotations retained. Resampling does not improve instrumental resolution."
+      },
+      "quality": {
+        "visually_verified_observation": true
+      },
+      "selection_reason": "Public HST/JWST/Euclid search found no usable image; high-resolution AO observation retrieved from the primary paper.",
+      "row_number": 367,
+      "catalog_id": 366,
+      "name": "J1330-0905",
+      "ra": 202.52191666666667,
+      "dec": -9.084394444444445,
+      "checked_at": "2026-11-02",
+      "image": "images/recent-2026/preferred/id-366.jpg",
+      "thumbnail": "images/recent-2026/preferred/id-366-thumb.jpg",
+      "sha256": "e71df6ebb0aacfb5d94360d38e145d054f798494bdc061ffc2d7fd4bb53d788a"
+    },
+    "368": {
+      "status": "ok",
+      "source": "VLT/ERIS NIX",
+      "source_label": "VLT/ERIS NIX Ks",
+      "selection_mode": "publication_observation",
+      "fov_arcsec": null,
+      "metadata": {
+        "label": "VLT/ERIS NIX Ks",
+        "bands": "Ks",
+        "instrument": "VLT/ERIS NIX",
+        "urls": [
+          "https://arxiv.org/abs/2604.01828v1"
+        ],
+        "publication_reference": "D’Amato et al. 2026",
+        "figure": "Fig. 1, observed ERIS NIX image",
+        "display_note": "Observed high-resolution publication crop; original field and annotations retained. Resampling does not improve instrumental resolution.",
+        "caption": "VLT/ERIS NIX Ks · Published observation · D’Amato et al. 2026",
+        "rendering": "Observed high-resolution publication crop; original field and annotations retained. Resampling does not improve instrumental resolution."
+      },
+      "quality": {
+        "visually_verified_observation": true
+      },
+      "selection_reason": "Public HST/JWST/Euclid search found no usable image; high-resolution AO observation retrieved from the primary paper.",
+      "row_number": 368,
+      "catalog_id": 367,
+      "name": "J1453+0529",
+      "ra": 223.27895833333332,
+      "dec": 5.491127777777778,
+      "checked_at": "2026-11-02",
+      "image": "images/recent-2026/preferred/id-367.jpg",
+      "thumbnail": "images/recent-2026/preferred/id-367-thumb.jpg",
+      "sha256": "65c83a0498c485cae14e07d727795d6ce0c6bd8efed6b7dd511f74cda5d388f6"
     }
+  },
+  "recent_additions": {
+    "date": "2026-11-02",
+    "count": 8,
+    "note": "Two HST and one JWST science cutouts; five high-resolution observed publication panels (ERIS, MUSE, LBT)."
   }
 }

@@ -18,7 +18,8 @@ async function showCatalogImages(record, selected) {
     imageUI('selected-download').download=record.name+'-'+selected.source+'.jpg';
     const grayscale=selected.selection_mode==='single_band_fallback'||selected.selection_mode==='space_single_band';
     const colour=selected.selection_mode==='space_multiband';
-    imageUI('selected-caption').textContent=`${selected.source_label} · ${selected.fov_arcsec}″ × ${selected.fov_arcsec}″ · ${colour?`${selected.metadata.band_count}-band colour composite`:grayscale?'grayscale':selected.metadata.bands}`;
+    imageUI('selected-caption').textContent=selected.metadata.caption||`${selected.source_label} · ${selected.fov_arcsec}″ × ${selected.fov_arcsec}″ · ${colour?`${selected.metadata.band_count}-band colour composite`:grayscale?'grayscale':selected.metadata.bands}`;
+    if(selected.metadata.display_note)provenance.append(selected.metadata.display_note+' ');
     if(selected.selection_mode==='space_single_band'){
       const details=[selected.metadata.instrument,selected.metadata.proposal_id?`Proposal ${selected.metadata.proposal_id}`:null].filter(Boolean);
       provenance.append(details.join(' · '));
@@ -39,7 +40,7 @@ async function showCatalogImages(record, selected) {
   const container=imageUI('workbook-images');container.textContent='Loading workbook images…';
   imageUI('image-dialog').showModal();
   try{
-    if(!imageManifest){const response=await fetch('data/images.json');if(!response.ok)throw Error();imageManifest=await response.json();}
+    if(!imageManifest){const response=await fetch('data/images.json?v=recent-20261102-367');if(!response.ok)throw Error();imageManifest=await response.json();}
     if(generation!==imageGeneration)return;
     container.replaceChildren();
     const entries=imageManifest.records[String(record.row_number)]||[];

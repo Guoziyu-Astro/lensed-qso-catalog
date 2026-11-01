@@ -2741,5 +2741,69 @@
     "panel_label": "DESJ2150-4652",
     "provenance": "System label and observed-data panel visually verified against the primary paper figure and caption. Left DES gri observation; A/B and 2 arcsec scale retained. Publisher Figure 2 and caption checked in browser.",
     "sha256": "6174eb6006739225c3d336a706e2d2cd3b9739eb1131dee477b2b3b23e795555"
+  },
+  "360": {
+    "reference": "Zanchettin et al. 2026",
+    "url": "https://arxiv.org/abs/2610.27086v1",
+    "figure": "Fig. 2, left",
+    "panel_label": "J0459-0413",
+    "provenance": "Visually verified observed-data panel from the primary paper PDF. Model, residual and spectrum panels excluded. Original labels and observational overlays retained.",
+    "sha256": "1d3dc4d6445f701b03fc3c18f77a5a52822e6281bd366fa0e6ab078248ece4e0"
+  },
+  "361": {
+    "reference": "Zanchettin et al. 2026",
+    "url": "https://arxiv.org/abs/2610.27086v1",
+    "figure": "Fig. 2, middle",
+    "panel_label": "J0602-3852",
+    "provenance": "Visually verified observed-data panel from the primary paper PDF. Model, residual and spectrum panels excluded. Original labels and observational overlays retained.",
+    "sha256": "a7149aeb030b12e59974a3cbd284f73afd6063b5a675135e24dab28df6d883db"
+  },
+  "362": {
+    "reference": "Zanchettin et al. 2026",
+    "url": "https://arxiv.org/abs/2610.27086v1",
+    "figure": "Fig. D.1, upper observed MUSE panel",
+    "panel_label": "J1335+0527",
+    "provenance": "Visually verified observed-data panel from the primary paper PDF. Model, residual and spectrum panels excluded. Original labels and observational overlays retained.",
+    "sha256": "71c31e9cf7137f8a660cc7823feafd648c0f45ad4949817940adbc7b402d00e6"
+  },
+  "363": {
+    "reference": "Sheu et al. 2026",
+    "url": "https://arxiv.org/abs/2608.07470v3",
+    "figure": "Fig. 1, first row first panel",
+    "panel_label": "J0316-4106",
+    "provenance": "Visually verified observed-data panel from the primary paper PDF. Model, residual and spectrum panels excluded. Original labels and observational overlays retained.",
+    "sha256": "5575af91fd72d299c1ec10c22ba92ecfc92ad8c29072d2dd0ae4ad5cbd048e27"
+  },
+  "364": {
+    "reference": "Sheu et al. 2026",
+    "url": "https://arxiv.org/abs/2608.07470v3",
+    "figure": "Fig. 1, fourth row second panel",
+    "panel_label": "DESIJ2321-0330",
+    "provenance": "Visually verified observed-data panel from the primary paper PDF. Model, residual and spectrum panels excluded. Original labels and observational overlays retained.",
+    "sha256": "78863c7003339f8272374a13636daeee3c5d6fea4713ab16b862f779fea3ea40"
+  },
+  "365": {
+    "reference": "Solhaug et al. 2026",
+    "url": "https://arxiv.org/abs/2605.13514v1",
+    "figure": "Fig. 11, bottom JWST panels 3 and 4 (B1-B4)",
+    "panel_label": "COOLJ1153B",
+    "provenance": "Visually verified observed-data panel from the primary paper PDF. Model, residual and spectrum panels excluded. Original labels and observational overlays retained. Two adjacent JWST zoom panels show the separate B-source images B1, B2, B4 (left) and B3 (right). The panels are not a contiguous sky field.",
+    "sha256": "4bb09df80156795938256d2dddc1ce5f4c57b4f12681618d5e14fa5facbf1ba9"
+  },
+  "366": {
+    "reference": "Davies et al. 2026",
+    "url": "https://arxiv.org/abs/2604.13152v1",
+    "figure": "Fig. 2, right observed AO panel",
+    "panel_label": "J1330-0905",
+    "provenance": "Visually verified observed-data panel from the primary paper PDF. Model, residual and spectrum panels excluded. Original labels and observational overlays retained.",
+    "sha256": "44fe021406e3a1984b48eab22e865259439b2acb3f0afdf9db2f22974c708036"
+  },
+  "367": {
+    "reference": "D’Amato et al. 2026",
+    "url": "https://arxiv.org/abs/2604.01828v1",
+    "figure": "Fig. 1, observed ERIS NIX image",
+    "panel_label": "J1453+0529",
+    "provenance": "Visually verified observed-data panel from the primary paper PDF. Model, residual and spectrum panels excluded. Original labels and observational overlays retained.",
+    "sha256": "851dabbb5d52a35c092aa28d8e7329f67a3d1f76ce2e7d9ce4e6fde5cceaac9a"
   }
 }

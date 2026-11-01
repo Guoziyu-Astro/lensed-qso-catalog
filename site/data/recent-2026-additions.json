@@ -1,0 +1,576 @@
+{
+  "summary": {
+    "date": "2026-11-02",
+    "count": 8,
+    "catalog_ids": [
+      360,
+      361,
+      362,
+      363,
+      364,
+      365,
+      366,
+      367
+    ],
+    "scope": "Eight evidence-supported 2026 confirmations reviewed against the user and GraL catalogues. Existing duplicates and classifications retained; record count is not a completeness claim.",
+    "images": "Eight survey/archive columns independently searched; all eight paper images and high-resolution website images supplied. no means no usable image retrieved, not proof of no historical observation."
+  },
+  "records": [
+    {
+      "catalog_id": 360,
+      "name": "J0459-0413",
+      "alt_name": null,
+      "HSC": "no",
+      "DESI-LS": null,
+      "paper image": null,
+      "ra": 74.78179166666666,
+      "dec": -4.222644444444445,
+      "z_lens": null,
+      "z_source": 1.276,
+      "image_sep": null,
+      "n_img": 4,
+      "first discovered": "Zanchettin et al. 2026",
+      "year": 2026,
+      "ADS link": "https://arxiv.org/abs/2610.27086",
+      "note": "Confirmed compact quad: matching broad Halpha in all four images and a detected deflector. The reported 0.52 arcsec enclosing radius is not entered as maximum image separation.",
+      "source_type": "Quasar",
+      "lens_type": "Galaxy",
+      "candidate report": "Gaia multiplet candidate selection precedes lens confirmation; see discovery paper.",
+      "confirmation report": "Zanchettin et al. 2026; Four resolved matching broad Halpha spectra and lens galaxy detected with ERIS. z_source uses final ERIS result, not Table 1 selection redshift.\nhttps://arxiv.org/abs/2610.27086",
+      "discovery review": "2026 confirmation report retained separately from earlier candidate selection. Astrometry: Zanchettin et al. 2026 Table 1.",
+      "row_number": 361,
+      "original_id": null,
+      "discovery_history": {
+        "catalog_id": 360,
+        "name": "J0459-0413",
+        "primary": {
+          "citation": "Zanchettin et al. 2026",
+          "year": 2026,
+          "url": "https://arxiv.org/abs/2610.27086",
+          "role": "Discovery / confirmation report",
+          "first_public": "2026-10-19"
+        },
+        "candidate": null,
+        "candidate_note": "Gaia multiplet candidate selection precedes lens confirmation; see discovery paper.",
+        "confirmation": {
+          "citation": "Zanchettin et al. 2026",
+          "year": 2026,
+          "url": "https://arxiv.org/abs/2610.27086",
+          "role": "Discovery / confirmation report",
+          "first_public": "2026-10-19"
+        },
+        "confirmation_note": "Zanchettin et al. 2026; Four resolved matching broad Halpha spectra and lens galaxy detected with ERIS. z_source uses final ERIS result, not Table 1 selection redshift.\nhttps://arxiv.org/abs/2610.27086",
+        "pending": false,
+        "note": "Confirmed compact quad: matching broad Halpha in all four images and a detected deflector. The reported 0.52 arcsec enclosing radius is not entered as maximum image separation.",
+        "events": [],
+        "evidence": [
+          "https://arxiv.org/abs/2610.27086"
+        ]
+      },
+      "addition_review": {
+        "date": "2026-11-02",
+        "selection": "User-authorized eight evidence-supported 2026 systems absent from both comparison catalogues",
+        "evidence": "Four resolved matching broad Halpha spectra and lens galaxy detected with ERIS. z_source uses final ERIS result, not Table 1 selection redshift.",
+        "sources": [
+          "https://arxiv.org/abs/2610.27086"
+        ],
+        "coordinate_crossmatch": {
+          "name": "eRASS1 J050129.5-073309",
+          "ra": 75.372574,
+          "dec": -7.551979,
+          "id": 321,
+          "separation_arcsec": 12170.8328
+        }
+      },
+      "image_review_status": "complete"
+    },
+    {
+      "catalog_id": 361,
+      "name": "J0602-3852",
+      "alt_name": null,
+      "HSC": "no",
+      "DESI-LS": null,
+      "paper image": null,
+      "ra": 90.54858333333334,
+      "dec": -38.87031944444445,
+      "z_lens": null,
+      "z_source": 3.037,
+      "image_sep": null,
+      "n_img": 4,
+      "first discovered": "Zanchettin et al. 2026",
+      "year": 2026,
+      "ADS link": "https://arxiv.org/abs/2610.27086",
+      "note": "Confirmed compact quad: matching Hbeta/[O III] in all four images and a detected deflector. The reported 0.69 arcsec enclosing radius is not entered as maximum image separation.",
+      "source_type": "Quasar",
+      "lens_type": "Galaxy",
+      "candidate report": "Gaia multiplet candidate selection precedes lens confirmation; see discovery paper.",
+      "confirmation report": "Zanchettin et al. 2026; Four resolved matching Hbeta/[O III] spectra and lens galaxy detected in K band; MgII detected in A and B.\nhttps://arxiv.org/abs/2610.27086",
+      "discovery review": "2026 confirmation report retained separately from earlier candidate selection. Astrometry: Zanchettin et al. 2026 Table 1.",
+      "row_number": 362,
+      "original_id": null,
+      "discovery_history": {
+        "catalog_id": 361,
+        "name": "J0602-3852",
+        "primary": {
+          "citation": "Zanchettin et al. 2026",
+          "year": 2026,
+          "url": "https://arxiv.org/abs/2610.27086",
+          "role": "Discovery / confirmation report",
+          "first_public": "2026-10-19"
+        },
+        "candidate": null,
+        "candidate_note": "Gaia multiplet candidate selection precedes lens confirmation; see discovery paper.",
+        "confirmation": {
+          "citation": "Zanchettin et al. 2026",
+          "year": 2026,
+          "url": "https://arxiv.org/abs/2610.27086",
+          "role": "Discovery / confirmation report",
+          "first_public": "2026-10-19"
+        },
+        "confirmation_note": "Zanchettin et al. 2026; Four resolved matching Hbeta/[O III] spectra and lens galaxy detected in K band; MgII detected in A and B.\nhttps://arxiv.org/abs/2610.27086",
+        "pending": false,
+        "note": "Confirmed compact quad: matching Hbeta/[O III] in all four images and a detected deflector. The reported 0.69 arcsec enclosing radius is not entered as maximum image separation.",
+        "events": [],
+        "evidence": [
+          "https://arxiv.org/abs/2610.27086"
+        ]
+      },
+      "addition_review": {
+        "date": "2026-11-02",
+        "selection": "User-authorized eight evidence-supported 2026 systems absent from both comparison catalogues",
+        "evidence": "Four resolved matching Hbeta/[O III] spectra and lens galaxy detected in K band; MgII detected in A and B.",
+        "sources": [
+          "https://arxiv.org/abs/2610.27086"
+        ],
+        "coordinate_crossmatch": {
+          "name": "DECALSJ0602-4335",
+          "ra": 90.56684,
+          "dec": -43.59433,
+          "id": 82,
+          "separation_arcsec": 17006.5097
+        }
+      },
+      "image_review_status": "complete"
+    },
+    {
+      "catalog_id": 362,
+      "name": "J1335+0527",
+      "alt_name": null,
+      "HSC": "no",
+      "DESI-LS": null,
+      "paper image": null,
+      "ra": 203.80054166666667,
+      "dec": 5.459022222222222,
+      "z_lens": null,
+      "z_source": 1.959,
+      "image_sep": 0.81,
+      "n_img": 2,
+      "first discovered": "Zanchettin et al. 2026",
+      "year": 2026,
+      "ADS link": "https://arxiv.org/abs/2610.27086",
+      "note": "Confirmed double: matching broad C III], C II] and Mg II in MUSE spectra plus a detected deflector. ERIS spectroscopy alone was insufficient. Maximum separation 0.81 arcsec from ERIS Table 2.",
+      "source_type": "Quasar",
+      "lens_type": "Galaxy",
+      "candidate report": "Gaia multiplet candidate selection precedes lens confirmation; see discovery paper.",
+      "confirmation report": "Zanchettin et al. 2026; MUSE matching broad CIII], CII], MgII spectra and lens galaxy detected; ERIS alone was insufficient.\nhttps://arxiv.org/abs/2610.27086",
+      "discovery review": "2026 confirmation report retained separately from earlier candidate selection. Astrometry: Zanchettin et al. 2026 Table 1.",
+      "row_number": 363,
+      "original_id": null,
+      "discovery_history": {
+        "catalog_id": 362,
+        "name": "J1335+0527",
+        "primary": {
+          "citation": "Zanchettin et al. 2026",
+          "year": 2026,
+          "url": "https://arxiv.org/abs/2610.27086",
+          "role": "Discovery / confirmation report",
+          "first_public": "2026-10-19"
+        },
+        "candidate": null,
+        "candidate_note": "Gaia multiplet candidate selection precedes lens confirmation; see discovery paper.",
+        "confirmation": {
+          "citation": "Zanchettin et al. 2026",
+          "year": 2026,
+          "url": "https://arxiv.org/abs/2610.27086",
+          "role": "Discovery / confirmation report",
+          "first_public": "2026-10-19"
+        },
+        "confirmation_note": "Zanchettin et al. 2026; MUSE matching broad CIII], CII], MgII spectra and lens galaxy detected; ERIS alone was insufficient.\nhttps://arxiv.org/abs/2610.27086",
+        "pending": false,
+        "note": "Confirmed double: matching broad C III], C II] and Mg II in MUSE spectra plus a detected deflector. ERIS spectroscopy alone was insufficient. Maximum separation 0.81 arcsec from ERIS Table 2.",
+        "events": [],
+        "evidence": [
+          "https://arxiv.org/abs/2610.27086"
+        ]
+      },
+      "addition_review": {
+        "date": "2026-11-02",
+        "selection": "User-authorized eight evidence-supported 2026 systems absent from both comparison catalogues",
+        "evidence": "MUSE matching broad CIII], CII], MgII spectra and lens galaxy detected; ERIS alone was insufficient.",
+        "sources": [
+          "https://arxiv.org/abs/2610.27086"
+        ],
+        "coordinate_crossmatch": {
+          "name": "SDSSJ1332+0347",
+          "ra": 203.09425,
+          "dec": 3.79442,
+          "id": 201,
+          "separation_arcsec": 6506.4132
+        }
+      },
+      "image_review_status": "complete"
+    },
+    {
+      "catalog_id": 363,
+      "name": "J0316-4106",
+      "alt_name": null,
+      "HSC": "no",
+      "DESI-LS": null,
+      "paper image": null,
+      "ra": 49.0031,
+      "dec": -41.1027,
+      "z_lens": 0.686,
+      "z_source": 2.647,
+      "image_sep": null,
+      "n_img": 3,
+      "first discovered": "Sheu et al. 2026 (preprint)",
+      "year": 2026,
+      "ADS link": "https://arxiv.org/abs/2608.07470",
+      "note": "Triply imaged quasar produced by two deflectors (straddled-saddle configuration). NTT source spectroscopy and IMACS lens spectroscopy. Earlier identification credited to A. Agnello and P. Schechter (private communication).",
+      "source_type": "Quasar",
+      "lens_type": "Galaxy",
+      "candidate report": "No separate earlier public candidate report established in this review.",
+      "confirmation report": "Sheu et al. 2026 (preprint); HST triple/dual-deflector geometry, NTT QSO redshift 2.647 and IMACS deflector redshift 0.686; private identification credited to Agnello and Schechter.\nhttps://arxiv.org/abs/2608.07470",
+      "discovery review": "2026 confirmation report retained separately from earlier candidate selection. Astrometry: Sheu et al. 2026 Table 1.",
+      "row_number": 364,
+      "original_id": null,
+      "discovery_history": {
+        "catalog_id": 363,
+        "name": "J0316-4106",
+        "primary": {
+          "citation": "Sheu et al. 2026 (preprint)",
+          "year": 2026,
+          "url": "https://arxiv.org/abs/2608.07470",
+          "role": "Discovery / confirmation report",
+          "first_public": "2026-08-07"
+        },
+        "candidate": null,
+        "candidate_note": "No separate earlier public candidate report established in this review.",
+        "confirmation": {
+          "citation": "Sheu et al. 2026 (preprint)",
+          "year": 2026,
+          "url": "https://arxiv.org/abs/2608.07470",
+          "role": "Discovery / confirmation report",
+          "first_public": "2026-08-07"
+        },
+        "confirmation_note": "Sheu et al. 2026 (preprint); HST triple/dual-deflector geometry, NTT QSO redshift 2.647 and IMACS deflector redshift 0.686; private identification credited to Agnello and Schechter.\nhttps://arxiv.org/abs/2608.07470",
+        "pending": false,
+        "note": "Triply imaged quasar produced by two deflectors (straddled-saddle configuration). NTT source spectroscopy and IMACS lens spectroscopy. Earlier identification credited to A. Agnello and P. Schechter (private communication).",
+        "events": [],
+        "evidence": [
+          "https://arxiv.org/abs/2608.07470"
+        ]
+      },
+      "addition_review": {
+        "date": "2026-11-02",
+        "selection": "User-authorized eight evidence-supported 2026 systems absent from both comparison catalogues",
+        "evidence": "HST triple/dual-deflector geometry, NTT QSO redshift 2.647 and IMACS deflector redshift 0.686; private identification credited to Agnello and Schechter.",
+        "sources": [
+          "https://arxiv.org/abs/2608.07470"
+        ],
+        "coordinate_crossmatch": {
+          "name": "J0350-4611",
+          "ra": 57.7146,
+          "dec": -46.1858,
+          "id": 55,
+          "separation_arcsec": 29123.167
+        }
+      },
+      "image_review_status": "complete"
+    },
+    {
+      "catalog_id": 364,
+      "name": "DESIJ2321-0330",
+      "alt_name": null,
+      "HSC": "no",
+      "DESI-LS": null,
+      "paper image": null,
+      "ra": 350.3458,
+      "dec": -3.5082,
+      "z_lens": null,
+      "z_source": 3.165,
+      "image_sep": null,
+      "n_img": 4,
+      "first discovered": "Sheu et al. 2026 (preprint)",
+      "year": 2026,
+      "ADS link": "https://arxiv.org/abs/2608.07470",
+      "note": "Earlier variable lensed-quasar candidate upgraded by HST quad imaging and DESI DR1 source spectroscopy. Source redshift is not a claim of separate spectra for every image. Lens redshift unknown.",
+      "source_type": "Quasar",
+      "lens_type": "Galaxy",
+      "candidate report": "Sheu et al. 2024; variable lensed-quasar candidate, following Storfer et al. strong-lens selection.\nhttps://doi.org/10.3847/1538-4357/ad5dad",
+      "confirmation report": "Sheu et al. 2026 (preprint); Previously a strong-lens / variable lensed-QSO candidate; HST quad/cusp and modeling plus DESI DR1 source redshift 3.165. Does not establish four separate image spectra.\nhttps://arxiv.org/abs/2608.07470",
+      "discovery review": "2026 confirmation report retained separately from earlier candidate selection. Astrometry: Sheu et al. 2026 Table 1.",
+      "row_number": 365,
+      "original_id": null,
+      "discovery_history": {
+        "catalog_id": 364,
+        "name": "DESIJ2321-0330",
+        "primary": {
+          "citation": "Sheu et al. 2026 (preprint)",
+          "year": 2026,
+          "url": "https://arxiv.org/abs/2608.07470",
+          "role": "Discovery / confirmation report",
+          "first_public": "2026-08-07"
+        },
+        "candidate": {
+          "citation": "Sheu et al. 2024; variable lensed-quasar candidate, following Storfer et al. strong-lens selection.",
+          "url": "https://doi.org/10.3847/1538-4357/ad5dad",
+          "role": "Earlier candidate report",
+          "first_public": "See source"
+        },
+        "candidate_note": "Sheu et al. 2024; variable lensed-quasar candidate, following Storfer et al. strong-lens selection.\nhttps://doi.org/10.3847/1538-4357/ad5dad",
+        "confirmation": {
+          "citation": "Sheu et al. 2026 (preprint)",
+          "year": 2026,
+          "url": "https://arxiv.org/abs/2608.07470",
+          "role": "Discovery / confirmation report",
+          "first_public": "2026-08-07"
+        },
+        "confirmation_note": "Sheu et al. 2026 (preprint); Previously a strong-lens / variable lensed-QSO candidate; HST quad/cusp and modeling plus DESI DR1 source redshift 3.165. Does not establish four separate image spectra.\nhttps://arxiv.org/abs/2608.07470",
+        "pending": false,
+        "note": "Earlier variable lensed-quasar candidate upgraded by HST quad imaging and DESI DR1 source spectroscopy. Source redshift is not a claim of separate spectra for every image. Lens redshift unknown.",
+        "events": [],
+        "evidence": [
+          "https://arxiv.org/abs/2608.07470",
+          "https://doi.org/10.3847/1538-4357/ad5dad"
+        ]
+      },
+      "addition_review": {
+        "date": "2026-11-02",
+        "selection": "User-authorized eight evidence-supported 2026 systems absent from both comparison catalogues",
+        "evidence": "Previously a strong-lens / variable lensed-QSO candidate; HST quad/cusp and modeling plus DESI DR1 source redshift 3.165. Does not establish four separate image spectra.",
+        "sources": [
+          "https://arxiv.org/abs/2608.07470"
+        ],
+        "coordinate_crossmatch": {
+          "name": "ULASJ2343-0050",
+          "ra": 355.79975,
+          "dec": -0.84286,
+          "id": 309,
+          "separation_arcsec": 21839.076
+        }
+      },
+      "image_review_status": "complete"
+    },
+    {
+      "catalog_id": 365,
+      "name": "COOLJ1153B",
+      "alt_name": "COOLJ1153+0755 source B",
+      "HSC": "no",
+      "DESI-LS": null,
+      "paper image": null,
+      "ra": 178.33051875,
+      "dec": 7.927174722222222,
+      "z_lens": 0.4301,
+      "z_source": 1.939,
+      "image_sep": 26.0,
+      "n_img": 4,
+      "first discovered": "Solhaug et al. 2026 (preprint)",
+      "year": 2026,
+      "ADS link": "https://arxiv.org/abs/2605.13514",
+      "note": "COOLJ1153B is a distinct Type II background quasar at z=1.939 behind the same z=0.4301 cluster as COOLJ1153A (ID 355; z=1.524). Four images B1-B4; maximum separation 26.0 arcsec. Coordinates refer to B1.",
+      "source_type": "Type II Quasar",
+      "lens_type": "Cluster",
+      "candidate report": "No separate earlier public candidate report established in this review.",
+      "confirmation report": "Solhaug et al. 2026 (preprint); Distinct Type II background QSO at z=1.939, same z=0.4301 cluster as A at z=1.524. FIRE spectrum and BPT AGN classification, multiple images and cluster lens model. Coordinates are image B1. Existing catalogue entry is A only.\nhttps://arxiv.org/abs/2605.13514",
+      "discovery review": "2026 confirmation report retained separately from earlier candidate selection. Astrometry: Solhaug et al. 2026 Table 1, B1.",
+      "row_number": 366,
+      "original_id": null,
+      "discovery_history": {
+        "catalog_id": 365,
+        "name": "COOLJ1153B",
+        "primary": {
+          "citation": "Solhaug et al. 2026 (preprint)",
+          "year": 2026,
+          "url": "https://arxiv.org/abs/2605.13514",
+          "role": "Discovery / confirmation report",
+          "first_public": "2026-05-13"
+        },
+        "candidate": null,
+        "candidate_note": "No separate earlier public candidate report established in this review.",
+        "confirmation": {
+          "citation": "Solhaug et al. 2026 (preprint)",
+          "year": 2026,
+          "url": "https://arxiv.org/abs/2605.13514",
+          "role": "Discovery / confirmation report",
+          "first_public": "2026-05-13"
+        },
+        "confirmation_note": "Solhaug et al. 2026 (preprint); Distinct Type II background QSO at z=1.939, same z=0.4301 cluster as A at z=1.524. FIRE spectrum and BPT AGN classification, multiple images and cluster lens model. Coordinates are image B1. Existing catalogue entry is A only.\nhttps://arxiv.org/abs/2605.13514",
+        "pending": false,
+        "note": "COOLJ1153B is a distinct Type II background quasar at z=1.939 behind the same z=0.4301 cluster as COOLJ1153A (ID 355; z=1.524). Four images B1-B4; maximum separation 26.0 arcsec. Coordinates refer to B1.",
+        "events": [],
+        "evidence": [
+          "https://arxiv.org/abs/2605.13514"
+        ]
+      },
+      "addition_review": {
+        "date": "2026-11-02",
+        "selection": "User-authorized eight evidence-supported 2026 systems absent from both comparison catalogues",
+        "evidence": "Distinct Type II background QSO at z=1.939, same z=0.4301 cluster as A at z=1.524. FIRE spectrum and BPT AGN classification, multiple images and cluster lens model. Coordinates are image B1. Existing catalogue entry is A only.",
+        "sources": [
+          "https://arxiv.org/abs/2605.13514"
+        ],
+        "coordinate_crossmatch": {
+          "name": "COOLJ1153+0755",
+          "ra": 178.33524333333332,
+          "dec": 7.933550833333333,
+          "id": 355,
+          "separation_arcsec": 28.4722
+        }
+      },
+      "image_review_status": "complete"
+    },
+    {
+      "catalog_id": 366,
+      "name": "J1330-0905",
+      "alt_name": "Persephone’s Torch",
+      "HSC": "no",
+      "DESI-LS": null,
+      "paper image": null,
+      "ra": 202.52191666666667,
+      "dec": -9.084394444444445,
+      "z_lens": null,
+      "z_source": 2.2245,
+      "image_sep": 0.86,
+      "n_img": 4,
+      "first discovered": "Davies et al. 2026",
+      "year": 2026,
+      "ADS link": "https://arxiv.org/abs/2604.13152",
+      "note": "Persephone’s Torch: earlier candidate confirmed by integrated SPHEREx quasar spectroscopy and LBT/LUCI quad imaging. Not separate spectra of all four images. Maximum separation calculated from measured image offsets in Table 1; lens redshift unknown.",
+      "source_type": "Quasar",
+      "lens_type": "Galaxy",
+      "candidate report": "Makarov & Secrest 2023; lensed-quasar candidate.\nhttps://doi.org/10.3847/1538-4365/ac97f0",
+      "confirmation report": "Davies et al. 2026; Old candidate upgraded: integrated SPHEREx spectroscopy establishes QSO at z=2.2245; LBT/LUCI resolves quad, probable faint lens galaxy, positions reproduced by lens model. Not spectroscopy of each resolved image.\nhttps://arxiv.org/abs/2604.13152",
+      "discovery review": "2026 confirmation report retained separately from earlier candidate selection. Astrometry: Davies et al. 2026 Section 2.",
+      "row_number": 367,
+      "original_id": null,
+      "discovery_history": {
+        "catalog_id": 366,
+        "name": "J1330-0905",
+        "primary": {
+          "citation": "Davies et al. 2026",
+          "year": 2026,
+          "url": "https://arxiv.org/abs/2604.13152",
+          "role": "Discovery / confirmation report",
+          "first_public": "2026-04-14"
+        },
+        "candidate": {
+          "citation": "Makarov & Secrest 2023; lensed-quasar candidate.",
+          "url": "https://doi.org/10.3847/1538-4365/ac97f0",
+          "role": "Earlier candidate report",
+          "first_public": "See source"
+        },
+        "candidate_note": "Makarov & Secrest 2023; lensed-quasar candidate.\nhttps://doi.org/10.3847/1538-4365/ac97f0",
+        "confirmation": {
+          "citation": "Davies et al. 2026",
+          "year": 2026,
+          "url": "https://arxiv.org/abs/2604.13152",
+          "role": "Discovery / confirmation report",
+          "first_public": "2026-04-14"
+        },
+        "confirmation_note": "Davies et al. 2026; Old candidate upgraded: integrated SPHEREx spectroscopy establishes QSO at z=2.2245; LBT/LUCI resolves quad, probable faint lens galaxy, positions reproduced by lens model. Not spectroscopy of each resolved image.\nhttps://arxiv.org/abs/2604.13152",
+        "pending": false,
+        "note": "Persephone’s Torch: earlier candidate confirmed by integrated SPHEREx quasar spectroscopy and LBT/LUCI quad imaging. Not separate spectra of all four images. Maximum separation calculated from measured image offsets in Table 1; lens redshift unknown.",
+        "events": [],
+        "evidence": [
+          "https://arxiv.org/abs/2604.13152",
+          "https://doi.org/10.3847/1538-4365/ac97f0"
+        ]
+      },
+      "addition_review": {
+        "date": "2026-11-02",
+        "selection": "User-authorized eight evidence-supported 2026 systems absent from both comparison catalogues",
+        "evidence": "Old candidate upgraded: integrated SPHEREx spectroscopy establishes QSO at z=2.2245; LBT/LUCI resolves quad, probable faint lens galaxy, positions reproduced by lens model. Not spectroscopy of each resolved image.",
+        "sources": [
+          "https://arxiv.org/abs/2604.13152"
+        ],
+        "coordinate_crossmatch": {
+          "name": "2M1310-1714",
+          "ra": 197.5835,
+          "dec": -17.24939,
+          "id": 193,
+          "separation_arcsec": 34103.8684
+        }
+      },
+      "image_review_status": "complete"
+    },
+    {
+      "catalog_id": 367,
+      "name": "J1453+0529",
+      "alt_name": null,
+      "HSC": "no",
+      "DESI-LS": null,
+      "paper image": null,
+      "ra": 223.27895833333332,
+      "dec": 5.491127777777778,
+      "z_lens": 1.055,
+      "z_source": 2.82,
+      "image_sep": null,
+      "n_img": 4,
+      "first discovered": "D’Amato et al. 2026",
+      "year": 2026,
+      "ADS link": "https://arxiv.org/abs/2604.01828",
+      "note": "Compact quad resolved with ERIS/NIX, with ERIS source spectroscopy. Lens redshift 1.055 comes from the associated absorption system. The 0.21 arcsec Einstein radius is not maximum image separation. J1453+0520 in the introductory text is a typo; coordinates and main text identify J1453+0529.",
+      "source_type": "Quasar",
+      "lens_type": "Galaxy",
+      "candidate report": "Gaia multiplet candidate selection precedes lens confirmation; see discovery paper.",
+      "confirmation report": "D’Amato et al. 2026; Four images and central lens resolved by ERIS/NIX, quasar redshift from ERIS spectroscopy, lens absorption redshift 1.055. Also in 2610.27086; count once.\nhttps://arxiv.org/abs/2604.01828",
+      "discovery review": "2026 confirmation report retained separately from earlier candidate selection. Astrometry: Zanchettin et al. 2026 Table 1.",
+      "row_number": 368,
+      "original_id": null,
+      "discovery_history": {
+        "catalog_id": 367,
+        "name": "J1453+0529",
+        "primary": {
+          "citation": "D’Amato et al. 2026",
+          "year": 2026,
+          "url": "https://arxiv.org/abs/2604.01828",
+          "role": "Discovery / confirmation report",
+          "first_public": "2026-04-02"
+        },
+        "candidate": null,
+        "candidate_note": "Gaia multiplet candidate selection precedes lens confirmation; see discovery paper.",
+        "confirmation": {
+          "citation": "D’Amato et al. 2026",
+          "year": 2026,
+          "url": "https://arxiv.org/abs/2604.01828",
+          "role": "Discovery / confirmation report",
+          "first_public": "2026-04-02"
+        },
+        "confirmation_note": "D’Amato et al. 2026; Four images and central lens resolved by ERIS/NIX, quasar redshift from ERIS spectroscopy, lens absorption redshift 1.055. Also in 2610.27086; count once.\nhttps://arxiv.org/abs/2604.01828",
+        "pending": false,
+        "note": "Compact quad resolved with ERIS/NIX, with ERIS source spectroscopy. Lens redshift 1.055 comes from the associated absorption system. The 0.21 arcsec Einstein radius is not maximum image separation. J1453+0520 in the introductory text is a typo; coordinates and main text identify J1453+0529.",
+        "events": [],
+        "evidence": [
+          "https://arxiv.org/abs/2604.01828"
+        ]
+      },
+      "addition_review": {
+        "date": "2026-11-02",
+        "selection": "User-authorized eight evidence-supported 2026 systems absent from both comparison catalogues",
+        "evidence": "Four images and central lens resolved by ERIS/NIX, quasar redshift from ERIS spectroscopy, lens absorption redshift 1.055. Also in 2610.27086; count once.",
+        "sources": [
+          "https://arxiv.org/abs/2604.01828"
+        ],
+        "coordinate_crossmatch": {
+          "name": "SDSSJ1458-0202",
+          "ra": 224.6982,
+          "dec": -2.03497,
+          "id": 221,
+          "separation_arcsec": 27570.374
+        }
+      },
+      "image_review_status": "complete"
+    }
+  ]
+}

@@ -1,0 +1,1271 @@
+[
+  {
+    "row_number": 361,
+    "catalog_id": 360,
+    "name": "J0459-0413",
+    "provider": "HST",
+    "checked_at": "2026-11-01T18:34:29.835571+00:00",
+    "fov_arcsec": 20,
+    "attempts": [],
+    "status": "no",
+    "reason": "No usable public science image found",
+    "candidate_count": 0
+  },
+  {
+    "row_number": 361,
+    "catalog_id": 360,
+    "name": "J0459-0413",
+    "provider": "JWST",
+    "checked_at": "2026-11-01T18:34:29.834046+00:00",
+    "fov_arcsec": 20,
+    "attempts": [],
+    "status": "no",
+    "reason": "No usable public science image found",
+    "candidate_count": 0
+  },
+  {
+    "row_number": 361,
+    "catalog_id": 360,
+    "name": "J0459-0413",
+    "provider": "Euclid",
+    "checked_at": "2026-11-01T18:34:29.834343+00:00",
+    "fov_arcsec": 20,
+    "attempts": [],
+    "status": "no",
+    "reason": "No usable public science image found",
+    "candidate_count": 0
+  },
+  {
+    "row_number": 361,
+    "catalog_id": 360,
+    "name": "J0459-0413",
+    "provider": "HSC",
+    "checked_at": "2026-11-01T18:34:29.834561+00:00",
+    "fov_arcsec": 20,
+    "status": "no",
+    "reason": "flat or unusable central image"
+  },
+  {
+    "row_number": 361,
+    "catalog_id": 360,
+    "name": "J0459-0413",
+    "provider": "DES",
+    "checked_at": "2026-11-01T18:34:29.835230+00:00",
+    "fov_arcsec": 20,
+    "status": "no",
+    "reason": "DES SIA returned no observations"
+  },
+  {
+    "row_number": 361,
+    "catalog_id": 360,
+    "name": "J0459-0413",
+    "provider": "Legacy Surveys",
+    "checked_at": "2026-11-01T18:34:29.837585+00:00",
+    "fov_arcsec": 20,
+    "status": "ok",
+    "image": "images/Legacy-Surveys/row-361.jpg",
+    "metadata": {
+      "urls": [
+        "https://www.legacysurvey.org/viewer/jpeg-cutout?ra=74.78179166666666&dec=-4.222644444444445&layer=ls-dr11&pixscale=0.0390625&size=512&bands=grz"
+      ],
+      "layer": "ls-dr11",
+      "bands": "grz",
+      "label": "Legacy DR11",
+      "release": "DR11",
+      "version_attempts": []
+    },
+    "quality": {
+      "valid_fraction": 0.9999732971191406,
+      "centre_valid_fraction": 1.0,
+      "std": 26.56664618081238,
+      "centre_std": 56.26838346381221,
+      "centre_range": 247.0
+    },
+    "sha256": "747f2b171a6377b00284086548a2cb8d87cc98ee690a2501785f05c9312dab8b"
+  },
+  {
+    "row_number": 361,
+    "catalog_id": 360,
+    "name": "J0459-0413",
+    "provider": "Pan-STARRS",
+    "checked_at": "2026-11-01T18:34:29.842205+00:00",
+    "fov_arcsec": 20,
+    "status": "ok",
+    "image": "images/Pan-STARRS/row-361.jpg",
+    "metadata": {
+      "label": "Pan-STARRS",
+      "release": "PS1 stack",
+      "bands": "gri",
+      "urls": [
+        "https://ps1images.stsci.edu/cgi-bin/ps1filenames.py?ra=74.78179166666666&dec=-4.222644444444445&filters=gri&type=stack&sep=%2C",
+        "https://ps1images.stsci.edu/cgi-bin/fitscut.cgi?ra=74.78179166666666&dec=-4.222644444444445&size=80&output_size=512&format=jpg&red=%2Frings.v3.skycell%2F1161%2F090%2Frings.v3.skycell.1161.090.stk.i.unconv.fits&green=%2Frings.v3.skycell%2F1161%2F090%2Frings.v3.skycell.1161.090.stk.r.unconv.fits&blue=%2Frings.v3.skycell%2F1161%2F090%2Frings.v3.skycell.1161.090.stk.g.unconv.fits"
+      ]
+    },
+    "quality": {
+      "valid_fraction": 1.0,
+      "centre_valid_fraction": 1.0,
+      "std": 37.14916312550248,
+      "centre_std": 59.097909934766236,
+      "centre_range": 232.0
+    },
+    "sha256": "d52c4500d6924c48a6af6734e24fee48b880bf1210a81f3b3cf9cb2766ae9c90"
+  },
+  {
+    "row_number": 361,
+    "catalog_id": 360,
+    "name": "J0459-0413",
+    "provider": "SDSS",
+    "checked_at": "2026-11-01T18:34:29.841794+00:00",
+    "fov_arcsec": 20,
+    "status": "ok",
+    "image": "images/SDSS/row-361.jpg",
+    "metadata": {
+      "label": "SDSS DR16",
+      "release": "DR16",
+      "bands": "SDSS RGB",
+      "urls": [
+        "https://skyserver.sdss.org/dr16/SkyServerWS/ImgCutout/getjpeg?ra=74.78179166666666&dec=-4.222644444444445&scale=0.0390625&width=512&height=512"
+      ]
+    },
+    "quality": {
+      "valid_fraction": 0.6921730041503906,
+      "centre_valid_fraction": 0.97467041015625,
+      "std": 13.902498774862702,
+      "centre_std": 41.329771194005154,
+      "centre_range": 177.08499999999913
+    },
+    "sha256": "6a53f4080efdaa95f2316b5030d824e3b67720e35e9f6aea61f7621964ed7a53"
+  },
+  {
+    "row_number": 362,
+    "catalog_id": 361,
+    "name": "J0602-3852",
+    "provider": "HST",
+    "checked_at": "2026-11-01T18:34:29.850052+00:00",
+    "fov_arcsec": 20,
+    "attempts": [],
+    "status": "no",
+    "reason": "No usable public science image found",
+    "candidate_count": 0
+  },
+  {
+    "row_number": 362,
+    "catalog_id": 361,
+    "name": "J0602-3852",
+    "provider": "JWST",
+    "checked_at": "2026-11-01T18:34:29.851395+00:00",
+    "fov_arcsec": 20,
+    "attempts": [],
+    "status": "no",
+    "reason": "No usable public science image found",
+    "candidate_count": 0
+  },
+  {
+    "row_number": 362,
+    "catalog_id": 361,
+    "name": "J0602-3852",
+    "provider": "Euclid",
+    "checked_at": "2026-11-01T18:34:29.852268+00:00",
+    "fov_arcsec": 20,
+    "attempts": [],
+    "status": "no",
+    "reason": "No usable public science image found",
+    "candidate_count": 0
+  },
+  {
+    "row_number": 362,
+    "catalog_id": 361,
+    "name": "J0602-3852",
+    "provider": "HSC",
+    "checked_at": "2026-11-01T18:34:29.855732+00:00",
+    "fov_arcsec": 20,
+    "status": "no",
+    "reason": "flat or unusable central image"
+  },
+  {
+    "row_number": 362,
+    "catalog_id": 361,
+    "name": "J0602-3852",
+    "provider": "DES",
+    "checked_at": "2026-11-01T18:34:31.490168+00:00",
+    "fov_arcsec": 20,
+    "status": "ok",
+    "image": "images/DES/row-362.jpg",
+    "metadata": {
+      "label": "DES DR2",
+      "release": "DR2",
+      "bands": "GRI",
+      "urls": [
+        "https://datalab.noirlab.edu/sia/des_dr2?POS=90.54858333333334%2C-38.87031944444445&SIZE=0.005555555555555556&FORMAT=image%2Ffits",
+        "https://datalab.noirlab.edu/svc/cutout?col=des_dr2&siaRef=DES0600-3832_r4939p01_g.fits.fz&extn=1&POS=90.54858333333334,-38.87031944444445&SIZE=0.005555555555555556,0.005555555555555556",
+        "https://datalab.noirlab.edu/svc/cutout?col=des_dr2&siaRef=DES0600-3832_r4939p01_r.fits.fz&extn=1&POS=90.54858333333334,-38.87031944444445&SIZE=0.005555555555555556,0.005555555555555556",
+        "https://datalab.noirlab.edu/svc/cutout?col=des_dr2&siaRef=DES0600-3832_r4939p01_i.fits.fz&extn=1&POS=90.54858333333334,-38.87031944444445&SIZE=0.005555555555555556,0.005555555555555556"
+      ],
+      "rendering": "WCS alignment + shared-intensity asinh; north up, east left"
+    },
+    "quality": {
+      "valid_fraction": 0.9715003967285156,
+      "centre_valid_fraction": 1.0,
+      "std": 39.773894819972035,
+      "centre_std": 75.0639599238075,
+      "centre_range": 253.0
+    },
+    "sha256": "6cffab282c51172ae9eca386ea71e414409d2f51987ed4d4ac70a6e68cd24ea0"
+  },
+  {
+    "row_number": 362,
+    "catalog_id": 361,
+    "name": "J0602-3852",
+    "provider": "Legacy Surveys",
+    "checked_at": "2026-11-01T18:34:31.615043+00:00",
+    "fov_arcsec": 20,
+    "status": "ok",
+    "image": "images/Legacy-Surveys/row-362.jpg",
+    "metadata": {
+      "urls": [
+        "https://www.legacysurvey.org/viewer/jpeg-cutout?ra=90.54858333333334&dec=-38.87031944444445&layer=ls-dr11&pixscale=0.0390625&size=512&bands=grz"
+      ],
+      "layer": "ls-dr11",
+      "bands": "grz",
+      "label": "Legacy DR11",
+      "release": "DR11",
+      "version_attempts": []
+    },
+    "quality": {
+      "valid_fraction": 1.0,
+      "centre_valid_fraction": 1.0,
+      "std": 28.026648944437614,
+      "centre_std": 64.22725961249303,
+      "centre_range": 237.08499999999998
+    },
+    "sha256": "86a23f69970ea402e3361f894d47fb0d6306635b2a5c4ebab54cfec0b357333f"
+  },
+  {
+    "row_number": 362,
+    "catalog_id": 361,
+    "name": "J0602-3852",
+    "provider": "Pan-STARRS",
+    "checked_at": "2026-11-01T18:34:32.318313+00:00",
+    "fov_arcsec": 20,
+    "status": "no",
+    "reason": "missing gri stack images"
+  },
+  {
+    "row_number": 362,
+    "catalog_id": 361,
+    "name": "J0602-3852",
+    "provider": "SDSS",
+    "checked_at": "2026-11-01T18:34:33.469235+00:00",
+    "fov_arcsec": 20,
+    "status": "no",
+    "reason": "service reports no image coverage"
+  },
+  {
+    "row_number": 363,
+    "catalog_id": 362,
+    "name": "J1335+0527",
+    "provider": "HST",
+    "checked_at": "2026-11-01T18:34:33.748068+00:00",
+    "fov_arcsec": 20,
+    "attempts": [],
+    "status": "no",
+    "reason": "No usable public science image found",
+    "candidate_count": 0
+  },
+  {
+    "row_number": 363,
+    "catalog_id": 362,
+    "name": "J1335+0527",
+    "provider": "JWST",
+    "checked_at": "2026-11-01T18:34:33.749201+00:00",
+    "fov_arcsec": 20,
+    "attempts": [],
+    "status": "no",
+    "reason": "No usable public science image found",
+    "candidate_count": 0
+  },
+  {
+    "row_number": 363,
+    "catalog_id": 362,
+    "name": "J1335+0527",
+    "provider": "Euclid",
+    "checked_at": "2026-11-01T18:34:33.749646+00:00",
+    "fov_arcsec": 20,
+    "attempts": [],
+    "status": "no",
+    "reason": "No usable public science image found",
+    "candidate_count": 0
+  },
+  {
+    "row_number": 363,
+    "catalog_id": 362,
+    "name": "J1335+0527",
+    "provider": "HSC",
+    "checked_at": "2026-11-01T18:34:33.753453+00:00",
+    "fov_arcsec": 20,
+    "status": "no",
+    "reason": "flat or unusable central image"
+  },
+  {
+    "row_number": 363,
+    "catalog_id": 362,
+    "name": "J1335+0527",
+    "provider": "DES",
+    "checked_at": "2026-11-01T18:34:33.894724+00:00",
+    "fov_arcsec": 20,
+    "status": "no",
+    "reason": "DES SIA returned no observations"
+  },
+  {
+    "row_number": 363,
+    "catalog_id": 362,
+    "name": "J1335+0527",
+    "provider": "Legacy Surveys",
+    "checked_at": "2026-11-01T18:34:34.947723+00:00",
+    "fov_arcsec": 20,
+    "status": "ok",
+    "image": "images/Legacy-Surveys/row-363.jpg",
+    "metadata": {
+      "urls": [
+        "https://www.legacysurvey.org/viewer/jpeg-cutout?ra=203.80054166666667&dec=5.459022222222222&layer=ls-dr11&pixscale=0.0390625&size=512&bands=grz"
+      ],
+      "layer": "ls-dr11",
+      "bands": "grz",
+      "label": "Legacy DR11",
+      "release": "DR11",
+      "version_attempts": []
+    },
+    "quality": {
+      "valid_fraction": 0.9999122619628906,
+      "centre_valid_fraction": 1.0,
+      "std": 35.95144209337443,
+      "centre_std": 73.20211342068879,
+      "centre_range": 254.0
+    },
+    "sha256": "76c6ce9cebfc7ef702b66a1adbfe15bf4d2d193ce032e385fcaa345cfdbf1f67"
+  },
+  {
+    "row_number": 363,
+    "catalog_id": 362,
+    "name": "J1335+0527",
+    "provider": "Pan-STARRS",
+    "checked_at": "2026-11-01T18:34:35.245979+00:00",
+    "fov_arcsec": 20,
+    "status": "ok",
+    "image": "images/Pan-STARRS/row-363.jpg",
+    "metadata": {
+      "label": "Pan-STARRS",
+      "release": "PS1 stack",
+      "bands": "gri",
+      "urls": [
+        "https://ps1images.stsci.edu/cgi-bin/ps1filenames.py?ra=203.80054166666667&dec=5.459022222222222&filters=gri&type=stack&sep=%2C",
+        "https://ps1images.stsci.edu/cgi-bin/fitscut.cgi?ra=203.80054166666667&dec=5.459022222222222&size=80&output_size=512&format=jpg&red=%2Frings.v3.skycell%2F1462%2F031%2Frings.v3.skycell.1462.031.stk.i.unconv.fits&green=%2Frings.v3.skycell%2F1462%2F031%2Frings.v3.skycell.1462.031.stk.r.unconv.fits&blue=%2Frings.v3.skycell%2F1462%2F031%2Frings.v3.skycell.1462.031.stk.g.unconv.fits"
+      ]
+    },
+    "quality": {
+      "valid_fraction": 1.0,
+      "centre_valid_fraction": 1.0,
+      "std": 34.59261080924612,
+      "centre_std": 61.85531004381552,
+      "centre_range": 236.0
+    },
+    "sha256": "5c198645e35514bb652c822d8dd559cf3fb3c07d73b5e851a22f5c0ee1c17b01"
+  },
+  {
+    "row_number": 363,
+    "catalog_id": 362,
+    "name": "J1335+0527",
+    "provider": "SDSS",
+    "checked_at": "2026-11-01T18:34:35.626799+00:00",
+    "fov_arcsec": 20,
+    "status": "no",
+    "reason": "blank or incomplete field/centre"
+  },
+  {
+    "row_number": 364,
+    "catalog_id": 363,
+    "name": "J0316-4106",
+    "provider": "HST",
+    "checked_at": "2026-11-01T18:34:36.286850+00:00",
+    "fov_arcsec": 20,
+    "status": "ok",
+    "image": "images/HST/row-364.jpg",
+    "metadata": {
+      "mission": "HST",
+      "band": "F160W",
+      "wavelength_nm": 1543.15,
+      "uri": "mast:HST/product/hst_17916_01_wfc3_ir_f160w_ifjj01_drz.fits",
+      "dataset": "hst_17916_01_wfc3_ir_f160w_ifjj01",
+      "instrument": "WFC3/IR",
+      "exposure_s": 2396.928712,
+      "proposal_id": "17916",
+      "observation_id": "hst_17916_01_wfc3_ir_f160w_ifjj01",
+      "urls": [
+        "https://hla.stsci.edu/cgi-bin/fitscut.cgi?red=hst_17916_01_wfc3_ir_f160w_ifjj01&RA=49.0031&Dec=-41.1027&size=616&format=fits&TextErrors=yes&ApplyOmega=false"
+      ],
+      "label": "HST F160W",
+      "bands": "F160W",
+      "output_wcs": {
+        "WCSAXES": 2,
+        "CRPIX1": 256.5,
+        "CRPIX2": 256.5,
+        "CDELT1": -1.0850694444444e-05,
+        "CDELT2": 1.0850694444444e-05,
+        "CUNIT1": "deg",
+        "CUNIT2": "deg",
+        "CTYPE1": "RA---TAN",
+        "CTYPE2": "DEC--TAN",
+        "CRVAL1": 49.0031,
+        "CRVAL2": -41.1027,
+        "LONPOLE": 180.0,
+        "LATPOLE": -41.1027,
+        "MJDREF": 0.0,
+        "RADESYS": "ICRS"
+      },
+      "archive_fits_sha256": "1694ae7f3ffebaa7cfe4739ef0649e15e72e9e6415a83c7dd2f46cb5506bcb74",
+      "rendering": "single-band grayscale; north up, east left"
+    },
+    "quality": {
+      "finite_fraction": 1.0,
+      "centre_finite_fraction": 1.0,
+      "sky_median": 0.5330014391554595,
+      "sky_mad_sigma": 0.033609673033625165,
+      "centre_std": 51.82600908615052,
+      "centre_p999": 255.0,
+      "native_pixel_scale_arcsec": [
+        0.12825,
+        0.12825
+      ],
+      "central_wcs_error_arcsec": 0.0
+    },
+    "sha256": "93360aa32a16de40034b9ea996e8f4bbf4bcb4d308b9c6c86f23a11c88256b1f",
+    "attempts": [
+      {
+        "uri": "mast:HST/product/hst_17916_01_wfc3_ir_f160w_ifjj01_drz.fits",
+        "band": "F160W",
+        "status": "ok"
+      }
+    ]
+  },
+  {
+    "row_number": 364,
+    "catalog_id": 363,
+    "name": "J0316-4106",
+    "provider": "JWST",
+    "checked_at": "2026-11-01T18:34:36.295900+00:00",
+    "fov_arcsec": 20,
+    "attempts": [],
+    "status": "no",
+    "reason": "No usable public science image found",
+    "candidate_count": 0
+  },
+  {
+    "row_number": 364,
+    "catalog_id": 363,
+    "name": "J0316-4106",
+    "provider": "Euclid",
+    "checked_at": "2026-11-01T18:34:36.296354+00:00",
+    "fov_arcsec": 20,
+    "attempts": [],
+    "status": "no",
+    "reason": "No usable public science image found",
+    "candidate_count": 0
+  },
+  {
+    "row_number": 364,
+    "catalog_id": 363,
+    "name": "J0316-4106",
+    "provider": "HSC",
+    "checked_at": "2026-11-01T18:34:36.298851+00:00",
+    "fov_arcsec": 20,
+    "status": "no",
+    "reason": "flat or unusable central image"
+  },
+  {
+    "row_number": 364,
+    "catalog_id": 363,
+    "name": "J0316-4106",
+    "provider": "DES",
+    "checked_at": "2026-11-01T18:34:36.301410+00:00",
+    "fov_arcsec": 20,
+    "status": "ok",
+    "image": "images/DES/row-364.jpg",
+    "metadata": {
+      "label": "DES DR2",
+      "release": "DR2",
+      "bands": "GRI",
+      "urls": [
+        "https://datalab.noirlab.edu/sia/des_dr2?POS=49.0031%2C-41.1027&SIZE=0.005555555555555556&FORMAT=image%2Ffits",
+        "https://datalab.noirlab.edu/svc/cutout?col=des_dr2&siaRef=DES0316-4123_r4931p02_g.fits.fz&extn=1&POS=49.0031,-41.1027&SIZE=0.005555555555555556,0.005555555555555556",
+        "https://datalab.noirlab.edu/svc/cutout?col=des_dr2&siaRef=DES0316-4123_r4931p02_r.fits.fz&extn=1&POS=49.0031,-41.1027&SIZE=0.005555555555555556,0.005555555555555556",
+        "https://datalab.noirlab.edu/svc/cutout?col=des_dr2&siaRef=DES0316-4123_r4931p02_i.fits.fz&extn=1&POS=49.0031,-41.1027&SIZE=0.005555555555555556,0.005555555555555556"
+      ],
+      "rendering": "WCS alignment + shared-intensity asinh; north up, east left"
+    },
+    "quality": {
+      "valid_fraction": 0.9726333618164062,
+      "centre_valid_fraction": 1.0,
+      "std": 47.373547722334855,
+      "centre_std": 64.14584418349077,
+      "centre_range": 226.0
+    },
+    "sha256": "63fde6ef9b215db389f12c0f0f8fb86d9d1ea4eb3f484a1f875024c07d754369"
+  },
+  {
+    "row_number": 364,
+    "catalog_id": 363,
+    "name": "J0316-4106",
+    "provider": "Legacy Surveys",
+    "checked_at": "2026-11-01T18:34:37.125201+00:00",
+    "fov_arcsec": 20,
+    "status": "ok",
+    "image": "images/Legacy-Surveys/row-364.jpg",
+    "metadata": {
+      "urls": [
+        "https://www.legacysurvey.org/viewer/jpeg-cutout?ra=49.0031&dec=-41.1027&layer=ls-dr11&pixscale=0.0390625&size=512&bands=grz"
+      ],
+      "layer": "ls-dr11",
+      "bands": "grz",
+      "label": "Legacy DR11",
+      "release": "DR11",
+      "version_attempts": []
+    },
+    "quality": {
+      "valid_fraction": 1.0,
+      "centre_valid_fraction": 1.0,
+      "std": 40.465174831066626,
+      "centre_std": 65.67618934301959,
+      "centre_range": 226.0
+    },
+    "sha256": "98f100931694dafb0b343e194580a5e5d42cf74f784b56272e4757d08a8a81ba"
+  },
+  {
+    "row_number": 364,
+    "catalog_id": 363,
+    "name": "J0316-4106",
+    "provider": "Pan-STARRS",
+    "checked_at": "2026-11-01T18:34:38.167939+00:00",
+    "fov_arcsec": 20,
+    "status": "no",
+    "reason": "missing gri stack images"
+  },
+  {
+    "row_number": 364,
+    "catalog_id": 363,
+    "name": "J0316-4106",
+    "provider": "SDSS",
+    "checked_at": "2026-11-01T18:34:38.303118+00:00",
+    "fov_arcsec": 20,
+    "status": "no",
+    "reason": "service reports no image coverage"
+  },
+  {
+    "row_number": 365,
+    "catalog_id": 364,
+    "name": "DESIJ2321-0330",
+    "provider": "HST",
+    "checked_at": "2026-11-01T18:34:38.883036+00:00",
+    "fov_arcsec": 20,
+    "status": "ok",
+    "image": "images/HST/row-365.jpg",
+    "metadata": {
+      "mission": "HST",
+      "band": "F160W",
+      "wavelength_nm": 1543.15,
+      "uri": "mast:HST/product/hst_17916_02_wfc3_ir_f160w_ifjj02_drz.fits",
+      "dataset": "hst_17916_02_wfc3_ir_f160w_ifjj02",
+      "instrument": "WFC3/IR",
+      "exposure_s": 2296.928407,
+      "proposal_id": "17916",
+      "observation_id": "hst_17916_02_wfc3_ir_f160w_ifjj02",
+      "urls": [
+        "https://hla.stsci.edu/cgi-bin/fitscut.cgi?red=hst_17916_02_wfc3_ir_f160w_ifjj02&RA=350.3458&Dec=-3.5082&size=616&format=fits&TextErrors=yes&ApplyOmega=false"
+      ],
+      "label": "HST F160W",
+      "bands": "F160W",
+      "output_wcs": {
+        "WCSAXES": 2,
+        "CRPIX1": 256.5,
+        "CRPIX2": 256.5,
+        "CDELT1": -1.0850694444444e-05,
+        "CDELT2": 1.0850694444444e-05,
+        "CUNIT1": "deg",
+        "CUNIT2": "deg",
+        "CTYPE1": "RA---TAN",
+        "CTYPE2": "DEC--TAN",
+        "CRVAL1": 350.3458,
+        "CRVAL2": -3.5082,
+        "LONPOLE": 180.0,
+        "LATPOLE": -3.5082,
+        "MJDREF": 0.0,
+        "RADESYS": "ICRS"
+      },
+      "archive_fits_sha256": "86b774a386b3c870957a428a70c6ffe5b5bbe84d6cc52134586097a5b3771c2e",
+      "rendering": "single-band grayscale; north up, east left"
+    },
+    "quality": {
+      "finite_fraction": 1.0,
+      "centre_finite_fraction": 1.0,
+      "sky_median": 1.1093300143791032,
+      "sky_mad_sigma": 0.03679700141467882,
+      "centre_std": 45.175860106757675,
+      "centre_p999": 255.0,
+      "native_pixel_scale_arcsec": [
+        0.12825,
+        0.12825
+      ],
+      "central_wcs_error_arcsec": 8.587497639951495e-12
+    },
+    "sha256": "343f0cc64e7d30df30b181282b7ffaa4e9a83a53fd49ae62ee31cf2962204fef",
+    "attempts": [
+      {
+        "uri": "mast:HST/product/hst_17916_02_wfc3_ir_f160w_ifjj02_drz.fits",
+        "band": "F160W",
+        "status": "ok"
+      }
+    ]
+  },
+  {
+    "row_number": 365,
+    "catalog_id": 364,
+    "name": "DESIJ2321-0330",
+    "provider": "JWST",
+    "checked_at": "2026-11-01T18:34:39.232999+00:00",
+    "fov_arcsec": 20,
+    "attempts": [],
+    "status": "no",
+    "reason": "No usable public science image found",
+    "candidate_count": 0
+  },
+  {
+    "row_number": 365,
+    "catalog_id": 364,
+    "name": "DESIJ2321-0330",
+    "provider": "Euclid",
+    "checked_at": "2026-11-01T18:34:39.233502+00:00",
+    "fov_arcsec": 20,
+    "attempts": [],
+    "status": "no",
+    "reason": "No usable public science image found",
+    "candidate_count": 0
+  },
+  {
+    "row_number": 365,
+    "catalog_id": 364,
+    "name": "DESIJ2321-0330",
+    "provider": "HSC",
+    "checked_at": "2026-11-01T18:34:39.236004+00:00",
+    "fov_arcsec": 20,
+    "status": "no",
+    "reason": "flat or unusable central image"
+  },
+  {
+    "row_number": 365,
+    "catalog_id": 364,
+    "name": "DESIJ2321-0330",
+    "provider": "DES",
+    "checked_at": "2026-11-01T18:34:39.305386+00:00",
+    "fov_arcsec": 20,
+    "status": "no",
+    "reason": "DES SIA returned no observations"
+  },
+  {
+    "row_number": 365,
+    "catalog_id": 364,
+    "name": "DESIJ2321-0330",
+    "provider": "Legacy Surveys",
+    "checked_at": "2026-11-01T18:34:39.772529+00:00",
+    "fov_arcsec": 20,
+    "status": "ok",
+    "image": "images/Legacy-Surveys/row-365.jpg",
+    "metadata": {
+      "urls": [
+        "https://www.legacysurvey.org/viewer/jpeg-cutout?ra=350.3458&dec=-3.5082&layer=ls-dr11&pixscale=0.0390625&size=512&bands=grz"
+      ],
+      "layer": "ls-dr11",
+      "bands": "grz",
+      "label": "Legacy DR11",
+      "release": "DR11",
+      "version_attempts": []
+    },
+    "quality": {
+      "valid_fraction": 1.0,
+      "centre_valid_fraction": 1.0,
+      "std": 31.665821590066265,
+      "centre_std": 51.01421201446975,
+      "centre_range": 229.0
+    },
+    "sha256": "67b957d1384d753e8219cd1481c91c1ec83dffb3c9b367285012a4976f67c5a6"
+  },
+  {
+    "row_number": 365,
+    "catalog_id": 364,
+    "name": "DESIJ2321-0330",
+    "provider": "Pan-STARRS",
+    "checked_at": "2026-11-01T18:34:39.856232+00:00",
+    "fov_arcsec": 20,
+    "status": "ok",
+    "image": "images/Pan-STARRS/row-365.jpg",
+    "metadata": {
+      "label": "Pan-STARRS",
+      "release": "PS1 stack",
+      "bands": "gri",
+      "urls": [
+        "https://ps1images.stsci.edu/cgi-bin/ps1filenames.py?ra=350.3458&dec=-3.5082&filters=gri&type=stack&sep=%2C",
+        "https://ps1images.stsci.edu/cgi-bin/fitscut.cgi?ra=350.3458&dec=-3.5082&size=80&output_size=512&format=jpg&red=%2Frings.v3.skycell%2F1320%2F019%2Frings.v3.skycell.1320.019.stk.i.unconv.fits&green=%2Frings.v3.skycell%2F1320%2F019%2Frings.v3.skycell.1320.019.stk.r.unconv.fits&blue=%2Frings.v3.skycell%2F1320%2F019%2Frings.v3.skycell.1320.019.stk.g.unconv.fits"
+      ]
+    },
+    "quality": {
+      "valid_fraction": 1.0,
+      "centre_valid_fraction": 1.0,
+      "std": 37.29882385436417,
+      "centre_std": 48.95166978454853,
+      "centre_range": 230.08499999999998
+    },
+    "sha256": "9868e2060c668cd4fefa4c569c01266eb22850ef8d1e23fe808e659c565215b7"
+  },
+  {
+    "row_number": 365,
+    "catalog_id": 364,
+    "name": "DESIJ2321-0330",
+    "provider": "SDSS",
+    "checked_at": "2026-11-01T18:34:42.071335+00:00",
+    "fov_arcsec": 20,
+    "status": "ok",
+    "image": "images/SDSS/row-365.jpg",
+    "metadata": {
+      "label": "SDSS DR16",
+      "release": "DR16",
+      "bands": "SDSS RGB",
+      "urls": [
+        "https://skyserver.sdss.org/dr16/SkyServerWS/ImgCutout/getjpeg?ra=350.3458&dec=-3.5082&scale=0.0390625&width=512&height=512"
+      ]
+    },
+    "quality": {
+      "valid_fraction": 0.7362403869628906,
+      "centre_valid_fraction": 0.993896484375,
+      "std": 13.802807684346806,
+      "centre_std": 28.714627390048864,
+      "centre_range": 112.0
+    },
+    "sha256": "1c1d65af4170cca07b24c3ace14254d83feedbddc9ccee8f2d58b003b340371e"
+  },
+  {
+    "row_number": 366,
+    "catalog_id": 365,
+    "name": "COOLJ1153B",
+    "provider": "HST",
+    "checked_at": "2026-11-01T18:34:42.323587+00:00",
+    "fov_arcsec": 80,
+    "status": "ok",
+    "image": "images/HST/row-366.jpg",
+    "metadata": {
+      "mission": "HST",
+      "band": "F475W",
+      "wavelength_nm": 470.0,
+      "uri": "mast:HST/product/hst_17431_01_acs_wfc_f475w_jf8201_drc.fits",
+      "dataset": "hst_17431_01_acs_wfc_f475w_jf8201",
+      "instrument": "ACS/WFC",
+      "exposure_s": 2357.4079899999997,
+      "proposal_id": "17431",
+      "observation_id": "hst_17431_01_acs_wfc_f475w_jf8201",
+      "urls": [
+        "https://hla.stsci.edu/cgi-bin/fitscut.cgi?red=hst_17431_01_acs_wfc_f475w_jf8201&RA=178.33051875&Dec=7.927174722222222&size=2416&format=fits&TextErrors=yes&ApplyOmega=false"
+      ],
+      "label": "HST F475W",
+      "bands": "F475W",
+      "output_wcs": {
+        "WCSAXES": 2,
+        "CRPIX1": 256.5,
+        "CRPIX2": 256.5,
+        "CDELT1": -4.3402777777778e-05,
+        "CDELT2": 4.3402777777778e-05,
+        "CUNIT1": "deg",
+        "CUNIT2": "deg",
+        "CTYPE1": "RA---TAN",
+        "CTYPE2": "DEC--TAN",
+        "CRVAL1": 178.33051875,
+        "CRVAL2": 7.9271747222222,
+        "LONPOLE": 180.0,
+        "LATPOLE": 7.9271747222222,
+        "MJDREF": 0.0,
+        "RADESYS": "ICRS"
+      },
+      "archive_fits_sha256": "66d42cdd48f8dcf3d9745e765fe4150f2364ff2384fa738e96f259bd0e0b049f",
+      "rendering": "single-band grayscale; north up, east left"
+    },
+    "quality": {
+      "finite_fraction": 0.9989051818847656,
+      "centre_finite_fraction": 1.0,
+      "sky_median": 0.04829228309937031,
+      "sky_mad_sigma": 0.004881250023215027,
+      "centre_std": 9.801267623045996,
+      "centre_p999": 110.93600000001607,
+      "native_pixel_scale_arcsec": [
+        0.049999999999996804,
+        0.04999999999999968
+      ],
+      "central_wcs_error_arcsec": 1.144999685326866e-11
+    },
+    "sha256": "584c7787c369c53b88c2c7f2e10822ef00ba1afbf7fce2e6443ec906f8edf628",
+    "attempts": [
+      {
+        "uri": "mast:HST/product/hst_17431_01_acs_wfc_f475w_jf8201_drc.fits",
+        "band": "F475W",
+        "status": "ok"
+      }
+    ]
+  },
+  {
+    "row_number": 366,
+    "catalog_id": 365,
+    "name": "COOLJ1153B",
+    "provider": "JWST",
+    "checked_at": "2026-11-01T18:34:42.674982+00:00",
+    "fov_arcsec": 40,
+    "attempts": [
+      {
+        "uri": "mast:JWST/product/jw06675-o001_t002_nircam_clear-f150w_i2d.fits",
+        "band": "F150W",
+        "status": "no",
+        "reason": "Science plane lacks complete coverage, spatial variation, or sufficient central display contrast"
+      },
+      {
+        "uri": "mast:JWST/product/jw06675-o001_t002_nircam_clear-f115w_i2d.fits",
+        "band": "F115W",
+        "status": "no",
+        "reason": "Science plane lacks complete coverage, spatial variation, or sufficient central display contrast"
+      },
+      {
+        "uri": "mast:JWST/product/jw06675-o001_t002_nircam_clear-f444w_i2d.fits",
+        "band": "F444W",
+        "status": "no",
+        "reason": "Science plane lacks complete coverage, spatial variation, or sufficient central display contrast"
+      },
+      {
+        "uri": "mast:JWST/product/jw06675-o001_t002_nircam_clear-f150w_i2d.fits",
+        "band": "F150W",
+        "status": "ok",
+        "fov_arcsec": 40,
+        "center_ra": 178.3279946299212,
+        "center_dec": 7.929952500000001
+      }
+    ],
+    "status": "ok",
+    "reason": null,
+    "candidate_count": 3,
+    "image": "images/JWST/row-366.jpg",
+    "metadata": {
+      "mission": "JWST",
+      "band": "F150W",
+      "wavelength_nm": 1499.5,
+      "uri": "mast:JWST/product/jw06675-o001_t002_nircam_clear-f150w_i2d.fits",
+      "dataset": "jw06675-o001_t002_nircam_clear-f150w",
+      "instrument": "NIRCAM/IMAGE",
+      "exposure_s": 429.472,
+      "proposal_id": "6675",
+      "observation_id": "jw06675-o001_t002_nircam_clear-f150w",
+      "urls": [
+        "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw06675-o001_t002_nircam_clear-f150w_i2d.fits"
+      ],
+      "label": "JWST F150W",
+      "bands": "F150W",
+      "output_wcs": {
+        "WCSAXES": 2,
+        "CRPIX1": 256.5,
+        "CRPIX2": 256.5,
+        "CDELT1": -2.1701388888889e-05,
+        "CDELT2": 2.1701388888889e-05,
+        "CUNIT1": "deg",
+        "CUNIT2": "deg",
+        "CTYPE1": "RA---TAN",
+        "CTYPE2": "DEC--TAN",
+        "CRVAL1": 178.32799462992,
+        "CRVAL2": 7.9299525,
+        "LONPOLE": 180.0,
+        "LATPOLE": 7.9299525,
+        "MJDREF": 0.0,
+        "RADESYS": "ICRS"
+      },
+      "archive_fits_sha256": "c008f3910a7638fdc8c36f1d110ceb1ef07f0d513b4ce8a92812c0d20e9265dc",
+      "rendering": "Single-band asinh grayscale; north up, east left. Field centre offset 9 arcsec west and 10 arcsec north of catalogue B1 to include B1-B4 and avoid mosaic edges.",
+      "cutout_center_ra": 178.3279946299212,
+      "cutout_center_dec": 7.929952500000001
+    },
+    "quality": {
+      "finite_fraction": 1.0,
+      "centre_finite_fraction": 1.0,
+      "sky_median": 0.31135946387549895,
+      "sky_mad_sigma": 0.057635403556022376,
+      "centre_std": 19.574309315925845,
+      "centre_p999": 225.0,
+      "native_pixel_scale_arcsec": [
+        0.0307433570731987,
+        0.0307433570731987
+      ],
+      "central_wcs_error_arcsec": 5.72499842663433e-12
+    },
+    "sha256": "bb6069ab234450c58774c7456a3fa4b4cac7a3af8543941444c6f779078ea9de",
+    "field_adjustment": "80-arcsec field had incomplete mosaic coverage; verified complete 40-arcsec field includes the B images."
+  },
+  {
+    "row_number": 366,
+    "catalog_id": 365,
+    "name": "COOLJ1153B",
+    "provider": "Euclid",
+    "checked_at": "2026-11-01T18:34:43.395257+00:00",
+    "fov_arcsec": 80,
+    "attempts": [],
+    "status": "no",
+    "reason": "No usable public science image found",
+    "candidate_count": 0
+  },
+  {
+    "row_number": 366,
+    "catalog_id": 365,
+    "name": "COOLJ1153B",
+    "provider": "HSC",
+    "checked_at": "2026-11-01T18:34:43.398087+00:00",
+    "fov_arcsec": 80,
+    "status": "no",
+    "reason": "flat or unusable central image"
+  },
+  {
+    "row_number": 366,
+    "catalog_id": 365,
+    "name": "COOLJ1153B",
+    "provider": "DES",
+    "checked_at": "2026-11-01T18:34:43.702159+00:00",
+    "fov_arcsec": 80,
+    "status": "no",
+    "reason": "DES SIA returned no observations"
+  },
+  {
+    "row_number": 366,
+    "catalog_id": 365,
+    "name": "COOLJ1153B",
+    "provider": "Legacy Surveys",
+    "checked_at": "2026-11-01T18:34:44.107493+00:00",
+    "fov_arcsec": 80,
+    "status": "ok",
+    "image": "images/Legacy-Surveys/row-366.jpg",
+    "metadata": {
+      "urls": [
+        "https://www.legacysurvey.org/viewer/jpeg-cutout?ra=178.33051875&dec=7.927174722222222&layer=ls-dr11&pixscale=0.15625&size=512&bands=grz"
+      ],
+      "layer": "ls-dr11",
+      "bands": "grz",
+      "label": "Legacy DR11",
+      "release": "DR11",
+      "version_attempts": []
+    },
+    "quality": {
+      "valid_fraction": 0.9999618530273438,
+      "centre_valid_fraction": 1.0,
+      "std": 29.796275618015105,
+      "centre_std": 34.677398226619964,
+      "centre_range": 232.0
+    },
+    "sha256": "cebab455c6d869c0b89c9687c5dda80cb2035d203f97d091242aebaec9a881af"
+  },
+  {
+    "row_number": 366,
+    "catalog_id": 365,
+    "name": "COOLJ1153B",
+    "provider": "Pan-STARRS",
+    "checked_at": "2026-11-01T18:34:44.320667+00:00",
+    "fov_arcsec": 80,
+    "status": "ok",
+    "image": "images/Pan-STARRS/row-366.jpg",
+    "metadata": {
+      "label": "Pan-STARRS",
+      "release": "PS1 stack",
+      "bands": "gri",
+      "urls": [
+        "https://ps1images.stsci.edu/cgi-bin/ps1filenames.py?ra=178.33051875&dec=7.927174722222222&filters=gri&type=stack&sep=%2C",
+        "https://ps1images.stsci.edu/cgi-bin/fitscut.cgi?ra=178.33051875&dec=7.927174722222222&size=320&output_size=512&format=jpg&red=%2Frings.v3.skycell%2F1456%2F094%2Frings.v3.skycell.1456.094.stk.i.unconv.fits&green=%2Frings.v3.skycell%2F1456%2F094%2Frings.v3.skycell.1456.094.stk.r.unconv.fits&blue=%2Frings.v3.skycell%2F1456%2F094%2Frings.v3.skycell.1456.094.stk.g.unconv.fits"
+      ]
+    },
+    "quality": {
+      "valid_fraction": 1.0,
+      "centre_valid_fraction": 1.0,
+      "std": 36.38550601474297,
+      "centre_std": 40.346764160819404,
+      "centre_range": 233.0
+    },
+    "sha256": "4347faeb4a01bda3c30de2b917078b912890befac666aef9b15bacf579352e6c"
+  },
+  {
+    "row_number": 366,
+    "catalog_id": 365,
+    "name": "COOLJ1153B",
+    "provider": "SDSS",
+    "checked_at": "2026-11-01T18:34:46.264985+00:00",
+    "fov_arcsec": 80,
+    "status": "ok",
+    "image": "images/SDSS/row-366.jpg",
+    "metadata": {
+      "label": "SDSS DR16",
+      "release": "DR16",
+      "bands": "SDSS RGB",
+      "urls": [
+        "https://skyserver.sdss.org/dr16/SkyServerWS/ImgCutout/getjpeg?ra=178.33051875&dec=7.927174722222222&scale=0.15625&width=512&height=512"
+      ]
+    },
+    "quality": {
+      "valid_fraction": 0.7466049194335938,
+      "centre_valid_fraction": 0.81304931640625,
+      "std": 14.474240234918344,
+      "centre_std": 17.253239168153158,
+      "centre_range": 110.0
+    },
+    "sha256": "6edfd1b088fb0dd7737947720277c6bd6cd50eb6e05f5d437d48714995eae714"
+  },
+  {
+    "row_number": 367,
+    "catalog_id": 366,
+    "name": "J1330-0905",
+    "provider": "HST",
+    "checked_at": "2026-11-01T18:34:46.637728+00:00",
+    "fov_arcsec": 20,
+    "attempts": [],
+    "status": "no",
+    "reason": "No usable public science image found",
+    "candidate_count": 0
+  },
+  {
+    "row_number": 367,
+    "catalog_id": 366,
+    "name": "J1330-0905",
+    "provider": "JWST",
+    "checked_at": "2026-11-01T18:34:46.638400+00:00",
+    "fov_arcsec": 20,
+    "attempts": [],
+    "status": "no",
+    "reason": "No usable public science image found",
+    "candidate_count": 0
+  },
+  {
+    "row_number": 367,
+    "catalog_id": 366,
+    "name": "J1330-0905",
+    "provider": "Euclid",
+    "checked_at": "2026-11-01T18:34:46.638741+00:00",
+    "fov_arcsec": 20,
+    "attempts": [],
+    "status": "no",
+    "reason": "No usable public science image found",
+    "candidate_count": 0
+  },
+  {
+    "row_number": 367,
+    "catalog_id": 366,
+    "name": "J1330-0905",
+    "provider": "HSC",
+    "checked_at": "2026-11-01T18:34:46.640814+00:00",
+    "fov_arcsec": 20,
+    "status": "no",
+    "reason": "flat or unusable central image"
+  },
+  {
+    "row_number": 367,
+    "catalog_id": 366,
+    "name": "J1330-0905",
+    "provider": "DES",
+    "checked_at": "2026-11-01T18:34:46.835362+00:00",
+    "fov_arcsec": 20,
+    "status": "no",
+    "reason": "DES SIA returned no observations"
+  },
+  {
+    "row_number": 367,
+    "catalog_id": 366,
+    "name": "J1330-0905",
+    "provider": "Legacy Surveys",
+    "checked_at": "2026-11-01T18:34:47.318836+00:00",
+    "fov_arcsec": 20,
+    "status": "ok",
+    "image": "images/Legacy-Surveys/row-367.jpg",
+    "metadata": {
+      "urls": [
+        "https://www.legacysurvey.org/viewer/jpeg-cutout?ra=202.52191666666667&dec=-9.084394444444445&layer=ls-dr11&pixscale=0.0390625&size=512&bands=grz"
+      ],
+      "layer": "ls-dr11",
+      "bands": "grz",
+      "label": "Legacy DR11",
+      "release": "DR11",
+      "version_attempts": []
+    },
+    "quality": {
+      "valid_fraction": 1.0,
+      "centre_valid_fraction": 1.0,
+      "std": 71.54645990338037,
+      "centre_std": 57.265774579088394,
+      "centre_range": 255.0
+    },
+    "sha256": "bb840860f76f84bedc416113be45f9fb18f08099d3b541f0c8403ba72ab96fd5"
+  },
+  {
+    "row_number": 367,
+    "catalog_id": 366,
+    "name": "J1330-0905",
+    "provider": "Pan-STARRS",
+    "checked_at": "2026-11-01T18:34:48.135297+00:00",
+    "fov_arcsec": 20,
+    "status": "ok",
+    "image": "images/Pan-STARRS/row-367.jpg",
+    "metadata": {
+      "label": "Pan-STARRS",
+      "release": "PS1 stack",
+      "bands": "gri",
+      "urls": [
+        "https://ps1images.stsci.edu/cgi-bin/ps1filenames.py?ra=202.52191666666667&dec=-9.084394444444445&filters=gri&type=stack&sep=%2C",
+        "https://ps1images.stsci.edu/cgi-bin/fitscut.cgi?ra=202.52191666666667&dec=-9.084394444444445&size=80&output_size=512&format=jpg&red=%2Frings.v3.skycell%2F1104%2F074%2Frings.v3.skycell.1104.074.stk.i.unconv.fits&green=%2Frings.v3.skycell%2F1104%2F074%2Frings.v3.skycell.1104.074.stk.r.unconv.fits&blue=%2Frings.v3.skycell%2F1104%2F074%2Frings.v3.skycell.1104.074.stk.g.unconv.fits",
+        "https://ps1images.stsci.edu/cgi-bin/fitscut.cgi?ra=202.52191666666667&dec=-9.084394444444445&size=80&format=fits&red=%2Frings.v3.skycell%2F1104%2F074%2Frings.v3.skycell.1104.074.stk.g.unconv.fits",
+        "https://ps1images.stsci.edu/cgi-bin/fitscut.cgi?ra=202.52191666666667&dec=-9.084394444444445&size=80&format=fits&red=%2Frings.v3.skycell%2F1104%2F074%2Frings.v3.skycell.1104.074.stk.r.unconv.fits",
+        "https://ps1images.stsci.edu/cgi-bin/fitscut.cgi?ra=202.52191666666667&dec=-9.084394444444445&size=80&format=fits&red=%2Frings.v3.skycell%2F1104%2F074%2Frings.v3.skycell.1104.074.stk.i.unconv.fits"
+      ],
+      "science_coverage_verified": true,
+      "coverage_note": "Dark JPEG centre retained after validating all three FITS bands; no claim of target detection."
+    },
+    "quality": {
+      "valid_fraction": 0.21660995483398438,
+      "centre_valid_fraction": 0.98077392578125,
+      "std": 34.392495404922165,
+      "centre_std": 67.76202371900027,
+      "centre_range": 253.0
+    },
+    "sha256": "b95959651ef0f29f2941edf91322d7c9cfc23549087327de056b08e08b9a20f5"
+  },
+  {
+    "row_number": 367,
+    "catalog_id": 366,
+    "name": "J1330-0905",
+    "provider": "SDSS",
+    "checked_at": "2026-11-01T18:34:48.200976+00:00",
+    "fov_arcsec": 20,
+    "status": "no",
+    "reason": "service reports no image coverage"
+  },
+  {
+    "row_number": 368,
+    "catalog_id": 367,
+    "name": "J1453+0529",
+    "provider": "HST",
+    "checked_at": "2026-11-01T18:34:48.685988+00:00",
+    "fov_arcsec": 20,
+    "attempts": [],
+    "status": "no",
+    "reason": "No usable public science image found",
+    "candidate_count": 0
+  },
+  {
+    "row_number": 368,
+    "catalog_id": 367,
+    "name": "J1453+0529",
+    "provider": "JWST",
+    "checked_at": "2026-11-01T18:34:48.687089+00:00",
+    "fov_arcsec": 20,
+    "attempts": [],
+    "status": "no",
+    "reason": "No usable public science image found",
+    "candidate_count": 0
+  },
+  {
+    "row_number": 368,
+    "catalog_id": 367,
+    "name": "J1453+0529",
+    "provider": "Euclid",
+    "checked_at": "2026-11-01T18:34:48.687607+00:00",
+    "fov_arcsec": 20,
+    "attempts": [],
+    "status": "no",
+    "reason": "No usable public science image found",
+    "candidate_count": 0
+  },
+  {
+    "row_number": 368,
+    "catalog_id": 367,
+    "name": "J1453+0529",
+    "provider": "HSC",
+    "checked_at": "2026-11-01T18:34:48.692102+00:00",
+    "fov_arcsec": 20,
+    "status": "no",
+    "reason": "flat or unusable central image"
+  },
+  {
+    "row_number": 368,
+    "catalog_id": 367,
+    "name": "J1453+0529",
+    "provider": "DES",
+    "checked_at": "2026-11-01T18:34:48.758900+00:00",
+    "fov_arcsec": 20,
+    "status": "no",
+    "reason": "DES SIA returned no observations"
+  },
+  {
+    "row_number": 368,
+    "catalog_id": 367,
+    "name": "J1453+0529",
+    "provider": "Legacy Surveys",
+    "checked_at": "2026-11-01T18:34:49.573511+00:00",
+    "fov_arcsec": 20,
+    "status": "ok",
+    "image": "images/Legacy-Surveys/row-368.jpg",
+    "metadata": {
+      "urls": [
+        "https://www.legacysurvey.org/viewer/jpeg-cutout?ra=223.27895833333332&dec=5.491127777777778&layer=ls-dr11&pixscale=0.0390625&size=512&bands=grz"
+      ],
+      "layer": "ls-dr11",
+      "bands": "grz",
+      "label": "Legacy DR11",
+      "release": "DR11",
+      "version_attempts": []
+    },
+    "quality": {
+      "valid_fraction": 0.9999809265136719,
+      "centre_valid_fraction": 1.0,
+      "std": 33.67794436242702,
+      "centre_std": 77.03707302841127,
+      "centre_range": 253.0
+    },
+    "sha256": "750368f46e786ee0f99194d8097d69486baccaa7dea8dc1ee297a401f7af687b"
+  },
+  {
+    "row_number": 368,
+    "catalog_id": 367,
+    "name": "J1453+0529",
+    "provider": "Pan-STARRS",
+    "checked_at": "2026-11-01T18:34:49.629557+00:00",
+    "fov_arcsec": 20,
+    "status": "ok",
+    "image": "images/Pan-STARRS/row-368.jpg",
+    "metadata": {
+      "label": "Pan-STARRS",
+      "release": "PS1 stack",
+      "bands": "gri",
+      "urls": [
+        "https://ps1images.stsci.edu/cgi-bin/ps1filenames.py?ra=223.27895833333332&dec=5.491127777777778&filters=gri&type=stack&sep=%2C",
+        "https://ps1images.stsci.edu/cgi-bin/fitscut.cgi?ra=223.27895833333332&dec=5.491127777777778&size=80&output_size=512&format=jpg&red=%2Frings.v3.skycell%2F1467%2F033%2Frings.v3.skycell.1467.033.stk.i.unconv.fits&green=%2Frings.v3.skycell%2F1467%2F033%2Frings.v3.skycell.1467.033.stk.r.unconv.fits&blue=%2Frings.v3.skycell%2F1467%2F033%2Frings.v3.skycell.1467.033.stk.g.unconv.fits"
+      ]
+    },
+    "quality": {
+      "valid_fraction": 1.0,
+      "centre_valid_fraction": 1.0,
+      "std": 29.200818374787,
+      "centre_std": 63.878628241289135,
+      "centre_range": 229.0
+    },
+    "sha256": "b7ea45dae6e5d872cec4b60c65cea58a92fb8f0fec5a7b13d8d356b94ad1cdd7"
+  },
+  {
+    "row_number": 368,
+    "catalog_id": 367,
+    "name": "J1453+0529",
+    "provider": "SDSS",
+    "checked_at": "2026-11-01T18:34:50.392589+00:00",
+    "fov_arcsec": 20,
+    "status": "no",
+    "reason": "blank or incomplete field/centre"
+  }
+]
