@@ -30,7 +30,7 @@ const englishValues = {
   "还有一个发现未记录在本表格中": "One additional discovery is not included in this table.",
   "透镜星系光谱信噪比过低，无法测量红移": "Lens spectrum S/N too low to measure the redshift."
 };
-const englishValue = value => Object.hasOwn(englishValues, value) ? englishValues[value] : value;
+const englishValue = value => typeof value === 'string' ? value.split('\n').map(line => Object.hasOwn(englishValues, line) ? englishValues[line] : line).join('\n') : value;
 const display = value => missing(value) ? '<span class="missing">—</span>' : escapeHTML(englishValue(value));
 const normalize = value => String(value ?? '').normalize('NFKC').replace(/[−–—]/g, '-').toLowerCase().replace(/\s/g, '');
 function number(value) {
@@ -87,7 +87,7 @@ function render() {
     const paper = state.paperImages[String(r.row_number)];
     const paperURL = safeURL(paper?.reference_url);
     const paperThumbnail = paper ? `<a class="thumbnail-button" href="${escapeHTML(paper.path)}" target="_blank" rel="noopener noreferrer" aria-label="View paper image of ${escapeHTML(r.name)}"><img src="${escapeHTML(paper.path)}" alt="${escapeHTML(r.name)} · ${escapeHTML(paper.reference)}" width="128" height="128" loading="lazy"></a>${paperURL ? `<a class="paper-source" href="${escapeHTML(paperURL)}" target="_blank" rel="noopener noreferrer">${escapeHTML(paper.reference)}</a>` : ''}` : '<span class="missing">No image available</span>';
-    return `<tr><td>${display(r.catalog_id)}</td><td><button class="record-name" data-row="${r.row_number}">${display(r.name)}</button>${!missing(r.alt_name) ? `<div class="alias" title="${escapeHTML(r.alt_name)}">${escapeHTML(r.alt_name)}</div>` : ''}</td><td class="thumbnail-cell">${thumbnail}</td><td class="thumbnail-cell">${paperThumbnail}</td><td class="numeric">${display(r.ra)}</td><td class="numeric">${display(r.dec)}</td><td class="numeric"><span class="redshift-value">${display(r.z_lens)}</span></td><td class="numeric"><span class="redshift-value">${display(r.z_source)}</span></td><td><span class="image-count ${Number(r.n_img) >= 4 ? 'quad' : ''}">${display(r.n_img)}</span></td><td>${display(r.year)}</td><td>${url ? `<a class="citation" href="${escapeHTML(url)}" target="_blank" rel="noopener noreferrer">${display(r['first discovered'] || 'Reference')} <span>↗</span></a>` : `<span class="citation">${display(r['first discovered'])}</span>`}</td></tr>`;
+    return `<tr><td>${display(r.catalog_id)}</td><td><button class="record-name" data-row="${r.row_number}">${display(r.name)}</button>${!missing(r.alt_name) ? `<div class="alias" title="${escapeHTML(r.alt_name)}">${escapeHTML(r.alt_name)}</div>` : ''}</td><td class="thumbnail-cell">${thumbnail}</td><td class="thumbnail-cell">${paperThumbnail}</td><td class="numeric">${display(r.ra)}</td><td class="numeric">${display(r.dec)}</td><td class="numeric"><span class="redshift-value">${display(r.z_lens)}</span></td><td class="numeric"><span class="redshift-value">${display(r.z_source)}</span></td><td><span class="image-count ${Number(r.n_img) >= 4 ? 'quad' : ''}">${display(r.n_img)}</span></td><td>${display(r.year)}</td><td>${url ? `<a class="citation" href="${escapeHTML(url)}" target="_blank" rel="noopener noreferrer">${display(r['first discovered'] || 'Reference')} <span>↗</span></a>` : `<span class="citation">${display(r['first discovered'])}</span>`}${r.reference_review?.pending ? `<button class="reference-pending" data-row="${r.row_number}" title="${escapeHTML(r.reference_review.note)}">Reference pending</button>` : ''}</td></tr>`;
   }).join('');
   $('result-count').innerHTML = `<b>${state.filtered.length}</b> of ${state.records.length} records`;
   $('empty').hidden = state.filtered.length > 0;
@@ -117,7 +117,7 @@ function detail(row) {
   $('detail-content').innerHTML = `<h2>${escapeHTML(r.name)}</h2><p class="detail-subtitle">ID ${escapeHTML(r.catalog_id)} · Original ID ${escapeHTML(r.original_id)} · Worksheet 1, row ${r.row_number}</p><dl class="detail-grid">${state.columns.filter(k=>k!=='name').map(key => {
     const url = safeURL(r[key]);
     return `<div class="${['note','ADS link','alt_name'].includes(key) ? 'wide' : ''}"><dt>${escapeHTML(labels[key] || key)}</dt><dd>${url ? `<a href="${escapeHTML(url)}" target="_blank" rel="noopener noreferrer">${escapeHTML(r[key])} ↗</a>` : display(r[key])}</dd></div>`;
-  }).join('')}</dl>`;
+  }).join('')}</dl>${r.reference_review ? `<p class="reference-review-note"><b>${r.reference_review.pending ? 'Reference pending' : 'Reference corrected'} (${escapeHTML(r.reference_review.date)})</b><br>${escapeHTML(r.reference_review.note)}</p>` : ''}`;
   $('details').showModal();
 }
 function downloadCSV() {
@@ -157,7 +157,7 @@ for (const button of document.querySelectorAll('[data-sort]')) {
 }
 async function init() {
   try {
-    const response = await fetch('data/catalog.json'); if(!response.ok)throw new Error(`HTTP ${response.status}`);
+    const response = await fetch('data/catalog.json?v=references-20261101'); if(!response.ok)throw new Error(`HTTP ${response.status}`);
     const data = await response.json(); state.records=data.records;state.columns=data.meta.columns;
     const imagesResponse = await fetch('data/selected_images.json');
     if(imagesResponse.ok)state.selectedImages=(await imagesResponse.json()).records;

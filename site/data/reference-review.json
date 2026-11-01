@@ -1,0 +1,899 @@
+{
+  "summary": {
+    "date": "2026-11-01",
+    "reviewed_records": 44,
+    "corrected_records": 40,
+    "pending_records": 11,
+    "pending_only_records": 4,
+    "scope": "Flagged bibliography entries; this is not a complete first-discovery-priority audit.",
+    "year_convention": "Year of the cited publication; explicitly labelled preprints retain their preprint year. Confirmation and candidate roles are recorded in review notes."
+  },
+  "records": [
+    {
+      "catalog_id": 20,
+      "name": "Q0142-100",
+      "status": "corrected",
+      "pending": false,
+      "fields": {
+        "ADS link": {
+          "before": "https://ui.adsabs.harvard.edu/abs/1987Nat...329..695S/abstract",
+          "after": "https://doi.org/10.1038/329695a0"
+        }
+      },
+      "reason": "ADS中Nat...应为Natur.；论文作者和年份不因此变错。",
+      "review_note": "Bibliographic correction checked against the cited source.",
+      "evidence": [
+        "https://doi.org/10.1038/329695a0",
+        "https://ui.adsabs.harvard.edu/abs/1987Natur.329..695S/abstract"
+      ]
+    },
+    {
+      "catalog_id": 30,
+      "name": "WG0214-2105",
+      "status": "corrected",
+      "pending": false,
+      "fields": {
+        "first discovered": {
+          "before": "Agnello et al. 2019",
+          "after": "Agnello 2018"
+        },
+        "ADS link": {
+          "before": "https://ui.adsabs.harvard.edu/abs/2018RNAAS...2...42A/abstract",
+          "after": "https://arxiv.org/abs/1805.10296"
+        }
+      },
+      "reason": "Agnello 2018，单作者；2019光谱跟进需另列。",
+      "review_note": "Bibliographic correction checked against the cited source.",
+      "evidence": [
+        "https://arxiv.org/abs/1805.10296"
+      ]
+    },
+    {
+      "catalog_id": 38,
+      "name": "J0246-1845",
+      "status": "corrected_pending",
+      "pending": true,
+      "fields": {
+        "first discovered": {
+          "before": "Krone-Martins et al. 2019",
+          "after": "Krone-Martins et al. 2019 (preprint)"
+        },
+        "ADS link": {
+          "before": "https://ui.adsabs.harvard.edu/abs/2019sf2a.conf..179D/abstract",
+          "after": "https://arxiv.org/abs/1912.08977"
+        },
+        "note": {
+          "before": "Lemon et al. 2020confirm",
+          "after": "Lemon et al. 2020confirm\nPending reference review: Earliest discovery/confirmation priority remains to be checked. The linked GraL V record is the 2019 preprint."
+        }
+      },
+      "reason": "作者栏写 Krone-Martins et al.，链接却指向 Ducourant 等2019会议条目。GraL V（2019预印本）正文含对应目标；应将论文标注与链接配对。首次发现/证认优先权不由此单独判定。",
+      "review_note": "Earliest discovery/confirmation priority remains to be checked. The linked GraL V record is the 2019 preprint.",
+      "evidence": [
+        "https://arxiv.org/abs/1912.08977"
+      ]
+    },
+    {
+      "catalog_id": 43,
+      "name": "J0247-6349",
+      "status": "corrected",
+      "pending": false,
+      "fields": {
+        "first discovered": {
+          "before": "Agnello et al. 2019",
+          "after": "Agnello & Spiniello 2019"
+        },
+        "ADS link": {
+          "before": "https://ui.adsabs.harvard.edu/abs/2019MNRAS.489.2525A/abstract",
+          "after": "https://doi.org/10.1093/mnras/stz2200"
+        }
+      },
+      "reason": "Agnello & Spiniello 2019，共两位作者；预印本2018。",
+      "review_note": "Bibliographic correction checked against the cited source.",
+      "evidence": [
+        "https://doi.org/10.1093/mnras/stz2200",
+        "https://arxiv.org/abs/1805.11103"
+      ]
+    },
+    {
+      "catalog_id": 51,
+      "name": "J0339-6121",
+      "status": "corrected",
+      "pending": false,
+      "fields": {
+        "first discovered": {
+          "before": "Agnello et al. 2019",
+          "after": "Agnello & Spiniello 2019"
+        },
+        "ADS link": {
+          "before": "https://ui.adsabs.harvard.edu/abs/2019MNRAS.489.2525A/abstract",
+          "after": "https://doi.org/10.1093/mnras/stz2200"
+        }
+      },
+      "reason": "Agnello & Spiniello 2019，共两位作者；预印本2018。",
+      "review_note": "Bibliographic correction checked against the cited source.",
+      "evidence": [
+        "https://doi.org/10.1093/mnras/stz2200",
+        "https://arxiv.org/abs/1805.11103"
+      ]
+    },
+    {
+      "catalog_id": 57,
+      "name": "J0401-2514",
+      "status": "corrected",
+      "pending": false,
+      "fields": {
+        "first discovered": {
+          "before": "Agnello et al. 2019",
+          "after": "Agnello & Spiniello 2019"
+        },
+        "ADS link": {
+          "before": "https://ui.adsabs.harvard.edu/abs/2019MNRAS.489.2525A/abstract",
+          "after": "https://doi.org/10.1093/mnras/stz2200"
+        }
+      },
+      "reason": "Agnello & Spiniello 2019，共两位作者；预印本2018。",
+      "review_note": "Bibliographic correction checked against the cited source.",
+      "evidence": [
+        "https://doi.org/10.1093/mnras/stz2200",
+        "https://arxiv.org/abs/1805.11103"
+      ]
+    },
+    {
+      "catalog_id": 71,
+      "name": "DECALSJ0446-3102",
+      "status": "corrected",
+      "pending": false,
+      "fields": {
+        "first discovered": {
+          "before": null,
+          "after": "Dawes et al. 2023"
+        },
+        "year": {
+          "before": null,
+          "after": 2023
+        },
+        "ADS link": {
+          "before": null,
+          "after": "https://doi.org/10.3847/1538-4365/ad015a"
+        },
+        "note": {
+          "before": null,
+          "after": "Published candidate reference: Dawes 2023 (preprint 2022), grade C. This citation does not establish lens confirmation."
+        }
+      },
+      "reason": "补Dawes等2023 Table 2 index283、grade C；DESI-071.7180-31.0384，2022预印本、2023期刊，不代表光谱证认。",
+      "review_note": "Published candidate reference: Dawes 2023 (preprint 2022), grade C. This citation does not establish lens confirmation.",
+      "evidence": [
+        "https://doi.org/10.3847/1538-4365/ad015a",
+        "https://ui.adsabs.harvard.edu/abs/2023ApJS..269...61D/abstract"
+      ]
+    },
+    {
+      "catalog_id": 76,
+      "name": "HE0512-3329",
+      "status": "corrected",
+      "pending": false,
+      "fields": {
+        "first discovered": {
+          "before": "Hagen & Reimers 2000",
+          "after": "Gregg et al. 2000"
+        },
+        "ADS link": {
+          "before": "https://ui.adsabs.harvard.edu/abs/2000A%26A...357L..29H/abstract",
+          "after": "https://arxiv.org/abs/astro-ph/0002333"
+        }
+      },
+      "reason": "原Hagen论文为HS0818+1227，应为Gregg等2000 AJ1192535。",
+      "review_note": "Bibliographic correction checked against the cited source.",
+      "evidence": [
+        "https://arxiv.org/abs/astro-ph/0002333"
+      ]
+    },
+    {
+      "catalog_id": 77,
+      "name": "J0526-3933",
+      "status": "corrected",
+      "pending": false,
+      "fields": {
+        "first discovered": {
+          "before": "Agnello et al. 2019",
+          "after": "Agnello & Spiniello 2019"
+        },
+        "ADS link": {
+          "before": "https://ui.adsabs.harvard.edu/abs/2019MNRAS.489.2525A/abstract",
+          "after": "https://doi.org/10.1093/mnras/stz2200"
+        }
+      },
+      "reason": "Agnello & Spiniello 2019，共两位作者；预印本2018。",
+      "review_note": "Bibliographic correction checked against the cited source.",
+      "evidence": [
+        "https://doi.org/10.1093/mnras/stz2200",
+        "https://arxiv.org/abs/1805.11103"
+      ]
+    },
+    {
+      "catalog_id": 86,
+      "name": "PSJ0630-1201",
+      "status": "corrected",
+      "pending": false,
+      "fields": {
+        "ADS link": {
+          "before": "https://ui.adsabs.harvard.edu/abs/2018MNRAS.473L.116O/abstract0218",
+          "after": "https://ui.adsabs.harvard.edu/abs/2018MNRAS.473L.116O/abstract"
+        }
+      },
+      "reason": "删除ADS链接末尾abstract0218中的0218。",
+      "review_note": "Bibliographic correction checked against the cited source.",
+      "evidence": [
+        "https://ui.adsabs.harvard.edu/abs/2018MNRAS.473L.116O/abstract"
+      ]
+    },
+    {
+      "catalog_id": 105,
+      "name": "HS0818+1227",
+      "status": "corrected",
+      "pending": false,
+      "fields": {
+        "first discovered": {
+          "before": "Hagen et al. 2000",
+          "after": "Hagen & Reimers 2000"
+        },
+        "ADS link": {
+          "before": "https://ui.adsabs.harvard.edu/abs/2000A&A...357L..29H/abstract",
+          "after": "https://ui.adsabs.harvard.edu/abs/2000A%26A...357L..29H/abstract"
+        }
+      },
+      "reason": "Hagen & Reimers 2000，共两位作者。",
+      "review_note": "Bibliographic correction checked against the cited source.",
+      "evidence": [
+        "https://ui.adsabs.harvard.edu/abs/2000A%26A...357L..29H/abstract"
+      ]
+    },
+    {
+      "catalog_id": 108,
+      "name": "APM08279+5255",
+      "status": "corrected",
+      "pending": false,
+      "fields": {
+        "ADS link": {
+          "before": "https://ui.adsabs.harvard.edu/abs/1998ApJ...505L...1L/abstract",
+          "after": "https://arxiv.org/abs/astro-ph/9806171"
+        }
+      },
+      "reason": "作者栏为 Irwin et al. 1998，链接实际对应 Lewis et al. 1998 的亚毫米后续观测，非 Irwin 论文。Irwin 对应 ApJ 505, 529。旧审计将 Lewis 误写为 Ledoux，本轮已纠正。",
+      "review_note": "Bibliographic correction checked against the cited source.",
+      "evidence": [
+        "https://arxiv.org/abs/astro-ph/9806171",
+        "https://arxiv.org/abs/astro-ph/9807293"
+      ]
+    },
+    {
+      "catalog_id": 113,
+      "name": "J0840+3550",
+      "status": "corrected",
+      "pending": false,
+      "fields": {
+        "ADS link": {
+          "before": "https://ui.adsabs.harvard.edu/abs/2018MNRAS.tmp..893L/abstract",
+          "after": "https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.5060L/abstract"
+        }
+      },
+      "reason": "Lemon2018临时bibcode换为2018MNRAS4795060L。",
+      "review_note": "Bibliographic correction checked against the cited source.",
+      "evidence": [
+        "https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.5060L/abstract"
+      ]
+    },
+    {
+      "catalog_id": 118,
+      "name": "J0907+0003",
+      "status": "corrected_pending",
+      "pending": true,
+      "fields": {
+        "first discovered": {
+          "before": "Krone-Martins et al. 2019",
+          "after": "Krone-Martins et al. 2019 (preprint)"
+        },
+        "ADS link": {
+          "before": "https://ui.adsabs.harvard.edu/abs/2019sf2a.conf..179D/abstract",
+          "after": "https://arxiv.org/abs/1912.08977"
+        },
+        "note": {
+          "before": null,
+          "after": "Pending reference review: Earliest discovery/confirmation priority remains to be checked. The linked GraL V record is the 2019 preprint."
+        }
+      },
+      "reason": "作者栏写 Krone-Martins et al.，链接却指向 Ducourant 等2019会议条目。GraL V（2019预印本）正文含对应目标；应将论文标注与链接配对。首次发现/证认优先权不由此单独判定。",
+      "review_note": "Earliest discovery/confirmation priority remains to be checked. The linked GraL V record is the 2019 preprint.",
+      "evidence": [
+        "https://arxiv.org/abs/1912.08977"
+      ]
+    },
+    {
+      "catalog_id": 131,
+      "name": "J0941+0518",
+      "status": "corrected_pending",
+      "pending": true,
+      "fields": {
+        "ADS link": {
+          "before": "https://ui.adsabs.harvard.edu/abs/2018MNRAS.tmp..893L/abstract",
+          "after": "https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.5060L/abstract"
+        },
+        "note": {
+          "before": null,
+          "after": "Pending reference review: Independent discoveries by Williams et al. and Lemon et al. require a first-public-version comparison."
+        }
+      },
+      "reason": "J0941+0518应同时追溯Williams等2018，预印本2017；Lemon等2018为独立发现。",
+      "review_note": "Independent discoveries by Williams et al. and Lemon et al. require a first-public-version comparison.",
+      "evidence": [
+        "https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.5060L/abstract",
+        "https://arxiv.org/abs/1706.01506"
+      ]
+    },
+    {
+      "catalog_id": 134,
+      "name": "J0949+4208",
+      "status": "corrected",
+      "pending": false,
+      "fields": {
+        "ADS link": {
+          "before": "https://ui.adsabs.harvard.edu/abs/2018MNRAS.tmp..893L/abstract",
+          "after": "https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.5060L/abstract"
+        }
+      },
+      "reason": "Lemon2018临时bibcode换为2018MNRAS4795060L。",
+      "review_note": "Bibliographic correction checked against the cited source.",
+      "evidence": [
+        "https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.5060L/abstract"
+      ]
+    },
+    {
+      "catalog_id": 138,
+      "name": "Q0957+561",
+      "status": "corrected",
+      "pending": false,
+      "fields": {
+        "ADS link": {
+          "before": "https://ui.adsabs.harvard.edu/abs/1979Nat...279..381W/abstract",
+          "after": "https://doi.org/10.1038/279381a0"
+        }
+      },
+      "reason": "ADS中Nat...应为Natur.；论文作者和年份不因此变错。",
+      "review_note": "Bibliographic correction checked against the cited source.",
+      "evidence": [
+        "https://doi.org/10.1038/279381a0",
+        "https://ui.adsabs.harvard.edu/abs/1979Natur.279..381W/abstract"
+      ]
+    },
+    {
+      "catalog_id": 143,
+      "name": "SDSSJ1004+4112",
+      "status": "corrected",
+      "pending": false,
+      "fields": {
+        "ADS link": {
+          "before": "https://ui.adsabs.harvard.edu/abs/2003astro.ph..4377I/abstract",
+          "after": "https://arxiv.org/abs/astro-ph/0312427"
+        }
+      },
+      "reason": "astro-ph/0304377为SDSS0924；本对象为Inada等2003 Nature426810。",
+      "review_note": "Bibliographic correction checked against the cited source.",
+      "evidence": [
+        "https://arxiv.org/abs/astro-ph/0312427",
+        "https://ui.adsabs.harvard.edu/abs/2003Natur.426..810I/abstract"
+      ]
+    },
+    {
+      "catalog_id": 149,
+      "name": "FSC10214+4724",
+      "status": "pending",
+      "pending": true,
+      "fields": {
+        "note": {
+          "before": null,
+          "after": "Pending reference review: The 1991 reference reports the infrared object. First identification as a gravitational lens remains to be established."
+        }
+      },
+      "reason": "1991为红外对象发现，不能直接等同透镜发现；1995透镜证据文献需分别列出，最早优先权未闭合。",
+      "review_note": "The 1991 reference reports the infrared object. First identification as a gravitational lens remains to be established.",
+      "evidence": [
+        "https://ui.adsabs.harvard.edu/abs/1991Natur.351..719R/abstract",
+        "https://ui.adsabs.harvard.edu/abs/1995ApJ...449L..29G/abstract"
+      ]
+    },
+    {
+      "catalog_id": 170,
+      "name": "SDSSJ1138+0314",
+      "status": "pending",
+      "pending": true,
+      "fields": {
+        "note": {
+          "before": "Burles et al. 2005, in preparation",
+          "after": "Burles et al. 2005, in preparation\nPending reference review: Eigenbrod 2006 is lens-redshift follow-up and credits Burles 2005, in preparation. Earliest public discovery remains unresolved."
+        }
+      },
+      "reason": "Eigenbrod et al. 2006 是透镜星系红移跟进；其正文将发现归功于 Burles et al. 2005（in preparation）。不能直接将红移测量论文当作首次发现；最早公开出处仍需另核。",
+      "review_note": "Eigenbrod 2006 is lens-redshift follow-up and credits Burles 2005, in preparation. Earliest public discovery remains unresolved.",
+      "evidence": [
+        "https://ui.adsabs.harvard.edu/abs/2006A%26A...451..759E/abstract",
+        "https://arxiv.org/abs/astro-ph/0411250",
+        "https://arxiv.org/abs/astro-ph/0511026"
+      ]
+    },
+    {
+      "catalog_id": 179,
+      "name": "SDSSJ1226-0006",
+      "status": "pending",
+      "pending": true,
+      "fields": {
+        "note": {
+          "before": null,
+          "after": "Pending reference review: Pindor 2003 describes a previously known lens and credits Inada 2002, submitted. First-discovery attribution remains unresolved."
+        }
+      },
+      "reason": "Pindor2003 Sect3.3明确称此前已知，并归功Inada2002 submitted；可保留早期公开描述，不能把Pindor写作发现者。",
+      "review_note": "Pindor 2003 describes a previously known lens and credits Inada 2002, submitted. First-discovery attribution remains unresolved.",
+      "evidence": [
+        "https://ui.adsabs.harvard.edu/abs/2003AJ....125.2325P/abstract"
+      ]
+    },
+    {
+      "catalog_id": 193,
+      "name": "2M1310-1714",
+      "status": "corrected",
+      "pending": false,
+      "fields": {
+        "ADS link": {
+          "before": "https://ui.adsabs.harvard.edu/abs/2018MNRAS.tmp..270L/abstract",
+          "after": "https://ui.adsabs.harvard.edu/abs/2018MNRAS.476..927L/abstract"
+        }
+      },
+      "reason": "Lucey临时bibcode换为2018MNRAS476927L。",
+      "review_note": "Bibliographic correction checked against the cited source.",
+      "evidence": [
+        "https://ui.adsabs.harvard.edu/abs/2018MNRAS.476..927L/abstract"
+      ]
+    },
+    {
+      "catalog_id": 195,
+      "name": "SDSSJ1322+1052",
+      "status": "corrected",
+      "pending": false,
+      "fields": {
+        "ADS link": {
+          "before": "https://ui.adsabs.harvard.edu/abs/2008MNRAS.391.1973O/abstract",
+          "after": "https://arxiv.org/abs/0708.0871"
+        }
+      },
+      "reason": "原Oguri2008 MNRAS3911973为SDSS1330；本对象应为Oguri2008 AJ135520。",
+      "review_note": "Bibliographic correction checked against the cited source.",
+      "evidence": [
+        "https://arxiv.org/abs/0708.0871",
+        "https://ui.adsabs.harvard.edu/abs/2008AJ....135..520O/abstract"
+      ]
+    },
+    {
+      "catalog_id": 208,
+      "name": "J1359+0129",
+      "status": "corrected_pending",
+      "pending": true,
+      "fields": {
+        "first discovered": {
+          "before": "Morgan et al. 2003",
+          "after": "Jaelani et al. 2021"
+        },
+        "year": {
+          "before": 2003,
+          "after": 2021
+        },
+        "ADS link": {
+          "before": "https://ui.adsabs.harvard.edu/abs/2003AJ....126..696M/abstract",
+          "after": "https://doi.org/10.1093/mnras/stab145"
+        },
+        "note": {
+          "before": null,
+          "after": "Pending reference review: Jaelani 2021 is the verified confirmation paper. Earliest candidate source remains to be checked; the short name also disagrees with the full coordinate alias."
+        }
+      },
+      "reason": "Morgan et al. 2003 的对象为 CTQ327/Q1355−2257。此行坐标和完整别名对应 SDSS J135944.21+012809.8，Jaelani et al. 2021 为对应系统的证认论文（2020预印本）；最早候选来源另查。短名 J1359+0129 与完整坐标也不一致。",
+      "review_note": "Jaelani 2021 is the verified confirmation paper. Earliest candidate source remains to be checked; the short name also disagrees with the full coordinate alias.",
+      "evidence": [
+        "https://doi.org/10.1093/mnras/stab145",
+        "https://arxiv.org/abs/2006.16584"
+      ]
+    },
+    {
+      "catalog_id": 215,
+      "name": "H1413+117",
+      "status": "corrected",
+      "pending": false,
+      "fields": {
+        "ADS link": {
+          "before": "https://ui.adsabs.harvard.edu/abs/1988Nat...334..325M/abstract",
+          "after": "https://doi.org/10.1038/334325a0"
+        }
+      },
+      "reason": "ADS中Nat...应为Natur.；论文作者和年份不因此变错。",
+      "review_note": "Bibliographic correction checked against the cited source.",
+      "evidence": [
+        "https://doi.org/10.1038/334325a0",
+        "https://ui.adsabs.harvard.edu/abs/1988Natur.334..325M/abstract"
+      ]
+    },
+    {
+      "catalog_id": 222,
+      "name": "J1508+3844",
+      "status": "corrected",
+      "pending": false,
+      "fields": {
+        "ADS link": {
+          "before": "https://ui.adsabs.harvard.edu/abs/2018MNRAS.tmp..893L/abstract",
+          "after": "https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.5060L/abstract"
+        }
+      },
+      "reason": "Lemon2018临时bibcode换为2018MNRAS4795060L。",
+      "review_note": "Bibliographic correction checked against the cited source.",
+      "evidence": [
+        "https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.5060L/abstract"
+      ]
+    },
+    {
+      "catalog_id": 240,
+      "name": "J1602+4526",
+      "status": "corrected",
+      "pending": false,
+      "fields": {
+        "ADS link": {
+          "before": "https://ui.adsabs.harvard.edu/abs/2018MNRAS.tmp..893L/abstract",
+          "after": "https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.5060L/abstract"
+        }
+      },
+      "reason": "Lemon2018临时bibcode换为2018MNRAS4795060L。",
+      "review_note": "Bibliographic correction checked against the cited source.",
+      "evidence": [
+        "https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.5060L/abstract"
+      ]
+    },
+    {
+      "catalog_id": 251,
+      "name": "J1640+1045",
+      "status": "corrected_pending",
+      "pending": true,
+      "fields": {
+        "ADS link": {
+          "before": "https://ui.adsabs.harvard.edu/abs/2018MNRAS.tmp..893L/abstract",
+          "after": "https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.5060L/abstract"
+        },
+        "note": {
+          "before": null,
+          "after": "Pending reference review: Independent discoveries by Williams et al. and Lemon et al. require a version-by-version priority check."
+        }
+      },
+      "reason": "J1640+1045应并列Williams2018与Lemon2018；不要据2017版摘要断言J1640已在其v1证认。",
+      "review_note": "Independent discoveries by Williams et al. and Lemon et al. require a version-by-version priority check.",
+      "evidence": [
+        "https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.5060L/abstract",
+        "https://doi.org/10.1093/mnrasl/sly043"
+      ]
+    },
+    {
+      "catalog_id": 256,
+      "name": "J1709+3828",
+      "status": "corrected",
+      "pending": false,
+      "fields": {
+        "ADS link": {
+          "before": "https://ui.adsabs.harvard.edu/abs/2018MNRAS.tmp..893L/abstract",
+          "after": "https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.5060L/abstract"
+        }
+      },
+      "reason": "Lemon2018临时bibcode换为2018MNRAS4795060L。",
+      "review_note": "Bibliographic correction checked against the cited source.",
+      "evidence": [
+        "https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.5060L/abstract"
+      ]
+    },
+    {
+      "catalog_id": 257,
+      "name": "J1710+4332",
+      "status": "corrected",
+      "pending": false,
+      "fields": {
+        "ADS link": {
+          "before": "https://ui.adsabs.harvard.edu/abs/2018MNRAS.tmp..893L/abstract",
+          "after": "https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.5060L/abstract"
+        }
+      },
+      "reason": "Lemon2018临时bibcode换为2018MNRAS4795060L。",
+      "review_note": "Bibliographic correction checked against the cited source.",
+      "evidence": [
+        "https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.5060L/abstract"
+      ]
+    },
+    {
+      "catalog_id": 258,
+      "name": "J1721+8842",
+      "status": "corrected",
+      "pending": false,
+      "fields": {
+        "ADS link": {
+          "before": "https://ui.adsabs.harvard.edu/abs/2018MNRAS.tmp..893L/abstract",
+          "after": "https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.5060L/abstract"
+        }
+      },
+      "reason": "Lemon2018临时bibcode换为2018MNRAS4795060L。",
+      "review_note": "Bibliographic correction checked against the cited source.",
+      "evidence": [
+        "https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.5060L/abstract"
+      ]
+    },
+    {
+      "catalog_id": 260,
+      "name": "J1831+5447",
+      "status": "corrected",
+      "pending": false,
+      "fields": {
+        "ADS link": {
+          "before": "https://ui.adsabs.harvard.edu/abs/2018MNRAS.tmp..893L/abstract",
+          "after": "https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.5060L/abstract"
+        }
+      },
+      "reason": "Lemon2018临时bibcode换为2018MNRAS4795060L。",
+      "review_note": "Bibliographic correction checked against the cited source.",
+      "evidence": [
+        "https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.5060L/abstract"
+      ]
+    },
+    {
+      "catalog_id": 261,
+      "name": "PKS1830-211",
+      "status": "corrected",
+      "pending": false,
+      "fields": {
+        "first discovered": {
+          "before": "Rao et al. 1988",
+          "after": "Pramesh Rao & Subrahmanyan 1988"
+        }
+      },
+      "reason": "原bibcode1988MNRAS231229P正确；作者规范为Pramesh Rao & Subrahmanyan。",
+      "review_note": "Bibliographic correction checked against the cited source.",
+      "evidence": [
+        "https://ui.adsabs.harvard.edu/abs/1988MNRAS.231..229P/abstract"
+      ]
+    },
+    {
+      "catalog_id": 267,
+      "name": "PMNJ2004-1349",
+      "status": "corrected",
+      "pending": false,
+      "fields": {
+        "year": {
+          "before": 2000,
+          "after": 2001
+        },
+        "ADS link": {
+          "before": "https://ui.adsabs.harvard.edu/abs/2000AJ....120.2868W/abstract",
+          "after": "https://arxiv.org/abs/astro-ph/0009451"
+        },
+        "note": {
+          "before": null,
+          "after": "Reference year follows the 2001 journal publication; preprint first appeared in 2000."
+        }
+      },
+      "reason": "原链接为PMN1838；本对象为Winn等2001 AJ1211223，预印本2000。",
+      "review_note": "Reference year follows the 2001 journal publication; preprint first appeared in 2000.",
+      "evidence": [
+        "https://arxiv.org/abs/astro-ph/0009451"
+      ]
+    },
+    {
+      "catalog_id": 275,
+      "name": "J2100-4452",
+      "status": "corrected",
+      "pending": false,
+      "fields": {
+        "first discovered": {
+          "before": "Agnello et al. 2019",
+          "after": "Agnello & Spiniello 2019"
+        },
+        "ADS link": {
+          "before": "https://ui.adsabs.harvard.edu/abs/2019MNRAS.489.2525A/abstract",
+          "after": "https://doi.org/10.1093/mnras/stz2200"
+        }
+      },
+      "reason": "Agnello & Spiniello 2019，共两位作者；预印本2018。",
+      "review_note": "Bibliographic correction checked against the cited source.",
+      "evidence": [
+        "https://doi.org/10.1093/mnras/stz2200",
+        "https://arxiv.org/abs/1805.11103"
+      ]
+    },
+    {
+      "catalog_id": 279,
+      "name": "J2124+1632",
+      "status": "corrected",
+      "pending": false,
+      "fields": {
+        "ADS link": {
+          "before": "https://ui.adsabs.harvard.edu/abs/2018MNRAS.tmp..893L/abstract",
+          "after": "https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.5060L/abstract"
+        }
+      },
+      "reason": "Lemon2018临时bibcode换为2018MNRAS4795060L。",
+      "review_note": "Bibliographic correction checked against the cited source.",
+      "evidence": [
+        "https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.5060L/abstract"
+      ]
+    },
+    {
+      "catalog_id": 287,
+      "name": "J2158-5812",
+      "status": "corrected",
+      "pending": false,
+      "fields": {
+        "first discovered": {
+          "before": "Agnello et al. 2019",
+          "after": "Agnello & Spiniello 2019"
+        },
+        "ADS link": {
+          "before": "https://ui.adsabs.harvard.edu/abs/2019MNRAS.489.2525A/abstract",
+          "after": "https://doi.org/10.1093/mnras/stz2200"
+        }
+      },
+      "reason": "Agnello & Spiniello 2019，共两位作者；预印本2018。",
+      "review_note": "Bibliographic correction checked against the cited source.",
+      "evidence": [
+        "https://doi.org/10.1093/mnras/stz2200",
+        "https://arxiv.org/abs/1805.11103"
+      ]
+    },
+    {
+      "catalog_id": 296,
+      "name": "Q2237+0305",
+      "status": "corrected",
+      "pending": false,
+      "fields": {
+        "first discovered": {
+          "before": "Huchra et al. 1984",
+          "after": "Huchra et al. 1985"
+        }
+      },
+      "reason": "作者栏Huchra1984应为Huchra1985；原年份列1985正确。",
+      "review_note": "Bibliographic correction checked against the cited source.",
+      "evidence": [
+        "https://ui.adsabs.harvard.edu/abs/1985AJ.....90..691H/abstract"
+      ]
+    },
+    {
+      "catalog_id": 300,
+      "name": "J2305+3714",
+      "status": "corrected",
+      "pending": false,
+      "fields": {
+        "ADS link": {
+          "before": "https://ui.adsabs.harvard.edu/abs/2018MNRAS.tmp..893L/abstract",
+          "after": "https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.5060L/abstract"
+        }
+      },
+      "reason": "Lemon2018临时bibcode换为2018MNRAS4795060L。",
+      "review_note": "Bibliographic correction checked against the cited source.",
+      "evidence": [
+        "https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.5060L/abstract"
+      ]
+    },
+    {
+      "catalog_id": 305,
+      "name": "PSS2322+1944",
+      "status": "pending",
+      "pending": true,
+      "fields": {
+        "note": {
+          "before": "最早出现引用的Djorgovski et al. 2000没有出版，Cox et al. 2002直接用了",
+          "after": "最早出现引用的Djorgovski et al. 2000没有出版，Cox et al. 2002直接用了\nPending reference review: Cox 2002 discusses a lens/binary interpretation; Carilli 2003 supplies ring evidence. Earliest candidate priority remains unresolved."
+        }
+      },
+      "reason": "Cox2002讨论透镜/双类星体未定，不能作为无歧义透镜证认；Carilli2003给分子Einstein环；首次候选优先权仍待查。",
+      "review_note": "Cox 2002 discusses a lens/binary interpretation; Carilli 2003 supplies ring evidence. Earliest candidate priority remains unresolved.",
+      "evidence": [
+        "https://ui.adsabs.harvard.edu/abs/2002A%26A...387..406C/abstract",
+        "https://ui.adsabs.harvard.edu/abs/2003Sci...300..773C/abstract"
+      ]
+    },
+    {
+      "catalog_id": 308,
+      "name": "J2332-1852",
+      "status": "corrected",
+      "pending": false,
+      "fields": {
+        "ADS link": {
+          "before": "https://ui.adsabs.harvard.edu/abs/2018MNRAS.tmp..893L/abstract",
+          "after": "https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.5060L/abstract"
+        }
+      },
+      "reason": "Lemon2018临时bibcode换为2018MNRAS4795060L。",
+      "review_note": "Bibliographic correction checked against the cited source.",
+      "evidence": [
+        "https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.5060L/abstract"
+      ]
+    },
+    {
+      "catalog_id": 318,
+      "name": "MG2016+112",
+      "status": "corrected",
+      "pending": false,
+      "fields": {
+        "ADS link": {
+          "before": "https://ui.adsabs.harvard.edu/abs/1984ApJ...283..512N/abstract",
+          "after": "https://doi.org/10.1126/science.223.4631.46"
+        }
+      },
+      "reason": "原链接Narasimha模型论文，Lawrence发现论文为1984Science22346。",
+      "review_note": "Bibliographic correction checked against the cited source.",
+      "evidence": [
+        "https://doi.org/10.1126/science.223.4631.46"
+      ]
+    },
+    {
+      "catalog_id": 326,
+      "name": "DESI J0746+1344",
+      "status": "corrected_pending",
+      "pending": true,
+      "fields": {
+        "first discovered": {
+          "before": "He et al. 2024",
+          "after": "He et al. 2025"
+        },
+        "year": {
+          "before": 2024,
+          "after": 2025
+        },
+        "ADS link": {
+          "before": "https://arxiv.org/pdf/2501.08541v1",
+          "after": "https://doi.org/10.1051/0004-6361/202452731"
+        },
+        "note": {
+          "before": null,
+          "after": "Pending reference review: He 2025 is the confirmation paper. Earlier candidates are attributed to He 2023; the target-specific first report remains to be checked."
+        }
+      },
+      "reason": "对应He2025，arxiv2501.08541于2025-01-15公开，不是2024。",
+      "review_note": "He 2025 is the confirmation paper. Earlier candidates are attributed to He 2023; the target-specific first report remains to be checked.",
+      "evidence": [
+        "https://doi.org/10.1051/0004-6361/202452731",
+        "https://arxiv.org/abs/2501.08541"
+      ]
+    },
+    {
+      "catalog_id": 327,
+      "name": "DESI J2121-0826",
+      "status": "corrected_pending",
+      "pending": true,
+      "fields": {
+        "first discovered": {
+          "before": "He et al. 2024",
+          "after": "He et al. 2025"
+        },
+        "year": {
+          "before": 2024,
+          "after": 2025
+        },
+        "ADS link": {
+          "before": "https://arxiv.org/pdf/2501.08541v1",
+          "after": "https://doi.org/10.1051/0004-6361/202452731"
+        },
+        "note": {
+          "before": null,
+          "after": "Pending reference review: He 2025 is the confirmation paper. Earlier candidates are attributed to He 2023; the target-specific first report remains to be checked."
+        }
+      },
+      "reason": "对应He2025，arxiv2501.08541于2025-01-15公开，不是2024。",
+      "review_note": "He 2025 is the confirmation paper. Earlier candidates are attributed to He 2023; the target-specific first report remains to be checked.",
+      "evidence": [
+        "https://doi.org/10.1051/0004-6361/202452731",
+        "https://arxiv.org/abs/2501.08541"
+      ]
+    }
+  ]
+}

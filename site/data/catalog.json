@@ -3,7 +3,7 @@
     "source": "lensed_quasar.xlsx",
     "sheet": "工作表1",
     "source_sha256": "e1b9eb0c36ff5ecef12bc57cd2dd54564727cdb4b97266860c12ef5eb6361437",
-    "exported_at": "2026-10-31T15:03:54.320996+00:00",
+    "exported_at": "2026-11-01T12:56:19.649026+00:00",
     "count": 343,
     "columns": [
       "catalog_id",
@@ -27,7 +27,15 @@
     ],
     "max_original_id": 344,
     "numbering": "Sequential 1–343 in original worksheet row order; original_id retained for provenance",
-    "download_sha256": "43b6895af4a8ee80fca08255c15ca18cbb5d6192f7127050f0ee8766fb63c6c5"
+    "reference_revision": {
+      "date": "2026-11-01",
+      "reviewed_records": 44,
+      "corrected_records": 40,
+      "pending_records": 11,
+      "pending_only_records": 4,
+      "scope": "Flagged bibliography entries; this is not a complete first-discovery-priority audit.",
+      "year_convention": "Year of the cited publication; explicitly labelled preprints retain their preprint year. Confirmation and candidate roles are recorded in review notes."
+    }
   },
   "records": [
     {
@@ -464,11 +472,21 @@
       "n_img": 2,
       "first discovered": "Surdej et al. 1987",
       "year": 1987,
-      "ADS link": "https://ui.adsabs.harvard.edu/abs/1987Nat...329..695S/abstract",
+      "ADS link": "https://doi.org/10.1038/329695a0",
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 20
+      "catalog_id": 20,
+      "reference_review": {
+        "status": "corrected",
+        "pending": false,
+        "date": "2026-11-01",
+        "note": "Bibliographic correction checked against the cited source.",
+        "evidence": [
+          "https://doi.org/10.1038/329695a0",
+          "https://ui.adsabs.harvard.edu/abs/1987Natur.329..695S/abstract"
+        ]
+      }
     },
     {
       "row_number": 22,
@@ -682,13 +700,22 @@
       "z_source": "3.24",
       "image_sep": null,
       "n_img": 4,
-      "first discovered": "Agnello et al. 2019",
+      "first discovered": "Agnello 2018",
       "year": 2018,
-      "ADS link": "https://ui.adsabs.harvard.edu/abs/2018RNAAS...2...42A/abstract",
+      "ADS link": "https://arxiv.org/abs/1805.10296",
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 30
+      "catalog_id": 30,
+      "reference_review": {
+        "status": "corrected",
+        "pending": false,
+        "date": "2026-11-01",
+        "note": "Bibliographic correction checked against the cited source.",
+        "evidence": [
+          "https://arxiv.org/abs/1805.10296"
+        ]
+      }
     },
     {
       "row_number": 32,
@@ -858,13 +885,22 @@
       "z_source": "1.86",
       "image_sep": null,
       "n_img": 2,
-      "first discovered": "Krone-Martins et al. 2019",
+      "first discovered": "Krone-Martins et al. 2019 (preprint)",
       "year": 2019,
-      "ADS link": "https://ui.adsabs.harvard.edu/abs/2019sf2a.conf..179D/abstract",
-      "note": "Lemon et al. 2020confirm",
+      "ADS link": "https://arxiv.org/abs/1912.08977",
+      "note": "Lemon et al. 2020confirm\nPending reference review: Earliest discovery/confirmation priority remains to be checked. The linked GraL V record is the 2019 preprint.",
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 38
+      "catalog_id": 38,
+      "reference_review": {
+        "status": "corrected_pending",
+        "pending": true,
+        "date": "2026-11-01",
+        "note": "Earliest discovery/confirmation priority remains to be checked. The linked GraL V record is the 2019 preprint.",
+        "evidence": [
+          "https://arxiv.org/abs/1912.08977"
+        ]
+      }
     },
     {
       "row_number": 40,
@@ -968,13 +1004,23 @@
       "z_source": "2.295",
       "image_sep": "1.49",
       "n_img": 2,
-      "first discovered": "Agnello et al. 2019",
+      "first discovered": "Agnello & Spiniello 2019",
       "year": 2019,
-      "ADS link": "https://ui.adsabs.harvard.edu/abs/2019MNRAS.489.2525A/abstract",
+      "ADS link": "https://doi.org/10.1093/mnras/stz2200",
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 43
+      "catalog_id": 43,
+      "reference_review": {
+        "status": "corrected",
+        "pending": false,
+        "date": "2026-11-01",
+        "note": "Bibliographic correction checked against the cited source.",
+        "evidence": [
+          "https://doi.org/10.1093/mnras/stz2200",
+          "https://arxiv.org/abs/1805.11103"
+        ]
+      }
     },
     {
       "row_number": 45,
@@ -1144,13 +1190,23 @@
       "z_source": "2.89",
       "image_sep": "1.26",
       "n_img": 2,
-      "first discovered": "Agnello et al. 2019",
+      "first discovered": "Agnello & Spiniello 2019",
       "year": 2019,
-      "ADS link": "https://ui.adsabs.harvard.edu/abs/2019MNRAS.489.2525A/abstract",
+      "ADS link": "https://doi.org/10.1093/mnras/stz2200",
       "note": "Lemon et al. 2023 confirm",
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 51
+      "catalog_id": 51,
+      "reference_review": {
+        "status": "corrected",
+        "pending": false,
+        "date": "2026-11-01",
+        "note": "Bibliographic correction checked against the cited source.",
+        "evidence": [
+          "https://doi.org/10.1093/mnras/stz2200",
+          "https://arxiv.org/abs/1805.11103"
+        ]
+      }
     },
     {
       "row_number": 53,
@@ -1276,13 +1332,23 @@
       "z_source": "1.33",
       "image_sep": "1.45",
       "n_img": 2,
-      "first discovered": "Agnello et al. 2019",
+      "first discovered": "Agnello & Spiniello 2019",
       "year": 2019,
-      "ADS link": "https://ui.adsabs.harvard.edu/abs/2019MNRAS.489.2525A/abstract",
+      "ADS link": "https://doi.org/10.1093/mnras/stz2200",
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 57
+      "catalog_id": 57,
+      "reference_review": {
+        "status": "corrected",
+        "pending": false,
+        "date": "2026-11-01",
+        "note": "Bibliographic correction checked against the cited source.",
+        "evidence": [
+          "https://doi.org/10.1093/mnras/stz2200",
+          "https://arxiv.org/abs/1805.11103"
+        ]
+      }
     },
     {
       "row_number": 59,
@@ -1584,13 +1650,23 @@
       "z_source": null,
       "image_sep": "3.65",
       "n_img": 2,
-      "first discovered": null,
-      "year": null,
-      "ADS link": null,
-      "note": null,
+      "first discovered": "Dawes et al. 2023",
+      "year": 2023,
+      "ADS link": "https://doi.org/10.3847/1538-4365/ad015a",
+      "note": "Published candidate reference: Dawes 2023 (preprint 2022), grade C. This citation does not establish lens confirmation.",
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 71
+      "catalog_id": 71,
+      "reference_review": {
+        "status": "corrected",
+        "pending": false,
+        "date": "2026-11-01",
+        "note": "Published candidate reference: Dawes 2023 (preprint 2022), grade C. This citation does not establish lens confirmation.",
+        "evidence": [
+          "https://doi.org/10.3847/1538-4365/ad015a",
+          "https://ui.adsabs.harvard.edu/abs/2023ApJS..269...61D/abstract"
+        ]
+      }
     },
     {
       "row_number": 73,
@@ -1694,13 +1770,22 @@
       "z_source": "1.565",
       "image_sep": "0.644",
       "n_img": 2,
-      "first discovered": "Hagen & Reimers 2000",
+      "first discovered": "Gregg et al. 2000",
       "year": 2000,
-      "ADS link": "https://ui.adsabs.harvard.edu/abs/2000A%26A...357L..29H/abstract",
+      "ADS link": "https://arxiv.org/abs/astro-ph/0002333",
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 76
+      "catalog_id": 76,
+      "reference_review": {
+        "status": "corrected",
+        "pending": false,
+        "date": "2026-11-01",
+        "note": "Bibliographic correction checked against the cited source.",
+        "evidence": [
+          "https://arxiv.org/abs/astro-ph/0002333"
+        ]
+      }
     },
     {
       "row_number": 78,
@@ -1716,13 +1801,23 @@
       "z_source": "2.41",
       "image_sep": "1.75",
       "n_img": 2,
-      "first discovered": "Agnello et al. 2019",
+      "first discovered": "Agnello & Spiniello 2019",
       "year": 2019,
-      "ADS link": "https://ui.adsabs.harvard.edu/abs/2019MNRAS.489.2525A/abstract",
+      "ADS link": "https://doi.org/10.1093/mnras/stz2200",
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 77
+      "catalog_id": 77,
+      "reference_review": {
+        "status": "corrected",
+        "pending": false,
+        "date": "2026-11-01",
+        "note": "Bibliographic correction checked against the cited source.",
+        "evidence": [
+          "https://doi.org/10.1093/mnras/stz2200",
+          "https://arxiv.org/abs/1805.11103"
+        ]
+      }
     },
     {
       "row_number": 79,
@@ -1916,11 +2011,20 @@
       "n_img": 5,
       "first discovered": "Ostrovski et al. 2018",
       "year": 2018,
-      "ADS link": "https://ui.adsabs.harvard.edu/abs/2018MNRAS.473L.116O/abstract0218",
+      "ADS link": "https://ui.adsabs.harvard.edu/abs/2018MNRAS.473L.116O/abstract",
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy pair",
-      "catalog_id": 86
+      "catalog_id": 86,
+      "reference_review": {
+        "status": "corrected",
+        "pending": false,
+        "date": "2026-11-01",
+        "note": "Bibliographic correction checked against the cited source.",
+        "evidence": [
+          "https://ui.adsabs.harvard.edu/abs/2018MNRAS.473L.116O/abstract"
+        ]
+      }
     },
     {
       "row_number": 88,
@@ -2332,13 +2436,22 @@
       "z_source": "3.115",
       "image_sep": "2.1",
       "n_img": 2,
-      "first discovered": "Hagen et al. 2000",
+      "first discovered": "Hagen & Reimers 2000",
       "year": 2000,
-      "ADS link": "https://ui.adsabs.harvard.edu/abs/2000A&A...357L..29H/abstract",
+      "ADS link": "https://ui.adsabs.harvard.edu/abs/2000A%26A...357L..29H/abstract",
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 105
+      "catalog_id": 105,
+      "reference_review": {
+        "status": "corrected",
+        "pending": false,
+        "date": "2026-11-01",
+        "note": "Bibliographic correction checked against the cited source.",
+        "evidence": [
+          "https://ui.adsabs.harvard.edu/abs/2000A%26A...357L..29H/abstract"
+        ]
+      }
     },
     {
       "row_number": 107,
@@ -2400,11 +2513,21 @@
       "n_img": 3,
       "first discovered": "Irwin et al. 1998",
       "year": 1998,
-      "ADS link": "https://ui.adsabs.harvard.edu/abs/1998ApJ...505L...1L/abstract",
+      "ADS link": "https://arxiv.org/abs/astro-ph/9806171",
       "note": null,
       "source_type": "BAL Quasar, Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 108
+      "catalog_id": 108,
+      "reference_review": {
+        "status": "corrected",
+        "pending": false,
+        "date": "2026-11-01",
+        "note": "Bibliographic correction checked against the cited source.",
+        "evidence": [
+          "https://arxiv.org/abs/astro-ph/9806171",
+          "https://arxiv.org/abs/astro-ph/9807293"
+        ]
+      }
     },
     {
       "row_number": 110,
@@ -2510,11 +2633,20 @@
       "n_img": 2,
       "first discovered": "Lemon et al. 2018",
       "year": 2018,
-      "ADS link": "https://ui.adsabs.harvard.edu/abs/2018MNRAS.tmp..893L/abstract",
+      "ADS link": "https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.5060L/abstract",
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 113
+      "catalog_id": 113,
+      "reference_review": {
+        "status": "corrected",
+        "pending": false,
+        "date": "2026-11-01",
+        "note": "Bibliographic correction checked against the cited source.",
+        "evidence": [
+          "https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.5060L/abstract"
+        ]
+      }
     },
     {
       "row_number": 115,
@@ -2618,13 +2750,22 @@
       "z_source": "1.299",
       "image_sep": "1.32",
       "n_img": 2,
-      "first discovered": "Krone-Martins et al. 2019",
+      "first discovered": "Krone-Martins et al. 2019 (preprint)",
       "year": 2019,
-      "ADS link": "https://ui.adsabs.harvard.edu/abs/2019sf2a.conf..179D/abstract",
-      "note": null,
+      "ADS link": "https://arxiv.org/abs/1912.08977",
+      "note": "Pending reference review: Earliest discovery/confirmation priority remains to be checked. The linked GraL V record is the 2019 preprint.",
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 118
+      "catalog_id": 118,
+      "reference_review": {
+        "status": "corrected_pending",
+        "pending": true,
+        "date": "2026-11-01",
+        "note": "Earliest discovery/confirmation priority remains to be checked. The linked GraL V record is the 2019 preprint.",
+        "evidence": [
+          "https://arxiv.org/abs/1912.08977"
+        ]
+      }
     },
     {
       "row_number": 120,
@@ -2906,11 +3047,21 @@
       "n_img": 2,
       "first discovered": "Lemon et al. 2018",
       "year": 2018,
-      "ADS link": "https://ui.adsabs.harvard.edu/abs/2018MNRAS.tmp..893L/abstract",
-      "note": null,
+      "ADS link": "https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.5060L/abstract",
+      "note": "Pending reference review: Independent discoveries by Williams et al. and Lemon et al. require a first-public-version comparison.",
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 131
+      "catalog_id": 131,
+      "reference_review": {
+        "status": "corrected_pending",
+        "pending": true,
+        "date": "2026-11-01",
+        "note": "Independent discoveries by Williams et al. and Lemon et al. require a first-public-version comparison.",
+        "evidence": [
+          "https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.5060L/abstract",
+          "https://arxiv.org/abs/1706.01506"
+        ]
+      }
     },
     {
       "row_number": 133,
@@ -2972,11 +3123,20 @@
       "n_img": 2,
       "first discovered": "Lemon et al. 2018",
       "year": 2018,
-      "ADS link": "https://ui.adsabs.harvard.edu/abs/2018MNRAS.tmp..893L/abstract",
+      "ADS link": "https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.5060L/abstract",
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 134
+      "catalog_id": 134,
+      "reference_review": {
+        "status": "corrected",
+        "pending": false,
+        "date": "2026-11-01",
+        "note": "Bibliographic correction checked against the cited source.",
+        "evidence": [
+          "https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.5060L/abstract"
+        ]
+      }
     },
     {
       "row_number": 136,
@@ -3060,11 +3220,21 @@
       "n_img": 2,
       "first discovered": "Walsh et al. 1979",
       "year": 1979,
-      "ADS link": "https://ui.adsabs.harvard.edu/abs/1979Nat...279..381W/abstract",
+      "ADS link": "https://doi.org/10.1038/279381a0",
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 138
+      "catalog_id": 138,
+      "reference_review": {
+        "status": "corrected",
+        "pending": false,
+        "date": "2026-11-01",
+        "note": "Bibliographic correction checked against the cited source.",
+        "evidence": [
+          "https://doi.org/10.1038/279381a0",
+          "https://ui.adsabs.harvard.edu/abs/1979Natur.279..381W/abstract"
+        ]
+      }
     },
     {
       "row_number": 140,
@@ -3170,11 +3340,21 @@
       "n_img": 5,
       "first discovered": "Inada et al. 2003",
       "year": 2003,
-      "ADS link": "https://ui.adsabs.harvard.edu/abs/2003astro.ph..4377I/abstract",
+      "ADS link": "https://arxiv.org/abs/astro-ph/0312427",
       "note": null,
       "source_type": "Quasar",
       "lens_type": "星系团",
-      "catalog_id": 143
+      "catalog_id": 143,
+      "reference_review": {
+        "status": "corrected",
+        "pending": false,
+        "date": "2026-11-01",
+        "note": "Bibliographic correction checked against the cited source.",
+        "evidence": [
+          "https://arxiv.org/abs/astro-ph/0312427",
+          "https://ui.adsabs.harvard.edu/abs/2003Natur.426..810I/abstract"
+        ]
+      }
     },
     {
       "row_number": 145,
@@ -3303,10 +3483,20 @@
       "first discovered": "Rowan-Robinson et al. 1991",
       "year": 1991,
       "ADS link": "https://ui.adsabs.harvard.edu/abs/1991Natur.351..719R/abstract",
-      "note": null,
+      "note": "Pending reference review: The 1991 reference reports the infrared object. First identification as a gravitational lens remains to be established.",
       "source_type": "ULIRG, Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 149
+      "catalog_id": 149,
+      "reference_review": {
+        "status": "pending",
+        "pending": true,
+        "date": "2026-11-01",
+        "note": "The 1991 reference reports the infrared object. First identification as a gravitational lens remains to be established.",
+        "evidence": [
+          "https://ui.adsabs.harvard.edu/abs/1991Natur.351..719R/abstract",
+          "https://ui.adsabs.harvard.edu/abs/1995ApJ...449L..29G/abstract"
+        ]
+      }
     },
     {
       "row_number": 151,
@@ -3765,10 +3955,21 @@
       "first discovered": "Eigenbrod et al. 2006",
       "year": 2006,
       "ADS link": "https://ui.adsabs.harvard.edu/abs/2006A%26A...451..759E/abstract",
-      "note": "Burles et al. 2005, in preparation",
+      "note": "Burles et al. 2005, in preparation\nPending reference review: Eigenbrod 2006 is lens-redshift follow-up and credits Burles 2005, in preparation. Earliest public discovery remains unresolved.",
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 170
+      "catalog_id": 170,
+      "reference_review": {
+        "status": "pending",
+        "pending": true,
+        "date": "2026-11-01",
+        "note": "Eigenbrod 2006 is lens-redshift follow-up and credits Burles 2005, in preparation. Earliest public discovery remains unresolved.",
+        "evidence": [
+          "https://ui.adsabs.harvard.edu/abs/2006A%26A...451..759E/abstract",
+          "https://arxiv.org/abs/astro-ph/0411250",
+          "https://arxiv.org/abs/astro-ph/0511026"
+        ]
+      }
     },
     {
       "row_number": 172,
@@ -3963,10 +4164,19 @@
       "first discovered": "Pindor et al. 2003",
       "year": 2003,
       "ADS link": "https://ui.adsabs.harvard.edu/abs/2003AJ....125.2325P/abstract",
-      "note": null,
+      "note": "Pending reference review: Pindor 2003 describes a previously known lens and credits Inada 2002, submitted. First-discovery attribution remains unresolved.",
       "source_type": "Quasar",
       "lens_type": null,
-      "catalog_id": 179
+      "catalog_id": 179,
+      "reference_review": {
+        "status": "pending",
+        "pending": true,
+        "date": "2026-11-01",
+        "note": "Pindor 2003 describes a previously known lens and credits Inada 2002, submitted. First-discovery attribution remains unresolved.",
+        "evidence": [
+          "https://ui.adsabs.harvard.edu/abs/2003AJ....125.2325P/abstract"
+        ]
+      }
     },
     {
       "row_number": 181,
@@ -4270,11 +4480,20 @@
       "n_img": 5,
       "first discovered": "Lucey et al. 2018",
       "year": 2018,
-      "ADS link": "https://ui.adsabs.harvard.edu/abs/2018MNRAS.tmp..270L/abstract",
+      "ADS link": "https://ui.adsabs.harvard.edu/abs/2018MNRAS.476..927L/abstract",
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy pair",
-      "catalog_id": 193
+      "catalog_id": 193,
+      "reference_review": {
+        "status": "corrected",
+        "pending": false,
+        "date": "2026-11-01",
+        "note": "Bibliographic correction checked against the cited source.",
+        "evidence": [
+          "https://ui.adsabs.harvard.edu/abs/2018MNRAS.476..927L/abstract"
+        ]
+      }
     },
     {
       "row_number": 195,
@@ -4314,11 +4533,21 @@
       "n_img": 2,
       "first discovered": "Oguri et al. 2008",
       "year": 2008,
-      "ADS link": "https://ui.adsabs.harvard.edu/abs/2008MNRAS.391.1973O/abstract",
+      "ADS link": "https://arxiv.org/abs/0708.0871",
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 195
+      "catalog_id": 195,
+      "reference_review": {
+        "status": "corrected",
+        "pending": false,
+        "date": "2026-11-01",
+        "note": "Bibliographic correction checked against the cited source.",
+        "evidence": [
+          "https://arxiv.org/abs/0708.0871",
+          "https://ui.adsabs.harvard.edu/abs/2008AJ....135..520O/abstract"
+        ]
+      }
     },
     {
       "row_number": 197,
@@ -4598,13 +4827,23 @@
       "z_source": "1.096",
       "image_sep": "1.05",
       "n_img": 2,
-      "first discovered": "Morgan et al. 2003",
-      "year": 2003,
-      "ADS link": "https://ui.adsabs.harvard.edu/abs/2003AJ....126..696M/abstract",
-      "note": null,
+      "first discovered": "Jaelani et al. 2021",
+      "year": 2021,
+      "ADS link": "https://doi.org/10.1093/mnras/stab145",
+      "note": "Pending reference review: Jaelani 2021 is the verified confirmation paper. Earliest candidate source remains to be checked; the short name also disagrees with the full coordinate alias.",
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 208
+      "catalog_id": 208,
+      "reference_review": {
+        "status": "corrected_pending",
+        "pending": true,
+        "date": "2026-11-01",
+        "note": "Jaelani 2021 is the verified confirmation paper. Earliest candidate source remains to be checked; the short name also disagrees with the full coordinate alias.",
+        "evidence": [
+          "https://doi.org/10.1093/mnras/stab145",
+          "https://arxiv.org/abs/2006.16584"
+        ]
+      }
     },
     {
       "row_number": 210,
@@ -4754,11 +4993,21 @@
       "n_img": 4,
       "first discovered": "Magain et al. 1988",
       "year": 1988,
-      "ADS link": "https://ui.adsabs.harvard.edu/abs/1988Nat...334..325M/abstract",
+      "ADS link": "https://doi.org/10.1038/334325a0",
       "note": null,
       "source_type": "BAL Quasar, Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 215
+      "catalog_id": 215,
+      "reference_review": {
+        "status": "corrected",
+        "pending": false,
+        "date": "2026-11-01",
+        "note": "Bibliographic correction checked against the cited source.",
+        "evidence": [
+          "https://doi.org/10.1038/334325a0",
+          "https://ui.adsabs.harvard.edu/abs/1988Natur.334..325M/abstract"
+        ]
+      }
     },
     {
       "row_number": 217,
@@ -4908,11 +5157,20 @@
       "n_img": 2,
       "first discovered": "Lemon et al. 2018",
       "year": 2018,
-      "ADS link": "https://ui.adsabs.harvard.edu/abs/2018MNRAS.tmp..893L/abstract",
+      "ADS link": "https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.5060L/abstract",
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 222
+      "catalog_id": 222,
+      "reference_review": {
+        "status": "corrected",
+        "pending": false,
+        "date": "2026-11-01",
+        "note": "Bibliographic correction checked against the cited source.",
+        "evidence": [
+          "https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.5060L/abstract"
+        ]
+      }
     },
     {
       "row_number": 224,
@@ -5304,11 +5562,20 @@
       "n_img": 2,
       "first discovered": "Lemon et al. 2018",
       "year": 2018,
-      "ADS link": "https://ui.adsabs.harvard.edu/abs/2018MNRAS.tmp..893L/abstract",
+      "ADS link": "https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.5060L/abstract",
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 240
+      "catalog_id": 240,
+      "reference_review": {
+        "status": "corrected",
+        "pending": false,
+        "date": "2026-11-01",
+        "note": "Bibliographic correction checked against the cited source.",
+        "evidence": [
+          "https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.5060L/abstract"
+        ]
+      }
     },
     {
       "row_number": 242,
@@ -5546,11 +5813,21 @@
       "n_img": 2,
       "first discovered": "Lemon et al. 2018",
       "year": 2018,
-      "ADS link": "https://ui.adsabs.harvard.edu/abs/2018MNRAS.tmp..893L/abstract",
-      "note": null,
+      "ADS link": "https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.5060L/abstract",
+      "note": "Pending reference review: Independent discoveries by Williams et al. and Lemon et al. require a version-by-version priority check.",
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 251
+      "catalog_id": 251,
+      "reference_review": {
+        "status": "corrected_pending",
+        "pending": true,
+        "date": "2026-11-01",
+        "note": "Independent discoveries by Williams et al. and Lemon et al. require a version-by-version priority check.",
+        "evidence": [
+          "https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.5060L/abstract",
+          "https://doi.org/10.1093/mnrasl/sly043"
+        ]
+      }
     },
     {
       "row_number": 253,
@@ -5656,11 +5933,20 @@
       "n_img": 2,
       "first discovered": "Lemon et al. 2018",
       "year": 2018,
-      "ADS link": "https://ui.adsabs.harvard.edu/abs/2018MNRAS.tmp..893L/abstract",
+      "ADS link": "https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.5060L/abstract",
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 256
+      "catalog_id": 256,
+      "reference_review": {
+        "status": "corrected",
+        "pending": false,
+        "date": "2026-11-01",
+        "note": "Bibliographic correction checked against the cited source.",
+        "evidence": [
+          "https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.5060L/abstract"
+        ]
+      }
     },
     {
       "row_number": 258,
@@ -5678,11 +5964,20 @@
       "n_img": 2,
       "first discovered": "Lemon et al. 2018",
       "year": 2018,
-      "ADS link": "https://ui.adsabs.harvard.edu/abs/2018MNRAS.tmp..893L/abstract",
+      "ADS link": "https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.5060L/abstract",
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 257
+      "catalog_id": 257,
+      "reference_review": {
+        "status": "corrected",
+        "pending": false,
+        "date": "2026-11-01",
+        "note": "Bibliographic correction checked against the cited source.",
+        "evidence": [
+          "https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.5060L/abstract"
+        ]
+      }
     },
     {
       "row_number": 259,
@@ -5700,11 +5995,20 @@
       "n_img": 6,
       "first discovered": "Lemon et al. 2018",
       "year": 2018,
-      "ADS link": "https://ui.adsabs.harvard.edu/abs/2018MNRAS.tmp..893L/abstract",
+      "ADS link": "https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.5060L/abstract",
       "note": null,
       "source_type": "PDLA, DLA, Quasar",
       "lens_type": "双透镜系统",
-      "catalog_id": 258
+      "catalog_id": 258,
+      "reference_review": {
+        "status": "corrected",
+        "pending": false,
+        "date": "2026-11-01",
+        "note": "Bibliographic correction checked against the cited source.",
+        "evidence": [
+          "https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.5060L/abstract"
+        ]
+      }
     },
     {
       "row_number": 260,
@@ -5744,11 +6048,20 @@
       "n_img": 2,
       "first discovered": "Lemon et al. 2018",
       "year": 2018,
-      "ADS link": "https://ui.adsabs.harvard.edu/abs/2018MNRAS.tmp..893L/abstract",
+      "ADS link": "https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.5060L/abstract",
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 260
+      "catalog_id": 260,
+      "reference_review": {
+        "status": "corrected",
+        "pending": false,
+        "date": "2026-11-01",
+        "note": "Bibliographic correction checked against the cited source.",
+        "evidence": [
+          "https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.5060L/abstract"
+        ]
+      }
     },
     {
       "row_number": 262,
@@ -5764,13 +6077,22 @@
       "z_source": "2.51",
       "image_sep": "0.99",
       "n_img": 2,
-      "first discovered": "Rao et al. 1988",
+      "first discovered": "Pramesh Rao & Subrahmanyan 1988",
       "year": 1988,
       "ADS link": "https://ui.adsabs.harvard.edu/abs/1988MNRAS.231..229P/abstract",
       "note": null,
       "source_type": "Radio-loud, Quasar",
       "lens_type": "Spiral Galaxy",
-      "catalog_id": 261
+      "catalog_id": 261,
+      "reference_review": {
+        "status": "corrected",
+        "pending": false,
+        "date": "2026-11-01",
+        "note": "Bibliographic correction checked against the cited source.",
+        "evidence": [
+          "https://ui.adsabs.harvard.edu/abs/1988MNRAS.231..229P/abstract"
+        ]
+      }
     },
     {
       "row_number": 263,
@@ -5897,12 +6219,21 @@
       "image_sep": "1.13",
       "n_img": 2,
       "first discovered": "Winn et al. 2001",
-      "year": 2000,
-      "ADS link": "https://ui.adsabs.harvard.edu/abs/2000AJ....120.2868W/abstract",
-      "note": null,
+      "year": 2001,
+      "ADS link": "https://arxiv.org/abs/astro-ph/0009451",
+      "note": "Reference year follows the 2001 journal publication; preprint first appeared in 2000.",
       "source_type": "Radio-loud, Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 267
+      "catalog_id": 267,
+      "reference_review": {
+        "status": "corrected",
+        "pending": false,
+        "date": "2026-11-01",
+        "note": "Reference year follows the 2001 journal publication; preprint first appeared in 2000.",
+        "evidence": [
+          "https://arxiv.org/abs/astro-ph/0009451"
+        ]
+      }
     },
     {
       "row_number": 269,
@@ -6072,13 +6403,23 @@
       "z_source": "0.920",
       "image_sep": "1.70",
       "n_img": 4,
-      "first discovered": "Agnello et al. 2019",
+      "first discovered": "Agnello & Spiniello 2019",
       "year": 2019,
-      "ADS link": "https://ui.adsabs.harvard.edu/abs/2019MNRAS.489.2525A/abstract",
+      "ADS link": "https://doi.org/10.1093/mnras/stz2200",
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 275
+      "catalog_id": 275,
+      "reference_review": {
+        "status": "corrected",
+        "pending": false,
+        "date": "2026-11-01",
+        "note": "Bibliographic correction checked against the cited source.",
+        "evidence": [
+          "https://doi.org/10.1093/mnras/stz2200",
+          "https://arxiv.org/abs/1805.11103"
+        ]
+      }
     },
     {
       "row_number": 277,
@@ -6162,11 +6503,20 @@
       "n_img": 2,
       "first discovered": "Lemon et al. 2018",
       "year": 2018,
-      "ADS link": "https://ui.adsabs.harvard.edu/abs/2018MNRAS.tmp..893L/abstract",
+      "ADS link": "https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.5060L/abstract",
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 279
+      "catalog_id": 279,
+      "reference_review": {
+        "status": "corrected",
+        "pending": false,
+        "date": "2026-11-01",
+        "note": "Bibliographic correction checked against the cited source.",
+        "evidence": [
+          "https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.5060L/abstract"
+        ]
+      }
     },
     {
       "row_number": 281,
@@ -6336,13 +6686,23 @@
       "z_source": "1.756",
       "image_sep": null,
       "n_img": 2,
-      "first discovered": "Agnello et al. 2019",
+      "first discovered": "Agnello & Spiniello 2019",
       "year": 2019,
-      "ADS link": "https://ui.adsabs.harvard.edu/abs/2019MNRAS.489.2525A/abstract",
+      "ADS link": "https://doi.org/10.1093/mnras/stz2200",
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 287
+      "catalog_id": 287,
+      "reference_review": {
+        "status": "corrected",
+        "pending": false,
+        "date": "2026-11-01",
+        "note": "Bibliographic correction checked against the cited source.",
+        "evidence": [
+          "https://doi.org/10.1093/mnras/stz2200",
+          "https://arxiv.org/abs/1805.11103"
+        ]
+      }
     },
     {
       "row_number": 289,
@@ -6534,13 +6894,22 @@
       "z_source": "1.695",
       "image_sep": "1.78",
       "n_img": 4,
-      "first discovered": "Huchra et al. 1984",
+      "first discovered": "Huchra et al. 1985",
       "year": 1985,
       "ADS link": "https://ui.adsabs.harvard.edu/abs/1985AJ.....90..691H/abstract",
       "note": "极有可能",
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 296
+      "catalog_id": 296,
+      "reference_review": {
+        "status": "corrected",
+        "pending": false,
+        "date": "2026-11-01",
+        "note": "Bibliographic correction checked against the cited source.",
+        "evidence": [
+          "https://ui.adsabs.harvard.edu/abs/1985AJ.....90..691H/abstract"
+        ]
+      }
     },
     {
       "row_number": 298,
@@ -6624,11 +6993,20 @@
       "n_img": 2,
       "first discovered": "Lemon et al. 2018",
       "year": 2018,
-      "ADS link": "https://ui.adsabs.harvard.edu/abs/2018MNRAS.tmp..893L/abstract",
+      "ADS link": "https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.5060L/abstract",
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 300
+      "catalog_id": 300,
+      "reference_review": {
+        "status": "corrected",
+        "pending": false,
+        "date": "2026-11-01",
+        "note": "Bibliographic correction checked against the cited source.",
+        "evidence": [
+          "https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.5060L/abstract"
+        ]
+      }
     },
     {
       "row_number": 302,
@@ -6735,10 +7113,20 @@
       "first discovered": "Cox et al. 2002",
       "year": 2002,
       "ADS link": "https://ui.adsabs.harvard.edu/abs/2002A%26A...387..406C/abstract",
-      "note": "最早出现引用的Djorgovski et al. 2000没有出版，Cox et al. 2002直接用了",
+      "note": "最早出现引用的Djorgovski et al. 2000没有出版，Cox et al. 2002直接用了\nPending reference review: Cox 2002 discusses a lens/binary interpretation; Carilli 2003 supplies ring evidence. Earliest candidate priority remains unresolved.",
       "source_type": "Quasar",
       "lens_type": null,
-      "catalog_id": 305
+      "catalog_id": 305,
+      "reference_review": {
+        "status": "pending",
+        "pending": true,
+        "date": "2026-11-01",
+        "note": "Cox 2002 discusses a lens/binary interpretation; Carilli 2003 supplies ring evidence. Earliest candidate priority remains unresolved.",
+        "evidence": [
+          "https://ui.adsabs.harvard.edu/abs/2002A%26A...387..406C/abstract",
+          "https://ui.adsabs.harvard.edu/abs/2003Sci...300..773C/abstract"
+        ]
+      }
     },
     {
       "row_number": 307,
@@ -6800,11 +7188,20 @@
       "n_img": 2,
       "first discovered": "Lemon et al. 2018",
       "year": 2018,
-      "ADS link": "https://ui.adsabs.harvard.edu/abs/2018MNRAS.tmp..893L/abstract",
+      "ADS link": "https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.5060L/abstract",
       "note": null,
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 308
+      "catalog_id": 308,
+      "reference_review": {
+        "status": "corrected",
+        "pending": false,
+        "date": "2026-11-01",
+        "note": "Bibliographic correction checked against the cited source.",
+        "evidence": [
+          "https://ui.adsabs.harvard.edu/abs/2018MNRAS.479.5060L/abstract"
+        ]
+      }
     },
     {
       "row_number": 310,
@@ -7020,11 +7417,20 @@
       "n_img": 2,
       "first discovered": "Lawrence et al. 1984",
       "year": 1984,
-      "ADS link": "https://ui.adsabs.harvard.edu/abs/1984ApJ...283..512N/abstract",
+      "ADS link": "https://doi.org/10.1126/science.223.4631.46",
       "note": null,
       "source_type": null,
       "lens_type": null,
-      "catalog_id": 318
+      "catalog_id": 318,
+      "reference_review": {
+        "status": "corrected",
+        "pending": false,
+        "date": "2026-11-01",
+        "note": "Bibliographic correction checked against the cited source.",
+        "evidence": [
+          "https://doi.org/10.1126/science.223.4631.46"
+        ]
+      }
     },
     {
       "row_number": 320,
@@ -7194,13 +7600,23 @@
       "z_source": "3.105",
       "image_sep": "2.44",
       "n_img": 2,
-      "first discovered": "He et al. 2024",
-      "year": 2024,
-      "ADS link": "https://arxiv.org/pdf/2501.08541v1",
-      "note": null,
+      "first discovered": "He et al. 2025",
+      "year": 2025,
+      "ADS link": "https://doi.org/10.1051/0004-6361/202452731",
+      "note": "Pending reference review: He 2025 is the confirmation paper. Earlier candidates are attributed to He 2023; the target-specific first report remains to be checked.",
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 326
+      "catalog_id": 326,
+      "reference_review": {
+        "status": "corrected_pending",
+        "pending": true,
+        "date": "2026-11-01",
+        "note": "He 2025 is the confirmation paper. Earlier candidates are attributed to He 2023; the target-specific first report remains to be checked.",
+        "evidence": [
+          "https://doi.org/10.1051/0004-6361/202452731",
+          "https://arxiv.org/abs/2501.08541"
+        ]
+      }
     },
     {
       "row_number": 328,
@@ -7216,13 +7632,23 @@
       "z_source": "2.395",
       "image_sep": "1.34",
       "n_img": 2,
-      "first discovered": "He et al. 2024",
-      "year": 2024,
-      "ADS link": "https://arxiv.org/pdf/2501.08541v1",
-      "note": null,
+      "first discovered": "He et al. 2025",
+      "year": 2025,
+      "ADS link": "https://doi.org/10.1051/0004-6361/202452731",
+      "note": "Pending reference review: He 2025 is the confirmation paper. Earlier candidates are attributed to He 2023; the target-specific first report remains to be checked.",
       "source_type": "Quasar",
       "lens_type": "Galaxy",
-      "catalog_id": 327
+      "catalog_id": 327,
+      "reference_review": {
+        "status": "corrected_pending",
+        "pending": true,
+        "date": "2026-11-01",
+        "note": "He 2025 is the confirmation paper. Earlier candidates are attributed to He 2023; the target-specific first report remains to be checked.",
+        "evidence": [
+          "https://doi.org/10.1051/0004-6361/202452731",
+          "https://arxiv.org/abs/2501.08541"
+        ]
+      }
     },
     {
       "row_number": 329,
