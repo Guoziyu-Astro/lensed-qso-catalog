@@ -4,8 +4,8 @@
   <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="theme-color" content="#ffffff">
   <title>Lensed QSO Catalogue</title>
-  <link rel="stylesheet" href="style.css?v=2a54d47a25db5162">
-  <script src="images.js?v=6972c5925af7bf01" defer></script><script src="app.js?v=fcef2317c578a931" defer></script>
+  <link rel="stylesheet" href="style.css?v=bc7b37ea2548bdca">
+  <script src="images.js?v=6972c5925af7bf01" defer></script><script src="app.js?v=3f9ad2b0fcf359d2" defer></script>
 </head>
 <body>
 <main>
@@ -27,7 +27,7 @@
     </aside>
     <div class="results">
       <div class="result-summary"><p id="result-count" role="status" aria-live="polite">Loading catalogue…</p><label>Rows per page <select id="page-size"><option>25</option><option>50</option><option>100</option><option value="all">All</option></select></label></div>
-      <div class="table-wrap"><table><thead><tr><th scope="col" aria-sort="ascending"><button data-sort="catalog_id">ID</button></th><th scope="col"><button data-sort="name">System</button></th><th scope="col"><button data-sort="image_source">Image</button></th><th scope="col"><button data-sort="ra">RA <small>deg</small></button></th><th scope="col"><button data-sort="dec">Dec <small>deg</small></button></th><th scope="col"><button data-sort="z_lens">z<sub>lens</sub></button></th><th scope="col"><button data-sort="z_source">z<sub>source</sub></button></th><th scope="col"><button data-sort="n_img">Images</button></th><th scope="col"><button data-sort="year">Year</button></th><th scope="col"><button data-sort="first discovered">Discovery reference</button></th></tr></thead><tbody id="rows"></tbody></table><div id="empty" hidden><h3>No matching records</h3><button class="button subtle" id="empty-reset">Clear filters</button></div></div>
+      <div class="table-wrap"><table><thead><tr><th scope="col" aria-sort="ascending"><button data-sort="catalog_id">ID</button></th><th scope="col"><button data-sort="name">System</button></th><th scope="col"><button data-sort="image_source">Image</button></th><th scope="col"><button data-sort="paper_reference">Paper image</button></th><th scope="col"><button data-sort="ra">RA <small>deg</small></button></th><th scope="col"><button data-sort="dec">Dec <small>deg</small></button></th><th scope="col"><button data-sort="z_lens">z<sub>lens</sub></button></th><th scope="col"><button data-sort="z_source">z<sub>source</sub></button></th><th scope="col"><button data-sort="n_img">Images</button></th><th scope="col"><button data-sort="year">Year</button></th><th scope="col"><button data-sort="first discovered">Discovery reference</button></th></tr></thead><tbody id="rows"></tbody></table><div id="empty" hidden><h3>No matching records</h3><button class="button subtle" id="empty-reset">Clear filters</button></div></div>
       <div class="pagination"><span id="page-range">—</span><div><button id="prev" aria-label="Previous page">←</button><span id="page-label">—</span><button id="next" aria-label="Next page">→</button></div></div>
     </div>
   </div>
