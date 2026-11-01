@@ -2,6 +2,8 @@
 
 A searchable catalogue of 359 lensed quasar/AGN records with survey cutouts, sortable columns, filters, and CSV/Excel downloads.
 
+This catalogue is a product of the work presented in Guo et al. (2026) and is continually updated.
+
 ## Citation
 
 If you use this catalogue or a subset, please cite:
