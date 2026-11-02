@@ -1,0 +1,220 @@
+{
+  "date": "2026-11-02",
+  "catalog_ids": [
+    343,
+    344,
+    345,
+    346,
+    347,
+    348,
+    349,
+    350,
+    351,
+    352,
+    353,
+    354,
+    355,
+    356,
+    357,
+    358,
+    359,
+    360,
+    361,
+    362,
+    363,
+    364,
+    365,
+    366,
+    367
+  ],
+  "new_paper_images": 16,
+  "archive_survey_images": 82,
+  "new_workbook_images": 72,
+  "priority": [
+    "HST",
+    "JWST",
+    "Euclid",
+    "HSC",
+    "DES",
+    "Legacy Surveys",
+    "Pan-STARRS",
+    "SDSS"
+  ],
+  "choices": [
+    {
+      "catalog_id": 343,
+      "name": "J1116–0657",
+      "source": "HST",
+      "label": "HST colour",
+      "previous_source": "HST"
+    },
+    {
+      "catalog_id": 344,
+      "name": "A2744-QSO1",
+      "source": "HST",
+      "label": "HST colour",
+      "previous_source": null
+    },
+    {
+      "catalog_id": 345,
+      "name": "HE0013-2542",
+      "source": "HST",
+      "label": "HST F814W",
+      "previous_source": null
+    },
+    {
+      "catalog_id": 346,
+      "name": "DESJ0029-3814",
+      "source": "HST",
+      "label": "HST colour",
+      "previous_source": null
+    },
+    {
+      "catalog_id": 347,
+      "name": "J0035.4-2015",
+      "source": "HST",
+      "label": "HST colour",
+      "previous_source": null
+    },
+    {
+      "catalog_id": 348,
+      "name": "PSJ0140+4107",
+      "source": "HST",
+      "label": "HST F814W",
+      "previous_source": null
+    },
+    {
+      "catalog_id": 349,
+      "name": "COOLJ0335-1927",
+      "source": "HST",
+      "label": "HST colour",
+      "previous_source": null
+    },
+    {
+      "catalog_id": 350,
+      "name": "DESJ0402-4220",
+      "source": "DES",
+      "label": "DES DR2",
+      "previous_source": null
+    },
+    {
+      "catalog_id": 351,
+      "name": "J0420-4037",
+      "source": "HST",
+      "label": "HST colour",
+      "previous_source": null
+    },
+    {
+      "catalog_id": 352,
+      "name": "MG0751+2716",
+      "source": "HST",
+      "label": "HST colour",
+      "previous_source": null
+    },
+    {
+      "catalog_id": 353,
+      "name": "J0954-0022",
+      "source": "HSC",
+      "label": "HSC PDR3",
+      "previous_source": null
+    },
+    {
+      "catalog_id": 354,
+      "name": "MG1131+0456",
+      "source": "HST",
+      "label": "HST colour",
+      "previous_source": null
+    },
+    {
+      "catalog_id": 355,
+      "name": "COOLJ1153+0755",
+      "source": "HST",
+      "label": "HST colour",
+      "previous_source": null
+    },
+    {
+      "catalog_id": 356,
+      "name": "J125856.3-031944",
+      "source": "HST",
+      "label": "HST F160W",
+      "previous_source": null
+    },
+    {
+      "catalog_id": 357,
+      "name": "SDSSJ1608+2716",
+      "source": "HST",
+      "label": "HST F160W",
+      "previous_source": null
+    },
+    {
+      "catalog_id": 358,
+      "name": "GraLJ210329.0-085049",
+      "source": "HST",
+      "label": "HST F814W",
+      "previous_source": null
+    },
+    {
+      "catalog_id": 359,
+      "name": "PSJ2107-1611",
+      "source": "HST",
+      "label": "HST colour",
+      "previous_source": null
+    },
+    {
+      "catalog_id": 360,
+      "name": "J0459-0413",
+      "source": "Legacy Surveys",
+      "label": "Legacy DR11",
+      "previous_source": "VLT/ERIS SPIFFIER"
+    },
+    {
+      "catalog_id": 361,
+      "name": "J0602-3852",
+      "source": "DES",
+      "label": "DES DR2",
+      "previous_source": "VLT/ERIS SPIFFIER"
+    },
+    {
+      "catalog_id": 362,
+      "name": "J1335+0527",
+      "source": "Legacy Surveys",
+      "label": "Legacy DR11",
+      "previous_source": "VLT/MUSE NFM"
+    },
+    {
+      "catalog_id": 363,
+      "name": "J0316-4106",
+      "source": "HST",
+      "label": "HST F160W",
+      "previous_source": "HST"
+    },
+    {
+      "catalog_id": 364,
+      "name": "DESIJ2321-0330",
+      "source": "HST",
+      "label": "HST F160W",
+      "previous_source": "HST"
+    },
+    {
+      "catalog_id": 365,
+      "name": "COOLJ1153B",
+      "source": "HST",
+      "label": "HST F475W",
+      "previous_source": "JWST"
+    },
+    {
+      "catalog_id": 366,
+      "name": "J1330-0905",
+      "source": "Pan-STARRS",
+      "label": "Pan-STARRS",
+      "previous_source": "LBT/LUCI1 AO"
+    },
+    {
+      "catalog_id": 367,
+      "name": "J1453+0529",
+      "source": "Legacy Surveys",
+      "label": "Legacy DR11",
+      "previous_source": "VLT/ERIS NIX"
+    }
+  ]
+}

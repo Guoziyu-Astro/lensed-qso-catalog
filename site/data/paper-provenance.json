@@ -2805,5 +2805,341 @@
     "panel_label": "J1453+0529",
     "provenance": "Visually verified observed-data panel from the primary paper PDF. Model, residual and spectrum panels excluded. Original labels and observational overlays retained.",
     "sha256": "851dabbb5d52a35c092aa28d8e7329f67a3d1f76ce2e7d9ce4e6fde5cceaac9a"
+  },
+  "344": {
+    "catalog_id": 344,
+    "name": "A2744-QSO1",
+    "reference": "Furtak et al. 2023",
+    "url": "https://arxiv.org/abs/2212.10531v4",
+    "figure": "Fig. 1, observed JWST cluster field with QSO1A/B/C zooms",
+    "page": 4,
+    "panel_label": "A2744-QSO1",
+    "instrument": "JWST/NIRCam",
+    "bands": "F115W/F150W/F200W/F277W/F356W/F410M/F444W",
+    "crop_box": [
+      128,
+      186,
+      1420,
+      1478
+    ],
+    "inspected_page_scale": 2000,
+    "provenance": "Observed-data panel verified against the primary PDF caption and target identity. Original observational labels and overlays retained. Model, residual, deconvolution and spectrum panels excluded. Author-supplied lens-model overlays remain on the observed field; labelled zooms are not contiguous sky areas.",
+    "sha256": "c6045177ec7309a894df717aa8e6c5c32036cd469994095a95b01aa6f0b425f2",
+    "source_pdf_sha256": "21ad7f5d2763430b274ef8dbbfb74c73716a3a2fac644194a1f1c516a6a673bd"
+  },
+  "345": {
+    "catalog_id": 345,
+    "name": "HE0013-2542",
+    "reference": "Shajib et al. 2021",
+    "url": "https://arxiv.org/abs/2011.01971v2",
+    "figure": "Fig. 4, row 1, observed HE0013-2542 panel",
+    "page": 8,
+    "panel_label": "HE0013-2542",
+    "instrument": "Keck/NIRC2",
+    "bands": "K-prime",
+    "crop_box": [
+      112,
+      144,
+      265,
+      296
+    ],
+    "inspected_page_scale": 2000,
+    "provenance": "Observed-data panel verified against the primary PDF caption and target identity. Original observational labels and overlays retained. Model, residual, deconvolution and spectrum panels excluded.",
+    "sha256": "40490bd5d45a03c0dadceb686b9e0a3cf8e8ed33f0e19f66937ac4c19610c67f",
+    "source_pdf_sha256": "e69dcb77caecf7e53ebc55060627c5da7fc705ccaa9f7d26a6d233afe60c4d39"
+  },
+  "346": {
+    "catalog_id": 346,
+    "name": "DESJ0029-3814",
+    "reference": "Schmidt et al. 2023",
+    "url": "https://arxiv.org/abs/2206.04696",
+    "figure": "Fig. 1, row 1 column 1, J0029-3814",
+    "page": 6,
+    "panel_label": "DESJ0029-3814",
+    "instrument": "HST",
+    "bands": "F475X/F814W/F160W",
+    "crop_box": [
+      108,
+      246,
+      344,
+      482
+    ],
+    "inspected_page_scale": 2000,
+    "provenance": "Observed-data panel verified against the primary PDF caption and target identity. Original observational labels and overlays retained. Model, residual, deconvolution and spectrum panels excluded.",
+    "sha256": "ad1e94963d8918bc5b755c4954cd9314718d9bbe6744fdde092158e498543621",
+    "source_pdf_sha256": "9393929deafdbd7cfd29b76aad6371295c26b7f89aa643dfa83db5f46c111a56"
+  },
+  "347": {
+    "catalog_id": 347,
+    "name": "J0035.4-2015",
+    "reference": "Furtak et al. 2023",
+    "url": "https://arxiv.org/abs/2303.00025v4",
+    "figure": "Fig. 1, observed cluster field with AGN images 1.1/1.2/1.3",
+    "page": 4,
+    "panel_label": "J0035.4-2015",
+    "instrument": "HST",
+    "bands": "F435W/F606W/F814W/F105W/F125W/F140W/F160W",
+    "crop_box": [
+      107,
+      136,
+      1402,
+      1433
+    ],
+    "inspected_page_scale": 2000,
+    "provenance": "Observed-data panel verified against the primary PDF caption and target identity. Original observational labels and overlays retained. Model, residual, deconvolution and spectrum panels excluded. Author-supplied lens-model overlays remain on the observed field; labelled zooms are not contiguous sky areas.",
+    "sha256": "024ff78c8a5ee5e792fafcc8630aa744a20054dcdffb195a3f8912b6e6cee657",
+    "source_pdf_sha256": "8dc6625ca506318f73927a63dbc6563b16976f0f8937233574823c947c5ba7f0"
+  },
+  "348": {
+    "catalog_id": 348,
+    "name": "PSJ0140+4107",
+    "reference": "Shajib et al. 2021",
+    "url": "https://arxiv.org/abs/2011.01971v2",
+    "figure": "Fig. 4, row 2, observed PSJ0140+4107 panel",
+    "page": 8,
+    "panel_label": "PSJ0140+4107",
+    "instrument": "Keck/NIRC2",
+    "bands": "K-prime",
+    "crop_box": [
+      112,
+      325,
+      265,
+      478
+    ],
+    "inspected_page_scale": 2000,
+    "provenance": "Observed-data panel verified against the primary PDF caption and target identity. Original observational labels and overlays retained. Model, residual, deconvolution and spectrum panels excluded.",
+    "sha256": "99e6eff9ed59f0599606e276dc90005ebc19fb3c4628a0201a88ce91aab2c189",
+    "source_pdf_sha256": "e69dcb77caecf7e53ebc55060627c5da7fc705ccaa9f7d26a6d233afe60c4d39"
+  },
+  "349": {
+    "catalog_id": 349,
+    "name": "COOLJ0335-1927",
+    "reference": "Napier et al. 2023",
+    "url": "https://arxiv.org/abs/2305.14317v2",
+    "figure": "Fig. 1, left observed LDSS3-C field, quasar images A/B/C",
+    "page": 4,
+    "panel_label": "COOLJ0335-1927",
+    "instrument": "Magellan/LDSS3-C",
+    "bands": "g/r/z",
+    "crop_box": [
+      153,
+      162,
+      1085,
+      823
+    ],
+    "inspected_page_scale": 2000,
+    "provenance": "Observed-data panel verified against the primary PDF caption and target identity. Original observational labels and overlays retained. Model, residual, deconvolution and spectrum panels excluded. Author-supplied lens-model overlays remain on the observed field; labelled zooms are not contiguous sky areas.",
+    "sha256": "f9938aebb076523e154ab94488127a5c78b7b3805c7f1bc80d83acef652c6fad",
+    "source_pdf_sha256": "aad62a83a210b7e2f4a35df08dc4665aab1e1eecad7a530a5675d62a12b47fde"
+  },
+  "350": {
+    "catalog_id": 350,
+    "name": "DESJ0402-4220",
+    "reference": "Yue et al. 2023",
+    "url": "https://arxiv.org/abs/2303.04357",
+    "figure": "Fig. 7, observed LDSS3 z-band panel",
+    "page": 15,
+    "panel_label": "DESJ0402-4220",
+    "instrument": "Magellan/LDSS3",
+    "bands": "z",
+    "crop_box": [
+      780,
+      228,
+      957,
+      434
+    ],
+    "inspected_page_scale": 2000,
+    "provenance": "Observed-data panel verified against the primary PDF caption and target identity. Original observational labels and overlays retained. Model, residual, deconvolution and spectrum panels excluded.",
+    "sha256": "ec09656fbe8376153de9d41bda043190b6631fb885cc23b313618fd6f2de6f79",
+    "source_pdf_sha256": "e97b4ac95273bd592330923f6c70dba78ef2fc697dc95c07de1b94b161d13a05"
+  },
+  "351": {
+    "catalog_id": 351,
+    "name": "J0420-4037",
+    "reference": "Schmidt et al. 2023",
+    "url": "https://arxiv.org/abs/2206.04696",
+    "figure": "Fig. 1, row 2 column 5, DESJ0420-4037",
+    "page": 6,
+    "panel_label": "J0420-4037",
+    "instrument": "HST",
+    "bands": "F475X/F814W/F160W",
+    "crop_box": [
+      1049,
+      482,
+      1286,
+      719
+    ],
+    "inspected_page_scale": 2000,
+    "provenance": "Observed-data panel verified against the primary PDF caption and target identity. Original observational labels and overlays retained. Model, residual, deconvolution and spectrum panels excluded.",
+    "sha256": "e00fa11f4a96a668faa55bb62483e1c86195b51a5f67a1f2560ab0ccd6655900",
+    "source_pdf_sha256": "9393929deafdbd7cfd29b76aad6371295c26b7f89aa643dfa83db5f46c111a56"
+  },
+  "352": {
+    "catalog_id": 352,
+    "name": "MG0751+2716",
+    "reference": "Lehar et al. 1997",
+    "url": "https://arxiv.org/abs/astro-ph/9702191",
+    "figure": "Fig. 1, middle observed VLA 3.6 cm contour map",
+    "page": 13,
+    "panel_label": "MG0751+2716",
+    "instrument": "VLA",
+    "bands": "3.6 cm",
+    "crop_box": [
+      470,
+      680,
+      981,
+      1058
+    ],
+    "inspected_page_scale": 2000,
+    "provenance": "Observed-data panel verified against the primary PDF caption and target identity. Original observational labels and overlays retained. Model, residual, deconvolution and spectrum panels excluded.",
+    "sha256": "766de2a086ee347bf3849b114a48af64ec2e6119a5b0540000cb4cebdb74a070",
+    "source_pdf_sha256": "a5bd766d31ff2c4136379accb27c5ace8cc1898d7dbdb6ec4827dccaad209330"
+  },
+  "353": {
+    "catalog_id": 353,
+    "name": "J0954-0022",
+    "reference": "Yue et al. 2023",
+    "url": "https://arxiv.org/abs/2303.04357",
+    "figure": "Fig. 8, observed LDSS3 z-band panel",
+    "page": 15,
+    "panel_label": "J0954-0022",
+    "instrument": "Magellan/LDSS3",
+    "bands": "z",
+    "crop_box": [
+      780,
+      1095,
+      957,
+      1300
+    ],
+    "inspected_page_scale": 2000,
+    "provenance": "Observed-data panel verified against the primary PDF caption and target identity. Original observational labels and overlays retained. Model, residual, deconvolution and spectrum panels excluded.",
+    "sha256": "02b8acb6314b9b9e26ed093b54707c24b4124c0fe1b2dfc7b9d406a2b13f3640",
+    "source_pdf_sha256": "e97b4ac95273bd592330923f6c70dba78ef2fc697dc95c07de1b94b161d13a05"
+  },
+  "354": {
+    "catalog_id": 354,
+    "name": "MG1131+0456",
+    "reference": "Stern & Walton 2020",
+    "url": "https://arxiv.org/abs/2012.10044",
+    "figure": "Fig. 2, Chandra observed X-ray image, OBSIDs 423 and 424",
+    "page": 3,
+    "panel_label": "MG1131+0456",
+    "instrument": "Chandra/ACIS-S",
+    "bands": "X-ray",
+    "crop_box": [
+      808,
+      194,
+      1422,
+      558
+    ],
+    "inspected_page_scale": 2000,
+    "provenance": "Observed-data panel verified against the primary PDF caption and target identity. Original observational labels and overlays retained. Model, residual, deconvolution and spectrum panels excluded.",
+    "sha256": "d0dd76515fbbe095332bb590749bbda143b3f5eac2b6d1cdbf7f59b68387de69",
+    "source_pdf_sha256": "7d48f0c27fc7a81ddfc770f6528ba9bb16e40225019c455c200d62856b46e61f"
+  },
+  "355": {
+    "catalog_id": 355,
+    "name": "COOLJ1153+0755",
+    "reference": "Cloonan et al. 2024",
+    "url": "https://arxiv.org/abs/2408.03379",
+    "figure": "Fig. 1, upper right, COOLJ1153+0755 source A system",
+    "page": 4,
+    "panel_label": "COOLJ1153+0755",
+    "instrument": "Magellan",
+    "bands": "RGB; filter mapping not specified in caption",
+    "crop_box": [
+      1028,
+      159,
+      1526,
+      646
+    ],
+    "inspected_page_scale": 2000,
+    "provenance": "Observed-data panel verified against the primary PDF caption and target identity. Original observational labels and overlays retained. Model, residual, deconvolution and spectrum panels excluded. The A/B/C image labels in this 2024 paper all belong to the source now called COOLJ1153A; this is not the distinct obscured source COOLJ1153B.",
+    "sha256": "3cdaeac7a25d4cecfeb330e32099ebb2d42b77b93ecbac4c8a54cad77f4b1f73",
+    "source_pdf_sha256": "3b6a3d1b24321288889ef11e816e37cab6d4398a4ed29e14c49242cd2496b2ae"
+  },
+  "356": {
+    "catalog_id": 356,
+    "name": "J125856.3-031944",
+    "reference": "Schechter et al. 2025",
+    "url": "https://ui.adsabs.harvard.edu/abs/2025AJ....170..241S/abstract",
+    "figure": "Fig. 3(a), observed Magellan/IMACS image",
+    "page": 4,
+    "panel_label": "J125856.3-031944",
+    "instrument": "Magellan/IMACS",
+    "bands": "g",
+    "crop_box": [
+      271,
+      150,
+      762,
+      640
+    ],
+    "inspected_page_scale": 2000,
+    "provenance": "Observed-data panel verified against the primary PDF caption and target identity. Original observational labels and overlays retained. Model, residual, deconvolution and spectrum panels excluded.",
+    "sha256": "2d05c0d6a7e6afd25409936afc299ec97b7d8fbf5c68e64b44a1574f23d068e9",
+    "source_pdf_sha256": "aa8bca5cf48e08db0d8d9bcc1b1776433eb597f6e5ee46a891b30352ca23914a"
+  },
+  "357": {
+    "catalog_id": 357,
+    "name": "SDSSJ1608+2716",
+    "reference": "Li et al. 2023",
+    "url": "https://arxiv.org/abs/2306.12502",
+    "figure": "Fig. 1(a), observed HST data",
+    "page": 3,
+    "panel_label": "SDSSJ1608+2716",
+    "instrument": "HST",
+    "bands": "F160W",
+    "crop_box": [
+      153,
+      163,
+      458,
+      462
+    ],
+    "inspected_page_scale": 2000,
+    "provenance": "Observed-data panel verified against the primary PDF caption and target identity. Original observational labels and overlays retained. Model, residual, deconvolution and spectrum panels excluded.",
+    "sha256": "e842d67fca0332f6eb3f437233368c09274934ad91c7abb740f830de89ecdc02",
+    "source_pdf_sha256": "2d78647e641eb73d852c7d55fbd6b2b6ae030fb463a3d03cb13bc0fdb8d8d892"
+  },
+  "358": {
+    "catalog_id": 358,
+    "name": "GraLJ210329.0-085049",
+    "reference": "Stern et al. 2021",
+    "url": "https://arxiv.org/abs/2012.10051",
+    "figure": "Fig. 1, bottom right, GraLJ210329.0-085049",
+    "page": 4,
+    "panel_label": "GraLJ210329.0-085049",
+    "instrument": "Pan-STARRS",
+    "bands": "r/i/y",
+    "crop_box": [
+      1095,
+      807,
+      1397,
+      1112
+    ],
+    "inspected_page_scale": 2000,
+    "provenance": "Observed-data panel verified against the primary PDF caption and target identity. Original observational labels and overlays retained. Model, residual, deconvolution and spectrum panels excluded.",
+    "sha256": "c04fd202ba4764c4a5e21fd2882f80d7e3d88300c34db88aa389391b898dfbf4",
+    "source_pdf_sha256": "705ee72f9502b1d25bfc36d9285dc8be2a21a0c0cc572de30b27f672f8106d07"
+  },
+  "359": {
+    "catalog_id": 359,
+    "name": "PSJ2107-1611",
+    "reference": "Dux et al. 2023",
+    "url": "https://arxiv.org/abs/2310.04494",
+    "figure": "Fig. 1, upper row CFHT g observation",
+    "page": 3,
+    "panel_label": "PSJ2107-1611",
+    "instrument": "CFHT",
+    "bands": "g",
+    "crop_box": [
+      766,
+      124,
+      997,
+      398
+    ],
+    "inspected_page_scale": 2000,
+    "provenance": "Observed-data panel verified against the primary PDF caption and target identity. Original observational labels and overlays retained. Model, residual, deconvolution and spectrum panels excluded.",
+    "sha256": "148cdabad1342e13c429b0fe3a270e224e5addb49d1002ae2d53d4f3ce65e86a",
+    "source_pdf_sha256": "08f1b98f40d6a9ed5b25a358f9d9f99d2fa504b8023306c3440c039a91a1acbc"
   }
 }

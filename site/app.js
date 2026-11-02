@@ -176,11 +176,11 @@ for (const button of document.querySelectorAll('[data-sort]')) {
 }
 async function init() {
   try {
-    const response = await fetch('data/catalog.json?v=recent-20261102-367-f444w'); if(!response.ok)throw new Error(`HTTP ${response.status}`);
+    const response = await fetch('data/catalog.json?v=images-20261102-d662d72544bb'); if(!response.ok)throw new Error(`HTTP ${response.status}`);
     const data = await response.json(); state.records=data.records;state.columns=data.meta.columns;
-    const imagesResponse = await fetch('data/selected_images.json?v=recent-20261102-367-f444w');
+    const imagesResponse = await fetch('data/selected_images.json?v=images-20261102-d662d72544bb');
     if(imagesResponse.ok)state.selectedImages=(await imagesResponse.json()).records;
-    const papersResponse = await fetch('data/images.json?v=recent-20261102-367-f444w');
+    const papersResponse = await fetch('data/images.json?v=images-20261102-d662d72544bb');
     if (papersResponse.ok) {
       imageManifest = await papersResponse.json();
       for (const [row, entries] of Object.entries(imageManifest.records)) {

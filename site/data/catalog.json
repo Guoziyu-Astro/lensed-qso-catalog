@@ -1,9 +1,9 @@
 {
   "meta": {
-    "source": "lensed_quasar_367.xlsx",
+    "source": "lensed_quasar_367_图片更新_20261102.xlsx",
     "sheet": "工作表1",
-    "source_sha256": "cb753109fed07fad955f528dfeb5dfd253d9a54b3ea0fd5bba4e771ed89dea77",
-    "exported_at": "2026-11-01T18:57:16.002427+00:00",
+    "source_sha256": "d662d72544bbeb94b014554e81f00fce24505473de24479c828020d1391726d5",
+    "exported_at": "2026-11-02",
     "count": 367,
     "columns": [
       "catalog_id",
@@ -76,7 +76,7 @@
         359
       ],
       "scope": "Evidence-supported GraL-only subset: 11 conventional quasars and 5 explicitly labelled special AGN/radio sources. Existing classifications and duplicate rows are retained. This is not a completeness certification.",
-      "images": "No new illustrations added; blank survey fields do not indicate absent survey coverage.",
+      "images": "Eight surveys independently checked; 16 verified paper images added on 2026-11-02. no means no usable image retrieved, not proof of no observation.",
       "astrometry_catalog": "https://cdsarc.cds.unistra.fr/viz-bin/cat/J/A+A/707/A345"
     },
     "original_source": {
@@ -86,11 +86,11 @@
     "downloads": {
       "xlsx": {
         "path": "downloads/lensed_quasar.xlsx",
-        "sha256": "cb753109fed07fad955f528dfeb5dfd253d9a54b3ea0fd5bba4e771ed89dea77"
+        "sha256": "d662d72544bbeb94b014554e81f00fce24505473de24479c828020d1391726d5"
       },
       "csv": {
         "path": "downloads/lensed_qso.csv",
-        "sha256": "99acff0c30ff3ccd57c92df7555f0dc741ac8fb99db9661551d936885c982b39"
+        "sha256": "37e6beaab4f9302e9f7715dfa9b908651c57d81b7e84b5e779c5a17c9a845d17"
       }
     },
     "recent_additions": {
@@ -107,7 +107,227 @@
         367
       ],
       "scope": "Eight evidence-supported 2026 confirmations reviewed against the user and GraL catalogues. Existing duplicates and classifications retained; record count is not a completeness claim.",
-      "images": "Eight survey/archive columns independently searched; all eight paper images and high-resolution website images supplied. no means no usable image retrieved, not proof of no historical observation."
+      "images": "Eight survey/archive columns independently searched. Preferred website image follows strict survey/archive priority, with publication observations shown only in the separate paper-image column."
+    },
+    "image_refresh": {
+      "date": "2026-11-02",
+      "catalog_ids": [
+        343,
+        344,
+        345,
+        346,
+        347,
+        348,
+        349,
+        350,
+        351,
+        352,
+        353,
+        354,
+        355,
+        356,
+        357,
+        358,
+        359,
+        360,
+        361,
+        362,
+        363,
+        364,
+        365,
+        366,
+        367
+      ],
+      "new_paper_images": 16,
+      "archive_survey_images": 82,
+      "new_workbook_images": 72,
+      "priority": [
+        "HST",
+        "JWST",
+        "Euclid",
+        "HSC",
+        "DES",
+        "Legacy Surveys",
+        "Pan-STARRS",
+        "SDSS"
+      ],
+      "choices": [
+        {
+          "catalog_id": 343,
+          "name": "J1116–0657",
+          "source": "HST",
+          "label": "HST colour",
+          "previous_source": "HST"
+        },
+        {
+          "catalog_id": 344,
+          "name": "A2744-QSO1",
+          "source": "HST",
+          "label": "HST colour",
+          "previous_source": null
+        },
+        {
+          "catalog_id": 345,
+          "name": "HE0013-2542",
+          "source": "HST",
+          "label": "HST F814W",
+          "previous_source": null
+        },
+        {
+          "catalog_id": 346,
+          "name": "DESJ0029-3814",
+          "source": "HST",
+          "label": "HST colour",
+          "previous_source": null
+        },
+        {
+          "catalog_id": 347,
+          "name": "J0035.4-2015",
+          "source": "HST",
+          "label": "HST colour",
+          "previous_source": null
+        },
+        {
+          "catalog_id": 348,
+          "name": "PSJ0140+4107",
+          "source": "HST",
+          "label": "HST F814W",
+          "previous_source": null
+        },
+        {
+          "catalog_id": 349,
+          "name": "COOLJ0335-1927",
+          "source": "HST",
+          "label": "HST colour",
+          "previous_source": null
+        },
+        {
+          "catalog_id": 350,
+          "name": "DESJ0402-4220",
+          "source": "DES",
+          "label": "DES DR2",
+          "previous_source": null
+        },
+        {
+          "catalog_id": 351,
+          "name": "J0420-4037",
+          "source": "HST",
+          "label": "HST colour",
+          "previous_source": null
+        },
+        {
+          "catalog_id": 352,
+          "name": "MG0751+2716",
+          "source": "HST",
+          "label": "HST colour",
+          "previous_source": null
+        },
+        {
+          "catalog_id": 353,
+          "name": "J0954-0022",
+          "source": "HSC",
+          "label": "HSC PDR3",
+          "previous_source": null
+        },
+        {
+          "catalog_id": 354,
+          "name": "MG1131+0456",
+          "source": "HST",
+          "label": "HST colour",
+          "previous_source": null
+        },
+        {
+          "catalog_id": 355,
+          "name": "COOLJ1153+0755",
+          "source": "HST",
+          "label": "HST colour",
+          "previous_source": null
+        },
+        {
+          "catalog_id": 356,
+          "name": "J125856.3-031944",
+          "source": "HST",
+          "label": "HST F160W",
+          "previous_source": null
+        },
+        {
+          "catalog_id": 357,
+          "name": "SDSSJ1608+2716",
+          "source": "HST",
+          "label": "HST F160W",
+          "previous_source": null
+        },
+        {
+          "catalog_id": 358,
+          "name": "GraLJ210329.0-085049",
+          "source": "HST",
+          "label": "HST F814W",
+          "previous_source": null
+        },
+        {
+          "catalog_id": 359,
+          "name": "PSJ2107-1611",
+          "source": "HST",
+          "label": "HST colour",
+          "previous_source": null
+        },
+        {
+          "catalog_id": 360,
+          "name": "J0459-0413",
+          "source": "Legacy Surveys",
+          "label": "Legacy DR11",
+          "previous_source": "VLT/ERIS SPIFFIER"
+        },
+        {
+          "catalog_id": 361,
+          "name": "J0602-3852",
+          "source": "DES",
+          "label": "DES DR2",
+          "previous_source": "VLT/ERIS SPIFFIER"
+        },
+        {
+          "catalog_id": 362,
+          "name": "J1335+0527",
+          "source": "Legacy Surveys",
+          "label": "Legacy DR11",
+          "previous_source": "VLT/MUSE NFM"
+        },
+        {
+          "catalog_id": 363,
+          "name": "J0316-4106",
+          "source": "HST",
+          "label": "HST F160W",
+          "previous_source": "HST"
+        },
+        {
+          "catalog_id": 364,
+          "name": "DESIJ2321-0330",
+          "source": "HST",
+          "label": "HST F160W",
+          "previous_source": "HST"
+        },
+        {
+          "catalog_id": 365,
+          "name": "COOLJ1153B",
+          "source": "HST",
+          "label": "HST F475W",
+          "previous_source": "JWST"
+        },
+        {
+          "catalog_id": 366,
+          "name": "J1330-0905",
+          "source": "Pan-STARRS",
+          "label": "Pan-STARRS",
+          "previous_source": "LBT/LUCI1 AO"
+        },
+        {
+          "catalog_id": 367,
+          "name": "J1453+0529",
+          "source": "Legacy Surveys",
+          "label": "Legacy DR11",
+          "previous_source": "VLT/ERIS NIX"
+        }
+      ]
     }
   },
   "records": [
@@ -9666,7 +9886,7 @@
       "catalog_id": 344,
       "name": "A2744-QSO1",
       "alt_name": null,
-      "HSC": null,
+      "HSC": "no",
       "DESI-LS": null,
       "paper image": null,
       "ra": 3.5798408,
@@ -9720,7 +9940,7 @@
           "https://cdsarc.cds.unistra.fr/viz-bin/cat/J/A+A/707/A345"
         ]
       },
-      "image_review_status": "not_added",
+      "image_review_status": "complete",
       "addition_review": {
         "date": "2026-11-02",
         "selection": "Evidence-supported GraL-only system",
@@ -9740,7 +9960,7 @@
       "catalog_id": 345,
       "name": "HE0013-2542",
       "alt_name": "GMP J0015-2526; J0015-2526",
-      "HSC": null,
+      "HSC": "no",
       "DESI-LS": null,
       "paper image": null,
       "ra": 3.932990045,
@@ -9788,7 +10008,7 @@
           "https://cdsarc.cds.unistra.fr/viz-bin/cat/J/A+A/707/A345"
         ]
       },
-      "image_review_status": "not_added",
+      "image_review_status": "complete",
       "addition_review": {
         "date": "2026-11-02",
         "selection": "Evidence-supported GraL-only system",
@@ -9808,7 +10028,7 @@
       "catalog_id": 346,
       "name": "DESJ0029-3814",
       "alt_name": null,
-      "HSC": null,
+      "HSC": "no",
       "DESI-LS": null,
       "paper image": null,
       "ra": 7.41897179712,
@@ -9856,7 +10076,7 @@
           "https://cdsarc.cds.unistra.fr/viz-bin/cat/J/A+A/707/A345"
         ]
       },
-      "image_review_status": "not_added",
+      "image_review_status": "complete",
       "addition_review": {
         "date": "2026-11-02",
         "selection": "Evidence-supported GraL-only system",
@@ -9876,7 +10096,7 @@
       "catalog_id": 347,
       "name": "J0035.4-2015",
       "alt_name": "MACS J0035.4-2015 lensed AGN",
-      "HSC": null,
+      "HSC": "no",
       "DESI-LS": null,
       "paper image": null,
       "ra": 8.8523185,
@@ -9923,7 +10143,7 @@
           "https://cdsarc.cds.unistra.fr/viz-bin/cat/J/A+A/707/A345"
         ]
       },
-      "image_review_status": "not_added",
+      "image_review_status": "complete",
       "addition_review": {
         "date": "2026-11-02",
         "selection": "Evidence-supported GraL-only system",
@@ -9942,8 +10162,8 @@
       "catalog_id": 348,
       "name": "PSJ0140+4107",
       "alt_name": null,
-      "HSC": null,
-      "DESI-LS": null,
+      "HSC": "no",
+      "DESI-LS": "no",
       "paper image": null,
       "ra": 25.2042014265,
       "dec": 41.1333204821,
@@ -9997,7 +10217,7 @@
           "https://cdsarc.cds.unistra.fr/viz-bin/cat/J/A+A/707/A345"
         ]
       },
-      "image_review_status": "not_added",
+      "image_review_status": "complete",
       "addition_review": {
         "date": "2026-11-02",
         "selection": "Evidence-supported GraL-only system",
@@ -10018,7 +10238,7 @@
       "catalog_id": 349,
       "name": "COOLJ0335-1927",
       "alt_name": null,
-      "HSC": null,
+      "HSC": "no",
       "DESI-LS": null,
       "paper image": null,
       "ra": 53.764431,
@@ -10065,7 +10285,7 @@
           "https://cdsarc.cds.unistra.fr/viz-bin/cat/J/A+A/707/A345"
         ]
       },
-      "image_review_status": "not_added",
+      "image_review_status": "complete",
       "addition_review": {
         "date": "2026-11-02",
         "selection": "Evidence-supported GraL-only system",
@@ -10084,7 +10304,7 @@
       "catalog_id": 350,
       "name": "DESJ0402-4220",
       "alt_name": null,
-      "HSC": null,
+      "HSC": "no",
       "DESI-LS": null,
       "paper image": null,
       "ra": 60.59187286875,
@@ -10133,7 +10353,7 @@
           "https://cdsarc.cds.unistra.fr/viz-bin/cat/J/A+A/707/A345"
         ]
       },
-      "image_review_status": "not_added",
+      "image_review_status": "complete",
       "addition_review": {
         "date": "2026-11-02",
         "selection": "Evidence-supported GraL-only system",
@@ -10154,7 +10374,7 @@
       "catalog_id": 351,
       "name": "J0420-4037",
       "alt_name": "DES J0420-4037",
-      "HSC": null,
+      "HSC": "no",
       "DESI-LS": null,
       "paper image": null,
       "ra": 65.19465865882,
@@ -10203,7 +10423,7 @@
           "https://cdsarc.cds.unistra.fr/viz-bin/cat/J/A+A/707/A345"
         ]
       },
-      "image_review_status": "not_added",
+      "image_review_status": "complete",
       "addition_review": {
         "date": "2026-11-02",
         "selection": "Evidence-supported GraL-only system",
@@ -10224,7 +10444,7 @@
       "catalog_id": 352,
       "name": "MG0751+2716",
       "alt_name": null,
-      "HSC": null,
+      "HSC": "no",
       "DESI-LS": null,
       "paper image": null,
       "ra": 117.922875,
@@ -10271,7 +10491,7 @@
           "https://cdsarc.cds.unistra.fr/viz-bin/cat/J/A+A/707/A345"
         ]
       },
-      "image_review_status": "not_added",
+      "image_review_status": "complete",
       "addition_review": {
         "date": "2026-11-02",
         "selection": "Evidence-supported GraL-only system",
@@ -10338,7 +10558,7 @@
           "https://cdsarc.cds.unistra.fr/viz-bin/cat/J/A+A/707/A345"
         ]
       },
-      "image_review_status": "not_added",
+      "image_review_status": "complete",
       "addition_review": {
         "date": "2026-11-02",
         "selection": "Evidence-supported GraL-only system",
@@ -10358,7 +10578,7 @@
       "catalog_id": 354,
       "name": "MG1131+0456",
       "alt_name": null,
-      "HSC": null,
+      "HSC": "no",
       "DESI-LS": null,
       "paper image": null,
       "ra": 172.98534583333,
@@ -10406,7 +10626,7 @@
           "https://cdsarc.cds.unistra.fr/viz-bin/cat/J/A+A/707/A345"
         ]
       },
-      "image_review_status": "not_added",
+      "image_review_status": "complete",
       "addition_review": {
         "date": "2026-11-02",
         "selection": "Evidence-supported GraL-only system",
@@ -10426,7 +10646,7 @@
       "catalog_id": 355,
       "name": "COOLJ1153+0755",
       "alt_name": "COOLJ1153A; COOLJ1153+0755 Type I",
-      "HSC": null,
+      "HSC": "no",
       "DESI-LS": null,
       "paper image": null,
       "ra": 178.33524333333332,
@@ -10474,7 +10694,7 @@
           "https://cdsarc.cds.unistra.fr/viz-bin/cat/J/A+A/707/A345"
         ]
       },
-      "image_review_status": "not_added",
+      "image_review_status": "complete",
       "addition_review": {
         "date": "2026-11-02",
         "selection": "Evidence-supported GraL-only system",
@@ -10494,7 +10714,7 @@
       "catalog_id": 356,
       "name": "J125856.3-031944",
       "alt_name": "DELQQ J1258-0319; DELVE J1258-0319",
-      "HSC": null,
+      "HSC": "no",
       "DESI-LS": null,
       "paper image": null,
       "ra": 194.73447203,
@@ -10541,7 +10761,7 @@
           "https://cdsarc.cds.unistra.fr/viz-bin/cat/J/A+A/707/A345"
         ]
       },
-      "image_review_status": "not_added",
+      "image_review_status": "complete",
       "addition_review": {
         "date": "2026-11-02",
         "selection": "Evidence-supported GraL-only system",
@@ -10560,7 +10780,7 @@
       "catalog_id": 357,
       "name": "SDSSJ1608+2716",
       "alt_name": "SDSS J160829.23+271626.7",
-      "HSC": null,
+      "HSC": "no",
       "DESI-LS": null,
       "paper image": null,
       "ra": 242.12171979,
@@ -10607,7 +10827,7 @@
           "https://cdsarc.cds.unistra.fr/viz-bin/cat/J/A+A/707/A345"
         ]
       },
-      "image_review_status": "not_added",
+      "image_review_status": "complete",
       "addition_review": {
         "date": "2026-11-02",
         "selection": "Evidence-supported GraL-only system",
@@ -10626,7 +10846,7 @@
       "catalog_id": 358,
       "name": "GraLJ210329.0-085049",
       "alt_name": "Aquarius's Tear",
-      "HSC": null,
+      "HSC": "no",
       "DESI-LS": null,
       "paper image": null,
       "ra": 315.8706099206,
@@ -10673,7 +10893,7 @@
           "https://cdsarc.cds.unistra.fr/viz-bin/cat/J/A+A/707/A345"
         ]
       },
-      "image_review_status": "not_added",
+      "image_review_status": "complete",
       "addition_review": {
         "date": "2026-11-02",
         "selection": "Evidence-supported GraL-only system",
@@ -10692,7 +10912,7 @@
       "catalog_id": 359,
       "name": "PSJ2107-1611",
       "alt_name": null,
-      "HSC": null,
+      "HSC": "no",
       "DESI-LS": null,
       "paper image": null,
       "ra": 316.9679980817,
@@ -10739,7 +10959,7 @@
           "https://cdsarc.cds.unistra.fr/viz-bin/cat/J/A+A/707/A345"
         ]
       },
-      "image_review_status": "not_added",
+      "image_review_status": "complete",
       "addition_review": {
         "date": "2026-11-02",
         "selection": "Evidence-supported GraL-only system",
@@ -11173,7 +11393,7 @@
       "name": "J1330-0905",
       "alt_name": "Persephone’s Torch",
       "HSC": "no",
-      "DESI-LS": null,
+      "DESI-LS": "no",
       "paper image": null,
       "ra": 202.52191666666667,
       "dec": -9.084394444444445,

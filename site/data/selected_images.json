@@ -20158,26 +20158,12 @@
       "name": "J1116–0657",
       "ra": 169.098042,
       "dec": -6.960683,
-      "fov_arcsec": 20,
-      "checked_at": "2026-11-01T09:06:11.863818+00:00",
+      "checked_at": "2026-11-01T10:11:15.600581+00:00",
       "status": "ok",
-      "attempts": [
-        {
-          "provider": "HST",
-          "status": "accepted",
-          "products": [
-            {
-              "uri": "mast:HST/product/hst_9744_39_acs_wfc_f555w_j8oi39_drc.fits",
-              "band": "F555W",
-              "status": "accepted"
-            }
-          ],
-          "candidate_count": 6,
-          "elapsed_s": 0.13
-        }
-      ],
       "source": "HST",
       "source_label": "HST F555W/F814W",
+      "selection_mode": "space_multiband",
+      "fov_arcsec": 20,
       "metadata": {
         "bands": "F555W/F814W",
         "band_count": 2,
@@ -20313,94 +20299,15 @@
         "resolution_matching": "Gaussian approximation from HST diffraction and native pixel sampling; not a measured PSF",
         "display_resolution_fwhm_arcsec": 0.09509969303066973
       },
-      "render_version": "hst-wavelength-rgb-v5",
-      "image": "images/hst-colour/row-344.jpg",
-      "thumbnail": "images/hst-colour/row-344-thumb.jpg",
       "quality": {
         "common_valid_fraction": 1.0,
         "minimum_registration_correlation": 0.48939058593771545,
         "maximum_peak_residual_pixels": 0
       },
-      "selection_mode": "space_multiband",
-      "updated_at": "2026-11-01T09:55:30.435737+00:00",
-      "raw_sha256": "6752f6dcea59d25595e140ef1ac45f448b28a8af6c7aad43cffbfb9a093a229c",
-      "higher_priority_errors": false,
-      "previous_ground_image": {
-        "source": "Legacy Surveys",
-        "source_label": "Legacy DR11",
-        "image": "images/selected/row-344.jpg",
-        "thumbnail": "images/selected/row-344-thumb.jpg",
-        "metadata": {
-          "urls": [
-            "https://www.legacysurvey.org/viewer/jpeg-cutout?ra=169.098042&dec=-6.960683&layer=ls-dr11&pixscale=0.0390625&size=512&bands=grz"
-          ],
-          "layer": "ls-dr11",
-          "bands": "grz",
-          "label": "Legacy DR11",
-          "release": "DR11"
-        }
-      },
-      "image_sha256": "4719e3fff6ffd22a748cbf06ba7cd4cc4004b1d18e3a2e809d9e032bac78c823",
-      "thumbnail_sha256": "11bb8346008d7792757b8e166ce4131f63ab80ecdb772fc01731feb0a62244ef",
-      "previous_space_image": {
-        "source_label": "HST F555W",
-        "image": "images/space/row-344.jpg",
-        "thumbnail": "images/space/row-344-thumb.jpg",
-        "metadata": {
-          "mission": "HST",
-          "band": "F555W",
-          "wavelength_nm": 545.0,
-          "uri": "mast:HST/product/hst_9744_39_acs_wfc_f555w_j8oi39_drc.fits",
-          "dataset": "hst_9744_39_acs_wfc_f555w_j8oi39",
-          "instrument": "ACS/WFC",
-          "exposure_s": 1320.0,
-          "proposal_id": "9744",
-          "observation_id": "hst_9744_39_acs_wfc_f555w_j8oi39",
-          "urls": [
-            "https://hla.stsci.edu/cgi-bin/fitscut.cgi?red=hst_9744_39_acs_wfc_f555w_j8oi39&RA=169.098042&Dec=-6.960683&size=616&format=fits&TextErrors=yes&ApplyOmega=false"
-          ],
-          "label": "HST F555W",
-          "bands": "F555W",
-          "science_coverage_verified": true,
-          "rendering": "single-band asinh grayscale; north up, east left",
-          "archive_fits_sha256": "5011517e8c26dfc7c04051504a7da0778e81ea77c5d0b6da4ad841c6ef4d4b7f",
-          "output_wcs": {
-            "WCSAXES": 2,
-            "CRPIX1": 256.5,
-            "CRPIX2": 256.5,
-            "CDELT1": -1.0850694444444e-05,
-            "CDELT2": 1.0850694444444e-05,
-            "CUNIT1": "deg",
-            "CUNIT2": "deg",
-            "CTYPE1": "RA---TAN",
-            "CTYPE2": "DEC--TAN",
-            "CRVAL1": 169.098042,
-            "CRVAL2": -6.960683,
-            "LONPOLE": 180.0,
-            "LATPOLE": -6.960683,
-            "MJDREF": 0.0,
-            "RADESYS": "ICRS"
-          },
-          "fits_filter": null
-        },
-        "selection_mode": "space_single_band",
-        "quality": {
-          "finite_fraction": 1.0,
-          "centre_finite_fraction": 1.0,
-          "sky_median": 0.13007254757274847,
-          "sky_mad_sigma": 0.007986795665653168,
-          "centre_std": 40.834684566742595,
-          "centre_p999": 255.0,
-          "native_pixel_scale_arcsec": [
-            0.049999999999996804,
-            0.04999999999999968
-          ],
-          "central_wcs_error_arcsec": 8.587497639951497e-12
-        }
-      },
-      "colour_quality": {
-        "common_valid_fraction": 1.0
-      }
+      "image": "images/refresh-20261102/surveys/id-343-HST.jpg",
+      "thumbnail": "images/refresh-20261102/preferred/id-343-thumb.jpg",
+      "sha256": "4719e3fff6ffd22a748cbf06ba7cd4cc4004b1d18e3a2e809d9e032bac78c823",
+      "selection_reason": "First usable survey/archive in HST > JWST > Euclid > HSC > DES > Legacy Surveys > Pan-STARRS > SDSS order. Paper images are separate."
     },
     "190": {
       "row_number": 190,
@@ -51273,105 +51180,116 @@
       }
     },
     "361": {
-      "status": "ok",
-      "source": "VLT/ERIS SPIFFIER",
-      "source_label": "VLT/ERIS SPIFFIER H band",
-      "selection_mode": "publication_observation",
-      "fov_arcsec": null,
-      "metadata": {
-        "label": "VLT/ERIS SPIFFIER H band",
-        "bands": "H band",
-        "instrument": "VLT/ERIS SPIFFIER",
-        "urls": [
-          "https://arxiv.org/abs/2610.27086v1"
-        ],
-        "publication_reference": "Zanchettin et al. 2026",
-        "figure": "Fig. 2, left",
-        "display_note": "Observed high-resolution publication crop; original field and annotations retained. Resampling does not improve instrumental resolution.",
-        "caption": "VLT/ERIS SPIFFIER H band · Published observation · Zanchettin et al. 2026",
-        "rendering": "Observed high-resolution publication crop; original field and annotations retained. Resampling does not improve instrumental resolution."
-      },
-      "quality": {
-        "visually_verified_observation": true
-      },
-      "selection_reason": "Public HST/JWST/Euclid search found no usable image; high-resolution AO observation retrieved from the primary paper.",
       "row_number": 361,
       "catalog_id": 360,
       "name": "J0459-0413",
       "ra": 74.78179166666666,
       "dec": -4.222644444444445,
-      "checked_at": "2026-11-02",
-      "image": "images/recent-2026/preferred/id-360.jpg",
-      "thumbnail": "images/recent-2026/preferred/id-360-thumb.jpg",
-      "sha256": "3802609e329c4ea34350c10e030a84b0cc5f65e3219e894c0af8c50e58702027"
-    },
-    "362": {
+      "checked_at": "2026-11-01T18:34:29.837585+00:00",
       "status": "ok",
-      "source": "VLT/ERIS SPIFFIER",
-      "source_label": "VLT/ERIS SPIFFIER K band",
-      "selection_mode": "publication_observation",
-      "fov_arcsec": null,
+      "source": "Legacy Surveys",
+      "source_label": "Legacy DR11",
+      "selection_mode": "survey_rgb",
+      "fov_arcsec": 20,
       "metadata": {
-        "label": "VLT/ERIS SPIFFIER K band",
-        "bands": "K band",
-        "instrument": "VLT/ERIS SPIFFIER",
         "urls": [
-          "https://arxiv.org/abs/2610.27086v1"
+          "https://www.legacysurvey.org/viewer/jpeg-cutout?ra=74.78179166666666&dec=-4.222644444444445&layer=ls-dr11&pixscale=0.0390625&size=512&bands=grz"
         ],
-        "publication_reference": "Zanchettin et al. 2026",
-        "figure": "Fig. 2, middle",
-        "display_note": "Observed high-resolution publication crop; original field and annotations retained. Resampling does not improve instrumental resolution.",
-        "caption": "VLT/ERIS SPIFFIER K band · Published observation · Zanchettin et al. 2026",
-        "rendering": "Observed high-resolution publication crop; original field and annotations retained. Resampling does not improve instrumental resolution."
+        "layer": "ls-dr11",
+        "bands": "grz",
+        "label": "Legacy DR11",
+        "release": "DR11",
+        "version_attempts": []
       },
       "quality": {
-        "visually_verified_observation": true
+        "valid_fraction": 0.9999732971191406,
+        "centre_valid_fraction": 1.0,
+        "std": 26.56664618081238,
+        "centre_std": 56.26838346381221,
+        "centre_range": 247.0
       },
-      "selection_reason": "Public HST/JWST/Euclid search found no usable image; high-resolution AO observation retrieved from the primary paper.",
+      "image": "images/refresh-20261102/surveys/id-360-Legacy-Surveys.jpg",
+      "thumbnail": "images/refresh-20261102/preferred/id-360-thumb.jpg",
+      "sha256": "747f2b171a6377b00284086548a2cb8d87cc98ee690a2501785f05c9312dab8b",
+      "selection_reason": "First usable survey/archive in HST > JWST > Euclid > HSC > DES > Legacy Surveys > Pan-STARRS > SDSS order. Paper images are separate."
+    },
+    "362": {
       "row_number": 362,
       "catalog_id": 361,
       "name": "J0602-3852",
       "ra": 90.54858333333334,
       "dec": -38.87031944444445,
-      "checked_at": "2026-11-02",
-      "image": "images/recent-2026/preferred/id-361.jpg",
-      "thumbnail": "images/recent-2026/preferred/id-361-thumb.jpg",
-      "sha256": "56706aee7b5194a393bf817a53427a7719c7053fc4e249791dfbdd3ed7081324"
-    },
-    "363": {
+      "checked_at": "2026-11-01T18:34:31.490168+00:00",
       "status": "ok",
-      "source": "VLT/MUSE NFM",
-      "source_label": "VLT/MUSE NFM white light",
-      "selection_mode": "publication_observation",
-      "fov_arcsec": null,
+      "source": "DES",
+      "source_label": "DES DR2",
+      "selection_mode": "survey_rgb",
+      "fov_arcsec": 20,
       "metadata": {
-        "label": "VLT/MUSE NFM white light",
-        "bands": "white light",
-        "instrument": "VLT/MUSE NFM",
+        "label": "DES DR2",
+        "release": "DR2",
+        "bands": "GRI",
         "urls": [
-          "https://arxiv.org/abs/2610.27086v1"
+          "https://datalab.noirlab.edu/sia/des_dr2?POS=90.54858333333334%2C-38.87031944444445&SIZE=0.005555555555555556&FORMAT=image%2Ffits",
+          "https://datalab.noirlab.edu/svc/cutout?col=des_dr2&siaRef=DES0600-3832_r4939p01_g.fits.fz&extn=1&POS=90.54858333333334,-38.87031944444445&SIZE=0.005555555555555556,0.005555555555555556",
+          "https://datalab.noirlab.edu/svc/cutout?col=des_dr2&siaRef=DES0600-3832_r4939p01_r.fits.fz&extn=1&POS=90.54858333333334,-38.87031944444445&SIZE=0.005555555555555556,0.005555555555555556",
+          "https://datalab.noirlab.edu/svc/cutout?col=des_dr2&siaRef=DES0600-3832_r4939p01_i.fits.fz&extn=1&POS=90.54858333333334,-38.87031944444445&SIZE=0.005555555555555556,0.005555555555555556"
         ],
-        "publication_reference": "Zanchettin et al. 2026",
-        "figure": "Fig. D.1, upper observed MUSE panel",
-        "display_note": "Observed high-resolution publication crop; original field and annotations retained. Resampling does not improve instrumental resolution.",
-        "caption": "VLT/MUSE NFM white light · Published observation · Zanchettin et al. 2026",
-        "rendering": "Observed high-resolution publication crop; original field and annotations retained. Resampling does not improve instrumental resolution."
+        "rendering": "WCS alignment + shared-intensity asinh; north up, east left"
       },
       "quality": {
-        "visually_verified_observation": true
+        "valid_fraction": 0.9715003967285156,
+        "centre_valid_fraction": 1.0,
+        "std": 39.773894819972035,
+        "centre_std": 75.0639599238075,
+        "centre_range": 253.0
       },
-      "selection_reason": "Public HST/JWST/Euclid search found no usable image; high-resolution AO observation retrieved from the primary paper.",
+      "image": "images/refresh-20261102/surveys/id-361-DES.jpg",
+      "thumbnail": "images/refresh-20261102/preferred/id-361-thumb.jpg",
+      "sha256": "6cffab282c51172ae9eca386ea71e414409d2f51987ed4d4ac70a6e68cd24ea0",
+      "selection_reason": "First usable survey/archive in HST > JWST > Euclid > HSC > DES > Legacy Surveys > Pan-STARRS > SDSS order. Paper images are separate."
+    },
+    "363": {
       "row_number": 363,
       "catalog_id": 362,
       "name": "J1335+0527",
       "ra": 203.80054166666667,
       "dec": 5.459022222222222,
-      "checked_at": "2026-11-02",
-      "image": "images/recent-2026/preferred/id-362.jpg",
-      "thumbnail": "images/recent-2026/preferred/id-362-thumb.jpg",
-      "sha256": "c8e8164a20b4e291863da47c0d4692994e9a5ce479e01e0103918090aeb32bdc"
+      "checked_at": "2026-11-01T18:34:34.947723+00:00",
+      "status": "ok",
+      "source": "Legacy Surveys",
+      "source_label": "Legacy DR11",
+      "selection_mode": "survey_rgb",
+      "fov_arcsec": 20,
+      "metadata": {
+        "urls": [
+          "https://www.legacysurvey.org/viewer/jpeg-cutout?ra=203.80054166666667&dec=5.459022222222222&layer=ls-dr11&pixscale=0.0390625&size=512&bands=grz"
+        ],
+        "layer": "ls-dr11",
+        "bands": "grz",
+        "label": "Legacy DR11",
+        "release": "DR11",
+        "version_attempts": []
+      },
+      "quality": {
+        "valid_fraction": 0.9999122619628906,
+        "centre_valid_fraction": 1.0,
+        "std": 35.95144209337443,
+        "centre_std": 73.20211342068879,
+        "centre_range": 254.0
+      },
+      "image": "images/refresh-20261102/surveys/id-362-Legacy-Surveys.jpg",
+      "thumbnail": "images/refresh-20261102/preferred/id-362-thumb.jpg",
+      "sha256": "76c6ce9cebfc7ef702b66a1adbfe15bf4d2d193ce032e385fcaa345cfdbf1f67",
+      "selection_reason": "First usable survey/archive in HST > JWST > Euclid > HSC > DES > Legacy Surveys > Pan-STARRS > SDSS order. Paper images are separate."
     },
     "364": {
+      "row_number": 364,
+      "catalog_id": 363,
+      "name": "J0316-4106",
+      "ra": 49.0031,
+      "dec": -41.1027,
+      "checked_at": "2026-11-01T18:34:36.286850+00:00",
       "status": "ok",
       "source": "HST",
       "source_label": "HST F160W",
@@ -51425,18 +51343,18 @@
         ],
         "central_wcs_error_arcsec": 0.0
       },
-      "selection_reason": "Public HST F160W science cutout.",
-      "row_number": 364,
-      "catalog_id": 363,
-      "name": "J0316-4106",
-      "ra": 49.0031,
-      "dec": -41.1027,
-      "checked_at": "2026-11-02",
-      "image": "images/recent-2026/preferred/id-363.jpg",
-      "thumbnail": "images/recent-2026/preferred/id-363-thumb.jpg",
-      "sha256": "93360aa32a16de40034b9ea996e8f4bbf4bcb4d308b9c6c86f23a11c88256b1f"
+      "image": "images/refresh-20261102/surveys/id-363-HST.jpg",
+      "thumbnail": "images/refresh-20261102/preferred/id-363-thumb.jpg",
+      "sha256": "93360aa32a16de40034b9ea996e8f4bbf4bcb4d308b9c6c86f23a11c88256b1f",
+      "selection_reason": "First usable survey/archive in HST > JWST > Euclid > HSC > DES > Legacy Surveys > Pan-STARRS > SDSS order. Paper images are separate."
     },
     "365": {
+      "row_number": 365,
+      "catalog_id": 364,
+      "name": "DESIJ2321-0330",
+      "ra": 350.3458,
+      "dec": -3.5082,
+      "checked_at": "2026-11-01T18:34:38.883036+00:00",
       "status": "ok",
       "source": "HST",
       "source_label": "HST F160W",
@@ -51490,155 +51408,2376 @@
         ],
         "central_wcs_error_arcsec": 8.587497639951495e-12
       },
-      "selection_reason": "Public HST F160W science cutout.",
-      "row_number": 365,
-      "catalog_id": 364,
-      "name": "DESIJ2321-0330",
-      "ra": 350.3458,
-      "dec": -3.5082,
-      "checked_at": "2026-11-02",
-      "image": "images/recent-2026/preferred/id-364.jpg",
-      "thumbnail": "images/recent-2026/preferred/id-364-thumb.jpg",
-      "sha256": "343f0cc64e7d30df30b181282b7ffaa4e9a83a53fd49ae62ee31cf2962204fef"
+      "image": "images/refresh-20261102/surveys/id-364-HST.jpg",
+      "thumbnail": "images/refresh-20261102/preferred/id-364-thumb.jpg",
+      "sha256": "343f0cc64e7d30df30b181282b7ffaa4e9a83a53fd49ae62ee31cf2962204fef",
+      "selection_reason": "First usable survey/archive in HST > JWST > Euclid > HSC > DES > Legacy Surveys > Pan-STARRS > SDSS order. Paper images are separate."
     },
     "366": {
-      "status": "ok",
-      "source": "JWST",
-      "source_label": "JWST F444W",
-      "selection_mode": "space_single_band",
-      "fov_arcsec": 40,
-      "metadata": {
-        "mission": "JWST",
-        "band": "F444W",
-        "wavelength_nm": 4433.0,
-        "uri": "mast:JWST/product/jw06675-o001_t002_nircam_clear-f444w_i2d.fits",
-        "dataset": "jw06675-o001_t002_nircam_clear-f444w",
-        "instrument": "NIRCAM/IMAGE",
-        "exposure_s": 1030.732,
-        "proposal_id": "6675",
-        "observation_id": "jw06675-o001_t002_nircam_clear-f444w",
-        "urls": [
-          "https://mast.stsci.edu/api/v0.1/Download/file?uri=mast:JWST/product/jw06675-o001_t002_nircam_clear-f444w_i2d.fits"
-        ],
-        "label": "JWST F444W",
-        "bands": "F444W",
-        "output_wcs": {
-          "WCSAXES": 2,
-          "CRPIX1": 256.5,
-          "CRPIX2": 256.5,
-          "CDELT1": -2.1701388888889e-05,
-          "CDELT2": 2.1701388888889e-05,
-          "CUNIT1": "deg",
-          "CUNIT2": "deg",
-          "CTYPE1": "RA---TAN",
-          "CTYPE2": "DEC--TAN",
-          "CRVAL1": 178.32799462992,
-          "CRVAL2": 7.9299525,
-          "LONPOLE": 180.0,
-          "LATPOLE": 7.9299525,
-          "MJDREF": 0.0,
-          "RADESYS": "ICRS"
-        },
-        "archive_fits_sha256": "075d4b7408dbfead598069d3e5e3c8b41b99713106ce909f07a0eb49cd26bccb",
-        "rendering": "Single-band asinh grayscale; north up, east left. Field centre offset 9 arcsec west and 10 arcsec north of catalogue B1 to include B1-B4 and avoid mosaic edges. F444W chosen after visual review because the shorter-wavelength cutouts show stronger striping and the obscured B images are clearer at F444W.",
-        "cutout_center_ra": 178.3279946299212,
-        "cutout_center_dec": 7.929952500000001,
-        "display_note": "Field centred on the B-image group; catalogue coordinates refer to B1."
-      },
-      "quality": {
-        "finite_fraction": 1.0,
-        "centre_finite_fraction": 1.0,
-        "sky_median": 0.32363260685051953,
-        "sky_mad_sigma": 0.014777256421099796,
-        "centre_std": 28.45488634685716,
-        "centre_p999": 255.0,
-        "native_pixel_scale_arcsec": [
-          0.06300005384658132,
-          0.06300005384658132
-        ],
-        "central_wcs_error_arcsec": 5.72499842663433e-12
-      },
-      "selection_reason": "JWST chosen for the dust-obscured Type II B source.",
       "row_number": 366,
       "catalog_id": 365,
       "name": "COOLJ1153B",
       "ra": 178.33051875,
       "dec": 7.927174722222222,
-      "checked_at": "2026-11-02",
-      "image": "images/recent-2026/preferred/id-365-f444w.jpg",
-      "thumbnail": "images/recent-2026/preferred/id-365-f444w-thumb.jpg",
-      "sha256": "6279ff64909d9c69d30b8f01bc88e9b5e908d4c2912f46eb390ee9d85de1ac23"
-    },
-    "367": {
+      "checked_at": "2026-11-01T18:34:42.323587+00:00",
       "status": "ok",
-      "source": "LBT/LUCI1 AO",
-      "source_label": "LBT/LUCI1 AO J/H/K",
-      "selection_mode": "publication_observation",
-      "fov_arcsec": null,
+      "source": "HST",
+      "source_label": "HST F475W",
+      "selection_mode": "space_single_band",
+      "fov_arcsec": 80,
       "metadata": {
-        "label": "LBT/LUCI1 AO J/H/K",
-        "bands": "J/H/K",
-        "instrument": "LBT/LUCI1 AO",
+        "mission": "HST",
+        "band": "F475W",
+        "wavelength_nm": 470.0,
+        "uri": "mast:HST/product/hst_17431_01_acs_wfc_f475w_jf8201_drc.fits",
+        "dataset": "hst_17431_01_acs_wfc_f475w_jf8201",
+        "instrument": "ACS/WFC",
+        "exposure_s": 2357.4079899999997,
+        "proposal_id": "17431",
+        "observation_id": "hst_17431_01_acs_wfc_f475w_jf8201",
         "urls": [
-          "https://arxiv.org/abs/2604.13152v1"
+          "https://hla.stsci.edu/cgi-bin/fitscut.cgi?red=hst_17431_01_acs_wfc_f475w_jf8201&RA=178.33051875&Dec=7.927174722222222&size=2416&format=fits&TextErrors=yes&ApplyOmega=false"
         ],
-        "publication_reference": "Davies et al. 2026",
-        "figure": "Fig. 2, right observed AO panel",
-        "display_note": "Observed high-resolution publication crop; original field and annotations retained. Resampling does not improve instrumental resolution.",
-        "caption": "LBT/LUCI1 AO J/H/K · Published observation · Davies et al. 2026",
-        "rendering": "Observed high-resolution publication crop; original field and annotations retained. Resampling does not improve instrumental resolution."
+        "label": "HST F475W",
+        "bands": "F475W",
+        "output_wcs": {
+          "WCSAXES": 2,
+          "CRPIX1": 256.5,
+          "CRPIX2": 256.5,
+          "CDELT1": -4.3402777777778e-05,
+          "CDELT2": 4.3402777777778e-05,
+          "CUNIT1": "deg",
+          "CUNIT2": "deg",
+          "CTYPE1": "RA---TAN",
+          "CTYPE2": "DEC--TAN",
+          "CRVAL1": 178.33051875,
+          "CRVAL2": 7.9271747222222,
+          "LONPOLE": 180.0,
+          "LATPOLE": 7.9271747222222,
+          "MJDREF": 0.0,
+          "RADESYS": "ICRS"
+        },
+        "archive_fits_sha256": "66d42cdd48f8dcf3d9745e765fe4150f2364ff2384fa738e96f259bd0e0b049f",
+        "rendering": "single-band grayscale; north up, east left"
       },
       "quality": {
-        "visually_verified_observation": true
+        "finite_fraction": 0.9989051818847656,
+        "centre_finite_fraction": 1.0,
+        "sky_median": 0.04829228309937031,
+        "sky_mad_sigma": 0.004881250023215027,
+        "centre_std": 9.801267623045996,
+        "centre_p999": 110.93600000001607,
+        "native_pixel_scale_arcsec": [
+          0.049999999999996804,
+          0.04999999999999968
+        ],
+        "central_wcs_error_arcsec": 1.144999685326866e-11
       },
-      "selection_reason": "Public HST/JWST/Euclid search found no usable image; high-resolution AO observation retrieved from the primary paper.",
+      "image": "images/refresh-20261102/surveys/id-365-HST.jpg",
+      "thumbnail": "images/refresh-20261102/preferred/id-365-thumb.jpg",
+      "sha256": "584c7787c369c53b88c2c7f2e10822ef00ba1afbf7fce2e6443ec906f8edf628",
+      "selection_reason": "First usable survey/archive in HST > JWST > Euclid > HSC > DES > Legacy Surveys > Pan-STARRS > SDSS order. Paper images are separate."
+    },
+    "367": {
       "row_number": 367,
       "catalog_id": 366,
       "name": "J1330-0905",
       "ra": 202.52191666666667,
       "dec": -9.084394444444445,
-      "checked_at": "2026-11-02",
-      "image": "images/recent-2026/preferred/id-366.jpg",
-      "thumbnail": "images/recent-2026/preferred/id-366-thumb.jpg",
-      "sha256": "e71df6ebb0aacfb5d94360d38e145d054f798494bdc061ffc2d7fd4bb53d788a"
-    },
-    "368": {
+      "checked_at": "2026-11-01T18:34:48.135297+00:00",
       "status": "ok",
-      "source": "VLT/ERIS NIX",
-      "source_label": "VLT/ERIS NIX Ks",
-      "selection_mode": "publication_observation",
-      "fov_arcsec": null,
+      "source": "Pan-STARRS",
+      "source_label": "Pan-STARRS",
+      "selection_mode": "survey_rgb",
+      "fov_arcsec": 20,
       "metadata": {
-        "label": "VLT/ERIS NIX Ks",
-        "bands": "Ks",
-        "instrument": "VLT/ERIS NIX",
+        "label": "Pan-STARRS",
+        "release": "PS1 stack",
+        "bands": "gri",
         "urls": [
-          "https://arxiv.org/abs/2604.01828v1"
+          "https://ps1images.stsci.edu/cgi-bin/ps1filenames.py?ra=202.52191666666667&dec=-9.084394444444445&filters=gri&type=stack&sep=%2C",
+          "https://ps1images.stsci.edu/cgi-bin/fitscut.cgi?ra=202.52191666666667&dec=-9.084394444444445&size=80&output_size=512&format=jpg&red=%2Frings.v3.skycell%2F1104%2F074%2Frings.v3.skycell.1104.074.stk.i.unconv.fits&green=%2Frings.v3.skycell%2F1104%2F074%2Frings.v3.skycell.1104.074.stk.r.unconv.fits&blue=%2Frings.v3.skycell%2F1104%2F074%2Frings.v3.skycell.1104.074.stk.g.unconv.fits",
+          "https://ps1images.stsci.edu/cgi-bin/fitscut.cgi?ra=202.52191666666667&dec=-9.084394444444445&size=80&format=fits&red=%2Frings.v3.skycell%2F1104%2F074%2Frings.v3.skycell.1104.074.stk.g.unconv.fits",
+          "https://ps1images.stsci.edu/cgi-bin/fitscut.cgi?ra=202.52191666666667&dec=-9.084394444444445&size=80&format=fits&red=%2Frings.v3.skycell%2F1104%2F074%2Frings.v3.skycell.1104.074.stk.r.unconv.fits",
+          "https://ps1images.stsci.edu/cgi-bin/fitscut.cgi?ra=202.52191666666667&dec=-9.084394444444445&size=80&format=fits&red=%2Frings.v3.skycell%2F1104%2F074%2Frings.v3.skycell.1104.074.stk.i.unconv.fits"
         ],
-        "publication_reference": "D’Amato et al. 2026",
-        "figure": "Fig. 1, observed ERIS NIX image",
-        "display_note": "Observed high-resolution publication crop; original field and annotations retained. Resampling does not improve instrumental resolution.",
-        "caption": "VLT/ERIS NIX Ks · Published observation · D’Amato et al. 2026",
-        "rendering": "Observed high-resolution publication crop; original field and annotations retained. Resampling does not improve instrumental resolution."
+        "science_coverage_verified": true,
+        "coverage_note": "Dark JPEG centre retained after validating all three FITS bands; no claim of target detection."
       },
       "quality": {
-        "visually_verified_observation": true
+        "valid_fraction": 0.21660995483398438,
+        "centre_valid_fraction": 0.98077392578125,
+        "std": 34.392495404922165,
+        "centre_std": 67.76202371900027,
+        "centre_range": 253.0
       },
-      "selection_reason": "Public HST/JWST/Euclid search found no usable image; high-resolution AO observation retrieved from the primary paper.",
+      "image": "images/refresh-20261102/surveys/id-366-Pan-STARRS.jpg",
+      "thumbnail": "images/refresh-20261102/preferred/id-366-thumb.jpg",
+      "sha256": "b95959651ef0f29f2941edf91322d7c9cfc23549087327de056b08e08b9a20f5",
+      "selection_reason": "First usable survey/archive in HST > JWST > Euclid > HSC > DES > Legacy Surveys > Pan-STARRS > SDSS order. Paper images are separate."
+    },
+    "368": {
       "row_number": 368,
       "catalog_id": 367,
       "name": "J1453+0529",
       "ra": 223.27895833333332,
       "dec": 5.491127777777778,
-      "checked_at": "2026-11-02",
-      "image": "images/recent-2026/preferred/id-367.jpg",
-      "thumbnail": "images/recent-2026/preferred/id-367-thumb.jpg",
-      "sha256": "65c83a0498c485cae14e07d727795d6ce0c6bd8efed6b7dd511f74cda5d388f6"
+      "checked_at": "2026-11-01T18:34:49.573511+00:00",
+      "status": "ok",
+      "source": "Legacy Surveys",
+      "source_label": "Legacy DR11",
+      "selection_mode": "survey_rgb",
+      "fov_arcsec": 20,
+      "metadata": {
+        "urls": [
+          "https://www.legacysurvey.org/viewer/jpeg-cutout?ra=223.27895833333332&dec=5.491127777777778&layer=ls-dr11&pixscale=0.0390625&size=512&bands=grz"
+        ],
+        "layer": "ls-dr11",
+        "bands": "grz",
+        "label": "Legacy DR11",
+        "release": "DR11",
+        "version_attempts": []
+      },
+      "quality": {
+        "valid_fraction": 0.9999809265136719,
+        "centre_valid_fraction": 1.0,
+        "std": 33.67794436242702,
+        "centre_std": 77.03707302841127,
+        "centre_range": 253.0
+      },
+      "image": "images/refresh-20261102/surveys/id-367-Legacy-Surveys.jpg",
+      "thumbnail": "images/refresh-20261102/preferred/id-367-thumb.jpg",
+      "sha256": "750368f46e786ee0f99194d8097d69486baccaa7dea8dc1ee297a401f7af687b",
+      "selection_reason": "First usable survey/archive in HST > JWST > Euclid > HSC > DES > Legacy Surveys > Pan-STARRS > SDSS order. Paper images are separate."
+    },
+    "345": {
+      "row_number": 345,
+      "catalog_id": 344,
+      "name": "A2744-QSO1",
+      "ra": 3.5798408,
+      "dec": -30.4015681,
+      "checked_at": "2026-11-02T01:57:14.228426+00:00",
+      "status": "ok",
+      "source": "HST",
+      "source_label": "HST F435W/F200LP/F814W",
+      "selection_mode": "space_multiband",
+      "fov_arcsec": 80,
+      "metadata": {
+        "label": "HST F435W/F200LP/F814W",
+        "bands": "F435W/F200LP/F814W",
+        "band_count": 3,
+        "band_details": [
+          {
+            "mission": "HST",
+            "band": "F435W",
+            "wavelength_nm": 425.0,
+            "uri": "mast:HST/product/hst_11689_05_acs_wfc_f435w_jb5g05_drc.fits",
+            "dataset": "hst_11689_05_acs_wfc_f435w_jb5g05",
+            "instrument": "ACS/WFC",
+            "exposure_s": 5356.0,
+            "proposal_id": "11689",
+            "observation_id": "hst_11689_05_acs_wfc_f435w_jb5g05",
+            "url": "https://hla.stsci.edu/cgi-bin/fitscut.cgi?red=hst_11689_05_acs_wfc_f435w_jb5g05&RA=3.5885249999999997&Dec=-30.39795875&size=2716&format=fits&TextErrors=yes&ApplyOmega=false",
+            "fits_sha256": "6d4fa773c162786591394d0368a55442071a4eb93443e6bd4fbb5d6ff9209823",
+            "quality": {
+              "sky_median": 0.016270349317850166,
+              "sky_mad_sigma": 0.003280829470634068,
+              "valid_fraction": 0.9996681213378906,
+              "centre_valid_fraction": 1.0,
+              "central_p999_snr": 27.174300356687134,
+              "native_pixel_scale_arcsec": [
+                0.049999999999996804,
+                0.04999999999999968
+              ]
+            },
+            "registration": {
+              "shift_yx_pixels": [
+                0.1,
+                -0.1
+              ],
+              "shift_arcsec": 0.022097086912079615,
+              "feature_correlation": 0.8124544637484011,
+              "feature_correlation_before": 0.8073775219188465,
+              "matched_peaks": 50,
+              "median_peak_residual_pixels": 0.0
+            }
+          },
+          {
+            "mission": "HST",
+            "band": "F200LP",
+            "wavelength_nm": 595.3499999999999,
+            "uri": "mast:HST/product/hst_15936_34_wfc3_uvis_f200lp_ie4m34_drc.fits",
+            "dataset": "hst_15936_34_wfc3_uvis_f200lp_ie4m34",
+            "instrument": "WFC3/UVIS",
+            "exposure_s": 4740.0,
+            "proposal_id": "15936",
+            "observation_id": "hst_15936_34_wfc3_uvis_f200lp_ie4m34",
+            "url": "https://hla.stsci.edu/cgi-bin/fitscut.cgi?red=hst_15936_34_wfc3_uvis_f200lp_ie4m34&RA=3.5885249999999997&Dec=-30.39795875&size=3391&format=fits&TextErrors=yes&ApplyOmega=false",
+            "fits_sha256": "709981e819951c331c3b58b4fa0c6eaa696f0950c1152ae992b5b93f0be20390",
+            "quality": {
+              "sky_median": 0.11257495708596113,
+              "sky_mad_sigma": 0.009433011265299704,
+              "valid_fraction": 1.0,
+              "centre_valid_fraction": 1.0,
+              "central_p999_snr": 106.43592849684003,
+              "native_pixel_scale_arcsec": [
+                0.039619999999998004,
+                0.0396199999999998
+              ]
+            },
+            "registration": {
+              "shift_yx_pixels": [
+                -0.2,
+                0.0
+              ],
+              "shift_arcsec": 0.03125,
+              "feature_correlation": 0.9320100299545911,
+              "feature_correlation_before": 0.9303510623497233,
+              "matched_peaks": 58,
+              "median_peak_residual_pixels": 0.0
+            }
+          },
+          {
+            "mission": "HST",
+            "band": "F814W",
+            "wavelength_nm": 833.5,
+            "uri": "mast:HST/product/hst_11689_01_acs_wfc_f814w_jb5g01_drc.fits",
+            "dataset": "hst_11689_01_acs_wfc_f814w_jb5g01",
+            "instrument": "ACS/WFC",
+            "exposure_s": 5356.0,
+            "proposal_id": "11689",
+            "observation_id": "hst_11689_01_acs_wfc_f814w_jb5g01",
+            "urls": [
+              "https://hla.stsci.edu/cgi-bin/fitscut.cgi?red=hst_11689_01_acs_wfc_f814w_jb5g01&RA=3.5885249999999997&Dec=-30.39795875&size=2716&format=fits&TextErrors=yes&ApplyOmega=false"
+            ],
+            "label": "HST F814W",
+            "bands": "F814W",
+            "output_wcs": {
+              "WCSAXES": 2,
+              "CRPIX1": 256.5,
+              "CRPIX2": 256.5,
+              "CDELT1": -4.3402777777778e-05,
+              "CDELT2": 4.3402777777778e-05,
+              "CUNIT1": "deg",
+              "CUNIT2": "deg",
+              "CTYPE1": "RA---TAN",
+              "CTYPE2": "DEC--TAN",
+              "CRVAL1": 3.588525,
+              "CRVAL2": -30.39795875,
+              "LONPOLE": 180.0,
+              "LATPOLE": -30.39795875,
+              "MJDREF": 0.0,
+              "RADESYS": "ICRS"
+            },
+            "archive_fits_sha256": "7e69d48f26ba02719c9cf8302dfb427df6feef245c580d07bc1644f298e81df6",
+            "rendering": "Single-band grayscale; north up, east left. View centred on the bounding-box midpoint of the multiple quasar images from Furtak et al. 2023 Table 1, arXiv:2212.10531v4. All listed images are within the field. Catalogue coordinates unchanged.",
+            "cutout_center_ra": 3.5885249999999997,
+            "cutout_center_dec": -30.39795875,
+            "url": "https://hla.stsci.edu/cgi-bin/fitscut.cgi?red=hst_11689_01_acs_wfc_f814w_jb5g01&RA=3.5885249999999997&Dec=-30.39795875&size=2716&format=fits&TextErrors=yes&ApplyOmega=false",
+            "fits_sha256": "7e69d48f26ba02719c9cf8302dfb427df6feef245c580d07bc1644f298e81df6",
+            "quality": {
+              "sky_median": 0.06841029667853737,
+              "sky_mad_sigma": 0.00418803138051911,
+              "valid_fraction": 0.9996833801269531,
+              "centre_valid_fraction": 1.0,
+              "central_p999_snr": 444.6835679286859,
+              "native_pixel_scale_arcsec": [
+                0.049999999999996804,
+                0.04999999999999968
+              ]
+            }
+          }
+        ],
+        "urls": [
+          "https://hla.stsci.edu/cgi-bin/fitscut.cgi?red=hst_11689_05_acs_wfc_f435w_jb5g05&RA=3.5885249999999997&Dec=-30.39795875&size=2716&format=fits&TextErrors=yes&ApplyOmega=false",
+          "https://hla.stsci.edu/cgi-bin/fitscut.cgi?red=hst_15936_34_wfc3_uvis_f200lp_ie4m34&RA=3.5885249999999997&Dec=-30.39795875&size=3391&format=fits&TextErrors=yes&ApplyOmega=false",
+          "https://hla.stsci.edu/cgi-bin/fitscut.cgi?red=hst_11689_01_acs_wfc_f814w_jb5g01&RA=3.5885249999999997&Dec=-30.39795875&size=2716&format=fits&TextErrors=yes&ApplyOmega=false"
+        ],
+        "rgb_mapping": {
+          "red": "F814W",
+          "green": "F200LP",
+          "blue": "F435W"
+        },
+        "output_wcs": {
+          "WCSAXES": 2,
+          "CRPIX1": 256.5,
+          "CRPIX2": 256.5,
+          "CDELT1": -4.3402777777778e-05,
+          "CDELT2": 4.3402777777778e-05,
+          "CUNIT1": "deg",
+          "CUNIT2": "deg",
+          "CTYPE1": "RA---TAN",
+          "CTYPE2": "DEC--TAN",
+          "CRVAL1": 3.588525,
+          "CRVAL2": -30.39795875,
+          "LONPOLE": 180.0,
+          "LATPOLE": -30.39795875,
+          "MJDREF": 0.0,
+          "RADESYS": "ICRS"
+        },
+        "rendering": "Wavelength-mapped colour; independent display balancing; shared asinh stretch; north up/east left. Not photometric colour.",
+        "resolution_matching": "Gaussian approximation from HST diffraction and native pixel sampling; not a measured PSF",
+        "display_resolution_fwhm_arcsec": 0.09509969303066973,
+        "display_note": "View centred on the bounding-box midpoint of the multiple quasar images from Furtak et al. 2023 Table 1, arXiv:2212.10531v4. All listed images are within the field. Catalogue coordinates unchanged. Display field reduced to 80 arcsec to exclude mosaic edges and peripheral detector/trail artifacts."
+      },
+      "quality": {
+        "finite_fraction": 0.9996833801269531,
+        "centre_finite_fraction": 1.0,
+        "sky_median": 0.0692006722919002,
+        "sky_mad_sigma": 0.005102981152022403,
+        "centre_std": 31.791024787994317,
+        "centre_p999": 255.0,
+        "native_pixel_scale_arcsec": [
+          0.049999999999996804,
+          0.04999999999999968
+        ],
+        "central_wcs_error_arcsec": 0.0
+      },
+      "image": "images/refresh-20261102/surveys/id-344-HST.jpg",
+      "thumbnail": "images/refresh-20261102/preferred/id-344-thumb.jpg",
+      "sha256": "749a505371af22f72f5b97a5d61585f6c0b4e7698935463332c373159f2a3b0c",
+      "selection_reason": "First usable survey/archive in HST > JWST > Euclid > HSC > DES > Legacy Surveys > Pan-STARRS > SDSS order. Paper images are separate."
+    },
+    "346": {
+      "row_number": 346,
+      "catalog_id": 345,
+      "name": "HE0013-2542",
+      "ra": 3.932990045,
+      "dec": -25.43832967889,
+      "checked_at": "2026-11-02T01:48:18.592919+00:00",
+      "status": "ok",
+      "source": "HST",
+      "source_label": "HST F814W",
+      "selection_mode": "space_single_band",
+      "fov_arcsec": 20,
+      "metadata": {
+        "mission": "HST",
+        "band": "F814W",
+        "wavelength_nm": 833.5,
+        "uri": "mast:HST/product/hst_17308_03_acs_wfc_f814w_jf5603_drz.fits",
+        "dataset": "hst_17308_03_acs_wfc_f814w_jf5603",
+        "instrument": "ACS/WFC",
+        "exposure_s": 5.0,
+        "proposal_id": "17308",
+        "observation_id": "hst_17308_03_acs_wfc_f814w_jf5603",
+        "urls": [
+          "https://hla.stsci.edu/cgi-bin/fitscut.cgi?red=hst_17308_03_acs_wfc_f814w_jf5603&RA=3.932990045&Dec=-25.43832967889&size=616&format=fits&TextErrors=yes&ApplyOmega=false"
+        ],
+        "label": "HST F814W",
+        "bands": "F814W",
+        "output_wcs": {
+          "WCSAXES": 2,
+          "CRPIX1": 256.5,
+          "CRPIX2": 256.5,
+          "CDELT1": -1.0850694444444e-05,
+          "CDELT2": 1.0850694444444e-05,
+          "CUNIT1": "deg",
+          "CUNIT2": "deg",
+          "CTYPE1": "RA---TAN",
+          "CTYPE2": "DEC--TAN",
+          "CRVAL1": 3.932990045,
+          "CRVAL2": -25.43832967889,
+          "LONPOLE": 180.0,
+          "LATPOLE": -25.43832967889,
+          "MJDREF": 0.0,
+          "RADESYS": "ICRS"
+        },
+        "archive_fits_sha256": "e4772e440280f4ad25b4c6340cad049422e9ffe13c364e05353dbe07af8a29c4",
+        "rendering": "single-band grayscale; north up, east left"
+      },
+      "quality": {
+        "finite_fraction": 0.9997177124023438,
+        "centre_finite_fraction": 1.0,
+        "sky_median": 0.11733221046754869,
+        "sky_mad_sigma": 0.44076001586698216,
+        "centre_std": 19.091108040151486,
+        "centre_p999": 255.0,
+        "native_pixel_scale_arcsec": [
+          0.049999999999996804,
+          0.04999999999999968
+        ],
+        "central_wcs_error_arcsec": 0.0
+      },
+      "image": "images/refresh-20261102/surveys/id-345-HST.jpg",
+      "thumbnail": "images/refresh-20261102/preferred/id-345-thumb.jpg",
+      "sha256": "a18e60db4772465c494207c547694fbce47a1caec99e06034211d1cb65496d27",
+      "selection_reason": "First usable survey/archive in HST > JWST > Euclid > HSC > DES > Legacy Surveys > Pan-STARRS > SDSS order. Paper images are separate."
+    },
+    "347": {
+      "row_number": 347,
+      "catalog_id": 346,
+      "name": "DESJ0029-3814",
+      "ra": 7.41897179712,
+      "dec": -38.24054133139,
+      "checked_at": "2026-11-02T01:48:28.376237+00:00",
+      "status": "ok",
+      "source": "HST",
+      "source_label": "HST F475X/F814W/F160W",
+      "selection_mode": "space_multiband",
+      "fov_arcsec": 20,
+      "metadata": {
+        "label": "HST F475X/F814W/F160W",
+        "bands": "F475X/F814W/F160W",
+        "band_count": 3,
+        "band_details": [
+          {
+            "mission": "HST",
+            "band": "F475X",
+            "wavelength_nm": 513.9,
+            "uri": "mast:HST/product/hst_15652_06_wfc3_uvis_f475x_idxo06_drc.fits",
+            "dataset": "hst_15652_06_wfc3_uvis_f475x_idxo06",
+            "instrument": "WFC3/UVIS",
+            "exposure_s": 874.0,
+            "proposal_id": "15652",
+            "observation_id": "hst_15652_06_wfc3_uvis_f475x_idxo06",
+            "url": "https://hla.stsci.edu/cgi-bin/fitscut.cgi?red=hst_15652_06_wfc3_uvis_f475x_idxo06&RA=7.41897179712&Dec=-38.24054133139&size=766&format=fits&TextErrors=yes&ApplyOmega=false",
+            "fits_sha256": "ddaeb356690ddc230dde789b9d2812b7b63badb237856f4ab77ec6756167d749",
+            "quality": {
+              "sky_median": 0.027454419163093824,
+              "sky_mad_sigma": 0.006470782906443789,
+              "valid_fraction": 1.0,
+              "centre_valid_fraction": 1.0,
+              "central_p999_snr": 494.6313888937126,
+              "native_pixel_scale_arcsec": [
+                0.0396200008690344,
+                0.03962000086903548
+              ]
+            },
+            "registration": {
+              "shift_yx_pixels": [
+                0.0,
+                -0.5
+              ],
+              "shift_arcsec": 0.01953125,
+              "feature_correlation": 0.45972246199690514,
+              "feature_correlation_before": 0.4659476286373867,
+              "matched_peaks": 10,
+              "median_peak_residual_pixels": 0.5
+            }
+          },
+          {
+            "mission": "HST",
+            "band": "F814W",
+            "wavelength_nm": 831.85,
+            "uri": "mast:HST/product/hst_15652_06_wfc3_uvis_f814w_idxo06_drc.fits",
+            "dataset": "hst_15652_06_wfc3_uvis_f814w_idxo06",
+            "instrument": "WFC3/UVIS",
+            "exposure_s": 1428.0,
+            "proposal_id": "15652",
+            "observation_id": "hst_15652_06_wfc3_uvis_f814w_idxo06",
+            "urls": [
+              "https://hla.stsci.edu/cgi-bin/fitscut.cgi?red=hst_15652_06_wfc3_uvis_f814w_idxo06&RA=7.41897179712&Dec=-38.24054133139&size=766&format=fits&TextErrors=yes&ApplyOmega=false"
+            ],
+            "label": "HST F814W",
+            "bands": "F814W",
+            "output_wcs": {
+              "WCSAXES": 2,
+              "CRPIX1": 256.5,
+              "CRPIX2": 256.5,
+              "CDELT1": -1.0850694444444e-05,
+              "CDELT2": 1.0850694444444e-05,
+              "CUNIT1": "deg",
+              "CUNIT2": "deg",
+              "CTYPE1": "RA---TAN",
+              "CTYPE2": "DEC--TAN",
+              "CRVAL1": 7.41897179712,
+              "CRVAL2": -38.24054133139,
+              "LONPOLE": 180.0,
+              "LATPOLE": -38.24054133139,
+              "MJDREF": 0.0,
+              "RADESYS": "ICRS"
+            },
+            "archive_fits_sha256": "75fc4237ec9ec2d9f84074af8ef4c6e90499a421e3c71cc857fcbc30ab474d04",
+            "rendering": "single-band grayscale; north up, east left",
+            "url": "https://hla.stsci.edu/cgi-bin/fitscut.cgi?red=hst_15652_06_wfc3_uvis_f814w_idxo06&RA=7.41897179712&Dec=-38.24054133139&size=766&format=fits&TextErrors=yes&ApplyOmega=false",
+            "fits_sha256": "75fc4237ec9ec2d9f84074af8ef4c6e90499a421e3c71cc857fcbc30ab474d04",
+            "quality": {
+              "sky_median": 0.008475408909717883,
+              "sky_mad_sigma": 0.004288030241800776,
+              "valid_fraction": 1.0,
+              "centre_valid_fraction": 1.0,
+              "central_p999_snr": 344.9102660800944,
+              "native_pixel_scale_arcsec": [
+                0.0396200008690344,
+                0.03962000086903548
+              ]
+            }
+          },
+          {
+            "mission": "HST",
+            "band": "F160W",
+            "wavelength_nm": 1543.15,
+            "uri": "mast:HST/product/idxo06040_drz.fits",
+            "dataset": "idxo06040",
+            "instrument": "WFC3/IR",
+            "exposure_s": 1198.464356,
+            "proposal_id": "15652",
+            "observation_id": "idxo06040",
+            "url": "https://hla.stsci.edu/cgi-bin/fitscut.cgi?red=idxo06040&RA=7.41897179712&Dec=-38.24054133139&size=616&format=fits&TextErrors=yes&ApplyOmega=false",
+            "fits_sha256": "d9b6daa4b214340da62a668949845a0c0d652b0806c6b37463edeaa61b823fc9",
+            "quality": {
+              "sky_median": 0.5408703787423454,
+              "sky_mad_sigma": 0.020642208170745413,
+              "valid_fraction": 1.0,
+              "centre_valid_fraction": 1.0,
+              "central_p999_snr": 1007.8242752306405,
+              "native_pixel_scale_arcsec": [
+                0.12825000286102275,
+                0.12825000286102273
+              ]
+            },
+            "registration": {
+              "shift_yx_pixels": [
+                0.5,
+                0.8
+              ],
+              "shift_arcsec": 0.03685148879709611,
+              "feature_correlation": 0.42631630350045485,
+              "feature_correlation_before": 0.42339459575687455,
+              "matched_peaks": 11,
+              "median_peak_residual_pixels": 1.4142135623730951
+            }
+          }
+        ],
+        "urls": [
+          "https://hla.stsci.edu/cgi-bin/fitscut.cgi?red=hst_15652_06_wfc3_uvis_f475x_idxo06&RA=7.41897179712&Dec=-38.24054133139&size=766&format=fits&TextErrors=yes&ApplyOmega=false",
+          "https://hla.stsci.edu/cgi-bin/fitscut.cgi?red=hst_15652_06_wfc3_uvis_f814w_idxo06&RA=7.41897179712&Dec=-38.24054133139&size=766&format=fits&TextErrors=yes&ApplyOmega=false",
+          "https://hla.stsci.edu/cgi-bin/fitscut.cgi?red=idxo06040&RA=7.41897179712&Dec=-38.24054133139&size=616&format=fits&TextErrors=yes&ApplyOmega=false"
+        ],
+        "rgb_mapping": {
+          "red": "F160W",
+          "green": "F814W",
+          "blue": "F475X"
+        },
+        "output_wcs": {
+          "WCSAXES": 2,
+          "CRPIX1": 256.5,
+          "CRPIX2": 256.5,
+          "CDELT1": -1.0850694444444e-05,
+          "CDELT2": 1.0850694444444e-05,
+          "CUNIT1": "deg",
+          "CUNIT2": "deg",
+          "CTYPE1": "RA---TAN",
+          "CTYPE2": "DEC--TAN",
+          "CRVAL1": 7.41897179712,
+          "CRVAL2": -38.24054133139,
+          "LONPOLE": 180.0,
+          "LATPOLE": -38.24054133139,
+          "MJDREF": 0.0,
+          "RADESYS": "ICRS"
+        },
+        "rendering": "Wavelength-mapped colour; independent display balancing; shared asinh stretch; north up/east left. Not photometric colour.",
+        "resolution_matching": "Gaussian approximation from HST diffraction and native pixel sampling; not a measured PSF",
+        "display_resolution_fwhm_arcsec": 0.20578032387172066,
+        "display_note": ""
+      },
+      "quality": {
+        "finite_fraction": 1.0,
+        "centre_finite_fraction": 1.0,
+        "sky_median": 0.008473221298368801,
+        "sky_mad_sigma": 0.0043371467727320746,
+        "centre_std": 20.472307792526543,
+        "centre_p999": 255.0,
+        "native_pixel_scale_arcsec": [
+          0.0396200008690344,
+          0.03962000086903548
+        ],
+        "central_wcs_error_arcsec": 3.434999055980598e-11
+      },
+      "image": "images/refresh-20261102/surveys/id-346-HST.jpg",
+      "thumbnail": "images/refresh-20261102/preferred/id-346-thumb.jpg",
+      "sha256": "52abdf650376bc9d7e23a6f1f4733cfd49ac01e8d01fee933f3402a5d8b07826",
+      "selection_reason": "First usable survey/archive in HST > JWST > Euclid > HSC > DES > Legacy Surveys > Pan-STARRS > SDSS order. Paper images are separate."
+    },
+    "348": {
+      "row_number": 348,
+      "catalog_id": 347,
+      "name": "J0035.4-2015",
+      "ra": 8.8523185,
+      "dec": -20.2667358,
+      "checked_at": "2026-11-02T01:48:40.210910+00:00",
+      "status": "ok",
+      "source": "HST",
+      "source_label": "HST F435W/F606W/F814W",
+      "selection_mode": "space_multiband",
+      "fov_arcsec": 60,
+      "metadata": {
+        "label": "HST F435W/F606W/F814W",
+        "bands": "F435W/F606W/F814W",
+        "band_count": 3,
+        "band_details": [
+          {
+            "mission": "HST",
+            "band": "F435W",
+            "wavelength_nm": 425.0,
+            "uri": "mast:HST/product/jczgba010_drz.fits",
+            "dataset": "jczgba010",
+            "instrument": "ACS/WFC",
+            "exposure_s": 2263.0,
+            "proposal_id": "14096",
+            "observation_id": "jczgba010",
+            "url": "https://hla.stsci.edu/cgi-bin/fitscut.cgi?red=jczgba010&RA=8.854719800000002&Dec=-20.26188315&size=1816&format=fits&TextErrors=yes&ApplyOmega=false",
+            "fits_sha256": "5b4b5a6efa7fa583bf90d5c27bbc6d8c64d1b15d8f4a029e04094c55c9638c98",
+            "quality": {
+              "sky_median": 0.0002969081259414578,
+              "sky_mad_sigma": 0.004626993565729615,
+              "valid_fraction": 1.0,
+              "centre_valid_fraction": 1.0,
+              "central_p999_snr": 14.02288989729922,
+              "native_pixel_scale_arcsec": [
+                0.049999999999999774,
+                0.049999999999999836
+              ]
+            },
+            "registration": {
+              "shift_yx_pixels": [
+                -0.1,
+                -0.7
+              ],
+              "shift_arcsec": 0.08286407592029853,
+              "feature_correlation": 0.6708835082440525,
+              "feature_correlation_before": 0.6498634871948142,
+              "matched_peaks": 38,
+              "median_peak_residual_pixels": 0.0
+            }
+          },
+          {
+            "mission": "HST",
+            "band": "F606W",
+            "wavelength_nm": 595.0,
+            "uri": "mast:HST/product/hst_10491_09_acs_wfc_f606w_j9fc09_drc.fits",
+            "dataset": "hst_10491_09_acs_wfc_f606w_j9fc09",
+            "instrument": "ACS/WFC",
+            "exposure_s": 1200.0,
+            "proposal_id": "10491",
+            "observation_id": "hst_10491_09_acs_wfc_f606w_j9fc09",
+            "url": "https://hla.stsci.edu/cgi-bin/fitscut.cgi?red=hst_10491_09_acs_wfc_f606w_j9fc09&RA=8.8523185&Dec=-20.2667358&size=3616&format=fits&TextErrors=yes&ApplyOmega=false",
+            "fits_sha256": "b1a14c91429848bc4136ca140283531b491a079642bc78482c7918f266e4902e",
+            "quality": {
+              "sky_median": 0.09972356186537976,
+              "sky_mad_sigma": 0.007651810935571555,
+              "valid_fraction": 1.0,
+              "centre_valid_fraction": 1.0,
+              "central_p999_snr": 100.7438578332687,
+              "native_pixel_scale_arcsec": [
+                0.049999999999996804,
+                0.04999999999999968
+              ]
+            },
+            "registration": {
+              "shift_yx_pixels": [
+                0.4,
+                -0.2
+              ],
+              "shift_arcsec": 0.052407843222651324,
+              "feature_correlation": 0.9364106925755921,
+              "feature_correlation_before": 0.9394913294662239,
+              "matched_peaks": 54,
+              "median_peak_residual_pixels": 0.0
+            }
+          },
+          {
+            "mission": "HST",
+            "band": "F814W",
+            "wavelength_nm": 833.5,
+            "uri": "mast:HST/product/hst_12884_62_acs_wfc_f814w_jc3962_drc.fits",
+            "dataset": "hst_12884_62_acs_wfc_f814w_jc3962",
+            "instrument": "ACS/WFC",
+            "exposure_s": 1440.0,
+            "proposal_id": "12884",
+            "observation_id": "hst_12884_62_acs_wfc_f814w_jc3962",
+            "urls": [
+              "https://hla.stsci.edu/cgi-bin/fitscut.cgi?red=hst_12884_62_acs_wfc_f814w_jc3962&RA=8.8523185&Dec=-20.2667358&size=3616&format=fits&TextErrors=yes&ApplyOmega=false"
+            ],
+            "label": "HST F814W",
+            "bands": "F814W",
+            "output_wcs": {
+              "WCSAXES": 2,
+              "CRPIX1": 256.5,
+              "CRPIX2": 256.5,
+              "CDELT1": -3.2552083333333e-05,
+              "CDELT2": 3.2552083333333e-05,
+              "CUNIT1": "deg",
+              "CUNIT2": "deg",
+              "CTYPE1": "RA---TAN",
+              "CTYPE2": "DEC--TAN",
+              "CRVAL1": 8.8547198,
+              "CRVAL2": -20.26188315,
+              "LONPOLE": 180.0,
+              "LATPOLE": -20.26188315,
+              "MJDREF": 0.0,
+              "RADESYS": "ICRS"
+            },
+            "archive_fits_sha256": "88888c3297676774a0720e4ddcdfeda3a031250c8f5eb257455ef48f650dff60",
+            "rendering": "single-band grayscale; north up, east left",
+            "cutout_center_ra": 8.854719800000002,
+            "cutout_center_dec": -20.26188315,
+            "url": "https://hla.stsci.edu/cgi-bin/fitscut.cgi?red=hst_12884_62_acs_wfc_f814w_jc3962&RA=8.8523185&Dec=-20.2667358&size=3616&format=fits&TextErrors=yes&ApplyOmega=false",
+            "fits_sha256": "88888c3297676774a0720e4ddcdfeda3a031250c8f5eb257455ef48f650dff60",
+            "quality": {
+              "sky_median": 0.10806224646346922,
+              "sky_mad_sigma": 0.007810145924918157,
+              "valid_fraction": 1.0,
+              "centre_valid_fraction": 1.0,
+              "central_p999_snr": 86.28090478793419,
+              "native_pixel_scale_arcsec": [
+                0.049999999999996804,
+                0.04999999999999968
+              ]
+            }
+          }
+        ],
+        "urls": [
+          "https://hla.stsci.edu/cgi-bin/fitscut.cgi?red=jczgba010&RA=8.854719800000002&Dec=-20.26188315&size=1816&format=fits&TextErrors=yes&ApplyOmega=false",
+          "https://hla.stsci.edu/cgi-bin/fitscut.cgi?red=hst_10491_09_acs_wfc_f606w_j9fc09&RA=8.8523185&Dec=-20.2667358&size=3616&format=fits&TextErrors=yes&ApplyOmega=false",
+          "https://hla.stsci.edu/cgi-bin/fitscut.cgi?red=hst_12884_62_acs_wfc_f814w_jc3962&RA=8.8523185&Dec=-20.2667358&size=3616&format=fits&TextErrors=yes&ApplyOmega=false"
+        ],
+        "rgb_mapping": {
+          "red": "F814W",
+          "green": "F606W",
+          "blue": "F435W"
+        },
+        "output_wcs": {
+          "WCSAXES": 2,
+          "CRPIX1": 256.5,
+          "CRPIX2": 256.5,
+          "CDELT1": -3.2552083333333e-05,
+          "CDELT2": 3.2552083333333e-05,
+          "CUNIT1": "deg",
+          "CUNIT2": "deg",
+          "CTYPE1": "RA---TAN",
+          "CTYPE2": "DEC--TAN",
+          "CRVAL1": 8.8547198,
+          "CRVAL2": -20.26188315,
+          "LONPOLE": 180.0,
+          "LATPOLE": -20.26188315,
+          "MJDREF": 0.0,
+          "RADESYS": "ICRS"
+        },
+        "rendering": "Wavelength-mapped colour; independent display balancing; shared asinh stretch; north up/east left. Not photometric colour.",
+        "resolution_matching": "Gaussian approximation from HST diffraction and native pixel sampling; not a measured PSF",
+        "display_resolution_fwhm_arcsec": 0.09509969303066973,
+        "display_note": "View centred on the bounding-box midpoint of the multiple quasar images from Furtak et al. 2023 Table 1, arXiv:2303.00025v4. All listed images are within the field. Catalogue coordinates unchanged. Display field reduced to 60 arcsec to exclude mosaic edges and peripheral detector/trail artifacts."
+      },
+      "quality": {
+        "finite_fraction": 1.0,
+        "centre_finite_fraction": 1.0,
+        "sky_median": 0.10865374354320995,
+        "sky_mad_sigma": 0.00830882971380509,
+        "centre_std": 15.445752431246161,
+        "centre_p999": 188.23400000000402,
+        "native_pixel_scale_arcsec": [
+          0.049999999999996804,
+          0.04999999999999968
+        ],
+        "central_wcs_error_arcsec": 2.289999370653732e-11
+      },
+      "image": "images/refresh-20261102/surveys/id-347-HST.jpg",
+      "thumbnail": "images/refresh-20261102/preferred/id-347-thumb.jpg",
+      "sha256": "ab94840bb282732e47d384ad9666704ee56490329c82cc65cf4ef55ebf89f7e9",
+      "selection_reason": "First usable survey/archive in HST > JWST > Euclid > HSC > DES > Legacy Surveys > Pan-STARRS > SDSS order. Paper images are separate."
+    },
+    "349": {
+      "row_number": 349,
+      "catalog_id": 348,
+      "name": "PSJ0140+4107",
+      "ra": 25.2042014265,
+      "dec": 41.1333204821,
+      "checked_at": "2026-11-02T01:49:02.038473+00:00",
+      "status": "ok",
+      "source": "HST",
+      "source_label": "HST F814W",
+      "selection_mode": "space_single_band",
+      "fov_arcsec": 20,
+      "metadata": {
+        "mission": "HST",
+        "band": "F814W",
+        "wavelength_nm": 833.5,
+        "uri": "mast:HST/product/hst_17308_27_acs_wfc_f814w_jf5627_drc.fits",
+        "dataset": "hst_17308_27_acs_wfc_f814w_jf5627",
+        "instrument": "ACS/WFC",
+        "exposure_s": 674.0,
+        "proposal_id": "17308",
+        "observation_id": "hst_17308_27_acs_wfc_f814w_jf5627",
+        "urls": [
+          "https://hla.stsci.edu/cgi-bin/fitscut.cgi?red=hst_17308_27_acs_wfc_f814w_jf5627&RA=25.2042014265&Dec=41.1333204821&size=616&format=fits&TextErrors=yes&ApplyOmega=false"
+        ],
+        "label": "HST F814W",
+        "bands": "F814W",
+        "output_wcs": {
+          "WCSAXES": 2,
+          "CRPIX1": 256.5,
+          "CRPIX2": 256.5,
+          "CDELT1": -1.0850694444444e-05,
+          "CDELT2": 1.0850694444444e-05,
+          "CUNIT1": "deg",
+          "CUNIT2": "deg",
+          "CTYPE1": "RA---TAN",
+          "CTYPE2": "DEC--TAN",
+          "CRVAL1": 25.2042014265,
+          "CRVAL2": 41.1333204821,
+          "LONPOLE": 180.0,
+          "LATPOLE": 41.1333204821,
+          "MJDREF": 0.0,
+          "RADESYS": "ICRS"
+        },
+        "archive_fits_sha256": "28c6d4fb49e39867ea911a40923d38d6d58a8ce3e329fba45c955dc02db11bf0",
+        "rendering": "single-band grayscale; north up, east left"
+      },
+      "quality": {
+        "finite_fraction": 1.0,
+        "centre_finite_fraction": 1.0,
+        "sky_median": 0.058592517309778755,
+        "sky_mad_sigma": 0.01121239208627866,
+        "centre_std": 38.718478396412145,
+        "centre_p999": 255.0,
+        "native_pixel_scale_arcsec": [
+          0.049999999999996804,
+          0.04999999999999968
+        ],
+        "central_wcs_error_arcsec": 0.0
+      },
+      "image": "images/refresh-20261102/surveys/id-348-HST.jpg",
+      "thumbnail": "images/refresh-20261102/preferred/id-348-thumb.jpg",
+      "sha256": "e51ee67dbb6815d8b50a145dc2aed68ac61100430630f53ea272b40d06ae1472",
+      "selection_reason": "First usable survey/archive in HST > JWST > Euclid > HSC > DES > Legacy Surveys > Pan-STARRS > SDSS order. Paper images are separate."
+    },
+    "350": {
+      "row_number": 350,
+      "catalog_id": 349,
+      "name": "COOLJ0335-1927",
+      "ra": 53.764431,
+      "dec": -19.466858,
+      "checked_at": "2026-11-02T01:49:08.296154+00:00",
+      "status": "ok",
+      "source": "HST",
+      "source_label": "HST F435W/F475W/F625W",
+      "selection_mode": "space_multiband",
+      "fov_arcsec": 45,
+      "metadata": {
+        "label": "HST F435W/F475W/F625W",
+        "bands": "F435W/F475W/F625W",
+        "band_count": 3,
+        "band_details": [
+          {
+            "mission": "HST",
+            "band": "F435W",
+            "wavelength_nm": 425.0,
+            "uri": "mast:HST/product/hst_17726_05_acs_wfc_f435w_jffb05_drc.fits",
+            "dataset": "hst_17726_05_acs_wfc_f435w_jffb05",
+            "instrument": "ACS/WFC",
+            "exposure_s": 1916.0,
+            "proposal_id": "17726",
+            "observation_id": "hst_17726_05_acs_wfc_f435w_jffb05",
+            "url": "https://hla.stsci.edu/cgi-bin/fitscut.cgi?red=hst_17726_05_acs_wfc_f435w_jffb05&RA=53.767161&Dec=-19.4649085&size=1366&format=fits&TextErrors=yes&ApplyOmega=false",
+            "fits_sha256": "2d3db9e705cd0379a7fbd5a5c150a04179fd6fd522e68333205f8fd5879fd4c1",
+            "quality": {
+              "sky_median": 0.01578266686536786,
+              "sky_mad_sigma": 0.006111941752024632,
+              "valid_fraction": 1.0,
+              "centre_valid_fraction": 1.0,
+              "central_p999_snr": 13.305373699563912,
+              "native_pixel_scale_arcsec": [
+                0.049999999999996804,
+                0.04999999999999968
+              ]
+            },
+            "registration": {
+              "shift_yx_pixels": [
+                1.1,
+                0.0
+              ],
+              "shift_arcsec": 0.09667968750000001,
+              "feature_correlation": 0.6464149943877432,
+              "feature_correlation_before": 0.6199236991696693,
+              "matched_peaks": 36,
+              "median_peak_residual_pixels": 0.0
+            }
+          },
+          {
+            "mission": "HST",
+            "band": "F475W",
+            "wavelength_nm": 470.0,
+            "uri": "mast:HST/product/hst_17726_05_acs_wfc_f475w_jffb05_drc.fits",
+            "dataset": "hst_17726_05_acs_wfc_f475w_jffb05",
+            "instrument": "ACS/WFC",
+            "exposure_s": 1976.0,
+            "proposal_id": "17726",
+            "observation_id": "hst_17726_05_acs_wfc_f475w_jffb05",
+            "url": "https://hla.stsci.edu/cgi-bin/fitscut.cgi?red=hst_17726_05_acs_wfc_f475w_jffb05&RA=53.764431&Dec=-19.466858&size=2116&format=fits&TextErrors=yes&ApplyOmega=false",
+            "fits_sha256": "29c5b4f2aca30e4aa6611e07aa0809604f2040387ddaed4c50d9c105599e5066",
+            "quality": {
+              "sky_median": 0.03134396381900774,
+              "sky_mad_sigma": 0.005826703770096439,
+              "valid_fraction": 1.0,
+              "centre_valid_fraction": 1.0,
+              "central_p999_snr": 36.6338766386821,
+              "native_pixel_scale_arcsec": [
+                0.049999999999996804,
+                0.04999999999999968
+              ]
+            },
+            "registration": {
+              "shift_yx_pixels": [
+                0.2,
+                0.2
+              ],
+              "shift_arcsec": 0.024859222776089564,
+              "feature_correlation": 0.8518643613970683,
+              "feature_correlation_before": 0.8426419365029337,
+              "matched_peaks": 39,
+              "median_peak_residual_pixels": 0.0
+            }
+          },
+          {
+            "mission": "HST",
+            "band": "F625W",
+            "wavelength_nm": 625.0,
+            "uri": "mast:HST/product/hst_17726_06_acs_wfc_f625w_jffb06_drc.fits",
+            "dataset": "hst_17726_06_acs_wfc_f625w_jffb06",
+            "instrument": "ACS/WFC",
+            "exposure_s": 3936.0,
+            "proposal_id": "17726",
+            "observation_id": "hst_17726_06_acs_wfc_f625w_jffb06",
+            "urls": [
+              "https://hla.stsci.edu/cgi-bin/fitscut.cgi?red=hst_17726_06_acs_wfc_f625w_jffb06&RA=53.764431&Dec=-19.466858&size=2116&format=fits&TextErrors=yes&ApplyOmega=false"
+            ],
+            "label": "HST F625W",
+            "bands": "F625W",
+            "output_wcs": {
+              "WCSAXES": 2,
+              "CRPIX1": 256.5,
+              "CRPIX2": 256.5,
+              "CDELT1": -2.44140625e-05,
+              "CDELT2": 2.44140625e-05,
+              "CUNIT1": "deg",
+              "CUNIT2": "deg",
+              "CTYPE1": "RA---TAN",
+              "CTYPE2": "DEC--TAN",
+              "CRVAL1": 53.767161,
+              "CRVAL2": -19.4649085,
+              "LONPOLE": 180.0,
+              "LATPOLE": -19.4649085,
+              "MJDREF": 0.0,
+              "RADESYS": "ICRS"
+            },
+            "archive_fits_sha256": "5ff4481f090c93b0c67c8b5dc8376362f02d6c3d11c1a49d1d3ec8696b4569a4",
+            "rendering": "single-band grayscale; north up, east left",
+            "cutout_center_ra": 53.767161,
+            "cutout_center_dec": -19.4649085,
+            "url": "https://hla.stsci.edu/cgi-bin/fitscut.cgi?red=hst_17726_06_acs_wfc_f625w_jffb06&RA=53.764431&Dec=-19.466858&size=2116&format=fits&TextErrors=yes&ApplyOmega=false",
+            "fits_sha256": "5ff4481f090c93b0c67c8b5dc8376362f02d6c3d11c1a49d1d3ec8696b4569a4",
+            "quality": {
+              "sky_median": 0.04901203675712351,
+              "sky_mad_sigma": 0.005231845916524434,
+              "valid_fraction": 1.0,
+              "centre_valid_fraction": 1.0,
+              "central_p999_snr": 169.81216233990185,
+              "native_pixel_scale_arcsec": [
+                0.049999999999996804,
+                0.04999999999999968
+              ]
+            }
+          }
+        ],
+        "urls": [
+          "https://hla.stsci.edu/cgi-bin/fitscut.cgi?red=hst_17726_05_acs_wfc_f435w_jffb05&RA=53.767161&Dec=-19.4649085&size=1366&format=fits&TextErrors=yes&ApplyOmega=false",
+          "https://hla.stsci.edu/cgi-bin/fitscut.cgi?red=hst_17726_05_acs_wfc_f475w_jffb05&RA=53.764431&Dec=-19.466858&size=2116&format=fits&TextErrors=yes&ApplyOmega=false",
+          "https://hla.stsci.edu/cgi-bin/fitscut.cgi?red=hst_17726_06_acs_wfc_f625w_jffb06&RA=53.764431&Dec=-19.466858&size=2116&format=fits&TextErrors=yes&ApplyOmega=false"
+        ],
+        "rgb_mapping": {
+          "red": "F625W",
+          "green": "F475W",
+          "blue": "F435W"
+        },
+        "output_wcs": {
+          "WCSAXES": 2,
+          "CRPIX1": 256.5,
+          "CRPIX2": 256.5,
+          "CDELT1": -2.44140625e-05,
+          "CDELT2": 2.44140625e-05,
+          "CUNIT1": "deg",
+          "CUNIT2": "deg",
+          "CTYPE1": "RA---TAN",
+          "CTYPE2": "DEC--TAN",
+          "CRVAL1": 53.767161,
+          "CRVAL2": -19.4649085,
+          "LONPOLE": 180.0,
+          "LATPOLE": -19.4649085,
+          "MJDREF": 0.0,
+          "RADESYS": "ICRS"
+        },
+        "rendering": "Wavelength-mapped colour; independent display balancing; shared asinh stretch; north up/east left. Not photometric colour.",
+        "resolution_matching": "Gaussian approximation from HST diffraction and native pixel sampling; not a measured PSF",
+        "display_resolution_fwhm_arcsec": 0.08161493895989423,
+        "display_note": "View centred on the bounding-box midpoint of the multiple quasar images from Napier et al. 2023 Table 2, arXiv:2305.14317v2. All listed images are within the field. Catalogue coordinates unchanged. Display field reduced to 45 arcsec to exclude mosaic edges and peripheral detector/trail artifacts."
+      },
+      "quality": {
+        "finite_fraction": 1.0,
+        "centre_finite_fraction": 1.0,
+        "sky_median": 0.04952772052388114,
+        "sky_mad_sigma": 0.005566075775510274,
+        "centre_std": 18.932527675801737,
+        "centre_p999": 225.31900000001406,
+        "native_pixel_scale_arcsec": [
+          0.049999999999996804,
+          0.04999999999999968
+        ],
+        "central_wcs_error_arcsec": 2.289999370653732e-11
+      },
+      "image": "images/refresh-20261102/surveys/id-349-HST.jpg",
+      "thumbnail": "images/refresh-20261102/preferred/id-349-thumb.jpg",
+      "sha256": "7cf4af090169cd1b321a6615dfc57d77a46d559951e69286fe317baf7017f07d",
+      "selection_reason": "First usable survey/archive in HST > JWST > Euclid > HSC > DES > Legacy Surveys > Pan-STARRS > SDSS order. Paper images are separate."
+    },
+    "351": {
+      "row_number": 351,
+      "catalog_id": 350,
+      "name": "DESJ0402-4220",
+      "ra": 60.59187286875,
+      "dec": -42.3482261025,
+      "checked_at": "2026-11-02T01:49:34.149134+00:00",
+      "status": "ok",
+      "source": "DES",
+      "source_label": "DES DR2",
+      "selection_mode": "survey_rgb",
+      "fov_arcsec": 20,
+      "metadata": {
+        "label": "DES DR2",
+        "release": "DR2",
+        "bands": "GRI",
+        "urls": [
+          "https://datalab.noirlab.edu/sia/des_dr2?POS=60.59187286875%2C-42.3482261025&SIZE=0.005555555555555556&FORMAT=image%2Ffits",
+          "https://datalab.noirlab.edu/svc/cutout?col=des_dr2&siaRef=DES0401-4206_r5137p01_g.fits.fz&extn=1&POS=60.59187286875,-42.3482261025&SIZE=0.005555555555555556,0.005555555555555556",
+          "https://datalab.noirlab.edu/svc/cutout?col=des_dr2&siaRef=DES0401-4206_r5137p01_r.fits.fz&extn=1&POS=60.59187286875,-42.3482261025&SIZE=0.005555555555555556,0.005555555555555556",
+          "https://datalab.noirlab.edu/svc/cutout?col=des_dr2&siaRef=DES0401-4206_r5137p01_i.fits.fz&extn=1&POS=60.59187286875,-42.3482261025&SIZE=0.005555555555555556,0.005555555555555556"
+        ],
+        "rendering": "WCS alignment + shared-intensity asinh; north up, east left"
+      },
+      "quality": {
+        "valid_fraction": 0.9726142883300781,
+        "centre_valid_fraction": 1.0,
+        "std": 29.323257712831282,
+        "centre_std": 77.28084679177158,
+        "centre_range": 249.0
+      },
+      "image": "images/refresh-20261102/surveys/id-350-DES.jpg",
+      "thumbnail": "images/refresh-20261102/preferred/id-350-thumb.jpg",
+      "sha256": "0da066e7d21c1230fb3a0f78ddd7fc199ace2de431e9bf775dbe4a931ce42f17",
+      "selection_reason": "First usable survey/archive in HST > JWST > Euclid > HSC > DES > Legacy Surveys > Pan-STARRS > SDSS order. Paper images are separate."
+    },
+    "352": {
+      "row_number": 352,
+      "catalog_id": 351,
+      "name": "J0420-4037",
+      "ra": 65.19465865882,
+      "dec": -40.62423840119,
+      "checked_at": "2026-11-02T01:49:46.171682+00:00",
+      "status": "ok",
+      "source": "HST",
+      "source_label": "HST F475X/F814W/F160W",
+      "selection_mode": "space_multiband",
+      "fov_arcsec": 20,
+      "metadata": {
+        "label": "HST F475X/F814W/F160W",
+        "bands": "F475X/F814W/F160W",
+        "band_count": 3,
+        "band_details": [
+          {
+            "mission": "HST",
+            "band": "F475X",
+            "wavelength_nm": 513.9,
+            "uri": "mast:HST/product/hst_15320_04_wfc3_uvis_f475x_idgc04_drc.fits",
+            "dataset": "hst_15320_04_wfc3_uvis_f475x_idgc04",
+            "instrument": "WFC3/UVIS",
+            "exposure_s": 1158.0,
+            "proposal_id": "15320",
+            "observation_id": "hst_15320_04_wfc3_uvis_f475x_idgc04",
+            "url": "https://hla.stsci.edu/cgi-bin/fitscut.cgi?red=hst_15320_04_wfc3_uvis_f475x_idgc04&RA=65.19465865882&Dec=-40.62423840119&size=766&format=fits&TextErrors=yes&ApplyOmega=false",
+            "fits_sha256": "b1b0a87263413422f03e5aa0ff197c54a60f9b4a2ece7eda2497d5c8013f5e06",
+            "quality": {
+              "sky_median": 0.019085735590675536,
+              "sky_mad_sigma": 0.00517055185913924,
+              "valid_fraction": 1.0,
+              "centre_valid_fraction": 1.0,
+              "central_p999_snr": 1581.3964791909284,
+              "native_pixel_scale_arcsec": [
+                0.0396200008690344,
+                0.03962000086903548
+              ]
+            },
+            "registration": {
+              "shift_yx_pixels": [
+                -3.5,
+                -2.0
+              ],
+              "shift_arcsec": 0.15746597164645604,
+              "feature_correlation": 0.43777217506724936,
+              "feature_correlation_before": 0.3049061550511928,
+              "matched_peaks": 12,
+              "median_peak_residual_pixels": 1.0
+            }
+          },
+          {
+            "mission": "HST",
+            "band": "F814W",
+            "wavelength_nm": 831.85,
+            "uri": "mast:HST/product/hst_15320_04_wfc3_uvis_f814w_idgc04_drc.fits",
+            "dataset": "hst_15320_04_wfc3_uvis_f814w_idgc04",
+            "instrument": "WFC3/UVIS",
+            "exposure_s": 1428.0,
+            "proposal_id": "15320",
+            "observation_id": "hst_15320_04_wfc3_uvis_f814w_idgc04",
+            "urls": [
+              "https://hla.stsci.edu/cgi-bin/fitscut.cgi?red=hst_15320_04_wfc3_uvis_f814w_idgc04&RA=65.19465865882&Dec=-40.62423840119&size=766&format=fits&TextErrors=yes&ApplyOmega=false"
+            ],
+            "label": "HST F814W",
+            "bands": "F814W",
+            "output_wcs": {
+              "WCSAXES": 2,
+              "CRPIX1": 256.5,
+              "CRPIX2": 256.5,
+              "CDELT1": -1.0850694444444e-05,
+              "CDELT2": 1.0850694444444e-05,
+              "CUNIT1": "deg",
+              "CUNIT2": "deg",
+              "CTYPE1": "RA---TAN",
+              "CTYPE2": "DEC--TAN",
+              "CRVAL1": 65.19465865882,
+              "CRVAL2": -40.62423840119,
+              "LONPOLE": 180.0,
+              "LATPOLE": -40.62423840119,
+              "MJDREF": 0.0,
+              "RADESYS": "ICRS"
+            },
+            "archive_fits_sha256": "f3e62b0ec357d7ba668abdf15e5edb28a495005d150751b81fa48ad32da18b3d",
+            "rendering": "single-band grayscale; north up, east left",
+            "url": "https://hla.stsci.edu/cgi-bin/fitscut.cgi?red=hst_15320_04_wfc3_uvis_f814w_idgc04&RA=65.19465865882&Dec=-40.62423840119&size=766&format=fits&TextErrors=yes&ApplyOmega=false",
+            "fits_sha256": "f3e62b0ec357d7ba668abdf15e5edb28a495005d150751b81fa48ad32da18b3d",
+            "quality": {
+              "sky_median": 0.009589044286682469,
+              "sky_mad_sigma": 0.003986440915047403,
+              "valid_fraction": 1.0,
+              "centre_valid_fraction": 1.0,
+              "central_p999_snr": 857.883483132334,
+              "native_pixel_scale_arcsec": [
+                0.0396200008690344,
+                0.03962000086903548
+              ]
+            }
+          },
+          {
+            "mission": "HST",
+            "band": "F160W",
+            "wavelength_nm": 1543.15,
+            "uri": "mast:HST/product/idgc04040_drz.fits",
+            "dataset": "idgc04040",
+            "instrument": "WFC3/IR",
+            "exposure_s": 1200.0,
+            "proposal_id": "15320",
+            "observation_id": "idgc04040",
+            "url": "https://hla.stsci.edu/cgi-bin/fitscut.cgi?red=idgc04040&RA=65.19465865882&Dec=-40.62423840119&size=616&format=fits&TextErrors=yes&ApplyOmega=false",
+            "fits_sha256": "cee8b4eeb1a0205905345cb9fb66af2eefe98c635f3afdd9f2a16c467036fd63",
+            "quality": {
+              "sky_median": 0.4258405598991646,
+              "sky_mad_sigma": 0.02228901702594582,
+              "valid_fraction": 1.0,
+              "centre_valid_fraction": 1.0,
+              "central_p999_snr": 1644.1339394895042,
+              "native_pixel_scale_arcsec": [
+                0.1282500028610228,
+                0.12825000286102167
+              ]
+            },
+            "registration": {
+              "shift_yx_pixels": [
+                -0.7,
+                -0.3
+              ],
+              "shift_arcsec": 0.02974911369478089,
+              "feature_correlation": 0.3483468659365232,
+              "feature_correlation_before": 0.34566752715738075,
+              "matched_peaks": 15,
+              "median_peak_residual_pixels": 1.4142135623730951
+            }
+          }
+        ],
+        "urls": [
+          "https://hla.stsci.edu/cgi-bin/fitscut.cgi?red=hst_15320_04_wfc3_uvis_f475x_idgc04&RA=65.19465865882&Dec=-40.62423840119&size=766&format=fits&TextErrors=yes&ApplyOmega=false",
+          "https://hla.stsci.edu/cgi-bin/fitscut.cgi?red=hst_15320_04_wfc3_uvis_f814w_idgc04&RA=65.19465865882&Dec=-40.62423840119&size=766&format=fits&TextErrors=yes&ApplyOmega=false",
+          "https://hla.stsci.edu/cgi-bin/fitscut.cgi?red=idgc04040&RA=65.19465865882&Dec=-40.62423840119&size=616&format=fits&TextErrors=yes&ApplyOmega=false"
+        ],
+        "rgb_mapping": {
+          "red": "F160W",
+          "green": "F814W",
+          "blue": "F475X"
+        },
+        "output_wcs": {
+          "WCSAXES": 2,
+          "CRPIX1": 256.5,
+          "CRPIX2": 256.5,
+          "CDELT1": -1.0850694444444e-05,
+          "CDELT2": 1.0850694444444e-05,
+          "CUNIT1": "deg",
+          "CUNIT2": "deg",
+          "CTYPE1": "RA---TAN",
+          "CTYPE2": "DEC--TAN",
+          "CRVAL1": 65.19465865882,
+          "CRVAL2": -40.62423840119,
+          "LONPOLE": 180.0,
+          "LATPOLE": -40.62423840119,
+          "MJDREF": 0.0,
+          "RADESYS": "ICRS"
+        },
+        "rendering": "Wavelength-mapped colour; independent display balancing; shared asinh stretch; north up/east left. Not photometric colour.",
+        "resolution_matching": "Gaussian approximation from HST diffraction and native pixel sampling; not a measured PSF",
+        "display_resolution_fwhm_arcsec": 0.2057803238717207,
+        "display_note": ""
+      },
+      "quality": {
+        "finite_fraction": 1.0,
+        "centre_finite_fraction": 1.0,
+        "sky_median": 0.00953424076086113,
+        "sky_mad_sigma": 0.004031958264776728,
+        "centre_std": 33.79053437125256,
+        "centre_p999": 255.0,
+        "native_pixel_scale_arcsec": [
+          0.0396200008690344,
+          0.03962000086903548
+        ],
+        "central_wcs_error_arcsec": 4.579998741307464e-11
+      },
+      "image": "images/refresh-20261102/surveys/id-351-HST.jpg",
+      "thumbnail": "images/refresh-20261102/preferred/id-351-thumb.jpg",
+      "sha256": "5c2dc98f40bad6029494118d6c509e0505069f6c96917f05ad3c557128c10e9f",
+      "selection_reason": "First usable survey/archive in HST > JWST > Euclid > HSC > DES > Legacy Surveys > Pan-STARRS > SDSS order. Paper images are separate."
+    },
+    "353": {
+      "row_number": 353,
+      "catalog_id": 352,
+      "name": "MG0751+2716",
+      "ra": 117.922875,
+      "dec": 27.27544444444,
+      "checked_at": "2026-11-02T01:50:07.995378+00:00",
+      "status": "ok",
+      "source": "HST",
+      "source_label": "HST F555W/F814W",
+      "selection_mode": "space_multiband",
+      "fov_arcsec": 20,
+      "metadata": {
+        "label": "HST F555W/F814W",
+        "bands": "F555W/F814W",
+        "band_count": 2,
+        "band_details": [
+          {
+            "mission": "HST",
+            "band": "F555W",
+            "wavelength_nm": 533.6800000000001,
+            "uri": "mast:HST/product/hst_7495_29_wfpc2_pc_f555w_u46r29_drz.fits",
+            "dataset": "hst_7495_29_wfpc2_pc_f555w_u46r29",
+            "instrument": "WFPC2/PC",
+            "exposure_s": 1600.0,
+            "proposal_id": "7495",
+            "observation_id": "hst_7495_29_wfpc2_pc_f555w_u46r29",
+            "url": "https://hla.stsci.edu/cgi-bin/fitscut.cgi?red=hst_7495_29_wfpc2_pc_f555w_u46r29&RA=117.922875&Dec=27.27544444444&size=616&format=fits&TextErrors=yes&ApplyOmega=false",
+            "fits_sha256": "02c256f8d1df5976f22a6134c8a5f6cebad2eedb67e6e76880df0ddcfb3aa145",
+            "quality": {
+              "sky_median": 0.00017557552521755746,
+              "sky_mad_sigma": 0.0006346639225011927,
+              "valid_fraction": 1.0,
+              "centre_valid_fraction": 1.0,
+              "central_p999_snr": 8.66633014145605,
+              "native_pixel_scale_arcsec": [
+                0.0455319999999972,
+                0.04553199999999972
+              ]
+            },
+            "registration": {
+              "shift_yx_pixels": [
+                0.1,
+                -0.1
+              ],
+              "shift_arcsec": 0.005524271728019904,
+              "feature_correlation": 0.3080000218667805,
+              "feature_correlation_before": 0.3083345435888435,
+              "matched_peaks": 10,
+              "median_peak_residual_pixels": 1.0
+            }
+          },
+          {
+            "mission": "HST",
+            "band": "F814W",
+            "wavelength_nm": 790.48,
+            "uri": "mast:HST/product/hst_8268_07_wfpc2_pc_f814w_u5bo07_drz.fits",
+            "dataset": "hst_8268_07_wfpc2_pc_f814w_u5bo07",
+            "instrument": "WFPC2/PC",
+            "exposure_s": 5200.0,
+            "proposal_id": "8268",
+            "observation_id": "hst_8268_07_wfpc2_pc_f814w_u5bo07",
+            "urls": [
+              "https://hla.stsci.edu/cgi-bin/fitscut.cgi?red=hst_8268_07_wfpc2_pc_f814w_u5bo07&RA=117.922875&Dec=27.27544444444&size=616&format=fits&TextErrors=yes&ApplyOmega=false"
+            ],
+            "label": "HST F814W",
+            "bands": "F814W",
+            "output_wcs": {
+              "WCSAXES": 2,
+              "CRPIX1": 256.5,
+              "CRPIX2": 256.5,
+              "CDELT1": -1.0850694444444e-05,
+              "CDELT2": 1.0850694444444e-05,
+              "CUNIT1": "deg",
+              "CUNIT2": "deg",
+              "CTYPE1": "RA---TAN",
+              "CTYPE2": "DEC--TAN",
+              "CRVAL1": 117.922875,
+              "CRVAL2": 27.27544444444,
+              "LONPOLE": 180.0,
+              "LATPOLE": 27.27544444444,
+              "MJDREF": 0.0,
+              "RADESYS": "ICRS"
+            },
+            "archive_fits_sha256": "3416ae370b3a342d61c076cfc56536c80ee4bad14973799e282eca5faaba4972",
+            "rendering": "single-band grayscale; north up, east left",
+            "url": "https://hla.stsci.edu/cgi-bin/fitscut.cgi?red=hst_8268_07_wfpc2_pc_f814w_u5bo07&RA=117.922875&Dec=27.27544444444&size=616&format=fits&TextErrors=yes&ApplyOmega=false",
+            "fits_sha256": "3416ae370b3a342d61c076cfc56536c80ee4bad14973799e282eca5faaba4972",
+            "quality": {
+              "sky_median": 3.491026988199038e-05,
+              "sky_mad_sigma": 0.00028390780835919595,
+              "valid_fraction": 1.0,
+              "centre_valid_fraction": 1.0,
+              "central_p999_snr": 39.136628566791885,
+              "native_pixel_scale_arcsec": [
+                0.045549,
+                0.045549
+              ]
+            }
+          }
+        ],
+        "urls": [
+          "https://hla.stsci.edu/cgi-bin/fitscut.cgi?red=hst_7495_29_wfpc2_pc_f555w_u46r29&RA=117.922875&Dec=27.27544444444&size=616&format=fits&TextErrors=yes&ApplyOmega=false",
+          "https://hla.stsci.edu/cgi-bin/fitscut.cgi?red=hst_8268_07_wfpc2_pc_f814w_u5bo07&RA=117.922875&Dec=27.27544444444&size=616&format=fits&TextErrors=yes&ApplyOmega=false"
+        ],
+        "rgb_mapping": {
+          "red": "F814W",
+          "green": "mean(F555W,F814W)",
+          "blue": "F555W"
+        },
+        "output_wcs": {
+          "WCSAXES": 2,
+          "CRPIX1": 256.5,
+          "CRPIX2": 256.5,
+          "CDELT1": -1.0850694444444e-05,
+          "CDELT2": 1.0850694444444e-05,
+          "CUNIT1": "deg",
+          "CUNIT2": "deg",
+          "CTYPE1": "RA---TAN",
+          "CTYPE2": "DEC--TAN",
+          "CRVAL1": 117.922875,
+          "CRVAL2": 27.27544444444,
+          "LONPOLE": 180.0,
+          "LATPOLE": 27.27544444444,
+          "MJDREF": 0.0,
+          "RADESYS": "ICRS"
+        },
+        "rendering": "Wavelength-mapped colour; independent display balancing; shared asinh stretch; north up/east left. Not photometric colour.",
+        "resolution_matching": "Gaussian approximation from HST diffraction and native pixel sampling; not a measured PSF",
+        "display_resolution_fwhm_arcsec": 0.08879230733317023,
+        "display_note": ""
+      },
+      "quality": {
+        "finite_fraction": 1.0,
+        "centre_finite_fraction": 1.0,
+        "sky_median": 6.903620609527203e-05,
+        "sky_mad_sigma": 0.00031783977192146733,
+        "centre_std": 14.737906313847917,
+        "centre_p999": 143.617000000002,
+        "native_pixel_scale_arcsec": [
+          0.045549,
+          0.045549
+        ],
+        "central_wcs_error_arcsec": 1.144999685326866e-11
+      },
+      "image": "images/refresh-20261102/surveys/id-352-HST.jpg",
+      "thumbnail": "images/refresh-20261102/preferred/id-352-thumb.jpg",
+      "sha256": "825335ba33589396e58e3541322f21e6c705c2bd3c17a3c77245111335df9484",
+      "selection_reason": "First usable survey/archive in HST > JWST > Euclid > HSC > DES > Legacy Surveys > Pan-STARRS > SDSS order. Paper images are separate."
+    },
+    "354": {
+      "row_number": 354,
+      "catalog_id": 353,
+      "name": "J0954-0022",
+      "ra": 148.529,
+      "dec": -0.3739666667,
+      "checked_at": "2026-11-02T01:50:13.548000+00:00",
+      "status": "ok",
+      "source": "HSC",
+      "source_label": "HSC PDR3",
+      "selection_mode": "survey_rgb",
+      "fov_arcsec": 20,
+      "metadata": {
+        "urls": [
+          "https://www.legacysurvey.org/viewer/jpeg-cutout?ra=148.529&dec=-0.3739666667&layer=hsc-dr3&pixscale=0.0390625&size=512&bands=grz"
+        ],
+        "layer": "hsc-dr3",
+        "bands": "grz",
+        "label": "HSC PDR3",
+        "release": "PDR3"
+      },
+      "quality": {
+        "valid_fraction": 0.9998970031738281,
+        "centre_valid_fraction": 1.0,
+        "std": 32.565239379071684,
+        "centre_std": 65.64039087821308,
+        "centre_range": 252.0
+      },
+      "image": "images/refresh-20261102/surveys/id-353-HSC.jpg",
+      "thumbnail": "images/refresh-20261102/preferred/id-353-thumb.jpg",
+      "sha256": "13257866cd5e0098b8fc481e8663054725cd40c27fbfa0aeae26f7d37e85f4a6",
+      "selection_reason": "First usable survey/archive in HST > JWST > Euclid > HSC > DES > Legacy Surveys > Pan-STARRS > SDSS order. Paper images are separate."
+    },
+    "355": {
+      "row_number": 355,
+      "catalog_id": 354,
+      "name": "MG1131+0456",
+      "ra": 172.98534583333,
+      "dec": 4.93051666667,
+      "checked_at": "2026-11-02T01:50:18.636852+00:00",
+      "status": "ok",
+      "source": "HST",
+      "source_label": "HST F675W/F814W",
+      "selection_mode": "space_multiband",
+      "fov_arcsec": 20,
+      "metadata": {
+        "label": "HST F675W/F814W",
+        "bands": "F675W/F814W",
+        "band_count": 2,
+        "band_details": [
+          {
+            "mission": "HST",
+            "band": "F675W",
+            "wavelength_nm": 667.74,
+            "uri": "mast:HST/product/hst_5505_04_wfpc2_pc_f675w_u2fl04_drz.fits",
+            "dataset": "hst_5505_04_wfpc2_pc_f675w_u2fl04",
+            "instrument": "WFPC2/PC",
+            "exposure_s": 8100.0,
+            "proposal_id": "5505",
+            "observation_id": "hst_5505_04_wfpc2_pc_f675w_u2fl04",
+            "url": "https://hla.stsci.edu/cgi-bin/fitscut.cgi?red=hst_5505_04_wfpc2_pc_f675w_u2fl04&RA=172.98534583333&Dec=4.93051666667&size=616&format=fits&TextErrors=yes&ApplyOmega=false",
+            "fits_sha256": "078209dfd81d11dc02759201853acccdb1cf05d9eee65b2010ddeef017a04bbc",
+            "quality": {
+              "sky_median": 0.00015349967829996977,
+              "sky_mad_sigma": 0.00018407514370871926,
+              "valid_fraction": 1.0,
+              "centre_valid_fraction": 1.0,
+              "central_p999_snr": 16.38299599595713,
+              "native_pixel_scale_arcsec": [
+                0.045540999999997195,
+                0.04554099999999972
+              ]
+            },
+            "registration": {
+              "shift_yx_pixels": [
+                0.9,
+                -0.1
+              ],
+              "shift_arcsec": 0.035372598195849286,
+              "feature_correlation": 0.570820001204014,
+              "feature_correlation_before": 0.5594967920631257,
+              "matched_peaks": 18,
+              "median_peak_residual_pixels": 1.0
+            }
+          },
+          {
+            "mission": "HST",
+            "band": "F814W",
+            "wavelength_nm": 790.48,
+            "uri": "mast:HST/product/hst_5505_04_wfpc2_pc_f814w_u2fl04_drz.fits",
+            "dataset": "hst_5505_04_wfpc2_pc_f814w_u2fl04",
+            "instrument": "WFPC2/PC",
+            "exposure_s": 10500.0,
+            "proposal_id": "5505",
+            "observation_id": "hst_5505_04_wfpc2_pc_f814w_u2fl04",
+            "urls": [
+              "https://hla.stsci.edu/cgi-bin/fitscut.cgi?red=hst_5505_04_wfpc2_pc_f814w_u2fl04&RA=172.98534583333&Dec=4.93051666667&size=616&format=fits&TextErrors=yes&ApplyOmega=false"
+            ],
+            "label": "HST F814W",
+            "bands": "F814W",
+            "output_wcs": {
+              "WCSAXES": 2,
+              "CRPIX1": 256.5,
+              "CRPIX2": 256.5,
+              "CDELT1": -1.0850694444444e-05,
+              "CDELT2": 1.0850694444444e-05,
+              "CUNIT1": "deg",
+              "CUNIT2": "deg",
+              "CTYPE1": "RA---TAN",
+              "CTYPE2": "DEC--TAN",
+              "CRVAL1": 172.98534583333,
+              "CRVAL2": 4.93051666667,
+              "LONPOLE": 180.0,
+              "LATPOLE": 4.93051666667,
+              "MJDREF": 0.0,
+              "RADESYS": "ICRS"
+            },
+            "archive_fits_sha256": "013bff6191b9767975d1f3e2a3c8091106dcfe4dd3db2a8d4ad557a315e32987",
+            "rendering": "single-band grayscale; north up, east left",
+            "url": "https://hla.stsci.edu/cgi-bin/fitscut.cgi?red=hst_5505_04_wfpc2_pc_f814w_u2fl04&RA=172.98534583333&Dec=4.93051666667&size=616&format=fits&TextErrors=yes&ApplyOmega=false",
+            "fits_sha256": "013bff6191b9767975d1f3e2a3c8091106dcfe4dd3db2a8d4ad557a315e32987",
+            "quality": {
+              "sky_median": 4.650581890664092e-05,
+              "sky_mad_sigma": 0.00017046949597850525,
+              "valid_fraction": 1.0,
+              "centre_valid_fraction": 1.0,
+              "central_p999_snr": 36.853051193335624,
+              "native_pixel_scale_arcsec": [
+                0.045549,
+                0.045549
+              ]
+            }
+          }
+        ],
+        "urls": [
+          "https://hla.stsci.edu/cgi-bin/fitscut.cgi?red=hst_5505_04_wfpc2_pc_f675w_u2fl04&RA=172.98534583333&Dec=4.93051666667&size=616&format=fits&TextErrors=yes&ApplyOmega=false",
+          "https://hla.stsci.edu/cgi-bin/fitscut.cgi?red=hst_5505_04_wfpc2_pc_f814w_u2fl04&RA=172.98534583333&Dec=4.93051666667&size=616&format=fits&TextErrors=yes&ApplyOmega=false"
+        ],
+        "rgb_mapping": {
+          "red": "F814W",
+          "green": "mean(F675W,F814W)",
+          "blue": "F675W"
+        },
+        "output_wcs": {
+          "WCSAXES": 2,
+          "CRPIX1": 256.5,
+          "CRPIX2": 256.5,
+          "CDELT1": -1.0850694444444e-05,
+          "CDELT2": 1.0850694444444e-05,
+          "CUNIT1": "deg",
+          "CUNIT2": "deg",
+          "CTYPE1": "RA---TAN",
+          "CTYPE2": "DEC--TAN",
+          "CRVAL1": 172.98534583333,
+          "CRVAL2": 4.93051666667,
+          "LONPOLE": 180.0,
+          "LATPOLE": 4.93051666667,
+          "MJDREF": 0.0,
+          "RADESYS": "ICRS"
+        },
+        "rendering": "Wavelength-mapped colour; independent display balancing; shared asinh stretch; north up/east left. Not photometric colour.",
+        "resolution_matching": "Gaussian approximation from HST diffraction and native pixel sampling; not a measured PSF",
+        "display_resolution_fwhm_arcsec": 0.08879230733317023,
+        "display_note": ""
+      },
+      "quality": {
+        "finite_fraction": 1.0,
+        "centre_finite_fraction": 1.0,
+        "sky_median": 4.570344849797963e-05,
+        "sky_mad_sigma": 0.0001719876417817047,
+        "centre_std": 13.661707600349985,
+        "centre_p999": 146.0,
+        "native_pixel_scale_arcsec": [
+          0.045549,
+          0.045549
+        ],
+        "central_wcs_error_arcsec": 5.7249984266343286e-12
+      },
+      "image": "images/refresh-20261102/surveys/id-354-HST.jpg",
+      "thumbnail": "images/refresh-20261102/preferred/id-354-thumb.jpg",
+      "sha256": "b5242a7b8a367ec56285c8f7d9f9ebb17f82bc810e5a37aca3ab1bb4fbabf915",
+      "selection_reason": "First usable survey/archive in HST > JWST > Euclid > HSC > DES > Legacy Surveys > Pan-STARRS > SDSS order. Paper images are separate."
+    },
+    "356": {
+      "row_number": 356,
+      "catalog_id": 355,
+      "name": "COOLJ1153+0755",
+      "ra": 178.33524333333332,
+      "dec": 7.933550833333333,
+      "checked_at": "2026-11-02T01:50:27.364147+00:00",
+      "status": "ok",
+      "source": "HST",
+      "source_label": "HST F475W/F814W/F125W",
+      "selection_mode": "space_multiband",
+      "fov_arcsec": 45,
+      "metadata": {
+        "label": "HST F475W/F814W/F125W",
+        "bands": "F475W/F814W/F125W",
+        "band_count": 3,
+        "band_details": [
+          {
+            "mission": "HST",
+            "band": "F475W",
+            "wavelength_nm": 470.0,
+            "uri": "mast:HST/product/hst_17431_01_acs_wfc_f475w_jf8201_drc.fits",
+            "dataset": "hst_17431_01_acs_wfc_f475w_jf8201",
+            "instrument": "ACS/WFC",
+            "exposure_s": 2357.4079899999997,
+            "proposal_id": "17431",
+            "observation_id": "hst_17431_01_acs_wfc_f475w_jf8201",
+            "urls": [
+              "https://hla.stsci.edu/cgi-bin/fitscut.cgi?red=hst_17431_01_acs_wfc_f475w_jf8201&RA=178.33524333333332&Dec=7.933550833333333&size=2416&format=fits&TextErrors=yes&ApplyOmega=false"
+            ],
+            "label": "HST F475W",
+            "bands": "F475W",
+            "output_wcs": {
+              "WCSAXES": 2,
+              "CRPIX1": 256.5,
+              "CRPIX2": 256.5,
+              "CDELT1": -2.44140625e-05,
+              "CDELT2": 2.44140625e-05,
+              "CUNIT1": "deg",
+              "CUNIT2": "deg",
+              "CTYPE1": "RA---TAN",
+              "CTYPE2": "DEC--TAN",
+              "CRVAL1": 178.33210854167,
+              "CRVAL2": 7.93526875,
+              "LONPOLE": 180.0,
+              "LATPOLE": 7.93526875,
+              "MJDREF": 0.0,
+              "RADESYS": "ICRS"
+            },
+            "archive_fits_sha256": "3ef09ba04a27841f583bcfd3fd23dec89ae5e5848be5eb7a5d0dd03623920d45",
+            "rendering": "single-band grayscale; north up, east left",
+            "cutout_center_ra": 178.33210854166663,
+            "cutout_center_dec": 7.9352687500000005,
+            "url": "https://hla.stsci.edu/cgi-bin/fitscut.cgi?red=hst_17431_01_acs_wfc_f475w_jf8201&RA=178.33524333333332&Dec=7.933550833333333&size=2416&format=fits&TextErrors=yes&ApplyOmega=false",
+            "fits_sha256": "3ef09ba04a27841f583bcfd3fd23dec89ae5e5848be5eb7a5d0dd03623920d45",
+            "quality": {
+              "sky_median": 0.04774726249269785,
+              "sky_mad_sigma": 0.00551682748112896,
+              "valid_fraction": 1.0,
+              "centre_valid_fraction": 1.0,
+              "central_p999_snr": 26.67141343215768,
+              "native_pixel_scale_arcsec": [
+                0.049999999999996804,
+                0.04999999999999968
+              ]
+            }
+          },
+          {
+            "mission": "HST",
+            "band": "F814W",
+            "wavelength_nm": 833.5,
+            "uri": "mast:HST/product/hst_17431_03_acs_wfc_f814w_jf8203_drc.fits",
+            "dataset": "hst_17431_03_acs_wfc_f814w_jf8203",
+            "instrument": "ACS/WFC",
+            "exposure_s": 1972.416,
+            "proposal_id": "17431",
+            "observation_id": "hst_17431_03_acs_wfc_f814w_jf8203",
+            "url": "https://hla.stsci.edu/cgi-bin/fitscut.cgi?red=hst_17431_03_acs_wfc_f814w_jf8203&RA=178.33524333333332&Dec=7.933550833333333&size=2416&format=fits&TextErrors=yes&ApplyOmega=false",
+            "fits_sha256": "62e729f2205a3b6350fe3e21bf4f7aec57726bed9de2a7bee254b8d27d0b3244",
+            "quality": {
+              "sky_median": 0.09201321915708999,
+              "sky_mad_sigma": 0.008167380930903217,
+              "valid_fraction": 1.0,
+              "centre_valid_fraction": 1.0,
+              "central_p999_snr": 132.96961054091204,
+              "native_pixel_scale_arcsec": [
+                0.049999999999996804,
+                0.04999999999999968
+              ]
+            },
+            "registration": {
+              "shift_yx_pixels": [
+                -0.2,
+                -0.5
+              ],
+              "shift_arcsec": 0.04733055006270561,
+              "feature_correlation": 0.797676371870412,
+              "feature_correlation_before": 0.817453855457479,
+              "matched_peaks": 45,
+              "median_peak_residual_pixels": 0.0
+            }
+          },
+          {
+            "mission": "HST",
+            "band": "F125W",
+            "wavelength_nm": 1249.05,
+            "uri": "mast:HST/product/hst_17431_04_wfc3_ir_f125w_if8204_drz.fits",
+            "dataset": "hst_17431_04_wfc3_ir_f125w_if8204",
+            "instrument": "WFC3/IR",
+            "exposure_s": 2267.612367,
+            "proposal_id": "17431",
+            "observation_id": "hst_17431_04_wfc3_ir_f125w_if8204",
+            "url": "https://hla.stsci.edu/cgi-bin/fitscut.cgi?red=hst_17431_04_wfc3_ir_f125w_if8204&RA=178.33524333333332&Dec=7.933550833333333&size=2416&format=fits&TextErrors=yes&ApplyOmega=false",
+            "fits_sha256": "644464940320170e1eaec9255cf869399feae87e32ae876d30c375f2d2a644bd",
+            "quality": {
+              "sky_median": 0.7950132254926446,
+              "sky_mad_sigma": 0.04053786659588277,
+              "valid_fraction": 1.0,
+              "centre_valid_fraction": 1.0,
+              "central_p999_snr": 412.2951547309926,
+              "native_pixel_scale_arcsec": [
+                0.12825,
+                0.12825
+              ]
+            },
+            "registration": {
+              "shift_yx_pixels": [
+                -0.4,
+                -0.1
+              ],
+              "shift_arcsec": 0.03623823303765523,
+              "feature_correlation": 0.7481436421608841,
+              "feature_correlation_before": 0.7476003184508613,
+              "matched_peaks": 50,
+              "median_peak_residual_pixels": 0.0
+            }
+          }
+        ],
+        "urls": [
+          "https://hla.stsci.edu/cgi-bin/fitscut.cgi?red=hst_17431_01_acs_wfc_f475w_jf8201&RA=178.33524333333332&Dec=7.933550833333333&size=2416&format=fits&TextErrors=yes&ApplyOmega=false",
+          "https://hla.stsci.edu/cgi-bin/fitscut.cgi?red=hst_17431_03_acs_wfc_f814w_jf8203&RA=178.33524333333332&Dec=7.933550833333333&size=2416&format=fits&TextErrors=yes&ApplyOmega=false",
+          "https://hla.stsci.edu/cgi-bin/fitscut.cgi?red=hst_17431_04_wfc3_ir_f125w_if8204&RA=178.33524333333332&Dec=7.933550833333333&size=2416&format=fits&TextErrors=yes&ApplyOmega=false"
+        ],
+        "rgb_mapping": {
+          "red": "F125W",
+          "green": "F814W",
+          "blue": "F475W"
+        },
+        "output_wcs": {
+          "WCSAXES": 2,
+          "CRPIX1": 256.5,
+          "CRPIX2": 256.5,
+          "CDELT1": -2.44140625e-05,
+          "CDELT2": 2.44140625e-05,
+          "CUNIT1": "deg",
+          "CUNIT2": "deg",
+          "CTYPE1": "RA---TAN",
+          "CTYPE2": "DEC--TAN",
+          "CRVAL1": 178.33210854167,
+          "CRVAL2": 7.93526875,
+          "LONPOLE": 180.0,
+          "LATPOLE": 7.93526875,
+          "MJDREF": 0.0,
+          "RADESYS": "ICRS"
+        },
+        "rendering": "Wavelength-mapped colour; independent display balancing; shared asinh stretch; north up/east left. Not photometric colour.",
+        "resolution_matching": "Gaussian approximation from HST diffraction and native pixel sampling; not a measured PSF",
+        "display_resolution_fwhm_arcsec": 0.18950092149752237,
+        "display_note": "View centred on the bounding-box midpoint of the multiple quasar images from Solhaug et al. 2026 Table 1, arXiv:2605.13514v1. All listed images are within the field. Catalogue coordinates unchanged. Display field reduced to 45 arcsec to exclude mosaic edges and peripheral detector/trail artifacts."
+      },
+      "quality": {
+        "finite_fraction": 1.0,
+        "centre_finite_fraction": 1.0,
+        "sky_median": 0.0478687720601845,
+        "sky_mad_sigma": 0.005592120161120485,
+        "centre_std": 10.16735601740588,
+        "centre_p999": 129.617000000002,
+        "native_pixel_scale_arcsec": [
+          0.049999999999996804,
+          0.04999999999999968
+        ],
+        "central_wcs_error_arcsec": 2.289999370653732e-11
+      },
+      "image": "images/refresh-20261102/surveys/id-355-HST.jpg",
+      "thumbnail": "images/refresh-20261102/preferred/id-355-thumb.jpg",
+      "sha256": "fe27552eab7ec3078661ae949aadb35d0f105a89f3280dd57253477df5cf3f90",
+      "selection_reason": "First usable survey/archive in HST > JWST > Euclid > HSC > DES > Legacy Surveys > Pan-STARRS > SDSS order. Paper images are separate."
+    },
+    "357": {
+      "row_number": 357,
+      "catalog_id": 356,
+      "name": "J125856.3-031944",
+      "ra": 194.73447203,
+      "dec": -3.32868611,
+      "checked_at": "2026-11-02T01:51:27.809421+00:00",
+      "status": "ok",
+      "source": "HST",
+      "source_label": "HST F160W",
+      "selection_mode": "space_single_band",
+      "fov_arcsec": 20,
+      "metadata": {
+        "mission": "HST",
+        "band": "F160W",
+        "wavelength_nm": 1543.15,
+        "uri": "mast:HST/product/hst_17916_12_wfc3_ir_f160w_ifjj12_drz.fits",
+        "dataset": "hst_17916_12_wfc3_ir_f160w_ifjj12",
+        "instrument": "WFC3/IR",
+        "exposure_s": 2296.928407,
+        "proposal_id": "17916",
+        "observation_id": "hst_17916_12_wfc3_ir_f160w_ifjj12",
+        "urls": [
+          "https://hla.stsci.edu/cgi-bin/fitscut.cgi?red=hst_17916_12_wfc3_ir_f160w_ifjj12&RA=194.73447203&Dec=-3.32868611&size=616&format=fits&TextErrors=yes&ApplyOmega=false"
+        ],
+        "label": "HST F160W",
+        "bands": "F160W",
+        "output_wcs": {
+          "WCSAXES": 2,
+          "CRPIX1": 256.5,
+          "CRPIX2": 256.5,
+          "CDELT1": -1.0850694444444e-05,
+          "CDELT2": 1.0850694444444e-05,
+          "CUNIT1": "deg",
+          "CUNIT2": "deg",
+          "CTYPE1": "RA---TAN",
+          "CTYPE2": "DEC--TAN",
+          "CRVAL1": 194.73447203,
+          "CRVAL2": -3.32868611,
+          "LONPOLE": 180.0,
+          "LATPOLE": -3.32868611,
+          "MJDREF": 0.0,
+          "RADESYS": "ICRS"
+        },
+        "archive_fits_sha256": "bf775729c0389dce8a91553f596d5031162a2108870911b319f9b7fd095d07d3",
+        "rendering": "single-band grayscale; north up, east left"
+      },
+      "quality": {
+        "finite_fraction": 1.0,
+        "centre_finite_fraction": 1.0,
+        "sky_median": 0.6987034561189976,
+        "sky_mad_sigma": 0.019262271215548667,
+        "centre_std": 62.657758710984425,
+        "centre_p999": 255.0,
+        "native_pixel_scale_arcsec": [
+          0.12825,
+          0.12825
+        ],
+        "central_wcs_error_arcsec": 2.4331243313195908e-11
+      },
+      "image": "images/refresh-20261102/surveys/id-356-HST.jpg",
+      "thumbnail": "images/refresh-20261102/preferred/id-356-thumb.jpg",
+      "sha256": "3219160e8f5e82877940fddfeb518fbb9574b4a3100ce8dacfcb3e1d692cf810",
+      "selection_reason": "First usable survey/archive in HST > JWST > Euclid > HSC > DES > Legacy Surveys > Pan-STARRS > SDSS order. Paper images are separate."
+    },
+    "358": {
+      "row_number": 358,
+      "catalog_id": 357,
+      "name": "SDSSJ1608+2716",
+      "ra": 242.12171979,
+      "dec": 27.27416389,
+      "checked_at": "2026-11-02T01:51:56.093267+00:00",
+      "status": "ok",
+      "source": "HST",
+      "source_label": "HST F160W",
+      "selection_mode": "space_single_band",
+      "fov_arcsec": 20,
+      "metadata": {
+        "mission": "HST",
+        "band": "F160W",
+        "wavelength_nm": 1543.15,
+        "uri": "mast:HST/product/hst_17287_03_wfc3_ir_f160w_if3903_drz.fits",
+        "dataset": "hst_17287_03_wfc3_ir_f160w_if3903",
+        "instrument": "WFC3/IR",
+        "exposure_s": 2062.5717200000004,
+        "proposal_id": "17287",
+        "observation_id": "hst_17287_03_wfc3_ir_f160w_if3903",
+        "urls": [
+          "https://hla.stsci.edu/cgi-bin/fitscut.cgi?red=hst_17287_03_wfc3_ir_f160w_if3903&RA=242.12171979&Dec=27.27416389&size=616&format=fits&TextErrors=yes&ApplyOmega=false"
+        ],
+        "label": "HST F160W",
+        "bands": "F160W",
+        "output_wcs": {
+          "WCSAXES": 2,
+          "CRPIX1": 256.5,
+          "CRPIX2": 256.5,
+          "CDELT1": -1.0850694444444e-05,
+          "CDELT2": 1.0850694444444e-05,
+          "CUNIT1": "deg",
+          "CUNIT2": "deg",
+          "CTYPE1": "RA---TAN",
+          "CTYPE2": "DEC--TAN",
+          "CRVAL1": 242.12171979,
+          "CRVAL2": 27.27416389,
+          "LONPOLE": 180.0,
+          "LATPOLE": 27.27416389,
+          "MJDREF": 0.0,
+          "RADESYS": "ICRS"
+        },
+        "archive_fits_sha256": "5e9ac974a666097b7622174b0230707faf062d343c7c4bb16ef0213cde952e3b",
+        "rendering": "single-band grayscale; north up, east left"
+      },
+      "quality": {
+        "finite_fraction": 1.0,
+        "centre_finite_fraction": 1.0,
+        "sky_median": 0.39534444565691274,
+        "sky_mad_sigma": 0.01905200533494339,
+        "centre_std": 48.5908281161953,
+        "centre_p999": 255.0,
+        "native_pixel_scale_arcsec": [
+          0.12825,
+          0.12825
+        ],
+        "central_wcs_error_arcsec": 1.144999685326866e-11
+      },
+      "image": "images/refresh-20261102/surveys/id-357-HST.jpg",
+      "thumbnail": "images/refresh-20261102/preferred/id-357-thumb.jpg",
+      "sha256": "e4be0be86a6f94a062051a19db4b0d87184076ea7083ffbc19bf05d0c617f217",
+      "selection_reason": "First usable survey/archive in HST > JWST > Euclid > HSC > DES > Legacy Surveys > Pan-STARRS > SDSS order. Paper images are separate."
+    },
+    "359": {
+      "row_number": 359,
+      "catalog_id": 358,
+      "name": "GraLJ210329.0-085049",
+      "ra": 315.8706099206,
+      "dec": -8.84714048,
+      "checked_at": "2026-11-02T01:52:20.634793+00:00",
+      "status": "ok",
+      "source": "HST",
+      "source_label": "HST F814W",
+      "selection_mode": "space_single_band",
+      "fov_arcsec": 20,
+      "metadata": {
+        "mission": "HST",
+        "band": "F814W",
+        "wavelength_nm": 833.5,
+        "uri": "mast:HST/product/hst_17308_9s_acs_wfc_f814w_jf569s_drc.fits",
+        "dataset": "hst_17308_9s_acs_wfc_f814w_jf569s",
+        "instrument": "ACS/WFC",
+        "exposure_s": 674.0,
+        "proposal_id": "17308",
+        "observation_id": "hst_17308_9s_acs_wfc_f814w_jf569s",
+        "urls": [
+          "https://hla.stsci.edu/cgi-bin/fitscut.cgi?red=hst_17308_9s_acs_wfc_f814w_jf569s&RA=315.8706099206&Dec=-8.84714048&size=616&format=fits&TextErrors=yes&ApplyOmega=false"
+        ],
+        "label": "HST F814W",
+        "bands": "F814W",
+        "output_wcs": {
+          "WCSAXES": 2,
+          "CRPIX1": 256.5,
+          "CRPIX2": 256.5,
+          "CDELT1": -1.0850694444444e-05,
+          "CDELT2": 1.0850694444444e-05,
+          "CUNIT1": "deg",
+          "CUNIT2": "deg",
+          "CTYPE1": "RA---TAN",
+          "CTYPE2": "DEC--TAN",
+          "CRVAL1": 315.8706099206,
+          "CRVAL2": -8.84714048,
+          "LONPOLE": 180.0,
+          "LATPOLE": -8.84714048,
+          "MJDREF": 0.0,
+          "RADESYS": "ICRS"
+        },
+        "archive_fits_sha256": "cc59e5718937435be74216e3019687d63500d33e1704b51c3e8db1525432dbb3",
+        "rendering": "single-band grayscale; north up, east left"
+      },
+      "quality": {
+        "finite_fraction": 1.0,
+        "centre_finite_fraction": 1.0,
+        "sky_median": 0.0798336993981821,
+        "sky_mad_sigma": 0.010626102617224097,
+        "centre_std": 33.24557812804872,
+        "centre_p999": 255.0,
+        "native_pixel_scale_arcsec": [
+          0.049999999999996804,
+          0.04999999999999968
+        ],
+        "central_wcs_error_arcsec": 2.8624992133171652e-11
+      },
+      "image": "images/refresh-20261102/surveys/id-358-HST.jpg",
+      "thumbnail": "images/refresh-20261102/preferred/id-358-thumb.jpg",
+      "sha256": "97477d2824a05860b5407acd1eb12293505f47f9d4613f440fbe2a4a35abd8a0",
+      "selection_reason": "First usable survey/archive in HST > JWST > Euclid > HSC > DES > Legacy Surveys > Pan-STARRS > SDSS order. Paper images are separate."
+    },
+    "360": {
+      "row_number": 360,
+      "catalog_id": 359,
+      "name": "PSJ2107-1611",
+      "ra": 316.9679980817,
+      "dec": -16.1921295514,
+      "checked_at": "2026-11-02T01:53:09.060931+00:00",
+      "status": "ok",
+      "source": "HST",
+      "source_label": "HST F475X/F814W/F160W",
+      "selection_mode": "space_multiband",
+      "fov_arcsec": 20,
+      "metadata": {
+        "label": "HST F475X/F814W/F160W",
+        "bands": "F475X/F814W/F160W",
+        "band_count": 3,
+        "band_details": [
+          {
+            "mission": "HST",
+            "band": "F475X",
+            "wavelength_nm": 513.9,
+            "uri": "mast:HST/product/hst_17601_51_wfc3_uvis_f475x_ifbi51_drc.fits",
+            "dataset": "hst_17601_51_wfc3_uvis_f475x_ifbi51",
+            "instrument": "WFC3/UVIS",
+            "exposure_s": 1080.0,
+            "proposal_id": "17601",
+            "observation_id": "hst_17601_51_wfc3_uvis_f475x_ifbi51",
+            "url": "https://hla.stsci.edu/cgi-bin/fitscut.cgi?red=hst_17601_51_wfc3_uvis_f475x_ifbi51&RA=316.9679980817&Dec=-16.1921295514&size=766&format=fits&TextErrors=yes&ApplyOmega=false",
+            "fits_sha256": "e6ec708fac4706c4afb8ded995750b4e9c61242c7a88181e683e5aba2638de10",
+            "quality": {
+              "sky_median": 0.027824443461331866,
+              "sky_mad_sigma": 0.006710809370995789,
+              "valid_fraction": 1.0,
+              "centre_valid_fraction": 1.0,
+              "central_p999_snr": 418.08704116666405,
+              "native_pixel_scale_arcsec": [
+                0.039619999999998004,
+                0.0396199999999998
+              ]
+            },
+            "registration": {
+              "shift_yx_pixels": [
+                0.0,
+                -0.1
+              ],
+              "shift_arcsec": 0.00390625,
+              "feature_correlation": 0.6976695285355914,
+              "feature_correlation_before": 0.6998140265025468,
+              "matched_peaks": 13,
+              "median_peak_residual_pixels": 0.0
+            }
+          },
+          {
+            "mission": "HST",
+            "band": "F814W",
+            "wavelength_nm": 831.85,
+            "uri": "mast:HST/product/hst_17601_51_wfc3_uvis_f814w_ifbi51_drc.fits",
+            "dataset": "hst_17601_51_wfc3_uvis_f814w_ifbi51",
+            "instrument": "WFC3/UVIS",
+            "exposure_s": 1167.0,
+            "proposal_id": "17601",
+            "observation_id": "hst_17601_51_wfc3_uvis_f814w_ifbi51",
+            "urls": [
+              "https://hla.stsci.edu/cgi-bin/fitscut.cgi?red=hst_17601_51_wfc3_uvis_f814w_ifbi51&RA=316.9679980817&Dec=-16.1921295514&size=766&format=fits&TextErrors=yes&ApplyOmega=false"
+            ],
+            "label": "HST F814W",
+            "bands": "F814W",
+            "output_wcs": {
+              "WCSAXES": 2,
+              "CRPIX1": 256.5,
+              "CRPIX2": 256.5,
+              "CDELT1": -1.0850694444444e-05,
+              "CDELT2": 1.0850694444444e-05,
+              "CUNIT1": "deg",
+              "CUNIT2": "deg",
+              "CTYPE1": "RA---TAN",
+              "CTYPE2": "DEC--TAN",
+              "CRVAL1": 316.9679980817,
+              "CRVAL2": -16.1921295514,
+              "LONPOLE": 180.0,
+              "LATPOLE": -16.1921295514,
+              "MJDREF": 0.0,
+              "RADESYS": "ICRS"
+            },
+            "archive_fits_sha256": "d72f36bedb95aa35155c95c3d0406fd9d0885f7d617f2ccb9a36608d11e7f77b",
+            "rendering": "single-band grayscale; north up, east left",
+            "url": "https://hla.stsci.edu/cgi-bin/fitscut.cgi?red=hst_17601_51_wfc3_uvis_f814w_ifbi51&RA=316.9679980817&Dec=-16.1921295514&size=766&format=fits&TextErrors=yes&ApplyOmega=false",
+            "fits_sha256": "d72f36bedb95aa35155c95c3d0406fd9d0885f7d617f2ccb9a36608d11e7f77b",
+            "quality": {
+              "sky_median": 0.00650903351411153,
+              "sky_mad_sigma": 0.00645045927704918,
+              "valid_fraction": 1.0,
+              "centre_valid_fraction": 1.0,
+              "central_p999_snr": 113.39170781226154,
+              "native_pixel_scale_arcsec": [
+                0.039619999999998004,
+                0.0396199999999998
+              ]
+            }
+          },
+          {
+            "mission": "HST",
+            "band": "F160W",
+            "wavelength_nm": 1543.15,
+            "uri": "mast:HST/product/ifbi51030_drz.fits",
+            "dataset": "ifbi51030",
+            "instrument": "WFC3/IR",
+            "exposure_s": 1800.0,
+            "proposal_id": "17601",
+            "observation_id": "ifbi51030",
+            "url": "https://hla.stsci.edu/cgi-bin/fitscut.cgi?red=ifbi51030&RA=316.9679980817&Dec=-16.1921295514&size=616&format=fits&TextErrors=yes&ApplyOmega=false",
+            "fits_sha256": "997f3f4bf9f6a162f65837d55894686772c4a3fa50402bafc5b75d01f554c492",
+            "quality": {
+              "sky_median": 0.6947721468083325,
+              "sky_mad_sigma": 0.03687612484473461,
+              "valid_fraction": 1.0,
+              "centre_valid_fraction": 1.0,
+              "central_p999_snr": 984.756685865132,
+              "native_pixel_scale_arcsec": [
+                0.12824999999999978,
+                0.12824999999999925
+              ]
+            },
+            "registration": {
+              "shift_yx_pixels": [
+                0.2,
+                -0.4
+              ],
+              "shift_arcsec": 0.017469281074217108,
+              "feature_correlation": 0.632180694646535,
+              "feature_correlation_before": 0.6310886495405004,
+              "matched_peaks": 19,
+              "median_peak_residual_pixels": 1.4142135623730951
+            }
+          }
+        ],
+        "urls": [
+          "https://hla.stsci.edu/cgi-bin/fitscut.cgi?red=hst_17601_51_wfc3_uvis_f475x_ifbi51&RA=316.9679980817&Dec=-16.1921295514&size=766&format=fits&TextErrors=yes&ApplyOmega=false",
+          "https://hla.stsci.edu/cgi-bin/fitscut.cgi?red=hst_17601_51_wfc3_uvis_f814w_ifbi51&RA=316.9679980817&Dec=-16.1921295514&size=766&format=fits&TextErrors=yes&ApplyOmega=false",
+          "https://hla.stsci.edu/cgi-bin/fitscut.cgi?red=ifbi51030&RA=316.9679980817&Dec=-16.1921295514&size=616&format=fits&TextErrors=yes&ApplyOmega=false"
+        ],
+        "rgb_mapping": {
+          "red": "F160W",
+          "green": "F814W",
+          "blue": "F475X"
+        },
+        "output_wcs": {
+          "WCSAXES": 2,
+          "CRPIX1": 256.5,
+          "CRPIX2": 256.5,
+          "CDELT1": -1.0850694444444e-05,
+          "CDELT2": 1.0850694444444e-05,
+          "CUNIT1": "deg",
+          "CUNIT2": "deg",
+          "CTYPE1": "RA---TAN",
+          "CTYPE2": "DEC--TAN",
+          "CRVAL1": 316.9679980817,
+          "CRVAL2": -16.1921295514,
+          "LONPOLE": 180.0,
+          "LATPOLE": -16.1921295514,
+          "MJDREF": 0.0,
+          "RADESYS": "ICRS"
+        },
+        "rendering": "Wavelength-mapped colour; independent display balancing; shared asinh stretch; north up/east left. Not photometric colour.",
+        "resolution_matching": "Gaussian approximation from HST diffraction and native pixel sampling; not a measured PSF",
+        "display_resolution_fwhm_arcsec": 0.2057803213040615,
+        "display_note": ""
+      },
+      "quality": {
+        "finite_fraction": 1.0,
+        "centre_finite_fraction": 1.0,
+        "sky_median": 0.006736581946565822,
+        "sky_mad_sigma": 0.006461670012994919,
+        "centre_std": 22.199265711655986,
+        "centre_p999": 206.85100000000602,
+        "native_pixel_scale_arcsec": [
+          0.039619999999998004,
+          0.0396199999999998
+        ],
+        "central_wcs_error_arcsec": 0.0
+      },
+      "image": "images/refresh-20261102/surveys/id-359-HST.jpg",
+      "thumbnail": "images/refresh-20261102/preferred/id-359-thumb.jpg",
+      "sha256": "aad87a4f3ded34c3f8c43f61656ee289e969195eec1799a8b38d10733574ecb4",
+      "selection_reason": "First usable survey/archive in HST > JWST > Euclid > HSC > DES > Legacy Surveys > Pan-STARRS > SDSS order. Paper images are separate."
     }
   },
   "recent_additions": {
     "date": "2026-11-02",
     "count": 8,
-    "note": "Two HST and one JWST science cutouts; five high-resolution observed publication panels (ERIS, MUSE, LBT)."
+    "note": "Eight survey/archive columns independently searched. Preferred website image follows strict survey/archive priority, with publication observations shown only in the separate paper-image column."
+  },
+  "image_refresh": {
+    "date": "2026-11-02",
+    "catalog_ids": [
+      343,
+      344,
+      345,
+      346,
+      347,
+      348,
+      349,
+      350,
+      351,
+      352,
+      353,
+      354,
+      355,
+      356,
+      357,
+      358,
+      359,
+      360,
+      361,
+      362,
+      363,
+      364,
+      365,
+      366,
+      367
+    ],
+    "new_paper_images": 16,
+    "archive_survey_images": 82,
+    "new_workbook_images": 72,
+    "priority": [
+      "HST",
+      "JWST",
+      "Euclid",
+      "HSC",
+      "DES",
+      "Legacy Surveys",
+      "Pan-STARRS",
+      "SDSS"
+    ],
+    "choices": [
+      {
+        "catalog_id": 343,
+        "name": "J1116–0657",
+        "source": "HST",
+        "label": "HST colour",
+        "previous_source": "HST"
+      },
+      {
+        "catalog_id": 344,
+        "name": "A2744-QSO1",
+        "source": "HST",
+        "label": "HST colour",
+        "previous_source": null
+      },
+      {
+        "catalog_id": 345,
+        "name": "HE0013-2542",
+        "source": "HST",
+        "label": "HST F814W",
+        "previous_source": null
+      },
+      {
+        "catalog_id": 346,
+        "name": "DESJ0029-3814",
+        "source": "HST",
+        "label": "HST colour",
+        "previous_source": null
+      },
+      {
+        "catalog_id": 347,
+        "name": "J0035.4-2015",
+        "source": "HST",
+        "label": "HST colour",
+        "previous_source": null
+      },
+      {
+        "catalog_id": 348,
+        "name": "PSJ0140+4107",
+        "source": "HST",
+        "label": "HST F814W",
+        "previous_source": null
+      },
+      {
+        "catalog_id": 349,
+        "name": "COOLJ0335-1927",
+        "source": "HST",
+        "label": "HST colour",
+        "previous_source": null
+      },
+      {
+        "catalog_id": 350,
+        "name": "DESJ0402-4220",
+        "source": "DES",
+        "label": "DES DR2",
+        "previous_source": null
+      },
+      {
+        "catalog_id": 351,
+        "name": "J0420-4037",
+        "source": "HST",
+        "label": "HST colour",
+        "previous_source": null
+      },
+      {
+        "catalog_id": 352,
+        "name": "MG0751+2716",
+        "source": "HST",
+        "label": "HST colour",
+        "previous_source": null
+      },
+      {
+        "catalog_id": 353,
+        "name": "J0954-0022",
+        "source": "HSC",
+        "label": "HSC PDR3",
+        "previous_source": null
+      },
+      {
+        "catalog_id": 354,
+        "name": "MG1131+0456",
+        "source": "HST",
+        "label": "HST colour",
+        "previous_source": null
+      },
+      {
+        "catalog_id": 355,
+        "name": "COOLJ1153+0755",
+        "source": "HST",
+        "label": "HST colour",
+        "previous_source": null
+      },
+      {
+        "catalog_id": 356,
+        "name": "J125856.3-031944",
+        "source": "HST",
+        "label": "HST F160W",
+        "previous_source": null
+      },
+      {
+        "catalog_id": 357,
+        "name": "SDSSJ1608+2716",
+        "source": "HST",
+        "label": "HST F160W",
+        "previous_source": null
+      },
+      {
+        "catalog_id": 358,
+        "name": "GraLJ210329.0-085049",
+        "source": "HST",
+        "label": "HST F814W",
+        "previous_source": null
+      },
+      {
+        "catalog_id": 359,
+        "name": "PSJ2107-1611",
+        "source": "HST",
+        "label": "HST colour",
+        "previous_source": null
+      },
+      {
+        "catalog_id": 360,
+        "name": "J0459-0413",
+        "source": "Legacy Surveys",
+        "label": "Legacy DR11",
+        "previous_source": "VLT/ERIS SPIFFIER"
+      },
+      {
+        "catalog_id": 361,
+        "name": "J0602-3852",
+        "source": "DES",
+        "label": "DES DR2",
+        "previous_source": "VLT/ERIS SPIFFIER"
+      },
+      {
+        "catalog_id": 362,
+        "name": "J1335+0527",
+        "source": "Legacy Surveys",
+        "label": "Legacy DR11",
+        "previous_source": "VLT/MUSE NFM"
+      },
+      {
+        "catalog_id": 363,
+        "name": "J0316-4106",
+        "source": "HST",
+        "label": "HST F160W",
+        "previous_source": "HST"
+      },
+      {
+        "catalog_id": 364,
+        "name": "DESIJ2321-0330",
+        "source": "HST",
+        "label": "HST F160W",
+        "previous_source": "HST"
+      },
+      {
+        "catalog_id": 365,
+        "name": "COOLJ1153B",
+        "source": "HST",
+        "label": "HST F475W",
+        "previous_source": "JWST"
+      },
+      {
+        "catalog_id": 366,
+        "name": "J1330-0905",
+        "source": "Pan-STARRS",
+        "label": "Pan-STARRS",
+        "previous_source": "LBT/LUCI1 AO"
+      },
+      {
+        "catalog_id": 367,
+        "name": "J1453+0529",
+        "source": "Legacy Surveys",
+        "label": "Legacy DR11",
+        "previous_source": "VLT/ERIS NIX"
+      }
+    ]
   }
 }

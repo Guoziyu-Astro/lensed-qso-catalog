@@ -40,7 +40,7 @@ async function showCatalogImages(record, selected) {
   const container=imageUI('workbook-images');container.textContent='Loading workbook images…';
   imageUI('image-dialog').showModal();
   try{
-    if(!imageManifest){const response=await fetch('data/images.json?v=recent-20261102-367-f444w');if(!response.ok)throw Error();imageManifest=await response.json();}
+    if(!imageManifest){const response=await fetch('data/images.json?v=images-20261102-d662d72544bb');if(!response.ok)throw Error();imageManifest=await response.json();}
     if(generation!==imageGeneration)return;
     container.replaceChildren();
     const entries=imageManifest.records[String(record.row_number)]||[];
