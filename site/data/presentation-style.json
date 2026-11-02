@@ -1,0 +1,87 @@
+{
+  "style": {
+    "version": "catalogue-label-v1",
+    "font": "/System/Library/Fonts/Supplemental/Arial.ttf",
+    "thumbnail": {
+      "size": 128,
+      "font_size": 11,
+      "padding": 3
+    },
+    "full": {
+      "size": 512,
+      "font_size": 20,
+      "padding": 7
+    },
+    "excel": {
+      "size": 320,
+      "display_size": 160,
+      "offset_px": 4
+    },
+    "label_background": [
+      0,
+      0,
+      0
+    ],
+    "label_foreground": "white",
+    "jpeg_quality": 95,
+    "paper": {
+      "size": 1024,
+      "image_height": 906,
+      "image_top": 46,
+      "title_xy": [
+        16,
+        5
+      ],
+      "title_size": 32,
+      "footer_xy": [
+        16,
+        967
+      ],
+      "footer_size": 36,
+      "jpeg_quality": 96
+    },
+    "priority": [
+      "HST",
+      "JWST",
+      "Euclid",
+      "HSC",
+      "DES",
+      "Legacy Surveys",
+      "Pan-STARRS",
+      "SDSS"
+    ]
+  },
+  "implementation": {
+    "version": "catalogue-label-v1",
+    "config_sha256": "cd24820cab36abb5f8b47bb506104687b8c587279d779083e55c4c26dadec543",
+    "font_sha256": "525979822591a3447cfc49d943d6f7683508e25543407871c0ed8fed05fd2bd9",
+    "renderer_sha256": "8d03ab4d367947db2aa35eb40ca31a483595817fcf96b948c86568ddb21e3456"
+  },
+  "repaired_catalog_ids": [
+    343,
+    344,
+    345,
+    346,
+    347,
+    348,
+    349,
+    350,
+    351,
+    352,
+    353,
+    354,
+    355,
+    356,
+    357,
+    358,
+    359,
+    360,
+    361,
+    362,
+    363,
+    364,
+    365,
+    366,
+    367
+  ]
+}
