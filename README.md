@@ -1,4 +1,4 @@
-# Lensed QSO Catalogue
+# Lensed Quasar Catalogue
 
 A searchable catalogue of 367 lensed quasar/AGN records with survey cutouts, sortable columns, and filters.
 
