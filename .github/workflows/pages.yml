@@ -25,10 +25,14 @@ jobs:
         uses: actions/checkout@v6
       - name: Configure Pages
         uses: actions/configure-pages@v5
+      - name: Prepare website without table downloads
+        run: |
+          mkdir -p "$RUNNER_TEMP/catalogue-site"
+          rsync -a --exclude='*.csv' --exclude='*.xls' --exclude='*.xlsx' site/ "$RUNNER_TEMP/catalogue-site/"
       - name: Upload static website
         uses: actions/upload-pages-artifact@v4
         with:
-          path: site
+          path: ${{ runner.temp }}/catalogue-site
       - name: Deploy to Pages
         id: deployment
         uses: actions/deploy-pages@v4

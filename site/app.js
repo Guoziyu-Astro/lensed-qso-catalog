@@ -3,7 +3,7 @@ const $ = id => document.getElementById(id);
 const state = { records: [], selectedImages: {}, paperImages: {}, columns: [], filtered: [], sort: 'catalog_id', direction: 1, page: 1 };
 const escapeHTML = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const missing = value => value === null || value === undefined || value === '';
-// Display-only translations; source records and downloads remain unchanged.
+// Display-only translations; source records remain unchanged.
 const englishValues = {
   "3椭圆星系复合透镜": "Compound lens with three elliptical galaxies",
   "Agnello和Lemon都在2018，选了月份靠前的": "Both Agnello and Lemon were published in 2018; the earlier month was selected.",
@@ -113,7 +113,6 @@ function render() {
   $('page-range').textContent = state.filtered.length ? `${start+1}–${Math.min(start+size,state.filtered.length)} of ${state.filtered.length}` : 'No results';
   $('page-label').textContent = `${state.page} / ${pages}`;
   $('prev').disabled = state.page === 1; $('next').disabled = state.page === pages;
-  $('export').disabled = state.filtered.length === 0;
   for (const button of document.querySelectorAll('[data-sort]')) {
     button.parentElement.removeAttribute('aria-sort');
     const old = button.querySelector('.sort-arrow'); if (old) old.remove();
@@ -139,22 +138,11 @@ function detail(row) {
   }).join('')}</dl>${r.reference_review && !r.discovery_history ? `<p class="reference-review-note"><b>${r.reference_review.pending ? 'Reference pending' : 'Reference corrected'} (${escapeHTML(r.reference_review.date)})</b><br>${escapeHTML(r.reference_review.note)}</p>` : ''}`;
   $('details').showModal();
 }
-function downloadCSV() {
-  const cell = value => {
-    let s = String(value ?? '');
-    if (/^[=+@]/.test(s) || (/^-/.test(s) && number(s) === null)) s = "'" + s;
-    return '"' + s.replace(/"/g,'""') + '"';
-  };
-  const csv = '\ufeff' + [state.columns, ...state.filtered.map(r=>state.columns.map(c=>r[c]))].map(row=>row.map(cell).join(',')).join('\r\n') + '\r\n';
-  const url = URL.createObjectURL(new Blob([csv],{type:'text/csv;charset=utf-8'}));
-  const a = document.createElement('a'); a.href = url; a.download = `lensed_qso_filtered_${state.filtered.length}.csv`; a.click(); setTimeout(()=>URL.revokeObjectURL(url),1000);
-}
 for (const id of ['search','z-min','z-max']) $(id).addEventListener('input',applyFilters);
 for (const id of ['images','year']) $(id).addEventListener('change',applyFilters);
 $('page-size').addEventListener('change',()=>{state.page=1;render();});
 $('prev').addEventListener('click',()=>{state.page--;render();}); $('next').addEventListener('click',()=>{state.page++;render();});
 $('reset').addEventListener('click',reset); $('empty-reset').addEventListener('click',reset);
-$('export').addEventListener('click',downloadCSV);
 $('copy-citation').addEventListener('click', async () => {
   const text = $('paper-citation').textContent.trim();
   try {
