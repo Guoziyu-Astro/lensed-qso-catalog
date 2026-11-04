@@ -177,7 +177,7 @@ async function init() {
   try {
     const response = await fetch('data/catalog.json?v=redshift-review-20261104-id294'); if(!response.ok)throw new Error(`HTTP ${response.status}`);
     const data = await response.json(); state.records=data.records;state.columns=data.meta.columns;
-    const imagesResponse = await fetch('data/selected_images.json?v=label-v1-e03f121a02d4');
+    const imagesResponse = await fetch('data/selected_images.json?v=quality-review-20261105-row342');
     if(imagesResponse.ok)state.selectedImages=(await imagesResponse.json()).records;
     const papersResponse = await fetch('data/images.json?v=images-20261102-d662d72544bb');
     if (papersResponse.ok) {

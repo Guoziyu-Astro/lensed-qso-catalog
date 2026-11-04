@@ -10560,30 +10560,36 @@
           "elapsed": 1.97
         }
       ],
-      "updated_at": "2026-10-31T10:48:09.982872+00:00",
-      "source": "Legacy Surveys",
-      "source_label": "Legacy DR11",
+      "updated_at": "2026-11-05",
+      "source": "Pan-STARRS",
+      "source_label": "Pan-STARRS",
       "metadata": {
+        "label": "Pan-STARRS",
+        "release": "PS1 stack",
+        "bands": "gri",
         "urls": [
-          "https://www.legacysurvey.org/viewer/jpeg-cutout?ra=358.365167&dec=-6.921456&layer=ls-dr11&pixscale=0.0390625&size=512&bands=grz"
+          "https://ps1images.stsci.edu/cgi-bin/ps1filenames.py?ra=358.365167&dec=-6.921456&filters=gri&type=stack&sep=%2C",
+          "https://ps1images.stsci.edu/cgi-bin/fitscut.cgi?ra=358.365167&dec=-6.921456&size=80&output_size=512&format=jpg&red=%2Frings.v3.skycell%2F1143%2F029%2Frings.v3.skycell.1143.029.stk.i.unconv.fits&green=%2Frings.v3.skycell%2F1143%2F029%2Frings.v3.skycell.1143.029.stk.r.unconv.fits&blue=%2Frings.v3.skycell%2F1143%2F029%2Frings.v3.skycell.1143.029.stk.g.unconv.fits"
         ],
-        "layer": "ls-dr11",
-        "bands": "grz",
-        "label": "Legacy DR11",
-        "release": "DR11",
-        "version_attempts": []
+        "display_note": "Native 512 review found a hard cyan/magenta horizontal band crossing the central source in Legacy DR11. Preserve that original as quality_pending; use the next accepted source in the fixed priority.",
+        "render_style": {
+          "version": "catalogue-label-v1",
+          "config_sha256": "cd24820cab36abb5f8b47bb506104687b8c587279d779083e55c4c26dadec543",
+          "font_sha256": "525979822591a3447cfc49d943d6f7683508e25543407871c0ed8fed05fd2bd9",
+          "renderer_sha256": "8d03ab4d367947db2aa35eb40ca31a483595817fcf96b948c86568ddb21e3456"
+        }
       },
       "quality": {
-        "valid_fraction": 0.9999122619628906,
+        "valid_fraction": 0.9999809265136719,
         "centre_valid_fraction": 1.0,
-        "std": 32.40758995719884,
-        "centre_std": 73.70211604933776,
-        "centre_range": 255.0
+        "std": 27.931925367852934,
+        "centre_std": 69.91562053134962,
+        "centre_range": 238.0
       },
-      "image": "images/selected/row-342.jpg",
-      "thumbnail": "images/selected/row-342-thumb.jpg",
+      "image": "images/review-20261105/row-342.jpg",
+      "thumbnail": "images/review-20261105/row-342-thumb.jpg",
       "higher_priority_errors": false,
-      "raw_sha256": "d82f1271e7a705cf266971ac7972baf807683e9fd255a6cc2b801b43b34048be",
+      "raw_sha256": "68af6082d4b234674e6cb8f20ad0d6bfb8fd0002102a281e28df46aa79462802",
       "space_search": {
         "checked_at": "2026-11-01T09:03:58.775498+00:00",
         "status": "no_usable_space_image",
@@ -10610,7 +10616,95 @@
             "elapsed_s": 0.0
           }
         ]
-      }
+      },
+      "selection_mode": "fixed_priority_after_reviewed_display_rejection",
+      "selection_revision_history": [
+        {
+          "date": "2026-11-05",
+          "reason": "Native 512 review found a hard cyan/magenta horizontal band crossing the central source in Legacy DR11. Preserve that original as quality_pending; use the next accepted source in the fixed priority.",
+          "before": {
+            "row_number": 342,
+            "name": "J2353–0655",
+            "ra": 358.365167,
+            "dec": -6.921456,
+            "fov_arcsec": 20,
+            "status": "ok",
+            "attempts": [
+              {
+                "provider": "HSC",
+                "status": "unavailable",
+                "reason": "flat or unusable central image",
+                "elapsed": 1.13
+              },
+              {
+                "provider": "DES",
+                "status": "unavailable",
+                "reason": "DES SIA returned no observations",
+                "elapsed": 1.72
+              },
+              {
+                "provider": "Legacy Surveys",
+                "status": "accepted",
+                "elapsed": 1.97
+              }
+            ],
+            "updated_at": "2026-10-31T10:48:09.982872+00:00",
+            "source": "Legacy Surveys",
+            "source_label": "Legacy DR11",
+            "metadata": {
+              "urls": [
+                "https://www.legacysurvey.org/viewer/jpeg-cutout?ra=358.365167&dec=-6.921456&layer=ls-dr11&pixscale=0.0390625&size=512&bands=grz"
+              ],
+              "layer": "ls-dr11",
+              "bands": "grz",
+              "label": "Legacy DR11",
+              "release": "DR11",
+              "version_attempts": []
+            },
+            "quality": {
+              "valid_fraction": 0.9999122619628906,
+              "centre_valid_fraction": 1.0,
+              "std": 32.40758995719884,
+              "centre_std": 73.70211604933776,
+              "centre_range": 255.0
+            },
+            "image": "images/selected/row-342.jpg",
+            "thumbnail": "images/selected/row-342-thumb.jpg",
+            "higher_priority_errors": false,
+            "raw_sha256": "d82f1271e7a705cf266971ac7972baf807683e9fd255a6cc2b801b43b34048be",
+            "space_search": {
+              "checked_at": "2026-11-01T09:03:58.775498+00:00",
+              "status": "no_usable_space_image",
+              "attempts": [
+                {
+                  "provider": "HST",
+                  "status": "unavailable",
+                  "products": [],
+                  "candidate_count": 0,
+                  "elapsed_s": 0.0
+                },
+                {
+                  "provider": "JWST",
+                  "status": "unavailable",
+                  "products": [],
+                  "candidate_count": 0,
+                  "elapsed_s": 0.0
+                },
+                {
+                  "provider": "Euclid",
+                  "status": "unavailable",
+                  "products": [],
+                  "candidate_count": 0,
+                  "elapsed_s": 0.0
+                }
+              ]
+            }
+          },
+          "rejected_full_sha256": "826d32497a3c458274205791c73728d81f5c8ec121944eb70ad497d7a17d101f",
+          "quality_status": "quality_pending",
+          "scientific_classification_changed": false
+        }
+      ]
     },
     "196": {
       "row_number": 196,
