@@ -65,13 +65,23 @@ function fillSelect(id, key, descending = false) {
   const empty = document.createElement('option'); empty.value = '__missing'; empty.textContent = 'Not available'; $(id).append(empty);
 }
 function matchSelect(id, record, key) { const value = $(id).value; return !value || (value === '__missing' ? missing(record[key]) : String(record[key]) === value); }
+function measuredSourceRedshift(record) {
+  if (record.redshift_scalar_review?.z_source?.exclude_from_measurement_filters) return null;
+  return number(record.z_source);
+}
+function sourceRedshiftDisplay(record) {
+  const review = record.redshift_scalar_review?.z_source;
+  if (!review?.exclude_from_measurement_filters) return display(record.z_source);
+  const url = safeURL(review.evidence_url);
+  return `${display(record.z_source)} <small title="${escapeHTML(review.note)}">(assumed; not measured)</small>${url ? `<a href="${escapeHTML(url)}" target="_blank" rel="noopener noreferrer" title="${escapeHTML(review.location)}">source</a>` : ''}`;
+}
 function applyFilters() {
   const query = normalize($('search').value);
   const min = number($('z-min').value), max = number($('z-max').value);
   state.filtered = state.records.filter(r => {
     if (query && !['name','alt_name','first discovered','note','ADS link','catalog_id',...historyColumns].some(key => (normalize(r[key]).includes(query) || normalize(englishValue(r[key])).includes(query)))) return false;
     if (!matchSelect('images',r,'n_img') || !matchSelect('year',r,'year')) return false;
-    const z = number(r.z_source);
+    const z = measuredSourceRedshift(r);
     return (min === null && max === null) || (z !== null && (min === null || z >= min) && (max === null || z <= max));
   });
   state.page = 1;
@@ -85,6 +95,7 @@ function render() {
       const image = state.selectedImages[String(record.row_number)];
       return image?.status === 'ok' ? image.source_label : null;
     }
+    if (key === 'z_source') return measuredSourceRedshift(record);
     return ['name', 'first discovered'].includes(key) ? record[key] : number(record[key]);
   };
   state.filtered.sort((a,b) => {
@@ -106,7 +117,7 @@ function render() {
     const paper = state.paperImages[String(r.row_number)];
     const paperURL = safeURL(paper?.reference_url);
     const paperThumbnail = paper ? `<a class="thumbnail-button" href="${escapeHTML(paper.path)}" target="_blank" rel="noopener noreferrer" aria-label="View paper image of ${escapeHTML(r.name)}"><img src="${escapeHTML(paper.path)}" alt="${escapeHTML(r.name)} · ${escapeHTML(paper.reference)}" width="128" height="128" loading="lazy"></a>${paperURL ? `<a class="paper-source" href="${escapeHTML(paperURL)}" target="_blank" rel="noopener noreferrer">${escapeHTML(paper.reference)}</a>` : ''}${r.discovery_history?.identity_warning ? `<span class="paper-source reference-pending">Image association pending</span>` : ''}` : `<span class="missing">${missingImage}</span>`;
-    return `<tr><td>${display(r.catalog_id)}</td><td><button class="record-name" data-row="${r.row_number}">${display(r.name)}</button>${!missing(r.alt_name) ? `<div class="alias" title="${escapeHTML(r.alt_name)}">${escapeHTML(r.alt_name)}</div>` : ''}</td><td class="thumbnail-cell">${thumbnail}</td><td class="thumbnail-cell">${paperThumbnail}</td><td class="numeric">${display(Number.isFinite(r.ra) ? r.ra.toFixed(5) : r.ra)}</td><td class="numeric">${display(Number.isFinite(r.dec) ? r.dec.toFixed(5) : r.dec)}</td><td class="numeric"><span class="redshift-value">${display(r.z_lens)}</span></td><td class="numeric"><span class="redshift-value">${display(r.z_source)}</span></td><td><span class="image-count ${Number(r.n_img) >= 4 ? 'quad' : ''}">${display(r.n_img)}</span></td><td>${display(r.year)}</td><td>${url ? `<a class="citation" href="${escapeHTML(url)}" target="_blank" rel="noopener noreferrer">${display(r['first discovered'] || 'Reference')} <span>↗</span></a>` : `<span class="citation">${display(r['first discovered'])}</span>`}${historySummary(r)}${r.reference_review?.pending ? `<button class="reference-pending" data-row="${r.row_number}" title="${escapeHTML(r.reference_review.note)}">Reference pending</button>` : ''}</td></tr>`;
+    return `<tr><td>${display(r.catalog_id)}</td><td><button class="record-name" data-row="${r.row_number}">${display(r.name)}</button>${!missing(r.alt_name) ? `<div class="alias" title="${escapeHTML(r.alt_name)}">${escapeHTML(r.alt_name)}</div>` : ''}</td><td class="thumbnail-cell">${thumbnail}</td><td class="thumbnail-cell">${paperThumbnail}</td><td class="numeric">${display(Number.isFinite(r.ra) ? r.ra.toFixed(5) : r.ra)}</td><td class="numeric">${display(Number.isFinite(r.dec) ? r.dec.toFixed(5) : r.dec)}</td><td class="numeric"><span class="redshift-value">${display(r.z_lens)}</span></td><td class="numeric"><span class="redshift-value">${sourceRedshiftDisplay(r)}</span></td><td><span class="image-count ${Number(r.n_img) >= 4 ? 'quad' : ''}">${display(r.n_img)}</span></td><td>${display(r.year)}</td><td>${url ? `<a class="citation" href="${escapeHTML(url)}" target="_blank" rel="noopener noreferrer">${display(r['first discovered'] || 'Reference')} <span>↗</span></a>` : `<span class="citation">${display(r['first discovered'])}</span>`}${historySummary(r)}${r.reference_review?.pending ? `<button class="reference-pending" data-row="${r.row_number}" title="${escapeHTML(r.reference_review.note)}">Reference pending</button>` : ''}</td></tr>`;
   }).join('');
   $('result-count').innerHTML = `<b>${state.filtered.length}</b> of ${state.records.length} records`;
   $('empty').hidden = state.filtered.length > 0;
@@ -134,7 +145,7 @@ function detail(row) {
   const labels = {catalog_id:'ID',original_id:'Original ID',name:'System',alt_name:'Aliases',HSC:'HSC', 'DESI-LS':'DESI-LS','paper image':'Publication image field',ra:'RA (deg)',dec:'Dec (deg)',z_lens:'Lens redshift',z_source:'Source redshift',image_sep:'Image separation (as recorded)',n_img:'Number of images', 'first discovered':'Discovery reference',year:'Reference publication year', 'ADS link':'Reference URL',note:'Notes',source_type:'Source type (as recorded)',lens_type:'Lens type (as recorded)'};
   $('detail-content').innerHTML = `<h2>${escapeHTML(r.name)}</h2><p class="detail-subtitle">ID ${escapeHTML(r.catalog_id)}${missing(r.original_id) ? '' : ` · Original ID ${escapeHTML(r.original_id)}`} · Worksheet 1, row ${r.row_number}</p>${discoveryHistory(r)}<dl class="detail-grid">${state.columns.filter(k=>k!=='name' && !historyColumns.includes(k)).map(key => {
     const url = safeURL(r[key]);
-    return `<div class="${['note','ADS link','alt_name'].includes(key) ? 'wide' : ''}"><dt>${escapeHTML(labels[key] || key)}</dt><dd>${url ? `<a href="${escapeHTML(url)}" target="_blank" rel="noopener noreferrer">${escapeHTML(r[key])} ↗</a>` : display(r[key])}</dd></div>`;
+    return `<div class="${['note','ADS link','alt_name'].includes(key) ? 'wide' : ''}"><dt>${escapeHTML(labels[key] || key)}</dt><dd>${key === 'z_source' ? sourceRedshiftDisplay(r) : url ? `<a href="${escapeHTML(url)}" target="_blank" rel="noopener noreferrer">${escapeHTML(r[key])} ↗</a>` : display(r[key])}</dd></div>`;
   }).join('')}</dl>${r.reference_review && !r.discovery_history ? `<p class="reference-review-note"><b>${r.reference_review.pending ? 'Reference pending' : 'Reference corrected'} (${escapeHTML(r.reference_review.date)})</b><br>${escapeHTML(r.reference_review.note)}</p>` : ''}`;
   $('details').showModal();
 }
@@ -164,7 +175,7 @@ for (const button of document.querySelectorAll('[data-sort]')) {
 }
 async function init() {
   try {
-    const response = await fetch('data/catalog.json?v=images-20261102-d662d72544bb'); if(!response.ok)throw new Error(`HTTP ${response.status}`);
+    const response = await fetch('data/catalog.json?v=redshift-review-20261104-id294'); if(!response.ok)throw new Error(`HTTP ${response.status}`);
     const data = await response.json(); state.records=data.records;state.columns=data.meta.columns;
     const imagesResponse = await fetch('data/selected_images.json?v=label-v1-e03f121a02d4');
     if(imagesResponse.ok)state.selectedImages=(await imagesResponse.json()).records;

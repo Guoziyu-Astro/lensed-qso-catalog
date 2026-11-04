@@ -328,6 +328,15 @@
           "previous_source": "VLT/ERIS NIX"
         }
       ]
+    },
+    "derived_redshift_review": {
+      "date": "2026-11-04",
+      "catalog_ids": [
+        294
+      ],
+      "original_scalar_fields_preserved": true,
+      "source_pdf_sha256": "1df57e4165bbb4fb8151aa05f3270eed375dd799566ff400b9a560b70cd5d5e0",
+      "scope": "One exact object; no reclassification, image changes, or review of other redshifts."
     }
   },
   "records": [
@@ -8445,7 +8454,41 @@
       "catalog_id": 294,
       "candidate report": "",
       "confirmation report": "",
-      "discovery review": ""
+      "discovery review": "",
+      "redshift_scalar_review": {
+        "z_source": {
+          "value": null,
+          "previous_value": "2",
+          "previous_value_kind": "fiducial model assumption; not a measurement",
+          "exclude_from_measurement_filters": true,
+          "exclude_from_scalar_fill": true,
+          "evidence_url": "https://arxiv.org/abs/2108.01672v2",
+          "source_pdf_sha256": "1df57e4165bbb4fb8151aa05f3270eed375dd799566ff400b9a560b70cd5d5e0",
+          "location": "Table 3, PDF page 10, footnote e; Table 2, PDF page 8",
+          "note": "The original source scalar 2 is explicitly a fiducial adopted value, not a measured redshift. Table 2 photo-z 0.35 is foreground-galaxy contaminated and is not a source/lens redshift measurement.",
+          "original_source_cells_preserved": true
+        }
+      },
+      "redshift_reports": [
+        {
+          "value": 2.0,
+          "kind": "fiducial model assumption; not a measurement",
+          "scope": "adopted background source in the lens interpretation",
+          "url": "https://arxiv.org/abs/2108.01672v2",
+          "location": "Table 3 footnote e, PDF page 10",
+          "source_pdf_sha256": "1df57e4165bbb4fb8151aa05f3270eed375dd799566ff400b9a560b70cd5d5e0",
+          "exclude_from_measurement_filters": true
+        },
+        {
+          "value": 0.35,
+          "kind": "photometric estimate; foreground-contaminated",
+          "scope": "unresolved selected target; not a source/lens redshift",
+          "url": "https://arxiv.org/abs/2108.01672v2",
+          "location": "Table 2 PDF page 8; contamination warning Table 3 footnote e PDF page 10",
+          "source_pdf_sha256": "1df57e4165bbb4fb8151aa05f3270eed375dd799566ff400b9a560b70cd5d5e0",
+          "exclude_from_measurement_filters": true
+        }
+      ]
     },
     {
       "row_number": 296,
