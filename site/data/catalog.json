@@ -358,6 +358,29 @@
         "role": "He et al. 2025 author component catalogue: 16 photometric estimates and one previously published spectroscopic association. Additional measurement provenance only.",
         "canonical_fields_preserved": true,
         "existing_images_preserved": true
+      },
+      {
+        "date": "2026-11-05",
+        "catalog_ids": [
+          235
+        ],
+        "typed_reports": 2,
+        "source_patch_sha256": "15c7753b9bcfadb16fe7144c8e0fa02f9456abb705107168e25ee74a70028ba3",
+        "role": "MGQPC I compiled known member A redshift and MGQPC II adopted B member photometric estimate",
+        "canonical_fields_preserved": true,
+        "existing_images_preserved": true
+      },
+      {
+        "date": "2026-11-05",
+        "catalog_ids": [
+          17,
+          78
+        ],
+        "typed_reports": 3,
+        "source_patch_sha256": "2bdc1ee65f413a7c2c4e880fbb2b6d34a3ba9288de629455f6ffe99e8d84d0cc",
+        "role": "Source spectroscopy. One direct background source redshift adopted and one system retains parallel reports.",
+        "existing_images_preserved": true,
+        "original_workbook_scalars_preserved": true
       }
     ]
   },
@@ -773,7 +796,7 @@
       "ra": "22.80585",
       "dec": "43.97032",
       "z_lens": null,
-      "z_source": null,
+      "z_source": 3.124,
       "image_sep": "0.542",
       "n_img": 4,
       "first discovered": "Phillips et al. 2000",
@@ -785,7 +808,47 @@
       "catalog_id": 17,
       "candidate report": "",
       "confirmation report": "",
-      "discovery review": ""
+      "discovery review": "",
+      "followup_measurements": [
+        {
+          "value": 3.124,
+          "reported_text": "3.1240 ± 0.0042",
+          "uncertainty": 0.0042,
+          "label": "McKean et al. 2004",
+          "scope": "background quasar source",
+          "redshift_role": "source",
+          "kind": "spectroscopic source redshift",
+          "method": "Keck I LRIS optical spectroscopy. Gaussian fits on the unsmoothed spectrum, source Lyα at 5014.8 Å.",
+          "location": "§4.1; Fig. 1 PDF p4 / journal p170; Table 2 PDF p5 / journal p171",
+          "note": "Authors report z = 3.1240 ± 0.0042 from the Keck I LRIS quasar spectrum. Possible C IV at 6383.5 Å is tentative. The distinct 7994.8 Å deflector line has three proposed identifications and is outside this source-z proposal.",
+          "url": "https://doi.org/10.1111/j.1365-2966.2004.07630.x",
+          "source_asset_url": "https://articles.adsabs.harvard.edu/pdf/2004MNRAS.350..167M",
+          "source_asset_sha256": "22f9a5091a7fa9a99f01f9c6216c4a25cc3030a7602d9e3ad4b8f050df62ec05",
+          "scalar_fill_allowed": false
+        }
+      ],
+      "followup_measurement_sources": [
+        {
+          "label": "McKean et al. 2004",
+          "url": "https://doi.org/10.1111/j.1365-2966.2004.07630.x",
+          "role": "Keck I LRIS optical spectroscopy. Gaussian fits on the unsmoothed spectrum, source Lyα at 5014.8 Å.",
+          "source_asset_sha256": "22f9a5091a7fa9a99f01f9c6216c4a25cc3030a7602d9e3ad4b8f050df62ec05"
+        }
+      ],
+      "redshift_scalar_review": {
+        "z_source": {
+          "value": 3.124,
+          "previous_value": null,
+          "kind": "spectroscopic source redshift",
+          "uncertainty": 0.0042,
+          "reported_text": "3.1240 ± 0.0042",
+          "evidence_url": "https://doi.org/10.1111/j.1365-2966.2004.07630.x",
+          "location": "§4.1; Fig. 1 PDF p4 / journal p170; Table 2 PDF p5 / journal p171",
+          "source_pdf_sha256": "22f9a5091a7fa9a99f01f9c6216c4a25cc3030a7602d9e3ad4b8f050df62ec05",
+          "original_source_cells_preserved": true,
+          "exclude_from_measurement_filters": false
+        }
+      }
     },
     {
       "row_number": 19,
@@ -2440,7 +2503,55 @@
       "catalog_id": 78,
       "candidate report": "",
       "confirmation report": "",
-      "discovery review": ""
+      "discovery review": "",
+      "followup_measurements": [
+        {
+          "value": 2.838,
+          "reported_text": "2.838",
+          "uncertainty": null,
+          "label": "Schmidt et al. 2023, NTT result",
+          "scope": "background quasar source",
+          "redshift_role": "source",
+          "kind": "spectroscopic source redshift",
+          "method": "NTT quasar optical spectrum from the December 2016 Anguita observing run.",
+          "location": "§2.2.5 DES J0530−3730, pinned Schmidt author PDF p3; independently recounted in Scialpi v2 §5.4.1 PDF p13",
+          "note": "Schmidt quotes the NTT value without an uncertainty. The separate Scialpi Table 1 entry is 2.858.",
+          "url": "https://doi.org/10.1093/mnras/stac2235",
+          "source_asset_url": "https://arxiv.org/pdf/2206.04696",
+          "source_asset_sha256": "9393929deafdbd7cfd29b76aad6371295c26b7f89aa643dfa83db5f46c111a56",
+          "scalar_fill_allowed": false
+        },
+        {
+          "value": 2.858,
+          "reported_text": "2.858",
+          "uncertainty": null,
+          "label": "Scialpi et al. 2026, MUSE sample",
+          "scope": "background quasar source",
+          "redshift_role": "source",
+          "kind": "spectroscopic source redshift",
+          "method": "Redshift column for the MUSE-NFM observed target in Scialpi et al. v2. No separate object-level uncertainty or line fitting method stated for this table entry.",
+          "location": "Table 1 J0530−3730 PDF p6; section 2.1 refers to the redshift table; §5.4.1 PDF p13 discusses the NTT lineage",
+          "note": "Table and object discussion give separate values. Retain both exact reports. The two measured absorption-system redshifts in §5.4.1 have different physical scope.",
+          "url": "https://doi.org/10.1051/0004-6361/202558548",
+          "source_asset_url": "https://arxiv.org/pdf/2512.11960v2",
+          "source_asset_sha256": "fd64f92f26df08ae13f36f89cb050f0c8e957e243661fda54b9acd2bdbcdf773",
+          "scalar_fill_allowed": false
+        }
+      ],
+      "followup_measurement_sources": [
+        {
+          "label": "Schmidt et al. 2023, NTT result",
+          "url": "https://doi.org/10.1093/mnras/stac2235",
+          "role": "NTT quasar optical spectrum from the December 2016 Anguita observing run.",
+          "source_asset_sha256": "9393929deafdbd7cfd29b76aad6371295c26b7f89aa643dfa83db5f46c111a56"
+        },
+        {
+          "label": "Scialpi et al. 2026, MUSE sample",
+          "url": "https://doi.org/10.1051/0004-6361/202558548",
+          "role": "Redshift column for the MUSE-NFM observed target in Scialpi et al. v2. No separate object-level uncertainty or line fitting method stated for this table entry.",
+          "source_asset_sha256": "fd64f92f26df08ae13f36f89cb050f0c8e957e243661fda54b9acd2bdbcdf773"
+        }
+      ]
     },
     {
       "row_number": 80,
@@ -7247,7 +7358,60 @@
       "catalog_id": 235,
       "candidate report": "",
       "confirmation report": "",
-      "discovery review": ""
+      "discovery review": "",
+      "followup_measurements": [
+        {
+          "scope": "component A",
+          "value": 2.3979,
+          "kind": "known-quasar catalogue redshift compiled by the authors",
+          "label": "Chen et al. 2026 MGQPC I zA",
+          "url": "https://arxiv.org/abs/2504.17777v2",
+          "location": "Table 3 and CDS J/A+A/707/A30/mgqpc, author System J155057.281+022146.524, zA",
+          "source_table": "CDS J/A+A/707/A30/mgqpc",
+          "source_table_row": 2865,
+          "source_table_sha256": "d4b361e2a36513e9ed1837b45768245d03998b99ab8485b4f6b46c36eddcce0b",
+          "original_column": "zA",
+          "author_system_name": "J155057.281+022146.524",
+          "component_ra": 237.7383942,
+          "component_dec": 2.362940406,
+          "scalar_fill_allowed": false,
+          "uncertainty": null,
+          "note": "The MGQPC authors compile the known member A redshift from MQCv8 and SIMBAD. It is already carried in the private catalogue as a typed report. The public detail view adds the same provenance."
+        },
+        {
+          "scope": "component B",
+          "value": 2.387,
+          "kind": "photometric redshift adopted by the authors",
+          "label": "Zhu et al. 2026 MGQPC II zpB",
+          "url": "https://arxiv.org/abs/2605.09450v1",
+          "location": "Appendix B Table B.1, physical PDF page 13, row 16, J155057.281+022146.524, zpB",
+          "source_table": "Appendix B Table B.1 in versioned author PDF",
+          "source_table_row": 16,
+          "source_table_sha256": "c412b1ff959fa1fff9cb95e7a2035f706c4656d3162e098ea44c19dfa5016cf1",
+          "original_column": "zpB",
+          "author_system_name": "J155057.281+022146.524",
+          "component_ra": 237.7389507,
+          "component_dec": 2.362906533,
+          "scalar_fill_allowed": false,
+          "uncertainty": null,
+          "uncertainty_status": "The author table does not give a numerical uncertainty for this adopted estimate.",
+          "note": "B member photometric estimate at the precision reported in Table B.1. Existing source redshift 2.3986 and confirmed image count 2 are preserved."
+        }
+      ],
+      "followup_measurement_sources": [
+        {
+          "label": "Chen et al. 2026 MGQPC I official author catalogue",
+          "url": "https://cdsarc.cds.unistra.fr/viz-bin/cat/J/A%2BA/707/A30",
+          "role": "Compiled known-quasar component A redshift",
+          "author_table_sha256": "d4b361e2a36513e9ed1837b45768245d03998b99ab8485b4f6b46c36eddcce0b"
+        },
+        {
+          "label": "Zhu et al. 2026 MGQPC II author Appendix B",
+          "url": "https://arxiv.org/abs/2605.09450v1",
+          "role": "Adopted component B photometric redshift",
+          "author_table_sha256": "c412b1ff959fa1fff9cb95e7a2035f706c4656d3162e098ea44c19dfa5016cf1"
+        }
+      ]
     },
     {
       "row_number": 237,

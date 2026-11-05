@@ -198,7 +198,7 @@ for (const button of document.querySelectorAll('[data-sort]')) {
 }
 async function init() {
   try {
-    const response = await fetch('data/catalog.json?v=followup-review-20261105-41534e3fc898'); if(!response.ok)throw new Error(`HTTP ${response.status}`);
+    const response = await fetch('data/catalog.json?v=source-spectroscopy-20261105-2bdc1ee65f41'); if(!response.ok)throw new Error(`HTTP ${response.status}`);
     const data = await response.json(); state.records=data.records;state.columns=data.meta.columns;
     const imagesResponse = await fetch('data/selected_images.json?v=quality-review-20261105-row342');
     if(imagesResponse.ok)state.selectedImages=(await imagesResponse.json()).records;
