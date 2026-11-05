@@ -381,6 +381,18 @@
         "role": "Source spectroscopy. One direct background source redshift adopted and one system retains parallel reports.",
         "existing_images_preserved": true,
         "original_workbook_scalars_preserved": true
+      },
+      {
+        "date": "2026-11-05",
+        "catalog_ids": [
+          82,
+          294
+        ],
+        "typed_reports": 3,
+        "source_patch_sha256": "e5ecc11e64a2349a6333c2e9ca9966d87fc3dbc348f9558aa139992ac10416d0",
+        "role": "Source spectroscopy. One measured background source redshift adopted and a second system retains separate HST/STIS and Gemini/GMOS values.",
+        "existing_images_preserved": true,
+        "original_workbook_scalars_preserved": true
       }
     ]
   },
@@ -2639,7 +2651,7 @@
       "ra": "90.56684",
       "dec": "-43.59433",
       "z_lens": null,
-      "z_source": null,
+      "z_source": 2.92,
       "image_sep": null,
       "n_img": 2,
       "first discovered": "Dawes et al. 2023",
@@ -2651,7 +2663,48 @@
       "catalog_id": 82,
       "candidate report": "",
       "confirmation report": "",
-      "discovery review": ""
+      "discovery review": "",
+      "followup_measurements": [
+        {
+          "kind": "spectroscopic source redshift",
+          "redshift_role": "source",
+          "scope": "background quasar source",
+          "value": 2.92,
+          "reported_text": "≈2.92",
+          "approximate": true,
+          "uncertainty": null,
+          "label": "Dux et al. 2025, ESO EFOSC2",
+          "url": "https://doi.org/10.1051/0004-6361/202553807",
+          "location": "Appendix A DES J0602−4335 and ESO proposal footnote, PDF p17; Table 1 PDF p3",
+          "method": "Spectroscopic redshift from archival ESO NTT EFOSC2 spectra, ESO program 0100.A-0297(B).",
+          "note": "The same nominal z=2.92 is printed as 2.92(1) in Appendix A and 2.92(5) in Table 1. The catalogue adopts the nominal redshift without adopting either conflicting uncertainty. Brady et al. 2026 §2.1.2 independently cites Dux and adopts 2.92. The earlier low-S/N SNIFS result in Dawes et al. 2023 Fig. 6 is a different observation.",
+          "source_asset_url": "https://arxiv.org/pdf/2504.02932v1",
+          "source_asset_sha256": "88856ba38c5a332352fdba0e53c791550fa02607f8ac78c5df6e99ce2bd36e00",
+          "scalar_fill_allowed": false
+        }
+      ],
+      "followup_measurement_sources": [
+        {
+          "label": "Dux et al. 2025, ESO EFOSC2",
+          "url": "https://doi.org/10.1051/0004-6361/202553807",
+          "source_asset_sha256": "88856ba38c5a332352fdba0e53c791550fa02607f8ac78c5df6e99ce2bd36e00",
+          "role": "Spectroscopic redshift from archival ESO NTT EFOSC2 spectra, ESO program 0100.A-0297(B)."
+        }
+      ],
+      "redshift_scalar_review": {
+        "z_source": {
+          "value": 2.92,
+          "previous_value": null,
+          "kind": "spectroscopic source redshift",
+          "uncertainty": null,
+          "reported_text": "≈2.92",
+          "evidence_url": "https://doi.org/10.1051/0004-6361/202553807",
+          "location": "Appendix A DES J0602−4335 and ESO proposal footnote, PDF p17; Table 1 PDF p3",
+          "source_pdf_sha256": "88856ba38c5a332352fdba0e53c791550fa02607f8ac78c5df6e99ce2bd36e00",
+          "original_source_cells_preserved": true,
+          "exclude_from_measurement_filters": false
+        }
+      }
     },
     {
       "row_number": 84,
@@ -9065,6 +9118,56 @@
           "location": "Table 2 PDF page 8; contamination warning Table 3 footnote e PDF page 10",
           "source_pdf_sha256": "1df57e4165bbb4fb8151aa05f3270eed375dd799566ff400b9a560b70cd5d5e0",
           "exclude_from_measurement_filters": true
+        }
+      ],
+      "followup_measurements": [
+        {
+          "kind": "spectroscopic source redshift",
+          "redshift_role": "source",
+          "scope": "background quasar source",
+          "value": 2.512,
+          "reported_text": "2.512",
+          "approximate": false,
+          "uncertainty": null,
+          "label": "Chen et al. 2025, HST/STIS",
+          "url": "https://doi.org/10.3847/1538-4357/ade23b",
+          "location": "WISE J2218−3322 in Figure 2 PDF p6; Figure 4 PDF p9; Table 2 PDF p10",
+          "method": "Source redshift labelled on the HST/STIS G750L optical spectral panel; observation 2022-09-05.",
+          "note": "Table 1 reports median S/N per resolution element of 1 and 0.3. Figure 4 and Table 2 repeat the nominal value. The Gemini/GMOS spectrum and object text instead give z=2.550. Preserve both reported values.",
+          "source_asset_url": "https://arxiv.org/pdf/2409.16351v2",
+          "source_asset_sha256": "ab8cc469fadf1b792c0905c00235d735d74e33eb3e2b5df8b5be59b2d826076d",
+          "scalar_fill_allowed": false
+        },
+        {
+          "kind": "spectroscopic source redshift",
+          "redshift_role": "source",
+          "scope": "background quasar source",
+          "value": 2.55,
+          "reported_text": "2.550",
+          "approximate": false,
+          "uncertainty": null,
+          "label": "Chen et al. 2025, Gemini/GMOS",
+          "url": "https://doi.org/10.3847/1538-4357/ade23b",
+          "location": "WISE J2218−3322 in Figure 3 PDF p7 and §3.2.2 PDF p8",
+          "method": "Gemini/GMOS R150 optical spectroscopy identifies background quasar C IV emission; observation 2022-11-17.",
+          "note": "Table 1 reports median S/N per resolution element of 16 and 10. Liu et al. 2026 §2.1 cites this value. Chen et al. also give z=2.512 on their HST/STIS panel. The historic z=2 was only a fiducial.",
+          "source_asset_url": "https://arxiv.org/pdf/2409.16351v2",
+          "source_asset_sha256": "ab8cc469fadf1b792c0905c00235d735d74e33eb3e2b5df8b5be59b2d826076d",
+          "scalar_fill_allowed": false
+        }
+      ],
+      "followup_measurement_sources": [
+        {
+          "label": "Chen et al. 2025, HST/STIS",
+          "url": "https://doi.org/10.3847/1538-4357/ade23b",
+          "source_asset_sha256": "ab8cc469fadf1b792c0905c00235d735d74e33eb3e2b5df8b5be59b2d826076d",
+          "role": "Source redshift labelled on the HST/STIS G750L optical spectral panel; observation 2022-09-05."
+        },
+        {
+          "label": "Chen et al. 2025, Gemini/GMOS",
+          "url": "https://doi.org/10.3847/1538-4357/ade23b",
+          "source_asset_sha256": "ab8cc469fadf1b792c0905c00235d735d74e33eb3e2b5df8b5be59b2d826076d",
+          "role": "Gemini/GMOS R150 optical spectroscopy identifies background quasar C IV emission; observation 2022-11-17."
         }
       ]
     },
