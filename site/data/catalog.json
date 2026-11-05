@@ -337,7 +337,29 @@
       "original_scalar_fields_preserved": true,
       "source_pdf_sha256": "1df57e4165bbb4fb8151aa05f3270eed375dd799566ff400b9a560b70cd5d5e0",
       "scope": "One exact object; no reclassification, image changes, or review of other redshifts."
-    }
+    },
+    "followup_measurement_reviews": [
+      {
+        "date": "2026-11-05",
+        "catalog_ids": [
+          118,
+          128,
+          153,
+          156,
+          170,
+          179,
+          201,
+          230,
+          316,
+          323
+        ],
+        "typed_reports": 17,
+        "source_patch_sha256": "41534e3fc898394f6815f6f3116160dc71a9fe6faab29589a5e7af46ca417010",
+        "role": "He et al. 2025 author component catalogue: 16 photometric estimates and one previously published spectroscopic association. Additional measurement provenance only.",
+        "canonical_fields_preserved": true,
+        "existing_images_preserved": true
+      }
+    ]
   },
   "records": [
     {
@@ -3522,7 +3544,65 @@
         "candidate_note": "",
         "confirmation_note": "Independent confirmation not established in this review. Krone-Martins et al. 2019 (preprint) reports a lens identification from unresolved spectroscopy: https://arxiv.org/abs/1912.08977",
         "name": "J0907+0003"
-      }
+      },
+      "followup_measurements": [
+        {
+          "scope": "catalogue component 1",
+          "value": 1.3,
+          "kind": "machine-learning photometric estimate (GaZNet); candidate component nature unverified",
+          "label": "He et al. 2025, author Table 4 photo-z",
+          "url": "https://arxiv.org/abs/2409.17471v2",
+          "location": "Author Table4.csv row 136",
+          "author_system_name": "J0907+0003",
+          "component_index_in_author_table": 1,
+          "component_ra": 136.793675,
+          "component_dec": 0.056034,
+          "source_table": "Table4.csv",
+          "source_table_row": 136,
+          "source_table_sha256": "f9073946a2ee17f687792174deda9e796c1354aff839ec61afacd7828e99bd8d",
+          "original_column": "photo-z",
+          "scalar_fill_allowed": false,
+          "note": "Per-component author-catalogue report. Does not establish that the components share a background quasar; preserve source/foreground ambiguity.",
+          "measurement_origin_role": "He2025 author-table per-component GaZNet photometric estimate; not spectroscopic confirmation",
+          "method_reference": {
+            "label": "Li et al. 2022, GaZNet",
+            "url": "https://doi.org/10.1051/0004-6361/202244081",
+            "role": "method only, not object discovery reference"
+          }
+        },
+        {
+          "scope": "catalogue component 2",
+          "value": 1.3,
+          "kind": "machine-learning photometric estimate (GaZNet); candidate component nature unverified",
+          "label": "He et al. 2025, author Table 4 photo-z",
+          "url": "https://arxiv.org/abs/2409.17471v2",
+          "location": "Author Table4.csv row 137",
+          "author_system_name": "J0907+0003",
+          "component_index_in_author_table": 2,
+          "component_ra": 136.793753,
+          "component_dec": 0.0558,
+          "source_table": "Table4.csv",
+          "source_table_row": 137,
+          "source_table_sha256": "f9073946a2ee17f687792174deda9e796c1354aff839ec61afacd7828e99bd8d",
+          "original_column": "photo-z",
+          "scalar_fill_allowed": false,
+          "note": "Per-component author-catalogue report. Does not establish that the components share a background quasar; preserve source/foreground ambiguity.",
+          "measurement_origin_role": "He2025 author-table per-component GaZNet photometric estimate; not spectroscopic confirmation",
+          "method_reference": {
+            "label": "Li et al. 2022, GaZNet",
+            "url": "https://doi.org/10.1051/0004-6361/202244081",
+            "role": "method only, not object discovery reference"
+          }
+        }
+      ],
+      "followup_measurement_sources": [
+        {
+          "label": "He et al. 2025 author component catalogue",
+          "url": "https://arxiv.org/abs/2409.17471v2",
+          "role": "Per-component measurements and compiled original-source associations; not discovery or confirmation",
+          "author_table_sha256": "f9073946a2ee17f687792174deda9e796c1354aff839ec61afacd7828e99bd8d"
+        }
+      ]
     },
     {
       "row_number": 120,
@@ -3772,7 +3852,65 @@
       "catalog_id": 128,
       "candidate report": "",
       "confirmation report": "",
-      "discovery review": ""
+      "discovery review": "",
+      "followup_measurements": [
+        {
+          "scope": "catalogue component 1",
+          "value": 0.65,
+          "kind": "machine-learning photometric estimate (GaZNet); candidate component nature unverified",
+          "label": "He et al. 2025, author Table 4 photo-z",
+          "url": "https://arxiv.org/abs/2409.17471v2",
+          "location": "Author Table4.csv row 151",
+          "author_system_name": "J0924+0219",
+          "component_index_in_author_table": 1,
+          "component_ra": 141.232598,
+          "component_dec": 2.323271,
+          "source_table": "Table4.csv",
+          "source_table_row": 151,
+          "source_table_sha256": "f9073946a2ee17f687792174deda9e796c1354aff839ec61afacd7828e99bd8d",
+          "original_column": "photo-z",
+          "scalar_fill_allowed": false,
+          "note": "Per-component author-catalogue report. Does not establish that the components share a background quasar; preserve source/foreground ambiguity.",
+          "measurement_origin_role": "He2025 author-table per-component GaZNet photometric estimate; not spectroscopic confirmation",
+          "method_reference": {
+            "label": "Li et al. 2022, GaZNet",
+            "url": "https://doi.org/10.1051/0004-6361/202244081",
+            "role": "method only, not object discovery reference"
+          }
+        },
+        {
+          "scope": "catalogue component 2",
+          "value": 0.66,
+          "kind": "machine-learning photometric estimate (GaZNet); candidate component nature unverified",
+          "label": "He et al. 2025, author Table 4 photo-z",
+          "url": "https://arxiv.org/abs/2409.17471v2",
+          "location": "Author Table4.csv row 152",
+          "author_system_name": "J0924+0219",
+          "component_index_in_author_table": 2,
+          "component_ra": 141.232582,
+          "component_dec": 2.323726,
+          "source_table": "Table4.csv",
+          "source_table_row": 152,
+          "source_table_sha256": "f9073946a2ee17f687792174deda9e796c1354aff839ec61afacd7828e99bd8d",
+          "original_column": "photo-z",
+          "scalar_fill_allowed": false,
+          "note": "Per-component author-catalogue report. Does not establish that the components share a background quasar; preserve source/foreground ambiguity.",
+          "measurement_origin_role": "He2025 author-table per-component GaZNet photometric estimate; not spectroscopic confirmation",
+          "method_reference": {
+            "label": "Li et al. 2022, GaZNet",
+            "url": "https://doi.org/10.1051/0004-6361/202244081",
+            "role": "method only, not object discovery reference"
+          }
+        }
+      ],
+      "followup_measurement_sources": [
+        {
+          "label": "He et al. 2025 author component catalogue",
+          "url": "https://arxiv.org/abs/2409.17471v2",
+          "role": "Per-component measurements and compiled original-source associations; not discovery or confirmation",
+          "author_table_sha256": "f9073946a2ee17f687792174deda9e796c1354aff839ec61afacd7828e99bd8d"
+        }
+      ]
     },
     {
       "row_number": 130,
@@ -4568,7 +4706,41 @@
       "catalog_id": 153,
       "candidate report": "",
       "confirmation report": "",
-      "discovery review": ""
+      "discovery review": "",
+      "followup_measurements": [
+        {
+          "scope": "catalogue component 1",
+          "value": 0.35,
+          "kind": "machine-learning photometric estimate (GaZNet); candidate component nature unverified",
+          "label": "He et al. 2025, author Table 4 photo-z",
+          "url": "https://arxiv.org/abs/2409.17471v2",
+          "location": "Author Table4.csv row 160",
+          "author_system_name": "J1037+0018",
+          "component_index_in_author_table": 1,
+          "component_ra": 159.366662,
+          "component_dec": 0.305736,
+          "source_table": "Table4.csv",
+          "source_table_row": 160,
+          "source_table_sha256": "f9073946a2ee17f687792174deda9e796c1354aff839ec61afacd7828e99bd8d",
+          "original_column": "photo-z",
+          "scalar_fill_allowed": false,
+          "note": "Per-component author-catalogue report. Does not establish that the components share a background quasar; preserve source/foreground ambiguity.",
+          "measurement_origin_role": "He2025 author-table per-component GaZNet photometric estimate; not spectroscopic confirmation",
+          "method_reference": {
+            "label": "Li et al. 2022, GaZNet",
+            "url": "https://doi.org/10.1051/0004-6361/202244081",
+            "role": "method only, not object discovery reference"
+          }
+        }
+      ],
+      "followup_measurement_sources": [
+        {
+          "label": "He et al. 2025 author component catalogue",
+          "url": "https://arxiv.org/abs/2409.17471v2",
+          "role": "Per-component measurements and compiled original-source associations; not discovery or confirmation",
+          "author_table_sha256": "f9073946a2ee17f687792174deda9e796c1354aff839ec61afacd7828e99bd8d"
+        }
+      ]
     },
     {
       "row_number": 155,
@@ -4643,7 +4815,65 @@
       "catalog_id": 156,
       "candidate report": "",
       "confirmation report": "",
-      "discovery review": ""
+      "discovery review": "",
+      "followup_measurements": [
+        {
+          "scope": "catalogue component 1",
+          "value": 0.14,
+          "kind": "machine-learning photometric estimate (GaZNet); candidate component nature unverified",
+          "label": "He et al. 2025, author Table 4 photo-z",
+          "url": "https://arxiv.org/abs/2409.17471v2",
+          "location": "Author Table4.csv row 163",
+          "author_system_name": "J1042+0023",
+          "component_index_in_author_table": 1,
+          "component_ra": 160.655244,
+          "component_dec": 0.383727,
+          "source_table": "Table4.csv",
+          "source_table_row": 163,
+          "source_table_sha256": "f9073946a2ee17f687792174deda9e796c1354aff839ec61afacd7828e99bd8d",
+          "original_column": "photo-z",
+          "scalar_fill_allowed": false,
+          "note": "Per-component author-catalogue report. Does not establish that the components share a background quasar; preserve source/foreground ambiguity.",
+          "measurement_origin_role": "He2025 author-table per-component GaZNet photometric estimate; not spectroscopic confirmation",
+          "method_reference": {
+            "label": "Li et al. 2022, GaZNet",
+            "url": "https://doi.org/10.1051/0004-6361/202244081",
+            "role": "method only, not object discovery reference"
+          }
+        },
+        {
+          "scope": "catalogue component 2",
+          "value": 0.16,
+          "kind": "machine-learning photometric estimate (GaZNet); candidate component nature unverified",
+          "label": "He et al. 2025, author Table 4 photo-z",
+          "url": "https://arxiv.org/abs/2409.17471v2",
+          "location": "Author Table4.csv row 164",
+          "author_system_name": "J1042+0023",
+          "component_index_in_author_table": 2,
+          "component_ra": 160.655127,
+          "component_dec": 0.38409,
+          "source_table": "Table4.csv",
+          "source_table_row": 164,
+          "source_table_sha256": "f9073946a2ee17f687792174deda9e796c1354aff839ec61afacd7828e99bd8d",
+          "original_column": "photo-z",
+          "scalar_fill_allowed": false,
+          "note": "Per-component author-catalogue report. Does not establish that the components share a background quasar; preserve source/foreground ambiguity.",
+          "measurement_origin_role": "He2025 author-table per-component GaZNet photometric estimate; not spectroscopic confirmation",
+          "method_reference": {
+            "label": "Li et al. 2022, GaZNet",
+            "url": "https://doi.org/10.1051/0004-6361/202244081",
+            "role": "method only, not object discovery reference"
+          }
+        }
+      ],
+      "followup_measurement_sources": [
+        {
+          "label": "He et al. 2025 author component catalogue",
+          "url": "https://arxiv.org/abs/2409.17471v2",
+          "role": "Per-component measurements and compiled original-source associations; not discovery or confirmation",
+          "author_table_sha256": "f9073946a2ee17f687792174deda9e796c1354aff839ec61afacd7828e99bd8d"
+        }
+      ]
     },
     {
       "row_number": 158,
@@ -5054,7 +5284,41 @@
         "candidate_note": "",
         "confirmation_note": "Known lens in the 2004 public listing; original confirmation publication not located. Later resolved spectra: Sluse et al. 2012.",
         "name": "SDSSJ1138+0314"
-      }
+      },
+      "followup_measurements": [
+        {
+          "scope": "catalogue component 1",
+          "value": 0.25,
+          "kind": "machine-learning photometric estimate (GaZNet); candidate component nature unverified",
+          "label": "He et al. 2025, author Table 4 photo-z",
+          "url": "https://arxiv.org/abs/2409.17471v2",
+          "location": "Author Table4.csv row 204",
+          "author_system_name": "J1138+0314",
+          "component_index_in_author_table": 1,
+          "component_ra": 174.515571,
+          "component_dec": 3.249472,
+          "source_table": "Table4.csv",
+          "source_table_row": 204,
+          "source_table_sha256": "f9073946a2ee17f687792174deda9e796c1354aff839ec61afacd7828e99bd8d",
+          "original_column": "photo-z",
+          "scalar_fill_allowed": false,
+          "note": "Per-component author-catalogue report. Does not establish that the components share a background quasar; preserve source/foreground ambiguity.",
+          "measurement_origin_role": "He2025 author-table per-component GaZNet photometric estimate; not spectroscopic confirmation",
+          "method_reference": {
+            "label": "Li et al. 2022, GaZNet",
+            "url": "https://doi.org/10.1051/0004-6361/202244081",
+            "role": "method only, not object discovery reference"
+          }
+        }
+      ],
+      "followup_measurement_sources": [
+        {
+          "label": "He et al. 2025 author component catalogue",
+          "url": "https://arxiv.org/abs/2409.17471v2",
+          "role": "Per-component measurements and compiled original-source associations; not discovery or confirmation",
+          "author_table_sha256": "f9073946a2ee17f687792174deda9e796c1354aff839ec61afacd7828e99bd8d"
+        }
+      ]
     },
     {
       "row_number": 172,
@@ -5338,7 +5602,65 @@
         "candidate_note": "",
         "confirmation_note": "Already reported as a lens by Pindor 2003; original confirmation manuscript not located. Later resolved spectra: Sluse et al. 2012.",
         "name": "SDSSJ1226-0006"
-      }
+      },
+      "followup_measurements": [
+        {
+          "scope": "catalogue component 1",
+          "value": 0.19,
+          "kind": "machine-learning photometric estimate (GaZNet); candidate component nature unverified",
+          "label": "He et al. 2025, author Table 4 photo-z",
+          "url": "https://arxiv.org/abs/2409.17471v2",
+          "location": "Author Table4.csv row 251",
+          "author_system_name": "J1226-0006",
+          "component_index_in_author_table": 1,
+          "component_ra": 186.533437,
+          "component_dec": -0.100639,
+          "source_table": "Table4.csv",
+          "source_table_row": 251,
+          "source_table_sha256": "f9073946a2ee17f687792174deda9e796c1354aff839ec61afacd7828e99bd8d",
+          "original_column": "photo-z",
+          "scalar_fill_allowed": false,
+          "note": "Per-component author-catalogue report. Does not establish that the components share a background quasar; preserve source/foreground ambiguity.",
+          "measurement_origin_role": "He2025 author-table per-component GaZNet photometric estimate; not spectroscopic confirmation",
+          "method_reference": {
+            "label": "Li et al. 2022, GaZNet",
+            "url": "https://doi.org/10.1051/0004-6361/202244081",
+            "role": "method only, not object discovery reference"
+          }
+        },
+        {
+          "scope": "catalogue component 2",
+          "value": 0.45,
+          "kind": "machine-learning photometric estimate (GaZNet); candidate component nature unverified",
+          "label": "He et al. 2025, author Table 4 photo-z",
+          "url": "https://arxiv.org/abs/2409.17471v2",
+          "location": "Author Table4.csv row 252",
+          "author_system_name": "J1226-0006",
+          "component_index_in_author_table": 2,
+          "component_ra": 186.533757,
+          "component_dec": -0.100654,
+          "source_table": "Table4.csv",
+          "source_table_row": 252,
+          "source_table_sha256": "f9073946a2ee17f687792174deda9e796c1354aff839ec61afacd7828e99bd8d",
+          "original_column": "photo-z",
+          "scalar_fill_allowed": false,
+          "note": "Per-component author-catalogue report. Does not establish that the components share a background quasar; preserve source/foreground ambiguity.",
+          "measurement_origin_role": "He2025 author-table per-component GaZNet photometric estimate; not spectroscopic confirmation",
+          "method_reference": {
+            "label": "Li et al. 2022, GaZNet",
+            "url": "https://doi.org/10.1051/0004-6361/202244081",
+            "role": "method only, not object discovery reference"
+          }
+        }
+      ],
+      "followup_measurement_sources": [
+        {
+          "label": "He et al. 2025 author component catalogue",
+          "url": "https://arxiv.org/abs/2409.17471v2",
+          "role": "Per-component measurements and compiled original-source associations; not discovery or confirmation",
+          "author_table_sha256": "f9073946a2ee17f687792174deda9e796c1354aff839ec61afacd7828e99bd8d"
+        }
+      ]
     },
     {
       "row_number": 181,
@@ -5907,7 +6229,41 @@
       "catalog_id": 201,
       "candidate report": "",
       "confirmation report": "",
-      "discovery review": ""
+      "discovery review": "",
+      "followup_measurements": [
+        {
+          "scope": "catalogue component 1",
+          "value": 0.24,
+          "kind": "machine-learning photometric estimate (GaZNet); candidate component nature unverified",
+          "label": "He et al. 2025, author Table 4 photo-z",
+          "url": "https://arxiv.org/abs/2409.17471v2",
+          "location": "Author Table4.csv row 314",
+          "author_system_name": "J1332+0347",
+          "component_index_in_author_table": 1,
+          "component_ra": 203.094382,
+          "component_dec": 3.794446,
+          "source_table": "Table4.csv",
+          "source_table_row": 314,
+          "source_table_sha256": "f9073946a2ee17f687792174deda9e796c1354aff839ec61afacd7828e99bd8d",
+          "original_column": "photo-z",
+          "scalar_fill_allowed": false,
+          "note": "Per-component author-catalogue report. Does not establish that the components share a background quasar; preserve source/foreground ambiguity.",
+          "measurement_origin_role": "He2025 author-table per-component GaZNet photometric estimate; not spectroscopic confirmation",
+          "method_reference": {
+            "label": "Li et al. 2022, GaZNet",
+            "url": "https://doi.org/10.1051/0004-6361/202244081",
+            "role": "method only, not object discovery reference"
+          }
+        }
+      ],
+      "followup_measurement_sources": [
+        {
+          "label": "He et al. 2025 author component catalogue",
+          "url": "https://arxiv.org/abs/2409.17471v2",
+          "role": "Per-component measurements and compiled original-source associations; not discovery or confirmation",
+          "author_table_sha256": "f9073946a2ee17f687792174deda9e796c1354aff839ec61afacd7828e99bd8d"
+        }
+      ]
     },
     {
       "row_number": 203,
@@ -6708,7 +7064,65 @@
       "catalog_id": 230,
       "candidate report": "",
       "confirmation report": "",
-      "discovery review": ""
+      "discovery review": "",
+      "followup_measurements": [
+        {
+          "scope": "catalogue component 1",
+          "value": 0.28,
+          "kind": "machine-learning photometric estimate (GaZNet); candidate component nature unverified",
+          "label": "He et al. 2025, author Table 4 photo-z",
+          "url": "https://arxiv.org/abs/2409.17471v2",
+          "location": "Author Table4.csv row 406",
+          "author_system_name": "J1527+0141",
+          "component_index_in_author_table": 1,
+          "component_ra": 231.834453,
+          "component_dec": 1.694697,
+          "source_table": "Table4.csv",
+          "source_table_row": 406,
+          "source_table_sha256": "f9073946a2ee17f687792174deda9e796c1354aff839ec61afacd7828e99bd8d",
+          "original_column": "photo-z",
+          "scalar_fill_allowed": false,
+          "note": "Per-component author-catalogue report. Does not establish that the components share a background quasar; preserve source/foreground ambiguity.",
+          "measurement_origin_role": "He2025 author-table per-component GaZNet photometric estimate; not spectroscopic confirmation",
+          "method_reference": {
+            "label": "Li et al. 2022, GaZNet",
+            "url": "https://doi.org/10.1051/0004-6361/202244081",
+            "role": "method only, not object discovery reference"
+          }
+        },
+        {
+          "scope": "catalogue component 2",
+          "value": 0.18,
+          "kind": "machine-learning photometric estimate (GaZNet); candidate component nature unverified",
+          "label": "He et al. 2025, author Table 4 photo-z",
+          "url": "https://arxiv.org/abs/2409.17471v2",
+          "location": "Author Table4.csv row 407",
+          "author_system_name": "J1527+0141",
+          "component_index_in_author_table": 2,
+          "component_ra": 231.833903,
+          "component_dec": 1.694339,
+          "source_table": "Table4.csv",
+          "source_table_row": 407,
+          "source_table_sha256": "f9073946a2ee17f687792174deda9e796c1354aff839ec61afacd7828e99bd8d",
+          "original_column": "photo-z",
+          "scalar_fill_allowed": false,
+          "note": "Per-component author-catalogue report. Does not establish that the components share a background quasar; preserve source/foreground ambiguity.",
+          "measurement_origin_role": "He2025 author-table per-component GaZNet photometric estimate; not spectroscopic confirmation",
+          "method_reference": {
+            "label": "Li et al. 2022, GaZNet",
+            "url": "https://doi.org/10.1051/0004-6361/202244081",
+            "role": "method only, not object discovery reference"
+          }
+        }
+      ],
+      "followup_measurement_sources": [
+        {
+          "label": "He et al. 2025 author component catalogue",
+          "url": "https://arxiv.org/abs/2409.17471v2",
+          "role": "Per-component measurements and compiled original-source associations; not discovery or confirmation",
+          "author_table_sha256": "f9073946a2ee17f687792174deda9e796c1354aff839ec61afacd7828e99bd8d"
+        }
+      ]
     },
     {
       "row_number": 232,
@@ -9123,7 +9537,105 @@
       "catalog_id": 316,
       "candidate report": "",
       "confirmation report": "",
-      "discovery review": ""
+      "discovery review": "",
+      "followup_measurements": [
+        {
+          "scope": "catalogue component 1",
+          "value": 0.08,
+          "kind": "machine-learning photometric estimate (GaZNet); candidate component nature unverified",
+          "label": "He et al. 2025, author Table 4 photo-z",
+          "url": "https://arxiv.org/abs/2409.17471v2",
+          "location": "Author Table4.csv row 321",
+          "author_system_name": "J1335+0118",
+          "component_index_in_author_table": 1,
+          "component_ra": 203.894979,
+          "component_dec": 1.301553,
+          "source_table": "Table4.csv",
+          "source_table_row": 321,
+          "source_table_sha256": "f9073946a2ee17f687792174deda9e796c1354aff839ec61afacd7828e99bd8d",
+          "original_column": "photo-z",
+          "scalar_fill_allowed": false,
+          "note": "Per-component author-catalogue report. Does not establish that the components share a background quasar; preserve source/foreground ambiguity.",
+          "measurement_origin_role": "He2025 author-table per-component GaZNet photometric estimate; not spectroscopic confirmation",
+          "method_reference": {
+            "label": "Li et al. 2022, GaZNet",
+            "url": "https://doi.org/10.1051/0004-6361/202244081",
+            "role": "method only, not object discovery reference"
+          }
+        },
+        {
+          "scope": "catalogue component 2",
+          "value": 0.88,
+          "kind": "machine-learning photometric estimate (GaZNet); candidate component nature unverified",
+          "label": "He et al. 2025, author Table 4 photo-z",
+          "url": "https://arxiv.org/abs/2409.17471v2",
+          "location": "Author Table4.csv row 322",
+          "author_system_name": "J1335+0118",
+          "component_index_in_author_table": 2,
+          "component_ra": 203.895263,
+          "component_dec": 1.301229,
+          "source_table": "Table4.csv",
+          "source_table_row": 322,
+          "source_table_sha256": "f9073946a2ee17f687792174deda9e796c1354aff839ec61afacd7828e99bd8d",
+          "original_column": "photo-z",
+          "scalar_fill_allowed": false,
+          "note": "Per-component author-catalogue report. Does not establish that the components share a background quasar; preserve source/foreground ambiguity.",
+          "measurement_origin_role": "He2025 author-table per-component GaZNet photometric estimate; not spectroscopic confirmation",
+          "method_reference": {
+            "label": "Li et al. 2022, GaZNet",
+            "url": "https://doi.org/10.1051/0004-6361/202244081",
+            "role": "method only, not object discovery reference"
+          }
+        },
+        {
+          "scope": "catalogue component 1",
+          "value": 1.569,
+          "kind": "spectroscopic redshift of catalogued component; not a common source redshift",
+          "label": "Lyke et al. 2020 (SDSS DR16Q); compiled by He et al. 2025",
+          "url": "https://arxiv.org/abs/2007.09001",
+          "location": "Author Table4.csv row 321",
+          "author_system_name": "J1335+0118",
+          "component_index_in_author_table": 1,
+          "component_ra": 203.894979,
+          "component_dec": 1.301553,
+          "source_table": "Table4.csv",
+          "source_table_row": 321,
+          "source_table_sha256": "f9073946a2ee17f687792174deda9e796c1354aff839ec61afacd7828e99bd8d",
+          "original_column": "specz",
+          "scalar_fill_allowed": false,
+          "note": "Per-component author-catalogue report. Does not establish that the components share a background quasar; preserve source/foreground ambiguity. Author catalogue coordinate association does not establish separate resolved spectroscopy for each component.",
+          "original_spectroscopic_reference_label": "DR16Q",
+          "measurement_origin_role": "compiled existing spectroscopic measurement; original reference token retained",
+          "original_spectroscopic_source": {
+            "label": "Lyke et al. 2020 (SDSS DR16Q)",
+            "url": "https://arxiv.org/abs/2007.09001",
+            "doi": "10.3847/1538-4365/aba623",
+            "verification": "Primary SDSS DR16Q paper; original author-table token retained."
+          },
+          "reporter_url": "https://arxiv.org/abs/2409.17471v2",
+          "reporter_label": "He et al. 2025 author Table4",
+          "new_spectroscopic_measurement_by_reporter": false,
+          "independent_spectrum_count": null,
+          "aperture_or_deblending_verified": false,
+          "author_component_associations": [
+            {
+              "component_index_in_author_table": 1,
+              "component_ra": 203.894979,
+              "component_dec": 1.301553,
+              "source_table_row": 321,
+              "location": "Author Table4.csv row 321"
+            }
+          ]
+        }
+      ],
+      "followup_measurement_sources": [
+        {
+          "label": "He et al. 2025 author component catalogue",
+          "url": "https://arxiv.org/abs/2409.17471v2",
+          "role": "Per-component measurements and compiled original-source associations; not discovery or confirmation",
+          "author_table_sha256": "f9073946a2ee17f687792174deda9e796c1354aff839ec61afacd7828e99bd8d"
+        }
+      ]
     },
     {
       "row_number": 318,
@@ -9307,7 +9819,41 @@
       "catalog_id": 323,
       "candidate report": "",
       "confirmation report": "",
-      "discovery review": ""
+      "discovery review": "",
+      "followup_measurements": [
+        {
+          "scope": "catalogue component 1",
+          "value": 0.35,
+          "kind": "machine-learning photometric estimate (GaZNet); candidate component nature unverified",
+          "label": "He et al. 2025, author Table 4 photo-z",
+          "url": "https://arxiv.org/abs/2409.17471v2",
+          "location": "Author Table4.csv row 160",
+          "author_system_name": "J1037+0018",
+          "component_index_in_author_table": 1,
+          "component_ra": 159.366662,
+          "component_dec": 0.305736,
+          "source_table": "Table4.csv",
+          "source_table_row": 160,
+          "source_table_sha256": "f9073946a2ee17f687792174deda9e796c1354aff839ec61afacd7828e99bd8d",
+          "original_column": "photo-z",
+          "scalar_fill_allowed": false,
+          "note": "Per-component author-catalogue report. Does not establish that the components share a background quasar; preserve source/foreground ambiguity.",
+          "measurement_origin_role": "He2025 author-table per-component GaZNet photometric estimate; not spectroscopic confirmation",
+          "method_reference": {
+            "label": "Li et al. 2022, GaZNet",
+            "url": "https://doi.org/10.1051/0004-6361/202244081",
+            "role": "method only, not object discovery reference"
+          }
+        }
+      ],
+      "followup_measurement_sources": [
+        {
+          "label": "He et al. 2025 author component catalogue",
+          "url": "https://arxiv.org/abs/2409.17471v2",
+          "role": "Per-component measurements and compiled original-source associations; not discovery or confirmation",
+          "author_table_sha256": "f9073946a2ee17f687792174deda9e796c1354aff839ec61afacd7828e99bd8d"
+        }
+      ]
     },
     {
       "row_number": 325,

@@ -140,13 +140,36 @@ function render() {
   }
 }
 function reset() { for (const id of ['search','images','year','z-min','z-max']) $(id).value = ''; applyFilters(); }
+// PUBLIC_FOLLOWUP_REVIEW_20261105_BEGIN
+function followupMeasurementsDetail(record) {
+  const reports = record.followup_measurements || [];
+  const sources = record.followup_measurement_sources || [];
+  if (!reports.length && !sources.length) return '';
+  const reference = item => {
+    const url = safeURL(item?.url);
+    const label = item?.label || item?.url || '';
+    return url ? `<a href="${escapeHTML(url)}" target="_blank" rel="noopener noreferrer">${escapeHTML(label)}</a>` : escapeHTML(label);
+  };
+  const entries = reports.map(report => {
+    const uncertainty = report.uncertainty === null || report.uncertainty === undefined ? '' : ` ± ${escapeHTML(report.uncertainty)}`;
+    const value = `${report.approximate ? '≈ ' : ''}z = ${display(report.value)}${uncertainty}`;
+    const component = report.scope || 'Reported component';
+    const method = report.method_reference ? `<br>Method: ${reference(report.method_reference)}` : '';
+    const reporter = report.reporter_url && report.reporter_url !== report.url ? `<br>Reported in: ${reference({label: report.reporter_label, url: report.reporter_url})}` : '';
+    return `<div class="wide"><dt>${escapeHTML(component)}</dt><dd><b>${value}</b> · ${escapeHTML(report.kind)}<br>${reference(report)}${report.location ? `<br>${escapeHTML(report.location)}` : ''}${method}${reporter}${report.note ? `<br>${escapeHTML(report.note)}` : ''}</dd></div>`;
+  }).join('');
+  const catalogueSources = sources.length ? `<div class="wide"><dt>Measurement sources</dt><dd>${sources.map(source => `${reference(source)}${source.role ? ` — ${escapeHTML(source.role)}` : ''}`).join('<br>')}</dd></div>` : '';
+  return `<section class="followup-measurements"><h3>Follow-up measurements</h3><p class="detail-note">Values are reported per component with the original measurement type and source.</p><dl class="detail-grid">${entries}${catalogueSources}</dl></section>`;
+}
+// PUBLIC_FOLLOWUP_REVIEW_20261105_END
+
 function detail(row) {
   const r = state.records.find(record => record.row_number === Number(row)); if (!r) return;
   const labels = {catalog_id:'ID',original_id:'Original ID',name:'System',alt_name:'Aliases',HSC:'HSC', 'DESI-LS':'DESI-LS','paper image':'Publication image field',ra:'RA (deg)',dec:'Dec (deg)',z_lens:'Lens redshift',z_source:'Source redshift',image_sep:'Image separation (as recorded)',n_img:'Number of images', 'first discovered':'Discovery reference',year:'Reference publication year', 'ADS link':'Reference URL',note:'Notes',source_type:'Source type (as recorded)',lens_type:'Lens type (as recorded)'};
   $('detail-content').innerHTML = `<h2>${escapeHTML(r.name)}</h2><p class="detail-subtitle">ID ${escapeHTML(r.catalog_id)}${missing(r.original_id) ? '' : ` · Original ID ${escapeHTML(r.original_id)}`} · Worksheet 1, row ${r.row_number}</p>${discoveryHistory(r)}<dl class="detail-grid">${state.columns.filter(k=>k!=='name' && !historyColumns.includes(k)).map(key => {
     const url = safeURL(r[key]);
     return `<div class="${['note','ADS link','alt_name'].includes(key) ? 'wide' : ''}"><dt>${escapeHTML(labels[key] || key)}</dt><dd>${key === 'z_source' ? sourceRedshiftDisplay(r) : url ? `<a href="${escapeHTML(url)}" target="_blank" rel="noopener noreferrer">${escapeHTML(r[key])} ↗</a>` : display(r[key])}</dd></div>`;
-  }).join('')}</dl>${r.reference_review && !r.discovery_history ? `<p class="reference-review-note"><b>${r.reference_review.pending ? 'Reference pending' : 'Reference corrected'} (${escapeHTML(r.reference_review.date)})</b><br>${escapeHTML(r.reference_review.note)}</p>` : ''}`;
+  }).join('')}</dl>${followupMeasurementsDetail(r)}${r.reference_review && !r.discovery_history ? `<p class="reference-review-note"><b>${r.reference_review.pending ? 'Reference pending' : 'Reference corrected'} (${escapeHTML(r.reference_review.date)})</b><br>${escapeHTML(r.reference_review.note)}</p>` : ''}`;
   $('details').showModal();
 }
 for (const id of ['search','z-min','z-max']) $(id).addEventListener('input',applyFilters);
@@ -175,7 +198,7 @@ for (const button of document.querySelectorAll('[data-sort]')) {
 }
 async function init() {
   try {
-    const response = await fetch('data/catalog.json?v=redshift-review-20261104-id294'); if(!response.ok)throw new Error(`HTTP ${response.status}`);
+    const response = await fetch('data/catalog.json?v=followup-review-20261105-41534e3fc898'); if(!response.ok)throw new Error(`HTTP ${response.status}`);
     const data = await response.json(); state.records=data.records;state.columns=data.meta.columns;
     const imagesResponse = await fetch('data/selected_images.json?v=quality-review-20261105-row342');
     if(imagesResponse.ok)state.selectedImages=(await imagesResponse.json()).records;
