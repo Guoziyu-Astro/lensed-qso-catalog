@@ -394,6 +394,32 @@
         "existing_images_preserved": true,
         "original_workbook_scalars_preserved": true
       }
+    ],
+    "literature_updates": [
+      {
+        "date": "2026-11-09",
+        "catalog_ids": [
+          296,
+          22,
+          344,
+          60,
+          82,
+          99,
+          139,
+          218,
+          223,
+          246,
+          306,
+          258
+        ],
+        "kind": "literature follow-up; no new membership or source-classification claim",
+        "papers": [
+          "https://arxiv.org/abs/2604.24908v4",
+          "https://arxiv.org/abs/2611.08633v1",
+          "https://arxiv.org/abs/2611.09397v1",
+          "https://arxiv.org/abs/2611.09856v1"
+        ]
+      }
     ]
   },
   "records": [
@@ -995,7 +1021,86 @@
       "catalog_id": 22,
       "candidate report": "",
       "confirmation report": "",
-      "discovery review": ""
+      "discovery review": "",
+      "literature_measurements": [
+        {
+          "kind": "observed_light_curve_inference",
+          "value": 0.0,
+          "error_plus": 0.9,
+          "error_minus": 0.9,
+          "unit": "day",
+          "convention": "Delta t_AX = t_A - t_X",
+          "method": "D2 dispersion with linear microlensing; beta=4 days; 10,000 simulated curves",
+          "url": "https://arxiv.org/abs/2611.08633v1",
+          "location": "Table 5",
+          "scope": "time_delays",
+          "result": "{\"quantity\":\"time_delay\",\"pair\":\"AB\",\"value\":0.0,\"error_plus\":0.9,\"error_minus\":0.9,\"unit\":\"day\",\"confidence\":\"1 sigma\",\"symmetric_2sigma_error\":1.9,\"convention\":\"Delta t_AX = t_A - t_X\",\"band\":\"r\",\"data\":\"LT+TTT3 2025–2026\",\"method\":\"D2 dispersion with linear microlensing; beta=4 days; 10,000 simulated curves\"}",
+          "measurement_group": "evidence"
+        },
+        {
+          "kind": "observed_light_curve_inference",
+          "value": 0.2,
+          "error_plus": 0.9,
+          "error_minus": 0.9,
+          "unit": "day",
+          "convention": "Delta t_AX = t_A - t_X",
+          "method": "D2 dispersion with linear microlensing; beta=4 days; 10,000 simulated curves",
+          "url": "https://arxiv.org/abs/2611.08633v1",
+          "location": "Table 5",
+          "scope": "time_delays",
+          "result": "{\"quantity\":\"time_delay\",\"pair\":\"AC\",\"value\":0.2,\"error_plus\":0.9,\"error_minus\":0.9,\"unit\":\"day\",\"confidence\":\"1 sigma\",\"symmetric_2sigma_error\":1.8,\"convention\":\"Delta t_AX = t_A - t_X\",\"band\":\"r\",\"data\":\"LT+TTT3 2025–2026\",\"method\":\"D2 dispersion with linear microlensing; beta=4 days; 10,000 simulated curves\"}",
+          "measurement_group": "evidence"
+        },
+        {
+          "kind": "observed_light_curve_inference",
+          "value": -0.8,
+          "error_plus": 1.3,
+          "error_minus": 1.3,
+          "unit": "day",
+          "convention": "Delta t_AX = t_A - t_X",
+          "method": "D2 dispersion with linear microlensing; beta=4 days; 10,000 simulated curves",
+          "url": "https://arxiv.org/abs/2611.08633v1",
+          "location": "Table 5",
+          "scope": "time_delays",
+          "result": "{\"quantity\":\"time_delay\",\"pair\":\"AB\",\"value\":-0.8,\"error_plus\":1.3,\"error_minus\":1.3,\"unit\":\"day\",\"confidence\":\"1 sigma\",\"symmetric_2sigma_error\":3.1,\"convention\":\"Delta t_AX = t_A - t_X\",\"band\":\"g\",\"data\":\"LT+TTT3 2025–2026\",\"method\":\"D2 dispersion with linear microlensing; beta=4 days; 10,000 simulated curves\"}",
+          "measurement_group": "evidence"
+        },
+        {
+          "kind": "observed_light_curve_inference",
+          "value": -0.4,
+          "error_plus": 1.5,
+          "error_minus": 1.6,
+          "unit": "day",
+          "convention": "Delta t_AX = t_A - t_X",
+          "method": "D2 dispersion with linear microlensing; beta=4 days; 10,000 simulated curves",
+          "url": "https://arxiv.org/abs/2611.08633v1",
+          "location": "Table 5",
+          "scope": "time_delays",
+          "result": "{\"quantity\":\"time_delay\",\"pair\":\"AC\",\"value\":-0.4,\"error_plus\":1.5,\"error_minus\":1.6,\"unit\":\"day\",\"confidence\":\"1 sigma\",\"symmetric_2sigma_error\":null,\"convention\":\"Delta t_AX = t_A - t_X\",\"band\":\"g\",\"data\":\"LT+TTT3 2025–2026\",\"method\":\"D2 dispersion with linear microlensing; beta=4 days; 10,000 simulated curves\"}",
+          "measurement_group": "evidence"
+        },
+        {
+          "kind": "SPLE_plus_external_shear",
+          "software": "gravlens/lensmodel",
+          "uncertainty": "not reported for these values",
+          "convention": "t_A - t_X",
+          "url": "https://arxiv.org/abs/2611.08633v1",
+          "location": "Table 6, new gravlens row",
+          "scope": "lens and source model",
+          "result": "{\"software\":\"gravlens/lensmodel\",\"constraints\":\"HST astrometry and new LT+TTT3 delays\",\"predicted_time_delays_days\":{\"AB\":1.4,\"AC\":1.4,\"AD\":-187.2},\"uncertainty\":\"not reported for these values\",\"convention\":\"t_A - t_X\"}",
+          "measurement_group": "models"
+        },
+        {
+          "kind": "SPLE_plus_external_shear",
+          "software": "lenstronomy",
+          "convention": "t_A - t_X",
+          "url": "https://arxiv.org/abs/2611.08633v1",
+          "location": "Table 6 last row",
+          "scope": "lens and source model",
+          "result": "{\"software\":\"lenstronomy\",\"constraints\":\"HST astrometry and parameter priors; independent of measured delays\",\"predicted_time_delays_days\":{\"AB\":{\"value\":1.58,\"error_plus\":0.15,\"error_minus\":0.14},\"AC\":{\"value\":1.17,\"error_plus\":0.12,\"error_minus\":0.1},\"AD\":{\"value\":-158.2,\"error_plus\":5.4,\"error_minus\":6.3}},\"confidence\":\"1 sigma\",\"convention\":\"t_A - t_X\"}",
+          "measurement_group": "models"
+        }
+      ]
     },
     {
       "row_number": 24,
@@ -2036,7 +2141,18 @@
       "catalog_id": 60,
       "candidate report": "",
       "confirmation report": "",
-      "discovery review": ""
+      "discovery review": "",
+      "literature_measurements": [
+        {
+          "kind": "SIE_plus_external_shear",
+          "uncertainty": "16th/84th percentile statistical uncertainties; no slope/systematic uncertainty budget implied",
+          "url": "https://arxiv.org/abs/2604.24908v4",
+          "location": "Table 3 p10; Eq.6 p9",
+          "scope": "lens and source model",
+          "result": "{\"version\":\"arXiv 2604.24908v4\",\"slope\":\"fixed isothermal\",\"einstein_radius\":{\"value\":0.787,\"error_plus\":0.006,\"error_minus\":0.006,\"unit\":\"arcsec\"},\"mass_axis_ratio\":{\"value\":0.8,\"error_plus\":0.04,\"error_minus\":0.04,\"unit\":\"dimensionless\"},\"mass_position_angle\":{\"value\":121.2,\"error_plus\":6.9,\"error_minus\":5.4,\"unit\":\"degree North of East\"},\"external_shear\":{\"value\":0.113,\"error_plus\":0.008,\"error_minus\":0.005,\"unit\":\"dimensionless\"},\"external_shear_position_angle\":{\"value\":123.5,\"error_plus\":3.6,\"error_minus\":3.9,\"unit\":\"degree North of East\"},\"fermat_potential_AB\":{\"value\":-0.862,\"error_plus\":0.006,\"error_minus\":0.009,\"unit\":\"arcsec^2\"},\"fermat_convention\":\"Delta Phi_AB = Phi_A - Phi_B; negative means image A arrives before B\",\"uncertainty\":\"16th/84th percentile statistical uncertainties; no slope/systematic uncertainty budget implied\",\"is_observed_time_delay\":false,\"extra_mass_components\":null}",
+          "measurement_group": "models"
+        }
+      ]
     },
     {
       "row_number": 62,
@@ -2704,7 +2820,18 @@
           "original_source_cells_preserved": true,
           "exclude_from_measurement_filters": false
         }
-      }
+      },
+      "literature_measurements": [
+        {
+          "kind": "SIE_plus_external_shear",
+          "uncertainty": "16th/84th percentile statistical uncertainties; no slope/systematic uncertainty budget implied",
+          "url": "https://arxiv.org/abs/2604.24908v4",
+          "location": "Table 3 p10; Eq.6 p9",
+          "scope": "lens and source model",
+          "result": "{\"version\":\"arXiv 2604.24908v4\",\"slope\":\"fixed isothermal\",\"einstein_radius\":{\"value\":0.914,\"error_plus\":0.014,\"error_minus\":0.019,\"unit\":\"arcsec\"},\"mass_axis_ratio\":{\"value\":0.59,\"error_plus\":0.06,\"error_minus\":0.05,\"unit\":\"dimensionless\"},\"mass_position_angle\":{\"value\":53.7,\"error_plus\":3.5,\"error_minus\":4.1,\"unit\":\"degree North of East\"},\"external_shear\":{\"value\":0.093,\"error_plus\":0.023,\"error_minus\":0.029,\"unit\":\"dimensionless\"},\"external_shear_position_angle\":{\"value\":66.6,\"error_plus\":7.3,\"error_minus\":5.9,\"unit\":\"degree North of East\"},\"fermat_potential_AB\":{\"value\":0.548,\"error_plus\":0.012,\"error_minus\":0.011,\"unit\":\"arcsec^2\"},\"fermat_convention\":\"Delta Phi_AB = Phi_A - Phi_B; negative means image A arrives before B\",\"uncertainty\":\"16th/84th percentile statistical uncertainties; no slope/systematic uncertainty budget implied\",\"is_observed_time_delay\":false,\"extra_mass_components\":null}",
+          "measurement_group": "models"
+        }
+      ]
     },
     {
       "row_number": 84,
@@ -3138,7 +3265,18 @@
       "catalog_id": 99,
       "candidate report": "",
       "confirmation report": "",
-      "discovery review": ""
+      "discovery review": "",
+      "literature_measurements": [
+        {
+          "kind": "SIE_plus_external_shear",
+          "uncertainty": "16th/84th percentile statistical uncertainties; no slope/systematic uncertainty budget implied",
+          "url": "https://arxiv.org/abs/2604.24908v4",
+          "location": "Table 3 p10; Eq.6 p9",
+          "scope": "lens and source model",
+          "result": "{\"version\":\"arXiv 2604.24908v4\",\"slope\":\"fixed isothermal\",\"einstein_radius\":{\"value\":0.782,\"error_plus\":0.019,\"error_minus\":0.018,\"unit\":\"arcsec\"},\"mass_axis_ratio\":{\"value\":0.88,\"error_plus\":0.06,\"error_minus\":0.07,\"unit\":\"dimensionless\"},\"mass_position_angle\":{\"value\":115.4,\"error_plus\":8.2,\"error_minus\":8.5,\"unit\":\"degree North of East\"},\"external_shear\":{\"value\":0.078,\"error_plus\":0.033,\"error_minus\":0.03,\"unit\":\"dimensionless\"},\"external_shear_position_angle\":{\"value\":110.3,\"error_plus\":5.0,\"error_minus\":6.2,\"unit\":\"degree North of East\"},\"fermat_potential_AB\":{\"value\":-0.493,\"error_plus\":0.013,\"error_minus\":0.018,\"unit\":\"arcsec^2\"},\"fermat_convention\":\"Delta Phi_AB = Phi_A - Phi_B; negative means image A arrives before B\",\"uncertainty\":\"16th/84th percentile statistical uncertainties; no slope/systematic uncertainty budget implied\",\"is_observed_time_delay\":false,\"extra_mass_components\":null}",
+          "measurement_group": "models"
+        }
+      ]
     },
     {
       "row_number": 101,
@@ -4424,7 +4562,18 @@
       "catalog_id": 139,
       "candidate report": "",
       "confirmation report": "",
-      "discovery review": ""
+      "discovery review": "",
+      "literature_measurements": [
+        {
+          "kind": "SIE_plus_external_shear",
+          "uncertainty": "16th/84th percentile statistical uncertainties; no slope/systematic uncertainty budget implied",
+          "url": "https://arxiv.org/abs/2604.24908v4",
+          "location": "Table 3 p10; Eq.6 p9",
+          "scope": "lens and source model",
+          "result": "{\"version\":\"arXiv 2604.24908v4\",\"slope\":\"fixed isothermal\",\"einstein_radius\":{\"value\":1.395,\"error_plus\":0.004,\"error_minus\":0.004,\"unit\":\"arcsec\"},\"mass_axis_ratio\":{\"value\":0.73,\"error_plus\":0.01,\"error_minus\":0.01,\"unit\":\"dimensionless\"},\"mass_position_angle\":{\"value\":36.6,\"error_plus\":1.4,\"error_minus\":1.4,\"unit\":\"degree North of East\"},\"external_shear\":{\"value\":0.123,\"error_plus\":0.005,\"error_minus\":0.005,\"unit\":\"dimensionless\"},\"external_shear_position_angle\":{\"value\":20.0,\"error_plus\":1.0,\"error_minus\":0.9,\"unit\":\"degree North of East\"},\"fermat_potential_AB\":{\"value\":-2.363,\"error_plus\":0.011,\"error_minus\":0.011,\"unit\":\"arcsec^2\"},\"fermat_convention\":\"Delta Phi_AB = Phi_A - Phi_B; negative means image A arrives before B\",\"uncertainty\":\"16th/84th percentile statistical uncertainties; no slope/systematic uncertainty budget implied\",\"is_observed_time_delay\":false,\"extra_mass_components\":\"J1001+5027 nearby perturber separately modeled\"}",
+          "measurement_group": "models"
+        }
+      ]
     },
     {
       "row_number": 141,
@@ -6919,7 +7068,18 @@
       "catalog_id": 218,
       "candidate report": "",
       "confirmation report": "",
-      "discovery review": ""
+      "discovery review": "",
+      "literature_measurements": [
+        {
+          "kind": "SIE_plus_external_shear",
+          "uncertainty": "16th/84th percentile statistical uncertainties; no slope/systematic uncertainty budget implied",
+          "url": "https://arxiv.org/abs/2604.24908v4",
+          "location": "Table 3 p10; Eq.6 p9",
+          "scope": "lens and source model",
+          "result": "{\"version\":\"arXiv 2604.24908v4\",\"slope\":\"fixed isothermal\",\"einstein_radius\":{\"value\":1.032,\"error_plus\":0.007,\"error_minus\":0.008,\"unit\":\"arcsec\"},\"mass_axis_ratio\":{\"value\":0.8,\"error_plus\":0.03,\"error_minus\":0.03,\"unit\":\"dimensionless\"},\"mass_position_angle\":{\"value\":96.9,\"error_plus\":4.3,\"error_minus\":4.3,\"unit\":\"degree North of East\"},\"external_shear\":{\"value\":0.033,\"error_plus\":0.01,\"error_minus\":0.01,\"unit\":\"dimensionless\"},\"external_shear_position_angle\":{\"value\":58.4,\"error_plus\":9.8,\"error_minus\":9.7,\"unit\":\"degree North of East\"},\"fermat_potential_AB\":{\"value\":-0.607,\"error_plus\":0.008,\"error_minus\":0.006,\"unit\":\"arcsec^2\"},\"fermat_convention\":\"Delta Phi_AB = Phi_A - Phi_B; negative means image A arrives before B\",\"uncertainty\":\"16th/84th percentile statistical uncertainties; no slope/systematic uncertainty budget implied\",\"is_observed_time_delay\":false,\"extra_mass_components\":null}",
+          "measurement_group": "models"
+        }
+      ]
     },
     {
       "row_number": 220,
@@ -7053,7 +7213,18 @@
       "catalog_id": 223,
       "candidate report": "",
       "confirmation report": "",
-      "discovery review": ""
+      "discovery review": "",
+      "literature_measurements": [
+        {
+          "kind": "SIE_plus_external_shear",
+          "uncertainty": "16th/84th percentile statistical uncertainties; no slope/systematic uncertainty budget implied",
+          "url": "https://arxiv.org/abs/2604.24908v4",
+          "location": "Table 3 p10; Eq.6 p9",
+          "scope": "lens and source model",
+          "result": "{\"version\":\"arXiv 2604.24908v4\",\"slope\":\"fixed isothermal\",\"einstein_radius\":{\"value\":0.896,\"error_plus\":0.033,\"error_minus\":0.019,\"unit\":\"arcsec\"},\"mass_axis_ratio\":{\"value\":0.87,\"error_plus\":0.06,\"error_minus\":0.08,\"unit\":\"dimensionless\"},\"mass_position_angle\":{\"value\":109.2,\"error_plus\":7.4,\"error_minus\":7.1,\"unit\":\"degree North of East\"},\"external_shear\":{\"value\":0.096,\"error_plus\":0.021,\"error_minus\":0.036,\"unit\":\"dimensionless\"},\"external_shear_position_angle\":{\"value\":27.8,\"error_plus\":5.7,\"error_minus\":3.9,\"unit\":\"degree North of East\"},\"fermat_potential_AB\":{\"value\":-1.117,\"error_plus\":0.024,\"error_minus\":0.043,\"unit\":\"arcsec^2\"},\"fermat_convention\":\"Delta Phi_AB = Phi_A - Phi_B; negative means image A arrives before B\",\"uncertainty\":\"16th/84th percentile statistical uncertainties; no slope/systematic uncertainty budget implied\",\"is_observed_time_delay\":false,\"extra_mass_components\":null}",
+          "measurement_group": "models"
+        }
+      ]
     },
     {
       "row_number": 225,
@@ -7748,7 +7919,18 @@
       "catalog_id": 246,
       "candidate report": "",
       "confirmation report": "",
-      "discovery review": ""
+      "discovery review": "",
+      "literature_measurements": [
+        {
+          "kind": "SIE_plus_external_shear",
+          "uncertainty": "16th/84th percentile statistical uncertainties; no slope/systematic uncertainty budget implied",
+          "url": "https://arxiv.org/abs/2604.24908v4",
+          "location": "Table 3 p10; Eq.6 p9",
+          "scope": "lens and source model",
+          "result": "{\"version\":\"arXiv 2604.24908v4\",\"slope\":\"fixed isothermal\",\"einstein_radius\":{\"value\":1.431,\"error_plus\":0.02,\"error_minus\":0.021,\"unit\":\"arcsec\"},\"mass_axis_ratio\":{\"value\":0.76,\"error_plus\":0.05,\"error_minus\":0.04,\"unit\":\"dimensionless\"},\"mass_position_angle\":{\"value\":121.6,\"error_plus\":4.1,\"error_minus\":4.3,\"unit\":\"degree North of East\"},\"external_shear\":{\"value\":0.041,\"error_plus\":0.019,\"error_minus\":0.015,\"unit\":\"dimensionless\"},\"external_shear_position_angle\":{\"value\":146.9,\"error_plus\":16.8,\"error_minus\":13.9,\"unit\":\"degree North of East\"},\"fermat_potential_AB\":{\"value\":-2.397,\"error_plus\":0.05,\"error_minus\":0.059,\"unit\":\"arcsec^2\"},\"fermat_convention\":\"Delta Phi_AB = Phi_A - Phi_B; negative means image A arrives before B\",\"uncertainty\":\"16th/84th percentile statistical uncertainties; no slope/systematic uncertainty budget implied\",\"is_observed_time_delay\":false,\"extra_mass_components\":null}",
+          "measurement_group": "models"
+        }
+      ]
     },
     {
       "row_number": 248,
@@ -8129,7 +8311,58 @@
       },
       "candidate report": "",
       "confirmation report": "",
-      "discovery review": ""
+      "discovery review": "",
+      "literature_measurements": [
+        {
+          "model": "Double-plane mass-sheet analysis",
+          "url": "https://arxiv.org/abs/2611.09856v1",
+          "parameters": {
+            "zeta12": {
+              "value": -0.22,
+              "error_plus": 0.12,
+              "error_minus": 0.13,
+              "kind": "conditional_model_inference",
+              "definition": "Eq35 eta*zeta1+zeta2-zeta1*zeta2"
+            },
+            "eta_tilde": {
+              "value": 1.0166,
+              "error_plus": 0.0011,
+              "error_minus": 0.0011,
+              "kind": "model"
+            }
+          },
+          "scope": "two deflector planes",
+          "kind": "model_fit",
+          "location": "§5.1, Table2, §5.5",
+          "result": "{\"model\":\"Double-plane mass-sheet analysis\",\"parameters\":{\"zeta12\":{\"value\":-0.22,\"error_plus\":0.12,\"error_minus\":0.13,\"kind\":\"conditional_model_inference\",\"definition\":\"Eq35 eta*zeta1+zeta2-zeta1*zeta2\"},\"eta_tilde\":{\"value\":1.0166,\"error_plus\":0.0011,\"error_minus\":0.0011,\"kind\":\"model\"}},\"assumptions\":\"Flat LCDM Planck Omega_m=.315±.007 and simulated line-of-sight prior; zeta12 not a directly observed property. Literature eta for J0946/AGEL0353, new point-image fit for J1721.\"}",
+          "measurement_group": "models"
+        },
+        {
+          "unit": "arcsec",
+          "url": "https://arxiv.org/abs/2611.09856v1",
+          "kind": "reported",
+          "scope": "relative_astrometry",
+          "location": "§5.1, Table2, §5.5",
+          "result": "{\"coordinate_role\":\"relative HST image offsets (not absolute RA/Dec)\",\"unit\":\"arcsec\",\"images\":{\"A\":{\"ra_offset\":-0.4297,\"dec_offset\":1.7117,\"ra_offset_error\":0.0002,\"dec_offset_error\":0.0011},\"B\":{\"ra_offset\":1.5023,\"dec_offset\":1.6739,\"ra_offset_error\":0.0003,\"dec_offset_error\":0.0002},\"C\":{\"ra_offset\":-2.0028,\"dec_offset\":-0.0489,\"ra_offset_error\":0.0001,\"dec_offset_error\":0.0004},\"D\":{\"ra_offset\":0.9674,\"dec_offset\":-1.5101,\"ra_offset_error\":0.0002,\"dec_offset_error\":0.0003},\"E\":{\"ra_offset\":-2.5349,\"dec_offset\":-1.292,\"ra_offset_error\":0.0002,\"dec_offset_error\":0.0005},\"F\":{\"ra_offset\":1.5733,\"dec_offset\":-0.1824,\"ra_offset_error\":0.0005,\"dec_offset_error\":0.0003}},\"modeling_error_inflation_arcsec\":0.002}",
+          "measurement_group": "components"
+        },
+        {
+          "kind": "reported",
+          "scope": "components",
+          "url": "https://arxiv.org/abs/2611.09856v1",
+          "location": "§5.1, Table2, §5.5",
+          "result": "{\"role\":\"background_quasar\",\"source_redshift\":2.382,\"redshift_kind\":\"spectroscopic_reported\",\"reported_image_count\":6}",
+          "measurement_group": "components"
+        },
+        {
+          "kind": "reported",
+          "scope": "components",
+          "url": "https://arxiv.org/abs/2611.09856v1",
+          "location": "§5.1, Table2, §5.5",
+          "result": "{\"role\":\"intermediate_lensed_galaxy_and_second_deflector\",\"redshift\":1.8845}",
+          "measurement_group": "components"
+        }
+      ]
     },
     {
       "row_number": 260,
@@ -9228,7 +9461,21 @@
       },
       "candidate report": "",
       "confirmation report": "",
-      "discovery review": ""
+      "discovery review": "",
+      "literature_measurements": [
+        {
+          "value": 0.25,
+          "error_plus": 0.16,
+          "error_minus": 0.16,
+          "unit": "microlens Einstein radius RE",
+          "kind": "microlensing_inference",
+          "url": "https://arxiv.org/abs/2611.08633v1",
+          "location": "§3; Figure 6",
+          "scope": "source_sizes",
+          "result": "{\"quantity\":\"half_light_radius\",\"value\":0.25,\"error_plus\":0.16,\"error_minus\":0.16,\"unit\":\"microlens Einstein radius RE\",\"confidence\":\"1 sigma\",\"band\":\"g\",\"mean_microlens_mass_solar\":0.3,\"einstein_radius_cm\":1e+17,\"reported_light_day_interval_1sigma\":[3.5,16],\"assumptions\":\"Poindexter & Kochanek (2010a) macro convergence/shear and stellar-bulge microlensing; LT+TTT3 2025–2026 light curves.\"}",
+          "measurement_group": "evidence"
+        }
+      ]
     },
     {
       "row_number": 298,
@@ -9545,7 +9792,18 @@
       "catalog_id": 306,
       "candidate report": "",
       "confirmation report": "",
-      "discovery review": ""
+      "discovery review": "",
+      "literature_measurements": [
+        {
+          "kind": "SIE_plus_external_shear",
+          "uncertainty": "16th/84th percentile statistical uncertainties; no slope/systematic uncertainty budget implied",
+          "url": "https://arxiv.org/abs/2604.24908v4",
+          "location": "Table 3 p10; Eq.6 p9",
+          "scope": "lens and source model",
+          "result": "{\"version\":\"arXiv 2604.24908v4\",\"slope\":\"fixed isothermal\",\"einstein_radius\":{\"value\":1.466,\"error_plus\":0.002,\"error_minus\":0.002,\"unit\":\"arcsec\"},\"mass_axis_ratio\":{\"value\":0.94,\"error_plus\":0.02,\"error_minus\":0.02,\"unit\":\"dimensionless\"},\"mass_position_angle\":{\"value\":34.5,\"error_plus\":5.4,\"error_minus\":5.4,\"unit\":\"degree North of East\"},\"external_shear\":{\"value\":0.04,\"error_plus\":0.004,\"error_minus\":0.004,\"unit\":\"dimensionless\"},\"external_shear_position_angle\":{\"value\":97.1,\"error_plus\":2.9,\"error_minus\":3.4,\"unit\":\"degree North of East\"},\"fermat_potential_AB\":{\"value\":0.698,\"error_plus\":0.005,\"error_minus\":0.005,\"unit\":\"arcsec^2\"},\"fermat_convention\":\"Delta Phi_AB = Phi_A - Phi_B; negative means image A arrives before B\",\"uncertainty\":\"16th/84th percentile statistical uncertainties; no slope/systematic uncertainty budget implied\",\"is_observed_time_delay\":false,\"extra_mass_components\":null}",
+          "measurement_group": "models"
+        }
+      ]
     },
     {
       "row_number": 308,
@@ -10810,7 +11068,84 @@
           "https://arxiv.org/abs/2212.10531",
           "https://cdsarc.cds.unistra.fr/viz-bin/cat/J/A+A/707/A345"
         ]
-      }
+      },
+      "literature_measurements": [
+        {
+          "value": 0.911,
+          "unit": "microJy",
+          "url": "https://arxiv.org/abs/2611.09397v1",
+          "location": "Table B1 p20",
+          "kind": "reported",
+          "scope": "photometry",
+          "uncertainty": 0.046,
+          "result": "{\"quantity\":\"flux_density\",\"value\":0.911,\"error\":0.046,\"unit\":\"microJy\",\"instrument\":\"JWST/MIRI\",\"filter\":\"F770W\",\"image\":\"A\",\"galactic_extinction_corrected\":true,\"lensing_magnification_corrected\":false}",
+          "measurement_group": "evidence"
+        },
+        {
+          "value": 0.723,
+          "unit": "microJy",
+          "url": "https://arxiv.org/abs/2611.09397v1",
+          "location": "Table B1 p20",
+          "kind": "reported",
+          "scope": "photometry",
+          "uncertainty": 0.036,
+          "result": "{\"quantity\":\"flux_density\",\"value\":0.723,\"error\":0.036,\"unit\":\"microJy\",\"instrument\":\"JWST/MIRI\",\"filter\":\"F770W\",\"image\":\"B\",\"galactic_extinction_corrected\":true,\"lensing_magnification_corrected\":false}",
+          "measurement_group": "evidence"
+        },
+        {
+          "value": 0.241,
+          "unit": "microJy",
+          "url": "https://arxiv.org/abs/2611.09397v1",
+          "location": "Table B1 p20",
+          "kind": "reported",
+          "scope": "photometry",
+          "uncertainty": 0.012,
+          "result": "{\"quantity\":\"flux_density\",\"value\":0.241,\"error\":0.012,\"unit\":\"microJy\",\"instrument\":\"JWST/MIRI\",\"filter\":\"F770W\",\"image\":\"C\",\"galactic_extinction_corrected\":true,\"lensing_magnification_corrected\":false}",
+          "measurement_group": "evidence"
+        },
+        {
+          "value": 0.899,
+          "unit": "microJy",
+          "url": "https://arxiv.org/abs/2611.09397v1",
+          "location": "Table B1 p20",
+          "kind": "reported",
+          "scope": "photometry",
+          "uncertainty": 0.045,
+          "result": "{\"quantity\":\"flux_density\",\"value\":0.899,\"error\":0.045,\"unit\":\"microJy\",\"instrument\":\"JWST/MIRI\",\"filter\":\"F1000W\",\"image\":\"A\",\"galactic_extinction_corrected\":true,\"lensing_magnification_corrected\":false}",
+          "measurement_group": "evidence"
+        },
+        {
+          "value": 0.694,
+          "unit": "microJy",
+          "url": "https://arxiv.org/abs/2611.09397v1",
+          "location": "Table B1 p20",
+          "kind": "reported",
+          "scope": "photometry",
+          "uncertainty": 0.035,
+          "result": "{\"quantity\":\"flux_density\",\"value\":0.694,\"error\":0.035,\"unit\":\"microJy\",\"instrument\":\"JWST/MIRI\",\"filter\":\"F1000W\",\"image\":\"B\",\"galactic_extinction_corrected\":true,\"lensing_magnification_corrected\":false}",
+          "measurement_group": "evidence"
+        },
+        {
+          "value": 0.243,
+          "unit": "microJy",
+          "url": "https://arxiv.org/abs/2611.09397v1",
+          "location": "Table B1 p20",
+          "kind": "reported",
+          "scope": "photometry",
+          "uncertainty": 0.015,
+          "result": "{\"quantity\":\"flux_density\",\"value\":0.243,\"error\":0.015,\"unit\":\"microJy\",\"instrument\":\"JWST/MIRI\",\"filter\":\"F1000W\",\"image\":\"C\",\"galactic_extinction_corrected\":true,\"lensing_magnification_corrected\":false}",
+          "measurement_group": "evidence"
+        },
+        {
+          "kind": "SED_blackbody_fit",
+          "note": "Phenomenological continuum fit, not a unique physical temperature measurement. Hotter reddened alternatives also fit.",
+          "url": "https://arxiv.org/abs/2611.09397v1",
+          "location": "§4.2",
+          "scope": "lens and source model",
+          "result": "{\"temperature_K\":4450,\"error_K\":60,\"note\":\"Phenomenological continuum fit, not a unique physical temperature measurement. Hotter reddened alternatives also fit.\"}",
+          "measurement_group": "models"
+        }
+      ]
     },
     {
       "catalog_id": 345,

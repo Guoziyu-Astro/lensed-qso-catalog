@@ -169,7 +169,7 @@ function detail(row) {
   $('detail-content').innerHTML = `<h2>${escapeHTML(r.name)}</h2><p class="detail-subtitle">ID ${escapeHTML(r.catalog_id)}${missing(r.original_id) ? '' : ` · Original ID ${escapeHTML(r.original_id)}`} · Worksheet 1, row ${r.row_number}</p>${discoveryHistory(r)}<dl class="detail-grid">${state.columns.filter(k=>k!=='name' && !historyColumns.includes(k)).map(key => {
     const url = safeURL(r[key]);
     return `<div class="${['note','ADS link','alt_name'].includes(key) ? 'wide' : ''}"><dt>${escapeHTML(labels[key] || key)}</dt><dd>${key === 'z_source' ? sourceRedshiftDisplay(r) : url ? `<a href="${escapeHTML(url)}" target="_blank" rel="noopener noreferrer">${escapeHTML(r[key])} ↗</a>` : display(r[key])}</dd></div>`;
-  }).join('')}</dl>${followupMeasurementsDetail(r)}${r.reference_review && !r.discovery_history ? `<p class="reference-review-note"><b>${r.reference_review.pending ? 'Reference pending' : 'Reference corrected'} (${escapeHTML(r.reference_review.date)})</b><br>${escapeHTML(r.reference_review.note)}</p>` : ''}`;
+  }).join('')}</dl>${followupMeasurementsDetail(r)}${literatureMeasurementsDetail(r)}${r.reference_review && !r.discovery_history ? `<p class="reference-review-note"><b>${r.reference_review.pending ? 'Reference pending' : 'Reference corrected'} (${escapeHTML(r.reference_review.date)})</b><br>${escapeHTML(r.reference_review.note)}</p>` : ''}`;
   $('details').showModal();
 }
 for (const id of ['search','z-min','z-max']) $(id).addEventListener('input',applyFilters);
@@ -198,7 +198,7 @@ for (const button of document.querySelectorAll('[data-sort]')) {
 }
 async function init() {
   try {
-    const response = await fetch('data/catalog.json?v=source-spectroscopy-20261105-e5ecc11e64a2'); if(!response.ok)throw new Error(`HTTP ${response.status}`);
+    const response = await fetch('data/catalog.json?v=literature-20261109-b5ee7957c9ef'); if(!response.ok)throw new Error(`HTTP ${response.status}`);
     const data = await response.json(); state.records=data.records;state.columns=data.meta.columns;
     const imagesResponse = await fetch('data/selected_images.json?v=quality-review-20261105-row342');
     if(imagesResponse.ok)state.selectedImages=(await imagesResponse.json()).records;
@@ -215,3 +215,15 @@ async function init() {
   } catch(error) { $('result-count').textContent='Unable to load the catalogue. Please reload the page.'; console.error(error); }
 }
 init();
+
+function literatureMeasurementsDetail(record) {
+  const reports = record.literature_measurements || [];
+  if (!reports.length) return '';
+  const entries = reports.map(report => {
+    const url = safeURL(report.url);
+    const source = url ? `<a href="${escapeHTML(url)}" target="_blank" rel="noopener noreferrer">${escapeHTML(report.url)}</a>` : '';
+    const result = report.result || (report.value === undefined ? '' : String(report.value));
+    return `<div class="wide"><dt>${escapeHTML(report.scope || report.measurement_group)}</dt><dd>${escapeHTML(result)}<br><b>${escapeHTML(report.kind)}</b>${report.unit ? ` · ${escapeHTML(report.unit)}` : ''}<br>${source}${report.location ? `<br>${escapeHTML(report.location)}` : ''}${report.note ? `<br>${escapeHTML(report.note)}` : ''}</dd></div>`;
+  }).join('');
+  return `<section class="followup-measurements"><h3>Literature measurements and models</h3><p class="detail-note">Reported observations, fitted models and predictions retain their original methods, conventions and sources.</p><dl class="detail-grid">${entries}</dl></section>`;
+}
