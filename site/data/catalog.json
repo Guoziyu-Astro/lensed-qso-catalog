@@ -419,6 +419,16 @@
           "https://arxiv.org/abs/2611.09397v1",
           "https://arxiv.org/abs/2611.09856v1"
         ]
+      },
+      {
+        "reviewed_at": "2026-11-11T14:25:07.754451+08:00",
+        "catalog_ids": [
+          296
+        ],
+        "kind": "literature follow-up to existing public members",
+        "papers": [
+          "https://arxiv.org/abs/2611.12448v1"
+        ]
       }
     ]
   },
@@ -9474,6 +9484,73 @@
           "scope": "source_sizes",
           "result": "{\"quantity\":\"half_light_radius\",\"value\":0.25,\"error_plus\":0.16,\"error_minus\":0.16,\"unit\":\"microlens Einstein radius RE\",\"confidence\":\"1 sigma\",\"band\":\"g\",\"mean_microlens_mass_solar\":0.3,\"einstein_radius_cm\":1e+17,\"reported_light_day_interval_1sigma\":[3.5,16],\"assumptions\":\"Poindexter & Kochanek (2010a) macro convergence/shear and stellar-bulge microlensing; LT+TTT3 2025–2026 light curves.\"}",
           "measurement_group": "evidence"
+        },
+        {
+          "error_minus": 2.6,
+          "error_plus": 2.3,
+          "kind": "microlensing_model_inference",
+          "location": "Section 5.3; Figure 8",
+          "note": "posterior_expected gaussian_scale_radius = 4.9 (+2.3/-2.6) light-day * sqrt(M/0.3 Msun); rest wavelength 1026 Angstrom; Gaussian source profile, R_half=1.18 rs; mean microlens mass 0.3 Msun and kappa=kappa_stars. As-reported model inference, separate from g-band half-light radius.",
+          "result": "posterior_expected gaussian_scale_radius = 4.9 (+2.3/-2.6) light-day * sqrt(M/0.3 Msun); rest wavelength 1026 Angstrom; Gaussian source profile, R_half=1.18 rs; mean microlens mass 0.3 Msun and kappa=kappa_stars. As-reported model inference, separate from g-band half-light radius.",
+          "scope": "background quasar accretion disk",
+          "uncertainty": "as reported by authors in Section 5.3",
+          "unit": "light-day * sqrt(M/0.3 Msun)",
+          "url": "https://arxiv.org/abs/2611.12448v1",
+          "value": 4.9,
+          "measurement_group": "models"
+        },
+        {
+          "error_minus": 3.2,
+          "error_plus": 1.9,
+          "kind": "microlensing_model_inference",
+          "location": "Section 5.3; Figure 8",
+          "note": "posterior_maximum gaussian_scale_radius = 7.0 (+1.9/-3.2) light-day * sqrt(M/0.3 Msun); rest wavelength 1026 Angstrom; Gaussian source profile, R_half=1.18 rs; mean microlens mass 0.3 Msun and kappa=kappa_stars. As-reported model inference, separate from g-band half-light radius.",
+          "result": "posterior_maximum gaussian_scale_radius = 7.0 (+1.9/-3.2) light-day * sqrt(M/0.3 Msun); rest wavelength 1026 Angstrom; Gaussian source profile, R_half=1.18 rs; mean microlens mass 0.3 Msun and kappa=kappa_stars. As-reported model inference, separate from g-band half-light radius.",
+          "scope": "background quasar accretion disk",
+          "uncertainty": "as reported by authors in Section 5.3",
+          "unit": "light-day * sqrt(M/0.3 Msun)",
+          "url": "https://arxiv.org/abs/2611.12448v1",
+          "value": 7.0,
+          "measurement_group": "models"
+        },
+        {
+          "error_minus": 0.28,
+          "error_plus": 0.47,
+          "kind": "microlensing_model_inference",
+          "location": "Section 5.3; Figure 8",
+          "note": "posterior_expected size_wavelength_power_law_index = 0.77 (+0.47/-0.28) dimensionless; rest wavelength 1026 Angstrom; Gaussian source profile, R_half=1.18 rs; mean microlens mass 0.3 Msun and kappa=kappa_stars. As-reported model inference, separate from g-band half-light radius.",
+          "result": "posterior_expected size_wavelength_power_law_index = 0.77 (+0.47/-0.28) dimensionless; rest wavelength 1026 Angstrom; Gaussian source profile, R_half=1.18 rs; mean microlens mass 0.3 Msun and kappa=kappa_stars. As-reported model inference, separate from g-band half-light radius.",
+          "scope": "background quasar accretion disk",
+          "uncertainty": "as reported by authors in Section 5.3",
+          "unit": "dimensionless",
+          "url": "https://arxiv.org/abs/2611.12448v1",
+          "value": 0.77,
+          "measurement_group": "models"
+        },
+        {
+          "error_minus": 0.3,
+          "error_plus": 0.37,
+          "kind": "microlensing_model_inference",
+          "location": "Section 5.3; Figure 8",
+          "note": "posterior_maximum size_wavelength_power_law_index = 0.75 (+0.37/-0.3) dimensionless; rest wavelength 1026 Angstrom; Gaussian source profile, R_half=1.18 rs; mean microlens mass 0.3 Msun and kappa=kappa_stars. As-reported model inference, separate from g-band half-light radius.",
+          "result": "posterior_maximum size_wavelength_power_law_index = 0.75 (+0.37/-0.3) dimensionless; rest wavelength 1026 Angstrom; Gaussian source profile, R_half=1.18 rs; mean microlens mass 0.3 Msun and kappa=kappa_stars. As-reported model inference, separate from g-band half-light radius.",
+          "scope": "background quasar accretion disk",
+          "uncertainty": "as reported by authors in Section 5.3",
+          "unit": "dimensionless",
+          "url": "https://arxiv.org/abs/2611.12448v1",
+          "value": 0.75,
+          "measurement_group": "models"
+        },
+        {
+          "kind": "spectroscopic_extinction_model_fit",
+          "location": "Section 5.2",
+          "note": "Differential E(B-V) for C-A = 0.04 mag from line-core extinction fit with RV=3.1; authors find no significant chromatic trend.",
+          "result": "Differential E(B-V) for C-A = 0.04 mag from line-core extinction fit with RV=3.1; authors find no significant chromatic trend.",
+          "scope": "lens-plane differential extinction between quasar macro-images",
+          "unit": "mag",
+          "url": "https://arxiv.org/abs/2611.12448v1",
+          "value": 0.04,
+          "measurement_group": "models"
         }
       ]
     },
