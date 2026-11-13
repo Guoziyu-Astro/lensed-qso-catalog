@@ -4666,74 +4666,48 @@
       "dec": -56.4147,
       "fov_arcsec": 20,
       "status": "ok",
-      "attempts": [
-        {
-          "provider": "HSC",
-          "status": "unavailable",
-          "reason": "flat or unusable central image",
-          "elapsed": 0.62
-        },
-        {
-          "provider": "DES",
-          "status": "unavailable",
-          "reason": "DES SIA returned no observations",
-          "elapsed": 0.58
-        },
-        {
-          "provider": "Legacy Surveys",
-          "status": "accepted",
-          "elapsed": 1.49
-        }
-      ],
-      "updated_at": "2026-10-31T10:26:07.339029+00:00",
-      "source": "Legacy Surveys",
-      "source_label": "Legacy DR11",
-      "metadata": {
-        "urls": [
-          "https://www.legacysurvey.org/viewer/jpeg-cutout?ra=58.804&dec=-56.4147&layer=ls-dr11&pixscale=0.0390625&size=512&bands=grz"
-        ],
-        "layer": "ls-dr11",
-        "bands": "grz",
-        "label": "Legacy DR11",
-        "release": "DR11"
-      },
-      "quality": {
-        "valid_fraction": 1.0,
-        "centre_valid_fraction": 1.0,
-        "std": 20.82681928839121,
-        "centre_std": 55.00892527083019,
-        "centre_range": 236.0
-      },
-      "image": "images/selected/row-57.jpg",
-      "thumbnail": "images/selected/row-57-thumb.jpg",
+      "source": "Euclid",
+      "source_label": "Euclid DR1 VIS+J",
+      "selection_mode": "space_multiband",
+      "image": "images/euclid-dr1-20261114/id-56-d2c2ddb85630.jpg",
+      "thumbnail": "images/euclid-dr1-20261114/id-56-bf6a7ded0e3f-thumb.jpg",
+      "raw_sha256": "281c19a3f6d80005c6bb8b3b836f696722f2728939afb44d0300661fc6170914",
       "higher_priority_errors": false,
-      "raw_sha256": "a068c2c09142a8b4d249b0832e5b8edd48bf2dab0596c8ee2277ef081c5d0db7",
-      "space_search": {
-        "checked_at": "2026-11-01T08:58:54.272373+00:00",
-        "status": "no_usable_space_image",
-        "attempts": [
+      "metadata": {
+        "label": "Euclid DR1 VIS+J",
+        "release": "DR1_R2",
+        "bands": "VIS+J",
+        "band_count": 2,
+        "urls": [
+          "https://eas.esac.esa.int/sas-cutout/cutout?FILEPATH=%2Fdata%2Feuclid%2Frepository_dr1%2FDR1%2FR2%2FMER%2F102013942%2FVIS%2FEUC_MER_BGSUB-MOSAIC-VIS_TILE102013942-1ABE69_20250814T034029.795893Z_00.00.fits&POS=CIRCLE%2C58.804%2C-56.4147%2C0.002916666666666667&TAPCLIENT=ASTROQUERY",
+          "https://eas.esac.esa.int/sas-cutout/cutout?FILEPATH=%2Fdata%2Feuclid%2Frepository_dr1%2FDR1%2FR2%2FMER%2F102013942%2FNISP%2FEUC_MER_BGSUB-MOSAIC-NIR-J_TILE102013942-7597D_20250814T030717.534881Z_00.00.fits&POS=CIRCLE%2C58.804%2C-56.4147%2C0.002916666666666667&TAPCLIENT=ASTROQUERY"
+        ],
+        "band_details": [
           {
-            "provider": "HST",
-            "status": "unavailable",
-            "products": [],
-            "candidate_count": 0,
-            "elapsed_s": 0.0
+            "band": "VIS",
+            "instrument": "VIS",
+            "release": "DR1_R2",
+            "tile": "102013942",
+            "product_id": "MER_ProcessTile_EUCLID_2.0.32-DATA_RELEASE-pcasenov-PLAN-000000-KZYF03MZ-20250723-114819-1173-compressed_mosaics-0",
+            "source_url": "https://eas.esac.esa.int/sas-cutout/cutout?FILEPATH=%2Fdata%2Feuclid%2Frepository_dr1%2FDR1%2FR2%2FMER%2F102013942%2FVIS%2FEUC_MER_BGSUB-MOSAIC-VIS_TILE102013942-1ABE69_20250814T034029.795893Z_00.00.fits&POS=CIRCLE%2C58.804%2C-56.4147%2C0.002916666666666667&TAPCLIENT=ASTROQUERY"
           },
           {
-            "provider": "JWST",
-            "status": "unavailable",
-            "products": [],
-            "candidate_count": 0,
-            "elapsed_s": 0.0
-          },
-          {
-            "provider": "Euclid",
-            "status": "unavailable",
-            "products": [],
-            "candidate_count": 0,
-            "elapsed_s": 0.0
+            "band": "J",
+            "instrument": "NISP",
+            "release": "DR1_R2",
+            "tile": "102013942",
+            "product_id": "MER_ProcessTile_EUCLID_2.0.32-DATA_RELEASE-pcasenov-PLAN-000000-KZYF03MZ-20250723-114819-1173-compressed_mosaics-2",
+            "source_url": "https://eas.esac.esa.int/sas-cutout/cutout?FILEPATH=%2Fdata%2Feuclid%2Frepository_dr1%2FDR1%2FR2%2FMER%2F102013942%2FNISP%2FEUC_MER_BGSUB-MOSAIC-NIR-J_TILE102013942-7597D_20250814T030717.534881Z_00.00.fits&POS=CIRCLE%2C58.804%2C-56.4147%2C0.002916666666666667&TAPCLIENT=ASTROQUERY"
           }
-        ]
+        ],
+        "rgb_mapping": {
+          "red": "J",
+          "green": "(J+VIS)/2",
+          "blue": "VIS"
+        },
+        "caption": "Euclid DR1 VIS+J · 20″ × 20″",
+        "rendering": "Existing VIS+J MTF, north up and east left",
+        "display_note": "ESA Euclid DR1 Foundation · DR1_R2."
       }
     },
     "226": {
@@ -7392,145 +7366,99 @@
       "dec": -46.1858,
       "fov_arcsec": 20,
       "status": "ok",
-      "attempts": [
-        {
-          "provider": "HSC",
-          "status": "unavailable",
-          "reason": "flat or unusable central image",
-          "elapsed": 0.62
-        },
-        {
-          "provider": "DES",
-          "status": "accepted",
-          "elapsed": 23.44
-        }
-      ],
-      "updated_at": "2026-10-31T10:26:07.339228+00:00",
-      "source": "DES",
-      "source_label": "DES DR2",
-      "metadata": {
-        "label": "DES DR2",
-        "release": "DR2",
-        "bands": "GRI",
-        "urls": [
-          "https://datalab.noirlab.edu/sia/des_dr2?POS=57.7146%2C-46.1858&SIZE=0.005555555555555556&FORMAT=image%2Ffits",
-          "https://datalab.noirlab.edu/svc/cutout?col=des_dr2&siaRef=DES0351-4623_r4931p01_g.fits.fz&extn=1&POS=57.7146,-46.1858&SIZE=0.005555555555555556,0.005555555555555556",
-          "https://datalab.noirlab.edu/svc/cutout?col=des_dr2&siaRef=DES0351-4623_r4931p01_r.fits.fz&extn=1&POS=57.7146,-46.1858&SIZE=0.005555555555555556,0.005555555555555556",
-          "https://datalab.noirlab.edu/svc/cutout?col=des_dr2&siaRef=DES0351-4623_r4931p01_i.fits.fz&extn=1&POS=57.7146,-46.1858&SIZE=0.005555555555555556,0.005555555555555556"
-        ],
-        "rendering": "WCS alignment + shared-intensity asinh; north up, east left"
-      },
-      "quality": {
-        "valid_fraction": 0.9726829528808594,
-        "centre_valid_fraction": 1.0,
-        "std": 25.69236745397179,
-        "centre_std": 66.80469368860052,
-        "centre_range": 243.0
-      },
-      "image": "images/selected/row-56.jpg",
-      "thumbnail": "images/selected/row-56-thumb.jpg",
+      "source": "Euclid",
+      "source_label": "Euclid DR1 VIS+J",
+      "selection_mode": "space_multiband",
+      "image": "images/euclid-dr1-20261114/id-55-09197187ed87.jpg",
+      "thumbnail": "images/euclid-dr1-20261114/id-55-46b87c620ba5-thumb.jpg",
+      "raw_sha256": "e45ff15486bb900758bd9a007a3524e3e65c61a649fde7684c2f6cd8f64f340b",
       "higher_priority_errors": false,
-      "raw_sha256": "a14316580ca8ac54284d21f3d87e662f437c48273e56c882356f677182eac2cb",
-      "space_search": {
-        "checked_at": "2026-11-01T08:58:54.057248+00:00",
-        "status": "no_usable_space_image",
-        "attempts": [
+      "metadata": {
+        "label": "Euclid DR1 VIS+J",
+        "release": "DR1_R2",
+        "bands": "VIS+J",
+        "band_count": 2,
+        "urls": [
+          "https://eas.esac.esa.int/sas-cutout/cutout?FILEPATH=%2Fdata%2Feuclid%2Frepository_dr1%2FDR1%2FR2%2FMER%2F102023471%2FVIS%2FEUC_MER_BGSUB-MOSAIC-VIS_TILE102023471-484BD_20250806T224207.249735Z_00.00.fits&POS=CIRCLE%2C57.7146%2C-46.1858%2C0.002916666666666667&TAPCLIENT=ASTROQUERY",
+          "https://eas.esac.esa.int/sas-cutout/cutout?FILEPATH=%2Fdata%2Feuclid%2Frepository_dr1%2FDR1%2FR2%2FMER%2F102023471%2FNISP%2FEUC_MER_BGSUB-MOSAIC-NIR-J_TILE102023471-CDE61F_20250806T213741.598902Z_00.00.fits&POS=CIRCLE%2C57.7146%2C-46.1858%2C0.002916666666666667&TAPCLIENT=ASTROQUERY"
+        ],
+        "band_details": [
           {
-            "provider": "HST",
-            "status": "unavailable",
-            "products": [],
-            "candidate_count": 0,
-            "elapsed_s": 0.0
+            "band": "VIS",
+            "instrument": "VIS",
+            "release": "DR1_R2",
+            "tile": "102023471",
+            "product_id": "MER_ProcessTile_EUCLID_2.0.32-DATA_RELEASE-pcasenov-PLAN-000000-TOZI3TLB-20250723-114850-3217-compressed_mosaics-0",
+            "source_url": "https://eas.esac.esa.int/sas-cutout/cutout?FILEPATH=%2Fdata%2Feuclid%2Frepository_dr1%2FDR1%2FR2%2FMER%2F102023471%2FVIS%2FEUC_MER_BGSUB-MOSAIC-VIS_TILE102023471-484BD_20250806T224207.249735Z_00.00.fits&POS=CIRCLE%2C57.7146%2C-46.1858%2C0.002916666666666667&TAPCLIENT=ASTROQUERY"
           },
           {
-            "provider": "JWST",
-            "status": "unavailable",
-            "products": [],
-            "candidate_count": 0,
-            "elapsed_s": 0.0
-          },
-          {
-            "provider": "Euclid",
-            "status": "unavailable",
-            "products": [],
-            "candidate_count": 0,
-            "elapsed_s": 1.63
+            "band": "J",
+            "instrument": "NISP",
+            "release": "DR1_R2",
+            "tile": "102023471",
+            "product_id": "MER_ProcessTile_EUCLID_2.0.32-DATA_RELEASE-pcasenov-PLAN-000000-TOZI3TLB-20250723-114850-3217-compressed_mosaics-2",
+            "source_url": "https://eas.esac.esa.int/sas-cutout/cutout?FILEPATH=%2Fdata%2Feuclid%2Frepository_dr1%2FDR1%2FR2%2FMER%2F102023471%2FNISP%2FEUC_MER_BGSUB-MOSAIC-NIR-J_TILE102023471-CDE61F_20250806T213741.598902Z_00.00.fits&POS=CIRCLE%2C57.7146%2C-46.1858%2C0.002916666666666667&TAPCLIENT=ASTROQUERY"
           }
-        ]
+        ],
+        "rgb_mapping": {
+          "red": "J",
+          "green": "(J+VIS)/2",
+          "blue": "VIS"
+        },
+        "caption": "Euclid DR1 VIS+J · 20″ × 20″",
+        "rendering": "Existing VIS+J MTF, north up and east left",
+        "display_note": "ESA Euclid DR1 Foundation · DR1_R2."
       }
     },
     "335": {
       "row_number": 335,
       "name": "J0317–5604",
-      "ra": 49.429208,
-      "dec": -56.08185,
+      "ra": 49.42908,
+      "dec": -56.0819,
       "fov_arcsec": 20,
       "status": "ok",
-      "attempts": [
-        {
-          "provider": "HSC",
-          "status": "unavailable",
-          "reason": "flat or unusable central image",
-          "elapsed": 3.56
-        },
-        {
-          "provider": "DES",
-          "status": "accepted",
-          "elapsed": 22.28
-        }
-      ],
-      "updated_at": "2026-10-31T10:47:44.142842+00:00",
-      "source": "DES",
-      "source_label": "DES DR2",
-      "metadata": {
-        "label": "DES DR2",
-        "release": "DR2",
-        "bands": "GRI",
-        "urls": [
-          "https://datalab.noirlab.edu/sia/des_dr2?POS=49.429208%2C-56.08185&SIZE=0.005555555555555556&FORMAT=image%2Ffits",
-          "https://datalab.noirlab.edu/svc/cutout?col=des_dr2&siaRef=DES0316-5622_r4931p02_g.fits.fz&extn=1&POS=49.429208,-56.08185&SIZE=0.005555555555555556,0.005555555555555556",
-          "https://datalab.noirlab.edu/svc/cutout?col=des_dr2&siaRef=DES0316-5622_r4931p02_r.fits.fz&extn=1&POS=49.429208,-56.08185&SIZE=0.005555555555555556,0.005555555555555556",
-          "https://datalab.noirlab.edu/svc/cutout?col=des_dr2&siaRef=DES0316-5622_r4931p02_i.fits.fz&extn=1&POS=49.429208,-56.08185&SIZE=0.005555555555555556,0.005555555555555556"
-        ],
-        "rendering": "WCS alignment + shared-intensity asinh; north up, east left"
-      },
-      "quality": {
-        "valid_fraction": 0.9725875854492188,
-        "centre_valid_fraction": 1.0,
-        "std": 31.039264153724115,
-        "centre_std": 75.5164098699823,
-        "centre_range": 245.0
-      },
-      "image": "images/selected/row-335.jpg",
-      "thumbnail": "images/selected/row-335-thumb.jpg",
+      "source": "Euclid",
+      "source_label": "Euclid DR1 VIS+J",
+      "selection_mode": "space_multiband",
+      "image": "images/euclid-dr1-20261114/id-334-97d59b01a531.jpg",
+      "thumbnail": "images/euclid-dr1-20261114/id-334-8504f5b2a99a-thumb.jpg",
+      "raw_sha256": "1ca0a7273a8c0c5c67293636b5aec3a0615cbae220400d5a349ac75311796ff8",
       "higher_priority_errors": false,
-      "raw_sha256": "a979cc24a4534e1b11633dc0297fdc73df08c30facdade1c8ba2ac71bffd14cd",
-      "space_search": {
-        "checked_at": "2026-11-01T09:03:57.825013+00:00",
-        "status": "no_usable_space_image",
-        "attempts": [
+      "metadata": {
+        "label": "Euclid DR1 VIS+J",
+        "release": "DR1_R2",
+        "bands": "VIS+J",
+        "band_count": 2,
+        "urls": [
+          "https://eas.esac.esa.int/sas-cutout/cutout?FILEPATH=%2Fdata%2Feuclid%2Frepository_dr1%2FDR1%2FR2%2FMER%2F102014335%2FVIS%2FEUC_MER_BGSUB-MOSAIC-VIS_TILE102014335-21CCCC_20250809T184829.713641Z_00.00.fits&POS=CIRCLE%2C49.42908%2C-56.0819%2C0.002916666666666667&TAPCLIENT=ASTROQUERY",
+          "https://eas.esac.esa.int/sas-cutout/cutout?FILEPATH=%2Fdata%2Feuclid%2Frepository_dr1%2FDR1%2FR2%2FMER%2F102014335%2FNISP%2FEUC_MER_BGSUB-MOSAIC-NIR-J_TILE102014335-581603_20250809T180344.868091Z_00.00.fits&POS=CIRCLE%2C49.42908%2C-56.0819%2C0.002916666666666667&TAPCLIENT=ASTROQUERY"
+        ],
+        "band_details": [
           {
-            "provider": "HST",
-            "status": "unavailable",
-            "products": [],
-            "candidate_count": 0,
-            "elapsed_s": 0.0
+            "band": "VIS",
+            "instrument": "VIS",
+            "release": "DR1_R2",
+            "tile": "102014335",
+            "product_id": "MER_ProcessTile_EUCLID_2.0.32-DATA_RELEASE-pcasenov-PLAN-000000-NW7BHY4C-20250723-114821-1253-compressed_mosaics-0",
+            "source_url": "https://eas.esac.esa.int/sas-cutout/cutout?FILEPATH=%2Fdata%2Feuclid%2Frepository_dr1%2FDR1%2FR2%2FMER%2F102014335%2FVIS%2FEUC_MER_BGSUB-MOSAIC-VIS_TILE102014335-21CCCC_20250809T184829.713641Z_00.00.fits&POS=CIRCLE%2C49.42908%2C-56.0819%2C0.002916666666666667&TAPCLIENT=ASTROQUERY"
           },
           {
-            "provider": "JWST",
-            "status": "unavailable",
-            "products": [],
-            "candidate_count": 0,
-            "elapsed_s": 0.0
-          },
-          {
-            "provider": "Euclid",
-            "status": "unavailable",
-            "products": [],
-            "candidate_count": 0,
-            "elapsed_s": 0.0
+            "band": "J",
+            "instrument": "NISP",
+            "release": "DR1_R2",
+            "tile": "102014335",
+            "product_id": "MER_ProcessTile_EUCLID_2.0.32-DATA_RELEASE-pcasenov-PLAN-000000-NW7BHY4C-20250723-114821-1253-compressed_mosaics-2",
+            "source_url": "https://eas.esac.esa.int/sas-cutout/cutout?FILEPATH=%2Fdata%2Feuclid%2Frepository_dr1%2FDR1%2FR2%2FMER%2F102014335%2FNISP%2FEUC_MER_BGSUB-MOSAIC-NIR-J_TILE102014335-581603_20250809T180344.868091Z_00.00.fits&POS=CIRCLE%2C49.42908%2C-56.0819%2C0.002916666666666667&TAPCLIENT=ASTROQUERY"
           }
-        ]
+        ],
+        "rgb_mapping": {
+          "red": "J",
+          "green": "(J+VIS)/2",
+          "blue": "VIS"
+        },
+        "caption": "Euclid DR1 VIS+J · 20″ × 20″",
+        "rendering": "Existing VIS+J MTF, north up and east left",
+        "display_note": "ESA Euclid DR1 Foundation · DR1_R2."
       }
     },
     "270": {
@@ -28917,74 +28845,48 @@
       "dec": -56.1073,
       "fov_arcsec": 20,
       "status": "ok",
-      "attempts": [
-        {
-          "provider": "HSC",
-          "status": "unavailable",
-          "reason": "flat or unusable central image",
-          "elapsed": 0.67
-        },
-        {
-          "provider": "DES",
-          "status": "unavailable",
-          "reason": "DES SIA returned no observations",
-          "elapsed": 0.6
-        },
-        {
-          "provider": "Legacy Surveys",
-          "status": "accepted",
-          "elapsed": 1.57
-        }
-      ],
-      "updated_at": "2026-10-31T10:26:31.400347+00:00",
-      "source": "Legacy Surveys",
-      "source_label": "Legacy DR11",
-      "metadata": {
-        "urls": [
-          "https://www.legacysurvey.org/viewer/jpeg-cutout?ra=64.1783&dec=-56.1073&layer=ls-dr11&pixscale=0.0390625&size=512&bands=grz"
-        ],
-        "layer": "ls-dr11",
-        "bands": "grz",
-        "label": "Legacy DR11",
-        "release": "DR11"
-      },
-      "quality": {
-        "valid_fraction": 1.0,
-        "centre_valid_fraction": 1.0,
-        "std": 28.278790668174555,
-        "centre_std": 57.73743037242122,
-        "centre_range": 238.0
-      },
-      "image": "images/selected/row-65.jpg",
-      "thumbnail": "images/selected/row-65-thumb.jpg",
+      "source": "Euclid",
+      "source_label": "Euclid DR1 VIS+J",
+      "selection_mode": "space_multiband",
+      "image": "images/euclid-dr1-20261114/id-64-8d2f6d018722.jpg",
+      "thumbnail": "images/euclid-dr1-20261114/id-64-b367ef964b81-thumb.jpg",
+      "raw_sha256": "83b3fbd2db0f4c1c1dc17397de00ca780586f0cbff6efeccbd59368fec432acf",
       "higher_priority_errors": false,
-      "raw_sha256": "64d88694acce8290c550ec346957b6c508c37457d46078f6303349ccbc1f14e2",
-      "space_search": {
-        "checked_at": "2026-11-01T08:58:58.666167+00:00",
-        "status": "no_usable_space_image",
-        "attempts": [
+      "metadata": {
+        "label": "Euclid DR1 VIS+J",
+        "release": "DR1_R2",
+        "bands": "VIS+J",
+        "band_count": 2,
+        "urls": [
+          "https://eas.esac.esa.int/sas-cutout/cutout?FILEPATH=%2Fdata%2Feuclid%2Frepository_dr1%2FDR1%2FR2%2FMER%2F102014352%2FVIS%2FEUC_MER_BGSUB-MOSAIC-VIS_TILE102014352-D1B4C7_20250814T153355.336450Z_00.00.fits&POS=CIRCLE%2C64.1783%2C-56.1073%2C0.002916666666666667&TAPCLIENT=ASTROQUERY",
+          "https://eas.esac.esa.int/sas-cutout/cutout?FILEPATH=%2Fdata%2Feuclid%2Frepository_dr1%2FDR1%2FR2%2FMER%2F102014352%2FNISP%2FEUC_MER_BGSUB-MOSAIC-NIR-J_TILE102014352-BB490E_20250814T133805.357374Z_00.00.fits&POS=CIRCLE%2C64.1783%2C-56.1073%2C0.002916666666666667&TAPCLIENT=ASTROQUERY"
+        ],
+        "band_details": [
           {
-            "provider": "HST",
-            "status": "unavailable",
-            "products": [],
-            "candidate_count": 0,
-            "elapsed_s": 0.0
+            "band": "VIS",
+            "instrument": "VIS",
+            "release": "DR1_R2",
+            "tile": "102014352",
+            "product_id": "MER_ProcessTile_EUCLID_2.0.32-DATA_RELEASE-pcasenov-PLAN-000000-XC501HUY-20250723-114821-1270-compressed_mosaics-0",
+            "source_url": "https://eas.esac.esa.int/sas-cutout/cutout?FILEPATH=%2Fdata%2Feuclid%2Frepository_dr1%2FDR1%2FR2%2FMER%2F102014352%2FVIS%2FEUC_MER_BGSUB-MOSAIC-VIS_TILE102014352-D1B4C7_20250814T153355.336450Z_00.00.fits&POS=CIRCLE%2C64.1783%2C-56.1073%2C0.002916666666666667&TAPCLIENT=ASTROQUERY"
           },
           {
-            "provider": "JWST",
-            "status": "unavailable",
-            "products": [],
-            "candidate_count": 0,
-            "elapsed_s": 0.0
-          },
-          {
-            "provider": "Euclid",
-            "status": "unavailable",
-            "products": [],
-            "candidate_count": 0,
-            "elapsed_s": 0.0
+            "band": "J",
+            "instrument": "NISP",
+            "release": "DR1_R2",
+            "tile": "102014352",
+            "product_id": "MER_ProcessTile_EUCLID_2.0.32-DATA_RELEASE-pcasenov-PLAN-000000-XC501HUY-20250723-114821-1270-compressed_mosaics-2",
+            "source_url": "https://eas.esac.esa.int/sas-cutout/cutout?FILEPATH=%2Fdata%2Feuclid%2Frepository_dr1%2FDR1%2FR2%2FMER%2F102014352%2FNISP%2FEUC_MER_BGSUB-MOSAIC-NIR-J_TILE102014352-BB490E_20250814T133805.357374Z_00.00.fits&POS=CIRCLE%2C64.1783%2C-56.1073%2C0.002916666666666667&TAPCLIENT=ASTROQUERY"
           }
-        ]
+        ],
+        "rgb_mapping": {
+          "red": "J",
+          "green": "(J+VIS)/2",
+          "blue": "VIS"
+        },
+        "caption": "Euclid DR1 VIS+J · 20″ × 20″",
+        "rendering": "Existing VIS+J MTF, north up and east left",
+        "display_note": "ESA Euclid DR1 Foundation · DR1_R2."
       }
     },
     "214": {
@@ -30894,71 +30796,48 @@
       "dec": -55.7534,
       "fov_arcsec": 20,
       "status": "ok",
-      "attempts": [
-        {
-          "provider": "HSC",
-          "status": "unavailable",
-          "reason": "flat or unusable central image",
-          "elapsed": 0.67
-        },
-        {
-          "provider": "DES",
-          "status": "accepted",
-          "elapsed": 22.22
-        }
-      ],
-      "updated_at": "2026-10-31T10:25:32.605922+00:00",
-      "source": "DES",
-      "source_label": "DES DR2",
-      "metadata": {
-        "label": "DES DR2",
-        "release": "DR2",
-        "bands": "GRI",
-        "urls": [
-          "https://datalab.noirlab.edu/sia/des_dr2?POS=47.7029%2C-55.7534&SIZE=0.005555555555555556&FORMAT=image%2Ffits",
-          "https://datalab.noirlab.edu/svc/cutout?col=des_dr2&siaRef=DES0311-5540_r4931p01_g.fits.fz&extn=1&POS=47.7029,-55.7534&SIZE=0.005555555555555556,0.005555555555555556",
-          "https://datalab.noirlab.edu/svc/cutout?col=des_dr2&siaRef=DES0311-5540_r4931p01_r.fits.fz&extn=1&POS=47.7029,-55.7534&SIZE=0.005555555555555556,0.005555555555555556",
-          "https://datalab.noirlab.edu/svc/cutout?col=des_dr2&siaRef=DES0311-5540_r4931p01_i.fits.fz&extn=1&POS=47.7029,-55.7534&SIZE=0.005555555555555556,0.005555555555555556"
-        ],
-        "rendering": "WCS alignment + shared-intensity asinh; north up, east left"
-      },
-      "quality": {
-        "valid_fraction": 0.9727325439453125,
-        "centre_valid_fraction": 1.0,
-        "std": 35.932382812642196,
-        "centre_std": 69.82480228510133,
-        "centre_range": 229.0
-      },
-      "image": "images/selected/row-49.jpg",
-      "thumbnail": "images/selected/row-49-thumb.jpg",
+      "source": "Euclid",
+      "source_label": "Euclid DR1 VIS+J",
+      "selection_mode": "space_multiband",
+      "image": "images/euclid-dr1-20261114/id-48-fb2a4df2c14c.jpg",
+      "thumbnail": "images/euclid-dr1-20261114/id-48-f5977361b88b-thumb.jpg",
+      "raw_sha256": "9347f08691d62279a84fc9f88c4881313f2141939b8ca6446f6f60c26a4dd901",
       "higher_priority_errors": false,
-      "raw_sha256": "c2f4422d760aa67caf59d2c31d1fdc5653b7778449eefad989ad708af883bc51",
-      "space_search": {
-        "checked_at": "2026-11-01T08:58:51.179626+00:00",
-        "status": "no_usable_space_image",
-        "attempts": [
+      "metadata": {
+        "label": "Euclid DR1 VIS+J",
+        "release": "DR1_R2",
+        "bands": "VIS+J",
+        "band_count": 2,
+        "urls": [
+          "https://eas.esac.esa.int/sas-cutout/cutout?FILEPATH=%2Fdata%2Feuclid%2Frepository_dr1%2FDR1%2FR2%2FMER%2F102014333%2FVIS%2FEUC_MER_BGSUB-MOSAIC-VIS_TILE102014333-1DF878_20250727T101504.558509Z_00.00.fits&POS=CIRCLE%2C47.7029%2C-55.7534%2C0.002916666666666667&TAPCLIENT=ASTROQUERY",
+          "https://eas.esac.esa.int/sas-cutout/cutout?FILEPATH=%2Fdata%2Feuclid%2Frepository_dr1%2FDR1%2FR2%2FMER%2F102014333%2FNISP%2FEUC_MER_BGSUB-MOSAIC-NIR-J_TILE102014333-477F18_20250727T090052.247410Z_00.00.fits&POS=CIRCLE%2C47.7029%2C-55.7534%2C0.002916666666666667&TAPCLIENT=ASTROQUERY"
+        ],
+        "band_details": [
           {
-            "provider": "HST",
-            "status": "unavailable",
-            "products": [],
-            "candidate_count": 0,
-            "elapsed_s": 0.0
+            "band": "VIS",
+            "instrument": "VIS",
+            "release": "DR1_R2",
+            "tile": "102014333",
+            "product_id": "MER_ProcessTile_EUCLID_2.0.32-DATA_RELEASE-pcasenov-PLAN-000000-AEKISSZ6-20250723-114821-1251-compressed_mosaics-0",
+            "source_url": "https://eas.esac.esa.int/sas-cutout/cutout?FILEPATH=%2Fdata%2Feuclid%2Frepository_dr1%2FDR1%2FR2%2FMER%2F102014333%2FVIS%2FEUC_MER_BGSUB-MOSAIC-VIS_TILE102014333-1DF878_20250727T101504.558509Z_00.00.fits&POS=CIRCLE%2C47.7029%2C-55.7534%2C0.002916666666666667&TAPCLIENT=ASTROQUERY"
           },
           {
-            "provider": "JWST",
-            "status": "unavailable",
-            "products": [],
-            "candidate_count": 0,
-            "elapsed_s": 0.0
-          },
-          {
-            "provider": "Euclid",
-            "status": "unavailable",
-            "products": [],
-            "candidate_count": 0,
-            "elapsed_s": 0.0
+            "band": "J",
+            "instrument": "NISP",
+            "release": "DR1_R2",
+            "tile": "102014333",
+            "product_id": "MER_ProcessTile_EUCLID_2.0.32-DATA_RELEASE-pcasenov-PLAN-000000-AEKISSZ6-20250723-114821-1251-compressed_mosaics-2",
+            "source_url": "https://eas.esac.esa.int/sas-cutout/cutout?FILEPATH=%2Fdata%2Feuclid%2Frepository_dr1%2FDR1%2FR2%2FMER%2F102014333%2FNISP%2FEUC_MER_BGSUB-MOSAIC-NIR-J_TILE102014333-477F18_20250727T090052.247410Z_00.00.fits&POS=CIRCLE%2C47.7029%2C-55.7534%2C0.002916666666666667&TAPCLIENT=ASTROQUERY"
           }
-        ]
+        ],
+        "rgb_mapping": {
+          "red": "J",
+          "green": "(J+VIS)/2",
+          "blue": "VIS"
+        },
+        "caption": "Euclid DR1 VIS+J · 20″ × 20″",
+        "rendering": "Existing VIS+J MTF, north up and east left",
+        "display_note": "ESA Euclid DR1 Foundation · DR1_R2."
       }
     },
     "111": {
@@ -38692,78 +38571,52 @@
     "75": {
       "row_number": 75,
       "name": "DESJ0501-4118",
-      "ra": 75.4413,
+      "ra": 75.44129,
       "dec": -41.3003,
       "fov_arcsec": 20,
       "status": "ok",
-      "attempts": [
-        {
-          "provider": "HSC",
-          "status": "unavailable",
-          "reason": "flat or unusable central image",
-          "elapsed": 0.62
-        },
-        {
-          "provider": "DES",
-          "status": "unavailable",
-          "reason": "DES SIA returned no observations",
-          "elapsed": 0.56
-        },
-        {
-          "provider": "Legacy Surveys",
-          "status": "accepted",
-          "elapsed": 3.03
-        }
-      ],
-      "updated_at": "2026-10-31T10:26:44.040369+00:00",
-      "source": "Legacy Surveys",
-      "source_label": "Legacy DR11",
-      "metadata": {
-        "urls": [
-          "https://www.legacysurvey.org/viewer/jpeg-cutout?ra=75.4413&dec=-41.3003&layer=ls-dr11&pixscale=0.0390625&size=512&bands=grz"
-        ],
-        "layer": "ls-dr11",
-        "bands": "grz",
-        "label": "Legacy DR11",
-        "release": "DR11"
-      },
-      "quality": {
-        "valid_fraction": 1.0,
-        "centre_valid_fraction": 1.0,
-        "std": 37.93315425868254,
-        "centre_std": 57.699972702872714,
-        "centre_range": 214.0
-      },
-      "image": "images/selected/row-75.jpg",
-      "thumbnail": "images/selected/row-75-thumb.jpg",
+      "source": "Euclid",
+      "source_label": "Euclid DR1 VIS+J",
+      "selection_mode": "space_multiband",
+      "image": "images/euclid-dr1-20261114/id-74-b28837c8edbb.jpg",
+      "thumbnail": "images/euclid-dr1-20261114/id-74-00a56970aef1-thumb.jpg",
+      "raw_sha256": "961061250d3fa3e88068d6a05c831f27499bea880413e2b51359e6e2341376a2",
       "higher_priority_errors": false,
-      "raw_sha256": "a6176a8f0c7588e585fe8facde1008923532ec711be13c5b51196560e2f6aeee",
-      "space_search": {
-        "checked_at": "2026-11-01T08:59:04.671476+00:00",
-        "status": "no_usable_space_image",
-        "attempts": [
+      "metadata": {
+        "label": "Euclid DR1 VIS+J",
+        "release": "DR1_R2",
+        "bands": "VIS+J",
+        "band_count": 2,
+        "urls": [
+          "https://eas.esac.esa.int/sas-cutout/cutout?FILEPATH=%2Fdata%2Feuclid%2Frepository_dr1%2FDR1%2FR2%2FMER%2F102028208%2FVIS%2FEUC_MER_BGSUB-MOSAIC-VIS_TILE102028208-3E9F5C_20250813T060631.068572Z_00.00.fits&POS=CIRCLE%2C75.44129%2C-41.3003%2C0.002916666666666667&TAPCLIENT=ASTROQUERY",
+          "https://eas.esac.esa.int/sas-cutout/cutout?FILEPATH=%2Fdata%2Feuclid%2Frepository_dr1%2FDR1%2FR2%2FMER%2F102028208%2FNISP%2FEUC_MER_BGSUB-MOSAIC-NIR-J_TILE102028208-B5734A_20250813T004206.981198Z_00.00.fits&POS=CIRCLE%2C75.44129%2C-41.3003%2C0.002916666666666667&TAPCLIENT=ASTROQUERY"
+        ],
+        "band_details": [
           {
-            "provider": "HST",
-            "status": "unavailable",
-            "products": [],
-            "candidate_count": 0,
-            "elapsed_s": 0.0
+            "band": "VIS",
+            "instrument": "VIS",
+            "release": "DR1_R2",
+            "tile": "102028208",
+            "product_id": "MER_ProcessTile_EUCLID_2.0.32-DATA_RELEASE-pcasenov-PLAN-000000-3D427YWL-20250723-114902-4084-compressed_mosaics-0",
+            "source_url": "https://eas.esac.esa.int/sas-cutout/cutout?FILEPATH=%2Fdata%2Feuclid%2Frepository_dr1%2FDR1%2FR2%2FMER%2F102028208%2FVIS%2FEUC_MER_BGSUB-MOSAIC-VIS_TILE102028208-3E9F5C_20250813T060631.068572Z_00.00.fits&POS=CIRCLE%2C75.44129%2C-41.3003%2C0.002916666666666667&TAPCLIENT=ASTROQUERY"
           },
           {
-            "provider": "JWST",
-            "status": "unavailable",
-            "products": [],
-            "candidate_count": 0,
-            "elapsed_s": 0.0
-          },
-          {
-            "provider": "Euclid",
-            "status": "unavailable",
-            "products": [],
-            "candidate_count": 0,
-            "elapsed_s": 0.0
+            "band": "J",
+            "instrument": "NISP",
+            "release": "DR1_R2",
+            "tile": "102028208",
+            "product_id": "MER_ProcessTile_EUCLID_2.0.32-DATA_RELEASE-pcasenov-PLAN-000000-3D427YWL-20250723-114902-4084-compressed_mosaics-2",
+            "source_url": "https://eas.esac.esa.int/sas-cutout/cutout?FILEPATH=%2Fdata%2Feuclid%2Frepository_dr1%2FDR1%2FR2%2FMER%2F102028208%2FNISP%2FEUC_MER_BGSUB-MOSAIC-NIR-J_TILE102028208-B5734A_20250813T004206.981198Z_00.00.fits&POS=CIRCLE%2C75.44129%2C-41.3003%2C0.002916666666666667&TAPCLIENT=ASTROQUERY"
           }
-        ]
+        ],
+        "rgb_mapping": {
+          "red": "J",
+          "green": "(J+VIS)/2",
+          "blue": "VIS"
+        },
+        "caption": "Euclid DR1 VIS+J · 20″ × 20″",
+        "rendering": "Existing VIS+J MTF, north up and east left",
+        "display_note": "ESA Euclid DR1 Foundation · DR1_R2."
       }
     },
     "341": {
@@ -39647,71 +39500,48 @@
       "dec": -37.5128,
       "fov_arcsec": 20,
       "status": "ok",
-      "attempts": [
-        {
-          "provider": "HSC",
-          "status": "unavailable",
-          "reason": "flat or unusable central image",
-          "elapsed": 0.69
-        },
-        {
-          "provider": "DES",
-          "status": "accepted",
-          "elapsed": 22.78
-        }
-      ],
-      "updated_at": "2026-10-31T10:26:12.908141+00:00",
-      "source": "DES",
-      "source_label": "DES DR2",
-      "metadata": {
-        "label": "DES DR2",
-        "release": "DR2",
-        "bands": "GRI",
-        "urls": [
-          "https://datalab.noirlab.edu/sia/des_dr2?POS=61.2721%2C-37.5128&SIZE=0.005555555555555556&FORMAT=image%2Ffits",
-          "https://datalab.noirlab.edu/svc/cutout?col=des_dr2&siaRef=DES0405-3749_r4939p01_g.fits.fz&extn=1&POS=61.2721,-37.5128&SIZE=0.005555555555555556,0.005555555555555556",
-          "https://datalab.noirlab.edu/svc/cutout?col=des_dr2&siaRef=DES0405-3749_r4939p01_r.fits.fz&extn=1&POS=61.2721,-37.5128&SIZE=0.005555555555555556,0.005555555555555556",
-          "https://datalab.noirlab.edu/svc/cutout?col=des_dr2&siaRef=DES0405-3749_r4939p01_i.fits.fz&extn=1&POS=61.2721,-37.5128&SIZE=0.005555555555555556,0.005555555555555556"
-        ],
-        "rendering": "WCS alignment + shared-intensity asinh; north up, east left"
-      },
-      "quality": {
-        "valid_fraction": 0.9725532531738281,
-        "centre_valid_fraction": 1.0,
-        "std": 35.960514713573396,
-        "centre_std": 71.03877394491853,
-        "centre_range": 235.0
-      },
-      "image": "images/selected/row-59.jpg",
-      "thumbnail": "images/selected/row-59-thumb.jpg",
+      "source": "Euclid",
+      "source_label": "Euclid DR1 VIS+J",
+      "selection_mode": "space_multiband",
+      "image": "images/euclid-dr1-20261114/id-58-fee65a08e69b.jpg",
+      "thumbnail": "images/euclid-dr1-20261114/id-58-6b7e583e80e1-thumb.jpg",
+      "raw_sha256": "e55869c07284d6b5e74891e7caa409c9abd615a1965902db420b5a6cdd28fe1b",
       "higher_priority_errors": false,
-      "raw_sha256": "93c652f165c4e20598c9cc4a1aef1e14d18494f0cc5b4101d50994e84a092ccd",
-      "space_search": {
-        "checked_at": "2026-11-01T08:58:54.276955+00:00",
-        "status": "no_usable_space_image",
-        "attempts": [
+      "metadata": {
+        "label": "Euclid DR1 VIS+J",
+        "release": "DR1_R2",
+        "bands": "VIS+J",
+        "band_count": 2,
+        "urls": [
+          "https://eas.esac.esa.int/sas-cutout/cutout?FILEPATH=%2Fdata%2Feuclid%2Frepository_dr1%2FDR1%2FR2%2FMER%2F102032656%2FVIS%2FEUC_MER_BGSUB-MOSAIC-VIS_TILE102032656-B33EAB_20250811T180013.415905Z_00.00.fits&POS=CIRCLE%2C61.2721%2C-37.5128%2C0.002916666666666667&TAPCLIENT=ASTROQUERY",
+          "https://eas.esac.esa.int/sas-cutout/cutout?FILEPATH=%2Fdata%2Feuclid%2Frepository_dr1%2FDR1%2FR2%2FMER%2F102032656%2FNISP%2FEUC_MER_BGSUB-MOSAIC-NIR-J_TILE102032656-A970E5_20250811T122745.626505Z_00.00.fits&POS=CIRCLE%2C61.2721%2C-37.5128%2C0.002916666666666667&TAPCLIENT=ASTROQUERY"
+        ],
+        "band_details": [
           {
-            "provider": "HST",
-            "status": "unavailable",
-            "products": [],
-            "candidate_count": 0,
-            "elapsed_s": 0.0
+            "band": "VIS",
+            "instrument": "VIS",
+            "release": "DR1_R2",
+            "tile": "102032656",
+            "product_id": "MER_ProcessTile_EUCLID_2.0.32-DATA_RELEASE-pcasenov-PLAN-000000-D1D8XB5F-20250723-114911-4777-compressed_mosaics-0",
+            "source_url": "https://eas.esac.esa.int/sas-cutout/cutout?FILEPATH=%2Fdata%2Feuclid%2Frepository_dr1%2FDR1%2FR2%2FMER%2F102032656%2FVIS%2FEUC_MER_BGSUB-MOSAIC-VIS_TILE102032656-B33EAB_20250811T180013.415905Z_00.00.fits&POS=CIRCLE%2C61.2721%2C-37.5128%2C0.002916666666666667&TAPCLIENT=ASTROQUERY"
           },
           {
-            "provider": "JWST",
-            "status": "unavailable",
-            "products": [],
-            "candidate_count": 0,
-            "elapsed_s": 0.0
-          },
-          {
-            "provider": "Euclid",
-            "status": "unavailable",
-            "products": [],
-            "candidate_count": 0,
-            "elapsed_s": 0.0
+            "band": "J",
+            "instrument": "NISP",
+            "release": "DR1_R2",
+            "tile": "102032656",
+            "product_id": "MER_ProcessTile_EUCLID_2.0.32-DATA_RELEASE-pcasenov-PLAN-000000-D1D8XB5F-20250723-114911-4777-compressed_mosaics-2",
+            "source_url": "https://eas.esac.esa.int/sas-cutout/cutout?FILEPATH=%2Fdata%2Feuclid%2Frepository_dr1%2FDR1%2FR2%2FMER%2F102032656%2FNISP%2FEUC_MER_BGSUB-MOSAIC-NIR-J_TILE102032656-A970E5_20250811T122745.626505Z_00.00.fits&POS=CIRCLE%2C61.2721%2C-37.5128%2C0.002916666666666667&TAPCLIENT=ASTROQUERY"
           }
-        ]
+        ],
+        "rgb_mapping": {
+          "red": "J",
+          "green": "(J+VIS)/2",
+          "blue": "VIS"
+        },
+        "caption": "Euclid DR1 VIS+J · 20″ × 20″",
+        "rendering": "Existing VIS+J MTF, north up and east left",
+        "display_note": "ESA Euclid DR1 Foundation · DR1_R2."
       }
     },
     "101": {
@@ -43944,75 +43774,52 @@
     "336": {
       "row_number": 336,
       "name": "J0404–2836",
-      "ra": 61.192208,
-      "dec": -28.608222,
+      "ra": 61.19209,
+      "dec": -28.60811,
       "fov_arcsec": 20,
       "status": "ok",
-      "attempts": [
-        {
-          "provider": "HSC",
-          "status": "unavailable",
-          "reason": "flat or unusable central image",
-          "elapsed": 2.19
-        },
-        {
-          "provider": "DES",
-          "status": "accepted",
-          "elapsed": 16.09
-        }
-      ],
-      "updated_at": "2026-10-31T10:47:47.680374+00:00",
-      "source": "DES",
-      "source_label": "DES DR2",
-      "metadata": {
-        "label": "DES DR2",
-        "release": "DR2",
-        "bands": "GRI",
-        "urls": [
-          "https://datalab.noirlab.edu/sia/des_dr2?POS=61.192208%2C-28.608222&SIZE=0.005555555555555556&FORMAT=image%2Ffits",
-          "https://datalab.noirlab.edu/svc/cutout?col=des_dr2&siaRef=DES0405-2832_r4939p01_g.fits.fz&extn=1&POS=61.192208,-28.608222&SIZE=0.005555555555555556,0.005555555555555556",
-          "https://datalab.noirlab.edu/svc/cutout?col=des_dr2&siaRef=DES0405-2832_r4939p01_r.fits.fz&extn=1&POS=61.192208,-28.608222&SIZE=0.005555555555555556,0.005555555555555556",
-          "https://datalab.noirlab.edu/svc/cutout?col=des_dr2&siaRef=DES0405-2832_r4939p01_i.fits.fz&extn=1&POS=61.192208,-28.608222&SIZE=0.005555555555555556,0.005555555555555556"
-        ],
-        "rendering": "WCS alignment + shared-intensity asinh; north up, east left"
-      },
-      "quality": {
-        "valid_fraction": 0.9726066589355469,
-        "centre_valid_fraction": 1.0,
-        "std": 30.007229044175283,
-        "centre_std": 76.50502290157661,
-        "centre_range": 243.0
-      },
-      "image": "images/selected/row-336.jpg",
-      "thumbnail": "images/selected/row-336-thumb.jpg",
+      "source": "Euclid",
+      "source_label": "Euclid DR1 VIS+J",
+      "selection_mode": "space_multiband",
+      "image": "images/euclid-dr1-20261114/id-335-d0311f1c3ca0.jpg",
+      "thumbnail": "images/euclid-dr1-20261114/id-335-bd96cf1ea2f6-thumb.jpg",
+      "raw_sha256": "434771afcac6fb8011741b4a8f4f456cb0d757ddb9ebb24c0ad73dfbca8dde0b",
       "higher_priority_errors": false,
-      "raw_sha256": "680ec94a90742cdddd91ae72bdb6a7878981a9d157ffb0dd0fc1b1669a540bde",
-      "space_search": {
-        "checked_at": "2026-11-01T09:03:57.826758+00:00",
-        "status": "no_usable_space_image",
-        "attempts": [
+      "metadata": {
+        "label": "Euclid DR1 VIS+J",
+        "release": "DR1_R2",
+        "bands": "VIS+J",
+        "band_count": 2,
+        "urls": [
+          "https://eas.esac.esa.int/sas-cutout/cutout?FILEPATH=%2Fdata%2Feuclid%2Frepository_dr1%2FDR1%2FR2%2FMER%2F102043563%2FVIS%2FEUC_MER_BGSUB-MOSAIC-VIS_TILE102043563-678B44_20250815T115541.620712Z_00.00.fits&POS=CIRCLE%2C61.19209%2C-28.60811%2C0.002916666666666667&TAPCLIENT=ASTROQUERY",
+          "https://eas.esac.esa.int/sas-cutout/cutout?FILEPATH=%2Fdata%2Feuclid%2Frepository_dr1%2FDR1%2FR2%2FMER%2F102043563%2FNISP%2FEUC_MER_BGSUB-MOSAIC-NIR-J_TILE102043563-B057ED_20250815T055701.640579Z_00.00.fits&POS=CIRCLE%2C61.19209%2C-28.60811%2C0.002916666666666667&TAPCLIENT=ASTROQUERY"
+        ],
+        "band_details": [
           {
-            "provider": "HST",
-            "status": "unavailable",
-            "products": [],
-            "candidate_count": 0,
-            "elapsed_s": 0.0
+            "band": "VIS",
+            "instrument": "VIS",
+            "release": "DR1_R2",
+            "tile": "102043563",
+            "product_id": "MER_ProcessTile_EUCLID_2.0.32-DATA_RELEASE-pcasenov-PLAN-000000-U9FEKXC4-20250723-114930-6139-compressed_mosaics-0",
+            "source_url": "https://eas.esac.esa.int/sas-cutout/cutout?FILEPATH=%2Fdata%2Feuclid%2Frepository_dr1%2FDR1%2FR2%2FMER%2F102043563%2FVIS%2FEUC_MER_BGSUB-MOSAIC-VIS_TILE102043563-678B44_20250815T115541.620712Z_00.00.fits&POS=CIRCLE%2C61.19209%2C-28.60811%2C0.002916666666666667&TAPCLIENT=ASTROQUERY"
           },
           {
-            "provider": "JWST",
-            "status": "unavailable",
-            "products": [],
-            "candidate_count": 0,
-            "elapsed_s": 0.0
-          },
-          {
-            "provider": "Euclid",
-            "status": "unavailable",
-            "products": [],
-            "candidate_count": 0,
-            "elapsed_s": 0.0
+            "band": "J",
+            "instrument": "NISP",
+            "release": "DR1_R2",
+            "tile": "102043563",
+            "product_id": "MER_ProcessTile_EUCLID_2.0.32-DATA_RELEASE-pcasenov-PLAN-000000-U9FEKXC4-20250723-114930-6139-compressed_mosaics-2",
+            "source_url": "https://eas.esac.esa.int/sas-cutout/cutout?FILEPATH=%2Fdata%2Feuclid%2Frepository_dr1%2FDR1%2FR2%2FMER%2F102043563%2FNISP%2FEUC_MER_BGSUB-MOSAIC-NIR-J_TILE102043563-B057ED_20250815T055701.640579Z_00.00.fits&POS=CIRCLE%2C61.19209%2C-28.60811%2C0.002916666666666667&TAPCLIENT=ASTROQUERY"
           }
-        ]
+        ],
+        "rgb_mapping": {
+          "red": "J",
+          "green": "(J+VIS)/2",
+          "blue": "VIS"
+        },
+        "caption": "Euclid DR1 VIS+J · 20″ × 20″",
+        "rendering": "Existing VIS+J MTF, north up and east left",
+        "display_note": "ESA Euclid DR1 Foundation · DR1_R2."
       }
     },
     "265": {
@@ -44244,71 +44051,48 @@
       "dec": -52.73978,
       "fov_arcsec": 20,
       "status": "ok",
-      "attempts": [
-        {
-          "provider": "HSC",
-          "status": "unavailable",
-          "reason": "flat or unusable central image",
-          "elapsed": 0.61
-        },
-        {
-          "provider": "DES",
-          "status": "accepted",
-          "elapsed": 33.74
-        }
-      ],
-      "updated_at": "2026-10-31T10:23:47.472127+00:00",
-      "source": "DES",
-      "source_label": "DES DR2",
-      "metadata": {
-        "label": "DES DR2",
-        "release": "DR2",
-        "bands": "GRI",
-        "urls": [
-          "https://datalab.noirlab.edu/sia/des_dr2?POS=18.98883%2C-52.73978&SIZE=0.005555555555555556&FORMAT=image%2Ffits",
-          "https://datalab.noirlab.edu/svc/cutout?col=des_dr2&siaRef=DES0115-5248_r4907p01_g.fits.fz&extn=1&POS=18.98883,-52.73978&SIZE=0.005555555555555556,0.005555555555555556",
-          "https://datalab.noirlab.edu/svc/cutout?col=des_dr2&siaRef=DES0115-5248_r4907p01_r.fits.fz&extn=1&POS=18.98883,-52.73978&SIZE=0.005555555555555556,0.005555555555555556",
-          "https://datalab.noirlab.edu/svc/cutout?col=des_dr2&siaRef=DES0115-5248_r4907p01_i.fits.fz&extn=1&POS=18.98883,-52.73978&SIZE=0.005555555555555556,0.005555555555555556"
-        ],
-        "rendering": "WCS alignment + shared-intensity asinh; north up, east left"
-      },
-      "quality": {
-        "valid_fraction": 0.9726181030273438,
-        "centre_valid_fraction": 1.0,
-        "std": 28.198530063738474,
-        "centre_std": 62.6849137146879,
-        "centre_range": 245.0
-      },
-      "image": "images/selected/row-14.jpg",
-      "thumbnail": "images/selected/row-14-thumb.jpg",
+      "source": "Euclid",
+      "source_label": "Euclid DR1 VIS+J",
+      "selection_mode": "space_multiband",
+      "image": "images/euclid-dr1-20261114/id-13-d48de8221d07.jpg",
+      "thumbnail": "images/euclid-dr1-20261114/id-13-d6f09a58b73b-thumb.jpg",
+      "raw_sha256": "38b02499d36f691f8fe1e306593e0025832d4d4ee917318b30466bd9d337c582",
       "higher_priority_errors": false,
-      "raw_sha256": "58512abeb7defb870ee7b3faac9f51feaba15d205ef6afb9221130888308163b",
-      "space_search": {
-        "checked_at": "2026-11-01T08:58:33.836305+00:00",
-        "status": "no_usable_space_image",
-        "attempts": [
+      "metadata": {
+        "label": "Euclid DR1 VIS+J",
+        "release": "DR1_R2",
+        "bands": "VIS+J",
+        "band_count": 2,
+        "urls": [
+          "https://eas.esac.esa.int/sas-cutout/cutout?FILEPATH=%2Fdata%2Feuclid%2Frepository_dr1%2FDR1%2FR2%2FMER%2F102016829%2FVIS%2FEUC_MER_BGSUB-MOSAIC-VIS_TILE102016829-42EE58_20250806T153844.362831Z_00.00.fits&POS=CIRCLE%2C18.98883%2C-52.73978%2C0.002916666666666667&TAPCLIENT=ASTROQUERY",
+          "https://eas.esac.esa.int/sas-cutout/cutout?FILEPATH=%2Fdata%2Feuclid%2Frepository_dr1%2FDR1%2FR2%2FMER%2F102016829%2FNISP%2FEUC_MER_BGSUB-MOSAIC-NIR-J_TILE102016829-6B1CD0_20250806T144802.708948Z_00.00.fits&POS=CIRCLE%2C18.98883%2C-52.73978%2C0.002916666666666667&TAPCLIENT=ASTROQUERY"
+        ],
+        "band_details": [
           {
-            "provider": "HST",
-            "status": "unavailable",
-            "products": [],
-            "candidate_count": 0,
-            "elapsed_s": 0.0
+            "band": "VIS",
+            "instrument": "VIS",
+            "release": "DR1_R2",
+            "tile": "102016829",
+            "product_id": "MER_ProcessTile_EUCLID_2.0.32-DATA_RELEASE-pcasenov-PLAN-000000-QBSLFN81-20250723-114830-1805-compressed_mosaics-0",
+            "source_url": "https://eas.esac.esa.int/sas-cutout/cutout?FILEPATH=%2Fdata%2Feuclid%2Frepository_dr1%2FDR1%2FR2%2FMER%2F102016829%2FVIS%2FEUC_MER_BGSUB-MOSAIC-VIS_TILE102016829-42EE58_20250806T153844.362831Z_00.00.fits&POS=CIRCLE%2C18.98883%2C-52.73978%2C0.002916666666666667&TAPCLIENT=ASTROQUERY"
           },
           {
-            "provider": "JWST",
-            "status": "unavailable",
-            "products": [],
-            "candidate_count": 0,
-            "elapsed_s": 0.0
-          },
-          {
-            "provider": "Euclid",
-            "status": "unavailable",
-            "products": [],
-            "candidate_count": 0,
-            "elapsed_s": 0.0
+            "band": "J",
+            "instrument": "NISP",
+            "release": "DR1_R2",
+            "tile": "102016829",
+            "product_id": "MER_ProcessTile_EUCLID_2.0.32-DATA_RELEASE-pcasenov-PLAN-000000-QBSLFN81-20250723-114830-1805-compressed_mosaics-2",
+            "source_url": "https://eas.esac.esa.int/sas-cutout/cutout?FILEPATH=%2Fdata%2Feuclid%2Frepository_dr1%2FDR1%2FR2%2FMER%2F102016829%2FNISP%2FEUC_MER_BGSUB-MOSAIC-NIR-J_TILE102016829-6B1CD0_20250806T144802.708948Z_00.00.fits&POS=CIRCLE%2C18.98883%2C-52.73978%2C0.002916666666666667&TAPCLIENT=ASTROQUERY"
           }
-        ]
+        ],
+        "rgb_mapping": {
+          "red": "J",
+          "green": "(J+VIS)/2",
+          "blue": "VIS"
+        },
+        "caption": "Euclid DR1 VIS+J · 20″ × 20″",
+        "rendering": "Existing VIS+J MTF, north up and east left",
+        "display_note": "ESA Euclid DR1 Foundation · DR1_R2."
       }
     },
     "232": {
@@ -45637,75 +45421,52 @@
     "337": {
       "row_number": 337,
       "name": "J0551–4629",
-      "ra": 87.949333,
-      "dec": -46.498167,
+      "ra": 87.94929,
+      "dec": -46.4982,
       "fov_arcsec": 20,
       "status": "ok",
-      "attempts": [
-        {
-          "provider": "HSC",
-          "status": "unavailable",
-          "reason": "flat or unusable central image",
-          "elapsed": 1.63
-        },
-        {
-          "provider": "DES",
-          "status": "accepted",
-          "elapsed": 19.05
-        }
-      ],
-      "updated_at": "2026-10-31T10:47:49.752327+00:00",
-      "source": "DES",
-      "source_label": "DES DR2",
-      "metadata": {
-        "label": "DES DR2",
-        "release": "DR2",
-        "bands": "GRI",
-        "urls": [
-          "https://datalab.noirlab.edu/sia/des_dr2?POS=87.949333%2C-46.498167&SIZE=0.005555555555555556&FORMAT=image%2Ffits",
-          "https://datalab.noirlab.edu/svc/cutout?col=des_dr2&siaRef=DES0551-4623_r4939p01_g.fits.fz&extn=1&POS=87.949333,-46.498167&SIZE=0.005555555555555556,0.005555555555555556",
-          "https://datalab.noirlab.edu/svc/cutout?col=des_dr2&siaRef=DES0551-4623_r4939p01_r.fits.fz&extn=1&POS=87.949333,-46.498167&SIZE=0.005555555555555556,0.005555555555555556",
-          "https://datalab.noirlab.edu/svc/cutout?col=des_dr2&siaRef=DES0551-4623_r4939p01_i.fits.fz&extn=1&POS=87.949333,-46.498167&SIZE=0.005555555555555556,0.005555555555555556"
-        ],
-        "rendering": "WCS alignment + shared-intensity asinh; north up, east left"
-      },
-      "quality": {
-        "valid_fraction": 0.9726219177246094,
-        "centre_valid_fraction": 1.0,
-        "std": 27.583646177349394,
-        "centre_std": 66.62547553903214,
-        "centre_range": 236.0
-      },
-      "image": "images/selected/row-337.jpg",
-      "thumbnail": "images/selected/row-337-thumb.jpg",
+      "source": "Euclid",
+      "source_label": "Euclid DR1 VIS+J",
+      "selection_mode": "space_multiband",
+      "image": "images/euclid-dr1-20261114/id-336-11df8bc3930e.jpg",
+      "thumbnail": "images/euclid-dr1-20261114/id-336-262d26fa2d58-thumb.jpg",
+      "raw_sha256": "a9acc6279afd9cd716c444f4f82f2fc8d74a05e451abfe0aac4c4d1d079d146a",
       "higher_priority_errors": false,
-      "raw_sha256": "6ebfbd748125521284175b6d9be8fdef4c3c8557ef95c3140e421caf9910013d",
-      "space_search": {
-        "checked_at": "2026-11-01T09:03:57.828571+00:00",
-        "status": "no_usable_space_image",
-        "attempts": [
+      "metadata": {
+        "label": "Euclid DR1 VIS+J",
+        "release": "DR1_R2",
+        "bands": "VIS+J",
+        "band_count": 2,
+        "urls": [
+          "https://eas.esac.esa.int/sas-cutout/cutout?FILEPATH=%2Fdata%2Feuclid%2Frepository_dr1%2FDR1%2FR2%2FMER%2F102023011%2FVIS%2FEUC_MER_BGSUB-MOSAIC-VIS_TILE102023011-C4CCF3_20250811T173837.137688Z_00.00.fits&POS=CIRCLE%2C87.94929%2C-46.4982%2C0.002916666666666667&TAPCLIENT=ASTROQUERY",
+          "https://eas.esac.esa.int/sas-cutout/cutout?FILEPATH=%2Fdata%2Feuclid%2Frepository_dr1%2FDR1%2FR2%2FMER%2F102023011%2FNISP%2FEUC_MER_BGSUB-MOSAIC-NIR-J_TILE102023011-AD1884_20250811T122107.016044Z_00.00.fits&POS=CIRCLE%2C87.94929%2C-46.4982%2C0.002916666666666667&TAPCLIENT=ASTROQUERY"
+        ],
+        "band_details": [
           {
-            "provider": "HST",
-            "status": "unavailable",
-            "products": [],
-            "candidate_count": 0,
-            "elapsed_s": 0.0
+            "band": "VIS",
+            "instrument": "VIS",
+            "release": "DR1_R2",
+            "tile": "102023011",
+            "product_id": "MER_ProcessTile_EUCLID_2.0.32-DATA_RELEASE-pcasenov-PLAN-000000-M2LX2TV3-20250723-114849-3166-compressed_mosaics-0",
+            "source_url": "https://eas.esac.esa.int/sas-cutout/cutout?FILEPATH=%2Fdata%2Feuclid%2Frepository_dr1%2FDR1%2FR2%2FMER%2F102023011%2FVIS%2FEUC_MER_BGSUB-MOSAIC-VIS_TILE102023011-C4CCF3_20250811T173837.137688Z_00.00.fits&POS=CIRCLE%2C87.94929%2C-46.4982%2C0.002916666666666667&TAPCLIENT=ASTROQUERY"
           },
           {
-            "provider": "JWST",
-            "status": "unavailable",
-            "products": [],
-            "candidate_count": 0,
-            "elapsed_s": 0.0
-          },
-          {
-            "provider": "Euclid",
-            "status": "unavailable",
-            "products": [],
-            "candidate_count": 0,
-            "elapsed_s": 0.0
+            "band": "J",
+            "instrument": "NISP",
+            "release": "DR1_R2",
+            "tile": "102023011",
+            "product_id": "MER_ProcessTile_EUCLID_2.0.32-DATA_RELEASE-pcasenov-PLAN-000000-M2LX2TV3-20250723-114849-3166-compressed_mosaics-2",
+            "source_url": "https://eas.esac.esa.int/sas-cutout/cutout?FILEPATH=%2Fdata%2Feuclid%2Frepository_dr1%2FDR1%2FR2%2FMER%2F102023011%2FNISP%2FEUC_MER_BGSUB-MOSAIC-NIR-J_TILE102023011-AD1884_20250811T122107.016044Z_00.00.fits&POS=CIRCLE%2C87.94929%2C-46.4982%2C0.002916666666666667&TAPCLIENT=ASTROQUERY"
           }
-        ]
+        ],
+        "rgb_mapping": {
+          "red": "J",
+          "green": "(J+VIS)/2",
+          "blue": "VIS"
+        },
+        "caption": "Euclid DR1 VIS+J · 20″ × 20″",
+        "rendering": "Existing VIS+J MTF, north up and east left",
+        "display_note": "ESA Euclid DR1 Foundation · DR1_R2."
       }
     },
     "54": {
@@ -45715,71 +45476,48 @@
       "dec": -64.2417,
       "fov_arcsec": 20,
       "status": "ok",
-      "attempts": [
-        {
-          "provider": "HSC",
-          "status": "unavailable",
-          "reason": "flat or unusable central image",
-          "elapsed": 0.62
-        },
-        {
-          "provider": "DES",
-          "status": "accepted",
-          "elapsed": 18.38
-        }
-      ],
-      "updated_at": "2026-10-31T10:25:55.501026+00:00",
-      "source": "DES",
-      "source_label": "DES DR2",
-      "metadata": {
-        "label": "DES DR2",
-        "release": "DR2",
-        "bands": "GRI",
-        "urls": [
-          "https://datalab.noirlab.edu/sia/des_dr2?POS=56.5579%2C-64.2417&SIZE=0.005555555555555556&FORMAT=image%2Ffits",
-          "https://datalab.noirlab.edu/svc/cutout?col=des_dr2&siaRef=DES0344-6414_r4931p01_g.fits.fz&extn=1&POS=56.5579,-64.2417&SIZE=0.005555555555555556,0.005555555555555556",
-          "https://datalab.noirlab.edu/svc/cutout?col=des_dr2&siaRef=DES0344-6414_r4931p01_r.fits.fz&extn=1&POS=56.5579,-64.2417&SIZE=0.005555555555555556,0.005555555555555556",
-          "https://datalab.noirlab.edu/svc/cutout?col=des_dr2&siaRef=DES0344-6414_r4931p01_i.fits.fz&extn=1&POS=56.5579,-64.2417&SIZE=0.005555555555555556,0.005555555555555556"
-        ],
-        "rendering": "WCS alignment + shared-intensity asinh; north up, east left"
-      },
-      "quality": {
-        "valid_fraction": 0.9721412658691406,
-        "centre_valid_fraction": 1.0,
-        "std": 28.651435969542508,
-        "centre_std": 63.792449941584216,
-        "centre_range": 233.0
-      },
-      "image": "images/selected/row-54.jpg",
-      "thumbnail": "images/selected/row-54-thumb.jpg",
+      "source": "Euclid",
+      "source_label": "Euclid DR1 VIS+J",
+      "selection_mode": "space_multiband",
+      "image": "images/euclid-dr1-20261114/id-53-737d37c5134a.jpg",
+      "thumbnail": "images/euclid-dr1-20261114/id-53-e748bea4dba3-thumb.jpg",
+      "raw_sha256": "4ca112291548e08985cf1b5f859ab0de1f325c85552c25572e79228cb2d5f2e0",
       "higher_priority_errors": false,
-      "raw_sha256": "ad7d88ee2b6f2c1546fd209d87326170f3c860cb9249cb4ccef1d74cfd3423a5",
-      "space_search": {
-        "checked_at": "2026-11-01T08:58:53.494190+00:00",
-        "status": "no_usable_space_image",
-        "attempts": [
+      "metadata": {
+        "label": "Euclid DR1 VIS+J",
+        "release": "DR1_R2",
+        "bands": "VIS+J",
+        "band_count": 2,
+        "urls": [
+          "https://eas.esac.esa.int/sas-cutout/cutout?FILEPATH=%2Fdata%2Feuclid%2Frepository_dr1%2FDR1%2FR2%2FMER%2F102008205%2FVIS%2FEUC_MER_BGSUB-MOSAIC-VIS_TILE102008205-49A74B_20250804T104522.612756Z_00.00.fits&POS=CIRCLE%2C56.5579%2C-64.2417%2C0.002916666666666667&TAPCLIENT=ASTROQUERY",
+          "https://eas.esac.esa.int/sas-cutout/cutout?FILEPATH=%2Fdata%2Feuclid%2Frepository_dr1%2FDR1%2FR2%2FMER%2F102008205%2FNISP%2FEUC_MER_BGSUB-MOSAIC-NIR-J_TILE102008205-88A374_20250804T100922.744981Z_00.00.fits&POS=CIRCLE%2C56.5579%2C-64.2417%2C0.002916666666666667&TAPCLIENT=ASTROQUERY"
+        ],
+        "band_details": [
           {
-            "provider": "HST",
-            "status": "unavailable",
-            "products": [],
-            "candidate_count": 0,
-            "elapsed_s": 0.0
+            "band": "VIS",
+            "instrument": "VIS",
+            "release": "DR1_R2",
+            "tile": "102008205",
+            "product_id": "MER_ProcessTile_EUCLID_2.0.32-DATA_RELEASE-pcasenov-PLAN-000000-STHZAYX4-20250723-114751-126-compressed_mosaics-0",
+            "source_url": "https://eas.esac.esa.int/sas-cutout/cutout?FILEPATH=%2Fdata%2Feuclid%2Frepository_dr1%2FDR1%2FR2%2FMER%2F102008205%2FVIS%2FEUC_MER_BGSUB-MOSAIC-VIS_TILE102008205-49A74B_20250804T104522.612756Z_00.00.fits&POS=CIRCLE%2C56.5579%2C-64.2417%2C0.002916666666666667&TAPCLIENT=ASTROQUERY"
           },
           {
-            "provider": "JWST",
-            "status": "unavailable",
-            "products": [],
-            "candidate_count": 0,
-            "elapsed_s": 0.0
-          },
-          {
-            "provider": "Euclid",
-            "status": "unavailable",
-            "products": [],
-            "candidate_count": 0,
-            "elapsed_s": 0.0
+            "band": "J",
+            "instrument": "NISP",
+            "release": "DR1_R2",
+            "tile": "102008205",
+            "product_id": "MER_ProcessTile_EUCLID_2.0.32-DATA_RELEASE-pcasenov-PLAN-000000-STHZAYX4-20250723-114751-126-compressed_mosaics-2",
+            "source_url": "https://eas.esac.esa.int/sas-cutout/cutout?FILEPATH=%2Fdata%2Feuclid%2Frepository_dr1%2FDR1%2FR2%2FMER%2F102008205%2FNISP%2FEUC_MER_BGSUB-MOSAIC-NIR-J_TILE102008205-88A374_20250804T100922.744981Z_00.00.fits&POS=CIRCLE%2C56.5579%2C-64.2417%2C0.002916666666666667&TAPCLIENT=ASTROQUERY"
           }
-        ]
+        ],
+        "rgb_mapping": {
+          "red": "J",
+          "green": "(J+VIS)/2",
+          "blue": "VIS"
+        },
+        "caption": "Euclid DR1 VIS+J · 20″ × 20″",
+        "rendering": "Existing VIS+J MTF, north up and east left",
+        "display_note": "ESA Euclid DR1 Foundation · DR1_R2."
       }
     },
     "225": {
@@ -49016,140 +48754,103 @@
     "229": {
       "row_number": 229,
       "name": "SDSSJ1524+4409",
-      "ra": 231.1901,
-      "dec": 44.16377,
+      "ra": 231.19008,
+      "dec": 44.16376,
       "fov_arcsec": 20,
       "status": "ok",
-      "attempts": [
-        {
-          "provider": "HSC",
-          "status": "accepted",
-          "elapsed": 6.52
-        }
-      ],
-      "updated_at": "2026-10-31T10:52:57.019138+00:00",
-      "source": "HSC",
-      "source_label": "HSC PDR3",
-      "metadata": {
-        "urls": [
-          "https://www.legacysurvey.org/viewer/jpeg-cutout?ra=231.1901&dec=44.16377&layer=hsc-dr3&pixscale=0.0390625&size=512&bands=grz"
-        ],
-        "layer": "hsc-dr3",
-        "bands": "grz",
-        "label": "HSC PDR3",
-        "release": "PDR3"
-      },
-      "quality": {
-        "valid_fraction": 0.9999885559082031,
-        "centre_valid_fraction": 1.0,
-        "std": 37.59502782763756,
-        "centre_std": 64.16120542507417,
-        "centre_range": 235.0
-      },
-      "image": "images/selected/row-229.jpg",
-      "thumbnail": "images/selected/row-229-thumb.jpg",
+      "source": "Euclid",
+      "source_label": "Euclid DR1 VIS+J",
+      "selection_mode": "space_multiband",
+      "image": "images/euclid-dr1-20261114/id-228-16fd4d7b2dba.jpg",
+      "thumbnail": "images/euclid-dr1-20261114/id-228-12cc6c5df2a9-thumb.jpg",
+      "raw_sha256": "437c49c1dd521e8694b36cb2295f51ed1b03d4fb30fc92e25e1d135bfb19b1bc",
       "higher_priority_errors": false,
-      "raw_sha256": "daf1fbcee03d75db126993a3ec44f41a8d828ecbc92e7c0bafee539d653c0f3c",
-      "space_search": {
-        "checked_at": "2026-11-01T09:01:50.346840+00:00",
-        "status": "no_usable_space_image",
-        "attempts": [
+      "metadata": {
+        "label": "Euclid DR1 VIS+J",
+        "release": "DR1_R1",
+        "bands": "VIS+J",
+        "band_count": 2,
+        "urls": [
+          "https://eas.esac.esa.int/sas-cutout/cutout?FILEPATH=%2Fdata%2Feuclid%2Frepository_dr1%2FDR1%2FR1%2FMER%2F102140883%2FVIS%2FEUC_MER_BGSUB-MOSAIC-VIS_TILE102140883-1DD9CD_20250803T175414.963935Z_00.00.fits&POS=CIRCLE%2C231.19008%2C44.16376%2C0.002916666666666667&TAPCLIENT=ASTROQUERY",
+          "https://eas.esac.esa.int/sas-cutout/cutout?FILEPATH=%2Fdata%2Feuclid%2Frepository_dr1%2FDR1%2FR1%2FMER%2F102140883%2FNISP%2FEUC_MER_BGSUB-MOSAIC-NIR-J_TILE102140883-A6E9D6_20250803T065248.597270Z_00.00.fits&POS=CIRCLE%2C231.19008%2C44.16376%2C0.002916666666666667&TAPCLIENT=ASTROQUERY"
+        ],
+        "band_details": [
           {
-            "provider": "HST",
-            "status": "unavailable",
-            "products": [],
-            "candidate_count": 0,
-            "elapsed_s": 0.0
+            "band": "VIS",
+            "instrument": "VIS",
+            "release": "DR1_R1",
+            "tile": "102140883",
+            "product_id": "MER_ProcessTile_EUCLID_2.0.32-DATA_RELEASE-trochequ-PLAN-000003-D2KC4B95-20250801-180407-35-compressed_mosaics-0",
+            "source_url": "https://eas.esac.esa.int/sas-cutout/cutout?FILEPATH=%2Fdata%2Feuclid%2Frepository_dr1%2FDR1%2FR1%2FMER%2F102140883%2FVIS%2FEUC_MER_BGSUB-MOSAIC-VIS_TILE102140883-1DD9CD_20250803T175414.963935Z_00.00.fits&POS=CIRCLE%2C231.19008%2C44.16376%2C0.002916666666666667&TAPCLIENT=ASTROQUERY"
           },
           {
-            "provider": "JWST",
-            "status": "unavailable",
-            "products": [],
-            "candidate_count": 0,
-            "elapsed_s": 0.0
-          },
-          {
-            "provider": "Euclid",
-            "status": "unavailable",
-            "products": [],
-            "candidate_count": 0,
-            "elapsed_s": 0.0
+            "band": "J",
+            "instrument": "NISP",
+            "release": "DR1_R1",
+            "tile": "102140883",
+            "product_id": "MER_ProcessTile_EUCLID_2.0.32-DATA_RELEASE-trochequ-PLAN-000003-D2KC4B95-20250801-180407-35-compressed_mosaics-2",
+            "source_url": "https://eas.esac.esa.int/sas-cutout/cutout?FILEPATH=%2Fdata%2Feuclid%2Frepository_dr1%2FDR1%2FR1%2FMER%2F102140883%2FNISP%2FEUC_MER_BGSUB-MOSAIC-NIR-J_TILE102140883-A6E9D6_20250803T065248.597270Z_00.00.fits&POS=CIRCLE%2C231.19008%2C44.16376%2C0.002916666666666667&TAPCLIENT=ASTROQUERY"
           }
-        ]
+        ],
+        "rgb_mapping": {
+          "red": "J",
+          "green": "(J+VIS)/2",
+          "blue": "VIS"
+        },
+        "caption": "Euclid DR1 VIS+J · 20″ × 20″",
+        "rendering": "Existing VIS+J MTF, north up and east left",
+        "display_note": "ESA Euclid DR1 Foundation · DR1_R1."
       }
     },
     "58": {
       "row_number": 58,
       "name": "J0401-2514",
-      "ra": 60.45041,
-      "dec": -25.2438,
+      "ra": 60.45042,
+      "dec": -25.24389,
       "fov_arcsec": 20,
       "status": "ok",
-      "attempts": [
-        {
-          "provider": "HSC",
-          "status": "unavailable",
-          "reason": "flat or unusable central image",
-          "elapsed": 0.62
-        },
-        {
-          "provider": "DES",
-          "status": "accepted",
-          "elapsed": 20.75
-        }
-      ],
-      "updated_at": "2026-10-31T10:26:10.021911+00:00",
-      "source": "DES",
-      "source_label": "DES DR2",
-      "metadata": {
-        "label": "DES DR2",
-        "release": "DR2",
-        "bands": "GRI",
-        "urls": [
-          "https://datalab.noirlab.edu/sia/des_dr2?POS=60.45041%2C-25.2438&SIZE=0.005555555555555556&FORMAT=image%2Ffits",
-          "https://datalab.noirlab.edu/svc/cutout?col=des_dr2&siaRef=DES0402-2458_r4931p01_g.fits.fz&extn=1&POS=60.45041,-25.2438&SIZE=0.005555555555555556,0.005555555555555556",
-          "https://datalab.noirlab.edu/svc/cutout?col=des_dr2&siaRef=DES0402-2458_r4931p01_r.fits.fz&extn=1&POS=60.45041,-25.2438&SIZE=0.005555555555555556,0.005555555555555556",
-          "https://datalab.noirlab.edu/svc/cutout?col=des_dr2&siaRef=DES0402-2458_r4931p01_i.fits.fz&extn=1&POS=60.45041,-25.2438&SIZE=0.005555555555555556,0.005555555555555556"
-        ],
-        "rendering": "WCS alignment + shared-intensity asinh; north up, east left"
-      },
-      "quality": {
-        "valid_fraction": 0.9726066589355469,
-        "centre_valid_fraction": 1.0,
-        "std": 26.10107459011815,
-        "centre_std": 63.77385666325876,
-        "centre_range": 232.0
-      },
-      "image": "images/selected/row-58.jpg",
-      "thumbnail": "images/selected/row-58-thumb.jpg",
+      "source": "Euclid",
+      "source_label": "Euclid DR1 VIS+J",
+      "selection_mode": "space_multiband",
+      "image": "images/euclid-dr1-20261114/id-57-d35652fc4522.jpg",
+      "thumbnail": "images/euclid-dr1-20261114/id-57-fe7f311cb980-thumb.jpg",
+      "raw_sha256": "4c13e4ba1c74fcf17edede7ae79afee1d43792b345dd97ee42bdc5619a8df42f",
       "higher_priority_errors": false,
-      "raw_sha256": "f868abd4a176a3bb470d8f31639fd3038d5c2b30696e46d33b9ce48e01f2adbe",
-      "space_search": {
-        "checked_at": "2026-11-01T08:58:54.274736+00:00",
-        "status": "no_usable_space_image",
-        "attempts": [
+      "metadata": {
+        "label": "Euclid DR1 VIS+J",
+        "release": "DR1_R2",
+        "bands": "VIS+J",
+        "band_count": 2,
+        "urls": [
+          "https://eas.esac.esa.int/sas-cutout/cutout?FILEPATH=%2Fdata%2Feuclid%2Frepository_dr1%2FDR1%2FR2%2FMER%2F102047425%2FVIS%2FEUC_MER_BGSUB-MOSAIC-VIS_TILE102047425-D95EE2_20250729T205655.412560Z_00.00.fits&POS=CIRCLE%2C60.45042%2C-25.24389%2C0.002916666666666667&TAPCLIENT=ASTROQUERY",
+          "https://eas.esac.esa.int/sas-cutout/cutout?FILEPATH=%2Fdata%2Feuclid%2Frepository_dr1%2FDR1%2FR2%2FMER%2F102047425%2FNISP%2FEUC_MER_BGSUB-MOSAIC-NIR-J_TILE102047425-D55A6B_20250729T124117.315824Z_00.00.fits&POS=CIRCLE%2C60.45042%2C-25.24389%2C0.002916666666666667&TAPCLIENT=ASTROQUERY"
+        ],
+        "band_details": [
           {
-            "provider": "HST",
-            "status": "unavailable",
-            "products": [],
-            "candidate_count": 0,
-            "elapsed_s": 0.0
+            "band": "VIS",
+            "instrument": "VIS",
+            "release": "DR1_R2",
+            "tile": "102047425",
+            "product_id": "MER_ProcessTile_EUCLID_2.0.32-DATA_RELEASE-pcasenov-PLAN-000000-43YC9ELQ-20250723-114934-6379-compressed_mosaics-0",
+            "source_url": "https://eas.esac.esa.int/sas-cutout/cutout?FILEPATH=%2Fdata%2Feuclid%2Frepository_dr1%2FDR1%2FR2%2FMER%2F102047425%2FVIS%2FEUC_MER_BGSUB-MOSAIC-VIS_TILE102047425-D95EE2_20250729T205655.412560Z_00.00.fits&POS=CIRCLE%2C60.45042%2C-25.24389%2C0.002916666666666667&TAPCLIENT=ASTROQUERY"
           },
           {
-            "provider": "JWST",
-            "status": "unavailable",
-            "products": [],
-            "candidate_count": 0,
-            "elapsed_s": 0.0
-          },
-          {
-            "provider": "Euclid",
-            "status": "unavailable",
-            "products": [],
-            "candidate_count": 0,
-            "elapsed_s": 0.0
+            "band": "J",
+            "instrument": "NISP",
+            "release": "DR1_R2",
+            "tile": "102047425",
+            "product_id": "MER_ProcessTile_EUCLID_2.0.32-DATA_RELEASE-pcasenov-PLAN-000000-43YC9ELQ-20250723-114934-6379-compressed_mosaics-2",
+            "source_url": "https://eas.esac.esa.int/sas-cutout/cutout?FILEPATH=%2Fdata%2Feuclid%2Frepository_dr1%2FDR1%2FR2%2FMER%2F102047425%2FNISP%2FEUC_MER_BGSUB-MOSAIC-NIR-J_TILE102047425-D55A6B_20250729T124117.315824Z_00.00.fits&POS=CIRCLE%2C60.45042%2C-25.24389%2C0.002916666666666667&TAPCLIENT=ASTROQUERY"
           }
-        ]
+        ],
+        "rgb_mapping": {
+          "red": "J",
+          "green": "(J+VIS)/2",
+          "blue": "VIS"
+        },
+        "caption": "Euclid DR1 VIS+J · 20″ × 20″",
+        "rendering": "Existing VIS+J MTF, north up and east left",
+        "display_note": "ESA Euclid DR1 Foundation · DR1_R2."
       }
     },
     "100": {
@@ -50552,75 +50253,52 @@
     "62": {
       "row_number": 62,
       "name": "DESJ0407-1931",
-      "ra": 61.9741,
+      "ra": 61.97408,
       "dec": -19.5225,
       "fov_arcsec": 20,
       "status": "ok",
-      "attempts": [
-        {
-          "provider": "HSC",
-          "status": "unavailable",
-          "reason": "flat or unusable central image",
-          "elapsed": 0.87
-        },
-        {
-          "provider": "DES",
-          "status": "accepted",
-          "elapsed": 24.27
-        }
-      ],
-      "updated_at": "2026-10-31T10:26:18.492393+00:00",
-      "source": "DES",
-      "source_label": "DES DR2",
-      "metadata": {
-        "label": "DES DR2",
-        "release": "DR2",
-        "bands": "GRI",
-        "urls": [
-          "https://datalab.noirlab.edu/sia/des_dr2?POS=61.9741%2C-19.5225&SIZE=0.005555555555555556&FORMAT=image%2Ffits",
-          "https://datalab.noirlab.edu/svc/cutout?col=des_dr2&siaRef=DES0406-1915_r4939p01_g.fits.fz&extn=1&POS=61.9741,-19.5225&SIZE=0.005555555555555556,0.005555555555555556",
-          "https://datalab.noirlab.edu/svc/cutout?col=des_dr2&siaRef=DES0406-1915_r4939p01_r.fits.fz&extn=1&POS=61.9741,-19.5225&SIZE=0.005555555555555556,0.005555555555555556",
-          "https://datalab.noirlab.edu/svc/cutout?col=des_dr2&siaRef=DES0406-1915_r4939p01_i.fits.fz&extn=1&POS=61.9741,-19.5225&SIZE=0.005555555555555556,0.005555555555555556"
-        ],
-        "rendering": "WCS alignment + shared-intensity asinh; north up, east left"
-      },
-      "quality": {
-        "valid_fraction": 0.9725685119628906,
-        "centre_valid_fraction": 1.0,
-        "std": 31.6029234944966,
-        "centre_std": 67.34663232995163,
-        "centre_range": 233.0
-      },
-      "image": "images/selected/row-62.jpg",
-      "thumbnail": "images/selected/row-62-thumb.jpg",
+      "source": "Euclid",
+      "source_label": "Euclid DR1 VIS+J",
+      "selection_mode": "space_multiband",
+      "image": "images/euclid-dr1-20261114/id-61-ca772da267d3.jpg",
+      "thumbnail": "images/euclid-dr1-20261114/id-61-0ce26629e507-thumb.jpg",
+      "raw_sha256": "4a365844ca2eaf15a245618ef03e4d5476d6c8d29f132ac2db64903c1126fe01",
       "higher_priority_errors": false,
-      "raw_sha256": "e94b6b17eba53775ef40f43ce5b1637184842c9126ebf28c969a7d4e779f3ef3",
-      "space_search": {
-        "checked_at": "2026-11-01T08:58:56.124859+00:00",
-        "status": "no_usable_space_image",
-        "attempts": [
+      "metadata": {
+        "label": "Euclid DR1 VIS+J",
+        "release": "DR1_R2",
+        "bands": "VIS+J",
+        "band_count": 2,
+        "urls": [
+          "https://eas.esac.esa.int/sas-cutout/cutout?FILEPATH=%2Fdata%2Feuclid%2Frepository_dr1%2FDR1%2FR2%2FMER%2F102055431%2FVIS%2FEUC_MER_BGSUB-MOSAIC-VIS_TILE102055431-BA742_20250810T165957.910957Z_00.00.fits&POS=CIRCLE%2C61.97408%2C-19.5225%2C0.002916666666666667&TAPCLIENT=ASTROQUERY",
+          "https://eas.esac.esa.int/sas-cutout/cutout?FILEPATH=%2Fdata%2Feuclid%2Frepository_dr1%2FDR1%2FR2%2FMER%2F102055431%2FNISP%2FEUC_MER_BGSUB-MOSAIC-NIR-J_TILE102055431-DE970F_20250810T130920.080404Z_00.00.fits&POS=CIRCLE%2C61.97408%2C-19.5225%2C0.002916666666666667&TAPCLIENT=ASTROQUERY"
+        ],
+        "band_details": [
           {
-            "provider": "HST",
-            "status": "unavailable",
-            "products": [],
-            "candidate_count": 0,
-            "elapsed_s": 0.0
+            "band": "VIS",
+            "instrument": "VIS",
+            "release": "DR1_R2",
+            "tile": "102055431",
+            "product_id": "MER_ProcessTile_EUCLID_2.0.32-DATA_RELEASE-pcasenov-PLAN-000000-9P7L0I41-20250723-114938-6736-compressed_mosaics-0",
+            "source_url": "https://eas.esac.esa.int/sas-cutout/cutout?FILEPATH=%2Fdata%2Feuclid%2Frepository_dr1%2FDR1%2FR2%2FMER%2F102055431%2FVIS%2FEUC_MER_BGSUB-MOSAIC-VIS_TILE102055431-BA742_20250810T165957.910957Z_00.00.fits&POS=CIRCLE%2C61.97408%2C-19.5225%2C0.002916666666666667&TAPCLIENT=ASTROQUERY"
           },
           {
-            "provider": "JWST",
-            "status": "unavailable",
-            "products": [],
-            "candidate_count": 0,
-            "elapsed_s": 0.0
-          },
-          {
-            "provider": "Euclid",
-            "status": "unavailable",
-            "products": [],
-            "candidate_count": 0,
-            "elapsed_s": 0.0
+            "band": "J",
+            "instrument": "NISP",
+            "release": "DR1_R2",
+            "tile": "102055431",
+            "product_id": "MER_ProcessTile_EUCLID_2.0.32-DATA_RELEASE-pcasenov-PLAN-000000-9P7L0I41-20250723-114938-6736-compressed_mosaics-2",
+            "source_url": "https://eas.esac.esa.int/sas-cutout/cutout?FILEPATH=%2Fdata%2Feuclid%2Frepository_dr1%2FDR1%2FR2%2FMER%2F102055431%2FNISP%2FEUC_MER_BGSUB-MOSAIC-NIR-J_TILE102055431-DE970F_20250810T130920.080404Z_00.00.fits&POS=CIRCLE%2C61.97408%2C-19.5225%2C0.002916666666666667&TAPCLIENT=ASTROQUERY"
           }
-        ]
+        ],
+        "rgb_mapping": {
+          "red": "J",
+          "green": "(J+VIS)/2",
+          "blue": "VIS"
+        },
+        "caption": "Euclid DR1 VIS+J · 20″ × 20″",
+        "rendering": "Existing VIS+J MTF, north up and east left",
+        "display_note": "ESA Euclid DR1 Foundation · DR1_R2."
       }
     },
     "9": {
@@ -51325,47 +51003,54 @@
     },
     "362": {
       "row_number": 362,
-      "catalog_id": 361,
       "name": "J0602-3852",
       "ra": 90.54858333333334,
       "dec": -38.87031944444445,
-      "checked_at": "2026-11-01T18:34:31.490168+00:00",
-      "status": "ok",
-      "source": "DES",
-      "source_label": "DES DR2",
-      "selection_mode": "survey_rgb",
       "fov_arcsec": 20,
+      "status": "ok",
+      "source": "Euclid",
+      "source_label": "Euclid DR1 VIS+J",
+      "selection_mode": "space_multiband",
+      "image": "images/euclid-dr1-20261114/id-361-c837b3dea7e7.jpg",
+      "thumbnail": "images/euclid-dr1-20261114/id-361-3dca982e96e3-thumb.jpg",
+      "raw_sha256": "f19762a57f2933913e1e326b73d141a97f6f1528ca47d44dac832ad53c02f4be",
+      "higher_priority_errors": false,
       "metadata": {
-        "label": "DES DR2",
-        "release": "DR2",
-        "bands": "GRI",
+        "label": "Euclid DR1 VIS+J",
+        "release": "DR1_R2",
+        "bands": "VIS+J",
+        "band_count": 2,
         "urls": [
-          "https://datalab.noirlab.edu/sia/des_dr2?POS=90.54858333333334%2C-38.87031944444445&SIZE=0.005555555555555556&FORMAT=image%2Ffits",
-          "https://datalab.noirlab.edu/svc/cutout?col=des_dr2&siaRef=DES0600-3832_r4939p01_g.fits.fz&extn=1&POS=90.54858333333334,-38.87031944444445&SIZE=0.005555555555555556,0.005555555555555556",
-          "https://datalab.noirlab.edu/svc/cutout?col=des_dr2&siaRef=DES0600-3832_r4939p01_r.fits.fz&extn=1&POS=90.54858333333334,-38.87031944444445&SIZE=0.005555555555555556,0.005555555555555556",
-          "https://datalab.noirlab.edu/svc/cutout?col=des_dr2&siaRef=DES0600-3832_r4939p01_i.fits.fz&extn=1&POS=90.54858333333334,-38.87031944444445&SIZE=0.005555555555555556,0.005555555555555556"
+          "https://eas.esac.esa.int/sas-cutout/cutout?FILEPATH=%2Fdata%2Feuclid%2Frepository_dr1%2FDR1%2FR2%2FMER%2F102030996%2FVIS%2FEUC_MER_BGSUB-MOSAIC-VIS_TILE102030996-892680_20250818T165640.982149Z_00.00.fits&POS=CIRCLE%2C90.54858333333334%2C-38.87031944444445%2C0.002916666666666667&TAPCLIENT=ASTROQUERY",
+          "https://eas.esac.esa.int/sas-cutout/cutout?FILEPATH=%2Fdata%2Feuclid%2Frepository_dr1%2FDR1%2FR2%2FMER%2F102030996%2FNISP%2FEUC_MER_BGSUB-MOSAIC-NIR-J_TILE102030996-865193_20250818T113244.148604Z_00.00.fits&POS=CIRCLE%2C90.54858333333334%2C-38.87031944444445%2C0.002916666666666667&TAPCLIENT=ASTROQUERY"
         ],
-        "rendering": "WCS alignment + shared-intensity asinh; north up, east left"
-      },
-      "quality": {
-        "valid_fraction": 0.9715003967285156,
-        "centre_valid_fraction": 1.0,
-        "std": 39.773894819972035,
-        "centre_std": 75.0639599238075,
-        "centre_range": 253.0
-      },
-      "image": "images/refresh-20261102/surveys/id-361-DES.jpg",
-      "thumbnail": "images/style-v1/id-361-thumb.jpg",
-      "sha256": "6cffab282c51172ae9eca386ea71e414409d2f51987ed4d4ac70a6e68cd24ea0",
-      "selection_reason": "First usable survey/archive in HST > JWST > Euclid > HSC > DES > Legacy Surveys > Pan-STARRS > SDSS order. Paper images are separate.",
-      "thumbnail_sha256": "26c362fee166e8319b08b3a29895557b5627a042e78e2d1a7eeecfaeec3cb2fb",
-      "presentation_style": {
-        "version": "catalogue-label-v1",
-        "config_sha256": "cd24820cab36abb5f8b47bb506104687b8c587279d779083e55c4c26dadec543",
-        "font_sha256": "525979822591a3447cfc49d943d6f7683508e25543407871c0ed8fed05fd2bd9",
-        "renderer_sha256": "8d03ab4d367947db2aa35eb40ca31a483595817fcf96b948c86568ddb21e3456"
-      },
-      "raw_sha256": "9d5b611ca35eaeb6eb303af001c2bba71822e427ce3bf97c1501757a597b67d5"
+        "band_details": [
+          {
+            "band": "VIS",
+            "instrument": "VIS",
+            "release": "DR1_R2",
+            "tile": "102030996",
+            "product_id": "MER_ProcessTile_EUCLID_2.0.32-DATA_RELEASE-pcasenov-PLAN-000000-WBIEN700-20250723-114908-4554-compressed_mosaics-0",
+            "source_url": "https://eas.esac.esa.int/sas-cutout/cutout?FILEPATH=%2Fdata%2Feuclid%2Frepository_dr1%2FDR1%2FR2%2FMER%2F102030996%2FVIS%2FEUC_MER_BGSUB-MOSAIC-VIS_TILE102030996-892680_20250818T165640.982149Z_00.00.fits&POS=CIRCLE%2C90.54858333333334%2C-38.87031944444445%2C0.002916666666666667&TAPCLIENT=ASTROQUERY"
+          },
+          {
+            "band": "J",
+            "instrument": "NISP",
+            "release": "DR1_R2",
+            "tile": "102030996",
+            "product_id": "MER_ProcessTile_EUCLID_2.0.32-DATA_RELEASE-pcasenov-PLAN-000000-WBIEN700-20250723-114908-4554-compressed_mosaics-2",
+            "source_url": "https://eas.esac.esa.int/sas-cutout/cutout?FILEPATH=%2Fdata%2Feuclid%2Frepository_dr1%2FDR1%2FR2%2FMER%2F102030996%2FNISP%2FEUC_MER_BGSUB-MOSAIC-NIR-J_TILE102030996-865193_20250818T113244.148604Z_00.00.fits&POS=CIRCLE%2C90.54858333333334%2C-38.87031944444445%2C0.002916666666666667&TAPCLIENT=ASTROQUERY"
+          }
+        ],
+        "rgb_mapping": {
+          "red": "J",
+          "green": "(J+VIS)/2",
+          "blue": "VIS"
+        },
+        "caption": "Euclid DR1 VIS+J · 20″ × 20″",
+        "rendering": "Existing VIS+J MTF, north up and east left",
+        "display_note": "ESA Euclid DR1 Foundation · DR1_R2."
+      }
     },
     "363": {
       "row_number": 363,
@@ -54073,5 +53758,1093 @@
         "previous_source": "VLT/ERIS NIX"
       }
     ]
+  },
+  "euclid_dr1_foundation": {
+    "date": "2026-11-14",
+    "survey_assets": 31,
+    "promoted": 15,
+    "higher_priority_retained": 16,
+    "previous_main_images": {
+      "14": {
+        "row_number": 14,
+        "name": "DESJ0115-5244",
+        "ra": 18.98883,
+        "dec": -52.73978,
+        "fov_arcsec": 20,
+        "status": "ok",
+        "attempts": [
+          {
+            "provider": "HSC",
+            "status": "unavailable",
+            "reason": "flat or unusable central image",
+            "elapsed": 0.61
+          },
+          {
+            "provider": "DES",
+            "status": "accepted",
+            "elapsed": 33.74
+          }
+        ],
+        "updated_at": "2026-10-31T10:23:47.472127+00:00",
+        "source": "DES",
+        "source_label": "DES DR2",
+        "metadata": {
+          "label": "DES DR2",
+          "release": "DR2",
+          "bands": "GRI",
+          "urls": [
+            "https://datalab.noirlab.edu/sia/des_dr2?POS=18.98883%2C-52.73978&SIZE=0.005555555555555556&FORMAT=image%2Ffits",
+            "https://datalab.noirlab.edu/svc/cutout?col=des_dr2&siaRef=DES0115-5248_r4907p01_g.fits.fz&extn=1&POS=18.98883,-52.73978&SIZE=0.005555555555555556,0.005555555555555556",
+            "https://datalab.noirlab.edu/svc/cutout?col=des_dr2&siaRef=DES0115-5248_r4907p01_r.fits.fz&extn=1&POS=18.98883,-52.73978&SIZE=0.005555555555555556,0.005555555555555556",
+            "https://datalab.noirlab.edu/svc/cutout?col=des_dr2&siaRef=DES0115-5248_r4907p01_i.fits.fz&extn=1&POS=18.98883,-52.73978&SIZE=0.005555555555555556,0.005555555555555556"
+          ],
+          "rendering": "WCS alignment + shared-intensity asinh; north up, east left"
+        },
+        "quality": {
+          "valid_fraction": 0.9726181030273438,
+          "centre_valid_fraction": 1.0,
+          "std": 28.198530063738474,
+          "centre_std": 62.6849137146879,
+          "centre_range": 245.0
+        },
+        "image": "images/selected/row-14.jpg",
+        "thumbnail": "images/selected/row-14-thumb.jpg",
+        "higher_priority_errors": false,
+        "raw_sha256": "58512abeb7defb870ee7b3faac9f51feaba15d205ef6afb9221130888308163b",
+        "space_search": {
+          "checked_at": "2026-11-01T08:58:33.836305+00:00",
+          "status": "no_usable_space_image",
+          "attempts": [
+            {
+              "provider": "HST",
+              "status": "unavailable",
+              "products": [],
+              "candidate_count": 0,
+              "elapsed_s": 0.0
+            },
+            {
+              "provider": "JWST",
+              "status": "unavailable",
+              "products": [],
+              "candidate_count": 0,
+              "elapsed_s": 0.0
+            },
+            {
+              "provider": "Euclid",
+              "status": "unavailable",
+              "products": [],
+              "candidate_count": 0,
+              "elapsed_s": 0.0
+            }
+          ]
+        }
+      },
+      "49": {
+        "row_number": 49,
+        "name": "J0310-5545",
+        "ra": 47.7029,
+        "dec": -55.7534,
+        "fov_arcsec": 20,
+        "status": "ok",
+        "attempts": [
+          {
+            "provider": "HSC",
+            "status": "unavailable",
+            "reason": "flat or unusable central image",
+            "elapsed": 0.67
+          },
+          {
+            "provider": "DES",
+            "status": "accepted",
+            "elapsed": 22.22
+          }
+        ],
+        "updated_at": "2026-10-31T10:25:32.605922+00:00",
+        "source": "DES",
+        "source_label": "DES DR2",
+        "metadata": {
+          "label": "DES DR2",
+          "release": "DR2",
+          "bands": "GRI",
+          "urls": [
+            "https://datalab.noirlab.edu/sia/des_dr2?POS=47.7029%2C-55.7534&SIZE=0.005555555555555556&FORMAT=image%2Ffits",
+            "https://datalab.noirlab.edu/svc/cutout?col=des_dr2&siaRef=DES0311-5540_r4931p01_g.fits.fz&extn=1&POS=47.7029,-55.7534&SIZE=0.005555555555555556,0.005555555555555556",
+            "https://datalab.noirlab.edu/svc/cutout?col=des_dr2&siaRef=DES0311-5540_r4931p01_r.fits.fz&extn=1&POS=47.7029,-55.7534&SIZE=0.005555555555555556,0.005555555555555556",
+            "https://datalab.noirlab.edu/svc/cutout?col=des_dr2&siaRef=DES0311-5540_r4931p01_i.fits.fz&extn=1&POS=47.7029,-55.7534&SIZE=0.005555555555555556,0.005555555555555556"
+          ],
+          "rendering": "WCS alignment + shared-intensity asinh; north up, east left"
+        },
+        "quality": {
+          "valid_fraction": 0.9727325439453125,
+          "centre_valid_fraction": 1.0,
+          "std": 35.932382812642196,
+          "centre_std": 69.82480228510133,
+          "centre_range": 229.0
+        },
+        "image": "images/selected/row-49.jpg",
+        "thumbnail": "images/selected/row-49-thumb.jpg",
+        "higher_priority_errors": false,
+        "raw_sha256": "c2f4422d760aa67caf59d2c31d1fdc5653b7778449eefad989ad708af883bc51",
+        "space_search": {
+          "checked_at": "2026-11-01T08:58:51.179626+00:00",
+          "status": "no_usable_space_image",
+          "attempts": [
+            {
+              "provider": "HST",
+              "status": "unavailable",
+              "products": [],
+              "candidate_count": 0,
+              "elapsed_s": 0.0
+            },
+            {
+              "provider": "JWST",
+              "status": "unavailable",
+              "products": [],
+              "candidate_count": 0,
+              "elapsed_s": 0.0
+            },
+            {
+              "provider": "Euclid",
+              "status": "unavailable",
+              "products": [],
+              "candidate_count": 0,
+              "elapsed_s": 0.0
+            }
+          ]
+        }
+      },
+      "54": {
+        "row_number": 54,
+        "name": "J0346-6414",
+        "ra": 56.5579,
+        "dec": -64.2417,
+        "fov_arcsec": 20,
+        "status": "ok",
+        "attempts": [
+          {
+            "provider": "HSC",
+            "status": "unavailable",
+            "reason": "flat or unusable central image",
+            "elapsed": 0.62
+          },
+          {
+            "provider": "DES",
+            "status": "accepted",
+            "elapsed": 18.38
+          }
+        ],
+        "updated_at": "2026-10-31T10:25:55.501026+00:00",
+        "source": "DES",
+        "source_label": "DES DR2",
+        "metadata": {
+          "label": "DES DR2",
+          "release": "DR2",
+          "bands": "GRI",
+          "urls": [
+            "https://datalab.noirlab.edu/sia/des_dr2?POS=56.5579%2C-64.2417&SIZE=0.005555555555555556&FORMAT=image%2Ffits",
+            "https://datalab.noirlab.edu/svc/cutout?col=des_dr2&siaRef=DES0344-6414_r4931p01_g.fits.fz&extn=1&POS=56.5579,-64.2417&SIZE=0.005555555555555556,0.005555555555555556",
+            "https://datalab.noirlab.edu/svc/cutout?col=des_dr2&siaRef=DES0344-6414_r4931p01_r.fits.fz&extn=1&POS=56.5579,-64.2417&SIZE=0.005555555555555556,0.005555555555555556",
+            "https://datalab.noirlab.edu/svc/cutout?col=des_dr2&siaRef=DES0344-6414_r4931p01_i.fits.fz&extn=1&POS=56.5579,-64.2417&SIZE=0.005555555555555556,0.005555555555555556"
+          ],
+          "rendering": "WCS alignment + shared-intensity asinh; north up, east left"
+        },
+        "quality": {
+          "valid_fraction": 0.9721412658691406,
+          "centre_valid_fraction": 1.0,
+          "std": 28.651435969542508,
+          "centre_std": 63.792449941584216,
+          "centre_range": 233.0
+        },
+        "image": "images/selected/row-54.jpg",
+        "thumbnail": "images/selected/row-54-thumb.jpg",
+        "higher_priority_errors": false,
+        "raw_sha256": "ad7d88ee2b6f2c1546fd209d87326170f3c860cb9249cb4ccef1d74cfd3423a5",
+        "space_search": {
+          "checked_at": "2026-11-01T08:58:53.494190+00:00",
+          "status": "no_usable_space_image",
+          "attempts": [
+            {
+              "provider": "HST",
+              "status": "unavailable",
+              "products": [],
+              "candidate_count": 0,
+              "elapsed_s": 0.0
+            },
+            {
+              "provider": "JWST",
+              "status": "unavailable",
+              "products": [],
+              "candidate_count": 0,
+              "elapsed_s": 0.0
+            },
+            {
+              "provider": "Euclid",
+              "status": "unavailable",
+              "products": [],
+              "candidate_count": 0,
+              "elapsed_s": 0.0
+            }
+          ]
+        }
+      },
+      "56": {
+        "row_number": 56,
+        "name": "J0350-4611",
+        "ra": 57.7146,
+        "dec": -46.1858,
+        "fov_arcsec": 20,
+        "status": "ok",
+        "attempts": [
+          {
+            "provider": "HSC",
+            "status": "unavailable",
+            "reason": "flat or unusable central image",
+            "elapsed": 0.62
+          },
+          {
+            "provider": "DES",
+            "status": "accepted",
+            "elapsed": 23.44
+          }
+        ],
+        "updated_at": "2026-10-31T10:26:07.339228+00:00",
+        "source": "DES",
+        "source_label": "DES DR2",
+        "metadata": {
+          "label": "DES DR2",
+          "release": "DR2",
+          "bands": "GRI",
+          "urls": [
+            "https://datalab.noirlab.edu/sia/des_dr2?POS=57.7146%2C-46.1858&SIZE=0.005555555555555556&FORMAT=image%2Ffits",
+            "https://datalab.noirlab.edu/svc/cutout?col=des_dr2&siaRef=DES0351-4623_r4931p01_g.fits.fz&extn=1&POS=57.7146,-46.1858&SIZE=0.005555555555555556,0.005555555555555556",
+            "https://datalab.noirlab.edu/svc/cutout?col=des_dr2&siaRef=DES0351-4623_r4931p01_r.fits.fz&extn=1&POS=57.7146,-46.1858&SIZE=0.005555555555555556,0.005555555555555556",
+            "https://datalab.noirlab.edu/svc/cutout?col=des_dr2&siaRef=DES0351-4623_r4931p01_i.fits.fz&extn=1&POS=57.7146,-46.1858&SIZE=0.005555555555555556,0.005555555555555556"
+          ],
+          "rendering": "WCS alignment + shared-intensity asinh; north up, east left"
+        },
+        "quality": {
+          "valid_fraction": 0.9726829528808594,
+          "centre_valid_fraction": 1.0,
+          "std": 25.69236745397179,
+          "centre_std": 66.80469368860052,
+          "centre_range": 243.0
+        },
+        "image": "images/selected/row-56.jpg",
+        "thumbnail": "images/selected/row-56-thumb.jpg",
+        "higher_priority_errors": false,
+        "raw_sha256": "a14316580ca8ac54284d21f3d87e662f437c48273e56c882356f677182eac2cb",
+        "space_search": {
+          "checked_at": "2026-11-01T08:58:54.057248+00:00",
+          "status": "no_usable_space_image",
+          "attempts": [
+            {
+              "provider": "HST",
+              "status": "unavailable",
+              "products": [],
+              "candidate_count": 0,
+              "elapsed_s": 0.0
+            },
+            {
+              "provider": "JWST",
+              "status": "unavailable",
+              "products": [],
+              "candidate_count": 0,
+              "elapsed_s": 0.0
+            },
+            {
+              "provider": "Euclid",
+              "status": "unavailable",
+              "products": [],
+              "candidate_count": 0,
+              "elapsed_s": 1.63
+            }
+          ]
+        }
+      },
+      "57": {
+        "row_number": 57,
+        "name": "J0355-5624",
+        "ra": 58.804,
+        "dec": -56.4147,
+        "fov_arcsec": 20,
+        "status": "ok",
+        "attempts": [
+          {
+            "provider": "HSC",
+            "status": "unavailable",
+            "reason": "flat or unusable central image",
+            "elapsed": 0.62
+          },
+          {
+            "provider": "DES",
+            "status": "unavailable",
+            "reason": "DES SIA returned no observations",
+            "elapsed": 0.58
+          },
+          {
+            "provider": "Legacy Surveys",
+            "status": "accepted",
+            "elapsed": 1.49
+          }
+        ],
+        "updated_at": "2026-10-31T10:26:07.339029+00:00",
+        "source": "Legacy Surveys",
+        "source_label": "Legacy DR11",
+        "metadata": {
+          "urls": [
+            "https://www.legacysurvey.org/viewer/jpeg-cutout?ra=58.804&dec=-56.4147&layer=ls-dr11&pixscale=0.0390625&size=512&bands=grz"
+          ],
+          "layer": "ls-dr11",
+          "bands": "grz",
+          "label": "Legacy DR11",
+          "release": "DR11"
+        },
+        "quality": {
+          "valid_fraction": 1.0,
+          "centre_valid_fraction": 1.0,
+          "std": 20.82681928839121,
+          "centre_std": 55.00892527083019,
+          "centre_range": 236.0
+        },
+        "image": "images/selected/row-57.jpg",
+        "thumbnail": "images/selected/row-57-thumb.jpg",
+        "higher_priority_errors": false,
+        "raw_sha256": "a068c2c09142a8b4d249b0832e5b8edd48bf2dab0596c8ee2277ef081c5d0db7",
+        "space_search": {
+          "checked_at": "2026-11-01T08:58:54.272373+00:00",
+          "status": "no_usable_space_image",
+          "attempts": [
+            {
+              "provider": "HST",
+              "status": "unavailable",
+              "products": [],
+              "candidate_count": 0,
+              "elapsed_s": 0.0
+            },
+            {
+              "provider": "JWST",
+              "status": "unavailable",
+              "products": [],
+              "candidate_count": 0,
+              "elapsed_s": 0.0
+            },
+            {
+              "provider": "Euclid",
+              "status": "unavailable",
+              "products": [],
+              "candidate_count": 0,
+              "elapsed_s": 0.0
+            }
+          ]
+        }
+      },
+      "58": {
+        "row_number": 58,
+        "name": "J0401-2514",
+        "ra": 60.45041,
+        "dec": -25.2438,
+        "fov_arcsec": 20,
+        "status": "ok",
+        "attempts": [
+          {
+            "provider": "HSC",
+            "status": "unavailable",
+            "reason": "flat or unusable central image",
+            "elapsed": 0.62
+          },
+          {
+            "provider": "DES",
+            "status": "accepted",
+            "elapsed": 20.75
+          }
+        ],
+        "updated_at": "2026-10-31T10:26:10.021911+00:00",
+        "source": "DES",
+        "source_label": "DES DR2",
+        "metadata": {
+          "label": "DES DR2",
+          "release": "DR2",
+          "bands": "GRI",
+          "urls": [
+            "https://datalab.noirlab.edu/sia/des_dr2?POS=60.45041%2C-25.2438&SIZE=0.005555555555555556&FORMAT=image%2Ffits",
+            "https://datalab.noirlab.edu/svc/cutout?col=des_dr2&siaRef=DES0402-2458_r4931p01_g.fits.fz&extn=1&POS=60.45041,-25.2438&SIZE=0.005555555555555556,0.005555555555555556",
+            "https://datalab.noirlab.edu/svc/cutout?col=des_dr2&siaRef=DES0402-2458_r4931p01_r.fits.fz&extn=1&POS=60.45041,-25.2438&SIZE=0.005555555555555556,0.005555555555555556",
+            "https://datalab.noirlab.edu/svc/cutout?col=des_dr2&siaRef=DES0402-2458_r4931p01_i.fits.fz&extn=1&POS=60.45041,-25.2438&SIZE=0.005555555555555556,0.005555555555555556"
+          ],
+          "rendering": "WCS alignment + shared-intensity asinh; north up, east left"
+        },
+        "quality": {
+          "valid_fraction": 0.9726066589355469,
+          "centre_valid_fraction": 1.0,
+          "std": 26.10107459011815,
+          "centre_std": 63.77385666325876,
+          "centre_range": 232.0
+        },
+        "image": "images/selected/row-58.jpg",
+        "thumbnail": "images/selected/row-58-thumb.jpg",
+        "higher_priority_errors": false,
+        "raw_sha256": "f868abd4a176a3bb470d8f31639fd3038d5c2b30696e46d33b9ce48e01f2adbe",
+        "space_search": {
+          "checked_at": "2026-11-01T08:58:54.274736+00:00",
+          "status": "no_usable_space_image",
+          "attempts": [
+            {
+              "provider": "HST",
+              "status": "unavailable",
+              "products": [],
+              "candidate_count": 0,
+              "elapsed_s": 0.0
+            },
+            {
+              "provider": "JWST",
+              "status": "unavailable",
+              "products": [],
+              "candidate_count": 0,
+              "elapsed_s": 0.0
+            },
+            {
+              "provider": "Euclid",
+              "status": "unavailable",
+              "products": [],
+              "candidate_count": 0,
+              "elapsed_s": 0.0
+            }
+          ]
+        }
+      },
+      "59": {
+        "row_number": 59,
+        "name": "J0405-3730",
+        "ra": 61.2721,
+        "dec": -37.5128,
+        "fov_arcsec": 20,
+        "status": "ok",
+        "attempts": [
+          {
+            "provider": "HSC",
+            "status": "unavailable",
+            "reason": "flat or unusable central image",
+            "elapsed": 0.69
+          },
+          {
+            "provider": "DES",
+            "status": "accepted",
+            "elapsed": 22.78
+          }
+        ],
+        "updated_at": "2026-10-31T10:26:12.908141+00:00",
+        "source": "DES",
+        "source_label": "DES DR2",
+        "metadata": {
+          "label": "DES DR2",
+          "release": "DR2",
+          "bands": "GRI",
+          "urls": [
+            "https://datalab.noirlab.edu/sia/des_dr2?POS=61.2721%2C-37.5128&SIZE=0.005555555555555556&FORMAT=image%2Ffits",
+            "https://datalab.noirlab.edu/svc/cutout?col=des_dr2&siaRef=DES0405-3749_r4939p01_g.fits.fz&extn=1&POS=61.2721,-37.5128&SIZE=0.005555555555555556,0.005555555555555556",
+            "https://datalab.noirlab.edu/svc/cutout?col=des_dr2&siaRef=DES0405-3749_r4939p01_r.fits.fz&extn=1&POS=61.2721,-37.5128&SIZE=0.005555555555555556,0.005555555555555556",
+            "https://datalab.noirlab.edu/svc/cutout?col=des_dr2&siaRef=DES0405-3749_r4939p01_i.fits.fz&extn=1&POS=61.2721,-37.5128&SIZE=0.005555555555555556,0.005555555555555556"
+          ],
+          "rendering": "WCS alignment + shared-intensity asinh; north up, east left"
+        },
+        "quality": {
+          "valid_fraction": 0.9725532531738281,
+          "centre_valid_fraction": 1.0,
+          "std": 35.960514713573396,
+          "centre_std": 71.03877394491853,
+          "centre_range": 235.0
+        },
+        "image": "images/selected/row-59.jpg",
+        "thumbnail": "images/selected/row-59-thumb.jpg",
+        "higher_priority_errors": false,
+        "raw_sha256": "93c652f165c4e20598c9cc4a1aef1e14d18494f0cc5b4101d50994e84a092ccd",
+        "space_search": {
+          "checked_at": "2026-11-01T08:58:54.276955+00:00",
+          "status": "no_usable_space_image",
+          "attempts": [
+            {
+              "provider": "HST",
+              "status": "unavailable",
+              "products": [],
+              "candidate_count": 0,
+              "elapsed_s": 0.0
+            },
+            {
+              "provider": "JWST",
+              "status": "unavailable",
+              "products": [],
+              "candidate_count": 0,
+              "elapsed_s": 0.0
+            },
+            {
+              "provider": "Euclid",
+              "status": "unavailable",
+              "products": [],
+              "candidate_count": 0,
+              "elapsed_s": 0.0
+            }
+          ]
+        }
+      },
+      "62": {
+        "row_number": 62,
+        "name": "DESJ0407-1931",
+        "ra": 61.9741,
+        "dec": -19.5225,
+        "fov_arcsec": 20,
+        "status": "ok",
+        "attempts": [
+          {
+            "provider": "HSC",
+            "status": "unavailable",
+            "reason": "flat or unusable central image",
+            "elapsed": 0.87
+          },
+          {
+            "provider": "DES",
+            "status": "accepted",
+            "elapsed": 24.27
+          }
+        ],
+        "updated_at": "2026-10-31T10:26:18.492393+00:00",
+        "source": "DES",
+        "source_label": "DES DR2",
+        "metadata": {
+          "label": "DES DR2",
+          "release": "DR2",
+          "bands": "GRI",
+          "urls": [
+            "https://datalab.noirlab.edu/sia/des_dr2?POS=61.9741%2C-19.5225&SIZE=0.005555555555555556&FORMAT=image%2Ffits",
+            "https://datalab.noirlab.edu/svc/cutout?col=des_dr2&siaRef=DES0406-1915_r4939p01_g.fits.fz&extn=1&POS=61.9741,-19.5225&SIZE=0.005555555555555556,0.005555555555555556",
+            "https://datalab.noirlab.edu/svc/cutout?col=des_dr2&siaRef=DES0406-1915_r4939p01_r.fits.fz&extn=1&POS=61.9741,-19.5225&SIZE=0.005555555555555556,0.005555555555555556",
+            "https://datalab.noirlab.edu/svc/cutout?col=des_dr2&siaRef=DES0406-1915_r4939p01_i.fits.fz&extn=1&POS=61.9741,-19.5225&SIZE=0.005555555555555556,0.005555555555555556"
+          ],
+          "rendering": "WCS alignment + shared-intensity asinh; north up, east left"
+        },
+        "quality": {
+          "valid_fraction": 0.9725685119628906,
+          "centre_valid_fraction": 1.0,
+          "std": 31.6029234944966,
+          "centre_std": 67.34663232995163,
+          "centre_range": 233.0
+        },
+        "image": "images/selected/row-62.jpg",
+        "thumbnail": "images/selected/row-62-thumb.jpg",
+        "higher_priority_errors": false,
+        "raw_sha256": "e94b6b17eba53775ef40f43ce5b1637184842c9126ebf28c969a7d4e779f3ef3",
+        "space_search": {
+          "checked_at": "2026-11-01T08:58:56.124859+00:00",
+          "status": "no_usable_space_image",
+          "attempts": [
+            {
+              "provider": "HST",
+              "status": "unavailable",
+              "products": [],
+              "candidate_count": 0,
+              "elapsed_s": 0.0
+            },
+            {
+              "provider": "JWST",
+              "status": "unavailable",
+              "products": [],
+              "candidate_count": 0,
+              "elapsed_s": 0.0
+            },
+            {
+              "provider": "Euclid",
+              "status": "unavailable",
+              "products": [],
+              "candidate_count": 0,
+              "elapsed_s": 0.0
+            }
+          ]
+        }
+      },
+      "65": {
+        "row_number": 65,
+        "name": "J0416-5606",
+        "ra": 64.1783,
+        "dec": -56.1073,
+        "fov_arcsec": 20,
+        "status": "ok",
+        "attempts": [
+          {
+            "provider": "HSC",
+            "status": "unavailable",
+            "reason": "flat or unusable central image",
+            "elapsed": 0.67
+          },
+          {
+            "provider": "DES",
+            "status": "unavailable",
+            "reason": "DES SIA returned no observations",
+            "elapsed": 0.6
+          },
+          {
+            "provider": "Legacy Surveys",
+            "status": "accepted",
+            "elapsed": 1.57
+          }
+        ],
+        "updated_at": "2026-10-31T10:26:31.400347+00:00",
+        "source": "Legacy Surveys",
+        "source_label": "Legacy DR11",
+        "metadata": {
+          "urls": [
+            "https://www.legacysurvey.org/viewer/jpeg-cutout?ra=64.1783&dec=-56.1073&layer=ls-dr11&pixscale=0.0390625&size=512&bands=grz"
+          ],
+          "layer": "ls-dr11",
+          "bands": "grz",
+          "label": "Legacy DR11",
+          "release": "DR11"
+        },
+        "quality": {
+          "valid_fraction": 1.0,
+          "centre_valid_fraction": 1.0,
+          "std": 28.278790668174555,
+          "centre_std": 57.73743037242122,
+          "centre_range": 238.0
+        },
+        "image": "images/selected/row-65.jpg",
+        "thumbnail": "images/selected/row-65-thumb.jpg",
+        "higher_priority_errors": false,
+        "raw_sha256": "64d88694acce8290c550ec346957b6c508c37457d46078f6303349ccbc1f14e2",
+        "space_search": {
+          "checked_at": "2026-11-01T08:58:58.666167+00:00",
+          "status": "no_usable_space_image",
+          "attempts": [
+            {
+              "provider": "HST",
+              "status": "unavailable",
+              "products": [],
+              "candidate_count": 0,
+              "elapsed_s": 0.0
+            },
+            {
+              "provider": "JWST",
+              "status": "unavailable",
+              "products": [],
+              "candidate_count": 0,
+              "elapsed_s": 0.0
+            },
+            {
+              "provider": "Euclid",
+              "status": "unavailable",
+              "products": [],
+              "candidate_count": 0,
+              "elapsed_s": 0.0
+            }
+          ]
+        }
+      },
+      "75": {
+        "row_number": 75,
+        "name": "DESJ0501-4118",
+        "ra": 75.4413,
+        "dec": -41.3003,
+        "fov_arcsec": 20,
+        "status": "ok",
+        "attempts": [
+          {
+            "provider": "HSC",
+            "status": "unavailable",
+            "reason": "flat or unusable central image",
+            "elapsed": 0.62
+          },
+          {
+            "provider": "DES",
+            "status": "unavailable",
+            "reason": "DES SIA returned no observations",
+            "elapsed": 0.56
+          },
+          {
+            "provider": "Legacy Surveys",
+            "status": "accepted",
+            "elapsed": 3.03
+          }
+        ],
+        "updated_at": "2026-10-31T10:26:44.040369+00:00",
+        "source": "Legacy Surveys",
+        "source_label": "Legacy DR11",
+        "metadata": {
+          "urls": [
+            "https://www.legacysurvey.org/viewer/jpeg-cutout?ra=75.4413&dec=-41.3003&layer=ls-dr11&pixscale=0.0390625&size=512&bands=grz"
+          ],
+          "layer": "ls-dr11",
+          "bands": "grz",
+          "label": "Legacy DR11",
+          "release": "DR11"
+        },
+        "quality": {
+          "valid_fraction": 1.0,
+          "centre_valid_fraction": 1.0,
+          "std": 37.93315425868254,
+          "centre_std": 57.699972702872714,
+          "centre_range": 214.0
+        },
+        "image": "images/selected/row-75.jpg",
+        "thumbnail": "images/selected/row-75-thumb.jpg",
+        "higher_priority_errors": false,
+        "raw_sha256": "a6176a8f0c7588e585fe8facde1008923532ec711be13c5b51196560e2f6aeee",
+        "space_search": {
+          "checked_at": "2026-11-01T08:59:04.671476+00:00",
+          "status": "no_usable_space_image",
+          "attempts": [
+            {
+              "provider": "HST",
+              "status": "unavailable",
+              "products": [],
+              "candidate_count": 0,
+              "elapsed_s": 0.0
+            },
+            {
+              "provider": "JWST",
+              "status": "unavailable",
+              "products": [],
+              "candidate_count": 0,
+              "elapsed_s": 0.0
+            },
+            {
+              "provider": "Euclid",
+              "status": "unavailable",
+              "products": [],
+              "candidate_count": 0,
+              "elapsed_s": 0.0
+            }
+          ]
+        }
+      },
+      "229": {
+        "row_number": 229,
+        "name": "SDSSJ1524+4409",
+        "ra": 231.1901,
+        "dec": 44.16377,
+        "fov_arcsec": 20,
+        "status": "ok",
+        "attempts": [
+          {
+            "provider": "HSC",
+            "status": "accepted",
+            "elapsed": 6.52
+          }
+        ],
+        "updated_at": "2026-10-31T10:52:57.019138+00:00",
+        "source": "HSC",
+        "source_label": "HSC PDR3",
+        "metadata": {
+          "urls": [
+            "https://www.legacysurvey.org/viewer/jpeg-cutout?ra=231.1901&dec=44.16377&layer=hsc-dr3&pixscale=0.0390625&size=512&bands=grz"
+          ],
+          "layer": "hsc-dr3",
+          "bands": "grz",
+          "label": "HSC PDR3",
+          "release": "PDR3"
+        },
+        "quality": {
+          "valid_fraction": 0.9999885559082031,
+          "centre_valid_fraction": 1.0,
+          "std": 37.59502782763756,
+          "centre_std": 64.16120542507417,
+          "centre_range": 235.0
+        },
+        "image": "images/selected/row-229.jpg",
+        "thumbnail": "images/selected/row-229-thumb.jpg",
+        "higher_priority_errors": false,
+        "raw_sha256": "daf1fbcee03d75db126993a3ec44f41a8d828ecbc92e7c0bafee539d653c0f3c",
+        "space_search": {
+          "checked_at": "2026-11-01T09:01:50.346840+00:00",
+          "status": "no_usable_space_image",
+          "attempts": [
+            {
+              "provider": "HST",
+              "status": "unavailable",
+              "products": [],
+              "candidate_count": 0,
+              "elapsed_s": 0.0
+            },
+            {
+              "provider": "JWST",
+              "status": "unavailable",
+              "products": [],
+              "candidate_count": 0,
+              "elapsed_s": 0.0
+            },
+            {
+              "provider": "Euclid",
+              "status": "unavailable",
+              "products": [],
+              "candidate_count": 0,
+              "elapsed_s": 0.0
+            }
+          ]
+        }
+      },
+      "335": {
+        "row_number": 335,
+        "name": "J0317–5604",
+        "ra": 49.429208,
+        "dec": -56.08185,
+        "fov_arcsec": 20,
+        "status": "ok",
+        "attempts": [
+          {
+            "provider": "HSC",
+            "status": "unavailable",
+            "reason": "flat or unusable central image",
+            "elapsed": 3.56
+          },
+          {
+            "provider": "DES",
+            "status": "accepted",
+            "elapsed": 22.28
+          }
+        ],
+        "updated_at": "2026-10-31T10:47:44.142842+00:00",
+        "source": "DES",
+        "source_label": "DES DR2",
+        "metadata": {
+          "label": "DES DR2",
+          "release": "DR2",
+          "bands": "GRI",
+          "urls": [
+            "https://datalab.noirlab.edu/sia/des_dr2?POS=49.429208%2C-56.08185&SIZE=0.005555555555555556&FORMAT=image%2Ffits",
+            "https://datalab.noirlab.edu/svc/cutout?col=des_dr2&siaRef=DES0316-5622_r4931p02_g.fits.fz&extn=1&POS=49.429208,-56.08185&SIZE=0.005555555555555556,0.005555555555555556",
+            "https://datalab.noirlab.edu/svc/cutout?col=des_dr2&siaRef=DES0316-5622_r4931p02_r.fits.fz&extn=1&POS=49.429208,-56.08185&SIZE=0.005555555555555556,0.005555555555555556",
+            "https://datalab.noirlab.edu/svc/cutout?col=des_dr2&siaRef=DES0316-5622_r4931p02_i.fits.fz&extn=1&POS=49.429208,-56.08185&SIZE=0.005555555555555556,0.005555555555555556"
+          ],
+          "rendering": "WCS alignment + shared-intensity asinh; north up, east left"
+        },
+        "quality": {
+          "valid_fraction": 0.9725875854492188,
+          "centre_valid_fraction": 1.0,
+          "std": 31.039264153724115,
+          "centre_std": 75.5164098699823,
+          "centre_range": 245.0
+        },
+        "image": "images/selected/row-335.jpg",
+        "thumbnail": "images/selected/row-335-thumb.jpg",
+        "higher_priority_errors": false,
+        "raw_sha256": "a979cc24a4534e1b11633dc0297fdc73df08c30facdade1c8ba2ac71bffd14cd",
+        "space_search": {
+          "checked_at": "2026-11-01T09:03:57.825013+00:00",
+          "status": "no_usable_space_image",
+          "attempts": [
+            {
+              "provider": "HST",
+              "status": "unavailable",
+              "products": [],
+              "candidate_count": 0,
+              "elapsed_s": 0.0
+            },
+            {
+              "provider": "JWST",
+              "status": "unavailable",
+              "products": [],
+              "candidate_count": 0,
+              "elapsed_s": 0.0
+            },
+            {
+              "provider": "Euclid",
+              "status": "unavailable",
+              "products": [],
+              "candidate_count": 0,
+              "elapsed_s": 0.0
+            }
+          ]
+        }
+      },
+      "336": {
+        "row_number": 336,
+        "name": "J0404–2836",
+        "ra": 61.192208,
+        "dec": -28.608222,
+        "fov_arcsec": 20,
+        "status": "ok",
+        "attempts": [
+          {
+            "provider": "HSC",
+            "status": "unavailable",
+            "reason": "flat or unusable central image",
+            "elapsed": 2.19
+          },
+          {
+            "provider": "DES",
+            "status": "accepted",
+            "elapsed": 16.09
+          }
+        ],
+        "updated_at": "2026-10-31T10:47:47.680374+00:00",
+        "source": "DES",
+        "source_label": "DES DR2",
+        "metadata": {
+          "label": "DES DR2",
+          "release": "DR2",
+          "bands": "GRI",
+          "urls": [
+            "https://datalab.noirlab.edu/sia/des_dr2?POS=61.192208%2C-28.608222&SIZE=0.005555555555555556&FORMAT=image%2Ffits",
+            "https://datalab.noirlab.edu/svc/cutout?col=des_dr2&siaRef=DES0405-2832_r4939p01_g.fits.fz&extn=1&POS=61.192208,-28.608222&SIZE=0.005555555555555556,0.005555555555555556",
+            "https://datalab.noirlab.edu/svc/cutout?col=des_dr2&siaRef=DES0405-2832_r4939p01_r.fits.fz&extn=1&POS=61.192208,-28.608222&SIZE=0.005555555555555556,0.005555555555555556",
+            "https://datalab.noirlab.edu/svc/cutout?col=des_dr2&siaRef=DES0405-2832_r4939p01_i.fits.fz&extn=1&POS=61.192208,-28.608222&SIZE=0.005555555555555556,0.005555555555555556"
+          ],
+          "rendering": "WCS alignment + shared-intensity asinh; north up, east left"
+        },
+        "quality": {
+          "valid_fraction": 0.9726066589355469,
+          "centre_valid_fraction": 1.0,
+          "std": 30.007229044175283,
+          "centre_std": 76.50502290157661,
+          "centre_range": 243.0
+        },
+        "image": "images/selected/row-336.jpg",
+        "thumbnail": "images/selected/row-336-thumb.jpg",
+        "higher_priority_errors": false,
+        "raw_sha256": "680ec94a90742cdddd91ae72bdb6a7878981a9d157ffb0dd0fc1b1669a540bde",
+        "space_search": {
+          "checked_at": "2026-11-01T09:03:57.826758+00:00",
+          "status": "no_usable_space_image",
+          "attempts": [
+            {
+              "provider": "HST",
+              "status": "unavailable",
+              "products": [],
+              "candidate_count": 0,
+              "elapsed_s": 0.0
+            },
+            {
+              "provider": "JWST",
+              "status": "unavailable",
+              "products": [],
+              "candidate_count": 0,
+              "elapsed_s": 0.0
+            },
+            {
+              "provider": "Euclid",
+              "status": "unavailable",
+              "products": [],
+              "candidate_count": 0,
+              "elapsed_s": 0.0
+            }
+          ]
+        }
+      },
+      "337": {
+        "row_number": 337,
+        "name": "J0551–4629",
+        "ra": 87.949333,
+        "dec": -46.498167,
+        "fov_arcsec": 20,
+        "status": "ok",
+        "attempts": [
+          {
+            "provider": "HSC",
+            "status": "unavailable",
+            "reason": "flat or unusable central image",
+            "elapsed": 1.63
+          },
+          {
+            "provider": "DES",
+            "status": "accepted",
+            "elapsed": 19.05
+          }
+        ],
+        "updated_at": "2026-10-31T10:47:49.752327+00:00",
+        "source": "DES",
+        "source_label": "DES DR2",
+        "metadata": {
+          "label": "DES DR2",
+          "release": "DR2",
+          "bands": "GRI",
+          "urls": [
+            "https://datalab.noirlab.edu/sia/des_dr2?POS=87.949333%2C-46.498167&SIZE=0.005555555555555556&FORMAT=image%2Ffits",
+            "https://datalab.noirlab.edu/svc/cutout?col=des_dr2&siaRef=DES0551-4623_r4939p01_g.fits.fz&extn=1&POS=87.949333,-46.498167&SIZE=0.005555555555555556,0.005555555555555556",
+            "https://datalab.noirlab.edu/svc/cutout?col=des_dr2&siaRef=DES0551-4623_r4939p01_r.fits.fz&extn=1&POS=87.949333,-46.498167&SIZE=0.005555555555555556,0.005555555555555556",
+            "https://datalab.noirlab.edu/svc/cutout?col=des_dr2&siaRef=DES0551-4623_r4939p01_i.fits.fz&extn=1&POS=87.949333,-46.498167&SIZE=0.005555555555555556,0.005555555555555556"
+          ],
+          "rendering": "WCS alignment + shared-intensity asinh; north up, east left"
+        },
+        "quality": {
+          "valid_fraction": 0.9726219177246094,
+          "centre_valid_fraction": 1.0,
+          "std": 27.583646177349394,
+          "centre_std": 66.62547553903214,
+          "centre_range": 236.0
+        },
+        "image": "images/selected/row-337.jpg",
+        "thumbnail": "images/selected/row-337-thumb.jpg",
+        "higher_priority_errors": false,
+        "raw_sha256": "6ebfbd748125521284175b6d9be8fdef4c3c8557ef95c3140e421caf9910013d",
+        "space_search": {
+          "checked_at": "2026-11-01T09:03:57.828571+00:00",
+          "status": "no_usable_space_image",
+          "attempts": [
+            {
+              "provider": "HST",
+              "status": "unavailable",
+              "products": [],
+              "candidate_count": 0,
+              "elapsed_s": 0.0
+            },
+            {
+              "provider": "JWST",
+              "status": "unavailable",
+              "products": [],
+              "candidate_count": 0,
+              "elapsed_s": 0.0
+            },
+            {
+              "provider": "Euclid",
+              "status": "unavailable",
+              "products": [],
+              "candidate_count": 0,
+              "elapsed_s": 0.0
+            }
+          ]
+        }
+      },
+      "362": {
+        "row_number": 362,
+        "catalog_id": 361,
+        "name": "J0602-3852",
+        "ra": 90.54858333333334,
+        "dec": -38.87031944444445,
+        "checked_at": "2026-11-01T18:34:31.490168+00:00",
+        "status": "ok",
+        "source": "DES",
+        "source_label": "DES DR2",
+        "selection_mode": "survey_rgb",
+        "fov_arcsec": 20,
+        "metadata": {
+          "label": "DES DR2",
+          "release": "DR2",
+          "bands": "GRI",
+          "urls": [
+            "https://datalab.noirlab.edu/sia/des_dr2?POS=90.54858333333334%2C-38.87031944444445&SIZE=0.005555555555555556&FORMAT=image%2Ffits",
+            "https://datalab.noirlab.edu/svc/cutout?col=des_dr2&siaRef=DES0600-3832_r4939p01_g.fits.fz&extn=1&POS=90.54858333333334,-38.87031944444445&SIZE=0.005555555555555556,0.005555555555555556",
+            "https://datalab.noirlab.edu/svc/cutout?col=des_dr2&siaRef=DES0600-3832_r4939p01_r.fits.fz&extn=1&POS=90.54858333333334,-38.87031944444445&SIZE=0.005555555555555556,0.005555555555555556",
+            "https://datalab.noirlab.edu/svc/cutout?col=des_dr2&siaRef=DES0600-3832_r4939p01_i.fits.fz&extn=1&POS=90.54858333333334,-38.87031944444445&SIZE=0.005555555555555556,0.005555555555555556"
+          ],
+          "rendering": "WCS alignment + shared-intensity asinh; north up, east left"
+        },
+        "quality": {
+          "valid_fraction": 0.9715003967285156,
+          "centre_valid_fraction": 1.0,
+          "std": 39.773894819972035,
+          "centre_std": 75.0639599238075,
+          "centre_range": 253.0
+        },
+        "image": "images/refresh-20261102/surveys/id-361-DES.jpg",
+        "thumbnail": "images/style-v1/id-361-thumb.jpg",
+        "sha256": "6cffab282c51172ae9eca386ea71e414409d2f51987ed4d4ac70a6e68cd24ea0",
+        "selection_reason": "First usable survey/archive in HST > JWST > Euclid > HSC > DES > Legacy Surveys > Pan-STARRS > SDSS order. Paper images are separate.",
+        "thumbnail_sha256": "26c362fee166e8319b08b3a29895557b5627a042e78e2d1a7eeecfaeec3cb2fb",
+        "presentation_style": {
+          "version": "catalogue-label-v1",
+          "config_sha256": "cd24820cab36abb5f8b47bb506104687b8c587279d779083e55c4c26dadec543",
+          "font_sha256": "525979822591a3447cfc49d943d6f7683508e25543407871c0ed8fed05fd2bd9",
+          "renderer_sha256": "8d03ab4d367947db2aa35eb40ca31a483595817fcf96b948c86568ddb21e3456"
+        },
+        "raw_sha256": "9d5b611ca35eaeb6eb303af001c2bba71822e427ce3bf97c1501757a597b67d5"
+      }
+    }
   }
 }

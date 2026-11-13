@@ -200,9 +200,9 @@ async function init() {
   try {
     const response = await fetch('data/catalog.json?v=literature-20261109-b5ee7957c9ef'); if(!response.ok)throw new Error(`HTTP ${response.status}`);
     const data = await response.json(); state.records=data.records;state.columns=data.meta.columns;
-    const imagesResponse = await fetch('data/selected_images.json?v=quality-review-20261105-row342');
+    const imagesResponse = await fetch('data/selected_images.json?v=afb905943bcf73e5');
     if(imagesResponse.ok)state.selectedImages=(await imagesResponse.json()).records;
-    const papersResponse = await fetch('data/images.json?v=images-20261102-d662d72544bb');
+    const papersResponse = await fetch('data/images.json?v=60e640932de0c3fa');
     if (papersResponse.ok) {
       imageManifest = await papersResponse.json();
       for (const [row, entries] of Object.entries(imageManifest.records)) {
