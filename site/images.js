@@ -51,7 +51,7 @@ async function showCatalogImages(record, selected) {
       img.src=entry.path;img.alt=`${record.name}, ${label}`;
       img.loading='lazy';img.width=entry.width;img.height=entry.height;
       caption.textContent=entry.reference?`${label} · ${entry.reference}`:`${label} · Original workbook cell ${entry.anchor_cell}`;
-      if(entry.reference_url){const source=document.createElement('a');source.href=entry.reference_url;source.target='_blank';source.rel='noopener noreferrer';source.textContent=' Paper';caption.append(source);}
+      if(entry.reference_url){const source=document.createElement('a');source.href=entry.reference_url;source.target='_blank';source.rel='noopener noreferrer';source.textContent=entry.source_column==='paper image'?' Paper':' Source';caption.append(source);}
       link.append(img);figure.append(link,caption);container.append(figure);
     }
     if(!entries.length)container.textContent='No workbook images available for this record.';
